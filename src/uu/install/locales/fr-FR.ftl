@@ -21,21 +21,21 @@ install-help-context = définir le contexte de sécurité des fichiers et réper
 
 # Messages d'erreur
 install-error-dir-needs-arg = { $util_name } avec -d nécessite au moins un argument.
-install-error-create-dir-failed = échec de la création de { $path }
-install-error-chmod-failed = échec du chmod { $path }
-install-error-chmod-failed-detailed = { $path } : échec du chmod avec l'erreur { $error }
-install-error-chown-failed = échec du chown { $path } : { $error }
+install-error-create-dir-failed = impossible de créer { $path }
+install-error-chmod-failed = impossible de chmod { $path }
+install-error-chmod-failed-detailed = { $path } : impossible de chmod avec l'erreur { $error }
+install-error-chown-failed = impossible de chown { $path } : { $error }
 install-error-invalid-target = cible invalide { $path } : Aucun fichier ou répertoire de ce type
 install-error-target-not-dir = la cible { $path } n'est pas un répertoire
 install-error-backup-failed = impossible de sauvegarder { $from } vers { $to }
 install-error-install-failed = impossible d'installer { $from } vers { $to }
-install-error-strip-failed = échec du programme strip : { $error }
+install-error-strip-failed = impossible d'exécuter le programme strip : { $error }
 install-error-strip-abnormal = le processus strip s'est terminé anormalement - code de sortie : { $code }
 install-error-metadata-failed = erreur de métadonnées
 install-error-invalid-user = utilisateur invalide : { $user }
 install-error-invalid-group = groupe invalide : { $group }
 install-error-omitting-directory = omission du répertoire { $path }
-install-error-not-a-directory = échec de l'accès à { $path } : N'est pas un répertoire
+install-error-not-a-directory = impossible d'accéder à { $path } : N'est pas un répertoire
 install-error-override-directory-failed = impossible d'écraser le répertoire { $dir } avec un non-répertoire { $file }
 install-error-same-file = '{ $file1 }' et '{ $file2 }' sont le même fichier
 install-error-extra-operand = opérande supplémentaire { $operand }
@@ -46,7 +46,7 @@ install-error-mutually-exclusive-compare-preserve = Les options --compare et --p
 install-error-mutually-exclusive-compare-strip = Les options --compare et --strip sont mutuellement exclusives
 install-error-missing-file-operand = opérande de fichier manquant
 install-error-missing-destination-operand = opérande de fichier de destination manquant après '{ $path }'
-install-error-failed-to-remove = Échec de la suppression du fichier existant { $path }. Erreur : { $error }
+install-error-failed-to-remove = Impossible de supprimer le fichier existant { $path }. Erreur : { $error }
 
 # Sortie détaillée
 install-verbose-creating-directory = création du répertoire { $path }

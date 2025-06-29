@@ -16,10 +16,10 @@ shuf-help-zero-terminated = le délimiteur de ligne est NUL, pas nouvelle ligne
 
 # Messages d'erreur
 shuf-error-unexpected-argument = argument inattendu { $arg } trouvé
-shuf-error-failed-to-open-for-writing = échec de l'ouverture de { $file } en écriture
-shuf-error-failed-to-open-random-source = échec de l'ouverture de la source aléatoire { $file }
+shuf-error-failed-to-open-for-writing = impossible d'ouvrir { $file } en écriture
+shuf-error-failed-to-open-random-source = impossible d'ouvrir la source aléatoire { $file }
 shuf-error-read-error = erreur de lecture
 shuf-error-no-lines-to-repeat = aucune ligne à répéter
 shuf-error-start-exceeds-end = le début dépasse la fin
 shuf-error-missing-dash = '-' manquant
-shuf-error-write-failed = échec de l'écriture
+shuf-error-write-failed = impossible d'écrire

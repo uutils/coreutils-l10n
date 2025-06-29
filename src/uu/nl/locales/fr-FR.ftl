@@ -15,7 +15,7 @@ nl-after-help = STYLE est l'un des suivants :
   - rz justifié à droite, avec zéros en tête
 
 # Messages d'aide
-nl-help-help = Afficher les informations d'aide.
+nl-help-help = afficher les informations d'aide.
 nl-help-body-numbering = utiliser STYLE pour numéroter les lignes du corps
 nl-help-section-delimiter = utiliser CC pour séparer les pages logiques
 nl-help-footer-numbering = utiliser STYLE pour numéroter les lignes de pied de page

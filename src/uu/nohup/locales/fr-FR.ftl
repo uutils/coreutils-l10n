@@ -9,8 +9,8 @@ nohup-after-help = Si l'entrée standard est un terminal, elle sera remplacée p
 # Messages d'erreur
 nohup-error-cannot-detach = Impossible de se détacher de la console
 nohup-error-cannot-replace = Impossible de remplacer { $name } : { $err }
-nohup-error-open-failed = échec de l'ouverture de { $path } : { $err }
-nohup-error-open-failed-both = échec de l'ouverture de { $first_path } : { $first_err }\néchec de l'ouverture de { $second_path } : { $second_err }
+nohup-error-open-failed = impossible d'ouvrir { $path } : { $err }
+nohup-error-open-failed-both = impossible d'ouvrir { $first_path } : { $first_err }\nimpossible d'ouvrir { $second_path } : { $second_err }
 
 # Messages de statut
 nohup-ignoring-input-appending-output = entrée ignorée et sortie ajoutée à { $path }

@@ -3,7 +3,7 @@ tee-usage = tee [OPTION]... [FICHIER]...
 tee-after-help = Si un FICHIER est -, il fait référence à un fichier nommé - .
 
 # Messages d'aide
-tee-help-help = Afficher l'aide
+tee-help-help = afficher l'aide
 tee-help-append = ajouter aux FICHIERs donnés, ne pas écraser
 tee-help-ignore-interrupts = ignorer les signaux d'interruption (ignoré sur les plateformes non-Unix)
 tee-help-ignore-pipe-errors = définir le comportement d'erreur d'écriture (ignoré sur les plateformes non-Unix)

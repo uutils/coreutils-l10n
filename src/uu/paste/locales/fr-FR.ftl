@@ -9,4 +9,4 @@ paste-help-zero-terminated = le délimiteur de ligne est NUL, pas une nouvelle l
 
 # Messages d'erreur
 paste-error-delimiter-unescaped-backslash = la liste de délimiteurs se termine par une barre oblique inverse non échappée : { $delimiters }
-paste-error-stdin-borrow = échec de l'accès à l'entrée standard : { $error }
+paste-error-stdin-borrow = impossible d'accéder à l'entrée standard : { $error }

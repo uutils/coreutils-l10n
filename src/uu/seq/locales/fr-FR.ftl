@@ -4,9 +4,9 @@ seq-usage = seq [OPTION]... DERNIER
   seq [OPTION]... PREMIER INCRÉMENT DERNIER
 
 # Messages d'aide
-seq-help-separator = Caractère séparateur (par défaut \n)
-seq-help-terminator = Caractère terminateur (par défaut \n)
-seq-help-equal-width = Égaliser les largeurs de tous les nombres en remplissant avec des zéros
+seq-help-separator = caractère séparateur (par défaut \n)
+seq-help-terminator = caractère terminateur (par défaut \n)
+seq-help-equal-width = égaliser les largeurs de tous les nombres en remplissant avec des zéros
 seq-help-format = utiliser le FORMAT de nombre à virgule flottante de style printf
 
 # Messages d'erreur

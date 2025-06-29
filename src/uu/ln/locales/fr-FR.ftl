@@ -34,6 +34,6 @@ ln-error-cannot-stat = impossible d'analyser {$path} : Aucun fichier ou réperto
 ln-error-will-not-overwrite = ne remplacera pas le fichier « {$target} » qui vient d'être créé par « {$source} »
 ln-prompt-replace = remplacer {$file} ?
 ln-cannot-backup = impossible de sauvegarder {$file}
-ln-failed-to-access = échec d'accès à {$file}
-ln-failed-to-create-hard-link = échec de création du lien physique {$source} => {$dest}
+ln-failed-to-access = impossible d'accéder à {$file}
+ln-failed-to-create-hard-link = impossible de créer le lien physique {$source} => {$dest}
 ln-backup = sauvegarde : {$backup}

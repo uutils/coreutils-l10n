@@ -21,8 +21,8 @@ wc-error-zero-length-filename = nom de fichier de longueur nulle invalide
 wc-error-zero-length-filename-ctx = { $path }:{ $idx } : nom de fichier de longueur nulle invalide
 wc-error-cannot-open-for-reading = impossible d'ouvrir { $path } en lecture
 wc-error-read-error = { $path } : erreur de lecture
-wc-error-failed-to-print-result = échec de l'affichage du résultat pour { $title }
-wc-error-failed-to-print-total = échec de l'affichage du total
+wc-error-failed-to-print-result = impossible d'afficher le résultat pour { $title }
+wc-error-failed-to-print-total = impossible d'afficher le total
 
 # Messages d'erreur du décodeur
 decoder-error-invalid-byte-sequence = séquence d'octets invalide : { $bytes }

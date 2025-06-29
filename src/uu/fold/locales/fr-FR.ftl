@@ -4,4 +4,4 @@ fold-bytes-help = compter en octets plutôt qu'en colonnes (les caractères de c
 fold-spaces-help = couper les lignes aux limites de mots plutôt qu'à une largeur fixe
 fold-width-help = définir WIDTH comme largeur de ligne maximale au lieu de 80
 fold-error-illegal-width = valeur de largeur illégale
-fold-error-readline = échec de lecture de la ligne
+fold-error-readline = impossible de lire la ligne

@@ -9,9 +9,9 @@ pr-after-help =
 pr-usage = pr [OPTION]... [FICHIER]...
 
 # Messages d'aide
-pr-help-pages = Commencer et arrêter l'impression à la page PREMIÈRE_PAGE[:DERNIÈRE_PAGE]
+pr-help-pages = commencer et arrêter l'impression à la page PREMIÈRE_PAGE[:DERNIÈRE_PAGE]
 pr-help-header =
-  Utiliser la chaîne d'en-tête pour remplacer le nom de fichier
+  Utiliser la chaîne d'en-tête pour remplacer le nom de FICHIER
                   dans la ligne d'en-tête.
 pr-help-double-space =
   Produire une sortie avec double espacement. Un caractère <saut de ligne>
@@ -28,7 +28,7 @@ pr-help-first-line-number = commencer le comptage avec NUMÉRO à la 1ère ligne
 pr-help-omit-header =
   N'écrire ni l'en-tête d'identification de cinq lignes ni le pied de page
                   de cinq lignes habituellement fournis pour chaque page. Arrêter l'écriture
-                  après la dernière ligne de chaque fichier sans espacement jusqu'à la fin de la page.
+                  après la dernière ligne de chaque FICHIER sans espacement jusqu'à la fin de la page.
 pr-help-page-length =
   Remplacer la valeur par défaut de 66 lignes (nombre par défaut de lignes de texte 56,
                   et avec -F 63) et réinitialiser la longueur de page à lignes. Si lignes n'est pas
@@ -70,10 +70,10 @@ pr-help-column-string-separator =
                   sans -S : Séparateur par défaut <TAB> avec -J et <espace>
                   sinon (même que -S\" \"), aucun effet sur les options de colonne
 pr-help-merge =
-  Fusionner les fichiers. La sortie standard sera formatée pour que l'utilitaire pr
-                  écrive une ligne de chaque fichier spécifié par un opérande de fichier, côte à côte
+  Fusionner les FICHIERS. La sortie standard sera formatée pour que l'utilitaire pr
+                  écrive une ligne de chaque FICHIER spécifié par un opérande de FICHIER, côte à côte
                   dans des colonnes de texte de largeurs fixes égales, en termes du nombre de positions
-                  de colonne. Les implémentations doivent supporter la fusion d'au moins neuf opérandes de fichier.
+                  de colonne. Les implémentations doivent supporter la fusion d'au moins neuf opérandes de FICHIER.
 pr-help-indent =
   Chaque ligne de sortie sera précédée par décalage <espaces>. Si l'option -o
                   n'est pas spécifiée, le décalage par défaut sera zéro. L'espace pris est
@@ -81,7 +81,7 @@ pr-help-indent =
 pr-help-join-lines =
   fusionner les lignes complètes, désactive la troncature de ligne -W, aucun
                   alignement de colonne, --sep-string[=CHAÎNE] définit les séparateurs
-pr-help-help = Afficher les informations d'aide
+pr-help-help = afficher les informations d'aide
 
 # Texte d'en-tête de page
 pr-page = Page

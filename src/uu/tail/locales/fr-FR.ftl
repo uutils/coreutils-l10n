@@ -5,20 +5,20 @@ tail-about = Afficher les 10 dernières lignes de chaque FICHIER sur la sortie s
 tail-usage = tail [DRAPEAU]... [FICHIER]...
 
 # Messages d'aide
-tail-help-bytes = Nombre d'octets à afficher
-tail-help-follow = Afficher le fichier au fur et à mesure de sa croissance
-tail-help-lines = Nombre de lignes à afficher
-tail-help-pid = Avec -f, terminer après que l'ID de processus, PID meure
-tail-help-quiet = Ne jamais afficher d'en-têtes donnant les noms de fichiers
-tail-help-sleep-interval = Nombre de secondes à attendre entre les sondages du fichier lors de l'exécution avec -f
-tail-help-max-unchanged-stats = Rouvrir un FICHIER qui n'a pas changé de taille après N (par défaut 5) itérations pour voir s'il a été supprimé ou renommé (c'est le cas habituel des fichiers journaux pivotés) ; Cette option n'a de sens que lors du sondage (c'est-à-dire avec --use-polling) et quand --follow=name
-tail-help-verbose = Toujours afficher des en-têtes donnant les noms de fichiers
-tail-help-zero-terminated = Le délimiteur de ligne est NUL, pas newline
-tail-help-retry = Continuer d'essayer d'ouvrir un fichier s'il est inaccessible
-tail-help-follow-retry = Identique à --follow=name --retry
-tail-help-polling-linux = Désactiver le support 'inotify' et utiliser le sondage à la place
-tail-help-polling-unix = Désactiver le support 'kqueue' et utiliser le sondage à la place
-tail-help-polling-windows = Désactiver le support 'ReadDirectoryChanges' et utiliser le sondage à la place
+tail-help-bytes = nombre d'octets à afficher
+tail-help-follow = afficher le fichier au fur et à mesure de sa croissance
+tail-help-lines = nombre de lignes à afficher
+tail-help-pid = avec -f, terminer après que l'ID de processus, PID meure
+tail-help-quiet = ne jamais afficher d'en-têtes donnant les noms de fichiers
+tail-help-sleep-interval = nombre de secondes à attendre entre les sondages du fichier lors de l'exécution avec -f
+tail-help-max-unchanged-stats = rouvrir un FICHIER qui n'a pas changé de taille après N (par défaut 5) itérations pour voir s'il a été supprimé ou renommé (c'est le cas habituel des fichiers journaux pivotés) ; Cette option n'a de sens que lors du sondage (c'est-à-dire avec --use-polling) et quand --follow=name
+tail-help-verbose = toujours afficher des en-têtes donnant les noms de fichiers
+tail-help-zero-terminated = le délimiteur de ligne est NUL, pas newline
+tail-help-retry = continuer d'essayer d'ouvrir un fichier s'il est inaccessible
+tail-help-follow-retry = identique à --follow=name --retry
+tail-help-polling-linux = désactiver le support 'inotify' et utiliser le sondage à la place
+tail-help-polling-unix = désactiver le support 'kqueue' et utiliser le sondage à la place
+tail-help-polling-windows = désactiver le support 'ReadDirectoryChanges' et utiliser le sondage à la place
 
 # Messages d'erreur
 tail-error-cannot-follow-stdin-by-name = impossible de suivre { $stdin } par nom

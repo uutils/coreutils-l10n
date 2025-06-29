@@ -40,7 +40,7 @@ split-error-cannot-read-from-input = { $input } : impossible de lire depuis l'en
 split-error-input-output-error = erreur d'entrée/sortie
 split-error-unable-to-open-file = impossible d'ouvrir { $file } ; abandon
 split-error-unable-to-reopen-file = impossible de rouvrir { $file } ; abandon
-split-error-file-descriptor-limit = limite de descripteurs de fichiers atteinte, mais aucun descripteur de fichier à fermer. { $count } écrivains fermés auparavant.
+split-error-file-descriptor-limit = limite de descripteurs de fichiers atteinte, mais aucun descripteur de fichier à fermer. { $count } écrivains fermés auparavant
 split-error-shell-process-returned = Le processus shell a retourné { $code }
 split-error-shell-process-terminated = Le processus shell a été terminé par un signal
 
@@ -49,7 +49,7 @@ split-help-bytes = mettre TAILLE octets par fichier de sortie
 split-help-line-bytes = mettre au maximum TAILLE octets de lignes par fichier de sortie
 split-help-lines = mettre NOMBRE lignes/enregistrements par fichier de sortie
 split-help-number = générer CHUNKS fichiers de sortie ; voir l'explication ci-dessous
-split-help-additional-suffix = SUFFIXE supplémentaire à ajouter aux noms de fichiers de sortie
+split-help-additional-suffix = suffixe supplémentaire à ajouter aux noms de fichiers de sortie
 split-help-filter = écrire vers la COMMANDE shell ; le nom de fichier est $FILE (Actuellement non implémenté pour Windows)
 split-help-elide-empty-files = ne pas générer de fichiers de sortie vides avec '-n'
 split-help-numeric-suffixes-short = utiliser des suffixes numériques commençant à 0, pas alphabétiques

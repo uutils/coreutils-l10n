@@ -3,7 +3,7 @@ uniq-usage = uniq [OPTION]... [ENTRÉE [SORTIE]]
 uniq-after-help = Filtrer les lignes adjacentes correspondantes de ENTRÉE (ou l'entrée standard),
   en écrivant vers SORTIE (ou la sortie standard).
   Note : uniq ne détecte les lignes répétées que si elles sont adjacentes.
-  Vous pourriez vouloir trier l'entrée d'abord, ou utiliser sort -u sans uniq.
+  Vous pourriez vouloir trier l'entrée d'abord, ou utiliser 'sort -u' sans uniq.
 
 # Messages d'aide
 uniq-help-all-repeated = afficher toutes les lignes dupliquées. La délimitation se fait avec des lignes vides. [défaut : none]
@@ -22,7 +22,7 @@ uniq-error-write-line-terminator = Impossible d'écrire le terminateur de ligne
 uniq-error-write-error = erreur d'écriture
 uniq-error-invalid-argument = Argument invalide pour { $opt_name } : { $arg }
 uniq-error-try-help = Essayez 'uniq --help' pour plus d'informations.
-uniq-error-group-mutually-exclusive = --group est mutuellement exclusif avec -c/-d/-D/-u
+uniq-error-group-mutually-exclusive = '--group' est mutuellement exclusif avec '-c/-d/-D/-u'
 uniq-error-group-badoption = argument invalide 'badoption' pour '--group'
   Arguments valides :
     - 'prepend'

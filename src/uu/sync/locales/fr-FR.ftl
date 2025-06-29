@@ -11,7 +11,7 @@ sync-error-opening-file = erreur lors de l'ouverture de { $file }
 sync-error-no-such-file = erreur lors de l'ouverture de { $file } : Aucun fichier ou répertoire de ce type
 
 # Messages d'erreur spécifiques à Windows
-sync-error-flush-file-buffer = échec du vidage du tampon de fichier
-sync-error-create-volume-handle = échec de la création du handle de volume
-sync-error-find-first-volume = échec de la recherche du premier volume
-sync-error-find-next-volume = échec de la recherche du volume suivant
+sync-error-flush-file-buffer = impossible de vider le tampon de fichier
+sync-error-create-volume-handle = impossible de créer le handle de volume
+sync-error-find-first-volume = impossible de rechercher le premier volume
+sync-error-find-next-volume = impossible de rechercher le volume suivant

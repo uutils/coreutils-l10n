@@ -53,7 +53,7 @@ who-heading-comment = COMMENTAIRE
 who-heading-exit = SORTIE
 
 # Error messages
-who-canonicalize-error = échec de canonicalisation de { $host }
+who-canonicalize-error = impossible de canonicaliser { $host }
 
 # Platform-specific messages
 who-unsupported-openbsd = commande non supportée sur OpenBSD
