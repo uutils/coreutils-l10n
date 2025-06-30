@@ -55,16 +55,16 @@ od-error-invalid-size = taille invalide '{$size}' dans la spécification de form
 od-error-invalid-offset = décalage invalide : {$offset}
 od-error-invalid-label = étiquette invalide : {$label}
 od-error-too-many-inputs = trop d'entrées après --traditional : {$input}
-od-error-parse-failed = impossible d'analyser
+od-error-parse-failed = échec de l'analyse
 od-error-invalid-suffix = suffixe invalide dans l'argument --{$option} {$value}
 od-error-invalid-argument = argument --{$option} invalide {$value}
 od-error-argument-too-large = argument --{$option} {$value} trop grand
 od-error-skip-past-end = tentative d'ignorer au-delà de la fin de l'entrée
 
 # Messages d'aide
-od-help-help = afficher les informations d'aide.
-od-help-address-radix = sélectionner la base dans laquelle les décalages de fichier sont imprimés.
-od-help-skip-bytes = ignorer les octets d'entrée avant le formatage et l'écriture.
+od-help-help = Afficher les informations d'aide.
+od-help-address-radix = Sélectionner la base dans laquelle les décalages de fichier sont imprimés.
+od-help-skip-bytes = Ignorer les octets d'entrée avant le formatage et l'écriture.
 od-help-read-bytes = limiter le dump à OCTETS octets d'entrée
 od-help-endian = ordre des octets à utiliser pour les formats multi-octets
 od-help-a = caractères nommés, ignorant le bit d'ordre supérieur

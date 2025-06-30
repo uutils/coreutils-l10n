@@ -62,7 +62,7 @@ stat-help-printf = comme --format, mais interpréter les séquences d'échappeme
   et ne pas afficher une nouvelle ligne finale obligatoire ;
   si vous voulez une nouvelle ligne, incluez \n dans FORMAT
 
-## Traductions de mots
+# Traductions de mots
 stat-word-file = Fichier
 stat-word-id = ID
 stat-word-namelen = Longnom
@@ -87,7 +87,7 @@ stat-word-modify = Modif
 stat-word-change = Changt
 stat-word-birth = Créé
 
-## Messages d'erreur
+# Messages d'erreur
 stat-error-invalid-quoting-style = Style de guillemets invalide : {$style}
 stat-error-missing-operand = opérande manquant
   Essayez 'stat --help' pour plus d'informations.
@@ -97,13 +97,13 @@ stat-error-stdin-filesystem-mode = utiliser '-' pour désigner l'entrée standar
 stat-error-cannot-read-filesystem-info = impossible de lire les informations du système de fichiers pour {$file} : {$error}
 stat-error-cannot-stat = impossible d'obtenir le statut de {$file} : {$error}
 
-## Messages d'avertissement
+# Messages d'avertissement
 stat-warning-backslash-end-format = barre oblique inverse à la fin du format
 stat-warning-unrecognized-escape-x = séquence d'échappement non reconnue '\x'
 stat-warning-incomplete-hex-escape = séquence d'échappement hexadécimale incomplète '\x'
 stat-warning-unrecognized-escape = séquence d'échappement non reconnue '\{$escape}'
 
-## Messages de contexte SELinux
+# Messages de contexte SELinux
 stat-selinux-failed-get-context = impossible d'obtenir le contexte de sécurité
 stat-selinux-unsupported-system = non pris en charge sur ce système
 stat-selinux-unsupported-os = non pris en charge pour ce système d'exploitation
