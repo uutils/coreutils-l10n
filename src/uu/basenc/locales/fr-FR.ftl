@@ -1,3 +1,23 @@
+base32-about = encoder/décoder les données et les imprimer sur la sortie standard
+  Sans FICHIER, ou quand FICHIER est -, lire l'entrée standard.
+
+  Les données sont encodées comme décrit pour l'alphabet base32 dans RFC 4648.
+  Lors du décodage, l'entrée peut contenir des retours à la ligne en plus
+  des octets de l'alphabet base32 formel. Utilisez --ignore-garbage
+  pour tenter de récupérer des autres octets non-alphabétiques dans
+  le flux encodé.
+base32-usage = base32 [OPTION]... [FICHIER]
+
+base64-about = encoder/décoder les données et les imprimer sur la sortie standard
+  Sans FICHIER, ou quand FICHIER est -, lire l'entrée standard.
+
+  Les données sont encodées comme décrit pour l'alphabet base64 dans RFC 3548.
+  Lors du décodage, l'entrée peut contenir des retours à la ligne en plus
+  des octets de l'alphabet base64 formel. Utilisez --ignore-garbage
+  pour tenter de récupérer des autres octets non-alphabétiques dans
+  le flux encodé.
+base64-usage = base64 [OPTION]... [FICHIER]
+
 basenc-about = Encoder/décoder des données et afficher vers la sortie standard
   Sans FICHIER, ou lorsque FICHIER est -, lire l'entrée standard.
 
@@ -20,3 +40,14 @@ basenc-help-z85 = encodage de type ascii85 ;
 
 # Messages d'erreur
 basenc-error-missing-encoding-type = type d'encodage manquant
+
+# Messages d'erreur partagés de base_common (utilisés par base32, base64, basenc)
+base-common-extra-operand = opérande supplémentaire {$operand}
+base-common-no-such-file = {$file} : Aucun fichier ou répertoire de ce type
+base-common-invalid-wrap-size = taille de retour à la ligne invalide : {$size}
+base-common-read-error = erreur de lecture : {$error}
+
+# Messages d'aide partagés de base_common
+base-common-help-decode = décoder les données
+base-common-help-ignore-garbage = lors du décodage, ignorer les caractères non-alphabétiques
+base-common-help-wrap = retour à la ligne des lignes encodées après COLS caractères (par défaut {$default}, 0 pour désactiver le retour à la ligne)
