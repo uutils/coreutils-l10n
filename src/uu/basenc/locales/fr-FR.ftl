@@ -1,1 +1,0 @@
-../base32/locales/fr-FR.ftl
