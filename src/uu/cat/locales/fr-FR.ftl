@@ -1,0 +1,3 @@
+cat-about = Concaténer FICHIER(s), ou l'entrée standard, vers la sortie standard
+  Sans FICHIER, ou quand FICHIER est -, lire l'entrée standard.
+cat-usage = cat [OPTION]... [FICHIER]...
