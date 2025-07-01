@@ -7,5 +7,5 @@ English reference files are in the main repository:
 https://github.com/uutils/coreutils
 
 Translations can be done on this repository directly with pull requests
-or via weblate.
-
+or via weblate:
+https://hosted.weblate.org/projects/rust-coreutils/
