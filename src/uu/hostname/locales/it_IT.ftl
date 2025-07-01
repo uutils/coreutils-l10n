@@ -1,0 +1,13 @@
+hostname-about = Visualizza o imposta il nome host del sistema.
+hostname-usage = hostname [OPZIONE]... [HOSTNAME]
+hostname-help-domain = Visualizza il nome del dominio DNS se possibile
+hostname-help-ip-address = Visualizza l'indirizzo/gli indirizzi di rete dell'host
+hostname-help-fqdn = Visualizza l'FQDN (Nome Dominio Completamente Qualificato) (predefinito)
+hostname-help-short = Visualizza l'hostname corto (la parte prima del primo punto) se possibile
+hostname-error-permission = hostname: devi essere root per cambiare il nome host
+hostname-error-invalid-name = hostname: nome host non valido '{ $name }'
+hostname-error-resolve-failed = hostname: impossibile risolvere il nome host '{ $name }'
+hostname-error-winsock = impossibile avviare Winsock
+hostname-error-set-hostname = impossibile impostare l'hostname
+hostname-error-get-hostname = impossibile ottenere l'hostname
+hostname-error-resolve-socket = impossibile risolvere gli indirizzi socket

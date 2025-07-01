@@ -1,0 +1,3 @@
+cat-about = Concatena FILE, o input standard, su output standard
+  Senza FILE, o quando FILE è -, legge l'input standard.
+cat-usage = cat [OPZIONE]... [FILE]...
