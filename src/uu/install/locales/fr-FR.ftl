@@ -1,7 +1,7 @@
-install-about = Copier SOURCE vers DEST ou plusieurs SOURCE(s) vers le
-  RÉPERTOIRE existant, tout en définissant les modes de permission et propriétaire/groupe
+install-about =
+    Copier SOURCE vers DEST ou plusieurs SOURCE(s) vers le
+    RÉPERTOIRE existant, tout en définissant les modes de permission et propriétaire/groupe
 install-usage = install [OPTION]... [FICHIER]...
-
 # Messages d'aide
 install-help-ignored = ignoré
 install-help-compare = comparer chaque paire de fichiers source et destination, et dans certains cas, ne pas modifier la destination du tout
@@ -18,7 +18,6 @@ install-help-no-target-directory = traiter DEST comme un fichier normal
 install-help-verbose = expliquer ce qui est fait
 install-help-preserve-context = préserver le contexte de sécurité
 install-help-context = définir le contexte de sécurité des fichiers et répertoires
-
 # Messages d'erreur
 install-error-dir-needs-arg = { $util_name } avec -d nécessite au moins un argument.
 install-error-create-dir-failed = impossible de créer { $path }
@@ -38,8 +37,9 @@ install-error-omitting-directory = omission du répertoire { $path }
 install-error-not-a-directory = impossible d'accéder à { $path } : N'est pas un répertoire
 install-error-override-directory-failed = impossible d'écraser le répertoire { $dir } avec un non-répertoire { $file }
 install-error-same-file = '{ $file1 }' et '{ $file2 }' sont le même fichier
-install-error-extra-operand = opérande supplémentaire { $operand }
-  { $usage }
+install-error-extra-operand =
+    opérande supplémentaire { $operand }
+    { $usage }
 install-error-invalid-mode = Chaîne de mode invalide : { $error }
 install-error-mutually-exclusive-target = Les options --target-directory et --no-target-directory sont mutuellement exclusives
 install-error-mutually-exclusive-compare-preserve = Les options --compare et --preserve-timestamps sont mutuellement exclusives
@@ -47,10 +47,10 @@ install-error-mutually-exclusive-compare-strip = Les options --compare et --stri
 install-error-missing-file-operand = opérande de fichier manquant
 install-error-missing-destination-operand = opérande de fichier de destination manquant après '{ $path }'
 install-error-failed-to-remove = Impossible de supprimer le fichier existant { $path }. Erreur : { $error }
-
 # Sortie détaillée
 install-verbose-creating-directory = création du répertoire { $path }
 install-verbose-creating-directory-step = install : création du répertoire { $path }
 install-verbose-removed = supprimé { $path }
 install-verbose-copy = { $from } -> { $to }
 install-verbose-backup = (sauvegarde : { $backup })
+install-warning-compare-ignored = l'option --compare (-C) est ignorée lorsque vous spécifiez un mode avec des bits de non-permission
