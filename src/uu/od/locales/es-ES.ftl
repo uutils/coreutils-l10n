@@ -38,3 +38,41 @@ od-after-help = Muestra datos en varios formatos legibles por humanos. Si se esp
       final de la línea.
 
   Si ocurrió un error, se imprimirá un mensaje de diagnóstico en stderr, y el
+  código de salida será distinto de cero.
+
+# Error messages
+od-error-invalid-endian = Argumento inválido --endian={$endian}
+od-error-invalid-inputs = Entradas inválidas: {$msg}
+od-error-too-large = el valor es demasiado grande
+od-error-radix-invalid = Radix debe ser uno de [o, d, x, n], se obtuvo: {$radix}
+od-error-radix-empty = Radix no puede estar vacío, y debe ser uno de [o, d, x, n]
+od-error-invalid-width = ancho inválido {$width}; usando {$min} en su lugar
+od-error-missing-format-spec = especificación de formato faltante después de '--format' / '-t'
+od-error-unexpected-char = carácter inesperado '{$char}' en especificación de formato {$spec}
+od-error-invalid-number = número inválido {$number} en especificación de formato {$spec}
+od-error-invalid-size = tamaño inválido '{$size}' en especificación de formato {$spec}
+od-error-invalid-offset = desplazamiento inválido: {$offset}
+od-error-invalid-label = etiqueta inválida: {$label}
+od-error-too-many-inputs = demasiadas entradas después de --traditional: {$input}
+od-error-parse-failed = falló el análisis
+od-error-invalid-suffix = sufijo inválido en argumento --{$option} {$value}
+od-error-invalid-argument = argumento --{$option} inválido {$value}
+od-error-argument-too-large = argumento --{$option} {$value} demasiado grande
+od-error-skip-past-end = intentó saltar más allá del final de la entrada
+
+# Help messages
+od-help-help = Imprimir información de ayuda.
+od-help-address-radix = Seleccionar la base en la que se imprimen los desplazamientos de archivo.
+od-help-skip-bytes = Saltar bytes de entrada antes de formatear y escribir.
+od-help-read-bytes = limitar volcado a BYTES bytes de entrada
+od-help-endian = orden de bytes a usar para formatos multi-byte
+od-help-a = caracteres nombrados, ignorando bit de orden superior
+od-help-b = bytes octales
+od-help-c = caracteres ASCII o escapes con barra invertida
+od-help-d = unidades decimales sin signo de 2-bytes
+od-help-d4 = unidades decimales sin signo de 4-bytes
+od-help-format = seleccionar formato o formatos de salida
+od-help-output-duplicates = no usar * para marcar supresión de líneas
+od-help-width = imprimir BYTES bytes por línea de salida. Se implica 32 cuando no se
+                especifica BYTES.
+od-help-traditional = modo de compatibilidad con una entrada, desplazamiento y etiqueta.
