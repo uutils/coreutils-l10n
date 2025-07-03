@@ -1,0 +1,3 @@
+cat-about = Concatenar ARCHIVO(s), o entrada estándar, a salida estándar
+  Sin ARCHIVO, o cuando ARCHIVO es -, leer entrada estándar.
+cat-usage = cat [OPCIÓN]... [ARCHIVO]...
