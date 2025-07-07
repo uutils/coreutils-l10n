@@ -12,3 +12,7 @@ id-after-help =
     meg van adva, akkor annak a felhasználónak a felhasználói és
     csoportazonosítói jelennek meg. Ebben az esetben feltételezzük,
     hogy a valós és effektív azonosítók megegyeznek.
+id-context-help-disabled = csak a folyamat biztonsági kontextusát írja ki (nem engedélyezett)
+id-context-help-enabled = csak a folyamat biztonsági kontextusát írja ki
+id-error-names-real-ids-require-flags = csak nevek vagy valós azonosítók kiírása a -u, -g vagy -G kapcsolóval engedélyezett
+id-error-zero-not-permitted-default = --zero kapcsoló nem engedélyezett alapértelmezett formátumban
