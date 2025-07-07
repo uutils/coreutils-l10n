@@ -14,5 +14,17 @@ id-after-help =
     hogy a valós és effektív azonosítók megegyeznek.
 id-context-help-disabled = csak a folyamat biztonsági kontextusát írja ki (nem engedélyezett)
 id-context-help-enabled = csak a folyamat biztonsági kontextusát írja ki
-id-error-names-real-ids-require-flags = csak nevek vagy valós azonosítók kiírása a -u, -g vagy -G kapcsolóval engedélyezett
+id-error-names-real-ids-require-flags = csak nevek vagy valós azonosítók kiírása -u, -g vagy -G kapcsolóval engedélyezett
 id-error-zero-not-permitted-default = --zero kapcsoló nem engedélyezett alapértelmezett formátumban
+id-error-cannot-print-context-with-user = nem lehet kiírni a biztonsági kontextust, ha felhasználó is meg van adva
+id-error-cannot-get-context = nem sikerült lekérni a folyamat kontextusát
+id-error-context-selinux-only = --context (-Z) csak SELinux-képes kernel alatt működik
+id-error-no-such-user = { $user }: nincs ilyen felhasználó
+id-error-cannot-find-group-name = nem található név a { $gid } csoportazonosítóhoz
+id-error-cannot-find-user-name = nem található név a { $uid } felhasználói azonosítóhoz
+id-error-audit-retrieve = nem sikerült lekérni az információt
+id-help-audit =
+    Megjeleníti a folyamat audit-felhasználói azonosítóját és egyéb audit tulajdonságait,
+    ami jogosultságot igényel (Linuxon nem érhető el).
+id-help-user = Csak a hatásos felhasználói azonosítót jeleníti meg számmal.
+id-help-group = Csak a hatásos csoportazonosítót jeleníti meg számmal.
