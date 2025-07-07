@@ -27,4 +27,15 @@ id-help-audit =
     Megjeleníti a folyamat audit-felhasználói azonosítóját és egyéb audit tulajdonságait,
     ami jogosultságot igényel (Linuxon nem érhető el).
 id-help-user = Csak a hatásos felhasználói azonosítót jeleníti meg számmal.
-id-help-group = Csak a hatásos csoportazonosítót jeleníti meg számmal.
+id-help-group = Csak a hatásos csoportazonosítót jeleníti meg számmal
+id-help-groups =
+    Csak a különböző csoportazonosítókat jeleníti meg szóközzel elválasztva,
+    tetszőleges sorrendben.
+id-help-human-readable = A kimenet emberi olvasásra alkalmas legyen. Minden adat külön sorban jelenik meg.
+id-help-name =
+    -G, -g és -u kapcsolókhoz tartozó felhasználói vagy csoportazonosító nevét jeleníti meg
+    a szám helyett.
+    Ha bármely azonosító szám nem rendelhető névhez,
+    akkor a szám kerül kiírásra.
+id-help-password = Az azonosítót jelszófájl-bejegyzésként jeleníti meg.
+id-help-real = -G, -g és -u kapcsolókhoz tartozó valós azonosítót jeleníti meg a hatásos azonosító helyett.
