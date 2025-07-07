@@ -38,4 +38,9 @@ id-help-name =
     Ha bármely azonosító szám nem rendelhető névhez,
     akkor a szám kerül kiírásra.
 id-help-password = Az azonosítót jelszófájl-bejegyzésként jeleníti meg.
-id-help-real = -G, -g és -u kapcsolókhoz tartozó valós azonosítót jeleníti meg a hatásos azonosító helyett.
+id-help-real =
+    -G, -g és -u kapcsolókhoz tartozó valós azonosítót jeleníti meg
+    a hatásos azonosító helyett.
+id-help-zero =
+    A bejegyzéseket NUL karakterrel választja el, nem szóközzel;
+    alapértelmezett formátumban nem engedélyezett.
