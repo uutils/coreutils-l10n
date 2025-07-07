@@ -43,4 +43,9 @@ id-help-real =
     a hatásos azonosító helyett.
 id-help-zero =
     A bejegyzéseket NUL karakterrel választja el, nem szóközzel;
-    alapértelmezett formátumban nem engedélyezett.
+    alapértelmezett formátumban nem engedélyezett
+id-output-uid = uid
+id-output-groups = csoportok
+id-output-login = bejelentkezés
+id-output-euid = euid
+id-output-context = kontextus
