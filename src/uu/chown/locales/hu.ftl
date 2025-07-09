@@ -16,4 +16,6 @@ chown-help-recursive = Fájlokon és könyvtárakon rekurzívan hajtja végre a 
 chown-help-reference = A HIVFÁJL tulajdonosát és csoportját használja a TULAJDONOS:CSOPORT értékek helyett
 chown-help-verbose = Diagnosztikai üzenet kiírása minden feldolgozott fájlhoz
 chown-error-failed-to-get-attributes = Nem sikerült lekérni a(z) { $file } attribútumait
-chown-error-invalid-user = Érvénytelen felhasználó: „{ $user }”
+chown-error-invalid-user = Érvénytelen felhasználó: { $user }
+chown-error-invalid-group = Érvénytelen csoport: { $group }
+chown-error-invalid-spec = Érvénytelen formátum: { $spec }
