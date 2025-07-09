@@ -9,4 +9,6 @@ chown-help-from =
     Csak akkor változtassa meg a fájl tulajdonosát és/vagy csoportját,
     ha a jelenlegi tulajdonos és/vagy csoport megegyezik
     a megadottakkal. Bármelyik kihagyható, ilyenkor nem
-    szükséges egyezés a kihagyott attribútumra.
+    szükséges egyezés a kihagyott attribútumra
+chown-help-preserve-root = Ne működjön rekurzívan a „/” könyvtáron.
+chown-help-no-preserve-root = A „/” könyvtárat ne kezelje külön (alapértelmezés).
