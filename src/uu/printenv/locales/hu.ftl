@@ -1,0 +1,3 @@
+printenv-about = Kiírja a megadott környezeti VÁLTOZÓ(k) értékeit, vagy (ha nincs megadva VÁLTOZÓ), akkor az összes név–érték párt.
+printenv-usage = printenv [KAPCSOLÓ]... [VÁLTOZÓ]...
+printenv-help-null = a sorvégeként új sor helyett 0 bájtot használ
