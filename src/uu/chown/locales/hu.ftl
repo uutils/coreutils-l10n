@@ -2,3 +2,11 @@ chown-usage =
     chown [KAPCSOLÓ]... [TULAJDONOS][:[CSOPORT]] FÁJL...
     chown [KAPCSOLÓ]... --reference=HIVFÁJL FÁJL...
 chown-about = Fájl tulajdonosának és csoportjának módosítása
+chown-help-print-help = Súgó információk megjelenítése.
+chown-help-changes = Olyan, mint a részletes mód, de csak változtatás esetén ír ki üzenetet
+chown-help-quiet = A legtöbb hibaüzenet elnyomása
+chown-help-from =
+    Csak akkor változtassa meg a fájl tulajdonosát és/vagy csoportját,
+    ha a jelenlegi tulajdonos és/vagy csoport megegyezik
+    a megadottakkal. Bármelyik kihagyható, ilyenkor nem
+    szükséges egyezés a kihagyott attribútumra.
