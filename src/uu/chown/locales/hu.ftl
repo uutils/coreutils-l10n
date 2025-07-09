@@ -13,4 +13,5 @@ chown-help-from =
 chown-help-preserve-root = Ne működjön rekurzívan a „/” könyvtáron
 chown-help-no-preserve-root = A „/” könyvtárat ne kezelje külön (alapértelmezés)
 chown-help-recursive = Fájlokon és könyvtárakon rekurzívan hajtja végre a műveletet
-chown-help-reference = A HIVFÁJL tulajdonosát és csoportját használja a TULAJDONOS:CSOPORT értékek helyett.
+chown-help-reference = A HIVFÁJL tulajdonosát és csoportját használja a TULAJDONOS:CSOPORT értékek helyett
+chown-help-verbose = Diagnosztikai üzenet kiírása minden feldolgozott fájlhoz.
