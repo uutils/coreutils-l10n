@@ -10,5 +10,6 @@ chown-help-from =
     ha a jelenlegi tulajdonos és/vagy csoport megegyezik
     a megadottakkal. Bármelyik kihagyható, ilyenkor nem
     szükséges egyezés a kihagyott attribútumra
-chown-help-preserve-root = Ne működjön rekurzívan a „/” könyvtáron.
-chown-help-no-preserve-root = A „/” könyvtárat ne kezelje külön (alapértelmezés).
+chown-help-preserve-root = Ne működjön rekurzívan a „/” könyvtáron
+chown-help-no-preserve-root = A „/” könyvtárat ne kezelje külön (alapértelmezés)
+chown-help-recursive = Fájlokon és könyvtárakon rekurzívan hajtja végre a műveletet.
