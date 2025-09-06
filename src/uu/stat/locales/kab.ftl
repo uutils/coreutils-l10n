@@ -1,0 +1,13 @@
+stat-word-file = Afaylu
+stat-word-id = ID
+stat-word-type = Tawsit
+stat-word-size = tiddi
+stat-word-device = Ibenk
+stat-word-links = Iseɣwan
+stat-word-access = Adduf
+stat-word-block = Iḥder
+stat-word-blocks = Iḥedran
+stat-word-total = Aɣrud
+stat-word-free = Ilelli
+stat-word-available = D yegran
+stat-word-inode = Inode
