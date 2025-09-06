@@ -1,0 +1,1 @@
+yes-about = Skriv ut STRING (eller 'y') upprepade gånger
