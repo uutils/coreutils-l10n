@@ -1,0 +1,3 @@
+basename-usage =
+    basename [-z] NAME [SUFFIX]
+    basename OPTION... NAME...
