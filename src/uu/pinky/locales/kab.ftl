@@ -1,0 +1,10 @@
+pinky-usage = pinky [OPTION]... [ASEQDAC]...
+pinky-column-name = Isem
+pinky-column-tty = TTY
+pinky-column-idle = Arurmid
+pinky-column-when = Melmi
+pinky-column-where = Anda
+pinky-directory-label = Akaram:
+pinky-shell-label = Shell:
+pinky-project-label = Asenfar:
+pinky-column-login = Qqen
