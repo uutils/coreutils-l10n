@@ -1,0 +1,1 @@
+wc-about = Skriv ut radbrytning-, ord- och byte-antal för varje FILE, och en total rad om mer än en FILE anges.
