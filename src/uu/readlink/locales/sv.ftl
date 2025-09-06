@@ -1,0 +1,1 @@
+readlink-about = Skriv ut värdet för en symbolisk länk eller ett kanoniskt filnamn.
