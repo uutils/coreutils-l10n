@@ -1,11 +1,9 @@
 chroot-about = Exécuter COMMANDE avec le répertoire racine défini à NOUVRACINE.
 chroot-usage = chroot [OPTION]... NOUVRACINE [COMMANDE [ARG]...]
-
 # Messages d'aide
 chroot-help-groups = liste de groupes séparés par des virgules vers lesquels basculer
 chroot-help-userspec = utilisateur et groupe séparés par deux-points vers lesquels basculer.
 chroot-help-skip-chdir = utiliser cette option pour ne pas changer le répertoire de travail vers / après avoir changé le répertoire racine vers nouvracine, c.-à-d., à l'intérieur du chroot.
-
 # Messages d'erreur
 chroot-error-skip-chdir-only-permitted = l'option '--skip-chdir' n'est autorisée que si NOUVRACINE est l'ancien '/'
 chroot-error-cannot-enter = impossible de faire chroot vers { $dir } : { $err }
@@ -14,7 +12,7 @@ chroot-error-command-not-found = impossible d'exécuter la commande { $cmd } : {
 chroot-error-groups-parsing-failed = impossible d'analyser '--groups'
 chroot-error-invalid-group = groupe invalide : { $group }
 chroot-error-invalid-group-list = liste de groupes invalide : { $list }
-chroot-error-missing-newroot = Opérande manquant : NOUVRACINE\nEssayez '{ $util_name } --help' pour plus d'informations
+chroot-error-missing-newroot = Opérande manquant : NOUVRACINE\nEssayez '{ $util_name } --help' pour plus d'informations.
 chroot-error-no-group-specified = aucun groupe spécifié pour l'uid inconnu : { $uid }
 chroot-error-no-such-user = utilisateur invalide
 chroot-error-no-such-group = groupe invalide
