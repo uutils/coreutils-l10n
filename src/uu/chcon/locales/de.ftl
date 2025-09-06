@@ -5,7 +5,7 @@ chcon-usage =
     chcon [OPTION]... KONTEXT DATEI...
     chcon [OPTION]... [-u BENUTZER] [-r ROLLE] [-l BEREICH] [-t TYP] DATEI...
     chcon [OPTION]... --reference=RDATEI DATEI...
-chcon-help-help = Gib Hilfeinformationen aus.
+chcon-help-help = Gebe Hilfeinformationen aus.
 chcon-help-dereference = Beeinflusse das Ziel jedes symbolischen Links (dies ist der Standard), anstelle des symbolischen Links selbst.
 chcon-help-no-dereference = Beeinflusse symbolische Links anstelle von dessen Zielen.
 chcon-error-invalid-context = Ungültiger Sicherheitskontext '{ $context }'.
@@ -25,7 +25,7 @@ chcon-help-recursive = Bearbeite Dateien und Verzeichnisse rekursiv.
 chcon-help-follow-arg-dir-symlink = Wenn ein Befehlszeilenargument ein symbolischer Link zu einem Verzeichnis ist, durchquere ihn. Nur gültig, wenn -R angegeben ist.
 chcon-help-follow-dir-symlinks = Durchquere jeden begegneten symbolischen Link zu einem Verzeichnis. Nur gültig, wenn -R angegeben ist.
 chcon-help-no-follow-symlinks = Durchquere keine symbolischen Links (Standard). Nur gültig, wenn -R angegeben ist.
-chcon-help-verbose = Gib eine Diagnose für jede bearbeitete Datei aus.
+chcon-help-verbose = Gebe eine Diagnose für jede bearbeitete Datei aus.
 chcon-error-data-out-of-range = Daten sind ausserhalb des Bereiches
 chcon-error-recursive-no-dereference-require-p = '--recursive' mit '--no-dereference' benötigt '-P'
 chcon-op-getting-security-context = Ermittle den Sicherheitskontext
