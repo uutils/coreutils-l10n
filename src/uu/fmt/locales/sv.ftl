@@ -1,0 +1,1 @@
+fmt-about = Formatera om stycken från indata (eller standard-in) till standard-ut.
