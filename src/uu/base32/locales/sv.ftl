@@ -7,3 +7,4 @@ base32-about =
     i det formella base32-alfabetet. Använd --ignore-garbage
     för att försöka återställa från andra icke-alfabetiska tecken i den
     kodade strömmen.
+base32-usage = base32 [OPTION]... [FILE]
