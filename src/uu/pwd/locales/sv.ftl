@@ -1,0 +1,1 @@
+pwd-about = Visa det fullständiga filnamnet för den aktuella arbetskatalogen.
