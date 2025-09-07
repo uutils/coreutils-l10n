@@ -1,7 +1,7 @@
 split-about = Créer des fichiers de sortie contenant des sections consécutives ou entrelacées de l'entrée
 split-usage = split [OPTION]... [ENTRÉE [PRÉFIXE]]
 split-after-help =
-    Sortir des morceaux de taille fixe d'ENTRÉE vers PREFIXEaa, PREFIXEab, ...; la taille par défaut est 1000, et le PRÉFIXE par défaut est 'x'. Sans ENTRÉE, ou quand ENTRÉE est -, lire l'entrée standard.
+    Sortir des morceaux de taille fixe d'ENTRÉE vers PREFIXEaa, PREFIXEab, ... ; la taille par défaut est 1000, et le PRÉFIXE par défaut est 'x'. Sans ENTRÉE, ou quand ENTRÉE est -, lire l'entrée standard.
 
     L'argument TAILLE est un entier et une unité optionnelle (exemple : 10K est 10*1024).
     Les unités sont K,M,G,T,P,E,Z,Y,R,Q (puissances de 1024) ou KB,MB,... (puissances de 1000).
