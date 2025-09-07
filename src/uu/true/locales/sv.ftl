@@ -5,3 +5,4 @@ true-about =
     argumenten. I dessa fall kommer den att försöka skriva hjälp- eller versionstexten. Eventuella IO-fel under denna
     operation gör att programmet istället returnerar 1.
 true-help-text = Skriv ut hjälpinformation
+true-version-text = Skriv ut information om version
