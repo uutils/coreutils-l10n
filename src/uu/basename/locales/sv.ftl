@@ -5,3 +5,4 @@ basename-usage =
     basename [-z] NAME [SUFFIX]
     basename OPTION... NAME...
 basename-error-missing-operand = saknad operand
+basename-error-extra-operand = extra operand { $operand }
