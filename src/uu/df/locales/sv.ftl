@@ -1,3 +1,13 @@
 df-about =
     Visa information om filsystemet där varje FILE finns,
     eller alla filsystem som standard.
+df-usage = df [OPTION]... [FILE]...
+df-after-help =
+    Visningsvärden visas i enheter av den första tillgängliga SIZE från --block-size,
+    och miljövariablerna DF_BLOCK_SIZE, BLOCK_SIZE och BLOCKSIZE.
+    Annars är standardenheterna 1024 byte (eller 512 om POSIXLY_CORRECT är satt).
+
+    SIZE är ett heltal och valfri enhet (exempel: 10M är 10*1024*1024).
+    Enheterna är K, M, G, T, P, E, Z, Y (potenser av 1024) eller KB, MB,...
+    (potenser av 1000).
+df-help-print-help = Skriv ut hjälpinformation.
