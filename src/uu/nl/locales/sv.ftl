@@ -1,1 +1,3 @@
 nl-about = Numrera raderna i filer
+nl-usage = nl [OPTION]... [FILE]...
+nl-help-help = Skriv ut hjälpinformation.
