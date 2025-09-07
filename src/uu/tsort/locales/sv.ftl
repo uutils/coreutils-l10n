@@ -5,3 +5,5 @@ tsort-about =
     Om FILE inte skickas in används standard-in istället.
 tsort-usage = tsort [OPTIONS] FILE
 tsort-error-is-dir = läsfel: Är en katalog
+tsort-error-odd = indata innehåller ett udda antal tokens
+tsort-error-loop = indata innehåller en loop:
