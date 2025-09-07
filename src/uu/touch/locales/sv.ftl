@@ -1,1 +1,3 @@
 touch-about = Uppdatera åtkomst- och ändringstiderna för varje FILE till aktuell tid.
+touch-usage = touch [OPTION]... [FILE]...
+touch-help-help = Skriv ut hjälpinformation.
