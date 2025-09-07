@@ -18,3 +18,15 @@ base64-about =
     för att försöka återställa från andra icke-alfabetiska byte i den
     kodade strömmen.
 base-common-extra-operand = extra operand { $operand }
+base64-usage = base64 [OPTION]... [FILE]
+basenc-about =
+    Koda/avkoda data och skriv ut till standard-ut
+    Utan FIL, eller när FIL är -, läs standard-in.
+
+    Vid avkodning kan indata innehålla nyradsskiften utöver byte från
+    det formella alfabetet. Använd --ignore-garbage för att försöka återställa
+    från alla andra icke-alfabetiska bytes i den kodade strömmen.
+basenc-usage = basenc [OPTION]... [FILE]
+basenc-help-base64 = samma som programmet 'base64'
+basenc-help-base64url = fil- och url-säker base64
+basenc-help-base32 = samma som programmet 'base32'
