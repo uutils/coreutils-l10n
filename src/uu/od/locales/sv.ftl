@@ -13,3 +13,5 @@ od-help-b = oktala bytes
 od-help-c = ASCII-tecken eller escape-sekvens med omvänt snedstreck
 od-help-d = osignerade decimalenheter på 2 byte
 od-help-d4 = osignerade decimalenheter på 4 byte
+od-help-format = välj ett eller flera utdataformat
+od-help-output-duplicates = använd inte * för att markera linjeundertryckning
