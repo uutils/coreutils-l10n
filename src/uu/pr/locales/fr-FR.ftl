@@ -63,7 +63,7 @@ pr-help-column =
                     utiliser le nombre minimum de lignes pour écrire la sortie.
 pr-help-column-char-separator =
     Séparer les colonnes de texte par le caractère unique char au lieu du nombre
-                    approprié d'<espaces> (par défaut pour char est le caractère de <tabulation>).
+                    approprié d'<espaces> (le caractère par défaut pour char est <tabulation>).
 pr-help-column-string-separator =
     séparer les colonnes par CHAÎNE,
                     sans -S : Séparateur par défaut <TAB> avec -J et <espace>
