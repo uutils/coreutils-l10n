@@ -72,3 +72,4 @@ date-usage =
     Visa tiden på USA:s västkust (använd tzselect(1) för att hitta TZ)
 
     TZ='America/Los_Angeles' date
+date-help-date = skriv ut tiden beskriven av STRING, inte 'nu'
