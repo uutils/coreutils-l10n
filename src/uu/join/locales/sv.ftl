@@ -3,3 +3,4 @@ join-about =
     Standard kombinations-fält är det första, avgränsat med mellanslag.
 
     När FILE1 eller FILE2 (inte båda) är -, läs standard-in.
+join-usage = join [OPTION]... FILE1 FILE2
