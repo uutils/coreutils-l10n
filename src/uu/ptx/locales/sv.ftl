@@ -6,3 +6,4 @@ ptx-about =
 ptx-usage =
     ptx [OPTION]... [INPUT]...
     ptx -G [OPTION]... [INPUT [OUTPUT]]
+ptx-error-extra-operand = extra operand { $operand }
