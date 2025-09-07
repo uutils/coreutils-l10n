@@ -17,3 +17,4 @@ base64-about =
     byten i det formella base64-alfabetet. Använd --ignore-garbage
     för att försöka återställa från andra icke-alfabetiska byte i den
     kodade strömmen.
+base-common-extra-operand = extra operand { $operand }
