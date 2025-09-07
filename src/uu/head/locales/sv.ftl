@@ -4,3 +4,4 @@ head-about =
     Utan FILE, eller när FILE är -, läs standard-in.
 
     Obligatoriska argument till långa flaggor är obligatoriska även för korta flaggor.
+head-usage = head [FLAG]... [FILE]...
