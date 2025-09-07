@@ -136,13 +136,13 @@ dd-error-invalid-flag =
     indicateur d'entrée invalide : '{ $flag }'
     Essayez '{ $cmd } --help' pour plus d'informations.
 dd-error-conv-flag-no-match = conv=CONV non reconnu -> { $flag }
-dd-error-multiplier-parse-failure = nombre invalide : ‘{ $input }‘
+dd-error-multiplier-parse-failure = nombre invalide : ‘{ $input }’
 dd-error-multiplier-overflow = La chaîne de multiplicateur déborderait sur le système actuel -> { $input }
 dd-error-block-without-cbs = conv=block ou conv=unblock spécifié sans cbs=N
 dd-error-status-not-recognized = status=NIVEAU non reconnu -> { $level }
 dd-error-unimplemented = fonctionnalité non implémentée sur ce système -> { $feature }
 dd-error-bs-out-of-range = { $param }=N ne peut pas tenir en mémoire
-dd-error-invalid-number = nombre invalide : ‘{ $input }‘
+dd-error-invalid-number = nombre invalide : ‘{ $input }’
 # Progress messages
 dd-progress-records-in = { $complete }+{ $partial } enregistrements en entrée
 dd-progress-records-out = { $complete }+{ $partial } enregistrements en sortie
