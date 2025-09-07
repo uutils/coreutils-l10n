@@ -30,3 +30,5 @@ basenc-usage = basenc [OPTION]... [FILE]
 basenc-help-base64 = samma som programmet 'base64'
 basenc-help-base64url = fil- och url-säker base64
 basenc-help-base32 = samma som programmet 'base32'
+basenc-help-base32hex = utökat hexadecimalt alfabet base32
+basenc-help-base16 = hex-kodning
