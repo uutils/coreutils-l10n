@@ -1,2 +1,3 @@
 cut-about = Skriver ut angivna byte- eller fältkolumner från varje rad i standard-in eller indatafilerna
 cut-usage = cut OPTION... [FILE]...
+cut-error-write-error = skrivfel
