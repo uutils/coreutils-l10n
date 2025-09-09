@@ -3,3 +3,4 @@ printf-usage =
     printf FORMAT [ARGUMENT]...
     printf OPTION
 printf-help-version = Skriv ut information om version
+printf-error-missing-operand = saknad operand
