@@ -1,2 +1,3 @@
 dirname-about = Ta bort den sista komponenten från filnamnet
 dirname-usage = dirname [OPTION] NAME...
+dirname-missing-operand = saknad operand
