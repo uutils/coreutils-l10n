@@ -32,3 +32,4 @@ basenc-help-base64url = fil- och url-säker base64
 basenc-help-base32 = samma som programmet 'base32'
 basenc-help-base32hex = utökat hexadecimalt alfabet base32
 basenc-help-base16 = hex-kodning
+base-common-no-such-file = { $file }: Fil eller katalog saknas
