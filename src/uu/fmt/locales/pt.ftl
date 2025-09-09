@@ -1,0 +1,3 @@
+fmt-usage = { "[" }OPÇÃO]... [OPÇÃO]...
+fmt-error-cannot-open-for-reading = não pode abrir { $file } para leitura
+fmt-error-cannot-get-metadata = não pode obter metadados para { $file }
