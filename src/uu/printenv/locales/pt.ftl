@@ -1,0 +1,3 @@
+printenv-about = Mostrar os valores do(s) VARIÁVEL/IS do ambiente especificado(s), ou (sem VARIÁVEL) mostrar pares de nome e valor para todos esses.
+printenv-usage = printenv [OPÇÃO]... [VARIÁVEL]...
+printenv-help-null = terminar cada linha de saída com 0 byte em vez de newline
