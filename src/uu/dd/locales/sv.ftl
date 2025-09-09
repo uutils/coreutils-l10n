@@ -46,7 +46,7 @@ dd-after-help =
       'prestanda'-statistik.
       Volymstatistiken anger antalet fullständiga och partiella ibs-stora läsningar, 
       eller obs-stora skrivningar som ägde rum under kopieringen. Formatet för volym 
-      statistiken är <fullständig>+<partiell>. Om poster har trunkerats (se
+      statistiken är &lt;fullständig&gt;+&lt;partiell&gt;. Om poster har trunkerats (se
       conv=block), kommer volymstatistiken att innehålla antalet trunkerade poster.
 
       Möjliga LEVEL-värden är:
