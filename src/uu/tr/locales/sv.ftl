@@ -23,7 +23,7 @@ tr-warning-ambiguous-octal-escape = Det tvetydiga oktala escape-tecknet \{ $orig
 tr-error-missing-char-class-name = saknat namn på teckenklass '[::]'
 tr-error-missing-equivalence-class-char = saknat ekvivalensklasstecken '[==]'
 tr-error-multiple-char-repeat-in-set2 = endast en [c*]-upprepningskonstruktion får förekomma i string2
-tr-error-char-repeat-in-set1 = the [c*] repeat construct may not appear in string1
+tr-error-char-repeat-in-set1 = string1 får inte innehålla [c*]-upprepningskonstruktioner
 tr-error-invalid-repeat-count = ogiltigt antal upprepningar { $count } i [c*n]-konstruktionen
 tr-error-empty-set2-when-not-truncating = När set1 inte trunkeras får string2 inte vara tom
 tr-error-class-except-lower-upper-in-set2 = Vid översättning är de enda teckenklasserna som kan förekomma i set2 'upper' och 'lower'
