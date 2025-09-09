@@ -11,3 +11,5 @@ df-after-help =
     Enheterna är K, M, G, T, P, E, Z, Y (potenser av 1024) eller KB, MB,...
     (potenser av 1000).
 df-help-print-help = Skriv ut hjälpinformation.
+df-error-invalid-block-size = ogiltigt --block-size argument { $size }
+df-error-invalid-suffix = ogiltigt suffix i --block-size argument { $size }
