@@ -1,2 +1,3 @@
 mkfifo-about = Skapa en FIFO med det angivna namnet.
 mkfifo-usage = mkfifo [OPTION]... NAME...
+mkfifo-error-missing-operand = saknad operand
