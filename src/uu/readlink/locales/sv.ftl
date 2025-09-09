@@ -1,2 +1,3 @@
 readlink-about = Skriv ut värdet för en symbolisk länk eller ett kanoniskt filnamn.
 readlink-usage = readlink [OPTION]... [FILE]...
+readlink-error-missing-operand = saknad operand
