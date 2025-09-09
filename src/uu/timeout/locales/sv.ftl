@@ -1,2 +1,10 @@
 timeout-about = Starta COMMAND och avsluta processen om den fortfarande kör efter DURATION.
 timeout-usage = timeout [OPTION] DURATION COMMAND...
+timeout-help-foreground = När timeout inte körs direkt från en shell-prompt, tillåt COMMAND att läsa från TTY och hämta TTY-signaler; i det här läget kommer underprocesser till COMMAND inte att få timeout
+timeout-help-kill-after = skicka även en KILL-signal om COMMAND fortfarande körs så här länge efter att den initiala signalen skickades
+timeout-help-preserve-status = avsluta med samma status som COMMAND, även när kommandot når tidsgränsen
+timeout-help-signal = Ange signalen som ska skickas vid timeout; SIGNAL kan vara ett namn som 'HUP' eller ett nummer; se 'kill -l' för en lista med signaler
+timeout-help-verbose = diagnostisera till standard-err alla signaler som skickas när tiden löper ut
+timeout-error-invalid-signal = { $signal }: ogiltig signal
+timeout-error-failed-to-execute-process = misslyckades att köra processen: { $error }
+timeout-verbose-sending-signal = skickar signal { $signal } till kommandot { $command }
