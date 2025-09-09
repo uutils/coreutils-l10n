@@ -33,3 +33,15 @@ basenc-help-base32 = samma som programmet 'base32'
 basenc-help-base32hex = utökat hexadecimalt alfabet base32
 basenc-help-base16 = hex-kodning
 base-common-no-such-file = { $file }: Fil eller katalog saknas
+basenc-help-base2lsbf = bitsträng med minst signifikant bit (lsb) först
+basenc-help-base2msbf = bitsträng med den mest signifikanta biten (msb) först
+basenc-help-z85 =
+    ascii85-liknande kodning;
+    Vid kodning måste längden på indata vara en multipel av 4;
+    Vid avkodning måste längden på indata vara en multipel av 5
+basenc-error-missing-encoding-type = saknad kodningstyp
+base-common-invalid-wrap-size = ogiltig linjelängd: { $size }
+base-common-read-error = läsfel: { $error }
+base-common-help-decode = avkoda data
+base-common-help-ignore-garbage = Ignorera icke-alfabetiska tecken vid avkodning
+base-common-help-wrap = radbryt kodade rader efter COLS-tecknet (standard { $default }, 0 för att inaktivera radbrytning)
