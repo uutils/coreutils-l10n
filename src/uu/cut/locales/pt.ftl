@@ -1,0 +1,1 @@
+cut-about = Imprime colunas especificadas de byte ou campo de cada linha de stdin ou de ficheiros de entrada
