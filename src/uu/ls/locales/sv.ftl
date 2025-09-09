@@ -9,3 +9,7 @@ ls-error-general-io = allmänt io-fel: { $error }
 ls-error-cannot-access-no-such-file = kan inte komma åt '{ $path }': Fil eller katalog saknas
 ls-error-cannot-access-operation-not-permitted = kan inte komma åt '{ $path }': Åtgärden är inte tillåten
 ls-error-cannot-open-directory-permission-denied = kan inte öppna katalogen '{ $path }': Åtkomst nekad
+ls-error-cannot-open-file-permission-denied = Kan inte öppna filen '{ $path }': Åtkomst nekad
+ls-error-cannot-open-directory-bad-descriptor = kan inte öppna katalogen '{ $path }': Felaktig fil-identifierare
+ls-error-unknown-io-error = okänt io-fel: '{ $path }', '{ $error }'
+ls-error-invalid-block-size = ogiltigt --block-size argument { $size }
