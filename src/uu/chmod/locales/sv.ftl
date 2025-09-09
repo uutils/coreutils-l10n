@@ -7,3 +7,4 @@ chmod-usage =
     chmod [OPTION]... --reference=RFILE FILE...
 chmod-after-help = Varje MODE är på formen [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+.
 chmod-help-print-help = Skriv ut hjälpinformation.
+chmod-error-missing-operand = saknad operand
