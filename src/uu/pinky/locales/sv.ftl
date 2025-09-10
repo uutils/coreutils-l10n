@@ -1,2 +1,3 @@
 pinky-about = Visar sammanfattad användarinformation på Unix-baserade system
 pinky-usage = pinky [OPTION]... [USER]...
+pinky-help-help = Skriv ut hjälpinformation
