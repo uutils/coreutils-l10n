@@ -1,2 +1,14 @@
 tee-about = Kopiera standard-in till varje FILE, och även till standard-ut.
 tee-usage = tee [OPTION]... [FILE]...
+tee-after-help = Om en FILE är -, hänvisar den till en fil med namnet - .
+tee-help-help = skriv ut hjälpinformation
+tee-help-append = lägg till i de angivna FILE(rna), skriv inte över
+tee-help-ignore-interrupts = ignorera avbrottssignaler (ignoreras på icke-Unix-plattformar)
+tee-help-ignore-pipe-errors = ange beteendet för skrivfel (ignoreras på icke-Unix-plattformar)
+tee-help-output-error = ange beteendet för skrivfel
+tee-help-output-error-warn = producera varningar för fel som uppstår när det skrivs till någon utdata
+tee-help-output-error-warn-nopipe = producera varningar för fel som inte är rör-fel (ignoreras på icke-Unix-plattformar)
+tee-help-output-error-exit = avsluta om fel uppstår när det skrivs till någon utdata
+tee-help-output-error-exit-nopipe = avsluta om icke-rör-fel uppstår när det skrivs till någon utdata (ignoreras på icke-Unix-plattformar)
+tee-error-stdin = standard-in: { $error }
+tee-standard-output = 'standard-ut'
