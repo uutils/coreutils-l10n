@@ -1,3 +1,9 @@
 mkfifo-about = Skapa en FIFO med det angivna namnet.
 mkfifo-usage = mkfifo [OPTION]... NAME...
 mkfifo-error-missing-operand = saknad operand
+mkfifo-help-mode = filbehörigheter för fifo
+mkfifo-help-selinux = ställ in SELinux säkerhetskontexten till standardtyp
+mkfifo-help-context = som -Z, eller om CTX anges, sätt då SELinux- eller SMACK-säkerhetskontexten till CTX
+mkfifo-error-invalid-mode = ogiltigt modus: { $error }
+mkfifo-error-cannot-create-fifo = kan inte skapa fifo { $path }: Filen finns
+mkfifo-error-cannot-set-permissions = kan inte ange behörigheter för { $path }: { $error }
