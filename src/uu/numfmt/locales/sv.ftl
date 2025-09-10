@@ -1,2 +1,3 @@
 numfmt-about = Konvertera tal från/till mänskligt läsbara strängar
 numfmt-usage = numfmt [OPTION]... [NUMBER]...
+numfmt-help-zero-terminated = radavgränsare är NUL, inte nyrad
