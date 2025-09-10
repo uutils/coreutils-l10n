@@ -1,2 +1,3 @@
 realpath-about = Skriv ut den beräknade sökvägen
 realpath-usage = realpath [OPTION]... FILE...
+realpath-help-quiet = Skriv inte ut varningar för ogiltiga sökvägar
