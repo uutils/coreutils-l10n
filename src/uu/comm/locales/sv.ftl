@@ -8,3 +8,4 @@ comm-about =
     och kolumn tre innehåller rader gemensamma för båda filerna.
 comm-usage = comm [OPTION]... FILE1 FILE2
 comm-help-column-1 = undertryck kolumn 1 (rader unika för FILE1)
+comm-help-zero-terminated = radavgränsare är NUL, inte nyrad
