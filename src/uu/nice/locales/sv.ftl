@@ -3,3 +3,4 @@ nice-about =
     Utan COMMAND, skriv ut den aktuella nicenessen. Niceness-värdena varierar från -20
     (mest gynnsam för processen) till 19 (minst gynnsam för processen).
 nice-usage = nice [OPTION] [COMMAND [ARG]...]
+nice-error-command-required-with-adjustment = Ett kommando måste ges med en justering.
