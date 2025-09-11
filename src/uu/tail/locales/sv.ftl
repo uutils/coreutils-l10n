@@ -4,3 +4,4 @@ tail-about =
     Utan FILE, eller när FILE är -, läs standard-in.
     Obligatoriska argument till långa flaggor är obligatoriska även för korta flaggor.
 tail-usage = tail [FLAG]... [FILE]...
+tail-help-bytes = Antal byte att skriva ut
