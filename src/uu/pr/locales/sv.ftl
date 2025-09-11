@@ -13,5 +13,24 @@ pr-help-header =
     Använd strängrubriken för att ersätta filnamnet
                     i rubrikraden.
 pr-help-double-space =
-    Skapa utdata med dubbelt radavstånd. Ett extra &lt;newline&gt;-tecken
-                    matas ut efter varje <newline> som finns i indata.
+    Skapa utdata med dubbelt radavstånd. Ett extra <radbryt>-tecken
+                    matas ut efter varje < radbryt > som finns i indata.
+pr-help-number-lines =
+    Ange siffror för radnumrering i bredd. Standardvärdet för bredd,
+                    om inget anges, är 5. Numret upptar den första breddkolumnens positioner
+                    i varje textkolumn eller varje rad i -m-utdata. Om char
+                    (valfritt tecken som inte är siffror) anges läggs det till radnumret
+                    för att separera det från det som följer. Standardvärdet för char är <tab>.
+                    Radnummer som är längre än breddkolumner avkortas.
+pr-help-first-line-number = börja räkna med NUMBER på första raden på den första utskrivna sidan
+pr-help-omit-header =
+    Skriv varken den femradiga identifierande rubriken eller den femradiga
+                    trailern som vanligtvis medföljer varje sida. Sluta skriva efter den sista raden
+                    i varje fil utan radavstånd till slutet av sidan.
+pr-help-page-length =
+    Åsidosätt standardvärdet på 66 rader (standardantal textrader är 56,
+                    och med -F 63) och återställ sidlängden till rader. Om rader inte är
+                    större än summan av både sidhuvudets och släpradets djup (i rader),
+                    ska pr-verktyget undertrycka både sidhuvudet och släpradsdjupet,
+                    som om -t alternativet vore aktivt.
+pr-help-no-file-warnings = utelämna varningen när en fil inte kan öppnas
