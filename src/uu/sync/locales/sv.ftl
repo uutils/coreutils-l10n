@@ -1,2 +1,11 @@
 sync-about = Synkronisera cachade skrivningar till permanent lagring
 sync-usage = sync [OPTION]... FILE...
+sync-help-file-system = synkronisera filsystemen som innehåller filerna (endast Linux och Windows)
+sync-help-data = synkronisera endast fildata, inga onödiga metadata (endast Linux)
+sync-error-data-needs-argument = --data behöver minst ett argument
+sync-error-opening-file = fel vid öppning av { $file }
+sync-error-no-such-file = fel vid öppning av { $file }: Fil eller katalog saknas
+sync-error-flush-file-buffer = misslyckades med att skriva filbufferten till disk
+sync-error-create-volume-handle = misslyckades med att skapa volymreferens
+sync-error-find-first-volume = misslyckades med att hitta första volymen
+sync-error-find-next-volume = kunde inte hitta nästa volym
