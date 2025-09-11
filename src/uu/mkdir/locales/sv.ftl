@@ -1,2 +1,3 @@
 mkdir-about = Skapa den/de angivna DIRECTORY(ies) om de inte finns
 mkdir-usage = mkdir [OPTION]... DIRECTORY...
+mkdir-after-help = Varje MODE är på formen [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+.
