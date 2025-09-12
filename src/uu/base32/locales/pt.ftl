@@ -30,3 +30,5 @@ basenc-help-base64 = o mesmo que o programa 'base64'
 basenc-help-base32 = o mesmo que o programa 'base32'
 basenc-help-base32hex = alfabeto hex estendido base32
 basenc-help-base16 = codificação hex
+basenc-help-base2lsbf = cadeia bit com o bit menos significativo (lsb) primeiro
+basenc-help-base2msbf = cadeia bit com o bit mais significativo (msb) primeiro
