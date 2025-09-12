@@ -32,3 +32,16 @@ basenc-help-base32hex = alfabeto hex estendido base32
 basenc-help-base16 = codificação hex
 basenc-help-base2lsbf = cadeia bit com o bit menos significativo (lsb) primeiro
 basenc-help-base2msbf = cadeia bit com o bit mais significativo (msb) primeiro
+basenc-help-z85 =
+    codificação semelhante a ascii85;
+    ao codificar, o comprimento de entrada deve ser um múltiplo de 4;
+    ao descodificar, o comprimento de entrada deve ser um múltiplo de 5
+basenc-error-missing-encoding-type = falta tipo de codificação
+base-common-extra-operand = operando adicional { $operand }
+base-common-no-such-file = { $file }: nenhum ficheiro ou diretório desse
+base-common-read-error = erro de leitura: { $error }
+base-common-help-decode = descodificar dados
+base-common-help-ignore-garbage = ao descodificar, ignorar caracteres não-alfabéticos
+base-common-help-wrap = embrulhar linhas codificadas após o carácter COLS (predefinição { $default }, 0 para desativar o embrulho)
+base-common-invalid-wrap-size = tamanho de embrulho inválido: { $size }
+basenc-help-base64url = base64 seguro para ficheiros e URLs
