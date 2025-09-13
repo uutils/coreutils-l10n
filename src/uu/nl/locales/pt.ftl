@@ -1,2 +1,3 @@
 nl-about = Quantidade de linhas de ficheiros
 nl-usage = nl [OPÇÃO]... [FICHEIRO]...
+nl-help-help = Imprimir informações de ajuda.
