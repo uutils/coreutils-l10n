@@ -1,3 +1,9 @@
 fmt-usage = { "[" }OPÇÃO]... [OPÇÃO]...
 fmt-error-cannot-open-for-reading = não pode abrir { $file } para leitura
 fmt-error-cannot-get-metadata = não pode obter metadados para { $file }
+fmt-about = Reformatar parágrafos da entrada (ou a entrada predefinida) para o stdout.
+fmt-tagged-paragraph-help = Como -c, exceto que a primeira e a segunda linha de um parágrafo *devem* ter recuos diferentes, caso contrário serão tratadas como parágrafos separados.
+fmt-preserve-headers-help = Tentar detetar e preservar cabeçalhos de correio na entrada. Tenha cuidado ao combinar este indicador com -p.
+fmt-split-only-help = Somente dividir linhas, não refluar.
+fmt-uniform-spacing-help = Insira exatamente um espaço entre palavras e duas entre frases. As quebras de frase na entrada são detetadas como [?!.] seguidas por dois espaços ou uma linha nova; outra pontuação não é interpretada como uma quebra de frase.
+fmt-prefix-help = Reformatar apenas linhas que começam com PREFIXO, a reconfigurar PREFIXO para linhas reformatadas. A menos que o -x seja especificado, o espaço em branco principal será ignorado ao corresponder com o PREFIXO.
