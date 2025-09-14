@@ -22,8 +22,8 @@ expr-after-help =
     - ARG1 * ARG2: produto aritmético de ARG1 e ARG2
     - ARG1 / ARG2: quociente aritmético de ARG1 dividido por ARG2
     - ARG1 % ARG2: resto aritmético de ARG1 dividido por ARG2
-    - CADEIA : EXPREG: correspondência de padrão ancorado de EXPREG em CADEIA
-    - match CADEIA EXPREG: igual à CADEIA : EXPREG
+    - CADEIA : REGEX: correspondência de padrão ancorado de REGEX em CADEIA
+    - match CADEIA REGEX: igual à CADEIA : REGEX
     - substr CADEIA POS COMPRIMENTO: subcadeia de CADEIA, POS contado a partir de 1
     - index CADEIA CHARS: índice na CADEIA onde qualquer CHARS é encontrado, ou 0
     - length CADEIA: comprimento de CADEIA
@@ -50,3 +50,14 @@ expr-error-unexpected-argument = erro de sintaxe: argumento inesperado { $arg }
 expr-help-version = emitir informações da versão e sair
 expr-help-help = exibir esta ajuda e saír
 expr-error-missing-argument = erro de sintaxe: argumento falta após { $arg }
+expr-error-non-integer-argument = argumento não é um inteiro
+expr-error-division-by-zero = divisão por zero
+expr-error-invalid-regex-expression = Expressão regex inválida
+expr-error-expected-closing-brace-after = erro de sintaxe: ')' esperado após { $arg }
+expr-error-expected-closing-brace-instead-of = erro de sintaxe: esperado ')' em vez de { $arg }
+expr-error-unmatched-opening-parenthesis = Impar (ou \(
+expr-error-unmatched-closing-parenthesis = Impar )ou \)
+expr-error-unmatched-opening-brace = Impar { "\\{" }
+expr-error-invalid-bracket-content = Conteúdo inválido de { "\\{\\}" }
+expr-error-trailing-backslash = Contrabarra no fim
+expr-error-too-big-range-quantifier-index = A expressão regular é grande demais
