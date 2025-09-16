@@ -1,0 +1,13 @@
+hostname-about = Exibir ou definir o nome de anfitrião do sistema.
+hostname-usage = hostname [OPÇÃO]... [NOMEANFITRIÃO]
+hostname-help-domain = Exibir o nome do domínio DNS se possível
+hostname-help-ip-address = Exibir o(s) endereço(s) de rede do anfitrião
+hostname-help-fqdn = Exibir o FQDN (nome de domínio totalmente qualificado) (predefinição)
+hostname-help-short = Exibir o nome de anfitrião curto (a parte antes do primeiro ponto) se possível
+hostname-error-permission = hostname: deve ser root para alterar o nome do anfitrião
+hostname-error-invalid-name = hostname: nome do anfitrião '{ $name }' inválido
+hostname-error-resolve-failed = hostname: incapaz de resolver o nome do anfitrião '{ $name } '
+hostname-error-winsock = falha ao iniciar Winsock
+hostname-error-set-hostname = falha ao definir o nome do anfitrião
+hostname-error-get-hostname = falha ao obter o nome do anfitrião
+hostname-error-resolve-socket = falhou resolver os endereços do soquete
