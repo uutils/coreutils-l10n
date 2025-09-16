@@ -15,3 +15,24 @@ ls-error-cannot-open-directory-bad-descriptor = não pode abrir o diretório '{ 
 ls-error-unknown-io-error = erro de ES desconhecido: '{ $path }', '{ $error }'
 ls-error-dired-and-zero-incompatible = --dired e --zero são incompatíveis
 ls-error-not-listing-already-listed = { $path }: não listando diretório já listado
+ls-error-invalid-time-style =
+    argumento --time-style inválido { $style }
+    Os valores possíveis são: { $values }
+
+    Para mais informações tente --help
+ls-help-set-display-format = Defina o formato de exibição.
+ls-help-display-files-columns = Exibir os ficheiros em colunas.
+ls-help-display-detailed-info = Exibir informações detalhadas.
+ls-help-list-entries-rows = Listar entradas em linhas em vez de em colunas.
+ls-help-assume-tab-stops = Assume que o tab para em cada COLS em vez de 8
+ls-help-list-entries-commas = Lista de entradas separadas por vírgulas.
+ls-help-list-entries-nul = Lista de entradas separadas por caracteres ASCII NUL.
+ls-help-generate-dired-output = gerar saída preparada para o modo dired (Editor de Diretórios) da Emacs
+ls-help-hyperlink-filenames = hiperligar nomes de arquivo QUANDO
+ls-help-list-one-file-per-line = Listar um ficheiro por linha.
+ls-help-long-format-no-group =
+    Formato longo sem informações de grupo.
+    Idêntico para --format=long com --no-group.
+ls-help-long-no-owner = Formato longo sem informações do proprietário.
+ls-help-long-numeric-uid-gid = -l com UIDs e GIDs numéricos.
+ls-help-set-quoting-style = Definir estilo de citação.
