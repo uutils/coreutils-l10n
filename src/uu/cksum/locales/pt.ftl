@@ -27,6 +27,6 @@ cksum-help-length = resumir o comprimento em bits; não deve exceder o máximo p
 cksum-help-raw = emite um resumo binário bruto, não hexadecimal
 cksum-help-strict = saída não zero para linhas de somas de controlo incorretamente formatadas
 cksum-help-base64 = emite um resumo base64, não hexadecimal
-cksum-help-warn = avisar sobre linhas de somas de controlo incorretamente formatadas
+cksum-help-warn = avisar sobre linhas de somas de verificação incorretamente formatadas
 cksum-help-status = não emitir nada, código de estado mostra sucesso
 cksum-error-failed-to-read-input = falha ao ler a entrada
