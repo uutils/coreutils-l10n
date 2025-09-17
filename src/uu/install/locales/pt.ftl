@@ -1,0 +1,51 @@
+install-about =
+    Copiar FONTE para DEST ou múltiplas FONTE(s) para o DIRETÓRIO
+    existente, e definir modos de permissão e proprietário/grupo
+install-usage = install [OPÇÃO]... [FICHEIRO]...
+install-help-ignored = ignorado
+install-help-compare = comparar cada par de ficheiros de fonte e destino, e em alguns casos, não modificar o destino ao todo
+install-help-directory = tratar todos os argumentos como nomes de diretório. Criar todos os componentes dos diretórios especificados
+install-help-create-leading = criar todos os componentes iniciais de DEST exceto o último, depois copiar FONTE para DEST
+install-help-group = definir a propriedade do grupo, em vez do grupo atual do processo
+install-help-mode = definir modo de permissão (como no chmod), em vez de rwxr-xr-x
+install-help-owner = definir propriedade (apenas superutilizador)
+install-help-preserve-timestamps = aplicar tempos de acesso/modificação de ficheiros FONTE aos ficheiros de destino correspondentes
+install-help-strip = remover tabelas de símbolos (sem ação no Windows)
+install-help-strip-program = programa usado para remover binários (sem ação no Windows)
+install-help-target-directory = mover todos os argumentos FONTE para o DIRETÓRIO
+install-help-no-target-directory = tratar DEST como um ficheiro normal
+install-help-verbose = explicar o que está a ser feito
+install-help-preserve-context = preservar o contexto de segurança
+install-help-context = definir contexto de segurança de ficheiros e diretórios
+install-error-dir-needs-arg = { $util_name } com -d requer pelo menos um argumento.
+install-error-create-dir-failed = falha ao criar { $path }
+install-error-chmod-failed = falha ao fazer chmod { $path }
+install-error-chmod-failed-detailed = { $path }: chmod falhou com erro { $error }
+install-error-chown-failed = não conseguiu fazer chown { $path }: { $error }
+install-error-invalid-target = alvo inválido { $path }: nenhum ficheiro ou diretório desses
+install-error-target-not-dir = alvo { $path } não é um diretório
+install-error-backup-failed = não pode fazer backup de { $from } para { $to }
+install-error-install-failed = não pode instalar de { $from } para { $to }
+install-error-metadata-failed = erro de metadados
+install-error-invalid-user = utilizador inválido: { $user }
+install-error-invalid-group = grupo inválido: { $group }
+install-error-omitting-directory = a omitir diretório { $path }
+install-error-not-a-directory = falha ao aceder { $path }: não é um diretório
+install-error-override-directory-failed = não pode substituir diretório { $dir } com não-diretório { $file }
+install-error-same-file = '{ $file1 }' e '{ $file2 }' são o mesmo ficheiro
+install-error-extra-operand =
+    operando adicional { $operand }
+    { $usage }
+install-error-invalid-mode = Cadeia de modo inválido: { $error }
+install-error-mutually-exclusive-target = Opções --target-directory e --no-target-directory são mutuamente exclusivos
+install-error-mutually-exclusive-compare-preserve = Opções --compare e --preserve-timestamps são mutuamente exclusivos
+install-error-mutually-exclusive-compare-strip = Opções --compare e --strip são mutuamente exclusivos
+install-error-missing-file-operand = falta o operando de ficheiro
+install-error-missing-destination-operand = operando de ficheiro de destino ausente após '{ $path } '
+install-error-failed-to-remove = Falha ao remover o ficheiro existente { $path }. Erro: { $error }
+install-warning-compare-ignored = a opção --compare (-C) é ignorada quando especificar um modo com bits de não-permissão
+install-verbose-creating-directory = a criar diretório { $path }
+install-verbose-creating-directory-step = install: a criar diretório { $path }
+install-verbose-removed = removido { $path }
+install-verbose-copy = { $from } -> { $to }
+install-verbose-backup = (backup: { $backup })
