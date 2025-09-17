@@ -69,3 +69,6 @@ ls-help-sort-none =
     Não classificar; listar os ficheiros na ordem de serem armazenados no
     diretório.  Isto é especialmente útil quando listar diretórios muito grandes,
     pois não ordenar pode ser visivelmente mais rápido.
+ls-help-dereference-all =
+    Quando mostrar informações de ficheiros para uma ligação simbólica, mostrar informações para o
+    ficheiro que referência a ligação em vez da ligação em si.
