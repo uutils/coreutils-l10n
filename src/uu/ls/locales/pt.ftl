@@ -72,3 +72,34 @@ ls-help-sort-none =
 ls-help-dereference-all =
     Quando mostrar informações de ficheiros para uma ligação simbólica, mostrar informações para o
     ficheiro que referência a ligação em vez da ligação em si.
+ls-help-no-group = Não mostrar o grupo no formato longo.
+ls-help-author =
+    Mostrar autor no formato longo. Nas plataformas apoiadas,
+    o autor sempre combina com o proprietário do ficheiro.
+ls-help-all-files = Não ignorar ficheiros ocultos (ficheiros com nomes que começam com '.').
+ls-help-kibibytes =
+    predefinido a blocos de 1024 byte para o uso do sistema de ficheiros; usado 
+    apenas com -s e por totais de diretório
+ls-help-almost-all =
+    Num diretório, não ignorar todos os nomes de ficheiros que começam com '.',
+    apenas ignorar '.' e '..'.
+ls-help-dereference-dir-args =
+    Não seguir ligações simbólicas, exceto quando eles ligam a diretórios e são
+    dado como argumentos de linha de comando.
+ls-help-dereference-args = Não seguir ligações simbólicas, exceto quando dado como argumentos de linha de comando.
+ls-help-directory =
+    Apenas listar os nomes de diretórios, em vez de listar o conteúdo do diretório.
+    Isso não seguirá ligações simbólicas a menos que um de `--dereference-command-line
+    (-H)`, `--dereference (-L)`, ou `--dereference-command-line-symlink-to-dir` for
+    especificado.
+ls-help-human-readable = Imprimir tamanhos de ficheiro legíveis por humanos (por exemplo, 1K 234M 56G).
+ls-help-si = Imprimir tamanhos de ficheiros legíveis por humanos usando potências de 1000 em vez de 1024.
+ls-help-block-size = escala tamanhos por TAMANHO_BLOCO ao imprimi-los
+ls-help-print-inode = imprimir o número de índice de cada ficheiro
+ls-help-reverse-sort =
+    Inverter o método de ordenação, por exemplo, listar os ficheiros em ordem alfabética inversa,
+    do mais recente para o mais antigo, do menor para o maior ou qualquer outro.
+ls-help-recursive = Listar o conteúdo de todos os diretórios recursivamente.
+ls-help-terminal-width = Assumir que o terminal é COLS colunas larga.
+ls-help-allocation-size = imprimir o tamanho alocado de cada ficheiro, em blocos
+ls-help-color-output = Saída colorida com base no tipo de ficheiro.
