@@ -1,1 +1,1 @@
-cannot-get-system = Não é possivel obter o nome do sistema
+cannot-get-system = não é possível obter o nome do sistema
