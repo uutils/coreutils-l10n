@@ -103,3 +103,31 @@ ls-help-recursive = Listar o conteúdo de todos os diretórios recursivamente.
 ls-help-terminal-width = Assumir que o terminal é COLS colunas larga.
 ls-help-allocation-size = imprimir o tamanho alocado de cada ficheiro, em blocos
 ls-help-color-output = Saída colorida com base no tipo de ficheiro.
+ls-help-indicator-style =
+    Anexar indicador com estilo PALAVRA para nomes de entrada:
+    nenhum (predefinição), barra (-p), tipo de ficheiro (--file-type), classificar (-F)
+ls-help-classify =
+    Anexe um carácter a cada nome de ficheiro indicando o tipo de ficheiro. Além disso, para
+    ficheiros regulares que são executáveis, acrescente '*'. Os indicadores de tipo de ficheiro são
+    '/' para diretórios, '@' para ligações simbólicos, '|' para FIFOs, '=' para sockets,
+    '>' para portas e nada para ficheiros regulares. when pode ser omitido ou um dos seguintes:
+        none - Não classificar. Esta é a predefinição.
+        auto - Classificar apenas se a saída predefinida for um terminal.
+        always - Sempre classificar.
+    Especificar --classify e nenhum when é equivalente a --classify=always. Isso
+    não seguirá as ligações simbólicas listados na linha de comando, a menos que as opções
+    --dereference-command-line (-H), --dereference (-L) ou
+    --dereference-command-line-symlink-to-dir sejam especificadas.
+ls-help-file-type = O mesmo que --classify, mas não anexar '* '
+ls-help-slash-directories = Anexar o indicador / para diretórios.
+ls-help-time-style = formato de data/hora com -l; veja ESTILO_TEMPO abaixo
+ls-help-full-time = como -l --time-style=full-iso
+ls-help-context = imprimir qualquer contexto de segurança de cada ficheiro
+ls-help-group-directories-first =
+    diretórios de grupo antes de ficheiros; pode ser aumentada com
+    a opção --sort, mas qualquer uso de --sort=none (-U) desativa o agrupamento
+ls-invalid-quoting-style = { $program }: a ignorar o valor inválido da variável de ambiente QUOTING_STYLE: '{ $style } '
+ls-invalid-columns-width = a ignorar a largura inválida na variável de ambiente COLUMNS: { $width }
+ls-invalid-ignore-pattern = Esquema inválido para ignorar: { $pattern }
+ls-invalid-hide-pattern = Esquema inválido para esconder: { $pattern }
+ls-total = total { $size }
