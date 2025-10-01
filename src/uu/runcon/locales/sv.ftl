@@ -10,3 +10,7 @@ runcon-after-help =
     Observera att endast noggrant valda kontexter sannolikt kommer att köras.
 
     Om varken CONTEXT eller COMMAND anges, skrivs den aktuella säkerhetskontexten ut.
+runcon-help-user = Ange användaren USER i målsäkerhetskontexten.
+runcon-help-role = Ange rollen ROLE i målsäkerhetskontexten.
+runcon-help-type = Ange typen TYPE i målsäkerhetskontexten.
+runcon-help-range = Ange intervallet RANGE i målsäkerhetskontexten.
