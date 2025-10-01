@@ -8,3 +8,4 @@ join-help-a =
     skriv även ut oparningsbara rader från filen FILENUM,
     där FILENUM är 1 eller 2, vilket motsvarar FILE1 eller FILE2
 join-help-z = radavgränsare är NUL, inte nyrad
+join-help-v = som -a FILNUM, men undertryck sammanfogade rader
