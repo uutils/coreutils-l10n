@@ -92,3 +92,4 @@ cut-after-help =
     echo 'ab\\0cd' | cut -z -c 1
 
     kommer att resultera i 'a\\0c\\0'
+cut-error-is-directory = Är en katalog
