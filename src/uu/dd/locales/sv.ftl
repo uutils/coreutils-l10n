@@ -116,3 +116,4 @@ dd-after-help =
     - nocache: begär att operativsystemet släpper cachen.
     - noctty : tilldela inte en kontrollerande tty.
     - nofollow : följ inte systemlänkar.
+dd-error-failed-to-open = misslyckades med att öppna { $path }
