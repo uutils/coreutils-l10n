@@ -53,3 +53,14 @@ stat-after-help =
     OBS: ditt skal kan ha sin egen version av stat, som vanligtvis ersätter
     den version som beskrivs här. Se ditt skals dokumentation
     för mer information om de alternativ som stöds.
+stat-error-invalid-quoting-style = Ogiltig citeringsstil: { $style }
+stat-error-missing-operand =
+    operand saknas
+    Försök med 'stat --help' för mer information.
+stat-error-invalid-directive = { $directive }: ogiltigt direktiv
+stat-error-cannot-read-filesystem = kan inte läsa tabellen över monterade filsystem: { $error }
+stat-error-stdin-filesystem-mode = Att använda '-' för att ange standard-in fungerar inte i filsystemläge
+stat-error-cannot-read-filesystem-info = kan inte läsa filsysteminformation för { $file }: { $error }
+stat-error-cannot-stat = kan inte visa { $file }: { $error }
+stat-warning-backslash-end-format = bakåtsnedstreck i slutet av formatsträngen
+stat-warning-unrecognized-escape-x = okänd escapesekvens '\x'
