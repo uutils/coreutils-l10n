@@ -5,3 +5,4 @@ dircolors-after-help =
     Om FILE anges, läs den för att avgöra vilka färger som ska användas för
     vilka filtyper och filändelser. Annars används en förkompilerad databas.
     För mer information om formatet för dessa filer, kör 'dircolors --print-database'
+dircolors-help-bourne-shell = mata ut Bourne-skalkod för att ställa in LS_COLORS
