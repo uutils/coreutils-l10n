@@ -15,3 +15,4 @@ split-after-help =
     - l/K/N matar ut K:te av N till stdout utan att dela rader/poster
     - r/N som 'l' men använd round robin-fördelning
     - r/K/N likaså men matar bara ut K:te av N till stdout
+split-error-suffix-not-parsable = ogiltig suffixlängd: { $value }
