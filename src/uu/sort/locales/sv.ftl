@@ -12,3 +12,23 @@ sort-after-help =
 
     Giltiga alternativ är: MbdfhnRrV. De har prioritet över de globala alternativen för denna nyckel.
 sort-help-zero-terminated = radavgränsare är NUL, inte nyrad
+sort-open-failed = öppnandet misslyckades: { $path }: { $error }
+sort-parse-key-error = misslyckades med att läsa nyckeln { $key }: { $msg }
+sort-cannot-read = kan inte läsa: { $path }: { $error }
+sort-open-tmp-file-failed = kunde inte öppna den tillfälliga filen: { $error }
+sort-compress-prog-execution-failed = kunde inte köra komprimeringsprogrammet: errno { $code }
+sort-compress-prog-terminated-abnormally = { $prog } avslutades onormalt
+sort-cannot-create-tmp-file = kan inte skapa tillfällig fil i '{ $path }':
+sort-file-operands-combined =
+    extra operand '{ $file }'
+    filoperander kan inte kombineras med --files0-from
+    Försök med '{ $help } --help' för mer information.
+sort-multiple-output-files = flera angivna utdatafiler
+sort-minus-in-stdin = När man läser filnamn från standard-in är filnamnet '-' inte tillåtet
+sort-no-input-from = ingen indata från '{ $file }'
+sort-invalid-zero-length-filename = { $file }:{ $line_num }: ogiltigt filnamn med längden noll
+sort-options-incompatible = alternativen '-{ $opt1 }{ $opt2 }' är inkompatibla
+sort-invalid-key = ogiltig nyckel { $key }
+sort-failed-parse-field-index = misslyckades med att analysera fältindex { $field } { $error }
+sort-field-index-cannot-be-zero = fältindex kan inte vara 0
+sort-failed-parse-char-index = misslyckades med att analysera teckenindex { $char }: { $error }
