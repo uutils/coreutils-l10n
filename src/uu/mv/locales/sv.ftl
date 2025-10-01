@@ -16,3 +16,13 @@ mv-after-help =
     - all Detta är standardåtgärden när ett --update-alternativ inte anges, och resulterar i att alla befintliga filer i destinationen ersätts.
     - none Detta liknar alternativet --no-clobber, genom att inga filer i destinationen ersätts, men att hoppa över en fil orsakar inte heller ett fel.
     - äldre Detta är standardåtgärden när --update anges, och resulterar i att filer ersätts om de är äldre än motsvarande källfil.
+mv-help-strip-trailing-slashes = ta bort alla efterföljande snedstreck från varje SOURCE-argument
+mv-help-target-directory = flytta alla SOURCE-argument till DIRECTORY
+mv-help-no-target-directory = behandla DEST som en vanlig fil
+mv-help-verbose = förklara vad som görs
+mv-help-progress =
+    Visa en förloppsindikator.
+    Obs: den här funktionen stöds inte av GNU coreutils.
+mv-help-debug = förklara hur en fil kopieras. Innebär -v
+mv-error-no-such-file = kan inte ange { $path }: Fil eller katalog saknas
+mv-error-will-not-overwrite-just-created = kommer inte att skriva över den just skapade '{ $target }' med '{ $source }'
