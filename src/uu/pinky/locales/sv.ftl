@@ -6,3 +6,6 @@ pinky-about-musl-warning =
     eller saknad användarinformation på grund av musls stub-implementering av
     `utmpx`-funktioner. Denna begränsning påverkar möjligheten att hämta
     korrekt information om inloggade användare.
+pinky-long-usage-description =
+    Ett lättviktigt 'finger'-program; skriv ut användarinformation.
+    utmp-filen kommer att
