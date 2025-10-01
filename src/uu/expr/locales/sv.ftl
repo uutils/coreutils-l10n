@@ -46,3 +46,4 @@ expr-after-help =
     - EXPR_DEBUG_RPN=1: dumpa uttryck representerat i omvänd polerad notation
     - EXPR_DEBUG_SYA_STEP=1: dumpa varje parsersteg
     - EXPR_DEBUG_AST=1: dumpa uttryck representerat abstrakt syntaxträd
+expr-help-version = skriv versionsinformation och avsluta
