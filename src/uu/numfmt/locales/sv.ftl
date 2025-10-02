@@ -36,3 +36,6 @@ numfmt-after-help =
     Valfritt breddvärde (%10f) fyller ut utdata. Valfritt nollvärde (%010f) bredd
     fyller ut talet med noll. Valfritt negativt värde (%-10f) vänsterjusteras.
     Valfritt precision (%.1f) åsidosätter den precision som bestäms av indata.
+numfmt-help-delimiter = använd X istället för blanksteg för fältavgränsare
+numfmt-help-field = ersätt siffrorna i dessa inmatningsfält; se FIELDS nedan
+numfmt-help-format = använd flyttal i printf-stil; se FORMAT nedan för mer information
