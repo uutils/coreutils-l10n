@@ -64,3 +64,22 @@ stat-error-cannot-read-filesystem-info = kan inte läsa filsysteminformation fö
 stat-error-cannot-stat = kan inte visa { $file }: { $error }
 stat-warning-backslash-end-format = bakåtsnedstreck i slutet av formatsträngen
 stat-warning-unrecognized-escape-x = okänd escapesekvens '\x'
+stat-warning-incomplete-hex-escape = ofullständig hex-escapesekvens '\x'
+stat-warning-unrecognized-escape = okänd escapesekvens '\{ $escape }'
+stat-help-dereference = följ länkar
+stat-help-file-system = visa filsystemets status istället för filstatus
+stat-help-terse = skriv ut informationen i kortfattad form
+stat-help-format =
+    använd det angivna FORMAT istället för standardvärdet;
+    mata ut en nyrad efter varje användning av FORMAT
+stat-help-printf =
+    som --format, men tolka escapesekvenser med bakåtsnedstreck-tecken,
+    och mata inte ut en obligatorisk avslutande nyrad;
+    om du vill ha en nyrad, inkludera \n i FORMAT
+stat-word-file = Fil
+stat-word-id = ID
+stat-word-namelen = Namnlängd
+stat-word-type = Typ
+stat-word-total = total
+stat-word-free = Fritt
+stat-word-available = Tillgängligt
