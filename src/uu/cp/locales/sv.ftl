@@ -19,3 +19,13 @@ cp-after-help =
     - all Detta är standard när ett --update-alternativ inte anges, och resulterar i att alla befintliga filer i destinationen ersätts.
     - none Detta liknar alternativet --no-clobber, i det att inga filer i destinationen ersätts, men att hoppa över en fil orsakar inte heller ett fel.
     - older Detta är standardåtgärden när --update anges, och resulterar i att filer ersätts om de är äldre än motsvarande källfil.
+cp-help-target-directory = kopiera alla SOURCE-argument till målkatalogen
+cp-help-no-target-directory = Behandla DEST som en vanlig fil och inte en katalog
+cp-help-interactive = fråga innan filer skrivs över
+cp-help-link = hårdlänka filer istället för att kopiera
+cp-help-no-clobber = skriv inte över filer som redan finns
+cp-help-recursive = kopiera kataloger rekursivt
+cp-help-strip-trailing-slashes = ta bort alla efterföljande snedstreck från varje SOURCE-argument
+cp-help-debug = förklara hur en fil kopieras. Innebär -v
+cp-help-verbose = tydligt ange vad som görs
+cp-error-missing-file-operand = saknad filoperand
