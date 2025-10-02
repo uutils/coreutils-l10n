@@ -26,3 +26,6 @@ mv-help-progress =
 mv-help-debug = förklara hur en fil kopieras. Innebär -v
 mv-error-no-such-file = kan inte ange { $path }: Fil eller katalog saknas
 mv-error-will-not-overwrite-just-created = kommer inte att skriva över den just skapade '{ $target }' med '{ $source }'
+mv-error-cannot-stat-not-directory = kan inte läsa { $path }: Inte en katalog
+mv-error-same-file = { $source } och { $target } är samma fil
+mv-error-self-target-subdirectory = kan inte flytta { $source } till en underkatalog till sig själv, { $target }
