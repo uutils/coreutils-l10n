@@ -9,3 +9,6 @@ join-help-a =
     där FILENUM är 1 eller 2, vilket motsvarar FILE1 eller FILE2
 join-help-z = radavgränsare är NUL, inte nyrad
 join-help-v = som -a FILNUM, men undertryck sammanfogade rader
+join-help-e = ersätt saknade inmatningsfält med EMPTY
+join-help-i = ignorera skillnader i versaler/gemener vid jämförelse av fält
+join-help-j = motsvarar '-1 FÄLT -2 FÄLT'
