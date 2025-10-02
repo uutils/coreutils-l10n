@@ -10,3 +10,6 @@ id-after-help =
     Om en användare (inloggningsnamn eller användar-ID) anges visas
     användar- och grupp-ID:na för den användaren. I det här fallet antas
     de verkliga och effektiva ID:na vara desamma.
+id-context-help-disabled = skriv endast ut processens säkerhetskontext (ej aktiverad)
+id-context-help-enabled = skriv endast ut processens säkerhetskontext
+id-error-names-real-ids-require-flags = att endast skriva ut namn eller riktiga ID-nummer kräver -u, -g eller -G
