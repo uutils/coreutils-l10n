@@ -60,3 +60,43 @@ ls-help-time-access =
 ls-help-hide-pattern = skriv inte ut implicita poster som matchar PATTERN (åsidosatt av -a eller -A)
 ls-help-ignore-pattern = skriv inte ut implicita poster som matchar PATTERN
 ls-help-ignore-backups = Ignorera poster som slutar med ~.
+ls-help-sort-by-field = Sortera efter <field>: namn, inget (-U), tid (-t), storlek (-S), tillägg (-X) eller bredd
+ls-help-sort-by-size = Sortera efter filstorlek, störst först.
+ls-help-sort-by-time = Sortera efter ändringstid ('mtime' i inoden), nyaste först.
+ls-help-sort-by-version = Naturliga sortering av (versions-)nummer i filnamnen.
+ls-help-sort-by-extension = Sortera alfabetiskt baserat på filtyp.
+ls-help-sort-none =
+    Sortera inte; lista filerna i den ordning de är lagrade i
+    katalogen. Detta är särskilt användbart när man listar mycket stora kataloger,
+    eftersom det kan gå märkbart snabbare att inte göra någon sortering.
+ls-help-dereference-all =
+    När du visar filinformation för en symbolisk länk, visa information
+    för filen som länken refererar till snarare än själva länken.
+ls-help-dereference-dir-args =
+    Följ inte symboliska länkar förutom när de länkar till kataloger
+    och anges som kommandoradsargument.
+ls-help-dereference-args = Följ inte symboliska länkar förutom när de anges som kommandoradsargument.
+ls-help-no-group = Visa inte gruppen i långt format.
+ls-help-author =
+    Visa författaren i långt format. På de plattformar som
+    stöds matchar författaren alltid filägaren.
+ls-help-all-files = Ignorera inte dolda filer (filer med namn som börjar med '.').
+ls-help-almost-all =
+    I en katalog, ignorera inte alla filnamn som börjar med '.',
+    ignorera endast '.' och '..'.
+ls-help-directory =
+    Lista endast namnen på kataloger, snarare än kataloginnehåll.
+    Detta kommer inte att följa symboliska länkar om inte en av
+    `--dereference-command-line (-H), `--dereference (-L)` eller
+    `--dereference-command-line-symlink-to-dir` är angiven.
+ls-help-human-readable = Skriv ut filstorlekar som är läsbara för människor (t.ex. 1K 234M 56G).
+ls-help-kibibytes =
+    använd 1024-byte-block för filsystemanvändning som standard; används
+    endast med -s och totalsummor per katalog
+ls-help-si = Skriv ut läsbara filstorlekar med potensen 1000 istället för 1024.
+ls-help-block-size = skala storlekar med BLOCK_SIZE vid utskrift
+ls-help-print-inode = skriv ut indexnumret för varje fil
+ls-help-reverse-sort =
+    Sortera i motsatt riktning, oavsett sorteringsmetod, t.ex. lista filer i omvänd
+    alfabetisk ordning, yngst först, minst först eller vad som helst.
+ls-help-recursive = Lista innehållet i alla kataloger rekursivt.
