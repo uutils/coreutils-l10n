@@ -73,3 +73,13 @@ date-usage =
 
     TZ='America/Los_Angeles' date
 date-help-date = skriv ut tiden beskriven av STRING, inte 'nu'
+date-help-file = som --date; en gång för varje rad i DATEFILE
+date-help-iso-8601 =
+    utdatadatum/tid i ISO 8601-format.
+    FMT='date' för endast datum (standard),
+    'hours', 'minutes', 'seconds' eller 'ns'
+    för datum och tid med angiven precision.
+    Exempel: 2006-08-14T02:34:56-06:00
+date-help-rfc-email =
+    utdatadatum och tid i RFC 5322-format.
+    Exempel: mån, 14 aug 2006 02:34:56 -0600
