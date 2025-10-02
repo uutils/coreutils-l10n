@@ -16,3 +16,6 @@ split-after-help =
     - r/N som 'l' men använd round robin-fördelning
     - r/K/N likaså men matar bara ut K:te av N till stdout
 split-error-suffix-not-parsable = ogiltig suffixlängd: { $value }
+split-error-suffix-contains-separator = ogiltigt suffix { $value }, innehåller katalogavgränsare
+split-error-suffix-too-small = suffixlängden måste vara minst { $length }
+split-error-multi-character-separator = flerteckensavgränsare { $separator }
