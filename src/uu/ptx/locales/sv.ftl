@@ -9,3 +9,6 @@ ptx-usage =
 ptx-error-extra-operand = extra operand { $operand }
 ptx-help-auto-reference = skriv ut automatiskt genererade referenser
 ptx-help-traditional = uppförsel mer som System V 'ptx'
+ptx-help-flag-truncation = använd STRING för att flagga radavkortningar
+ptx-help-macro-name = makronamn att använda istället för 'xx'
+ptx-help-roff = generera utdata som roff-direktiv
