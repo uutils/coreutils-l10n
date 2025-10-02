@@ -13,3 +13,6 @@ ln-after-help =
     När hårda länkar skapas måste varje TARGET existera. Symboliska länkar
     kan innehålla godtycklig text; om den senare löses tolkas en relativ länk
     i förhållande till dess överordnade katalog.
+ln-error-cannot-stat = kan inte ange { $path }: Fil eller katalog saknas
+ln-error-will-not-overwrite = kommer inte att skriva över den just skapade '{ $target }' med '{ $source }'
+ln-help-force = ta bort befintliga destinationsfiler
