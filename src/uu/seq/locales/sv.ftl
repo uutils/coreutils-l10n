@@ -5,3 +5,6 @@ seq-usage =
     seq [OPTION]... FIRST INCREMENT LAST
 seq-error-no-arguments = saknad operand
 seq-help-separator = Avgränsningstecken (standard är \n)
+seq-help-terminator = Terminator-tecken (standard är \n)
+seq-help-equal-width = Jämna ut bredden på alla tal genom att fylla ut med nollor
+seq-help-format = använd flyttal i printf-FORMAT
