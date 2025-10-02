@@ -16,3 +16,8 @@ ln-after-help =
 ln-error-cannot-stat = kan inte ange { $path }: Fil eller katalog saknas
 ln-error-will-not-overwrite = kommer inte att skriva över den just skapade '{ $target }' med '{ $source }'
 ln-help-force = ta bort befintliga destinationsfiler
+ln-help-interactive = fråga om befintliga destinationsfiler ska tas bort
+ln-help-no-dereference =
+    behandla LINK_NAME som en vanlig fil om
+    det är en symbolisk länk till en katalog
+ln-help-logical = följ TARGETs som är symboliska länkar
