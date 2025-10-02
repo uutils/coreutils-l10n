@@ -7,3 +7,6 @@ install-help-target-directory = flytta alla SOURCE-argument till DIRECTORY
 install-help-no-target-directory = behandla DEST som en vanlig fil
 install-help-compare = jämför varje par av käll- och destinationsfiler, och i vissa fall, ändra inte destinationen alls
 install-error-missing-file-operand = saknad filoperand
+install-help-directory = behandla alla argument som katalognamn. skapa alla komponenter i de angivna katalogerna
+install-help-create-leading = skapa alla inledande komponenter i DEST utom den sista, kopiera sedan SOURCE till DEST
+install-help-group = ange gruppägarskap, istället för processens nuvarande grupp
