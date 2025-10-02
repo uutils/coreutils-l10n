@@ -117,3 +117,26 @@ dd-after-help =
     - noctty : tilldela inte en kontrollerande tty.
     - nofollow : följ inte systemlänkar.
 dd-error-failed-to-open = misslyckades med att öppna { $path }
+dd-error-failed-to-seek = misslyckades med att söka i utdatafilen
+dd-error-io-error = IO-fel
+dd-error-cannot-skip-offset = '{ $file }': kan inte hoppa till angiven position
+dd-error-cannot-skip-invalid = '{ $file }': kan inte hoppas över: Ogiltigt argument
+dd-error-cannot-seek-invalid = '{ $output }': kan inte söka: Ogiltigt argument
+dd-error-not-directory = sätter flaggor för '{ $file }': Inte en katalog
+dd-error-failed-discard-cache-input = misslyckades med att ta bort cachen för: 'standard-in'
+dd-error-failed-discard-cache-output = misslyckades med att ta bort cachen för: 'standard-ut'
+dd-error-unrecognized-operand = Okänd operand '{ $operand }'
+dd-error-multiple-format-table = Endast en av conv=ascii, conv=ebcdic eller conv=ibm kan anges
+dd-error-multiple-case = Endast ett av alternativen conv=lcase eller conv=ucase kan anges
+dd-error-multiple-block = Endast ett av alternativen conv=block eller conv=unblock kan anges
+dd-error-multiple-excl = Endast en ov conv=excl eller conv=nocreat kan anges
+dd-error-invalid-flag =
+    ogiltig inmatningsargument: ‘{ $flag }’
+    Försök med '{ $cmd } --help' för mer information.
+dd-error-conv-flag-no-match = Okänd conv=CONV -> { $flag }
+dd-error-multiplier-parse-failure = ogiltigt nummer: '{ $input }'
+dd-error-multiplier-overflow = Multiplikatorsträngen skulle överflöda på det aktuella systemet -> { $input }
+dd-error-block-without-cbs = conv=block eller conv=unblock specificerad utan cbs=N
+dd-error-status-not-recognized = status= LEVEL inte igenkänd -> { $level }
+dd-error-unimplemented = funktionen är inte implementerad på detta system -> { $feature }
+dd-error-bs-out-of-range = { $param }=N får inte plats i minnet
