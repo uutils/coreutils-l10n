@@ -47,3 +47,6 @@ expr-after-help =
     - EXPR_DEBUG_SYA_STEP=1: dumpa varje parsersteg
     - EXPR_DEBUG_AST=1: dumpa uttryck representerat abstrakt syntaxträd
 expr-help-version = skriv versionsinformation och avsluta
+expr-help-help = visa denna hjälp och avsluta
+expr-error-unexpected-argument = syntaxfel: oväntat argument { $arg }
+expr-error-missing-argument = syntaxfel: argument saknas efter { $arg }
