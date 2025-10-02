@@ -14,3 +14,4 @@ runcon-help-user = Ange användaren USER i målsäkerhetskontexten.
 runcon-help-role = Ange rollen ROLE i målsäkerhetskontexten.
 runcon-help-type = Ange typen TYPE i målsäkerhetskontexten.
 runcon-help-range = Ange intervallet RANGE i målsäkerhetskontexten.
+runcon-help-compute = Beräkna processövergångskontext innan modifikation.
