@@ -12,3 +12,6 @@ comm-help-zero-terminated = radavgränsare är NUL, inte nyrad
 comm-error-is-directory = Är en katalog
 comm-error-multiple-conflicting-delimiters = flera motstridiga utdataavgränsare angivna
 comm-total = totalt
+comm-help-column-2 = undertryck kolumn 2 (rader unika för FILE2)
+comm-help-column-3 = undertryck kolumn 3 (rader som visas i båda filerna)
+comm-help-delimiter = separata kolumner med STR
