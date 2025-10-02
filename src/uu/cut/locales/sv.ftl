@@ -93,3 +93,6 @@ cut-after-help =
 
     kommer att resultera i 'a\\0c\\0'
 cut-error-is-directory = Är en katalog
+cut-help-bytes = filtrera bytekolumner från inmatningskällan
+cut-help-characters = alias för teckenläge
+cut-help-delimiter = Ange avgränsningstecknet som separerar fält i inmatningskällan. Standardinställningen är Tab.
