@@ -41,3 +41,7 @@ shred-after-help =
     Dessutom kan säkerhetskopior av filsystem och fjärrspeglar innehålla kopior av
     filen som inte kan tas bort, och som gör att en strimlad fil kan
     återställas senare.
+shred-missing-file-operand = saknad filoperand
+shred-invalid-number-of-passes = ogiltigt antal pass: { $passes }
+shred-cannot-open-random-source = kan inte öppna slump-källa: { $source }
+shred-invalid-file-size = ogiltig filstorlek: { $size }
