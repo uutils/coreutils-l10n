@@ -19,3 +19,7 @@ split-error-suffix-not-parsable = ogiltig suffixlängd: { $value }
 split-error-suffix-contains-separator = ogiltigt suffix { $value }, innehåller katalogavgränsare
 split-error-suffix-too-small = suffixlängden måste vara minst { $length }
 split-error-multi-character-separator = flerteckensavgränsare { $separator }
+split-error-multiple-separator-characters = flera avgränsningstecken angivna
+split-error-filter-with-kth-chunk = --filter bearbetar inte en chunk som extraherats till standard-ut
+split-error-invalid-io-block-size = ogiltig IO-blockstorlek: { $size }
+split-error-not-supported = --filter stöds för närvarande inte på den här plattformen
