@@ -96,3 +96,4 @@ cut-error-is-directory = Är en katalog
 cut-help-bytes = filtrera bytekolumner från inmatningskällan
 cut-help-characters = alias för teckenläge
 cut-help-delimiter = Ange avgränsningstecknet som separerar fält i inmatningskällan. Standardinställningen är Tab.
+cut-help-whitespace-delimited = Använd valfritt antal blanksteg (mellanslag, tabb) för att separera fält i inmatningskällan (FreeBSD-tillägg).
