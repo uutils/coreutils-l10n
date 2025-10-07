@@ -10,3 +10,7 @@ install-error-missing-file-operand = saknad filoperand
 install-help-directory = behandla alla argument som katalognamn. skapa alla komponenter i de angivna katalogerna
 install-help-create-leading = skapa alla inledande komponenter i DEST utom den sista, kopiera sedan SOURCE till DEST
 install-help-group = ange gruppägarskap, istället för processens nuvarande grupp
+install-help-mode = ställ in behörighetsläge (som i chmod), istället för rwxr-xr-x
+install-help-owner = ange ägarskap (endast superanvändare)
+install-help-preserve-timestamps = applicera åtkomst-/ändringstider för källfiler på motsvarande destinationsfiler
+install-help-strip = rensa symboltabeller (görs inte på Windows)
