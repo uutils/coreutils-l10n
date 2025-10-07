@@ -34,3 +34,6 @@ pr-help-page-length =
                     ska pr-verktyget undertrycka både sidhuvudet och släpradsdjupet,
                     som om -t alternativet vore aktivt.
 pr-help-no-file-warnings = utelämna varningen när en fil inte kan öppnas
+pr-help-form-feed =
+    Använd en <form-feed> för nya sidor, istället för standardbeteendet
+            som använder en sekvens av <newline>.
