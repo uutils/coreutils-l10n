@@ -1,0 +1,14 @@
+pathchk-about = Verifique se os nomes de ficheiros são válidos ou portáteis
+pathchk-usage = pathchk [OPÇÃO]... NOME...
+pathchk-help-posix = verificar para a maioria dos sistemas POSIX
+pathchk-help-posix-special = verificar para nomes vazios e com "-" no início
+pathchk-help-portability = verificar para todos os sistemas POSIX (equivalente a -p -P)
+pathchk-error-missing-operand = operando falta
+pathchk-error-empty-file-name = nome de ficheiro vazio
+pathchk-error-posix-path-length-exceeded = limite { $limit } excedido por comprimento { $length } do nome do ficheiro { $path }
+pathchk-error-posix-name-length-exceeded = limite { $limit } excedido por comprimento { $length } do componente do nome do ficheiro { $component }
+pathchk-error-leading-hyphen = hífen no início do componente do nome do ficheiro { $component }
+pathchk-error-path-length-exceeded = limite { $limit } excedido por comprimento { $length } do nome do ficheiro { $path }
+pathchk-error-name-length-exceeded = limite { $limit } excedido por comprimento { $length } do componente do nome do ficheiro { $component }
+pathchk-error-empty-path-not-found = pathchk: '': nenhum ficheiro ou diretório desses
+pathchk-error-nonportable-character = caractere não portátil '{ $character }' no componente do nome do ficheiro { $component }
