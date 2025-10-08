@@ -5,3 +5,5 @@ fmt-tagged-paragraph-help = Som -c, förutom att den första och andra raden i e
 fmt-preserve-headers-help = Försök att upptäcka och bevara e-postrubriker i indata. Var försiktig när du kombinerar denna flagga med -p.
 fmt-split-only-help = Dela endast linjer, omflöda inte.
 fmt-uniform-spacing-help = Infoga exakt ett mellanslag mellan ord och två mellan meningar. Meningsbrytningar i inmatningen detekteras som [?!.] följt av två mellanslag eller en nyrad; annan interpunktion tolkas inte som en meningsbrytning.
+fmt-prefix-help = Omformatera endast rader som börjar med PREFIX, och återkoppla PREFIX till omformaterade rader. Om inte -x anges kommer inledande blanksteg att ignoreras vid matchning av PREFIX.
+fmt-skip-prefix-help = Formatera inte om rader som börjar med PSKIP. Om inte -X anges kommer inledande blanksteg att ignoreras vid matchning av PSKIP
