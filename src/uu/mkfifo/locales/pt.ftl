@@ -1,0 +1,9 @@
+mkfifo-about = Criar um FIFO com o nome dado.
+mkfifo-usage = mkfifo [OPÇÃO]... NOME...
+mkfifo-help-mode = permissões de ficheiro para o fifo
+mkfifo-help-selinux = definir o contexto de segurança SELinux para o tipo predefinido
+mkfifo-help-context = como -Z, ou se CTX for especificado, defina o contexto de segurança SELinux ou SMACK para CTX
+mkfifo-error-invalid-mode = modo inválido: { $error }
+mkfifo-error-missing-operand = operando falta
+mkfifo-error-cannot-create-fifo = não pode criar fifo { $path }: o ficheiro existe
+mkfifo-error-cannot-set-permissions = não pode definir permissões em { $path }: { $error }
