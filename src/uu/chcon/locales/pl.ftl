@@ -1,4 +1,4 @@
-chcon-help-help = Wyświetla informacje dotyczące pomocy.
+chcon-help-help = Wypisuje informacje dotyczące pomocy.
 chcon-help-no-preserve-root = Nie traktuj „/” specjalnie (domyślne).
 chcon-help-recursive = Wykonuje operacje na plikach i katalogach rekurencyjnie.
 chcon-help-no-follow-symlinks = Nie przeglądaj żadnego dowiązania symbolicznego (domyślne). Ważne tylko wtedy, gdy określono -R.
