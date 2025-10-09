@@ -1,15 +1,15 @@
-printf-about = Wyświetla dane wyjściowe na podstawie ciągu formatującego i argumentów.
+printf-about = Wypisuje dane wyjściowe na podstawie ciągu formatującego i argumentów.
 printf-usage =
     printf FORMAT [ARGUMENT]...
     printf OPCJA
 printf-after-help =
     Podstawowe szablonowanie anonimowych ciągów znaków:
 
-    Wyświetla ciąg formatujący co najmniej raz, powtarzając tę czynność tak długo, jak długo istnieją argumenty.
-    Wyjście wyświetla literały ze znakami ucieczki w ciągu formatującym jako literały znakowe.
+    Wypisuje ciąg formatujący co najmniej raz, powtarzając tę czynność tak długo, jak długo istnieją argumenty.
+    Wyjście wypisuje literały ze znakami ucieczki w ciągu formatującym jako literały znakowe.
     Wyjście zastępuje pola anonimowe kolejnym nieużywanym argumentem, sformatowanym zgodnie z polem.
 
-    Wyświetla, zastępując sekwencje znaków ze znakami ucieczki literałami znakowymi.
+    Wypisuje, zastępując sekwencje znaków ze znakami ucieczki literałami znakowymi.
     i sekwencje pól podstawiania przekazanymi argumentami.
 
     Dosłownie, z wyjątkiem poniższych
@@ -72,7 +72,7 @@ printf-after-help =
                 poniżej tej szerokości jest uzupełniane wiodącymi zerami.
 
     - %q: ARGUMENT jest wyświetlany w formacie, który można ponownie wykorzystać jako dane wejściowe powłoki,
-                z użyciem znaków niewyświetlanych z proponowaną składnią POSIX $''.
+                z użyciem znaków niedrukowalnych z proponowaną składnią POSIX $''.
 
     - %f lub %F: wartość zmiennoprzecinkowa w notacji dziesiętnej
     - %e lub %E: wartość zmiennoprzecinkowa w notacji naukowej
@@ -118,7 +118,7 @@ printf-after-help =
 
     printf 'litera %X występuje przed literą %X' 10 11
 
-    wyświetli
+    wypisze
 
     litera A występuje przed literą B
 
@@ -164,7 +164,7 @@ printf-after-help =
           literału, którego kod zaczyna się od zera, będzie problematyczne, ponieważ będzie on wyświetlany jako w postaci \\0NNN.)
 
     - %q: ciąg ze znakami ucieczki – ciąg w formacie, który może być ponownie użyty jako dane wejściowe przez większość powłok.
-          Znaki niewyświetlane są zamieniane na znaki ucieczki za pomocą proponowanej przez POSIX składni „$”,
+          Znaki niedrukowalne są zamieniane na znaki ucieczki za pomocą proponowanej przez POSIX składni „$”,
           a metaznaki powłoki są odpowiednio cytowane.
           Jest to format równoważny z wyjściem ls --quoting=shell-escape.
 
@@ -251,5 +251,5 @@ printf-after-help =
     jest ustawiona)
 printf-error-missing-operand = brakujący argument
 printf-warning-ignoring-excess-arguments = ignorowanie nadmiarowego argumentu, zaczynanie od „{ $arg }”
-printf-help-version = Wyświetla informacje dotyczące wersji
-printf-help-help = Wyświetla informacje dotyczące pomocy
+printf-help-version = Wypisuje informacje dotyczące wersji
+printf-help-help = Wypisuje informacje dotyczące pomocy
