@@ -1,5 +1,5 @@
 basename-about =
-    Wyświetla NAZWĘ z usuniętymi początkowymi składnikami katalogu.
+    Wypisuje NAZWĘ z usuniętymi początkowymi składnikami katalogu.
     Jeśli określono, usuwa również końcowy SUFIKS
 basename-usage =
     basename [-z] NAZWA [SUFIKS]
