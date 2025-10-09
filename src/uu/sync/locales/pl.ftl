@@ -1,0 +1,11 @@
+sync-about = Synchronizowanie zapisu z pamięci podręcznej z trwałym magazynem
+sync-usage = sync [OPCJA]... PLIK...
+sync-help-file-system = synchronizuje systemy plików zawierające pliki (tylko Linux i Windows)
+sync-help-data = synchronizuje tylko dane pliku, bez zbędnych metadanych (tylko Linux)
+sync-error-data-needs-argument = --data potrzebuje co najmniej jednego argumentu
+sync-error-opening-file = błąd otwierania { $file }
+sync-error-no-such-file = błąd otwierania pliku { $file }: nie ma takiego pliku ani katalogu
+sync-error-flush-file-buffer = nie udało się opróżnić bufora pliku
+sync-error-create-volume-handle = nie udało się utworzyć uchwytu wolumenu
+sync-error-find-first-volume = nie znaleziono pierwszego wolumenu
+sync-error-find-next-volume = nie znaleziono następnego wolumenu
