@@ -1,4 +1,4 @@
-users-about = Wyświetla nazwy aktualnie zalogowanych użytkowników na bieżącym hoście.
+users-about = Wypisuje nazwy aktualnie zalogowanych użytkowników na bieżącym hoście.
 users-usage = users [PLIK]
 users-about-musl-warning =
     Ostrzeżenie: po skompilowaniu z biblioteką musl libc narzędzie `users` może pokazać
