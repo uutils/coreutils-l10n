@@ -1,0 +1,10 @@
+tac-about = Zapisz każdy plik na standardowym wyjściu, zaczynając od ostatniego wiersza.
+tac-usage = tac [OPCJA]... [PLIK]...
+tac-help-before = dołączanie separatora przed zamiast po
+tac-help-regex = interpretowanie sekwencji jako wyrażenia regularnego
+tac-help-separator = używanie NAPISU jako separatora zamiast nowego wiersza
+tac-error-invalid-regex = nieprawidłowe wyrażenie regularne: { $error }
+tac-error-invalid-argument = { $argument }: błąd odczytu: nieprawidłowy argument
+tac-error-file-not-found = nie udało się otworzyć pliku { $filename } do odczytu: nie ma takiego pliku ani katalogu
+tac-error-read-error = nie udało się odczytać { $filename }: { $error }
+tac-error-write-error = nie udało się zapisać do stdout: { $error }
