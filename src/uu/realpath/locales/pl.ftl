@@ -1,0 +1,11 @@
+realpath-about = Wypisuje rozwiązaną ścieżkę
+realpath-usage = realpath [OPCJA]... PLIK...
+realpath-help-quiet = Nie wypisuje ostrzeżeń o nieprawidłowych ścieżkach
+realpath-help-strip = Usuwa tylko komponenty „.” i „..”, ale nie rozwiązuje dowiązań symbolicznych
+realpath-help-zero = Oddziela nazwy plików wyjściowych znakiem \0 zamiast nowego wiersza
+realpath-help-logical = rozwiązuje komponenty „..” przed dowiązaniami symbolicznymi
+realpath-help-physical = rozwiązuje dowiązania symboliczne w miarę ich występowania (domyślnie)
+realpath-help-canonicalize-existing = normalizuje, podążając rekurencyjnie za każdym dowiązaniem symbolicznym w każdym składniku danej nazwy; wszystkie składniki muszą istnieć
+realpath-help-canonicalize-missing = normalizuje, podążając rekurencyjnie za każdym dowiązaniem symbolicznym w każdym składniku danej nazwy; bez wymagań dotyczących istnienia komponentów
+realpath-help-relative-to = wypisuje rozwiązaną ścieżkę względem KATALOGU
+realpath-help-relative-base = wypisuje ścieżki absolutne, chyba że ścieżki znajdują się poniżej KATALOGU
