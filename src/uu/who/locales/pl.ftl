@@ -1,1 +1,1 @@
-who-about = Wyświetl informacje o aktualnie zalogowanych użytkownikach.
+who-about = Wypisuje informacje o aktualnie zalogowanych użytkownikach.
