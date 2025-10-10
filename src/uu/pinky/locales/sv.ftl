@@ -12,3 +12,4 @@ pinky-long-usage-description =
 pinky-help-long-format = producera utdata på långt format för de angivna USERs
 pinky-help-omit-home-dir = utelämna användarens hemkatalog och skal i långt format
 pinky-help-omit-project-file = utelämna användarens projektfil i långt format
+pinky-help-omit-plan-file = utelämna användarens planfil i långt format
