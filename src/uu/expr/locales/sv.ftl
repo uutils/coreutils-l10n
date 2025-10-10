@@ -50,3 +50,4 @@ expr-help-version = skriv versionsinformation och avsluta
 expr-help-help = visa denna hjälp och avsluta
 expr-error-unexpected-argument = syntaxfel: oväntat argument { $arg }
 expr-error-missing-argument = syntaxfel: argument saknas efter { $arg }
+expr-error-non-integer-argument = icke-heltalsargument
