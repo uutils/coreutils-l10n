@@ -4,6 +4,6 @@ mkfifo-help-mode = uprawnienia plików dla FIFO
 mkfifo-help-selinux = ustawia kontekst zabezpieczeń SELinux na typ domyślny
 mkfifo-help-context = podobnie jak -Z, lub jeśli określono CTX, ustawia kontekst zabezpieczeń SELinux lub SMACK na CTX
 mkfifo-error-invalid-mode = nieprawidłowy tryb: { $error }
-mkfifo-error-missing-operand = brakujący argument
+mkfifo-error-missing-operand = brakujący operand
 mkfifo-error-cannot-create-fifo = nie można utworzyć FIFO { $path }: plik istnieje
 mkfifo-error-cannot-set-permissions = nie można ustawić uprawnień dla { $path }: { $error }
