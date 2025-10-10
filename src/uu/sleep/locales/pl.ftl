@@ -9,6 +9,6 @@ sleep-after-help =
     może być dowolną liczbą zmiennoprzecinkową. Mając dwa lub więcej argumentów,
     wstrzymaj na czas określony przez sumę ich wartości.
 sleep-error-missing-operand =
-    Brak argumentu
+    Brak operandu
     Wypróbuj '{ $program } --help', aby uzyskać więcej informacji.
 sleep-help-number = wstrzymuje na LICZBĘ sekund
