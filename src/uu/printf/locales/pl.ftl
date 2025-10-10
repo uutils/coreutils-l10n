@@ -249,7 +249,7 @@ printf-after-help =
     następnego znaku będzie interpretowany jako 8-bitowa liczba całkowita bez znaku. Jeśli są
     dodatkowe bajty, zgłoszą błąd (chyba że zmienna środowiskowa POSIXLY_CORRECT
     jest ustawiona)
-printf-error-missing-operand = brakujący argument
+printf-error-missing-operand = brakujący operand
 printf-warning-ignoring-excess-arguments = ignorowanie nadmiarowego argumentu, zaczynanie od „{ $arg }”
 printf-help-version = Wypisuje informacje dotyczące wersji
 printf-help-help = Wypisuje informacje dotyczące pomocy
