@@ -83,3 +83,8 @@ date-help-iso-8601 =
 date-help-rfc-email =
     utdatadatum och tid i RFC 5322-format.
     Exempel: mån, 14 aug 2006 02:34:56 -0600
+date-help-rfc-3339 =
+    utdatadatum/tid i RFC 3339-format.
+    FMT='datum', 'sekunder' eller 'ns'
+    för datum och tid med angiven precision.
+    Exempel: 2006-08-14 02:34:56-06:00
