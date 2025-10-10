@@ -29,3 +29,4 @@ cksum-help-raw = generera en rå binär hashsumma, inte hexadecimal
 cksum-help-base64 = generera en base64-hashsumma, inte hexadecimal
 cksum-help-zero = avsluta varje utmatningsrad med NUL, inte nyrad, och inaktivera kodning av filnamns
 cksum-error-is-directory = { $file }: Är en katalog
+cksum-error-failed-to-read-input = misslyckades med att läsa inmatningen
