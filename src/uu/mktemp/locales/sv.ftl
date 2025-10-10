@@ -5,3 +5,4 @@ mktemp-help-dry-run = skapa ingenting; skriv bara ut ett namn (osäkert)
 mktemp-help-quiet = Misslyckas tyst om ett fel uppstår.
 mktemp-help-suffix = Lägg till SUFFIX till TEMPLATE; SUFFIX får inte innehålla en sökvägsavgränsare. Detta alternativ är underförstått om TEMPLATE inte slutar med X.
 mktemp-template-type-file = fil
+mktemp-help-p = kortform av --tmpdir
