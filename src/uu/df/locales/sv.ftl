@@ -20,3 +20,4 @@ df-help-total = producera en totalsumma
 df-header-type = Typ
 df-total = total
 df-header-available = Tillgängligt
+df-help-human-readable = utskriftsstorlekar i läsbart format (t.ex. 1K 234M 2G)
