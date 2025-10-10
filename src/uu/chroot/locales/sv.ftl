@@ -5,3 +5,4 @@ chroot-help-userspec = Kolonseparerad sträng med användare och grupp att växl
 chroot-help-skip-chdir = Använd det här alternativet för att inte ändra arbetskatalogen till / efter att rotkatalogen har ändrats till newroot, d.v.s. inuti chrooten.
 chroot-error-skip-chdir-only-permitted = alternativet --skip-chdir endast tillåtet om NEWROOT är den gamla '/'
 chroot-error-cannot-enter = kan inte chroota till { $dir }: { $err }
+chroot-error-command-failed = misslyckades med att köra kommandot { $cmd }: { $err }
