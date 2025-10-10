@@ -7,3 +7,4 @@ expand-help-tabs = ha tabblägen med N teckens mellanrum, inte 8, eller använd 
 expand-help-no-utf8 = tolka inmatningsfilen som 8-bitars ASCII snarare än UTF-8
 expand-error-invalid-character = Tab-storleken innehåller ogiltiga tecken: { $char }
 expand-error-is-directory = { $file }: Är en katalog
+expand-error-specifier-not-at-start = { $specifier } Specifikationen finns inte i början av numret: { $number }
