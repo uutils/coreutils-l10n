@@ -5,18 +5,18 @@ ln-help-no-dereference =
     tratar NOME_LIGAÇÂO como um ficheiro normal se for uma
     ligação simbólica para um diretório
 ln-usage =
-    ln [OPÇÃO]... [-T] ALVO NOME_LIGAÇÃO
-    ln [OPÇÃO]... ALVO
-    ln [OPÇÃO]... ALVO... DIRETÓRIO
-    ln [OPÇÃO]... -t DIRETÓRIO ALVO...
-ln-help-logical = seguir ALVOs que são ligações simbólicas
+    ln [OPÇÃO]... [-T] DESTINO NOME_LIGAÇÃO
+    ln [OPÇÃO]... DESTINO
+    ln [OPÇÃO]... DESTINO... DIRETÓRIO
+    ln [OPÇÃO]... -t DIRETÓRIO DESTINO...
+ln-help-logical = seguir DESTINOs que são ligações simbólicas
 ln-help-physical = fazer ligações físicas diretamente para ligações simbólicas
 ln-help-symbolic = fazer ligações simbólicas em vez de ligações físicas
 ln-help-target-directory = especificar o DIRETÓRIO em que criar as ligações
 ln-help-no-target-directory = sempre tratar NOME_LIGAÇÃO como um ficheiro normal
 ln-help-relative = criar ligações simbólicas relativas ao local da ligação
 ln-help-verbose = imprimir nome de cada ficheiro com ligação
-ln-error-target-is-not-directory = o alvo { $target } não é um diretório
+ln-error-target-is-not-directory = o destino { $target } não é um diretório
 ln-error-same-file = { $file1 } e { $file2 } são o mesmo ficheiro
 ln-error-missing-destination = falta o operando de ficheiro de destino após { $operand }
 ln-error-extra-operand =
