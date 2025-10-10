@@ -14,3 +14,7 @@ install-help-mode = ställ in behörighetsläge (som i chmod), istället för rw
 install-help-owner = ange ägarskap (endast superanvändare)
 install-help-preserve-timestamps = applicera åtkomst-/ändringstider för källfiler på motsvarande destinationsfiler
 install-help-strip = rensa symboltabeller (görs inte på Windows)
+install-help-strip-program = program som används för att strippa binärfiler (ingen åtgärd i Windows)
+install-help-verbose = förklara vad som görs
+install-help-preserve-context = bevara säkerhetskontexten
+install-help-context = ange säkerhetskontext för filer och kataloger
