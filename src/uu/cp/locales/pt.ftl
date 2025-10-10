@@ -3,7 +3,7 @@ cp-usage =
     cp [OPÇÃO]... [-T] FONTE DEST
     cp [OPÇÃO]... FONTE... DIRETÓRIO
     cp [OPÇÃO]... -t DIRETÓRIO FONTE...
-cp-help-target-directory = copiar todos os argumentos FONTE para diretório-alvo
+cp-help-target-directory = copiar todos os argumentos FONTE para diretório-destino
 cp-help-no-target-directory = Tratar DEST como um ficheiro regular e não um diretório
 cp-help-interactive = perguntar antes de substituir ficheiros
 cp-help-link = fazer um hard-link de ficheiros em vez de copiar
@@ -42,7 +42,7 @@ cp-error-cannot-create-hard-link = não pode criar ligação física de { $dest 
 cp-error-cannot-copy-directory-into-itself = não pode copiar um diretório, { $source }, para si próprio, { $dest }
 cp-error-will-not-copy-through-symlink = não copiará { $source } através da ligação simbólica { $dest } recentemente criada
 cp-error-will-not-overwrite-just-created = não substituir o recentemente criado { $dest } com { $source }
-cp-error-target-not-directory = alvo: { $target } não é um diretório
+cp-error-target-not-directory = destino: { $target } não é um diretório
 cp-error-cannot-overwrite-directory-with-non-directory = não pode substituir diretório { $dir } com não-diretório
 cp-error-cannot-overwrite-non-directory-with-directory = não pode substituir não-diretório com diretório
 cp-error-with-parents-dest-must-be-dir = com --parents, o destino deve ser um diretório
