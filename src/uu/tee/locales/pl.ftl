@@ -1,0 +1,14 @@
+tee-about = Kopiuje standardowe wejście do każdego PLIKU, także na standardowe wyjście.
+tee-usage = tee [OPCJA]... [PLIK]...
+tee-after-help = Jeżeli PLIK ma nazwę -, oznacza to plik o nazwie -.
+tee-help-help = Wypisz pomoc
+tee-help-append = dołącza do podanych PLIKÓW, nie nadpisuje
+tee-help-ignore-interrupts = ignoruje sygnały przerwania (ignorowane na platformach innych niż Unix)
+tee-help-ignore-pipe-errors = ustawia zachowanie błędu zapisu (ignorowane na platformach innych niż Unix)
+tee-help-output-error = ustawia zachowanie błędu zapisu
+tee-help-output-error-warn = generuje ostrzeżenia o błędach podczas zapisu do dowolnego wyjścia
+tee-help-output-error-warn-nopipe = generuje ostrzeżenia dla błędów, które nie są błędami potoku (ignorowane na platformach innych niż Unix)
+tee-help-output-error-exit = wyjście w przypadku błędów zapisu do dowolnego wyjścia
+tee-help-output-error-exit-nopipe = wyjście w przypadku błędów zapisu do dowolnego wyjścia, które nie jest błędem potoku (odpowiednik wyjścia na platformach innych niż Unix)
+tee-error-stdin = stdin: { $error }
+tee-standard-output = „standardowe wyjście”
