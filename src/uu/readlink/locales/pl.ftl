@@ -1,0 +1,12 @@
+readlink-about = Wypisuje wartość dowiązania symbolicznego lub znormalizowaną nazwę pliku.
+readlink-usage = readlink [OPCJA]... [PLIK]...
+readlink-help-canonicalize = normalizuje, podążając rekurencyjnie za każdym dowiązaniem symbolicznym w każdym składniku danej nazwy; wszystkie składniki oprócz ostatniego muszą istnieć
+readlink-help-canonicalize-existing = normalizuje, podążając rekurencyjnie za każdym dowiązaniem symbolicznym w każdym składniku danej nazwy; wszystkie składniki muszą istnieć
+readlink-help-canonicalize-missing = normalizuje, podążając rekurencyjnie za każdym dowiązaniem symbolicznym w każdym składniku danej nazwy; bez wymagań dotyczących istnienia komponentów
+readlink-help-no-newline = nie wyprowadza końcowego ogranicznika
+readlink-help-quiet = wyłącza większość komunikatów o błędach
+readlink-help-silent = wyłącza większość komunikatów o błędach
+readlink-help-verbose = zgłasza komunikat o błędzie
+readlink-help-zero = oddziela wyjście z NUL zamiast nowego wiersza
+readlink-error-missing-operand = brakujący argument
+readlink-error-ignoring-no-newline = ignorowanie --no-newline z wieloma argumentami
