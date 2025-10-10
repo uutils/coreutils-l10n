@@ -16,3 +16,6 @@ chmod-help-changes = som argumentet utförlig men rapportera endast när en änd
 chmod-error-cannot-stat = kan inte läsa attribut för { $file }
 chmod-error-dangling-symlink = kan inte operera på dinglande symlänk { $file }
 chmod-error-no-such-file = kan inte komma åt { $file }: Fil eller katalog saknas
+chmod-error-preserve-root =
+    det är farligt att operera rekursivt på { $file }
+    chmod: använd --no-preserve-root för att åsidosätta den här säkerhetsåtgärden
