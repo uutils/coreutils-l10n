@@ -29,3 +29,5 @@ join-error-invalid-file-number = Ogiltigt filnummer i fältspecifikation: { $spe
 join-error-invalid-file-number-simple = ogiltigt filnummer: { $value }
 join-error-invalid-field-number = ogiltigt fältnummer: { $value }
 join-error-incompatible-fields = inkompatibla kopplingsfält { $field1 }, { $field2 }
+join-error-not-sorted = { $file }:{ $line_num }: är inte sorterad: { $content }
+join-error-input-not-sorted = inmatningen är inte sorterad
