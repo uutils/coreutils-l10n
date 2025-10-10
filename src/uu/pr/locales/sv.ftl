@@ -37,3 +37,17 @@ pr-help-no-file-warnings = utelämna varningen när en fil inte kan öppnas
 pr-help-form-feed =
     Använd en <form-feed> för nya sidor, istället för standardbeteendet
             som använder en sekvens av <newline>.
+pr-help-column-width =
+    Ställ in radbredden till breddkolumnpositioner för flera
+                     textkolumnutdata endast. Om alternativet -w inte anges och alternativet
+                     -s inte anges, ska standardbredden vara 72. Om alternativet -w inte anges
+                     och alternativet -s anges, ska standardbredden vara 512.
+pr-help-page-width =
+    sätt alltid sidbredden till PAGE_WIDTH (72) tecken,
+                     avkorta rader, förutom om -J-alternativet är inställt,
+                     ingen störning med -S eller -s
+pr-help-across =
+    Ändra effekten av alternativet - column så att kolumnerna fylls över
+                     sidan i en round-robin-ordning (till exempel, när kolumnen är 2, den
+                     första inmatningsraden är rubriken kolumn 1, den andra är rubriken
+                     kolumn 2, den tredje är den andra raden i kolumn 1, och så vidare).
