@@ -21,3 +21,10 @@ df-header-type = Typ
 df-total = total
 df-header-available = Tillgängligt
 df-help-human-readable = utskriftsstorlekar i läsbart format (t.ex. 1K 234M 2G)
+df-help-si = Motsvarande, men använd potenserna 1000 inte 1024
+df-help-inodes = lista inode-information istället för blockanvändning
+df-help-kilo = som --block-size=1K
+df-help-local = begränsa listning till lokala filsystem
+df-help-no-sync = anropa inte sync innan användningsinformation hämtas (standard)
+df-help-output = Använd utdataformatet som definieras av FIELD_LIST, eller skriv ut alla fält om FIELD_LIST utelämnas.
+df-help-portability = använd POSIX-utdataformat
