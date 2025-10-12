@@ -4,7 +4,7 @@ basename-about =
 basename-usage =
     basename [-z] NAZWA [SUFIKS]
     basename OPCJA... NAZWA...
-basename-error-missing-operand = brakujący operand
+basename-error-missing-operand = brak operandu
 basename-error-extra-operand = dodatkowy operand { $operand }
 basename-help-multiple = obsługuje wiele argumentów i traktuje każdy jako NAZWĘ
 basename-help-suffix = usuwa końcowy SUFIKS; implikuje -a
