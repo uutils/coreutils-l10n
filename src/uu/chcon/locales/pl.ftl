@@ -6,8 +6,8 @@ chcon-error-no-context-specified = Nie określono kontekstu
 chcon-error-no-files-specified = Nie wskazano plików
 chcon-error-data-out-of-range = Dane wykraczają poza zakres
 chcon-error-operation-failed = { $operation } nie powiodło się
-chcon-error-invalid-context = Nieprawidłowy kontekst bezpieczeństwa „{ $context }”.
-chcon-error-recursive-no-dereference-require-p = „--recursive” z opcją „--no-dereference” wymaga użycia flagi „-P”
+chcon-error-invalid-context = Nieprawidłowy kontekst bezpieczeństwa '{ $context }'.
+chcon-error-recursive-no-dereference-require-p = '--recursive' z opcją '--no-dereference' wymaga użycia flagi '-P'
 chcon-op-getting-security-context = Pobieranie kontekstu bezpieczeństwa
 chcon-op-getting-meta-data = Pobieranie metadanych
 chcon-op-modifying-root-path = Modyfikacja ścieżki głównej
@@ -15,7 +15,7 @@ chcon-op-reading-directory = Odczytywanie katalogu
 chcon-op-creating-security-context = Tworzenie kontekstu bezpieczeństwa
 chcon-about =
     Zmiana kontekstu bezpieczeństwa SELinux każdego PLIKU na KONTEKST.
-    Użycie flagi --reference zmieni kontekst bezpieczeństwa każdego PLIKU na ten z RFILE.
+    Użycie flagi --reference zmieni kontekst bezpieczeństwa każdego PLIKU na ten z PLIKU_WZ.
 chcon-usage =
     chcon [OPCJA]... KONTEKST PLIK...
     chcon [OPCJA]... [-u UŻYTKOWNIK] [-r ROLA] [-l ZAKRES] [-t TYP] PLIK...
@@ -32,7 +32,7 @@ chcon-help-follow-arg-dir-symlink = Jeśli argument wiersza poleceń jest dowią
 chcon-help-follow-dir-symlinks = Przeglądaj każde napotkane dowiązanie symboliczne do katalogu. Działa tylko z opcją -R.
 chcon-help-verbose = Wyświetla diagnostykę dla każdego przetworzonego pliku.
 chcon-error-operation-failed-on = { $operation } nie powiodło się przy operandzie { $operand }
-chcon-error-recursive-dereference-require-h-or-l = „--recursive” z opcją „--dereference” wymaga użycia flagi „-H” albo „-L”
+chcon-error-recursive-dereference-require-h-or-l = '--recursive' z opcją '--dereference' wymaga użycia flagi '-H' albo '-L'
 chcon-op-file-name-validation = Walidacja nazwy pliku
 chcon-op-accessing = Uzyskiwanie dostępu
 chcon-op-reading-cyclic-directory = Odczytywanie katalogu cyklicznego
