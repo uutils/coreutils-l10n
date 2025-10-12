@@ -19,5 +19,5 @@ shuf-error-failed-to-open-random-source = nie udało się otworzyć losowego źr
 shuf-error-read-error = błąd odczytu
 shuf-error-no-lines-to-repeat = brak wierszy do powtórzenia
 shuf-error-start-exceeds-end = początek przekracza koniec
-shuf-error-missing-dash = brakuje „-”
+shuf-error-missing-dash = brak '-'
 shuf-error-write-failed = zapis nieudany
