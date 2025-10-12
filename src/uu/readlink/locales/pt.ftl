@@ -1,2 +1,12 @@
 readlink-help-quiet = suprimir a maioria das mensagens de erros
 readlink-help-silent = suprimir a maioria das mensagens de erros
+readlink-about = Imprimir valor de uma ligação simbólica ou nome de ficheiro canónico.
+readlink-usage = readlink [OPÇÃO]... [FICHEIRO]...
+readlink-help-canonicalize = canonizar seguindo recursivamente todas as ligações simbólicas em todos os componentes do nome fornecido; todos os componentes devem existir, menos o último
+readlink-help-canonicalize-existing = canonizar seguindo cada ligação simbólica em cada componente do nome dado recursivamente, todos os componentes devem existir
+readlink-help-canonicalize-missing = canonizar seguindo cada ligação simbólica em cada componente do nome dado recursivamente, sem requisitos na existência de componentes
+readlink-help-no-newline = não produzir o delimitador final
+readlink-help-verbose = relatar mensagem de erro
+readlink-help-zero = separar emissão com NUL em vez de linha nova
+readlink-error-missing-operand = operando falta
+readlink-error-ignoring-no-newline = ignorando --no-newline com vários argumentos
