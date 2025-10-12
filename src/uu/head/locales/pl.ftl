@@ -1,17 +1,17 @@
 head-about =
     Wypisuje pierwsze 10 wierszy każdego pliku na standardowe wyjście.
     W przypadku więcej niż jednego pliku, poprzedź każdy nagłówek z nazwą pliku.
-    W przypadku braku pliku lub gdy plik ma wartość -, odczytaj standardowe wejście.
+    W przypadku braku pliku lub gdy plik ma wartość -, odczytuje standardowe wejście.
 
     Obowiązkowe argumenty długich flag są obowiązkowe również dla krótkich flag.
 head-usage = head [FLAGA]... [PLIK]...
 head-help-bytes =
     wypisuje pierwsze ILE bajtów każdego pliku;
-    z wiodącym znakiem „-” wypisuje wszystkie oprócz ostatnich
-    ILE bajtów każdego pliku
+    z wiodącym znakiem '-' wypisuje wszystkie
+    oprócz ostatnich ILE bajtów każdego pliku
 head-help-lines =
     wypisuje pierwsze ILE wierszy zamiast pierwszych 10;
-    z wiodącym znakiem „-” wypisuje wszystkie oprócz ostatnich
+    z wiodącym znakiem '-' wypisuje wszystkie oprócz ostatnich
     ILE wierszy każdego wiersza
 head-help-quiet = nigdy nie wypisuje nagłówków z nazwami plików
 head-help-verbose = zawsze wypisuje nagłówki z nazwami plików
