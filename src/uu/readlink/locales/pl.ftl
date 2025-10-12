@@ -8,5 +8,5 @@ readlink-help-quiet = wyłącza większość komunikatów o błędach
 readlink-help-silent = wyłącza większość komunikatów o błędach
 readlink-help-verbose = zgłasza komunikat o błędzie
 readlink-help-zero = oddziela wyjście z NUL zamiast nowego wiersza
-readlink-error-missing-operand = brakujący operand
+readlink-error-missing-operand = brak operandu
 readlink-error-ignoring-no-newline = ignorowanie --no-newline z wieloma argumentami
