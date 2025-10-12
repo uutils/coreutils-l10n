@@ -17,6 +17,6 @@ comm-help-check-order = sprawdza, czy dane wejściowe są poprawnie posortowane,
 comm-help-no-check-order = nie sprawdza, czy dane wejściowe są poprawnie posortowane
 comm-error-file-not-sorted = comm: plik { $file_num } nie jest w kolejności sortowania
 comm-error-input-not-sorted = comm: dane wejściowe nie są posortowane
-comm-error-is-directory = Jest to katalog
+comm-error-is-directory = Jest katalogiem
 comm-error-multiple-conflicting-delimiters = określono wiele sprzecznych ograniczników wyjściowych
 comm-total = razem
