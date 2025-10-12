@@ -1,4 +1,4 @@
-expr-error-missing-operand = brakujący operand
+expr-error-missing-operand = brak operandu
 expr-about = Wypisuje wartość WYRAŻENIA na wyjściu standardowym
 expr-usage =
     expr [WYRAŻENIE]
