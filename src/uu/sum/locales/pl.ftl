@@ -1,7 +1,7 @@
 sum-about =
     Suma kontrolna i zliczanie bloków w pliku.
 
-    Jeśli nie ma PLIKU lub jeśli PLIK ma wartość -, odczytaj standardowe wejście.
+    Jeśli nie ma PLIKU lub jeśli PLIK ma wartość -, odczytuje standardowe wejście.
 sum-usage = sum [OPCJA]... [PLIK]...
 sum-help-bsd-compatible = używanie algorytmu sumy BSD, używanie bloków 1K (domyślnie)
 sum-help-sysv-compatible = używanie algorytmu sumy System V, używanie bloków 512-bajtowych
