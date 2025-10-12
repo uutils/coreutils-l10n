@@ -27,5 +27,5 @@ mknod-error-fifo-no-major-minor = Kolejność FIFO nie obejmuje większych i mn
 mknod-error-special-require-major-minor = Pliki specjalne wymagają podania głównych i pobocznych numerów urządzeń.
 mknod-error-invalid-mode = nieprawidłowy tryb ({ $error })
 mknod-error-mode-permission-bits-only = tryb musi określać tylko bity uprawnień pliku
-mknod-error-missing-device-type = brakujący typ urządzenia
+mknod-error-missing-device-type = brak typu urządzenia
 mknod-error-invalid-device-type = nieprawidłowy typ urządzenia { $type }
