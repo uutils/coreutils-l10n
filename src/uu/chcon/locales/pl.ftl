@@ -6,16 +6,16 @@ chcon-error-no-context-specified = Nie określono kontekstu
 chcon-error-no-files-specified = Nie wskazano plików
 chcon-error-data-out-of-range = Dane wykraczają poza zakres
 chcon-error-operation-failed = { $operation } nie powiodło się
-chcon-error-invalid-context = Nieprawidłowy kontekst bezpieczeństwa '{ $context }'.
+chcon-error-invalid-context = Nieprawidłowy kontekst zabezpieczeń '{ $context }'.
 chcon-error-recursive-no-dereference-require-p = '--recursive' z opcją '--no-dereference' wymaga użycia flagi '-P'
-chcon-op-getting-security-context = Pobieranie kontekstu bezpieczeństwa
+chcon-op-getting-security-context = Pobieranie kontekstu zabezpieczeń
 chcon-op-getting-meta-data = Pobieranie metadanych
 chcon-op-modifying-root-path = Modyfikacja ścieżki głównej
 chcon-op-reading-directory = Odczytywanie katalogu
-chcon-op-creating-security-context = Tworzenie kontekstu bezpieczeństwa
+chcon-op-creating-security-context = Tworzenie kontekstu zabezpieczeń
 chcon-about =
-    Zmiana kontekstu bezpieczeństwa SELinux każdego PLIKU na KONTEKST.
-    Użycie flagi --reference zmieni kontekst bezpieczeństwa każdego PLIKU na ten z PLIKU_WZ.
+    Zmiana kontekstu zabezpieczeń SELinux każdego PLIKU na KONTEKST.
+    Użycie flagi --reference zmieni kontekst zabezpieczeń każdego PLIKU na ten z PLIKU_WZ.
 chcon-usage =
     chcon [OPCJA]... KONTEKST PLIK...
     chcon [OPCJA]... [-u UŻYTKOWNIK] [-r ROLA] [-l ZAKRES] [-t TYP] PLIK...
@@ -37,9 +37,9 @@ chcon-op-file-name-validation = Walidacja nazwy pliku
 chcon-op-accessing = Uzyskiwanie dostępu
 chcon-op-reading-cyclic-directory = Odczytywanie katalogu cyklicznego
 chcon-op-applying-partial-context = Stosowanie częściowego kontekstu zabezpieczeń do pliku bez etykiety
-chcon-op-setting-security-context-user = Ustawianie kontekstu bezpieczeństwa użytkownika
-chcon-op-setting-security-context = Ustawianie kontekstu bezpieczeństwa
-chcon-verbose-changing-context = { $util_name }: zmiana kontekstu bezpieczeństwa { $file }
+chcon-op-setting-security-context-user = 5Ustawianie kontekstu zabezpieczeń użytkownika
+chcon-op-setting-security-context = Ustawianie kontekstu zabezpieczeń
+chcon-verbose-changing-context = { $util_name }: zmiana kontekstu zabezpieczeń { $file }
 chcon-warning-dangerous-recursive-root = Rekurencyjne działanie na „/” jest niebezpieczne. Użyj opcji --{ $option }, aby ominąć to zabezpieczenie.
 chcon-warning-dangerous-recursive-dir = Rekurencyjne działanie na { $dir } jest niebezpieczne (tak samo jak „/”). Użyj --{ $option }, aby ominąć to zabezpieczenie.
 chcon-warning-circular-directory =
