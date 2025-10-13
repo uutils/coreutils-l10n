@@ -1,0 +1,3 @@
+realpath-about = Imprimir o caminho resolvido
+realpath-usage = realpath [OPÇÃO]... FICHEIRO...
+realpath-help-quiet = Não imprimir avisos para caminhos inválidos
