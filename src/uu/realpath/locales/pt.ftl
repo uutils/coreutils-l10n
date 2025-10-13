@@ -1,3 +1,11 @@
 realpath-about = Imprimir o caminho resolvido
 realpath-usage = realpath [OPÇÃO]... FICHEIRO...
 realpath-help-quiet = Não imprimir avisos para caminhos inválidos
+realpath-help-strip = Remover apenas os componentes '.' e '..', mas não resolver ligações simbólicas
+realpath-help-zero = Separar nomes de ficheiros de saída com \0 em vez de newline
+realpath-help-logical = resolver componentes '..' antes de ligações simbólicas
+realpath-help-physical = resolver ligações simbólicas como encontrado (predefinição)
+realpath-help-canonicalize-existing = canonizar seguindo cada ligação simbólica em cada componente do nome dado recursivamente, todos os componentes devem existir
+realpath-help-canonicalize-missing = canonizar seguindo cada ligação simbólica em cada componente do nome dado recursivamente, sem requisitos na existência de componentes
+realpath-help-relative-to = imprimir o caminho resolvido em relação ao DIR
+realpath-help-relative-base = imprimir caminhos absolutos a menos que caminhos abaixo DIR
