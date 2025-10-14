@@ -12,3 +12,4 @@ chown-help-from =
     Båda kan utelämnas, i vilket fall en matchning inte krävs
     för det utelämnade attributet
 chown-help-quiet = undertryck de flesta felmeddelanden
+chown-help-recursive = applicera rekursivt på filer och kataloger
