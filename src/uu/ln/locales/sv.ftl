@@ -21,3 +21,16 @@ ln-help-no-dereference =
     behandla LINK_NAME som en vanlig fil om
     det är en symbolisk länk till en katalog
 ln-help-logical = följ TARGETs som är symboliska länkar
+ln-help-physical = skapa hårda länkar direkt till symboliska länkar
+ln-help-symbolic = skapa symboliska länkar istället för hårda länkar
+ln-help-target-directory = ange DIRECTORY där länkarna ska skapas
+ln-help-no-target-directory = behandla LINK_NAME alltid som en vanlig fil
+ln-help-relative = skapa symboliska länkar i förhållande till länkens plats
+ln-help-verbose = skriv ut namnet på varje länkad fil
+ln-error-target-is-not-directory = target { $target } är inte en katalog
+ln-error-same-file = { $file1 } och { $file2 } är samma fil
+ln-error-missing-destination = saknad destinationsfiloperand efter { $operand }
+ln-error-extra-operand =
+    extra operand { $operand }
+    Försök med '{ $program } --help' för mer information.
+ln-error-could-not-update = Kunde inte uppdatera { $target }: { $error }
