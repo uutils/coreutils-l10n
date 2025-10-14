@@ -116,3 +116,43 @@ dd-after-help =
     - noctty: nie przypisuje kontrolującego terminala (tty).
     - nofollow: nie śledzi dowiązań systemowych.
 dd-error-write-error = błąd zapisu
+dd-error-failed-to-open = nie udało się otworzyć { $path }
+dd-error-failed-to-seek = nie udało się wyszukać w pliku wyjściowym
+dd-error-io-error = błąd wejścia-wyjścia
+dd-error-cannot-skip-offset = '{ $file }': nie można pominąć określonego przesunięcia
+dd-error-cannot-skip-invalid = '{ $file }': nie można pominąć: nieprawidłowy argument
+dd-error-cannot-seek-invalid = '{ $output }': nie można wyszukać: nieprawidłowy argument
+dd-error-not-directory = ustawianie flag dla '{ $file }': nie jest katalogiem
+dd-error-failed-discard-cache-input = nie udało się usunąć pamięci podręcznej dla: „standardowe wejście”
+dd-error-failed-discard-cache-output = nie udało się usunąć pamięci podręcznej dla: „standardowe wyjście”
+dd-error-unrecognized-operand = Nierozpoznany operand '{ $operand }'
+dd-error-multiple-format-table = Można określić tylko jeden z conv=ascii conv=ebcdic lub conv=ibm
+dd-error-multiple-case = Można określić tylko jeden z conv=lcase lub conv=ucase
+dd-error-multiple-block = Można określić tylko jedną z opcji conv=block lub conv=unblock
+dd-error-multiple-excl = Można określić tylko jeden parametr ov conv=excl lub conv=nocreat
+dd-error-invalid-flag =
+    Nieprawidłowa flaga danych wejściowych: '{ $flag }'
+    Zobacz '{ $cmd } --help', aby uzyskać więcej informacji.
+dd-error-conv-flag-no-match = Nierozpoznany conv=CONV -> { $flag }
+dd-error-multiplier-parse-failure = nieprawidłowa liczba ‘{ $input }’
+dd-error-multiplier-overflow = Ciąg mnożnika przepełniłby się w obecnym systemie -> { $input }
+dd-error-block-without-cbs = conv=block lub conv=unblock określono bez cbs=N
+dd-error-status-not-recognized = status=POZIOM nierozpoznany -> { $level }
+dd-error-unimplemented = funkcja nie została zaimplementowana w tym systemie -> { $feature }
+dd-error-bs-out-of-range = { $param }=N nie mieści się w pamięci
+dd-error-invalid-number = nieprawidłowa liczba: ‘{ $input }’
+dd-progress-records-in = { $complete }+{ $partial } rekordów wejściowych
+dd-progress-records-out = { $complete }+{ $partial } rekordów wyjściowych
+dd-progress-truncated-record =
+    { $count ->
+        [one] { $count } obcięty rekord
+        [few] { $count } obcięte rekordy
+        [many] { $count } obciętych rekordów
+       *[other] { $count } obciętych rekordów
+    }
+dd-progress-byte-copied = { $bytes } bajt skopiowano, { $duration } s, { $rate }/s
+dd-progress-bytes-copied = { $bytes } bajtów skopiowano, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si = { $bytes } bajtów ({ $si }) skopiowano, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si-iec = { $bytes } bajtów ({ $si }, { $iec }) skopiowano, { $duration } s, { $rate }/s
+dd-warning-zero-multiplier = { $zero } to mnożnik zerowy; użyj { $alternative }, jeśli jest to zamierzone
+dd-warning-signal-handler = Wewnętrzne ostrzeżenie dd: nie można zarejestrować obsługi sygnału
