@@ -42,3 +42,4 @@ df-error-cannot-read-table-of-mounted-filesystems = kan inte läsa tabellen öve
 df-error-inodes-not-supported-windows = { $program }: stöder inte -i argumentet
 df-header-filesystem = Filsystem
 df-header-size = Storlek
+df-header-inodes = Inoder
