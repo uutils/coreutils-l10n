@@ -19,3 +19,4 @@ chmod-error-no-such-file = kan inte komma åt { $file }: Fil eller katalog sakna
 chmod-error-preserve-root =
     det är farligt att operera rekursivt på { $file }
     chmod: använd --no-preserve-root för att åsidosätta den här säkerhetsåtgärden
+chmod-error-permission-denied = { $file }: Åtkomst nekad
