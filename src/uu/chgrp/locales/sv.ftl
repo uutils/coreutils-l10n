@@ -11,3 +11,5 @@ chgrp-help-no-preserve-root = behandla inte '/' särskilt (standardinställninge
 chgrp-help-reference = använd RFILEs grupp istället för att ange GROUP-värden
 chgrp-help-from = ändra endast gruppen om dess nuvarande grupp matchar GROUP
 chgrp-help-recursive = applicera rekursivt på filer och kataloger
+chgrp-error-failed-to-get-attributes = misslyckades med att hämta attribut för { $file }
+chgrp-error-invalid-user = ogiltig användare: '{ $from_group }'
