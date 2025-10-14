@@ -12,3 +12,4 @@ dircolors-help-print-ls-colors = skriv ut helt escapede färger för visning
 dircolors-error-shell-and-output-exclusive =
     Alternativen för att mata ut icke-skal-syntax,
     samt att välja en skal-syntax utesluter varandra
+dircolors-error-print-database-and-ls-colors-exclusive = argumentet --print-database och --print-ls-colors utesluter varandra
