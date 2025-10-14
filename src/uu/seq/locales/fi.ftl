@@ -1,0 +1,5 @@
+seq-about = Näytä numerot ENSIMMÄISTÄ VIIMEISEEN LISÄYKSEN askelin.
+seq-usage =
+    seq [VALITSIN]... VIIMEINEN
+    seq [VALITSIN]... ENSIMMÄINEN VIIMEINEN
+    seq [VALITSIN]... ENSIMMÄINEN ASKEL VIIMEINEN
