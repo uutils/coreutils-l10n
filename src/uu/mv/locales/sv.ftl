@@ -29,3 +29,13 @@ mv-error-will-not-overwrite-just-created = kommer inte att skriva över den just
 mv-error-cannot-stat-not-directory = kan inte läsa { $path }: Inte en katalog
 mv-error-same-file = { $source } och { $target } är samma fil
 mv-error-self-target-subdirectory = kan inte flytta { $source } till en underkatalog till sig själv, { $target }
+mv-error-directory-to-non-directory = kan inte skriva över katalogen { $path } med en icke-katalog
+mv-error-non-directory-to-directory = kan inte skriva över icke-katalog { $target } med katalogen { $source }
+mv-error-not-directory = target { $path }: Inte en katalog
+mv-error-target-not-directory = målkatalog { $path }: Inte en katalog
+mv-error-failed-access-not-directory = kunde inte komma åt { $path }: Inte en katalog
+mv-error-backup-with-no-clobber = kan inte kombinera --backup med -n/--no-clobber eller --update=none-fail
+mv-error-extra-operand = mv: extra operand { $operand }
+mv-error-backup-might-destroy-source = Säkerhetskopiering av { $target } kan förstöra källan; { $source } flyttades inte
+mv-error-not-replacing = ersätter inte { $target }
+mv-error-cannot-move = kan inte flytta { $source } till { $target }
