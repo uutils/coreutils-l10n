@@ -42,3 +42,4 @@ rm-error-refusing-to-remove-directory = recusar de remover '.' ou '..' diretóri
 rm-error-cannot-remove = não pode remover { $file }
 rm-verbose-removed = { $file } removido
 rm-verbose-removed-directory = diretório removido { $file }
+rm-about = Remover (unlink) o(s) FICHEIRO(s)
