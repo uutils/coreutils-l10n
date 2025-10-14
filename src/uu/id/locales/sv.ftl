@@ -25,3 +25,25 @@ id-help-audit =
     Visa användar-ID för processgranskning och andra processgranskningsegenskaper,
     som kräver behörighet (ej tillgängligt på Linux).
 id-help-user = Visa endast det effektiva användar-ID:t som ett nummer.
+id-help-group = Visa endast det effektiva grupp-ID:t som ett nummer
+id-help-groups =
+    Visa endast de olika grupp-ID:na som siffror separerade med blanksteg,
+    utan någon särskild ordning.
+id-help-human-readable = Gör utdata läsbar för människor. Varje skärm visas på en separat rad.
+id-help-name =
+    Visa namnet på användar- eller grupp-ID:t för alternativen -G, -g och -u
+    istället för numret.
+    Om något av ID-numren inte kan mappas till
+    namn visas numret som vanligt.
+id-help-password = Visa ID:t som en lösenordsfil-post.
+id-help-real =
+    Visa det verkliga ID:t för argumentet -G, -g och -u istället
+    för det effektiva ID:t.
+id-help-zero =
+    avgränsa poster med NUL-tecken, inte blanksteg;
+    ej tillåtet i standardformat
+id-output-uid = uid
+id-output-groups = grupper
+id-output-login = inloggningsnamn
+id-output-euid = euid
+id-output-context = kontext
