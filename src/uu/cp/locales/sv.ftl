@@ -72,3 +72,16 @@ cp-error-failed-get-current-dir = misslyckades med att hämta aktuell katalog { 
 cp-error-failed-set-permissions = kan inte ange behörigheter { $path }
 cp-error-backup-mutually-exclusive = argumenten --backup och --no-clobber utesluter varandra
 cp-error-invalid-argument = ogiltigt argument { $arg } för '{ $option }'
+cp-error-option-not-implemented = Argumentet '{ $option }' är inte implementerat.
+cp-error-not-all-files-copied = Alla filer kopierades inte
+cp-error-reflink-always-sparse-auto = `--reflink=always` kan endast användas med --sparse=auto
+cp-error-file-exists = { $path }: Filen finns
+cp-error-invalid-backup-argument = --backup utesluter -n eller --update=none-fail
+cp-error-reflink-not-supported = --reflink stöds endast på Linux och macOS
+cp-error-sparse-not-supported = --sparse stöds endast på Linux
+cp-error-not-a-directory = { $path } är inte en katalog
+cp-error-selinux-not-enabled = SELinux var inte aktiverat under kompileringen!
+cp-error-selinux-set-context = misslyckades med att ställa in säkerhetskontexten för { $path }: { $error }
+cp-error-selinux-get-context = kunde inte hämta säkerhetskontexten för { $path }
+cp-error-selinux-error = SELinux-fel: { $error }
+cp-error-cannot-create-fifo = kan inte skapa fifo { $path }: Filen finns
