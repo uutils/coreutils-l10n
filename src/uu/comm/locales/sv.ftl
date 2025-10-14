@@ -15,3 +15,4 @@ comm-total = totalt
 comm-help-column-2 = undertryck kolumn 2 (rader unika för FILE2)
 comm-help-column-3 = undertryck kolumn 3 (rader som visas i båda filerna)
 comm-help-delimiter = separata kolumner med STR
+comm-help-total = skriv ut en sammanfattning
