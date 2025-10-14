@@ -88,3 +88,16 @@ date-help-rfc-3339 =
     FMT='datum', 'sekunder' eller 'ns'
     för datum och tid med angiven precision.
     Exempel: 2006-08-14 02:34:56-06:00
+date-help-debug = anteckna det tolkade datumet och varna för tvivelaktig användning av standard-err
+date-help-reference = visa tidspunkten för den senaste ändringen för FILE
+date-help-set = ställ tiden till den beskriven av STRING
+date-help-set-macos = ställ tiden till den beskriven av STRING (inte tillgänglig på Mac ännu)
+date-help-set-redox = ställ tiden till den beskriven av STRING (inte tillgänglig på redox ännu)
+date-help-universal = skriv ut eller ställ in koordinerad universell tid (UTC)
+date-error-invalid-date = ogiltigt datum '{ $date }'
+date-error-invalid-format = ogiltigt format '{ $format }' ({ $error })
+date-error-expected-file-got-directory = förväntade fil, hämtade katalogen '{ $path }'
+date-error-date-overflow = datumöverflöde '{ $date }'
+date-error-setting-date-not-supported-macos = macOS stöder inte datuminställning
+date-error-setting-date-not-supported-redox = Redox stöder inte datuminställning
+date-error-cannot-set-date = kan inte ställa in datum
