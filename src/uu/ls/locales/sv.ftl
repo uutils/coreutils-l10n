@@ -100,3 +100,34 @@ ls-help-reverse-sort =
     Sortera i motsatt riktning, oavsett sorteringsmetod, t.ex. lista filer i omvänd
     alfabetisk ordning, yngst först, minst först eller vad som helst.
 ls-help-recursive = Lista innehållet i alla kataloger rekursivt.
+ls-help-terminal-width = Antag att terminalen är COLS kolumner bred.
+ls-help-allocation-size = skriv ut den tilldelade storleken för varje fil, i block
+ls-help-color-output = Färgutskrift baserad på filtyp.
+ls-help-indicator-style =
+    Lägg till indikator med stilen WORD till namnen:
+    none (standard), snedstreck (-p), filtyp (--file-type), klassificera (-F)
+ls-help-classify =
+    Lägg till ett tecken till varje filnamn som anger filtypen. För vanliga
+    filer som är körbara, lägg också till '*'. Filtypsindikatorerna är
+    '/' för kataloger, '@' för symboliska länkar, '|' för FIFO:er, '=' för sockets,
+    '>' för dörrar och ingenting för vanliga filer. when kan utelämnas, eller en av:
+        none - Klassificera inte. Detta är standardinställningen.
+        auto - Klassificera endast om standardutdata är en terminal.
+        always - Klassificera alltid.
+    Att ange --classify och no when motsvarar --classify=always. Detta kommer
+    inte att följa symboliska länkar som listas på kommandoraden om inte alternativen
+    --dereference-command-line (-H), --dereference (-L) eller
+    --dereference-command-line-symlink-to-dir anges.
+ls-help-file-type = Samma som --classify, men lägg inte till '*'
+ls-help-slash-directories = Lägg till / indikator till kataloger.
+ls-help-time-style = tid/datumformat med -l; se TIME_STYLE nedan
+ls-help-full-time = som -l --time-style=full-iso
+ls-help-context = skriv ut säkerhetskontexten för varje fil
+ls-help-group-directories-first =
+    gruppera kataloger före filer; kan utökas med ett --sort-alternativ,
+    men all användning av --sort=none (-U) inaktiverar gruppering
+ls-invalid-quoting-style = { $program }: Ignorerar ogiltigt värde för miljövariabeln QUOTING_STYLE: '{ $style }'
+ls-invalid-columns-width = ignorerar ogiltig bredd i miljövariabeln COLUMNS: { $width }
+ls-invalid-ignore-pattern = Ogiltigt mönster för ignore: { $pattern }
+ls-invalid-hide-pattern = Ogiltigt mönster för hide: { $pattern }
+ls-total = totalt { $size }
