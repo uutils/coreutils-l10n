@@ -41,3 +41,4 @@ df-error-cannot-access-over-mounted = kan inte komma åt { $path }: övermontera
 df-error-cannot-read-table-of-mounted-filesystems = kan inte läsa tabellen över monterade filsystem
 df-error-inodes-not-supported-windows = { $program }: stöder inte -i argumentet
 df-header-filesystem = Filsystem
+df-header-size = Storlek
