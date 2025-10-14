@@ -1,0 +1,3 @@
+printf-usage =
+    printf MUOTO [ARGUMENTTI]...
+    printf VALITSIN
