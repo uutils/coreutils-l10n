@@ -18,3 +18,11 @@ ptx-help-references = o primeiro campo de cada linha é uma referência
 ptx-help-width = largura de saída em colunas, referência excluída
 ptx-error-not-implemented = { $feature } ainda não foi implementado
 ptx-error-write-failed = escrever falhou
+ptx-about =
+    Produz um índice permutado de conteúdos de ficheiros
+    Emite de um índice permutado, incluindo contexto, das palavras nos ficheiros de entrada.
+    Os argumentos obrigatórios para opções longas também são obrigatórios para opções curtas.
+    Sem FICHEIRO, ou quando FICHEIRO é -, ler a entrada predefinida. A predefinição é "-F /".
+ptx-help-ignore-case = converter minúsculas em maiúsculas para classificação
+ptx-error-dumb-format = Não existe um formato sem sentido com as extensões GNU desativadas
+ptx-help-flag-truncation = use CADEIA para sinalizar truncamentos de linha
