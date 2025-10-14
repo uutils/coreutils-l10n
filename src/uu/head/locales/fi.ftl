@@ -4,3 +4,4 @@ head-about =
     TIEDOSTOITTA tai kun TIEDOSTO on - luetaan vakiosyötettä.
 
     Pitkien valitsinten pakolliset argumentit ovat pakollisia myös lyhyille valitsimille.
+head-usage = head [VALITSIN]... [TIEDOSTO]...
