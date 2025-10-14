@@ -45,3 +45,13 @@ shred-missing-file-operand = saknad filoperand
 shred-invalid-number-of-passes = ogiltigt antal pass: { $passes }
 shred-cannot-open-random-source = kan inte öppna slump-källa: { $source }
 shred-invalid-file-size = ogiltig filstorlek: { $size }
+shred-size-help = shred så många byte (suffix som K, M, G accepteras)
+shred-deallocate-help = avallokera och ta bort fil efter överskrivning
+shred-remove-help = som -u men ge kontroll över HOW man tar bort; se nedan
+shred-verbose-help = visa framstegsindikator
+shred-exact-help =
+    avrunda inte filstorlekar uppåt till nästa hela block;
+    detta är standardinställningen för icke-vanliga filer
+shred-zero-help = lägg till en sista överskrivning med nollor för att dölja strimlingen
+shred-random-source-help = ta slumpmässiga byte från FILE
+shred-removing = { $file }: tar bort
