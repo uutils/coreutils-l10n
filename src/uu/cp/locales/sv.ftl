@@ -85,3 +85,23 @@ cp-error-selinux-set-context = misslyckades med att ställa in säkerhetskontext
 cp-error-selinux-get-context = kunde inte hämta säkerhetskontexten för { $path }
 cp-error-selinux-error = SELinux-fel: { $error }
 cp-error-cannot-create-fifo = kan inte skapa fifo { $path }: Filen finns
+cp-error-invalid-attribute = ogiltigt attribut { $value }
+cp-error-failed-to-create-whole-tree = misslyckades med att skapa hela filträdet
+cp-error-failed-to-create-directory = Misslyckades med att skapa katalogen: { $error }
+cp-error-backup-format =
+    cp: { $error }
+    Försök med '{ $exec } --help' för mer information.
+cp-debug-enum-no = nej
+cp-debug-enum-yes = ja
+cp-debug-enum-avoided = undviken
+cp-debug-enum-unsupported = utan stöd
+cp-debug-enum-zeros = nollor
+cp-debug-enum-seek-hole = SEEK_HOLE
+cp-debug-enum-seek-hole-zeros = SEEK_HOLE + nollor
+cp-warning-source-specified-more-than-once = källa { $file_type } { $source } specificerad mer än en gång
+cp-verbose-copied = { $source } -> { $dest }
+cp-verbose-created-directory = { $source } -> { $dest }
+cp-debug-copy-offload = kopieringsavlastning: { $offload }, reflink: { $reflink }, gles detektering: { $sparse }
+cp-prompt-overwrite = skriv över { $path }?
+cp-prompt-overwrite-with-mode = ersätt { $path }, överstyrningsläge
+cp-debug-skipped = hoppade över { $path }
