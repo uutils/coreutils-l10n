@@ -16,3 +16,14 @@ head-help-lines =
 head-help-quiet = skriv aldrig ut rubriker med filnamn
 head-help-verbose = skriv alltid ut rubriker med filnamn
 head-help-zero-terminated = radavgränsare är NUL, inte nyrad
+head-error-reading-file = fel vid läsning av { $name }: { $err }
+head-error-parse-error = parsningsfel: { $err }
+head-error-bad-encoding = felaktig argumentkodning
+head-error-num-too-large = antalet -bytes eller -lines är för stort
+head-error-clap = clap-fel: { $err }
+head-error-invalid-bytes = ogiltigt antal byte: { $err }
+head-error-invalid-lines = ogiltigt antal rader: { $err }
+head-error-bad-argument-format = felaktigt argumentformat: { $arg }
+head-error-writing-stdout = fel vid skrivning till 'standard-ut': { $err }
+head-error-cannot-open = kan inte öppna { $name } för läsning
+head-header-stdin = ==> standard-in <==
