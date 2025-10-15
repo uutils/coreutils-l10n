@@ -9,3 +9,6 @@ sleep-after-help =
     flutuante. Dado dois ou mais argumentos, para pelo tempo especificado
     pela soma dos seus valores.
 sleep-help-number = pausar por NÚMERO de segundos
+sleep-error-missing-operand =
+    operando falta
+    Tente '{ $program } --help' para mais informações.
