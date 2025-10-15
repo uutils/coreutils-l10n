@@ -29,3 +29,5 @@ join-error-invalid-field-specifier = especificador de campo inválido: { $spec }
 join-error-invalid-field-number = número de campo inválido: { $value }
 join-error-incompatible-fields = campos de junção incompatíveis { $field1 }, { $field2 }
 join-error-input-not-sorted = entrada não está em ordem ordenada
+join-help-i = ignorar as diferenças entre maiúsculas e minúsculas ao comparar campos
+join-error-not-sorted = { $file }:{ $line_num }: não está ordenado: { $content }
