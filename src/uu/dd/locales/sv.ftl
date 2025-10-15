@@ -140,3 +140,17 @@ dd-error-block-without-cbs = conv=block eller conv=unblock specificerad utan cbs
 dd-error-status-not-recognized = status= LEVEL inte igenkänd -> { $level }
 dd-error-unimplemented = funktionen är inte implementerad på detta system -> { $feature }
 dd-error-bs-out-of-range = { $param }=N får inte plats i minnet
+dd-error-invalid-number = ogiltigt nummer: ‘{ $input }’
+dd-progress-records-in = { $complete }+{ $partial } poster in
+dd-progress-records-out = { $complete }+{ $partial } poster ut
+dd-progress-truncated-record =
+    { $count ->
+        [one] { $count } avkortad post
+       *[other] { $count } avkortade poster
+    }
+dd-progress-byte-copied = { $bytes } byte kopierad, { $duration } s, { $rate }/s
+dd-progress-bytes-copied = { $bytes } bytes kopierade, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si = { $bytes } bytes ({ $si }) kopierade, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si-iec = { $bytes } bytes ({ $si }, { $iec }) kopierade, { $duration } s, { $rate }/s
+dd-warning-zero-multiplier = { $zero } är en nollmultiplikator; använd { $alternative } om det är avsett
+dd-warning-signal-handler = Intern dd-varning: Det gick inte att registrera signalhanteraren
