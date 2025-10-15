@@ -20,3 +20,11 @@ chmod-error-preserve-root =
     det är farligt att operera rekursivt på { $file }
     chmod: använd --no-preserve-root för att åsidosätta den här säkerhetsåtgärden
 chmod-error-permission-denied = { $file }: Åtkomst nekad
+chmod-error-new-permissions = { $file }: nya behörigheter är { $actual }, inte { $expected }
+chmod-help-recursive = ändra filer och kataloger rekursivt
+chmod-help-reference = använd RFILEs modus istället för MODE-värden
+chmod-verbose-failed-dangling = misslyckades med att ändra modus för { $file } från 0000 (---------) till 1500 (r-x-----T)
+chmod-verbose-neither-changed = Varken symbolisk länk { $file } eller filen den refererar till har ändrats
+chmod-verbose-mode-retained = modus för { $file } behålls som { $mode_octal } ({ $mode_display })
+chmod-verbose-failed-change = misslyckades med att ändra modus på { $file } från { $old_mode } ({ $old_mode_display }) till { $new_mode } ({ $new_mode_display })
+chmod-verbose-mode-changed = modus för { $file } har ändrats från { $old_mode } ({ $old_mode_display }) till { $new_mode } ({ $new_mode_display })
