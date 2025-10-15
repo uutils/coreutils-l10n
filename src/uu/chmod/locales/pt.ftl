@@ -27,3 +27,4 @@ chmod-error-preserve-root =
     chmod: use --no-preserve-root para anular esta proteção contra falhas
 chmod-verbose-neither-changed = nem a ligação simbólica { $file }, nem a referência foi alterada
 chmod-error-cannot-stat = não pode fazer stat por atributos em { $file }
+chmod-error-dangling-symlink = não é possível operar na ligação simbólica pendente { $file }
