@@ -39,3 +39,11 @@ id-output-context = contexto
 id-help-groups =
     Exibir apenas os IDs de grupo diferentes como números separados por espaços em branco,
     sem alguma ordem específica.
+id-after-help =
+    O utilitário id exibe os nomes de utilizadores e grupos e os IDs numéricos do
+    processo que o chamou na saída predefinida. Se os IDs reais e efetivos forem
+    diferentes, ambos são exibidos; caso contrário, apenas o ID real é exibido.
+
+    Se um utilizador (nome de login ou ID de utilizador) for especificado, os IDs de utilizador e de grupo
+    desse utilizador são exibidos. Neste caso, presume-se que os IDs real e efetivo
+    sejam os mesmos.
