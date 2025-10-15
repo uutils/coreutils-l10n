@@ -8,7 +8,7 @@ chmod-usage =
     chmod [OPCJA]... --reference=PLIK_WZ PLIK...
 chmod-after-help = Każdy TRYB ma postać [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+.
 chmod-error-cannot-stat = nie można określić atrybutów pliku { $file }
-chmod-error-dangling-symlink = nie można operować na zwisającym dowiązaniu symbolicznym { $file }
+chmod-error-dangling-symlink = nie można operować na nieaktywnym dowiązaniu symbolicznym { $file }
 chmod-error-no-such-file = nie można uzyskać dostępu do { $file }: nie ma takiego pliku ani katalogu
 chmod-error-preserve-root =
     rekurencyjne działanie na pliku { $file } jest niebezpieczne
