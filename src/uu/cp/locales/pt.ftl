@@ -85,3 +85,21 @@ cp-verbose-created-directory = { $source } -> { $dest }
 cp-prompt-overwrite = substituir { $path }?
 cp-prompt-overwrite-with-mode = substituir { $path }, modo de substituição
 cp-error-cannot-stat = não pode fazer stat em { $source }: nenhum ficheiro ou diretório desses
+cp-after-help =
+    Não copiar um ficheiro que não seja um diretório e que tenha um destino existente com o mesmo carimbo de data/hora de modificação ou mais recente;
+    em vez disso, ignore silenciosamente o ficheiro sem falhar. Se os carimbos de data/hora forem preservados, a comparação é feita com o
+    carimbo de data/hora de origem truncado para as resoluções do sistema de ficheiros de destino e das chamadas de sistema usadas para
+    atualizar os carimbos de data/hora; isso evita trabalho duplicado se vários comandos cp -pu forem executados com a mesma fonte
+    e destino. Esta opção é ignorada se a opção -n ou --no-clobber também for especificada. Além disso, se
+    --preserve=links também for especificada (como com cp -au, por exemplo), ela terá precedência; consequentemente,
+    dependendo da ordem em que os ficheiros são processados a partir da origem, os ficheiros mais recentes no destino podem ser substituídos,
+    para espelhar ligações físicas na origem, o que dá mais controlo sobre quais os ficheiros existentes no destino que são
+    substituídos, e o seu valor pode ser um dos seguintes:
+
+    - all Esta é a operação predefinida quando a opção --update não é especificada e resulta na substituição de todos os ficheiros existentes no destino.
+    - none É semelhante à opção --no-clobber, enquanto nenhum ficheiro no destino é substituído, mas também ignorar um ficheiro não induz uma falha.
+    - older Esta é a operação predefinida quando --update é especificado e resulta na substituição de ficheiros se forem mais antigos do que o ficheiro de origem correspondente.
+cp-help-reflink = controlar cópias clonadas/CoW. Veja abaixo
+cp-help-context = como -Z, ou se CTX for especificado, defina o contexto de segurança SELinux ou SMACK para CTX
+cp-error-backing-up-destroy-source = fazer back up de { $dest } pode destruir fonte; { $source } não copiado
+cp-error-not-writing-dangling-symlink = não escrever através da ligação simbólica pendente { $dest }
