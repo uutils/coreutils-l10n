@@ -13,3 +13,10 @@ dircolors-error-shell-and-output-exclusive =
     Alternativen för att mata ut icke-skal-syntax,
     samt att välja en skal-syntax utesluter varandra
 dircolors-error-print-database-and-ls-colors-exclusive = argumentet --print-database och --print-ls-colors utesluter varandra
+dircolors-error-extra-operand-print-database =
+    extra operand { $operand }
+    filoperander kan inte kombineras med --print-database (-p)
+dircolors-error-no-shell-environment = ingen SHELL-miljövariabel och inget angivet skaltypsalternativ
+dircolors-error-expected-file-got-directory = förväntade fil, fick katalogen { $path }
+dircolors-error-invalid-line-missing-token = { $file }:{ $line }: ogiltig rad; andra symbolen saknas
+dircolors-error-unrecognized-keyword = okänt sökord { $keyword }
