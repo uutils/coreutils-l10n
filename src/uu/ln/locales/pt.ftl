@@ -30,3 +30,12 @@ ln-failed-to-access = falha ao aceder { $file }
 ln-failed-to-create-hard-link = falha ao criar ligação física { $source } => { $dest }
 ln-backup = backup: { $backup }
 ln-error-cannot-stat = não pode fazer stat em { $path }: nenhum ficheiro ou diretório desses
+ln-after-help =
+    Na primeira forma, cria uma ligação para DESTINO com o nome NOME_LIGAÇÃO.
+    No segundo forma, cria uma ligação para DESTINO no diretório atual.
+    Na 3a e 4a forma, cria ligações para cada DESTINO no DIRETÓRIO.
+    Cria ligações físicas por predefinição, ligações simbólicas com --symbolic.
+    Por predefinição, cada destino (nome da nova ligação) não deve já existir.
+    Ao criar ligações físicas, cada DESTINO deve existir. Ligações simbólicas
+    podem conter texto arbitrário; se mais tarde resolvido, uma ligação relativa é
+    interpretada em relação ao seu diretório pai.
