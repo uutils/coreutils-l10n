@@ -1,4 +1,4 @@
-test-about = Sprawdź typy plików i porównaj wartości.
+test-about = Sprawdza typy plików i porównuje wartości.
 test-usage =
     test WYRAŻENIE
     test
@@ -69,10 +69,10 @@ test-after-help =
     test traktuje każdą z nich tak samo, jak każdy inny niepusty NAPIS.
     UWAGA: powłoka może mieć własną wersję parametru test i/lub { "[" }, która zazwyczaj zastępuje wersję opisaną tutaj.
     Szczegółowe informacje na temat obsługiwanych opcji można znaleźć w dokumentacji powłoki.
-test-error-missing-closing-bracket = brakujący „{ "]" }”
+test-error-missing-closing-bracket = brak '{ "]" }'
 test-error-expected = oczekiwano { $value }
 test-error-expected-value = wartość oczekiwana
-test-error-missing-argument = brakujący argument po { $argument }
+test-error-missing-argument = brak argumentu po { $argument }
 test-error-extra-argument = dodatkowy argument { $argument }
 test-error-unknown-operator = nieznany operator { $operator }
 test-error-invalid-integer = nieprawidłowa liczba całkowita { $value }
