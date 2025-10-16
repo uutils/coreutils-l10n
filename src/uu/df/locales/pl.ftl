@@ -16,12 +16,12 @@ df-help-all = uwzględnia fikcyjne systemy plików
 df-help-block-size = skaluje rozmiary według ROZMIARU przed ich wypisaniem; np. „-BM” wypisuje rozmiary w jednostkach 1 048 576 bajtów
 df-help-total = generuje sumę całkowitą
 df-help-human-readable = wypisuje rozmiary w formacie czytelnym dla człowieka (np. 1K 234M 2G)
-df-help-si = podobnie, ale użwa potęgi 1000, a nie 1024
+df-help-si = podobnie, ale używa potęgi 1000, a nie 1024
 df-help-inodes = wyświetla listę informacji o i-węzłach zamiast użycia bloku
 df-help-kilo = jak --block-size=1K
 df-help-local = ogranicza listę do lokalnych systemów plików
 df-help-no-sync = nie wywołuje synchronizacji przed pobraniem informacji o użytkowaniu (domyślnie)
-df-help-output = używa formatu wyjściowego zdefiniowanego przez LISTĘ_PÓL lub wypisuje wszystkie pola, jeśli LISTA_PÓL zostanie pominięte.
+df-help-output = używa formatu wyjściowego zdefiniowanego przez LISTĘ_PÓL lub wypisuje wszystkie pola, jeśli LISTA_PÓL zostanie pominięta.
 df-help-portability = używa formatu wyjściowego POSIX
 df-help-sync = wywołuje synchronizację przed pobraniem informacji o użytkowaniu (tylko w systemach innych niż Windows)
 df-help-type = ogranicza listę do systemów plików typu TYP
