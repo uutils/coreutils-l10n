@@ -1,4 +1,4 @@
-pinky-about = Wyświetla krótkie informacje o użytkowniku w systemach opartych na systemie Unix
+pinky-about = Wyświetla krótkie informacje o użytkowniku w systemach opartych na systemie Unix.
 pinky-usage = pinky [OPCJA]... [UŻYTKOWNIK]...
 pinky-about-musl-warning =
     Ostrzeżenie: po skompilowaniu z musl libc, narzędzie `pinky` może wyświetlać
@@ -7,7 +7,7 @@ pinky-about-musl-warning =
     pobrania dokładnych informacji o zalogowanych użytkownikach.
 pinky-long-usage-description =
     Lekki program 'finger'; wypisuje informacje o użytkowniku.
-    Plik utmp będzie w
+    Plik utmp będzie
 pinky-help-long-format = generuje dane wyjściowe w formacie długim dla określonych UŻYTKOWNIKÓW
 pinky-help-omit-home-dir = pomija katalog domowy użytkownika i powłokę w formacie długim
 pinky-help-omit-project-file = pomija plik projektu użytkownika w formacie długim
