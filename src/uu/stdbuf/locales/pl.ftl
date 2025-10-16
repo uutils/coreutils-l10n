@@ -28,4 +28,4 @@ stdbuf-error-external-libstdbuf-not-found = Nie znaleziono zewnętrznej bibliote
 stdbuf-error-permission-denied = nie udało się wykonać procesu: odmowa uprawnień
 stdbuf-error-no-such-file = nie udało się wykonać procesu: brak takiego pliku lub katalogu
 stdbuf-error-failed-to-execute = nie udało się wykonać procesu: { $error }
-stdbuf-error-killed-by-signal = proces zabity przez sygnał { $signal }
+stdbuf-error-killed-by-signal = proces usunięty przez sygnał { $signal }
