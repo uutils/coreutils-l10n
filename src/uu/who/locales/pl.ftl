@@ -1,7 +1,7 @@
 who-about = Wypisuje informacje o aktualnie zalogowanych użytkownikach.
 who-usage = who [OPCJA]... [ PLIK | ARG1 ARG2 ]
 who-about-musl-warning =
-    Uwaga: po skompilowaniu z musl libc, narzędzie `who` nie wyświetli żadnych
+    Uwaga: po skompilowaniu z musl libc, narzędzie `who` nie wyświetli żadnych
     informacji o zalogowanych użytkownikach. Wynika to z implementacji funkcji
     `utmpx` w musl, która uniemożliwia dostęp do niezbędnych danych.
 who-long-usage =
@@ -21,10 +21,12 @@ who-help-runlevel-non-linux = wypisuje bieżący poziom uruchomienia (to nie ma 
 who-help-short = wypisuje tylko nazwę, wiersz i godzinę (domyślnie)
 who-help-time = wypisuje ostatnią zmianę zegara systemowego
 who-help-users = wyświetla listę zalogowanych użytkowników
-who-help-mesg = dodaje status wiadomości użytkownika jako +, - lub ?
+who-help-mesg = dodaje status wiadomości użytkownika jako +, - lub ?
 who-user-count =
     # { $count ->
         [one] użytkownik={ $count }
+        [few] użytkowników={ $count }
+        [many] użytkowników={ $count }
        *[other] użytkowników={ $count }
     }
 who-idle-old = stare
