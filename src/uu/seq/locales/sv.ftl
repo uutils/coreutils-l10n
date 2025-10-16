@@ -10,3 +10,6 @@ seq-help-equal-width = Jämna ut bredden på alla tal genom att fylla ut med nol
 seq-help-format = använd flyttal i printf-FORMAT
 seq-error-parse = ogiltigt { $type } argument: { $arg }
 seq-error-zero-increment = Noll är ett ogiltigt ökningsvärde: { $arg }
+seq-error-format-and-equal-width = formatsträngen får inte anges vid utskrift av strängar med samma bredd
+seq-parse-error-type-float = flyttal
+seq-parse-error-type-nan = 'inte-ett-tal'
