@@ -13,3 +13,5 @@ chgrp-help-from = ändra endast gruppen om dess nuvarande grupp matchar GROUP
 chgrp-help-recursive = applicera rekursivt på filer och kataloger
 chgrp-error-failed-to-get-attributes = misslyckades med att hämta attribut för { $file }
 chgrp-error-invalid-user = ogiltig användare: '{ $from_group }'
+chgrp-error-invalid-group-id = ogiltigt grupp-ID: '{ $gid_str }'
+chgrp-error-invalid-group = ogiltig grupp: '{ $group }'
