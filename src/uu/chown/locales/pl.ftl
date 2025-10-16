@@ -1,4 +1,4 @@
-chown-about = Zmienia właściciela pliku i grupy
+chown-about = Zmienia właściciela pliku i grupy.
 chown-usage =
     chown [OPCJA]... [WŁAŚCICIEL][:[GRUPA]] PLIK...
     chown [OPCJA]... --reference=PLIK_WZ PLIK...
@@ -14,7 +14,7 @@ chown-help-no-preserve-root = nie traktuje znaku „/” w sposób szczególny 
 chown-help-quiet = wyłącza większość komunikatów o błędach
 chown-help-recursive = operuje rekurencyjnie na plikach i katalogach
 chown-help-reference = używa właściciela i grupy PLIK_WZ zamiast określać wartości WŁAŚCICIEL:GRUPA
-chown-help-verbose = wygeneruje diagnostykę dla każdego przetworzonego pliku
+chown-help-verbose = generuje diagnostykę dla każdego przetworzonego pliku
 chown-error-failed-to-get-attributes = nie udało się pobrać atrybutów pliku { $file }
 chown-error-invalid-user = nieprawidłowy użytkownik: { $user }
 chown-error-invalid-group = nieprawidłowa grupa: { $group }
