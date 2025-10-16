@@ -8,3 +8,5 @@ shred-cannot-open-random-source = não pode abrir fonte aleatória: { $source }
 shred-invalid-file-size = tamanho do ficheiro inválido: { $size }
 shred-no-such-file-or-directory = { $file }: nenhum ficheiro ou diretório desse
 shred-not-a-file = { $file }: não é um ficheiro
+shred-force-help = alterar permissões para permitir a escrita se for necessário
+shred-iterations-help = sobrescrever N vezes em vez da predefinição (3)
