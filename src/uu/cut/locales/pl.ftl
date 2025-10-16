@@ -1,4 +1,4 @@
-cut-about = Wyświetla określone kolumny bajtów lub pól z każdego wiersza standardowego wejścia lub plików wejściowych
+cut-about = Wyświetla określone kolumny bajtów lub pól z każdego wiersza standardowego wejścia lub plików wejściowych.
 cut-usage = cut OPCJA... [PLIK]...
 cut-after-help =
     Każde wywołanie musi określać tryb (co ma być używane dla kolumn),
