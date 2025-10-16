@@ -17,6 +17,8 @@ uptime-output-unknown-uptime = działa ???? dni ??:??,
 uptime-user-count =
     { $count ->
         [one] 1 użytkownik
+        [few] { $count } użytkowników
+        [many] { $count } użytkowników
        *[other] { $count } użytkowników
     }
 uptime-lib-error-system-uptime = nie można pobrać czasu pracy systemu
@@ -27,6 +29,8 @@ uptime-format =
     { $days ->
         [0] { $time }
         [one] { $days } dzień { $time }
+        [few] { $days } dni { $time }
+        [many] { $days } dni { $time }
        *[other] { $days } dni { $time }
     }
 uptime-lib-format-loadavg = średnie obciążenie: { $avg1 }, { $avg5 }, { $avg15 }
