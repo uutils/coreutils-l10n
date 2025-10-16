@@ -10,5 +10,5 @@ sleep-after-help =
     wstrzymaj na czas określony przez sumę ich wartości.
 sleep-error-missing-operand =
     Brak operandu
-    Wypróbuj '{ $program } --help', aby uzyskać więcej informacji.
+    Zobacz '{ $program } --help', aby uzyskać więcej informacji.
 sleep-help-number = wstrzymuje na LICZBĘ sekund
