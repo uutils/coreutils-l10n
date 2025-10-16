@@ -15,7 +15,7 @@ head-help-lines =
     ILE wierszy każdego wiersza
 head-help-quiet = nigdy nie wypisuje nagłówków z nazwami plików
 head-help-verbose = zawsze wypisuje nagłówki z nazwami plików
-head-help-zero-terminated = ogranicznik wiersza to ILE, a nie znak nowego wiersza
+head-help-zero-terminated = ogranicznik wiersza to NUL, a nie znak nowego wiersza
 head-error-reading-file = błąd odczytu { $name }: { $err }
 head-error-parse-error = błąd analizy: { $err }
 head-error-bad-encoding = złe kodowanie argumentów
