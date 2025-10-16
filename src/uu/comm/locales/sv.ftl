@@ -16,3 +16,7 @@ comm-help-column-2 = undertryck kolumn 2 (rader unika för FILE2)
 comm-help-column-3 = undertryck kolumn 3 (rader som visas i båda filerna)
 comm-help-delimiter = separata kolumner med STR
 comm-help-total = skriv ut en sammanfattning
+comm-help-check-order = kontrollera att inmatningen är korrekt sorterad, även om alla inmatningslinjer är möjliga att kombinera
+comm-help-no-check-order = kontrollera inte att inmatningen är korrekt sorterad
+comm-error-file-not-sorted = comm: filen { $file_num } är inte i sorterad ordning
+comm-error-input-not-sorted = comm: inmatningen är inte i sorterad ordning
