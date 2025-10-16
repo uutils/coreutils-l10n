@@ -18,3 +18,7 @@ more-help-plain = Undertryck understrykning
 more-help-lines = Antalet rader per hel skärm
 more-help-number = Samma som argumentet --lines
 more-help-from-line = Börja visa varje fil vid radnummer
+more-help-pattern = Strängen som ska sökas efter i varje fil innan den börjar visas
+more-help-files = Sökväg till filerna som ska läsas
+more-help-message = { "[" }Tryck på mellanslag för att fortsätta, 'q' för att avsluta.]
+more-press-return = tryck RETURN
