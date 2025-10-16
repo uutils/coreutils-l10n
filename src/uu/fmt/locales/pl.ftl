@@ -12,12 +12,12 @@ fmt-exact-skip-prefix-help = PSKIP musi pasować do początku wiersza bez poprze
 fmt-width-help = Wypełnia wiersze wyjściowe do maksymalnej szerokości kolumn SZEROKOŚCI, domyślnie 75. Można ją określić jako liczbę ujemną w pierwszym argumencie.
 fmt-goal-help = Szerokość docelowa, domyślnie 93% SZEROKOŚCI. Musi być mniejsza lub równa SZEROKOŚCI.
 fmt-quick-help = Dzieli wiersze szybciej kosztem potencjalnie bardziej poszarpanego wyglądu.
-fmt-tab-width-help = Traktuje tabulatory jako spacje SEROKOŚĆTABULATORA do określania długości wiersza, domyślnie 8. Należy pamiętać, że opcja ta jest używana tylko do obliczania długości wiersza; tabulatory są zachowywane w wynikach.
+fmt-tab-width-help = Traktuje tabulatory jako spacje SZERTAB do określania długości wiersza, domyślnie 8. Należy pamiętać, że opcja ta jest używana tylko do obliczania długości wiersza; tabulatory są zachowywane w wynikach.
 fmt-error-invalid-goal = nieprawidłowy cel: { $goal }
 fmt-error-goal-greater-than-width = CEL nie może być większy od SZEROKOŚCI.
 fmt-error-invalid-width = nieprawidłowa szerokość: { $width }
 fmt-error-width-out-of-range = nieprawidłowa szerokość: '{ $width }': wynik liczbowy poza zakresem
-fmt-error-invalid-tabwidth = Nieprawidłowa specyfikacja SEROKOŚĆITABULATORA: { $tabwidth }
+fmt-error-invalid-tabwidth = Nieprawidłowa specyfikacja SZERTAB: { $tabwidth }
 fmt-error-first-option-width =
     Nieprawidłowa opcja -- { $option }; SZEROKOŚĆ jest rozpoznawana
     tylko wtedy, gdy jest pierwszą opcją; zamiast tego użyj -w N
