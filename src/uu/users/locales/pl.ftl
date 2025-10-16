@@ -5,4 +5,4 @@ users-about-musl-warning =
     '0 użytkowników' z powodu implementacji funkcji utmpx w musl.
 users-long-usage =
     Wyświetla, kto jest aktualnie zalogowany zgodnie z PLIKIEM.
-    Jeśli PLIK nie jest określony, użyj { $default_path }.  /var/log/wtmp, ponieważ PLIK jest powszechny.
+    Jeśli PLIK nie jest określony, używa { $default_path }.  /var/log/wtmp, ponieważ PLIK jest powszechny.
