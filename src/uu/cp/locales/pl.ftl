@@ -1,11 +1,11 @@
 cp-error-extra-operand = dodatkowy operand { $operand }
-cp-about = Kopiuje ŹRÓDŁO do CELU lub wiele ŹRÓDEŁ do KATALOGU.
+cp-about = Kopiuje ŹRÓDŁO do DOCELU lub wiele ŹRÓDEŁ do KATALOGU.
 cp-usage =
-    cp [OPCJA]... [-T] ŹRÓDŁO CEL
+    cp [OPCJA]... [-T] ŹRÓDŁO DOCEL
     cp [OPCJA]... ŹRÓDŁO... KATALOG
     cp [OPCJA]... -t KATALOG ŹRÓDŁO...
 cp-after-help =
-    Nie kopiuj obiektu innego niż katalog, który ma istniejący obiekt docelowy z tym samym lub nowszym znacznikiem czasu
+    Nie kopiuje obiektu innego niż katalog, który ma istniejący obiekt docelowy z tym samym lub nowszym znacznikiem czasu
     modyfikacji; zamiast tego, pomiń plik bezbłędnie. Jeśli znaczniki czasu są zachowywane, porównanie jest dokonywane do
     znacznika czasu źródłowego obciętego do rozdzielczości docelowego systemu plików i wywołań systemowych używanych
     do aktualizacji znaczników czasu; pozwala to uniknąć duplikowania pracy, jeśli kilka poleceń cp -pu jest wykonywanych
@@ -19,7 +19,7 @@ cp-after-help =
     - none Jest podobna do opcji --no-clobber, ponieważ żadne pliki w miejscu docelowym nie są zastępowane, ale pominięcie pliku również nie powoduje błędu.
     - earlier Jest domyślną operacją, gdy określono opcję --update. Powoduje ona zastąpienie plików, jeśli są starsze niż odpowiadający im plik źródłowy.
 cp-help-target-directory = kopiuje wszystkie argumenty ŹRÓDŁA do katalogu docelowego
-cp-help-no-target-directory = Traktuj CEL jak zwykły plik, a nie katalog
+cp-help-no-target-directory = Traktuje DOCEL jak zwykły plik, a nie katalog
 cp-help-interactive = pyta przed nadpisaniem plików
 cp-help-link = pliki z twardymi dowiązaniami zamiast kopiowania
 cp-help-no-clobber = nie nadpisuje pliku, który już istnieje
