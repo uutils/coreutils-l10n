@@ -16,3 +16,6 @@ chown-help-recursive = applicera rekursivt på filer och kataloger
 chown-help-reference = använd RFILEs ägare och grupp istället för att ange OWNER:GROUP-värden
 chown-help-verbose = utfärda en diagnostik för varje bearbetad fil
 chown-error-failed-to-get-attributes = misslyckades med att hämta attribut för { $file }
+chown-error-invalid-user = ogiltig användare: { $user }
+chown-error-invalid-group = ogiltig grupp: { $group }
+chown-error-invalid-spec = ogiltig specifikation: { $spec }
