@@ -1,3 +1,3 @@
 printenv-about = Wyświetla wartości określonych ZMIENNYCH środowiskowych lub (w przypadku braku ZMIENNEJ) wyświetl nazwę wyświetlaną i pary wartości dla wszystkich z nich.
 printenv-usage = printenv [OPCJA]... [ZMIENNA]...
-printenv-help-null = kończy każdy wiersz wyjściowy 0 bajtem zamiast znakiem nowej linii
+printenv-help-null = kończy każdy wiersz wyjściowy bajtem 0 zamiast znakiem nowego wiersza
