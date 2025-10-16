@@ -1,4 +1,4 @@
-realpath-about = Wypisuje rozwiązaną ścieżkę
+realpath-about = Wypisuje rozwiązaną ścieżkę.
 realpath-usage = realpath [OPCJA]... PLIK...
 realpath-help-quiet = Nie wypisuje ostrzeżeń o nieprawidłowych ścieżkach
 realpath-help-strip = Usuwa tylko komponenty '.' i '..', ale nie rozwiązuje dowiązań symbolicznych
