@@ -1,4 +1,4 @@
-nl-about = Numeruje wiersze w plikach
+nl-about = Numeruje wiersze w plikach.
 nl-usage = nl [OPCJA]... [PLIK]...
 nl-after-help =
     STYL to jedna z następujących opcji:
