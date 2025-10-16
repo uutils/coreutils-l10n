@@ -35,6 +35,6 @@ uniq-error-all-repeated-badoption =
       - 'prepend'
       - 'separate'
 uniq-error-counts-and-repeated-meaningless =
-    Wyświetlanie wszystkich zduplikowanych wierszy i liczby powtórzeń jest bezcelowe.
-    Wypróbuj polecenie 'uniq --help', aby uzyskać więcej informacji.
+    Wyświetlanie wszystkich zduplikowanych wierszy i liczby powtórzeń jest bezcelowe.
+    Zobacz 'uniq --help', aby uzyskać więcej informacji.
 uniq-error-could-not-open = Nie można otworzyć { $path }
