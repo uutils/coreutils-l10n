@@ -1,7 +1,7 @@
 chmod-error-missing-operand = brak operandu
 chmod-about =
     Zmenia tryb każdego PLIKU na TRYB.
-    Za pomocą --reference zmień tryb każdego PLIKU na tryb PLIKU_WZ.
+    Za pomocą --reference zmienia tryb każdego PLIKU na tryb PLIKU_WZ.
 chmod-usage =
     chmod [OPCJA]... TRYB[,TRYB]... PLIK...
     chmod [OPCJA]... TRYB-ÓSEMKOWY PLIK...
@@ -18,7 +18,7 @@ chmod-error-new-permissions = { $file }: nowe uprawnienia to { $actual }, a nie 
 chmod-help-print-help = Wypisuje informacje dotyczące pomocy.
 chmod-help-changes = jak szczegółowo, ale raportuje tylko przy zmianie
 chmod-help-quiet = wyłącza większość komunikatów o błędach
-chmod-help-verbose = wygeneruje diagnostykę dla każdego przetworzonego pliku
+chmod-help-verbose = generuje diagnostykę dla każdego przetworzonego pliku
 chmod-help-no-preserve-root = nie traktuje znaku „/” w sposób szczególny (domyślnie)
 chmod-help-preserve-root = nie można wykonać operacji rekurencyjnej na „/”
 chmod-help-recursive = rekurencyjnie zmienia pliki i katalogi
