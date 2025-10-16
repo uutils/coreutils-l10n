@@ -17,3 +17,8 @@ shred-verbose-help = mostrar o progresso
 shred-exact-help =
     não arredonda tamanhos de ficheiros até ao próximo bloco completo;
     este é a predefinição para ficheiros não regulares
+shred-zero-help = adicionar uma sobrescrita final com zeros para esconder a trituração
+shred-random-source-help = tomar bytes aleatórios do FICHEIRO
+shred-removing = { $file }: a remover
+shred-removed = { $file }: removido
+shred-renamed-to = renomeado para
