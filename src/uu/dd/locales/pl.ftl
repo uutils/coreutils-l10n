@@ -1,4 +1,4 @@
-dd-about = Kopiuje i opcjonalnie konwertuje zasoby systemu plików
+dd-about = Kopiuje i opcjonalnie konwertuje zasoby systemu plików.
 dd-usage =
     dd [OPERAND]...
     dd OPCJA
@@ -126,8 +126,8 @@ dd-error-not-directory = ustawianie flag dla '{ $file }': nie jest katalogiem
 dd-error-failed-discard-cache-input = nie udało się usunąć pamięci podręcznej dla: „standardowe wejście”
 dd-error-failed-discard-cache-output = nie udało się usunąć pamięci podręcznej dla: „standardowe wyjście”
 dd-error-unrecognized-operand = Nierozpoznany operand '{ $operand }'
-dd-error-multiple-format-table = Można określić tylko jeden z conv=ascii conv=ebcdic lub conv=ibm
-dd-error-multiple-case = Można określić tylko jeden z conv=lcase lub conv=ucase
+dd-error-multiple-format-table = Można określić tylko jeden z conv=ascii conv=ebcdic lub conv=ibm
+dd-error-multiple-case = Można określić tylko jeden z conv=lcase lub conv=ucase
 dd-error-multiple-block = Można określić tylko jedną z opcji conv=block lub conv=unblock
 dd-error-multiple-excl = Można określić tylko jeden parametr ov conv=excl lub conv=nocreat
 dd-error-invalid-flag =
