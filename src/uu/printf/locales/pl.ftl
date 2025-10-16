@@ -47,9 +47,9 @@ printf-after-help =
 
     - \\xHH bajt o wartości wyrażonej w systemie szesnastkowym NN (od 1 do 2 cyfr)
 
-    - \\uHHHH znak unikodu (IEC 10646) o wartości wyrażonej w systemie szesnastkowym HHHH (4 cyfry)
+    - \\uHHHH znak Unikodu (IEC 10646) o wartości wyrażonej w systemie szesnastkowym HHHH (4 cyfry)
 
-    - \\uHHHH znak unikodu o wartości wyrażonej w systemie szesnastkowym HHHH (8 cyfr)
+    - \\uHHHH znak Unikodu o wartości wyrażonej w systemie szesnastkowym HHHH (8 cyfr)
 
     - %% pojedynczy %
 
