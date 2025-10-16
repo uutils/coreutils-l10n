@@ -1,4 +1,4 @@
-csplit-about = Dzieli plik na sekcje określone przez wiersze kontekstowe
+csplit-about = Dzieli plik na sekcje określone przez wiersze kontekstowe.
 csplit-usage = csplit [OPCJA]... PLIK WZORZEC...
 csplit-after-help = Wyświetla fragmenty PLIKU rozdzielone WZORCAMI do plików 'xx00', 'xx01', ... i wświetla liczby bajtów każdego fragmentu do standardowego wyjścia.
 csplit-help-suffix-format = używa FORMATU sprintf zamiast %02d
