@@ -137,7 +137,7 @@ dd-error-conv-flag-no-match = Okänd conv=CONV -> { $flag }
 dd-error-multiplier-parse-failure = ogiltigt nummer: '{ $input }'
 dd-error-multiplier-overflow = Multiplikatorsträngen skulle överflöda på det aktuella systemet -> { $input }
 dd-error-block-without-cbs = conv=block eller conv=unblock specificerad utan cbs=N
-dd-error-status-not-recognized = status= LEVEL inte igenkänd -> { $level }
+dd-error-status-not-recognized = status=LEVEL inte igenkänd -> { $level }
 dd-error-unimplemented = funktionen är inte implementerad på detta system -> { $feature }
 dd-error-bs-out-of-range = { $param }=N får inte plats i minnet
 dd-error-invalid-number = ogiltigt nummer: ‘{ $input }’
