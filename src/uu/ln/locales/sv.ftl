@@ -34,3 +34,8 @@ ln-error-extra-operand =
     extra operand { $operand }
     Försök med '{ $program } --help' för mer information.
 ln-error-could-not-update = Kunde inte uppdatera { $target }: { $error }
+ln-prompt-replace = ersätta { $file }?
+ln-cannot-backup = kan inte säkerhetskopiera { $file }
+ln-failed-to-access = misslyckades med att komma åt { $file }
+ln-failed-to-create-hard-link = misslyckades med att skapa hård länk { $source } => { $dest }
+ln-backup = säkerhetskopia: { $backup }
