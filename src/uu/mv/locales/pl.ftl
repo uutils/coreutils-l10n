@@ -1,6 +1,6 @@
-mv-about = Przenosi ŹRÓDŁO do CELÓW lub wiele ŹRÓDEŁ do KATALOGU.
+mv-about = Przenosi ŹRÓDŁO do DOCELU lub wiele ŹRÓDEŁ do KATALOGU.
 mv-usage =
-    mv [OPCJA]... [-T] ŹRÓDŁO CEL
+    mv [OPCJA]... [-T] ŹRÓDŁO DOCEL
     mv [OPCJA]... ŹRÓDŁO... KATALOG
     mv [OPCJA]... -t KATALOG ŹRÓDŁO...
 mv-error-no-such-file = nie można określić { $path }: nie ma takiego pliku ani katalogu
@@ -28,7 +28,7 @@ mv-help-interactive = wyświetla monit przed nadpisaniem
 mv-help-no-clobber = nie nadpisuje istniejącego pliku
 mv-help-strip-trailing-slashes = usuwa wszystkie końcowe ukośniki z każdego argumentu ŹRÓDŁA
 mv-help-target-directory = przenosi wszystkie argumenty ŹRÓDŁA do KATALOGU
-mv-help-no-target-directory = traktuje CEL jako normalny plik
+mv-help-no-target-directory = traktuje DOCEL jako normalny plik
 mv-help-verbose = wyjaśnia, co się dzieje
 mv-help-progress =
     Wyświetla pasek postępu.
