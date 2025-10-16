@@ -1,1 +1,53 @@
 install-error-missing-file-operand = brak operandu pliku
+install-about =
+    Kopiuje ŹRÓDŁO do DOCELU lub wiele ŹRÓDEŁ do istniejącego
+    KATALOGU, ustawiając jednocześnie tryby uprawnień i właściciela/grupę.
+install-usage = install [OPCJA]... [PLIK]...
+install-help-ignored = zignorowano
+install-help-compare = porównuje każdą parę plików źródłowych i docelowych, a w niektórych przypadkach w ogóle nie modyfikuje pliku docelowego
+install-help-directory = traktuje wszystkie argumenty jako nazwy katalogów; tworzy wszystkie komponenty określonych katalogów
+install-help-create-leading = tworzy wszystkie wiodące komponenty DOCELU oprócz ostatniego, a następnie kopiuje ŹRÓDŁO do DOCELU
+install-help-group = ustawia własność grupy zamiast bieżącej grupy procesu
+install-help-mode = ustawia tryb uprawnień (jak w chmod) zamiast rwxr-xr-x
+install-help-owner = ustawia własność (tylko superużytkownik)
+install-help-preserve-timestamps = stosuje czasy dostępu/modyfikacji plików ŹRÓDŁOWYCH do odpowiadających im plików docelowych
+install-help-strip = tabele symboli pasków (brak działania w systemie Windows)
+install-help-strip-program = program służący do usuwania plików binarnych (brak działania w systemie Windows)
+install-help-target-directory = przenosi wszystkie argumenty ŹRÓDŁA do KATALOGU
+install-help-no-target-directory = traktuje DOCEL jako normalny plik
+install-help-verbose = wyjaśnia, co się dzieje
+install-help-preserve-context = zachowuje kontekst bezpieczeństwa
+install-help-context = ustawia kontekst bezpieczeństwa plików i katalogów
+install-error-dir-needs-arg = { $util_name } z -d wymaga co najmniej jednego argumentu.
+install-error-create-dir-failed = nie udało się utworzyć { $path }
+install-error-chmod-failed = nie udało się wykonać chmod { $path }
+install-error-chmod-failed-detailed = { $path }: wykonanie chmod nie powiodło się z powodu błędu { $error }
+install-error-chown-failed = nie udało się wykonać chown { $path }: { $error }
+install-error-invalid-target = nieprawidłowy cel { $path }: nie ma takiego pliku ani katalogu
+install-error-target-not-dir = cel { $path } nie jest katalogiem
+install-error-backup-failed = nie można wykonać kopii zapasowej { $from } do { $to }
+install-error-install-failed = nie można zainstalować { $from } do { $to }
+install-error-strip-failed = program strip nie powiódł się: { $error }
+install-error-strip-abnormal = program strip zakończony nieprawidłowo; kod wyjścia: { $code }
+install-error-metadata-failed = błąd metadanych
+install-error-invalid-user = nieprawidłowy użytkownik: { $user }
+install-error-invalid-group = nieprawidłowa grupa: { $group }
+install-error-omitting-directory = pomijanie katalogu { $path }
+install-error-not-a-directory = nie udało się uzyskać dostępu do { $path }: nie jest katalogiem
+install-error-override-directory-failed = nie można nadpisać katalogu { $dir } obiektem, który nie jest katalogiem { $file }
+install-error-same-file = '{ $file1 }' i '{ $file2 }' to ten sam plik
+install-error-extra-operand =
+    dodatkowy operand { $operand }
+    { $usage }
+install-error-invalid-mode = Nieprawidłowy ciąg trybu: { $error }
+install-error-mutually-exclusive-target = Opcje --target-directory i --no-target-directory wykluczają się wzajemnie
+install-error-mutually-exclusive-compare-preserve = Opcje --compare i --preserve-timestamps wykluczają się wzajemnie
+install-error-mutually-exclusive-compare-strip = Opcje --compare i --strip wykluczają się wzajemnie
+install-error-missing-destination-operand = brak operandu pliku docelowego po '{ $path }'
+install-error-failed-to-remove = Nie udało się usunąć istniejącego pliku { $path }. Błąd: { $error }
+install-warning-compare-ignored = opcja --compare (-C) jest ignorowana, gdy określisz tryb z bitami nieuprawniającymi
+install-verbose-creating-directory = tworzenie katalogu { $path }
+install-verbose-creating-directory-step = install: tworzenie katalogu { $path }
+install-verbose-removed = usunięto { $path }
+install-verbose-copy = { $from } -> { $to }
+install-verbose-backup = (kopia zapasowa: { $backup })
