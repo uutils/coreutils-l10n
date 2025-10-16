@@ -1,0 +1,9 @@
+mktemp-about = Luo väliaikaistiedosto tai -kansio.
+mktemp-usage = mktemp [VALITSIN]… [MALLI]
+mktemp-help-directory = Luo tiedoston sijaan kansio
+mktemp-help-dry-run = älä luo mitään, tulosta vain nimi (turvatonta)
+mktemp-help-quiet = Epäonnistu hiljaa virheen satuttua.
+mktemp-help-suffix = lisää MALLIIN PÄÄTE; PÄÄTE ei saa sisältää hakemistoerotinta. Tämä valitsin implikoidaan, ellei MALLI pääty X:ään.
+mktemp-help-p = lyhyt muoto --tmpdir-valitsimesta
+mktemp-help-tmpdir = tulkitse MALLI suhteessa HAKEMISTOON; ellei HAKEMISTOA annettu, käytä $TMPDIRiä (Windowsissa $TMP:tä) jos asetettu, muuten /tmp:tä. Tämän valitsimen kanssa MALLI ei saa olla absoluuttinen nimi. Toisin kuin -t:ssä, MALLI voi sisältää vinoviivoja, mutta mktemp luo vain viimeisen osan
+mktemp-help-t = Tuota malli (annettua etuliitettä ja TMPDIRiä (Windowsissa TMP:tä) käyttäen, jos asetettu) tiedostonimimallin luomiseksi [vanhentunut]
