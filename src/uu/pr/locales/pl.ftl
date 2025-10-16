@@ -1,4 +1,4 @@
-pr-about = Dzieli PLIKI na strony lub przedstawia je w kolumnach wypisania
+pr-about = Dzieli PLIKI na strony lub przedstawia je w kolumnach wypisania.
 pr-after-help =
     Jeśli nie podano PLIKÓW lub jeśli parametr PLIK ma wartość -, odczytuje standardowe wejście.
 
@@ -34,7 +34,7 @@ pr-help-page-length =
                      była aktywna.
 pr-help-no-file-warnings = pomija ostrzeżenie, gdy pliku nie można otworzyć
 pr-help-form-feed =
-    Używa<form-feed> dla nowych stron, zamiast domyślnego zachowania, które polega na
+    Używa <form-feed> dla nowych stron, zamiast domyślnego zachowania, które polega na
                     użyciu sekwencji <newline>.
 pr-help-column-width =
     Ustawia szerokość wiersza na szerokość pozycji kolumny tylko dla
