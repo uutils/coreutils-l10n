@@ -71,7 +71,7 @@ date-usage =
       Pokazuje czas na zachodnim wybrzeżu USA (użyj tzselect(1), aby znaleźć strefę czasową)
 
       TZ='America/Los_Angeles' date
-date-about = Wypisuje lub ustawia datę i godzinę systemową
+date-about = Wypisuje lub ustawia datę i godzinę systemową.
 date-help-date = czas wyświetlania opisany przez NAPIS, nie „teraz”
 date-help-file = jak --date; raz dla każdego wiersza PLIKUDAT
 date-help-iso-8601 =
