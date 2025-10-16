@@ -1,5 +1,5 @@
 paste-about =
-    Zapisuje wiersze składające się z kolejno odpowiadających sobie wierszy z każdego
+    Zapisuje wiersze składające się z kolejno odpowiadających sobie wierszy z każdego
     PLIKU, rozdzielonych tabulatorami, na standardowym wyjściu.
 paste-usage = paste [OPCJE] [PLIK]...
 paste-help-serial = wkleja jeden plik na raz, zamiast równolegle
