@@ -1,4 +1,4 @@
-cksum-about = Wypisuje CRC i rozmiar dla każdego pliku
+cksum-about = Wypisuje CRC i rozmiar dla każdego pliku.
 cksum-usage = cksum [OPCJA] [PLIK]...
 cksum-after-help =
     SKRÓT określa funkcję skrótu i domyślny format wyjściowy:
