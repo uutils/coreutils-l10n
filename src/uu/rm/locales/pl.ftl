@@ -1,4 +1,4 @@
-rm-about = Usuwa PLIKI i dowiązania
+rm-about = Usuwa PLIKI i dowiązania.
 rm-usage = rm [OPCJA]... PLIK...
 rm-after-help =
     Domyślnie rm nie usuwa katalogów. Opcja --recursive (-r lub -R)
