@@ -1,4 +1,4 @@
-mkdir-about = Tworzy podane KATALOGI, jeśli nie istnieją
+mkdir-about = Tworzy podane KATALOGI, jeśli nie istnieją.
 mkdir-usage = mkdir [OPCJA]... KATALOG...
 mkdir-after-help = Każdy TRYB ma postać [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+.
 mkdir-help-mode = ustawia tryb pliku (nie zaimplementowano w Windows)
