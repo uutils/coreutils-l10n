@@ -1,4 +1,4 @@
-echo-about = Wyświetla wiersz tekstu
+echo-about = Wyświetla wiersz tekstu.
 echo-usage = echo [OPCJE]... [NAPIS]...
 echo-after-help =
     Wyświetla ciąg(i) na standardowym wyjściu.
