@@ -7,3 +7,5 @@ realpath-help-strip = Bara ta bort '.' och '..' komponenter, men lös inte symbo
 realpath-help-zero = Separera utdatafilnamn med \0 istället för nyrad
 realpath-help-logical = slå upp '..'-komponenter före symboliska länkar
 realpath-help-physical = följ symboliska länkar som påträffas (standard)
+realpath-help-relative-to = skriv ut den realiserade sökvägen relativt till DIR
+realpath-help-relative-base = skriv ut absoluta sökvägar om inte sökvägarna är under DIR
