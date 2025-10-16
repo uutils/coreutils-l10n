@@ -1,4 +1,4 @@
-sync-about = Synchronizowanie zapisu z pamięci podręcznej z trwałym magazynem
+sync-about = Synchronizowanie zapisu z pamięci podręcznej z trwałym magazynem.
 sync-usage = sync [OPCJA]... PLIK...
 sync-help-file-system = synchronizuje systemy plików zawierające pliki (tylko Linux i Windows)
 sync-help-data = synchronizuje tylko dane pliku, bez zbędnych metadanych (tylko Linux)
