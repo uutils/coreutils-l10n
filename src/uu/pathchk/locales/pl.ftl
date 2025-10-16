@@ -1,9 +1,9 @@
-pathchk-about = Sprawdza, czy nazwy plików są prawidłowe i przenośne
+pathchk-about = Sprawdza, czy nazwy plików są prawidłowe i przenośne.
 pathchk-usage = pathchk [OPCJA]... NAZWA...
 pathchk-help-posix = sprawdza dla większości systemów POSIX
 pathchk-help-posix-special = sprawdza, czy nazwy są puste i czy na początku nie ma znaku „-”
 pathchk-help-portability = sprawdza wszystkie systemy POSIX (odpowiednik -p -P)
-pathchk-error-missing-operand = brakujący argument
+pathchk-error-missing-operand = brak operandu
 pathchk-error-empty-file-name = pusta nazwa pliku
 pathchk-error-posix-path-length-exceeded = ograniczenie { $limit } przekroczono o długość { $length } nazwy pliku { $path }
 pathchk-error-posix-name-length-exceeded = ograniczenie { $limit } przekroczono o długość { $length } nazwy pliku komponentu { $component }
@@ -11,4 +11,4 @@ pathchk-error-leading-hyphen = początkowy myślnik w nazwie pliku komponent { 
 pathchk-error-path-length-exceeded = ograniczenie { $limit } przekroczono o długość { $length } nazwy pliku { $path }
 pathchk-error-name-length-exceeded = ograniczenie { $limit } przekroczono o długość { $length } nazwy pliku komponentu { $component }
 pathchk-error-empty-path-not-found = pathchk: '': nie ma takiego pliku ani katalogu
-pathchk-error-nonportable-character = nieprzenośny znak „{ $character }” w składniku nazwy pliku { $component }
+pathchk-error-nonportable-character = nieprzenośny znak '{ $character }' w składniku nazwy pliku { $component }
