@@ -1,4 +1,4 @@
-od-about = Zrzuca pliki w formatach ósemkowych i innych
+od-about = Zrzuca pliki w formatach ósemkowych i innych.
 od-usage =
     od [OPCJA]... [--] [NAZWAPLIKU]...
     od [-abcdDefFhHiIlLoOsxX] [NAZWAPLIKU] [[+][0x]PRZESUNIĘCIE[.][b]]
