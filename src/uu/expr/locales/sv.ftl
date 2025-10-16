@@ -59,3 +59,5 @@ expr-error-unmatched-opening-parenthesis = Omatchad ( eller \(
 expr-error-unmatched-closing-parenthesis = Omatchad ) eller \)
 expr-error-unmatched-opening-brace = Omatchad { "\\{" }
 expr-error-invalid-bracket-content = Ogiltigt innehåll i { "\\{\\}" }
+expr-error-trailing-backslash = Omvänt snedstreck på slutet
+expr-error-too-big-range-quantifier-index = Reguljärt uttryck för stort
