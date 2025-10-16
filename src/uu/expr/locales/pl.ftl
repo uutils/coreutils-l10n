@@ -1,5 +1,5 @@
 expr-error-missing-operand = brak operandu
-expr-about = Wypisuje wartość WYRAŻENIA na wyjściu standardowym
+expr-about = Wypisuje wartość WYRAŻENIA na wyjściu standardowym.
 expr-usage =
     expr [WYRAŻENIE]
     expr [OPCJE]
@@ -47,7 +47,7 @@ expr-after-help =
     - EXPR_DEBUG_SYA_STEP=1: zrzuca każdy krok parsera
     - EXPR_DEBUG_AST=1: zrzuca wyrażenie reprezentowane przez abstrakcyjne drzewo składniowe
 expr-help-version = wyświetla informacje dotyczące wersji i wychodzi
-expr-help-help = wyświetla tę pomoc i wychodzi
+expr-help-help = wyświetla tę pomoc i wychodzi
 expr-error-unexpected-argument = błąd składni: nieoczekiwany argument { $arg }
 expr-error-missing-argument = błąd składni: brak argumentu po { $arg }
 expr-error-non-integer-argument = argument niebędący liczbą całkowitą
