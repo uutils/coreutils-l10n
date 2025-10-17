@@ -1,0 +1,11 @@
+more-about = Exibir o conteúdo de um ficheiro de texto
+more-usage = more [OPÇÕES] FICHEIRO...
+more-error-cannot-open-no-such-file = não pode abrir { $path }: nenhum ficheiro ou diretório desses
+more-error-cannot-open-io-error = não pode abrir { $path }: { $error }
+more-error-bad-usage = uso mau
+more-error-cannot-seek-to-line = Não pode procurar o número da linha { $line }
+more-error-pattern-not-found = Esquema não encontrado
+more-error-unknown-key = Chave desconhecida: '{ $key }'. Pressione 'h' para instruções. (não implementado)
+more-help-silent = Exibir ajuda em vez de tocar um sinal sonoro quando uma tecla inválida for pressionada
+more-help-logical = Não fazer pausas após qualquer linha que contenha um ^L (avanço de página)
+more-help-exit-on-eof = Sair no Fim-Do-Ficheiro
