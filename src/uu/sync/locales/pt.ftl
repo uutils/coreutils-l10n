@@ -1,0 +1,11 @@
+sync-about = Sincronizar escritas com cache ao armazenamento persistente
+sync-usage = sync [OPÇÃO]... FICHEIRO...
+sync-help-file-system = sincronizar os sistemas de ficheiros que contêm os ficheiros (apenas Linux e Windows)
+sync-help-data = sincronizar apenas dados de ficheiros, sem metadados não necessários (apenas Linux)
+sync-error-data-needs-argument = -data precisa de pelo menos um argumento
+sync-error-opening-file = erro ao abrir { $file }
+sync-error-no-such-file = erro ao abrir { $file }: nenhum ficheiro ou diretório desses
+sync-error-flush-file-buffer = falha ao limpar o buffer de ficheiros
+sync-error-create-volume-handle = falha ao criar o identificador de volume
+sync-error-find-first-volume = falha ao encontrar o primeiro volume
+sync-error-find-next-volume = falha ao encontrar o próximo volume
