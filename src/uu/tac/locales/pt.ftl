@@ -1,0 +1,10 @@
+tac-about = Escreve cada ficheiro para a saída predefinida, primeiro a última linha.
+tac-usage = tac [OPÇÃO]... [FICHEIRO]...
+tac-help-before = anexar o separador em vez de depois
+tac-help-regex = interpretar a sequência como uma expressão regular
+tac-help-separator = usar CADEIA como separador em vez de uma linha nova
+tac-error-invalid-regex = expressão regular inválida: { $error }
+tac-error-invalid-argument = { $argument }: erro de leitura: argumento inválido
+tac-error-file-not-found = falha ao abrir { $filename } para leitura: nenhum ficheiro ou diretório desses
+tac-error-read-error = falha ao ler de { $filename }: { $error }
+tac-error-write-error = falha ao escrever para stdout: { $error }
