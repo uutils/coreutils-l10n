@@ -1,0 +1,14 @@
+tee-about = Copiar a entrada predefinida para cada FICHEIRO, e também para a saída predefinida.
+tee-usage = tee [OPÇÃO]... [FICHEIRO]...
+tee-after-help = Se um FICHEIRO é -, refere-se a um ficheiro chamado - .
+tee-help-help = Imprimir ajuda
+tee-help-append = anexar aos FICHEIROs indicados, não substituir
+tee-help-ignore-interrupts = ignorar sinais de interrupção (ignorado em plataformas não Unix)
+tee-help-ignore-pipe-errors = definir comportamento de erros ao escrever (ignorado em plataformas não Unix)
+tee-help-output-error = definir comportamento de erros ao escrever
+tee-help-output-error-warn = produzir avisos para erros ao escrever para qualquer saída
+tee-help-output-error-warn-nopipe = produzir avisos para erros que não são erros de canais (ignorados em plataformas não Unix)
+tee-help-output-error-exit = saír em erros de gravação para qualquer saída
+tee-help-output-error-exit-nopipe = saír em erros de gravação para qualquer saída que não sejam erros de canais (equivalente à saída em plataformas não Unix)
+tee-error-stdin = stdin: { $error }
+tee-standard-output = 'saída predefinida'
