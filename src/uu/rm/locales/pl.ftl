@@ -43,3 +43,5 @@ rm-error-refusing-to-remove-directory = odmowa usunięcia katalogu '.' lub '..':
 rm-error-cannot-remove = nie można usunąć { $file }
 rm-verbose-removed = usunięto { $file }
 rm-verbose-removed-directory = usunięto katalog { $file }
+rm-help-progress = wyświetla pasek postępu. Uwaga: ta funkcja nie jest obsługiwana przez GNU Core Utilities.
+rm-progress-removing = Usuwanie
