@@ -10,5 +10,7 @@ nohup-after-help =
 nohup-error-cannot-detach = Nie można odłączyć od konsoli
 nohup-error-cannot-replace = Nie można zastąpić { $name }: { $err }
 nohup-error-open-failed = nie udało się otworzyć { $path }: { $err }
-nohup-error-open-failed-both = nie udało się otworzyć { $first_path }: { $first_err }\nnie udało się otworzyć { $second_path }: { $second_err }
+nohup-error-open-failed-both =
+    nie udało się otworzyć { $first_path }: { $first_err }
+    nie udało się otworzyć { $second_path }: { $second_err }
 nohup-ignoring-input-appending-output = ignorowanie danych wejściowych i dołączanie danych wyjściowych do { $path }
