@@ -46,3 +46,5 @@ who-heading-comment = KOMENTARZ
 who-heading-exit = WYJŚCIE
 who-canonicalize-error = nie udało się znormalizować { $host }
 who-unsupported-openbsd = nieobsługiwane polecenie w systemie OpenBSD
+who-idle-current = { "." }
+who-idle-unknown = ?
