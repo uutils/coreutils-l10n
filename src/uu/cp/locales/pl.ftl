@@ -105,3 +105,4 @@ cp-verbose-created-directory = { $source } -> { $dest }
 cp-debug-copy-offload = odciążenie kopiowania: { $offload }, reflink: { $reflink }, wykrywanie rozrzedzenia: { $sparse }
 cp-prompt-overwrite = nadpisać { $path }?
 cp-prompt-overwrite-with-mode = zastępuje { $path }, tryb obejścia
+cp-verbose-removed = usunięto { $path }
