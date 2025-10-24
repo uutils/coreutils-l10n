@@ -16,7 +16,12 @@ ls-error-dired-and-zero-incompatible = --dired i --zero są niekompatybilne
 ls-error-not-listing-already-listed = { $path }: nie wyświetla już wymienionego katalogu
 ls-error-invalid-time-style =
     mieprawidłowy argument --time-style { $style }
-    Możliwe wartości to: { $values }
+    Możliwe wartości to:
+      - [posix-]full-iso
+      - [posix-]long-iso
+      - [posix-]iso
+      - [posix-]locale
+      - +FORMAT (np. +%H:%M) dla formatu w stylu 'date'
 
     Zobacz '--help', aby uzyskać więcej informacji
 ls-help-print-help = Wypisuje informacje dotyczące pomocy.
@@ -132,3 +137,4 @@ ls-invalid-columns-width = ignorowanie nieprawidłowej szerokości w zmiennej �
 ls-invalid-ignore-pattern = Nieprawidłowy wzorzec dla 'ignore': { $pattern }
 ls-invalid-hide-pattern = Nieprawidłowy wzorzec dla 'hide': { $pattern }
 ls-total = razem { $size }
+ls-help-unsorted-all = Wyświetla wszystkie pliki w kolejności katalogów, bez sortowania. Odpowiednik opcji -aU. Wyłącza opcję --color, chyba że zostanie ona wyraźnie określona.
