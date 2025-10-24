@@ -34,3 +34,4 @@ nl-error-invalid-blank-lines = Nieprawidłowa liczba pustych wierszy: '{ $value 
 nl-error-invalid-regex = nieprawidłowe wyrażenie regularne
 nl-error-invalid-numbering-style = nieprawidłowy styl numeracji: '{ $style }'
 nl-error-is-directory = { $path }: jest katalogiem
+nl-error-could-not-write = nie można zapisać danych wyjściowych
