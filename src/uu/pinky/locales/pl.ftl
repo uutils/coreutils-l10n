@@ -31,3 +31,4 @@ pinky-shell-label = Powłoka:
 pinky-project-label = Projekt:
 pinky-plan-label = Plan
 pinky-unsupported-openbsd = nieobsługiwane polecenie w systemie OpenBSD
+pinky-help-lookup = próbuje znormalizować nazwy hostów za pomocą DNS
