@@ -1,11 +1,9 @@
 chroot-about = Ejecutar COMANDO con directorio raíz establecido a NUEVARAIZ.
 chroot-usage = chroot [OPCIÓN]... NUEVARAIZ [COMANDO [ARG]...]
-
 # Help messages
 chroot-help-groups = Lista separada por comas de grupos a los cuales cambiar
 chroot-help-userspec = Usuario y grupo separados por dos puntos a los cuales cambiar.
 chroot-help-skip-chdir = Use esta opción para no cambiar el directorio de trabajo a / después de cambiar el directorio raíz a nuevaraiz, es decir, dentro del chroot.
-
 # Error messages
 chroot-error-skip-chdir-only-permitted = la opción --skip-chdir solo está permitida si NUEVARAIZ es el antiguo '/'
 chroot-error-cannot-enter = no se puede hacer chroot a { $dir }: { $err }
