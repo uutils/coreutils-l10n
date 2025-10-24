@@ -15,7 +15,7 @@ wc-help-words = wypisuje liczbę słów
 wc-error-files-disabled =
     dodatkowy operand '{ $extra }'
     operandów pliku nie można łączyć z opcją --files0-from
-wc-error-stdin-repr-not-allowed = podczas odczyty nazw plików ze stdin nie jest dozwolone używanie znaku '-' w nazwie pliku
+wc-error-stdin-repr-not-allowed = podczas odczyty nazw plików ze standardowego wejścia nie jest dozwolone używanie znaku '-' w nazwie pliku
 wc-error-zero-length-filename = nieprawidłowa nazwa pliku o zerowej długości
 wc-error-zero-length-filename-ctx = { $path }:{ $idx }: nieprawidłowa nazwa pliku o zerowej długości
 wc-error-cannot-open-for-reading = nie można otworzyć { $path } do odczytu
