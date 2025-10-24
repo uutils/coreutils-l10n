@@ -7,7 +7,7 @@ stat-after-help =
     -`%A`: prawa dostępu w formie czytelnej dla człowieka
     -`%b`: liczba przydzielonych bloków (patrz %B)
     -`%B`: rozmiar każdego bloku w bajtach zgłoszony przez %b
-    -`%C`: ciąg kontekstu bezpieczeństwa SELinux
+    -`%C`: ciąg kontekstu zabezpieczeń SELinux
     -`%d`: numer urządzenia w systemie dziesiętnym
     -`%D`: numer urządzenia w systemie szesnastkowym
     -`%f`: tryb surowy w systemie szesnastkowym
@@ -99,6 +99,6 @@ stat-word-gid = GID
 stat-word-modify = Modyfikacja
 stat-word-change = Zmiana
 stat-word-birth = Utworzenie
-stat-selinux-failed-get-context = nie udało się uzyskać kontekstu bezpieczeństwa
+stat-selinux-failed-get-context = nie udało się uzyskać kontekstu zabezpieczeń
 stat-selinux-unsupported-system = nieobsługiwane w  tym systemie
 stat-selinux-unsupported-os = nieobsługiwane dla tego systemu operacyjnego
