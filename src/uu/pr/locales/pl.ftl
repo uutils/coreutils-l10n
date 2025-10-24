@@ -87,3 +87,4 @@ pr-error-no-such-file = pr: nie można otworzyć { $file }, nie ma takiego pliku
 pr-error-column-merge-conflict = nie można określić liczby kolumn podczas wypisywania równoległego
 pr-error-across-merge-conflict = nie można określić wypisywania w poziomie i w poziomie
 pr-error-invalid-pages-range = nieprawidłowy argument --pages '{ $start }:{ $end }'
+pr-help-date-format = W przypadku daty nagłówka używa FORMATU 'date'.
