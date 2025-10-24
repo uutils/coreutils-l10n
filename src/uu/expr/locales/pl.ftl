@@ -61,3 +61,4 @@ expr-error-unmatched-opening-brace = Niedopasowany { "\\{" }
 expr-error-invalid-bracket-content = Nieprawidłowa zawartość { "\\{\\}" }
 expr-error-trailing-backslash = Ukośnik odwrotny
 expr-error-too-big-range-quantifier-index = Wyrażenie regularne jest za duże
+expr-error-match-utf8 = dopasowanie nie obsługuje nieprawidłowego kodowania UTF-8 w { $arg }
