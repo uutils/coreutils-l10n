@@ -38,7 +38,7 @@ od-after-help =
         u [ROZMIAR] dla liczby dziesiętnej bez znaku
         x [ROZMIAR] dla liczby szesnastkowej
     ROZMIAR to liczba bajtów, która może być liczbą 1, 2, 4, 8 lub 16,
-        lub C, I, S, L dla 1, 2, 4, 8 bajtów dla typów całkowitych,
+        lub C, S, I, L dla 1, 2, 4, 8 bajtów dla typów całkowitych,
         lub F, D, L dla 4, 8, 16 bajtów dla typów zmiennoprzecinkowych.
     Każda specyfikacja typu może mieć sufiks „z”, który doda zrzut ASCII na
         końcu wiersza.
@@ -79,3 +79,18 @@ od-help-width =
     wyjście bajtów BAJTY na wiersz wyjściowy. 32 jest domyślnie ustawione,
     gdy BAJTY nie są określone.
 od-help-traditional = tryb zgodności z jednym wejściem, przesunięciem i etykietą.
+od-help-strings = ciągi wyjściowe składające się z co najmniej BAJTÓW znaków graficznych. Jeśli nie określono BAJTÓW, przyjmowana jest wartość 3.
+od-help-o = jednostki ósemkowe 2-bajtowe
+od-help-capital-i = jednostki dziesiętne 8-bajtowe
+od-help-capital-l = jednostki dziesiętne 8-bajtowe
+od-help-i = jednostki dziesiętne 4-bajtowe
+od-help-l = jednostki dziesiętne 8-bajtowe
+od-help-x = jednostki szesnastkowe 2-bajtowe
+od-help-h = jednostki szesnastkowe 2-bajtowe
+od-help-capital-o = jednostki ósemkowe 4-bajtowe
+od-help-s = jednostki dziesiętne 2-bajtowe
+od-help-capital-x = jednostki szesnastkowe 4-bajtowe
+od-help-capital-h = jednostki szesnastkowe 4-bajtowe
+od-help-e = jednostki zmiennoprzecinkowe podwójnej precyzji (64-bitowe)
+od-help-f = jednostki zmiennoprzecinkowe podwójnej precyzji (32-bitowe)
+od-help-capital-f = jednostki zmiennoprzecinkowe podwójnej precyzji (64-bitowe)
