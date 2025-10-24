@@ -32,7 +32,9 @@ who-user-count = # { $count ->
 }
 
 # Idle time indicators
+who-idle-current =   .
 who-idle-old =  old
+who-idle-unknown =   ?
 
 # System information
 who-runlevel = run-level { $level }

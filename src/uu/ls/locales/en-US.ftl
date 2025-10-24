@@ -16,7 +16,12 @@ ls-error-invalid-block-size = invalid --block-size argument {$size}
 ls-error-dired-and-zero-incompatible = --dired and --zero are incompatible
 ls-error-not-listing-already-listed = {$path}: not listing already-listed directory
 ls-error-invalid-time-style = invalid --time-style argument {$style}
-  Possible values are: {$values}
+  Possible values are:
+    - [posix-]full-iso
+    - [posix-]long-iso
+    - [posix-]iso
+    - [posix-]locale
+    - +FORMAT (e.g., +%H:%M) for a 'date'-style format
 
   For more information try --help
 
@@ -77,6 +82,7 @@ ls-help-author = Show author in long format. On the supported platforms,
 ls-help-all-files = Do not ignore hidden files (files with names that start with '.').
 ls-help-almost-all = In a directory, do not ignore all file names that start with '.',
   only ignore '.' and '..'.
+ls-help-unsorted-all = List all files in directory order, unsorted. Equivalent to -aU. Disables --color unless explicitly specified.
 ls-help-directory = Only list the names of directories, rather than listing directory contents.
   This will not follow symbolic links unless one of `--dereference-command-line
   (-H)`, `--dereference (-L)`, or `--dereference-command-line-symlink-to-dir` is

@@ -28,11 +28,14 @@ rm-help-preserve-root = do not remove '/' (default)
 rm-help-recursive = remove directories and their contents recursively
 rm-help-dir = remove empty directories
 rm-help-verbose = explain what is being done
+rm-help-progress = display a progress bar. Note: this feature is not supported by GNU coreutils.
+
+# Progress messages
+rm-progress-removing = Removing
 
 # Error messages
 rm-error-missing-operand = missing operand
   Try '{$util_name} --help' for more information.
-rm-error-invalid-interactive-argument = Invalid argument to interactive ({$arg})
 rm-error-cannot-remove-no-such-file = cannot remove {$file}: No such file or directory
 rm-error-cannot-remove-permission-denied = cannot remove {$file}: Permission denied
 rm-error-cannot-remove-is-directory = cannot remove {$file}: Is a directory
