@@ -12,7 +12,7 @@ id-after-help =
     wyświetlane są identyfikatory użytkownika i grupy tego użytkownika. W takim
     przypadku identyfikator rzeczywisty i efektywny są przyjęte za takie same.
 id-context-help-disabled = wypisuje tylko kontekst zabezpieczeń procesu (niewłączone)
-id-context-help-enabled = wypisuje tylko kontekst bezpieczeństwa procesu
+id-context-help-enabled = wypisuje tylko kontekst zabezpieczeń procesu
 id-error-names-real-ids-require-flags = wypisuje tylko nazwy lub prawdziwe identyfikatory, wymaga -u, -g lub -G
 id-error-zero-not-permitted-default = opcja --zero nie jest dozwolona w formacie domyślnym
 id-error-cannot-print-context-with-user = nie można wypisać kontekstu zabezpieczeń, gdy określono użytkownika
@@ -48,3 +48,4 @@ id-output-groups = grupy
 id-output-login = login
 id-output-euid = euid
 id-output-context = kontekst
+id-help-ignore = ignoruje, aby zapewnić zgodność z innymi wersjami
