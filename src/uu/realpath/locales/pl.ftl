@@ -9,3 +9,5 @@ realpath-help-canonicalize-existing = normalizuje, podążając rekurencyjnie za
 realpath-help-canonicalize-missing = normalizuje, podążając rekurencyjnie za każdym dowiązaniem symbolicznym w każdym składniku danej nazwy; bez wymagań dotyczących istnienia komponentów
 realpath-help-relative-to = wypisuje rozwiązaną ścieżkę względem KATALOGU
 realpath-help-relative-base = wypisuje ścieżki absolutne, chyba że ścieżki znajdują się poniżej KATALOGU
+realpath-help-canonicalize = wszystkie komponenty oprócz ostatniego muszą istnieć (domyślnie)
+realpath-invalid-empty-operand = nieprawidłowy operand: pusty ciąg
