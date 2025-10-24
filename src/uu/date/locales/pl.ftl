@@ -101,3 +101,6 @@ date-error-date-overflow = przepełnienie daty '{ $date }'
 date-error-setting-date-not-supported-macos = ustawianie daty nie jest obsługiwane przez system macOS
 date-error-setting-date-not-supported-redox = ustawianie daty nie jest obsługiwane przez system Redox
 date-error-cannot-set-date = nie można ustawić daty
+date-help-resolution =
+    wyświetla dostępną rozdzielczość znaczników czasu
+    Przykład: 0,000000001
