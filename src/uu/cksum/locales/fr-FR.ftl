@@ -32,4 +32,4 @@ cksum-help-zero = terminer chaque ligne de sortie avec NUL, pas un saut de ligne
 
 # Messages d'erreur
 cksum-error-is-directory = { $file } : Est un répertoire
-cksum-error-failed-to-read-input = impossible de lire l'entrée
+cksum-error-failed-to-read-input = échec de la lecture de l'entrée

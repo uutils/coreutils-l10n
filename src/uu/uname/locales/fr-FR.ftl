@@ -9,7 +9,7 @@ uname-error-cannot-get-system-name = impossible d'obtenir le nom du système
 uname-unknown = inconnu
 
 # Texte d'aide pour les arguments de ligne de commande
-uname-help-all = se comporte comme si toutes les options -mnrsvo étaient spécifiées.
+uname-help-all = Se comporte comme si toutes les options -mnrsvo étaient spécifiées.
 uname-help-kernel-name = affiche le nom du noyau.
 uname-help-nodename = affiche le nom du nœud (le nom du nœud peut être un nom par lequel le système est connu d'un réseau de communications).
 uname-help-kernel-release = affiche la version du système d'exploitation.

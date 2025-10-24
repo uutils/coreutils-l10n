@@ -10,11 +10,11 @@ runcon-after-help = Exécuter COMMANDE avec un CONTEXTE complètement spécifié
   Si ni CONTEXTE ni COMMANDE n'est spécifié, le contexte de sécurité actuel est affiché.
 
 # Messages d'aide
-runcon-help-compute = calculer le contexte de transition de processus avant modification.
-runcon-help-user = définir l'utilisateur UTILISATEUR dans le contexte de sécurité cible.
-runcon-help-role = définir le rôle RÔLE dans le contexte de sécurité cible.
-runcon-help-type = définir le type TYPE dans le contexte de sécurité cible.
-runcon-help-range = définir la plage PLAGE dans le contexte de sécurité cible.
+runcon-help-compute = Calculer le contexte de transition de processus avant modification.
+runcon-help-user = Définir l'utilisateur UTILISATEUR dans le contexte de sécurité cible.
+runcon-help-role = Définir le rôle RÔLE dans le contexte de sécurité cible.
+runcon-help-type = Définir le type TYPE dans le contexte de sécurité cible.
+runcon-help-range = Définir la plage PLAGE dans le contexte de sécurité cible.
 
 # Messages d'erreur
 runcon-error-no-command = Aucune commande n'est spécifiée

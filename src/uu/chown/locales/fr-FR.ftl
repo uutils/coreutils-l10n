@@ -3,7 +3,7 @@ chown-usage = chown [OPTION]... [PROPRIÉTAIRE][:[GROUPE]] FICHIER...
   chown [OPTION]... --reference=RFICHIER FICHIER...
 
 # Messages d'aide
-chown-help-print-help = afficher les informations d'aide.
+chown-help-print-help = Afficher les informations d'aide.
 chown-help-changes = comme verbeux mais rapporter seulement lors d'un changement
 chown-help-from = changer le propriétaire et/ou le groupe de chaque fichier seulement si son
   propriétaire et/ou groupe actuel correspondent à ceux spécifiés ici.
@@ -17,7 +17,7 @@ chown-help-reference = utiliser le propriétaire et groupe de RFICHIER plutôt q
 chown-help-verbose = afficher un diagnostic pour chaque fichier traité
 
 # Messages d'erreur
-chown-error-failed-to-get-attributes = impossible d'obtenir les attributs de { $file }
+chown-error-failed-to-get-attributes = échec de l'obtention des attributs de { $file }
 chown-error-invalid-user = utilisateur invalide : { $user }
 chown-error-invalid-group = groupe invalide : { $group }
 chown-error-invalid-spec = spécification invalide : { $spec }

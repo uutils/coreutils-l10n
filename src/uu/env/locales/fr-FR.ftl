@@ -17,14 +17,15 @@ env-help-ignore-signal = définir la gestion du/des signal/signaux SIG pour ne r
 env-error-missing-closing-quote = aucune guillemet de fermeture dans la chaîne -S à la position { $position } pour la guillemet '{ $quote }'
 env-error-invalid-backslash-at-end = barre oblique inverse invalide à la fin de la chaîne dans -S à la position { $position } dans le contexte { $context }
 env-error-backslash-c-not-allowed = '\\c' ne doit pas apparaître dans une chaîne -S entre guillemets doubles à la position { $position }
-env-error-invalid-sequence = séquence invalide '{ $char }' dans -S à la position { $position }
+env-error-invalid-sequence = séquence invalide '\\{ $char }' dans -S à la position { $position }
 env-error-missing-closing-brace = Accolade fermante manquante à la position { $position }
 env-error-missing-variable = Nom de variable manquant à la position { $position }
 env-error-missing-closing-brace-after-value = Accolade fermante manquante après la valeur par défaut à la position { $position }
 env-error-unexpected-number = Caractère inattendu : '{ $char }', le nom de variable attendu ne doit pas commencer par 0..9 à la position { $position }
-env-error-expected-brace-or-colon = Caractère inattendu : '{ $char }', accolade fermante ('}') ou deux-points (':') attendu à la position { $position }
+env-error-expected-brace-or-colon = Caractère inattendu : '{ $char }', accolade fermante ('{"\\}"}') ou deux-points (':') attendu à la position { $position }
 env-error-cannot-specify-null-with-command = impossible de spécifier --null (-0) avec une commande
 env-error-invalid-signal = { $signal } : signal invalide
+
 env-error-config-file = { $file } : { $error }
 env-error-variable-name-issue = problème de nom de variable (à { $position }) : { $error }
 env-error-generic = Erreur : { $error }

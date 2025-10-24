@@ -16,13 +16,13 @@ wc-help-words = afficher le nombre de mots
 # Messages d'erreur
 wc-error-files-disabled = opérande supplémentaire '{ $extra }'
   les opérandes de fichier ne peuvent pas être combinées avec --files0-from
-wc-error-stdin-repr-not-allowed = lors de la lecture des noms de fichiers depuis stdin, aucun nom de fichier '-' autorisé
+wc-error-stdin-repr-not-allowed = lors de la lecture des noms de fichiers depuis l'entrée standard, aucun nom de fichier '-' autorisé
 wc-error-zero-length-filename = nom de fichier de longueur nulle invalide
 wc-error-zero-length-filename-ctx = { $path }:{ $idx } : nom de fichier de longueur nulle invalide
 wc-error-cannot-open-for-reading = impossible d'ouvrir { $path } en lecture
 wc-error-read-error = { $path } : erreur de lecture
-wc-error-failed-to-print-result = impossible d'afficher le résultat pour { $title }
-wc-error-failed-to-print-total = impossible d'afficher le total
+wc-error-failed-to-print-result = échec de l'affichage du résultat pour { $title }
+wc-error-failed-to-print-total = échec de l'affichage du total
 
 # Messages d'erreur du décodeur
 decoder-error-invalid-byte-sequence = séquence d'octets invalide : { $bytes }

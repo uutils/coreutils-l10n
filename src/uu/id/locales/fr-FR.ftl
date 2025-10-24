@@ -25,19 +25,20 @@ id-error-cannot-find-user-name = impossible de trouver le nom pour l'ID utilisat
 id-error-audit-retrieve = impossible de récupérer les informations
 
 # Texte d'aide pour les arguments de ligne de commande
-id-help-audit = affiche l'ID utilisateur d'audit du processus et autres propriétés d'audit,
+id-help-ignore = ignore, pour compatibilité avec d'autres versions
+id-help-audit = Affiche l'ID utilisateur d'audit du processus et autres propriétés d'audit,
   ce qui nécessite des privilèges (non disponible sous Linux).
-id-help-user = affiche uniquement l'ID utilisateur effectif sous forme de nombre.
-id-help-group = affiche uniquement l'ID de groupe effectif sous forme de nombre
-id-help-groups = affiche uniquement les différents ID de groupe sous forme de nombres séparés par des espaces,
+id-help-user = Affiche uniquement l'ID utilisateur effectif sous forme de nombre.
+id-help-group = Affiche uniquement l'ID de groupe effectif sous forme de nombre
+id-help-groups = Affiche uniquement les différents ID de groupe sous forme de nombres séparés par des espaces,
   dans un ordre quelconque.
-id-help-human-readable = rend la sortie lisible par l'humain. Chaque affichage est sur une ligne séparée.
-id-help-name = affiche le nom de l'ID utilisateur ou groupe pour les options -G, -g et -u
+id-help-human-readable = Rend la sortie lisible par l'humain. Chaque affichage est sur une ligne séparée.
+id-help-name = Affiche le nom de l'ID utilisateur ou groupe pour les options -G, -g et -u
   au lieu du nombre.
   Si certains ID numériques ne peuvent pas être convertis en
   noms, le nombre sera affiché comme d'habitude.
-id-help-password = affiche l'id comme une entrée de fichier de mots de passe.
-id-help-real = affiche l'ID réel pour les options -G, -g et -u au lieu de
+id-help-password = Affiche l'id comme une entrée de fichier de mots de passe.
+id-help-real = Affiche l'ID réel pour les options -G, -g et -u au lieu de
   l'ID effectif.
 id-help-zero = délimite les entrées avec des caractères NUL, pas des espaces ;
   non autorisé dans le format par défaut

@@ -251,5 +251,5 @@ printf-after-help = templating de chaîne anonyme de base :
 # Messages d'erreur
 printf-error-missing-operand = opérande manquant
 printf-warning-ignoring-excess-arguments = arguments excédentaires ignorés, en commençant par '{ $arg }'
-printf-help-version = afficher les informations de version
-printf-help-help = afficher cette aide
+printf-help-version = Afficher les informations de version
+printf-help-help = Afficher cette aide

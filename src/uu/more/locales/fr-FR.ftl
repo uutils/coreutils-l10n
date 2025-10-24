@@ -11,19 +11,19 @@ more-error-pattern-not-found = Motif non trouvé
 more-error-unknown-key = Touche inconnue : '{$key}'. Appuyez sur 'h' pour les instructions. (non implémenté)
 
 # Messages d'aide
-more-help-silent = afficher l'aide au lieu de sonner la cloche lorsqu'une touche illégale est pressée
-more-help-logical = ne pas faire de pause après une ligne contenant un ^L (saut de page)
-more-help-exit-on-eof = quitter à la fin du fichier
-more-help-no-pause = compter les lignes logiques plutôt que les lignes d'écran
-more-help-print-over = ne pas défiler, effacer l'écran et afficher le texte
-more-help-clean-print = ne pas défiler, afficher le texte et nettoyer les fins de ligne
-more-help-squeeze = compresser plusieurs lignes vides en une seule
-more-help-plain = supprimer le soulignement
-more-help-lines = le nombre de lignes par écran complet
-more-help-number = identique à l'argument de l'option --lines
-more-help-from-line = commencer l'affichage de chaque FICHIER au numéro de ligne
-more-help-pattern = la chaîne à rechercher dans chaque FICHIER avant de commencer à l'afficher
-more-help-files = chemin vers les FICHIERS à lire
+more-help-silent = Afficher l'aide au lieu de sonner la cloche lorsqu'une touche illégale est pressée
+more-help-logical = Ne pas faire de pause après une ligne contenant un ^L (saut de page)
+more-help-exit-on-eof = Quitter à la fin du fichier
+more-help-no-pause = Compter les lignes logiques plutôt que les lignes d'écran
+more-help-print-over = Ne pas défiler, effacer l'écran et afficher le texte
+more-help-clean-print = Ne pas défiler, afficher le texte et nettoyer les fins de ligne
+more-help-squeeze = Compresser plusieurs lignes vides en une seule
+more-help-plain = Supprimer le soulignement
+more-help-lines = Le nombre de lignes par écran complet
+more-help-number = Identique à l'argument de l'option --lines
+more-help-from-line = Commencer l'affichage de chaque fichier au numéro de ligne
+more-help-pattern = La chaîne à rechercher dans chaque fichier avant de commencer à l'afficher
+more-help-files = Chemin vers les fichiers à lire
 
 # Autres messages
 more-help-message = [Appuyez sur espace pour continuer, 'q' pour quitter.]

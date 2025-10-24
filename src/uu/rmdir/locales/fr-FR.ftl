@@ -7,8 +7,8 @@ rmdir-help-parents = supprimer RÉPERTOIRE et ses ancêtres ; p. ex., 'rmdir -p 
 rmdir-help-verbose = afficher un diagnostic pour chaque répertoire traité
 
 # Messages d'erreur
-rmdir-error-symbolic-link-not-followed = impossible de supprimer { $path } : Lien symbolique non suivi
-rmdir-error-failed-to-remove = impossible de supprimer { $path } : { $err }
+rmdir-error-symbolic-link-not-followed = échec de la suppression de { $path } : Lien symbolique non suivi
+rmdir-error-failed-to-remove = échec de la suppression de { $path } : { $err }
 
 # Sortie détaillée
 rmdir-verbose-removing-directory = { $util_name } : suppression du répertoire, { $path }

@@ -6,7 +6,7 @@ chmod-usage = chmod [OPTION]... MODE[,MODE]... FICHIER...
 chmod-after-help = Chaque MODE est de la forme [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+.
 
 # Messages d'aide
-chmod-help-print-help = afficher les informations d'aide.
+chmod-help-print-help = Afficher les informations d'aide.
 chmod-help-changes = comme verbeux mais rapporter seulement lors d'un changement
 chmod-help-quiet = supprimer la plupart des messages d'erreur
 chmod-help-verbose = afficher un diagnostic pour chaque fichier traité

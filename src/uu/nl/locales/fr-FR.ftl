@@ -15,7 +15,7 @@ nl-after-help = STYLE est l'un des suivants :
   - rz justifié à droite, avec zéros en tête
 
 # Messages d'aide
-nl-help-help = afficher les informations d'aide.
+nl-help-help = Afficher les informations d'aide.
 nl-help-body-numbering = utiliser STYLE pour numéroter les lignes du corps
 nl-help-section-delimiter = utiliser CC pour séparer les pages logiques
 nl-help-footer-numbering = utiliser STYLE pour numéroter les lignes de pied de page
@@ -31,9 +31,9 @@ nl-help-number-width = utiliser NUMBER colonnes pour les numéros de ligne
 # Messages d'erreur
 nl-error-invalid-arguments = Arguments fournis invalides.
 nl-error-could-not-read-line = impossible de lire la ligne
+nl-error-could-not-write = impossible d'écrire la sortie
 nl-error-line-number-overflow = débordement du numéro de ligne
 nl-error-invalid-line-width = Largeur de champ de numéro de ligne invalide : ‘{ $value }’ : Résultat numérique hors limites
-nl-error-invalid-blank-lines = Nombre de lignes vides invalide : ‘{ $value }’ : Résultat numérique hors limites
 nl-error-invalid-regex = expression régulière invalide
 nl-error-invalid-numbering-style = style de numérotation invalide : '{ $style }'
 nl-error-is-directory = { $path } : Est un répertoire

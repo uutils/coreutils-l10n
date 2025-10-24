@@ -5,21 +5,21 @@ chcon-usage = chcon [OPTION]... CONTEXTE FICHIER...
   chcon [OPTION]... --reference=RFICHIER FICHIER...
 
 # Messages d'aide
-chcon-help-help = afficher les informations d'aide.
-chcon-help-dereference = affecter la cible de chaque lien symbolique (par défaut), plutôt que le lien symbolique lui-même.
-chcon-help-no-dereference = affecter les liens symboliques au lieu de tout fichier référencé.
-chcon-help-preserve-root = échouer lors de l'opération récursive sur '/'.
-chcon-help-no-preserve-root = ne pas traiter '/' spécialement (par défaut).
-chcon-help-reference = utiliser le contexte de sécurité de RFICHIER, plutôt que de spécifier une valeur CONTEXTE.
-chcon-help-user = définir l'utilisateur UTILISATEUR dans le contexte de sécurité cible.
-chcon-help-role = définir le rôle RÔLE dans le contexte de sécurité cible.
-chcon-help-type = définir le type TYPE dans le contexte de sécurité cible.
-chcon-help-range = définir la plage PLAGE dans le contexte de sécurité cible.
-chcon-help-recursive = opérer sur les fichiers et répertoires de manière récursive.
-chcon-help-follow-arg-dir-symlink = si un argument de ligne de commande est un lien symbolique vers un répertoire, le traverser. Valide uniquement quand -R est spécifié.
-chcon-help-follow-dir-symlinks = traverser chaque lien symbolique vers un répertoire rencontré. Valide uniquement quand -R est spécifié.
-chcon-help-no-follow-symlinks = ne traverser aucun lien symbolique (par défaut). Valide uniquement quand -R est spécifié.
-chcon-help-verbose = afficher un diagnostic pour chaque fichier traité.
+chcon-help-help = Afficher les informations d'aide.
+chcon-help-dereference = Affecter la cible de chaque lien symbolique (par défaut), plutôt que le lien symbolique lui-même.
+chcon-help-no-dereference = Affecter les liens symboliques au lieu de tout fichier référencé.
+chcon-help-preserve-root = Échouer lors de l'opération récursive sur '/'.
+chcon-help-no-preserve-root = Ne pas traiter '/' spécialement (par défaut).
+chcon-help-reference = Utiliser le contexte de sécurité de RFICHIER, plutôt que de spécifier une valeur CONTEXTE.
+chcon-help-user = Définir l'utilisateur UTILISATEUR dans le contexte de sécurité cible.
+chcon-help-role = Définir le rôle RÔLE dans le contexte de sécurité cible.
+chcon-help-type = Définir le type TYPE dans le contexte de sécurité cible.
+chcon-help-range = Définir la plage PLAGE dans le contexte de sécurité cible.
+chcon-help-recursive = Opérer sur les fichiers et répertoires de manière récursive.
+chcon-help-follow-arg-dir-symlink = Si un argument de ligne de commande est un lien symbolique vers un répertoire, le traverser. Valide uniquement quand -R est spécifié.
+chcon-help-follow-dir-symlinks = Traverser chaque lien symbolique vers un répertoire rencontré. Valide uniquement quand -R est spécifié.
+chcon-help-no-follow-symlinks = Ne traverser aucun lien symbolique (par défaut). Valide uniquement quand -R est spécifié.
+chcon-help-verbose = Afficher un diagnostic pour chaque fichier traité.
 
 # Messages d'erreur - validation de base
 chcon-error-no-context-specified = Aucun contexte n'est spécifié

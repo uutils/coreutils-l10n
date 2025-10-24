@@ -32,6 +32,7 @@ who-user-count = # { $count ->
 
 # Idle time indicators
 who-idle-old = anc.
+who-idle-unknown =   ?
 
 # System information
 who-runlevel = niveau-exec { $level }
@@ -52,7 +53,7 @@ who-heading-comment = COMMENTAIRE
 who-heading-exit = SORTIE
 
 # Error messages
-who-canonicalize-error = impossible de canonicaliser { $host }
+who-canonicalize-error = échec de canonicalisation de { $host }
 
 # Platform-specific messages
 who-unsupported-openbsd = commande non supportée sur OpenBSD

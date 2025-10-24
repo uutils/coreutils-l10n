@@ -26,5 +26,5 @@ ptx-help-width = largeur de sortie en colonnes, référence exclue
 # Messages d'erreur
 ptx-error-dumb-format = Il n'y a pas de format simple avec les extensions GNU désactivées
 ptx-error-not-implemented = { $feature } pas encore implémenté
-ptx-error-write-failed = impossible d'écrire
+ptx-error-write-failed = échec de l'écriture
 ptx-error-extra-operand = opérande supplémentaire { $operand }
