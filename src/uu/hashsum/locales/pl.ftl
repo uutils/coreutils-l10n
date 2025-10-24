@@ -31,3 +31,4 @@ hashsum-help-shake256 = używa SHAKE256 wraz z BITAMI do określenia rozmiaru w
 hashsum-help-b2sum = używa BLAKE2
 hashsum-help-b3sum = używa BLAKE3
 hashsum-error-failed-to-read-input = nie udało się odczytać danych wejściowych
+hashsum-usage-specific = { $utility_name } [OPCJA]... [PLIK]...
