@@ -45,3 +45,4 @@ base-common-read-error = błąd odczytu: { $error }
 base-common-help-decode = dekoduje dane
 base-common-help-ignore-garbage = podczas dekodowana, ignoruje znaki niealfabetyczne
 base-common-help-wrap = zawija zakodowane wiersze po znakach COLS (domyślnie { $default }, 0 wyłącza zawijanie wierszy)
+basenc-help-base58 = wizualnie jednoznaczne kodowanie Base58
