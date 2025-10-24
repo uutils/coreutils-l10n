@@ -52,3 +52,6 @@ mv-after-help =
     - all Jest to domyślna operacja, gdy nie określono opcji --update i powoduje zastąpienie wszystkich istniejących plików w miejscu docelowym.
     - none Działa podobnie do opcji --no-clobber, ponieważ żadne pliki w miejscu docelowym nie są zastępowane, ale pominięcie pliku również nie powoduje błędu.
     - older Jest to domyślna operacja po podaniu opcji --update i powoduje zastąpienie plików, jeśli są starsze niż odpowiadający im plik źródłowy.
+mv-error-insufficient-arguments = Argument '<{ $arg_files }>...' wymaga co najmniej 2 wartości, ale podano tylko 1
+mv-help-selinux = ustawia kontekst zabezpieczeń SELinux pliku docelowego na typ domyślny
+mv-help-context = podobnie jak -Z lub jeśli określono CTX, należy ustawić kontekst zabezpieczeń SELinux na CTX
