@@ -103,3 +103,4 @@ cp-help-reflink = controlar cópias clonadas/CoW. Veja abaixo
 cp-help-context = como -Z, ou se CTX for especificado, defina o contexto de segurança SELinux ou SMACK para CTX
 cp-error-backing-up-destroy-source = fazer back up de { $dest } pode destruir fonte; { $source } não copiado
 cp-error-not-writing-dangling-symlink = não escrever através da ligação simbólica pendente { $dest }
+cp-verbose-removed = removido { $path }
