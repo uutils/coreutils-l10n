@@ -10,5 +10,7 @@ nohup-after-help =
 nohup-error-cannot-detach = コンソールからデタッチできません
 nohup-error-cannot-replace = { $name } を置き換えることができません: { $err }
 nohup-error-open-failed = { $path } のオープンに失敗しました: { $err }
-nohup-error-open-failed-both = { $first_path } のオープンに失敗しました: { $first_err }\n{ $second_path } のオープンに失敗しました: { $second_err }
+nohup-error-open-failed-both =
+    { $first_path } のオープンに失敗しました: { $first_err }
+    { $second_path } のオープンに失敗しました: { $second_err }
 nohup-ignoring-input-appending-output = 入力を無視し、{ $path } に出力を追記しています
