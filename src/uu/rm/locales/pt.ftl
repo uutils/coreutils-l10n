@@ -43,3 +43,5 @@ rm-error-cannot-remove = não pode remover { $file }
 rm-verbose-removed = { $file } removido
 rm-verbose-removed-directory = diretório removido { $file }
 rm-about = Remover (unlink) o(s) FICHEIRO(s)
+rm-help-progress = exibir uma barra de progresso. Nota: este recurso não é apoiado pelo GNU coreutils.
+rm-progress-removing = A remover
