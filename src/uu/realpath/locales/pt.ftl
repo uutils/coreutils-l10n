@@ -9,3 +9,5 @@ realpath-help-canonicalize-existing = canonizar seguindo cada ligação simbóli
 realpath-help-canonicalize-missing = canonizar seguindo cada ligação simbólica em cada componente do nome dado recursivamente, sem requisitos na existência de componentes
 realpath-help-relative-to = imprimir o caminho resolvido em relação ao DIR
 realpath-help-relative-base = imprimir caminhos absolutos a menos que caminhos abaixo DIR
+realpath-help-canonicalize = todos os componentes, menos o último, devem existir (predefinição)
+realpath-invalid-empty-operand = operando inválido: cadeia vazia
