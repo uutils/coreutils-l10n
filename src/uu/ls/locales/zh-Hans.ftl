@@ -15,10 +15,15 @@ ls-error-invalid-block-size = 无效 --block-size 参数：{ $size }
 ls-error-dired-and-zero-incompatible = --dired 和 --zero 互斥
 ls-error-not-listing-already-listed = { $path }：不列出已列出的目录
 ls-error-invalid-time-style =
-    无效 --time-style 参数{ $style }
-    可能的值是:{ $values }
+    无效 --time-style 参数 { $style }
+    可用值为：
+      - [posix-]full-iso
+      - [posix-]long-iso
+      - [posix-]iso
+      - [posix-]locale
+      - 'date' 样式请使用 +FORMAT (e.g., +%H:%M)
 
-    更多信息请 --help
+    更多信息请参考 --help
 ls-help-print-help = 显示帮助信息。
 ls-help-set-display-format = 设置显示格式.
 ls-help-display-files-columns = 按列显示文件。
@@ -27,3 +32,4 @@ ls-help-list-entries-rows = 将条目按行排列，而非按列排列。
 ls-help-assume-tab-stops = 假设制表位位于每个COLS处，而非8处
 ls-help-list-entries-commas = 用逗号分隔列表条目。
 ls-help-list-entries-nul = 列表条目以ASCII空字符分隔。
+ls-help-list-one-file-per-line = 每行显示一个文件。
