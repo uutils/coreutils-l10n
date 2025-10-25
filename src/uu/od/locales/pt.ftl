@@ -35,3 +35,20 @@ od-help-width =
     emitir BYTES bytes por linha de saída. 32 é implícito quando BYTES não for
     especificado.
 od-help-traditional = modo de compatibilidade com uma entrada, deslocamento e etiqueta.
+od-error-parse-failed = a análise falhou
+od-help-strings = emitir cadeias de pelo menos BYTES chars gráficos. Assumindo 3 se BYTES não for especificado.
+od-help-c = Caracteres ASCII ou escapes com contrabarra
+od-help-o = unidades octais de 2 bytes
+od-help-capital-i = unidades decimais de 8 bytes
+od-help-capital-l = unidades decimais de 8 bytes
+od-help-i = unidades decimais de 4 bytes
+od-help-l = unidades decimais de 8 bytes
+od-help-x = unidades hexadecimais de 2 bytes
+od-help-h = unidades hexadecimais de 2 bytes
+od-help-capital-o = unidades octais de 4 bytes
+od-help-s = unidades decimais de 2 bytes
+od-help-capital-x = unidades hexadecimais de 4 bytes
+od-help-capital-h = unidades hexadecimais de 4 bytes
+od-help-e = unidades de precisão dupla de ponto flutuante (64 bits)
+od-help-f = unidades de precisão dupla de ponto flutuante (32 bits)
+od-help-capital-f = unidades de precisão dupla de ponto flutuante (64 bits)
