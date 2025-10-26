@@ -1,4 +1,4 @@
 stty-usage =
     stty [-F DEVICE | --file=DEVICE] [SETTING]...
-    or:  stty [-F DEVICE | --file=DEVICE] [-a|--all]
-    or:  stty [-F DEVICE | --file=DEVICE] [-g|--save]
+    或： stty [-F DEVICE | --file=DEVICE] [-a|--all]
+    或： stty [-F DEVICE | --file=DEVICE] [-g|--save]
