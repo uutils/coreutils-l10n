@@ -1,0 +1,10 @@
+touch-about = Atualize os tempos de acesso e modificação de cada FICHEIRO para o tempo atual.
+touch-usage = touch [OPÇÃO]... [FICHEIRO]...
+touch-help-help = Imprimir informações de ajuda.
+touch-help-access = modificar apenas o tempo de acesso
+touch-help-timestamp = usar [[CC]YY]MMDDhhmm[.ss] em vez do tempo atual
+touch-help-date = analisar o argumento e usá-lo em vez do tempo atual
+touch-help-modification = modificar apenas o tempo de modificação
+touch-help-no-create = não criar ficheiros
+touch-help-no-deref = afetar cada ligação simbólica em vez de qualquer ficheiro referenciado (apenas para sistemas que podem mudar os carimbos de tempo de uma ligação simbólica)
+touch-help-reference = usar os tempos deste ficheiro em vez do tempo atual
