@@ -24,7 +24,7 @@ sort-file-operands-combined =
     operandos de ficheiros não podem ser combinados com --files0-from
     Tente '{ $help } --ajuda' para mais informações.
 sort-multiple-output-files = vários ficheiros de saída especificados
-sort-minus-in-stdin = ao ler nomes de ficheiros de stdin, nenhum nome de ficheiro de '-' é permitido
+sort-minus-in-stdin = quando ler nomes de ficheiros da entrada predefinida, nenhum nome de ficheiro de '-' é permitido
 sort-no-input-from = nenhuma entrada de '{ $file } '
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: nome de ficheiro inválido de comprimento zero
 sort-options-incompatible = opções '-{ $opt1 }{ $opt2 }' são incompatíveis
@@ -65,3 +65,17 @@ sort-help-check = verificar pela entrada ordenada; não ordenar
 sort-help-check-silent = sair com sucesso se o ficheiro dado já estiver ordenado e sair com o estado 1 caso contrário.
 sort-help-ignore-case = converter letras minúsculas em maiúsculas
 sort-help-ignore-nonprinting = ignorar caracteres não impressos
+sort-help-ignore-leading-blanks = ignorar espaços em branco no início ao encontrar chaves de ordenação em cada linha
+sort-help-output = escrever saída para NOMEFICHEIRO em vez de stdout
+sort-help-reverse = reverter a saída
+sort-help-stable = estabilizar a ordenação a desativar a comparação de último recurso
+sort-help-unique = exibir apenas o primeiro de uma série igual
+sort-help-key = ordenar por uma chave
+sort-help-separator = separador personalizado para -k
+sort-help-parallel = alterar o número de threads em execução simultânea a NUM_THREADS
+sort-help-buf-size = define o TAMANHO máximo de cada segmento em quantidade de elementos ordenados
+sort-help-tmp-dir = usar DIR para temporários, não $TMPDIR ou /tmp
+sort-help-compress-prog = comprimir ficheiros temporários com PROG, descomprimir com PROG -d; PROG tem que tomar entrada de stdin e emitir para stdout
+sort-help-batch-size = Mesclar no máximo N_MESCLAR entradas de uma vez.
+sort-help-files0-from = ler a entrada dos ficheiros especificados NUL_FICHEIRO terminados por NUL
+sort-help-debug = sublinhar as partes da linha realmente utilizadas para a ordenação
