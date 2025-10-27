@@ -7,5 +7,5 @@ basename-help-multiple = unterstütze mehrere Argumente und behandle jedes als e
 basename-help-suffix = entferne nachgestellten SUFFIX; beinhaltet -a
 basename-help-zero = beende jede Ausgabelinie mit NUL, anstatt einer neuen Zeile
 basename-about =
-    Gebe den NAMEN ohne jegliche vorgestellte Verzeichniskomponenten aus
-    Entfernt, wenn angegeben, auch einen nachgestellten SUFFIX
+    Gebe NAME ohne jegliche vorangestellte Verzeichniskomponenten aus
+    Entferne, wenn angegeben, auch einen nachgestellten SUFFIX
