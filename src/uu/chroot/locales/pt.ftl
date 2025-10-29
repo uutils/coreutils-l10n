@@ -10,7 +10,9 @@ chroot-error-command-not-found = falha ao executar o comando { $cmd }: { $err }
 chroot-error-groups-parsing-failed = falha ao analisar --groups
 chroot-error-invalid-group = grupo inválido: { $group }
 chroot-error-invalid-group-list = lista de grupos inválido: { $list }
-chroot-error-missing-newroot = Operando falta: NOVARAIZ\nTente '{ $util_name } --help' para mais informações.
+chroot-error-missing-newroot =
+    Operando falta: NOVARAIZ
+    Tente '{ $util_name } --help' para mais informações.
 chroot-error-no-group-specified = nenhum grupo especificado para o uid desconhecido: { $uid }
 chroot-error-no-such-user = utilizador inválido
 chroot-error-no-such-group = grupo inválido
