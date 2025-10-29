@@ -104,3 +104,4 @@ cp-help-context = como -Z, ou se CTX for especificado, defina o contexto de segu
 cp-error-backing-up-destroy-source = fazer back up de { $dest } pode destruir fonte; { $source } não copiado
 cp-error-not-writing-dangling-symlink = não escrever através da ligação simbólica pendente { $dest }
 cp-verbose-removed = removido { $path }
+cp-help-preserve-default = igual a --preserve=mode,ownership(somente unix),timestamps
