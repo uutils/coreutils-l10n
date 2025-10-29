@@ -17,7 +17,12 @@ ls-error-dired-and-zero-incompatible = --dired e --zero são incompatíveis
 ls-error-not-listing-already-listed = { $path }: não listando diretório já listado
 ls-error-invalid-time-style =
     argumento --time-style inválido { $style }
-    Os valores possíveis são: { $values }
+    Os valores possíveis são: 
+      - [posix-]full-iso
+      - [posix-]long-iso
+      - [posix-]iso
+      - [posix-]locale
+      - +FORMATO (por exemplo, +%H:%M) para um formato no estilo de 'date'»
 
     Para mais informações tente --help
 ls-help-set-display-format = Defina o formato de exibição.
@@ -131,3 +136,4 @@ ls-invalid-columns-width = a ignorar a largura inválida na variável de ambient
 ls-invalid-ignore-pattern = Esquema inválido para ignorar: { $pattern }
 ls-invalid-hide-pattern = Esquema inválido para esconder: { $pattern }
 ls-total = total { $size }
+ls-help-unsorted-all = Lista todos os ficheiros na ordem do diretório, sem ordenação. Equivalente a -aU. Desativa --color, a menos que explicitamente especificado.
