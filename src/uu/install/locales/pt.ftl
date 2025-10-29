@@ -49,3 +49,4 @@ install-verbose-creating-directory-step = install: a criar diretório { $path }
 install-verbose-removed = removido { $path }
 install-verbose-copy = { $from } -> { $to }
 install-verbose-backup = (backup: { $backup })
+install-help-default-context = definir o contexto de segurança SELinux do ficheiro de destino e cada diretório criado para o tipo predefinido
