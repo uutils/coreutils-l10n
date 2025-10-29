@@ -45,3 +45,4 @@ base-common-read-error = 読み込みエラー: { $error }
 base-common-help-decode = データをデコードします
 base-common-help-ignore-garbage = デコード時に、アルファベット以外の文字を無視します
 base-common-help-wrap = COLS 文字の後でエンコードされた行を折り返します (デフォルト { $default }, 0 で折り返しを無効化)
+basenc-help-base58 = 視覚的に曖昧さのない base58 エンコーディング
