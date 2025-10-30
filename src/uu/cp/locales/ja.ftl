@@ -1,4 +1,4 @@
-cp-about = SOURCE を DEST へ、または複数の SOURCE を DIRECTORY へコピーします。
+cp-about = SOURCE を DEST へ、または複数の SOURCE を DIRECTORY へコピーします.
 cp-usage =
     cp [OPTION]... [-T] SOURCE DEST
     cp [OPTION]... SOURCE... DIRECTORY
