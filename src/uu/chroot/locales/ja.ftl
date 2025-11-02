@@ -12,7 +12,7 @@ chroot-error-invalid-group = 不正なグループです: { $group }
 chroot-error-invalid-group-list = 不正なグループリストです: { $list }
 chroot-error-missing-newroot =
     オペランドがありません: NEWROOT
-    詳細については '{ $util_name } --help' を試してください。
+    詳細については '{ $util_name } --help' を試してください.
 chroot-error-no-group-specified = 不明な uid { $uid } に対してグループが指定されていません
 chroot-error-no-such-user = 不正なユーザーです
 chroot-error-no-such-group = 不正なグループです
