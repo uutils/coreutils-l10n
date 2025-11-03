@@ -1,0 +1,54 @@
+install-about =
+    SOURCE を DEST へ、または複数の SOURCE を既存の DIRECTORY へ、
+    パーミッションモードと所有者/グループを設定しながらコピーします
+install-usage = install [OPTION]... [FILE]...
+install-help-ignored = 無視されます
+install-help-compare = コピー元とコピー先のファイルを比較し、場合によってはコピー先を一切変更しません
+install-help-directory = すべての引数をディレクトリ名として扱います。指定されたディレクトリのすべてのコンポーネントを作成します
+install-help-create-leading = DEST の最後のものを除き、DEST のすべての先行コンポーネントを作成し、SOURCE を DEST にコピーします
+install-help-group = プロセスの現在のグループではなく、グループ所有権を設定します
+install-help-mode = rwxr-xr-x ではなく、パーミッションモードを設定します (chmod と同様)
+install-help-owner = 所有権を設定します (スーパーユーザーのみ)
+install-help-preserve-timestamps = SOURCE ファイルのアクセス/更新時刻を対応するコピー先ファイルに適用します
+install-help-strip = シンボルテーブルを strip します (Windows ではアクションなし)
+install-help-strip-program = バイナリを strip するのに使用されるプログラム (Windows ではアクションなし)
+install-help-target-directory = すべての SOURCE 引数を DIRECTORY に移動します
+install-help-no-target-directory = DEST を通常のファイルとして扱います
+install-help-verbose = 何が行われているかを説明します
+install-help-preserve-context = セキュリティコンテキストを保持します
+install-help-context = ファイルとディレクトリのセキュリティコンテキストを設定します
+install-help-default-context = コピー先ファイルと作成された各ディレクトリの SELinux セキュリティコンテキストをデフォルトタイプに設定します
+install-error-dir-needs-arg = { $util_name } は -d で少なくとも 1 つの引数が必要です。
+install-error-create-dir-failed = { $path } の作成に失敗しました
+install-error-chmod-failed = { $path } の chmod に失敗しました
+install-error-chmod-failed-detailed = { $path }: chmod はエラー { $error } で失敗しました
+install-error-chown-failed = { $path } の chown に失敗しました: { $error }
+install-error-invalid-target = 無効なターゲット { $path }: そのようなファイルやディレクトリはありません
+install-error-target-not-dir = ターゲット { $path } はディレクトリではありません
+install-error-backup-failed = { $from } から { $to } へバックアップできません
+install-error-install-failed = { $from } から { $to } へインストールできません
+install-error-strip-failed = strip プログラムが失敗しました: { $error }
+install-error-strip-abnormal = strip プロセスが異常終了しました - 終了コード: { $code }
+install-error-metadata-failed = メタデータエラー
+install-error-invalid-user = 不正なユーザーです: { $user }
+install-error-invalid-group = 不正なグループです: { $group }
+install-error-omitting-directory = ディレクトリ { $path } を省略しています
+install-error-not-a-directory = { $path } にアクセスできません: ディレクトリではありません
+install-error-override-directory-failed = ディレクトリ { $dir } を非ディレクトリ { $file } で上書きできません
+install-error-same-file = '{ $file1 }' と '{ $file2 }' は同じファイルです
+install-error-extra-operand =
+    余分なオペランド { $operand }
+    { $usage }
+install-error-invalid-mode = 無効なモード文字列です: { $error }
+install-error-mutually-exclusive-target = オプション --target-directory と --no-target-directory は相互に排他的です
+install-error-mutually-exclusive-compare-preserve = オプション --compare と --preserve-timestamps は相互に排他的です
+install-error-mutually-exclusive-compare-strip = オプション --compare と --strip は相互に排他的です
+install-error-missing-file-operand = ファイルオペランドがありません
+install-error-missing-destination-operand = '{ $path }' の後にコピー先ファイルオペランドがありません
+install-error-failed-to-remove = 既存のファイル { $path } の削除に失敗しました。エラー: { $error }
+install-warning-compare-ignored = 非パーミッションビットを含むモードを指定した場合、--compare (-C) オプションは無視されます
+install-verbose-creating-directory = ディレクトリ { $path } を作成中
+install-verbose-creating-directory-step = install: ディレクトリ { $path } を作成中
+install-verbose-removed = { $path } を削除しました
+install-verbose-copy = { $from } -> { $to }
+install-verbose-backup = (バックアップ: { $backup })
