@@ -1,0 +1,13 @@
+hostname-about = システムのホスト名を表示または設定します。
+hostname-usage = hostname [OPTION]... [HOSTNAME]
+hostname-help-domain = 可能であれば DNS ドメイン名を表示します
+hostname-help-ip-address = ホストのネットワークアドレスを表示します
+hostname-help-fqdn = FQDN (完全修飾ドメイン名) を表示します (デフォルト)
+hostname-help-short = 可能であれば短縮ホスト名 (最初のドットより前の部分) を表示します
+hostname-error-permission = hostname: ホスト名を変更するには root 権限が必要です
+hostname-error-invalid-name = hostname: 無効なホスト名 '{ $name }'
+hostname-error-resolve-failed = hostname: ホスト名 '{ $name }' を解決できません
+hostname-error-winsock = Winsock の開始に失敗しました
+hostname-error-set-hostname = ホスト名の設定に失敗しました
+hostname-error-get-hostname = ホスト名の取得に失敗しました
+hostname-error-resolve-socket = ソケットアドレスの解決に失敗しました
