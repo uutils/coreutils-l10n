@@ -10,7 +10,9 @@ chroot-error-command-not-found = misslyckades med att köra kommandot { $cmd }: 
 chroot-error-groups-parsing-failed = --groups parsning misslyckades
 chroot-error-invalid-group = ogiltig grupp: { $group }
 chroot-error-invalid-group-list = ogiltig grupplista: { $list }
-chroot-error-missing-newroot = Operand saknas: NEWROOT\nFörsök med '{ $util_name } --help' för mer information.
+chroot-error-missing-newroot =
+    Operand saknas: NEWROOT
+    Försök med '{ $util_name } --help' för mer information.
 chroot-error-no-group-specified = ingen grupp specificerad för okänd uid: { $uid }
 chroot-error-no-such-user = ogiltig användare
 chroot-error-no-such-group = ogiltig grupp
