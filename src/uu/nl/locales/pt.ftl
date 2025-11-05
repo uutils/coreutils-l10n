@@ -34,3 +34,4 @@ nl-error-invalid-blank-lines = Número inválido de linhas em branco: ‘{ $valu
 nl-error-invalid-regex = expressão regular inválida
 nl-error-invalid-numbering-style = estilo de numeração inválido: '{ $style }'
 nl-error-is-directory = { $path }: é um diretório
+nl-error-could-not-write = não foi possível escrever a saída
