@@ -45,3 +45,4 @@ base-common-help-ignore-garbage = ao descodificar, ignorar caracteres não-alfab
 base-common-help-wrap = embrulhar linhas codificadas após o carácter COLS (predefinição { $default }, 0 para desativar o embrulho)
 base-common-invalid-wrap-size = tamanho de embrulho inválido: { $size }
 basenc-help-base64url = base64 seguro para ficheiros e URLs
+basenc-help-base58 = codificação base58 visualmente inequívoca
