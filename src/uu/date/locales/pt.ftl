@@ -101,3 +101,6 @@ date-error-date-overflow = excesso de data '{ $date }'
 date-error-setting-date-not-supported-macos = definir a data não é apoiada pelo macOS
 date-error-setting-date-not-supported-redox = definir a data não é apoiada pelo Redox
 date-error-cannot-set-date = não pode definir data
+date-help-resolution =
+    exibir a resolução disponível dos carimbos de tempo
+    Exemplo: 0,000000001
