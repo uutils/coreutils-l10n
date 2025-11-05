@@ -47,3 +47,4 @@ id-after-help =
     Se um utilizador (nome de login ou ID de utilizador) for especificado, os IDs de utilizador e de grupo
     desse utilizador são exibidos. Neste caso, presume-se que os IDs real e efetivo
     sejam os mesmos.
+id-help-ignore = ignorar, para compatibilidade com outras versões
