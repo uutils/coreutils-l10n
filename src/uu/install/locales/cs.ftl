@@ -1,0 +1,1 @@
+install-help-ignored = ignorováno
