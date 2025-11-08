@@ -1,0 +1,1 @@
+comm-total = celkem
