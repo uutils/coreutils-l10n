@@ -1,0 +1,9 @@
+pinky-column-name = Název
+pinky-column-tty = TTY
+pinky-column-idle = Nečinné
+pinky-column-when = Kdy
+pinky-column-where = Kde
+pinky-directory-label = Složka:
+pinky-shell-label = Shell:
+pinky-project-label = Projekt:
+pinky-login-name-label = Přihlašovací jméno:
