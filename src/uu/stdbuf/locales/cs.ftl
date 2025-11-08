@@ -1,0 +1,1 @@
+stdbuf-value-mode = REŽIM
