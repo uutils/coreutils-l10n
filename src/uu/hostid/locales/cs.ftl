@@ -1,0 +1,1 @@
+hostid-usage = hostid [volby]
