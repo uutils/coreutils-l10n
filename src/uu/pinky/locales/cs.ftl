@@ -7,3 +7,7 @@ pinky-directory-label = Složka:
 pinky-shell-label = Shell:
 pinky-project-label = Projekt:
 pinky-login-name-label = Přihlašovací jméno:
+pinky-usage = pinky [VOLBA]… [UŽIVATEL]…
+pinky-help-help = Vypsat nápovědu
+pinky-real-life-label = Ve skutečném životě:
+pinky-unsupported-openbsd = nepodporovaný příkaz na OpenBSD
