@@ -4,3 +4,7 @@ sort-help-version = Vypsat verzi.
 sort-help-ignore-nonprinting = ignorovat netisknutelné znaky
 sort-help-reverse = obrátit výstup
 sort-multiple-output-files = zadáno vícero výstupních souborů
+sort-failed-fetch-rlimit = rlimit se nepodařilo získat
+sort-help-random = zamíchat v náhodném pořadí
+sort-help-key = seřadit podle klíče
+sort-help-separator = uživatelsky určený oddělovač pro -k
