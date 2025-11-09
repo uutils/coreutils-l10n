@@ -1,1 +1,3 @@
 kill-help-list = Vypíše signály
+kill-usage = kill [VOLBA]… PID…
+kill-help-table = Vypíše tabulku signálů
