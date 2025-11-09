@@ -15,3 +15,6 @@ hashsum-usage = hashsum --<digest> [VOLBY]… [SOUBOR]…
 hashsum-help-binary-other = číst v binárním režimu
 hashsum-help-tag = vytvořit kontrolní součet ve stylu BSD
 hashsum-error-failed-to-read-input = nepodařilo se číst ze vstupu
+hashsum-about = Spočítat a zkontrolovat otisky zpráv.
+hashsum-usage-specific = { $utility_name } [VOLBA]… [SOUBOR]…
+hashsum-help-text-other = číst v textovém režimu (výchozí)
