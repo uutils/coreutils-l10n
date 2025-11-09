@@ -18,3 +18,4 @@ stat-help-dereference = následovat odkazy
 stat-word-block-size = velikost bloku
 stat-usage = stat [VOLBA]… SOUBOR…
 stat-warning-unrecognized-escape-x = nerozpoznané zbavení významu „\x“
+stat-selinux-unsupported-system = nepodporováno na tomto systému
