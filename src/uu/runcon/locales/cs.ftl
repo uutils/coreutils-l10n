@@ -1,1 +1,12 @@
 runcon-operation-executing-command = Vykonávání příkazu
+runcon-operation-creating-context = Vytváření nového kontextu
+runcon-operation-checking-context = Kontrolování kontextu zabezpečení
+runcon-operation-getting-context = Získávání kontextu zabezpečení
+runcon-error-no-command = Není zadán žádný příkaz
+runcon-error-operation-failed = { $operation } se nezdařilo
+runcon-operation-setting-context = Nastavování nového kontextu zabezpečení
+runcon-operation-getting-process-class = Získávání třídy zabezpečení procesu
+runcon-operation-setting-user = Nastavování uživatele kontextu zabezpečení
+runcon-operation-setting-role = Nastavování role kontextu zabezpečení
+runcon-operation-setting-type = Nastavování typu kontextu zabezpečení
+runcon-operation-setting-range = Nastavování rozsahu kontextu zabezpečení
