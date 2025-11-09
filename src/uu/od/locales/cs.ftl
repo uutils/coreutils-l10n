@@ -15,3 +15,5 @@ od-help-capital-h = šestnáctkové 4bajtové jednotky
 od-error-too-large = hodnota je příliš velká
 od-help-d = desítkové 2bajtové jednotky bez znaménka
 od-help-d4 = desítkové 4bajtové jednotky bez znaménka
+od-error-invalid-endian = Neplatný argument --endian={ $endian }
+od-error-invalid-inputs = Neplatné vstupy: { $msg }
