@@ -15,3 +15,4 @@ df-help-print-help = Vypsat nápovědu.
 df-help-total = vytvořit celkový součet
 df-help-print-type = vypsat typ souborového systému
 df-error-no-file-systems-processed = nezpracovány žádné souborové systémy
+df-help-portability = použít POSIX výstupní formát
