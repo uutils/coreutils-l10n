@@ -11,3 +11,4 @@ pinky-usage = pinky [VOLBA]… [UŽIVATEL]…
 pinky-help-help = Vypsat nápovědu
 pinky-real-life-label = Ve skutečném životě:
 pinky-unsupported-openbsd = nepodporovaný příkaz na OpenBSD
+pinky-column-login = Přihlášení
