@@ -1,0 +1,3 @@
+wc-total = celkem
+wc-standard-input = standardní vstup
+wc-usage = wc [VOLBA]… [SOUBOR]…
