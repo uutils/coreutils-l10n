@@ -1,2 +1,17 @@
 od-error-parse-failed = zpracování se nezdařilo
 od-help-b = osmičkové bajty
+od-help-help = Vypsat nápovědu.
+od-help-o = oktalové 2bajtové jednotky
+od-help-capital-i = desítkové 8bajtové jednotky
+od-help-capital-l = desítkové 8bajtové jednotky
+od-help-i = desítkové 4bajtové jednotky
+od-help-l = desítkové 8bajtové jednotky
+od-help-x = šestnáctkové 2bajtové jednotky
+od-help-h = šestnáctkové 2bajtové jednotky
+od-help-capital-o = osmičkové 4bajtové jednotky
+od-help-s = desítkové 2bajtové jednotky
+od-help-capital-x = šestnáctkové 4bajtové jednotky
+od-help-capital-h = šestnáctkové 4bajtové jednotky
+od-error-too-large = hodnota je příliš velká
+od-help-d = desítkové 2bajtové jednotky bez znaménka
+od-help-d4 = desítkové 4bajtové jednotky bez znaménka
