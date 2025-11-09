@@ -12,3 +12,5 @@ who-help-dead = vypsat mrtvé procesy
 who-help-runlevel = vypsat stávající úroveň běhu
 who-runlevel-last = last={ $last }
 who-login-id = id={ $id }
+who-help-users = vypsat přihlášené uživatele
+who-unsupported-openbsd = nepodporovaný příkaz na OpenBSD
