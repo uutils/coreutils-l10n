@@ -12,3 +12,5 @@ chcon-error-no-context-specified = Není zadán žádný kontext
 chcon-error-no-files-specified = Nejsou určeny žádné soubory
 chcon-error-operation-failed = { $operation } se nezdařilo
 chcon-op-setting-security-context-user = Nastavování uživatele kontextu zabezpečení
+chcon-error-data-out-of-range = Datum je mimo rozsah
+chcon-error-recursive-no-dereference-require-p = „--recursive“ s „--no-dereference“ vyžaduje „-P“
