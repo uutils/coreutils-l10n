@@ -1,3 +1,9 @@
 wc-total = celkem
 wc-standard-input = standardní vstup
 wc-usage = wc [VOLBA]… [SOUBOR]…
+wc-help-bytes = vypsat počty bajtů
+wc-help-chars = vypsat počty znaků
+wc-help-lines = vypsat počty konců řádků
+wc-help-words = vypsat počty slov
+wc-error-zero-length-filename = neplatný prázdný název souboru
+wc-error-failed-to-print-total = nepodařilo se vypsat celkem
