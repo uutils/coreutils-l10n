@@ -16,3 +16,5 @@ stat-word-modify = Změnit
 stat-word-change = Změnit
 stat-help-dereference = následovat odkazy
 stat-word-block-size = velikost bloku
+stat-usage = stat [VOLBA]… SOUBOR…
+stat-warning-unrecognized-escape-x = nerozpoznané zbavení významu „\x“
