@@ -1,1 +1,3 @@
 pr-page = Stránka
+pr-usage = pr [VOLBA]… [SOUBOR]…
+pr-help-help = Vypsat nápovědu
