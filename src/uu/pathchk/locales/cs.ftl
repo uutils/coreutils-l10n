@@ -1,2 +1,3 @@
 pathchk-error-missing-operand = chybějící operátor
 pathchk-usage = pathchk [VOLBA]… NÁZEV…
+pathchk-error-empty-file-name = prázdný název souboru
