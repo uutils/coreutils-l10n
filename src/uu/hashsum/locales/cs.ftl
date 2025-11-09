@@ -1,0 +1,17 @@
+hashsum-help-md5 = pracovat s MD5
+hashsum-help-sha1 = pracovat s SHA1
+hashsum-help-sha224 = pracovat s SHA224
+hashsum-help-sha256 = pracovat s SHA256
+hashsum-help-sha384 = pracovat s SHA384
+hashsum-help-sha512 = pracovat s SHA512
+hashsum-help-sha3 = pracovat s SHA3
+hashsum-help-sha3-224 = pracovat s SHA3-224
+hashsum-help-sha3-256 = pracovat s SHA3-256
+hashsum-help-sha3-384 = pracovat s SHA3-384
+hashsum-help-sha3-512 = pracovat s SHA3-512
+hashsum-help-b2sum = pracovat s BLAKE2
+hashsum-help-b3sum = pracovat s BLAKE3
+hashsum-usage = hashsum --<digest> [VOLBY]… [SOUBOR]…
+hashsum-help-binary-other = číst v binárním režimu
+hashsum-help-tag = vytvořit kontrolní součet ve stylu BSD
+hashsum-error-failed-to-read-input = nepodařilo se číst ze vstupu
