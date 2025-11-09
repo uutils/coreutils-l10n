@@ -1,1 +1,3 @@
 echo-usage = echo [VOLBY]… [ŘETĚZEC]…
+echo-about = Zobrazit řádek textu
+echo-help-enable-escapes = zapnout interpretaci zbavování významu pomocí zpětného lomítka
