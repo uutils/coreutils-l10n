@@ -3,3 +3,7 @@ numfmt-error-invalid-number-empty = neplatné číslo: „“
 numfmt-help-to-unit = velikost jednotky výstupu
 numfmt-error-unsupported-unit = Je zadána nepodporovaná jednotka
 numfmt-about = Převést čísla z/na člověku čitelné řetězce
+numfmt-error-invalid-unit-size = neplatná velikost jednotky: { $size }
+numfmt-error-invalid-padding = neplatná hodnota zarovnávání { $value }
+numfmt-error-invalid-header = neplatná hodnota záhlaví { $value }
+numfmt-error-grouping-cannot-be-combined-with-to = seskupování nemůže být kombinováno s --to
