@@ -5,3 +5,10 @@ tail-is-a-directory = Je složka
 tail-no-files-remaining = nezbývají žádné soubory
 tail-become-inaccessible = se stalo nepřístupné
 tail-help-follow-retry = Stejné jako --follow=name --retry
+tail-help-bytes = Počet bajtů k vypsání
+tail-help-lines = Počet řádků k vypsání
+tail-error-invalid-pid = neplatné PID: { $pid }
+tail-error-invalid-number-overflow = neplatný počet: { $arg }
+tail-error-backend-resources-exhausted = prostředky { $backend } vyčerpány
+tail-status-file-truncated = { $file }: soubor zkrácen
+tail-no-such-file-or-directory = Žádný takový soubor nebo složka
