@@ -4,3 +4,4 @@ shred-usage = shred [VOLBA]… SOUBOR…
 shred-missing-file-operand = chybí souborový operand
 shred-removing = { $file }: odebírání
 shred-removed = { $file }: odebráno
+shred-random-source-help = brát náhodné bajty ze SOUBOR
