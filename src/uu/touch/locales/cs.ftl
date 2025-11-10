@@ -1,2 +1,3 @@
 touch-usage = touch [VOLBA]… [SOUBOR]…
 touch-help-help = Vypsat nápovědu.
+touch-error-no-such-file-or-directory = Žádný takový soubor nebo složka
