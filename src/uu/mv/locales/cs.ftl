@@ -4,3 +4,6 @@ mv-error-directory-not-empty = Složka není prázdná
 mv-help-interactive = dotázat se před přebitím
 mv-debug-skipped = přeskočeno { $target }
 mv-prompt-overwrite = přepsat { $target }?
+mv-error-not-replacing = nenahrazuje se { $target }
+mv-help-force = nedotazovat se před přepsáním
+mv-help-verbose = vysvětlit, co se dělá
