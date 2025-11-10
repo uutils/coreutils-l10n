@@ -14,3 +14,6 @@ who-runlevel-last = last={ $last }
 who-login-id = id={ $id }
 who-help-users = vypsat přihlášené uživatele
 who-unsupported-openbsd = nepodporovaný příkaz na OpenBSD
+who-help-boot = okamžik posledního startu systému
+who-help-heading = vypsat řádek záhlaví sloupců
+who-help-time = vypsat poslední změnu systémových hodin
