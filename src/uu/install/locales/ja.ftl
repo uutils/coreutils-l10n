@@ -1,5 +1,5 @@
 install-about =
-    SOURCE を DEST へ、または複数の SOURCE を既存の DIRECTORY へ、
+    OURCE を DEST へ、または複数の SOURCE を既存の DIRECTORY へ、
     パーミッションモードと所有者/グループを設定しながらコピーします
 install-usage = install [OPTION]... [FILE]...
 install-help-ignored = 無視されます
