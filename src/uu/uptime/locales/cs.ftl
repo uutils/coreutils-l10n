@@ -1,2 +1,3 @@
 uptime-usage = uptime [VOLBA]…
 uptime-help-since = systém zapnutý od
+uptime-lib-error-system-uptime = nebylo možné získat dobu chodu systému od zapnutí
