@@ -7,3 +7,5 @@ wc-help-lines = vypsat počty konců řádků
 wc-help-words = vypsat počty slov
 wc-error-zero-length-filename = neplatný prázdný název souboru
 wc-error-failed-to-print-total = nepodařilo se vypsat celkem
+wc-error-read-error = { $path }: chyba čtení
+decoder-error-invalid-byte-sequence = neplatná posloupnost bajtů: { $bytes }
