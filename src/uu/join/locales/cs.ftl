@@ -1,2 +1,9 @@
 join-usage = join [VOLBA]… SOUBOR1 SOUBOR2
 join-error-io = chyba vstupu/výstupu : { $error }
+join-help-e = nahradit chybějící kolonky vstupu za EMPTY
+join-help-j = ekvivalent k „-1 KOLONKA -2 KOLONKA“
+join-help-o = při vytváření řádku výstupu dodržovat FORMÁT
+join-error-both-files-stdin = není možné, aby oba soubory byly standardním vstupem
+join-error-invalid-file-number-simple = neplatné číslo souboru: { $value }
+join-error-invalid-field-number = neplatné číslo kolonky: { $value }
+join-error-input-not-sorted = vstup není seřazený
