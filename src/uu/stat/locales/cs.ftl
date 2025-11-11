@@ -19,3 +19,6 @@ stat-word-block-size = velikost bloku
 stat-usage = stat [VOLBA]… SOUBOR…
 stat-warning-unrecognized-escape-x = nerozpoznané zbavení významu „\x“
 stat-selinux-unsupported-system = nepodporováno na tomto systému
+stat-about = Zobrazit stav souboru nebo souborového systému.
+stat-error-invalid-quoting-style = Neplatný styl citování: { $style }
+stat-help-terse = vypsat informaci ve stručné formě
