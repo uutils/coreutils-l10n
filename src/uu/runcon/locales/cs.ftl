@@ -10,3 +10,4 @@ runcon-operation-setting-user = Nastavování uživatele kontextu zabezpečení
 runcon-operation-setting-role = Nastavování role kontextu zabezpečení
 runcon-operation-setting-type = Nastavování typu kontextu zabezpečení
 runcon-operation-setting-range = Nastavování rozsahu kontextu zabezpečení
+runcon-operation-getting-file-context = Získáván kontextu zabezpečení souboru příkazu
