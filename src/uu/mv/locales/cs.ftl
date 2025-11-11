@@ -7,3 +7,5 @@ mv-prompt-overwrite = přepsat { $target }?
 mv-error-not-replacing = nenahrazuje se { $target }
 mv-help-force = nedotazovat se před přepsáním
 mv-help-verbose = vysvětlit, co se dělá
+mv-help-no-clobber = nepřepisovat existující soubor
+mv-help-no-target-directory = zacházet s DEST jako s běžným souborem
