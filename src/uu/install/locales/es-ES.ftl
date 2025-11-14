@@ -1,7 +1,7 @@
-install-about = Copiar FUENTE a DEST o múltiples FUENTE(s) al DIRECTORIO
-  existente, mientras se establecen los modos de permisos y propietario/grupo
+install-about =
+    Copiar FUENTE a DEST o múltiples FUENTE(s) al DIRECTORIO
+    existente, mientras se establecen los modos de permisos y propietario/grupo
 install-usage = install [OPCIÓN]... [ARCHIVO]...
-
 # Help messages
 install-help-ignored = ignorado
 install-help-compare = comparar cada par de archivos fuente y destino, y en algunos casos, no modificar el destino en absoluto
@@ -18,7 +18,6 @@ install-help-no-target-directory = tratar DEST como un archivo normal
 install-help-verbose = explicar qué se está haciendo
 install-help-preserve-context = preservar contexto de seguridad
 install-help-context = establecer contexto de seguridad de archivos y directorios
-
 # Error messages
 install-error-dir-needs-arg = { $util_name } con -d requiere al menos un argumento.
 install-error-create-dir-failed = fallo al crear { $path }
@@ -38,8 +37,9 @@ install-error-omitting-directory = omitiendo directorio { $path }
 install-error-not-a-directory = no se pudo acceder a { $path }: No es un directorio
 install-error-override-directory-failed = no se puede sobrescribir el directorio { $dir } con un no-directorio { $file }
 install-error-same-file = '{ $file1 }' y '{ $file2 }' son el mismo archivo
-install-error-extra-operand = operando extra { $operand }
-{ $usage }
+install-error-extra-operand =
+    operando extra { $operand }
+    { $usage }
 install-error-invalid-mode = Cadena de modo inválida: { $error }
 install-error-mutually-exclusive-target = Las opciones --target-directory y --no-target-directory son mutuamente excluyentes
 install-error-mutually-exclusive-compare-preserve = Las opciones --compare y --preserve-timestamps son mutuamente excluyentes
@@ -47,13 +47,12 @@ install-error-mutually-exclusive-compare-strip = Las opciones --compare y --stri
 install-error-missing-file-operand = falta operando de archivo
 install-error-missing-destination-operand = falta operando de archivo de destino después de '{ $path }'
 install-error-failed-to-remove = No se pudo eliminar el archivo existente { $path }. Error: { $error }
-
 # Warning messages
 install-warning-compare-ignored = la opción --compare (-C) es ignorada cuando especificas un modo con bits de no-permisos
-
 # Verbose output
 install-verbose-creating-directory = creando directorio { $path }
 install-verbose-creating-directory-step = install: creando directorio { $path }
 install-verbose-removed = eliminado { $path }
 install-verbose-copy = { $from } -> { $to }
 install-verbose-backup = (respaldo: { $backup })
+install-help-default-context = establecer contexto de seguridad SELinux de archivo destino y cada directorio creado a tipo predeterminado
