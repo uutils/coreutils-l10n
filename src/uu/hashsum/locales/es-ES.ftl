@@ -1,6 +1,5 @@
 hashsum-about = Calcular y verificar resúmenes de mensaje.
 hashsum-usage = hashsum --<digest> [OPCIONES]... [ARCHIVO]...
-
 # Help messages
 hashsum-help-binary-windows = leer o verificar en modo binario (predeterminado)
 hashsum-help-binary-other = leer en modo binario
@@ -17,7 +16,6 @@ hashsum-help-zero = terminar cada línea de salida con NUL, no nueva línea
 hashsum-help-length = longitud del resumen en bits; no debe exceder el máximo para el algoritmo blake2 y debe ser múltiplo de 8
 hashsum-help-no-names = Omite nombres de archivo en la salida (opción no presente en GNU/Coreutils)
 hashsum-help-bits = establecer el tamaño de la salida (solo para SHAKE)
-
 # Algorithm help messages
 hashsum-help-md5 = trabajar con MD5
 hashsum-help-sha1 = trabajar con SHA1
@@ -34,6 +32,6 @@ hashsum-help-shake128 = trabajar con SHAKE128 usando BITS para el tamaño de sal
 hashsum-help-shake256 = trabajar con SHAKE256 usando BITS para el tamaño de salida
 hashsum-help-b2sum = trabajar con BLAKE2
 hashsum-help-b3sum = trabajar con BLAKE3
-
 # Error messages
 hashsum-error-failed-to-read-input = fallo al leer entrada
+hashsum-usage-specific = { $utility_name } [OPCIÓN]... [ARCHIVO]...
