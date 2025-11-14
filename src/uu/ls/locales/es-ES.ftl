@@ -16,10 +16,17 @@ ls-error-invalid-block-size = argumento --block-size inválido { $size }
 ls-error-dired-and-zero-incompatible = --dired y --zero son incompatibles
 ls-error-not-listing-already-listed = { $path }: no se lista directorio ya listado
 ls-error-invalid-time-style =
-    argumento --time-style inválido { $style }
-    Los valores posibles son: { $values }
+    argumento --time-style { $style } no válido
+    los valores posibles son:
+      - [posix-]full-iso
+      - [posix-]long-iso
+      - [posix-]iso
+      - [posix-]locale
+      - +FORMATO (e.g., +%H:%M) para un formato de fecha con estilo 'date'
 
     Para más información pruebe --help
+
+    Los valores posibles son: { $values }
 # Help messages
 ls-help-print-help = Mostrar información de ayuda.
 ls-help-set-display-format = Establecer el formato de visualización.
@@ -133,3 +140,4 @@ ls-invalid-columns-width = ignorando ancho inválido en variable de entorno COLU
 ls-invalid-ignore-pattern = Patrón inválido para ignore: { $pattern }
 ls-invalid-hide-pattern = Patrón inválido para hide: { $pattern }
 ls-total = total { $size }
+ls-help-unsorted-all = Listado de todos los archivos dentro del directorio ordenado, no ordenado. Equivalente a -aU. Inhabilita --color a no ser que se especifique explícitamente.
