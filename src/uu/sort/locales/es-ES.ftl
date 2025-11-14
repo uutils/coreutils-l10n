@@ -23,7 +23,7 @@ sort-file-operands-combined =
     los operandos de archivo no se pueden combinar con --files0-from
     Pruebe '{ $help } --help' para más información.
 sort-multiple-output-files = múltiples archivos de salida especificados
-sort-minus-in-stdin = al leer nombres de archivo desde stdin, no se permite ningún nombre de archivo de '-'
+sort-minus-in-stdin = al leer nombres de archivo desde entrada estándar, no se concede ningún nombre de archivo de '-'
 sort-no-input-from = no hay entrada desde '{ $file }'
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: nombre de archivo de longitud cero inválido
 sort-options-incompatible = las opciones '-{ $opt1 }{ $opt2 }' son incompatibles
