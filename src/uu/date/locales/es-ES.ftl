@@ -1,6 +1,4 @@
-date-about =
-    Mostrar o establecer la fecha y hora del sistema
-
+date-about = Mostrar o establecer la fecha y hora del sistema
 date-usage =
     date [OPCIÓN]... [+FORMATO]...
     date [OPCIÓN]... [MMDDhhmm[[CC]AA][.ss]]
@@ -74,31 +72,35 @@ date-usage =
       Mostrar la hora en la costa oeste de EE.UU. (usar tzselect(1) para encontrar TZ)
 
       TZ='America/Los_Angeles' date
-
 date-help-date = mostrar la hora descrita por CADENA, no 'ahora'
 date-help-file = como --date; una vez por cada línea de ARCHIVOFECHA
-date-help-iso-8601 = mostrar fecha/hora en formato ISO 8601.
-  FMT='date' solo para fecha (por defecto),
-  'hours', 'minutes', 'seconds', o 'ns'
-  para fecha y hora con la precisión indicada.
-  Ejemplo: 2006-08-14T02:34:56-06:00
-date-help-rfc-email = mostrar fecha y hora en formato RFC 5322.
-  Ejemplo: Mon, 14 Aug 2006 02:34:56 -0600
-date-help-rfc-3339 = mostrar fecha/hora en formato RFC 3339.
-  FMT='date', 'seconds', o 'ns'
-  para fecha y hora con la precisión indicada.
-  Ejemplo: 2006-08-14 02:34:56-06:00
+date-help-iso-8601 =
+    mostrar fecha/hora en formato ISO 8601.
+    FMT='date' solo para fecha (por defecto),
+    'hours', 'minutes', 'seconds', o 'ns'
+    para fecha y hora con la precisión indicada.
+    Ejemplo: 2006-08-14T02:34:56-06:00
+date-help-rfc-email =
+    mostrar fecha y hora en formato RFC 5322.
+    Ejemplo: Mon, 14 Aug 2006 02:34:56 -0600
+date-help-rfc-3339 =
+    mostrar fecha/hora en formato RFC 3339.
+    FMT='date', 'seconds', o 'ns'
+    para fecha y hora con la precisión indicada.
+    Ejemplo: 2006-08-14 02:34:56-06:00
 date-help-debug = anotar la fecha analizada y advertir sobre uso cuestionable en stderr
 date-help-reference = mostrar la hora de última modificación de ARCHIVO
 date-help-set = establecer la hora descrita por CADENA
 date-help-set-macos = establecer la hora descrita por CADENA (aún no disponible en mac)
 date-help-set-redox = establecer la hora descrita por CADENA (aún no disponible en redox)
 date-help-universal = mostrar o establecer el Tiempo Universal Coordinado (UTC)
-
-date-error-invalid-date = fecha no válida '{$date}'
-date-error-invalid-format = formato no válido '{$format}' ({$error})
-date-error-expected-file-got-directory = se esperaba archivo, se obtuvo directorio '{$path}'
-date-error-date-overflow = desbordamiento de fecha '{$date}'
+date-error-invalid-date = fecha no válida '{ $date }'
+date-error-invalid-format = formato no válido '{ $format }' ({ $error })
+date-error-expected-file-got-directory = se esperaba archivo, se obtuvo directorio '{ $path }'
+date-error-date-overflow = desbordamiento de fecha '{ $date }'
 date-error-setting-date-not-supported-macos = establecer la fecha no está soportado en macOS
 date-error-setting-date-not-supported-redox = establecer la fecha no está soportado en Redox
 date-error-cannot-set-date = no se puede establecer la fecha
+date-help-resolution =
+    salida de resolución de sellos horarios disponibles
+    Ejemplo: 0.000000001
