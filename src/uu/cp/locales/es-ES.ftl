@@ -1,21 +1,22 @@
 cp-about = Copiar ORIGEN a DESTINO, o múltiples ORIGEN(es) a DIRECTORIO.
-cp-usage = cp [OPCIÓN]... [-T] ORIGEN DESTINO
-  cp [OPCIÓN]... ORIGEN... DIRECTORIO
-  cp [OPCIÓN]... -t DIRECTORIO ORIGEN...
-cp-after-help = No copiar un no-directorio que tiene un destino existente con la misma o más nueva marca de tiempo de modificación;
-  en su lugar, omitir silenciosamente el archivo sin fallar. Si se están preservando las marcas de tiempo, la comparación es con la
-  marca de tiempo de origen truncada a las resoluciones del sistema de archivos de destino y de las llamadas del sistema usadas para
-  actualizar marcas de tiempo; esto evita trabajo duplicado si varios comandos cp -pu se ejecutan con el mismo origen
-  y destino. Esta opción se ignora si también se especifica la opción -n o --no-clobber. También, si
-  --preserve=links también se especifica (como con cp -au por ejemplo), eso tendrá precedencia; consecuentemente,
-  dependiendo del orden en que se procesen los archivos del origen, archivos más nuevos en el destino pueden ser reemplazados,
-  para reflejar enlaces duros en el origen. lo cual da más control sobre qué archivos existentes en el destino son
-  reemplazados, y su valor puede ser uno de los siguientes:
+cp-usage =
+    cp [OPCIÓN]... [-T] ORIGEN DESTINO
+    cp [OPCIÓN]... ORIGEN... DIRECTORIO
+    cp [OPCIÓN]... -t DIRECTORIO ORIGEN...
+cp-after-help =
+    No copiar un no-directorio que tiene un destino existente con la misma o más nueva marca de tiempo de modificación;
+    en su lugar, omitir silenciosamente el archivo sin fallar. Si se están preservando las marcas de tiempo, la comparación es con la
+    marca de tiempo de origen truncada a las resoluciones del sistema de archivos de destino y de las llamadas del sistema usadas para
+    actualizar marcas de tiempo; esto evita trabajo duplicado si varios comandos cp -pu se ejecutan con el mismo origen
+    y destino. Esta opción se ignora si también se especifica la opción -n o --no-clobber. También, si
+    --preserve=links también se especifica (como con cp -au por ejemplo), eso tendrá precedencia; consecuentemente,
+    dependiendo del orden en que se procesen los archivos del origen, archivos más nuevos en el destino pueden ser reemplazados,
+    para reflejar enlaces duros en el origen. lo cual da más control sobre qué archivos existentes en el destino son
+    reemplazados, y su valor puede ser uno de los siguientes:
 
-  - all Esta es la operación por defecto cuando no se especifica una opción --update, y resulta en que todos los archivos existentes en el destino sean reemplazados.
-  - none Esto es similar a la opción --no-clobber, en que ningún archivo en el destino es reemplazado, pero también omitir un archivo no induce un fallo.
-  - older Esta es la operación por defecto cuando se especifica --update, y resulta en que los archivos sean reemplazados si son más antiguos que el archivo origen correspondiente.
-
+    - all Esta es la operación por defecto cuando no se especifica una opción --update, y resulta en que todos los archivos existentes en el destino sean reemplazados.
+    - none Esto es similar a la opción --no-clobber, en que ningún archivo en el destino es reemplazado, pero también omitir un archivo no induce un fallo.
+    - older Esta es la operación por defecto cuando se especifica --update, y resulta en que los archivos sean reemplazados si son más antiguos que el archivo origen correspondiente.
 # Help messages
 cp-help-target-directory = copiar todos los argumentos ORIGEN al directorio destino
 cp-help-no-target-directory = Tratar DESTINO como un archivo regular y no un directorio
@@ -46,7 +47,6 @@ cp-help-selinux = establecer contexto de seguridad SELinux del archivo destino a
 cp-help-context = como -Z, o si se especifica CTX entonces establecer el contexto de seguridad SELinux o SMACK a CTX
 cp-help-progress = Mostrar una barra de progreso. Nota: esta característica no está soportada por GNU coreutils.
 cp-help-copy-contents = NoImplementado: copiar contenidos de archivos especiales cuando recursivo
-
 # Error messages
 cp-error-missing-file-operand = falta operando de archivo
 cp-error-missing-destination-operand = falta operando de archivo destino después de { $source }
@@ -89,9 +89,9 @@ cp-error-cannot-create-fifo = no se puede crear fifo { $path }: El archivo exist
 cp-error-invalid-attribute = atributo inválido { $value }
 cp-error-failed-to-create-whole-tree = falló al crear todo el árbol
 cp-error-failed-to-create-directory = Falló al crear directorio: { $error }
-cp-error-backup-format = cp: { $error }
-  Pruebe '{ $exec } --help' para más información.
-
+cp-error-backup-format =
+    cp: { $error }
+    Pruebe '{ $exec } --help' para más información.
 # Debug enum strings
 cp-debug-enum-no = no
 cp-debug-enum-yes = sí
@@ -101,16 +101,14 @@ cp-debug-enum-unknown = desconocido
 cp-debug-enum-zeros = ceros
 cp-debug-enum-seek-hole = SEEK_HOLE
 cp-debug-enum-seek-hole-zeros = SEEK_HOLE + ceros
-
 # Warning message
 cp-warning-source-specified-more-than-once = origen { $file_type } { $source } especificado más de una vez
-
 # Verbose and debug messages
 cp-verbose-copied = { $source } -> { $dest }
 cp-debug-skipped = omitido { $path }
 cp-verbose-created-directory = { $source } -> { $dest }
 cp-debug-copy-offload = descarga de copia: { $offload }, reflink: { $reflink }, detección dispersa: { $sparse }
-
 # Prompts
 cp-prompt-overwrite = ¿sobreescribir { $path }?
 cp-prompt-overwrite-with-mode = reemplazar { $path }, anulando modo
+cp-verbose-removed = eliminado { $path }
