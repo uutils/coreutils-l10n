@@ -16,7 +16,7 @@ mv-after-help =
      - all --update オプションが指定されていない場合のデフォルトの動作であり、移動先のすべての既存ファイルが置き換えられます。
      - none --no-clobber オプションと同様に、移動先のファイルは置き換えられませんが、ファイルをスキップしてもエラーは発生しません。
      - older --update が指定された場合のデフォルトの動作であり、対応するソースファイルよりも古い場合にファイルが置き換えられます。
-mv-error-insufficient-arguments = 引数 '&lt;{ $arg_files }>...' には少なくとも 2 つの値が必要ですが、1 つしか指定されていません
+mv-error-insufficient-arguments = 引数 '<{ $arg_files }>...' には少なくとも 2 つの値が必要ですが、1 つしか指定されていません
 mv-error-no-such-file = { $path } を stat できません: ディレクトリではありません
 mv-error-cannot-stat-not-directory = { $path } を stat できません: ディレクトリではありません
 mv-error-same-file = { $source } と { $target } は同じファイルです
