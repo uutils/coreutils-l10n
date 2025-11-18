@@ -24,7 +24,7 @@ tr-error-missing-char-class-name = 文字クラス名 '[::]' がありません
 tr-error-missing-equivalence-class-char = 等価クラス文字 '[==]' がありません
 tr-error-multiple-char-repeat-in-set2 = string2 には 1 つの [c*] 反復構成のみを指定できます
 tr-error-char-repeat-in-set1 = string1 には [c*] 反復構成を指定できません
-tr-error-invalid-repeat-count = invalid repeat count { $count } in [c*n] construct
+tr-error-invalid-repeat-count = 無効な反復回数 { $count } が[c*n] 構成に指定されています
 tr-error-empty-set2-when-not-truncating = set1 を切り詰めない場合、string2 は空であってはなりません
 tr-error-class-except-lower-upper-in-set2 = 置換時には、set2 に指定できる文字クラスは 'upper' と 'lower' のみです
 tr-error-class-in-set2-not-matched = 置換時には、set2 の各 'upper'/'lower' は、set1 の同じ位置にある 'upper'/'lower' と一致する必要があります
