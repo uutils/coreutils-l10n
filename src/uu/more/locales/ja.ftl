@@ -20,5 +20,5 @@ more-help-number = --lines オプションの引数と同じです
 more-help-from-line = 各ファイルを指定行番号から表示し始めます
 more-help-pattern = 表示を開始する前に各ファイル内で検索される文字列
 more-help-files = 読み込むファイルへのパス
-more-help-message = { "[" }スペースキーを押して続行、'q' で終了]
+more-help-message = { "[" }スペースキーを押して続行、'q' で終了。]
 more-press-return = RETURN を押してください
