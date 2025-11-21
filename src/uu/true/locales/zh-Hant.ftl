@@ -1,2 +1,8 @@
-true-help-text = 列印幫助資訊
-true-version-text = 列印版本資訊
+true-help-text = 輸出說明資訊
+true-version-text = 輸出版本資訊
+true-about =
+    回傳 ture，此為成功的結束狀態。
+
+    除非以可辨識的選項呼叫，否則立刻回傳結束狀態 0。
+    在此情況下，程式將嘗試寫入說明或版本文字。
+    若此操作期間發生任何輸入輸出錯誤，程式將改為回傳 1。
