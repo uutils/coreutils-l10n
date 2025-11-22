@@ -1,0 +1,3 @@
+dd-usage =
+    dd [OPERAND]...
+    dd OPTION
