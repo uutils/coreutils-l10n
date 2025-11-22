@@ -6,3 +6,4 @@ comm-about =
     Valitsimitta tuota kolmisarakkeinen tuloste. Sarake 1 sisältää
     TIEDOSTON1 ja sarake 2 TIEDOSTON 2 ainutkertaiset rivit, sarake 3
     kummallekin yhteiset rivit.
+comm-usage = comm [VALITSIN]… TIEDOSTO1 TIEDOSTO2
