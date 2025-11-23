@@ -1,0 +1,11 @@
+sync-about = キャッシュされた書き込みを永続的ストレージに同期します
+sync-usage = sync [OPTION]... FILE...
+sync-help-file-system = ファイルを含むファイルシステムを同期します (Linux および Windows のみ)
+sync-help-data = ファイルデータのみを同期します。不要なメタデータは同期しません (Linux のみ)
+sync-error-data-needs-argument = --data には少なくとも 1 つの引数が必要です
+sync-error-opening-file = { $file } を開くことができません
+sync-error-no-such-file = { $file } を開くことができません: そのようなファイルやディレクトリはありません
+sync-error-flush-file-buffer = ファイルバッファのフラッシュに失敗しました
+sync-error-create-volume-handle = ボリュームハンドルの作成に失敗しました
+sync-error-find-first-volume = 最初のボリュームを見つけるのに失敗しました
+sync-error-find-next-volume = 次のボリュームを見つけるのに失敗しました
