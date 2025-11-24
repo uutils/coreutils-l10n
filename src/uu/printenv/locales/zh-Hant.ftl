@@ -1,0 +1,3 @@
+printenv-about = 顯示指定環境變數的值，或（未指定變數時）顯示所有變數的名稱與值對。
+printenv-usage = printenv [選項]... [變數]...
+printenv-help-null = 以 0 位元組而非換行符號結束每個輸出行
