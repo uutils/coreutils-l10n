@@ -1,0 +1,10 @@
+base-common-help-decode = dekódovat data
+base32-usage = base32 [VOLBA]… [SOUBOR]
+base64-usage = base64 [VOLBA]… [SOUBOR]
+basenc-usage = basenc [VOLBA]… [SOUBOR]
+basenc-error-missing-encoding-type = chybí typ kódování
+basenc-help-base64 = stejné jako program „base64“
+basenc-help-base32 = stejné jako program „base32“
+base-common-extra-operand = další operand { $operand }
+base-common-read-error = chyba čtení: { $error }
+base-common-help-ignore-garbage = při dekódování ignorovat znaky, které nejsou písmena

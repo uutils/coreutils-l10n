@@ -1,0 +1,16 @@
+chcon-op-accessing = Přístupující
+chcon-op-reading-directory = Čtení složky
+chcon-help-help = Vypsat nápovědu.
+chcon-op-getting-security-context = Získávání kontextu zabezpečení
+chcon-op-file-name-validation = Ověřování platnosti názvu souboru
+chcon-op-getting-meta-data = Získávání metadat
+chcon-op-modifying-root-path = Měnění popisu umístění kořene
+chcon-op-reading-cyclic-directory = Čtení cyklické složky
+chcon-op-creating-security-context = Vytváření kontextu zabezpečení
+chcon-op-setting-security-context = Nastavování kontextu zabezpečení
+chcon-error-no-context-specified = Není zadán žádný kontext
+chcon-error-no-files-specified = Nejsou určeny žádné soubory
+chcon-error-operation-failed = { $operation } se nezdařilo
+chcon-op-setting-security-context-user = Nastavování uživatele kontextu zabezpečení
+chcon-error-data-out-of-range = Datum je mimo rozsah
+chcon-error-recursive-no-dereference-require-p = „--recursive“ s „--no-dereference“ vyžaduje „-P“

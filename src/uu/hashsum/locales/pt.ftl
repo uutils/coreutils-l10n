@@ -31,3 +31,4 @@ hashsum-help-shake256 = trabalhar com SHAKE256 usando BITS para o tamanho da emi
 hashsum-help-b2sum = trabalhar com BLAKE2
 hashsum-help-b3sum = trabalhar com BLAKE3
 hashsum-error-failed-to-read-input = falha ao ler a entrada
+hashsum-usage-specific = { $utility_name } [OPÇÃO]... [FICHEIRO]...

@@ -1,0 +1,17 @@
+install-help-ignored = ignorováno
+install-error-metadata-failed = chyba metadat
+install-usage = instlall [VOLBA]… [SOUBOR]…
+install-help-preserve-context = zachovat kontext zabezpečení
+install-error-missing-file-operand = chybí souborový operand
+install-verbose-removed = odebráno { $path }
+install-verbose-backup = (záloha: { $backup })
+install-help-verbose = vysvětlit, co se dělá
+install-error-invalid-user = neplatný uživatel: { $user }
+install-error-invalid-group = neplatná skupina: { $group }
+install-error-omitting-directory = vynechává se složka { $path }
+install-verbose-creating-directory = vytváření složky { $path }
+install-help-target-directory = přesunout všechny argumenty ze ZDROJ do SLOŽKA
+install-help-no-target-directory = nakládat s CÍL jako s běžným souborem
+install-error-create-dir-failed = nepodařilo se vytvořit { $path }
+install-error-chmod-failed = nepodařilo se chmod { $path }
+install-verbose-creating-directory-step = install: vytváření složky { $path }

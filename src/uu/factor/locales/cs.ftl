@@ -1,0 +1,3 @@
+factor-error-write-error = chyba zápisu
+factor-usage = factor [VOLBA]… [ČÍSLO]…
+factor-help-help = Vypsat nápovědu.

@@ -1,0 +1,3 @@
+sync-usage = sync [VOLBA]… soubor…
+sync-about = Synchronizovat zápisy v mezipaměti na trvalé úložiště
+sync-error-data-needs-argument = --data vyžaduje alespoň jeden argument

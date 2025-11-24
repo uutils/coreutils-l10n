@@ -1,0 +1,10 @@
+uname-unknown = neznámé
+uname-usage = uname [VOLBA]…
+uname-error-cannot-get-system-name = nebylo možné získat název systému
+uname-help-kernel-name = vypsat název jádra systému.
+uname-help-kernel-release = vypsat vydání operačního systému.
+uname-help-kernel-version = vypsat verzi operačního systému.
+uname-help-machine = vypsat název hardware stroje.
+uname-help-os = vypsat název operačního systému.
+uname-help-processor = vypsat typ procesoru (neportovatelné)
+uname-help-hardware-platform = vypsat hardwarovou platformu (neportovatelné)

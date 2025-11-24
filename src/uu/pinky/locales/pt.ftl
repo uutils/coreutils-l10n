@@ -31,3 +31,4 @@ pinky-shell-label = Shell:
 pinky-project-label = Projeto:
 pinky-plan-label = Plano
 pinky-unsupported-openbsd = comando não apoiado no OpenBSD
+pinky-help-lookup = tentar canonizar nomes de anfitriões via DNS

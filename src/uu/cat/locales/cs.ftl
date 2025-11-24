@@ -1,0 +1,11 @@
+cat-help-ignored-u = (ignorováno)
+cat-usage = cat [VOLBA]… [SOUBOR]…
+cat-help-show-all = ekvivalent k -vET
+cat-help-show-nonprinting-ends = ekvivalent k -vE
+cat-help-show-nonprinting-tabs = ekvivalent k -vT
+cat-error-is-directory = Je složka
+cat-help-number = počet všech řádků výstupu
+cat-help-squeeze-blank = potlačit opakované prázdné řádky výstupu
+cat-help-show-tabs = zobrazit znaky TAB na ^I
+cat-error-unknown-filetype = neznámý typ souboru: { $ft_debug }
+cat-error-input-file-is-output-file = vstupní soubor je výstupní soubor

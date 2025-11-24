@@ -1,0 +1,9 @@
+mkfifo-about = 指定した名前で FIFO を作成します。
+mkfifo-usage = mkfifo [OPTION]... NAME...
+mkfifo-help-mode = FIFO のファイルパーミッション
+mkfifo-help-selinux = SELinux セキュリティコンテキストをデフォルトタイプに設定します
+mkfifo-help-context = -Z と同様、CTX が指定された場合は SELinux または SMACK のセキュリティコンテキストを CTX に設定します
+mkfifo-error-invalid-mode = 無効なモードです: { $error }
+mkfifo-error-missing-operand = オペランドがありません
+mkfifo-error-cannot-create-fifo = fifo { $path } を作成できません: ファイルが存在します
+mkfifo-error-cannot-set-permissions = { $path } のパーミッションを設定できません: { $error }

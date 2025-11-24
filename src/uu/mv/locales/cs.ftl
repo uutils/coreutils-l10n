@@ -1,0 +1,11 @@
+mv-progress-moving = přesouvání
+mv-error-permission-denied = Oprávnění odepřeno
+mv-error-directory-not-empty = Složka není prázdná
+mv-help-interactive = dotázat se před přebitím
+mv-debug-skipped = přeskočeno { $target }
+mv-prompt-overwrite = přepsat { $target }?
+mv-error-not-replacing = nenahrazuje se { $target }
+mv-help-force = nedotazovat se před přepsáním
+mv-help-verbose = vysvětlit, co se dělá
+mv-help-no-clobber = nepřepisovat existující soubor
+mv-help-no-target-directory = zacházet s DEST jako s běžným souborem
