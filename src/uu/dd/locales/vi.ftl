@@ -1,4 +1,4 @@
-dd-about = Sao chép và tùy chọn chuyển đổi một tài nguyên của hệ thống tệp
+dd-about = Sao chép và có thể chuyển đổi tài nguyên của hệ thống tệp
 dd-usage = dd [TOÁN HẠNG]...
   dd TÙY CHỌN
 dd-after-help = ### Toán hạng
