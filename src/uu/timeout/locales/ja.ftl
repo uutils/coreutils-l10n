@@ -1,0 +1,10 @@
+timeout-about = COMMAND を開始し、DURATION 経過後も実行中の場合は終了させます。
+timeout-usage = timeout [OPTION] DURATION COMMAND...
+timeout-help-foreground = timeout をシェルプロンプトから直接実行していない場合、COMMAND が TTY から読み込みを行い TTY シグナルを受信できるようにします。このモードでは COMMAND の子プロセスはタイムアウトしません
+timeout-help-kill-after = 最初のシグナル送信からこの期間経過後も COMMAND が実行中の場合、KILL シグナルも送信します
+timeout-help-preserve-status = コマンドがタイムアウトした場合であっても、COMMAND と同じステータスで終了します
+timeout-help-signal = タイムアウト時に送信するシグナルを指定します。SIGNAL には 'HUP' のような名前または番号を使用します。シグナル一覧については 'kill -l' を参照
+timeout-help-verbose = タイムアウト時に送信されたシグナルを標準エラーに出力します
+timeout-error-invalid-signal = { $signal }: 無効なシグナルです
+timeout-error-failed-to-execute-process = プロセスの実行に失敗しました: { $error }
+timeout-verbose-sending-signal = コマンド { $command } にシグナル { $signal } を送信中
