@@ -9,7 +9,7 @@ id-after-help = La utilidad id muestra los nombres de usuario y grupo e IDs num√
   ese usuario. En este caso, se asume que los IDs reales y efectivos son
   los mismos.
 
-## Context help text
+# Context help text
 id-context-help-disabled = mostrar solo el contexto de seguridad del proceso (no habilitado)
 id-context-help-enabled = mostrar solo el contexto de seguridad del proceso
 
