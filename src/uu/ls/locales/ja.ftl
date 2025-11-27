@@ -1,7 +1,7 @@
 ls-usage = ls [OPTION]... [FILE]...
 ls-about =
     ディレクトリの内容を一覧表示します。
-    '.' で始まるファイルとディレクトリはデフォルトで無視されます
+    隠しファイルと隠しディレクトリはデフォルトで無視されます
 ls-after-help = TIME_STYLE 引数は full-iso、long-iso、iso、locale または +FORMAT です。FORMAT は date と同様に解釈されます。また、TIME_STYLE 環境変数によりデフォルトで使用するスタイルが設定されます。
 ls-error-invalid-line-width = 無効な行幅: { $width }
 ls-error-general-io = 一般的な I/O エラー: { $error }
