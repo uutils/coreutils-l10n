@@ -1,5 +1,5 @@
 expand-about =
-    各 FILE のタブをスペースに変換し、標準出力に書き出します。
+    各 FILE のタブをスペースに変換し、標準出力に書き出します。.
     FILE がない場合や FILE が - の場合、標準入力から読み込みます。
 expand-usage = expand [OPTION]... [FILE]...
 expand-help-initial = 非空白文字の後にあるタブを変換しない
