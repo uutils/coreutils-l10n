@@ -1,0 +1,14 @@
+tee-about = 標準入力を各 FILE にコピーし、標準出力にも出力します。
+tee-usage = tee [OPTION]... [FILE]...
+tee-after-help = FILE が - の場合、それは - という名前のファイルを参照します。
+tee-help-help = ヘルプを表示します
+tee-help-append = 指定された FILE に追記し、上書きしません
+tee-help-ignore-interrupts = 割込みシグナルを無視します (非 Unix プラットフォームでは無視されます)
+tee-help-ignore-pipe-errors = 書き込みエラー時の動作を設定します (非 Unix プラットフォームでは無視されます)
+tee-help-output-error = 書き込みエラー時の動作を設定します
+tee-help-output-error-warn = すべての出力への書き込みエラー時に警告を生成します
+tee-help-output-error-warn-nopipe = パイプエラーではないエラー時に警告を生成します (非 Unix プラットフォームでは無視されます)
+tee-help-output-error-exit = すべての出力への書き込みエラー時に終了します
+tee-help-output-error-exit-nopipe = パイプエラーではない出力への書き込みエラー時に終了します (非 Unix プラットフォームでは終了と同等)
+tee-error-stdin = 標準入力: { $error }
+tee-standard-output = '標準出力'
