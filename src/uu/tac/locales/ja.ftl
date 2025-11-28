@@ -1,0 +1,10 @@
+tac-about = 各ファイルを最終行から順に標準出力に書き出します。
+tac-usage = tac [OPTION]... [FILE]...
+tac-help-before = 区切り文字列を後ろではなく前に付加します
+tac-help-regex = シーケンスを正規表現として解釈します
+tac-help-separator = 改行文字の代わりに STRING を区切り文字列にします
+tac-error-invalid-regex = 無効な正規表現: { $error }
+tac-error-invalid-argument = { $argument }: 読み込みエラー: 無効な引数
+tac-error-file-not-found = { $filename } を読み込み用に開くことができませんでした: そのようなファイルやディレクトリはありません
+tac-error-read-error = { $filename } からの読み込みに失敗しました: { $error }
+tac-error-write-error = 標準出力への書き込みに失敗しました: { $error }
