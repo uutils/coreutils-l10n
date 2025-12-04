@@ -46,3 +46,55 @@ jobs:
 
       - name: Run pre-commit
         run: pre-commit run
+
+  fluent_syntax:
+    name: Fluent Syntax Check
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        persist-credentials: false
+    - name: Setup Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.x'
+    - name: Install Mozilla Fluent Linter
+      shell: bash
+      run: |
+        ## Install Mozilla Fluent Linter
+        pip install moz-fluent-linter
+    - name: Find and validate Fluent files
+      shell: bash
+      run: |
+
+        fluent_dirs=$(find . -name "*.ftl" -type f -exec dirname {} \; | sort | uniq 2>/dev/null || true)
+
+        if [ -n "$fluent_dirs" ]; then
+          echo "Found Fluent directories:"
+          echo "$fluent_dirs"
+
+          # Count total files for informational purposes
+          total_files=$(find . -name "*.ftl" -type f | wc -l)
+          echo "Total Fluent files: $total_files"
+        else
+          echo "::notice::No Fluent (.ftl) files found in the repository"
+          exit 0
+        fi
+
+        echo "Running Fluent Linter on directories..."
+
+        has_errors=false
+
+        while IFS= read -r dir; do
+          echo "Checking directory $dir with Fluent Linter..."
+
+          if ! moz-fluent-lint --config .github/fluent_linter_config.yml "$dir"; then
+            echo "::error::Fluent syntax errors found in $dir"
+            exit 1
+          else
+            echo "✓ Fluent syntax check passed for directory $dir"
+          fi
+
+        done <<< "$fluent_dirs"
+
+        echo "::notice::All Fluent directories passed Fluent Linter validation"
