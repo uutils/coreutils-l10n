@@ -1,0 +1,9 @@
+mkfifo-about = 以指定的名稱建立 FIFO。
+mkfifo-usage = mkfifo [選項]... 名稱...
+mkfifo-help-mode = FIFO 的檔案權限
+mkfifo-help-selinux = 將 SELinux 安全情境設定為預設類型
+mkfifo-help-context = 如同 -Z 選項，或若指定了 CTX，則將 SELinux 或 SMACK 安全情境設定為 CTX
+mkfifo-error-invalid-mode = 無效的模式：{ $error }
+mkfifo-error-missing-operand = 缺少運算元
+mkfifo-error-cannot-create-fifo = 無法建立 FIFO { $path }：已有檔案
+mkfifo-error-cannot-set-permissions = 無法設定 { $path } 的權限：{ $error }
