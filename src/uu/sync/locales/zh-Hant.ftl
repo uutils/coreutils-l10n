@@ -1,0 +1,11 @@
+sync-about = 將快取寫入至永久儲存裝置中
+sync-usage = sync [選項]... 檔案...
+sync-help-file-system = 同步包含檔案的檔案系統（僅限 Linux 與 Windows）
+sync-help-data = 僅同步檔案資料，不同步不需要的中介資料（僅 Linux）
+sync-error-data-needs-argument = --data 需要至少一個引數
+sync-error-opening-file = 開啟 { $file } 時發生錯誤
+sync-error-no-such-file = 開啟 { $file } 時發生錯誤：無此檔案或目錄
+sync-error-flush-file-buffer = 未能清除檔案緩衝區
+sync-error-create-volume-handle = 無法建立磁片區控制碼
+sync-error-find-first-volume = 找不到第一個磁片區
+sync-error-find-next-volume = 找不到下一個磁片區
