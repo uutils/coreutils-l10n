@@ -1,0 +1,10 @@
+timeout-about = 啟動指定命令，若在持續時間後仍持續執行則予以終止。
+timeout-usage = timeout [選項] 持續時間 命令...
+timeout-help-foreground = 當未直接從 shell 的提示字元執行 timeout 命令時，允許命令從終端機讀取並接收終端機訊號；在此模式下，命令的子處理程序將不會被 timeout 終止
+timeout-help-kill-after = 若在初始訊號發出後如此長時間後，命令仍持續執行，則同時發送 KILL 訊號
+timeout-help-preserve-status = 即使命令超時，仍會以與命令相同的狀態退出
+timeout-help-signal = 指定超時後要傳送的訊號；訊號可為「HUP」等名稱或數字；請見「kill -l」以取得訊號清單
+timeout-help-verbose = 在超時時將任何接收到的訊號診斷輸出至標準錯誤
+timeout-error-invalid-signal = { $signal }：無效訊號
+timeout-error-failed-to-execute-process = 執行處理程序失敗：{ $error }
+timeout-verbose-sending-signal = 傳送訊號 { $signal } 給命令 { $command }
