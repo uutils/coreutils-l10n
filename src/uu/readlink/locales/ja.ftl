@@ -1,0 +1,12 @@
+readlink-about = シンボリックリンクの値または正規化されたファイル名を表示します。
+readlink-usage = readlink [OPTION]... [FILE]...
+readlink-help-canonicalize = 与えられた名前のすべての要素中の全シンボリックリンクを再帰的に辿り、正規化します。最後の要素以外は存在しなければなりません
+readlink-help-canonicalize-existing = 与えられた名前のすべての要素中の全シンボリックリンクを再帰的に辿り、正規化します。すべての要素が存在しなければなりません
+readlink-help-canonicalize-missing = 与えられた名前のすべての要素中の全シンボリックリンクを再帰的に辿り、正規化します。要素の存在に関する要件はありません
+readlink-help-no-newline = 末尾の区切り文字を出力しません
+readlink-help-quiet = ほとんどのエラーメッセージ出力を抑止します
+readlink-help-silent = ほとんどのエラーメッセージ出力を抑止します
+readlink-help-verbose = エラーメッセージを報告します
+readlink-help-zero = 出力を改行ではなく NUL で区切ります
+readlink-error-missing-operand = オペランドがありません
+readlink-error-ignoring-no-newline = 複数の引数があるため --no-newline を無視しています
