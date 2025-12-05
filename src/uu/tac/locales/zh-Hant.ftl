@@ -1,0 +1,10 @@
+tac-about = 將每個檔案按列倒置並寫入到標準輸出。
+tac-usage = tac [選項]... [檔案]...
+tac-help-before = 在列前而非列後新增分隔符號
+tac-help-regex = 將序列以正規表示式的方式解析
+tac-help-separator = 使用指定字串取代換行符號作為分隔符號
+tac-error-invalid-regex = 無效的正規表示式：{ $error }
+tac-error-invalid-argument = { $argument }：讀取錯誤：無效的引數
+tac-error-file-not-found = 無法開啟 { $filename } 以供讀取：無此檔案或目錄
+tac-error-read-error = 無法讀取 { $filename }：{ $error }
+tac-error-write-error = 無法寫入至標準輸出：{ $error }
