@@ -1,0 +1,14 @@
+pathchk-about = ファイル名が有効か、またはポータブルであるかをチェックします
+pathchk-usage = pathchk [OPTION]... NAME...
+pathchk-help-posix = ほとんどの POSIX システムでの互換性をチェックします
+pathchk-help-posix-special = 空のファイル名や先頭のハイフン "-" をチェックします
+pathchk-help-portability = すべての POSIX システムでの互換性をチェックします (-p -P と同等)
+pathchk-error-missing-operand = オペランドが指定されていません
+pathchk-error-empty-file-name = 空のファイル名です
+pathchk-error-posix-path-length-exceeded = ファイル名 { $path } の長さ { $length } が、制限 { $limit } を超えています
+pathchk-error-posix-name-length-exceeded = ファイル名コンポーネント { $component } の長さ { $length } が、制限 { $limit } を超えています
+pathchk-error-leading-hyphen = ファイル名コンポーネント { $component } が先頭にハイフンを持っています
+pathchk-error-path-length-exceeded = ファイル名 { $path } の長さ { $length } が、制限 { $limit } を超えています
+pathchk-error-name-length-exceeded = ファイル名コンポーネント { $component } の長さ { $length } が、制限 { $limit } を超えています
+pathchk-error-empty-path-not-found = pathchk: '': そのようなファイルやディレクトリはありません
+pathchk-error-nonportable-character = ファイル名コンポーネント { $component } に非ポータブルな文字 '{ $character }' が含まれています
