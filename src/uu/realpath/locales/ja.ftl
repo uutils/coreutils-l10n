@@ -1,0 +1,13 @@
+realpath-about = 解決されたパスを表示します
+realpath-usage = realpath [OPTION]... FILE...
+realpath-help-quiet = 無効なパスに対する警告を表示しません
+realpath-help-strip = '.' および '..' の構成要素のみを取り除き、シンボリックリンクは解決しません
+realpath-help-zero = 出力ファイル名を改行ではなく \0 で区切ります
+realpath-help-logical = シンボリックリンクの前に '..' の構成要素を解決します
+realpath-help-physical = 遭遇したシンボリックリンクを解決します (デフォルト)
+realpath-help-canonicalize = 最後以外のすべての構成要素が存在する必要があります (デフォルト)
+realpath-help-canonicalize-existing = 与えられた名前のすべての構成要素にあるシンボリックリンクを再帰的に辿って正規化します。すべての構成要素が存在する必要があります
+realpath-help-canonicalize-missing = 与えられた名前のすべての構成要素にあるシンボリックリンクを再帰的に辿って正規化します。構成要素の存在要件はありません
+realpath-help-relative-to = DIR からの相対パスを表示します
+realpath-help-relative-base = DIR 配下のパスでない限り、絶対パスを表示します
+realpath-invalid-empty-operand = 無効なオペランド: 空の文字列
