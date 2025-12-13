@@ -27,7 +27,7 @@ expr-after-help =
     - index STRING CHARS: STRING から CHARS が見つかった場所を返す。見つからなければ 0
     - length STRING: STRING の長さ
     - + TOKEN: TOKEN が 'match' のようなキーワードや '/' のような演算子であっても、
-    文字列として解釈する
+      文字列として解釈する
     - ( EXPRESSION ): EXPRESSION の値
 
     多くの演算子はシェルに渡すためにエスケープするか引用符で囲む必要があります。
