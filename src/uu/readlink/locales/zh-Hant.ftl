@@ -1,0 +1,12 @@
+readlink-about = 輸出符號連結的值，標準檔案名稱。
+readlink-usage = readlink [選項]... [檔案]...
+readlink-help-canonicalize = 透過遞迴方式追蹤指定名稱中每個元件內的所有符號連結來進行正規化；除最後一個元件外，其餘元件必須存在
+readlink-help-canonicalize-existing = 透過遞迴方式追蹤指定名稱中每個元件的所有符號連結來進行正規化處理，所有元件必須存在
+readlink-help-canonicalize-missing = 透過遞迴方式遍歷指定名稱中每個元件內的所有符號連結來進行正規化處理，且不要求元件必須存在
+readlink-help-no-newline = 不要輸出結尾分隔符號
+readlink-help-quiet = 抑制大部份的錯誤訊息
+readlink-help-silent = 抑制大部分的錯誤訊息
+readlink-help-verbose = 回報錯誤訊息
+readlink-help-zero = 使用 NUL 而非換行符號分隔輸出
+readlink-error-missing-operand = 缺少運算元
+readlink-error-ignoring-no-newline = 忽略 --no-newline 與多個引數
