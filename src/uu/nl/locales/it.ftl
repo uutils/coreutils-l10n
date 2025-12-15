@@ -1,1 +1,1 @@
-nl-about = Numero delle linee dei file
+nl-about = Numero linee dei file
