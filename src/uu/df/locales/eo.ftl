@@ -1,0 +1,11 @@
+df-usage = df [OPCIO]... [DOSIERO]...
+df-header-filesystem = Dosiersistemo
+df-header-size = Grando
+df-header-used = Uzata
+df-header-avail = Libera
+df-header-available = Libera
+df-header-file = Dosiero
+df-header-type = Tipo
+df-total = totalo
+df-blocks-suffix = -blokoj
+df-help-print-help = Eligi helpajn informojn.
