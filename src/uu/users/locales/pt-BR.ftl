@@ -1,5 +1,5 @@
 users-about = Exibe o nome de usuário atualmente logados no host atual.
-users-usage = usuários [ARQUIVO]
+users-usage = users [ARQUIVO]
 users-about-musl-warning =
     Aviso: Quando compilado com musl libc, o utilitário `usuário` pode mostrar '0 usuários'
     devido a implementação stub de musl das funções utmpx.
