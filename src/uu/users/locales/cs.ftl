@@ -1,1 +1,1 @@
-users-usage = uživatelé [SOUBOR]
+users-usage = users [SOUBOR]
