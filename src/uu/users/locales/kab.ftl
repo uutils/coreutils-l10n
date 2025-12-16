@@ -1,1 +1,1 @@
-users-usage = iseqdacen [AFAYLU]
+users-usage = users [AFAYLU]
