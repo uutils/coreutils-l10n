@@ -1,0 +1,12 @@
+pinky-directory-label = Dosierujo:
+pinky-shell-label = Ŝelo:
+pinky-project-label = Projekto:
+pinky-plan-label = Plano
+pinky-column-name = Nomo
+pinky-usage = pinky [OPCIO]... [UZANTO]...
+pinky-column-login = Salutnomo
+pinky-column-when = Kiam
+pinky-column-where = Kie
+pinky-login-name-label = Salutnomo:
+pinky-real-life-label = Reale:
+pinky-unsupported-openbsd = nesubtenata komando ĉe OpenBSD
