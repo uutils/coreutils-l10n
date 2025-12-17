@@ -25,3 +25,5 @@ ln-error-target-is-not-directory = celo { $target } ne estas dosierujo
 ln-error-same-file = { $file1 } kaj { $file2 } estas sama dosiero
 ln-help-symbolic = fari simbolajn ligojn anstataŭ nesimbolajn ligojn
 ln-help-verbose = eligi la nomon de ĉiu ligita dosiero
+ln-backup = savkopio: { $backup }
+ln-cannot-backup = ne povas fari savkopion de { $file }
