@@ -17,7 +17,7 @@ chmod-error-preserve-root =
     опасно выполнять рекурсивные операции над { $file }
     chmod: используйте --no-preserve-root, чтобы отменить эту меру безопасности
 chmod-error-new-permissions = { $file }: новые разрешения — { $actual }, а не { $expected }
-chmod-help-changes = как подробный, но сообщать только при внесении изменений
+chmod-help-changes = как --verbose, но сообщать только при внесении изменений
 chmod-help-quiet = подавлять большинство сообщений об ошибках
 chmod-help-verbose = выводить диагностику для каждого обработанного файла
 chmod-help-no-preserve-root = не обрабатывать „/“ специальным образом (по умолчанию)
