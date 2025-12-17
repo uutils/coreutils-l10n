@@ -247,3 +247,4 @@ printf-after-help =
     is set)
 printf-help-version = Eligi versiajn informojn
 printf-help-help = Eligi helpajn informojn
+printf-error-missing-operand = mankas argumento
