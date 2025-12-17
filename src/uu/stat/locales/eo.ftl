@@ -24,3 +24,4 @@ stat-selinux-unsupported-system = nesubtenata ĉe ĉi tiu sistemo
 stat-error-invalid-directive = { $directive }: nevalida direktivo
 stat-selinux-failed-get-context = malsukcesis akiri sekurecan kuntekston
 stat-selinux-unsupported-os = nesubtenata por ĉi tiu mastruma sistemo
+stat-about = Montri staton de dosiero aŭ dosiersistemo.
