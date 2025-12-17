@@ -20,3 +20,4 @@ nl-after-help =
     - ln maldekstrigi, sen komencaj nuloj
     - rn dekstrigi, sen komencaj nuloj
     - rz dekstrigi, kun komencaj nuloj
+nl-error-invalid-regex = nevalida regula esprimo
