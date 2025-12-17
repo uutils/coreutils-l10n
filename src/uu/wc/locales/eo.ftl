@@ -1,0 +1,10 @@
+wc-total = totalo
+wc-usage = wc [OPCIO]... [DOSIERO]...
+wc-help-bytes = eligi la nombron de bajtoj
+wc-help-chars = eligi la nombron de skribsignoj
+wc-standard-input = norma enigo
+wc-error-read-error = { $path }: eraro dum legado
+wc-error-failed-to-print-result = malsukcesis eligi rezulton pri { $title }
+wc-error-failed-to-print-total = malsukcesis eligi totalon
+decoder-error-invalid-byte-sequence = nevalida bajtosinsekvo: { $bytes }
+wc-about = Eligi nombron de linifinoj, vortoj, kaj bajtoj por ĉiu DOSIERO, kaj linion pri totalo, se pluraj DOSIEROj estas specifitaj.
