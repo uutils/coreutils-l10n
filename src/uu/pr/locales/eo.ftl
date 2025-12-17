@@ -1,0 +1,3 @@
+pr-help-help = Eligi helpajn informojn
+pr-page = Paĝo
+pr-usage = pr [OPCIO]... [DOSIERO]...
