@@ -70,3 +70,5 @@ test-after-help =
     Please refer to your shell's documentation for details about the options it supports.
 test-error-unknown-operator = nekonata operatoro { $operator }
 test-error-invalid-integer = nevalida entjero { $value }
+test-error-expected = atendis { $value }
+test-error-expected-value = atendis valoron
