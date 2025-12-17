@@ -10,3 +10,4 @@ pinky-column-where = Kie
 pinky-login-name-label = Salutnomo:
 pinky-real-life-label = Reale:
 pinky-unsupported-openbsd = nesubtenata komando ĉe OpenBSD
+pinky-help-help = Eligi helpajn informojn
