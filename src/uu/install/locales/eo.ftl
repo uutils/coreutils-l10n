@@ -6,3 +6,7 @@ install-error-install-failed = ne povas instali { $from } al { $to }
 install-error-target-not-dir = celo { $path } ne estas dosierujo
 install-error-invalid-target = nevalida celo { $path }: Dosiero aŭ dosierujo ne ekzistas
 install-error-create-dir-failed = malsukcesis krei { $path }
+install-error-invalid-user = nevalida uzanto: { $user }
+install-error-invalid-group = nevalida grupo: { $group }
+install-verbose-removed = forigis { $path }
+install-verbose-backup = (savkopio: { $backup })
