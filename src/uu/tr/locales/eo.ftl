@@ -6,3 +6,4 @@ tr-help-delete = forigi skribsignojn en ARO1, ne transliteri
 tr-help-squeeze = anstataŭigi ĉiun sinsekvon de iu ripetita skribsigno en la lasta specifita ARO, per unuo de tiu skribsigno
 tr-error-write-error = eraro dum skribado
 tr-error-read-directory = eraro dum legado: Estas dosierujo
+tr-error-missing-operand = mankas argumento
