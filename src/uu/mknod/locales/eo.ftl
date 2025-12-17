@@ -1,0 +1,9 @@
+mknod-usage = mknod [OPCIO]... NOMO TIPO [MAĴORA MINORA]
+mknod-help-major = maĵora dosiertipo
+mknod-help-minor = minora dosiertipo
+mknod-help-name = nomo de la nova dosiero
+mknod-error-invalid-mode = nevalida reĝimo ({ $error })
+mknod-error-invalid-device-type = nevalida aparatotipo { $type }
+mknod-help-type = tipo de la nova dosiero (b, c, u, aŭ p)
+mknod-error-missing-device-type = aparatotipo mankas
+mknod-about = Krei specialan dosieron NOMO de la donita TIPO.
