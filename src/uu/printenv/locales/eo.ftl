@@ -1,0 +1,3 @@
+printenv-usage = printenv [OPCIO]... [VARIABLO]...
+printenv-about = Montri la valorojn de la specifita(j) media(j) VARIABLO(j), aŭ (sen VARIABLO) montri nomajn-valorajn parojn por ĉiuj.
+printenv-help-null = fini ĉiun eligan linion per nulbajto anstataŭ linifino
