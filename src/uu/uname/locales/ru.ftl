@@ -10,6 +10,6 @@ uname-help-nodename = вывести имя узла (имя узла может
 uname-help-kernel-release = вывести выпуск операционной системы.
 uname-help-kernel-version = вывести версию операционной системы.
 uname-help-machine = вывести название оборудования машины.
-uname-help-os = вывести имя операционной системы.
+uname-help-os = вывести название операционной системы.
 uname-help-processor = вывести тип процессора (non-portable)
 uname-help-hardware-platform = вывести аппаратную платформу (non-portable)
