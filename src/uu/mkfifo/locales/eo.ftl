@@ -1,0 +1,3 @@
+mkfifo-usage = mkfifo [OPCIO]... NOMO...
+mkfifo-error-invalid-mode = nevalida reĝimo: { $error }
+mkfifo-error-missing-operand = mankas argumento
