@@ -1,0 +1,3 @@
+numfmt-usage = numfmt [OPCIO]... [NOMBRO]...
+numfmt-error-invalid-number-empty = nevalida nombro: «»
+numfmt-error-invalid-number = nevalida nombro: { $input }
