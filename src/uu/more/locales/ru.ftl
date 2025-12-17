@@ -1,0 +1,15 @@
+more-press-return = нажмите ВОЗВРАТ
+more-about = Вывести содержимое текстового файла
+more-usage = more [ПАРАМЕТРЫ] ФАЙЛ...
+more-error-is-directory = { $path } - каталог, а не файл.
+more-error-cannot-open-no-such-file = не удалось открыть { $path }: Файл или каталог не существует
+more-error-cannot-open-io-error = не удалось открыть { $path }: { $error }
+more-error-bad-usage = неправильное использование
+more-error-unknown-key = Неизвестная клавиша: «{ $key }». Нажмите «h» для инструкций. (пока не поддерживается)
+more-help-silent = Отображать справку при нажатии неизвестных клавиш вместо уведомления
+more-help-exit-on-eof = Выходить при достижении конца файла
+more-help-no-pause = Считать фактические строки, а не строки терминала
+more-help-squeeze = Заменять повторяющиеся пустые строки одной
+more-help-plain = Не отображать подчёркивания
+more-help-files = Путь до файлов, которые нужно открыть
+more-help-number = То же, что и параметр аргумента --lines
