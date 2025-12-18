@@ -1,1 +1,9 @@
 fmt-error-read = eraro dum legado
+fmt-usage = { "[" }OPCIO]... [DOSIERO]...
+fmt-error-invalid-goal = nevalida celo: { $goal }
+fmt-error-invalid-width = nevalida larĝo: { $width }
+fmt-error-invalid-width-malformed = nevalida larĝo: { $width }
+fmt-error-cannot-open-for-reading = ne povas malfermi { $file } por legado
+fmt-error-cannot-get-metadata = ne povas akiri metadatenojn pri { $file }
+fmt-error-failed-to-write-output = malsukcesis skribi eligaĵon
+fmt-error-width-out-of-range = nevalida larĝo: «{ $width }»: Nombra rezulto ekster gamo
