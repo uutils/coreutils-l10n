@@ -15,3 +15,4 @@ head-error-invalid-bytes = nevalida nombro de bajtoj: { $err }
 head-error-invalid-lines = nevalida nombro de linioj: { $err }
 head-error-bad-argument-format = nevalida argumenta formo: { $arg }
 head-header-stdin = ==> norma enigo <==
+head-error-cannot-open = ne povas malfermi { $name } por legado
