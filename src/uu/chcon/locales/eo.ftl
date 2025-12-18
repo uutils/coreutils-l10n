@@ -10,3 +10,5 @@ chcon-help-help = Eligi helpajn informojn.
 chcon-error-recursive-dereference-require-h-or-l = «--recursive» kun «--dereference» postulas aŭ «-H» aŭ «-L»
 chcon-error-no-context-specified = Kunteksto mankas
 chcon-error-no-files-specified = Dosiero mankas
+chcon-op-getting-security-context = Akirante sekurecan kuntekston
+chcon-error-operation-failed-on = { $operation } malsukcesis je { $operand }
