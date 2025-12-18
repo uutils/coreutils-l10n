@@ -18,3 +18,4 @@ split-after-help =
     - r/N like 'l' but use round robin distribution
     - r/K/N likewise but only output Kth of N to stdout
 split-error-suffix-not-parsable = nevalida longo de sufikso: { $value }
+split-error-cannot-open-for-reading = ne povas malfermi { $file } por legado
