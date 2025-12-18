@@ -26,3 +26,16 @@ cp-help-one-file-system = resti en ĉi tiu dosiersistemo
 cp-error-failed-to-create-whole-tree = malsukcesis krei la tutan arbon
 cp-error-same-file = { $source } kaj { $dest } estas sama dosiero
 cp-error-cannot-create-hard-link = ne povas krei nesimbolan ligon { $dest } al { $source }
+cp-debug-skipped = preterpasis { $path }
+cp-verbose-removed = forigis { $path }
+cp-prompt-overwrite = ĉu superskribi { $path }?
+cp-error-selinux-get-context = malsukcesis akiri sekurecan kuntekston de { $path }
+cp-error-failed-to-create-directory = Malsukcesis krei dosierujon: { $error }
+cp-error-sparse-not-supported = --sparse nur funkcias ĉe Linux
+cp-error-not-replacing = ne anstataŭigante { $file }
+cp-error-invalid-argument = nevalida argumento { $arg } por «{ $option }»
+cp-help-preserve-default = sama kiel --preserve=mode,ownership(nur por Unikso),timestamps
+cp-help-link = nesimbole ligi dosierojn anstataŭ kopiado
+cp-error-extra-operand = ekstra argumento { $operand }
+cp-error-missing-file-operand = dosiero-argumento mankas
+cp-help-interactive = konfirmi antaŭ ol superskribi dosierojn
