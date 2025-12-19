@@ -1,1 +1,13 @@
 hostname-error-winsock = malsukcesis lanĉi Winsock
+hostname-usage = hostname [OPCIO]... [GASTIGANTONOMO]
+hostname-about = Montri aŭ ŝanĝi la gastigantonomon de la sistemo.
+hostname-error-set-hostname = malsukcesis ŝanĝi gastigantonomon
+hostname-error-get-hostname = malsukcesis akiri gastigantonomon
+hostname-error-invalid-name = hostname: nevalida gastigantonomo «{ $name }»
+hostname-help-ip-address = Montri la reta(j)n adreso(j)n de la gastiganto
+hostname-error-permission = hostname: vi devas esti ĉefuzanto por ŝanĝi la gastigantonomon
+hostname-error-resolve-socket = malsukcesis solvi konektinterfacajn adresojn
+hostname-error-resolve-failed = hostname: ne povas solvi gastigantonomon «{ $name }»
+hostname-help-short = Montri la mallongan gastigantonomon (la parton antaŭ la unua punkto), se tio eblas
+hostname-help-domain = Montri la nomon de la DNS-nomregno, se tio eblas
+hostname-help-fqdn = Montri la plene kvalifikitan nomregnon (FQDN) (implicite)
