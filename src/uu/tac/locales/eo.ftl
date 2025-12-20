@@ -1,1 +1,10 @@
 tac-usage = tac [OPCIO]... [DOSIERO]...
+tac-about = Skribi ĉiujn liniojn al norma elfluo en mala ordo.
+tac-error-invalid-regex = nevalida regula esprimo: { $error }
+tac-error-invalid-argument = { $argument }: eraro dum legado: nevalida argumento
+tac-error-file-not-found = malsukcesis malfermi { $filename } por legado: Ne ekzistas dosiero aŭ dosierujo
+tac-error-read-error = malsukcesis legi { $filename }: { $error }
+tac-error-write-error = malsukcesis skribi al norma elfluo: { $error }
+tac-help-regex = interpreti la sinsekvon kiel regulan esprimon
+tac-help-separator = uzi STRING kiel la apartigilon anstataŭ linifino
+tac-help-before = antaŭmeti la apartigilon anstataŭ postmeti
