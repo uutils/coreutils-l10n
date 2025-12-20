@@ -8,3 +8,5 @@ more-error-unknown-key = Nekonata klavo: «{ $key }». Tajpu «h» por instrukci
 more-about = Montri la enhavon de teksta dosiero
 more-error-cannot-open-no-such-file = ne povas malfermi { $path }: Ne ekzistas dosiero aŭ dosierujo
 more-help-no-pause = Kalkuli logikajn liniojn, ne ekranajn liniojn
+more-error-pattern-not-found = Patroneo ne troviĝis
+more-help-plain = Malŝalti substrekojn
