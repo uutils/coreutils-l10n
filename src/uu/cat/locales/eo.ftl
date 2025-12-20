@@ -2,8 +2,8 @@ cat-usage = cat [OPCIO]... [DOSIERO]...
 cat-help-show-all = ekvivalenta al -vET
 cat-help-show-nonprinting-ends = ekvivalenta al -vE
 cat-about =
-    Kunmeti DOSIERO(j)n, aŭ norman enigon, al norma eligo
-    Sen DOSIERO, aŭ se DOSIERO estas -, legas la norman enigon.
+    Kunmeti DOSIERO(j)n, aŭ norman enfluon, al norma elfluo
+    Sen DOSIERO, aŭ se DOSIERO estas -, legas la norman enfluon.
 cat-help-show-nonprinting-tabs = ekvivalenta al -vT
 cat-error-is-directory = Estas dosierujo
 cat-help-ignored-u = (ignorita)
