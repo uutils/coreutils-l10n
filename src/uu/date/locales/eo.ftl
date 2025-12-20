@@ -75,3 +75,22 @@ date-usage =
       Montri la horon en la okcidenta marbordo de Usono (uzu tzselect(1) por trovi TZ)
 
       TZ='America/Los_Angeles' date
+date-help-universal = montri aŭ agordi Kunordigitan Universalan Tempon (UTK)
+date-error-date-overflow = dato estas troa «{ $date }»
+date-error-setting-date-not-supported-macos = agordado de dato ne eblas sur macOS
+date-error-setting-date-not-supported-redox = agordado de dato ne eblas sur Redox
+date-error-cannot-set-date = ne povas agordi daton
+date-help-date = montri tempon priskribitan de STRING, ne nunon
+date-help-file = simila al --date; po unu por ĉiu linion de DATEFILE
+date-help-set = agordi tempon laŭ STRING
+date-help-set-macos = agordi tempon laŭ STRING (ne havebla sur macOS ankoraŭ)
+date-help-set-redox = agordi tempon laŭ STRING (ne havebla sur Redox ankoraŭ)
+date-help-rfc-email =
+    montri daton kaj horon laŭ la formo RFC 5322.
+    Ekzemple: Mon, 14 Aug 2006 02:34:56 -0600
+date-help-rfc-3339 =
+    montri daton kaj horon laŭ la formo RFC 3339.
+    FMT=«date» (dato), «seconds» (sekundoj), aŭ «ns» (nanosekundoj)
+    por dato kaj horo en la indikita precizeco.
+    Ekzemple: 2006-08-14 02:34:56-06:00
+date-help-reference = montri la tempon de la lasta modifo de FILE
