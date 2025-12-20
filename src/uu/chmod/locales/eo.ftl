@@ -12,3 +12,6 @@ chmod-help-quiet = kaŝi plejmulton da erarmesaĝoj
 chmod-help-no-preserve-root = ne trakti «/» speciale (implicite)
 chmod-help-preserve-root = malsukcesi operacii rikure ĉe «/»
 chmod-help-verbose = montri diagnozaĵon pri ĉiu traktita dosiero
+chmod-help-changes = simila al --verbose, sed raporti nur tiam, kiam ŝanĝo okazas
+chmod-error-cannot-stat = malsukcesis alvoki «stat» pri { $file }
+chmod-error-no-such-file = ne povas atingi { $file }: Ne ekzistas dosiero aŭ dosierujo
