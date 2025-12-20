@@ -22,3 +22,4 @@ df-help-print-type = montri tipon de dosiersistemo
 df-help-total = montri plenan totalon
 df-header-use-percent = Uzo%
 df-header-capacity = Kapacito
+df-error-no-such-file-or-directory = { $path }: Ne ekzistas dosiero aŭ dosierujo
