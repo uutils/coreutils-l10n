@@ -1,1 +1,10 @@
 timeout-error-invalid-signal = { $signal }: nevalida signalo
+timeout-usage = timeout [OPCIO] DAŬRO KOMANDO...
+timeout-error-failed-to-execute-process = malsukcesis ruli procezon: { $error }
+timeout-verbose-sending-signal = sendante signalon { $signal } al komando { $command }
+timeout-about = Lanĉi KOMANDOn kaj mortigi ĝin, se ĝi estas ankoraŭ ruliĝanta post DAŬRO.
+timeout-help-kill-after = ankaŭ sendi signalon KILL, se KOMANDO estas ankoraŭ ruliĝanta tiom longe post la sendo de la unua signalo
+timeout-help-verbose = diagnozi al la norma erarfluo ajnan signalon senditan post tempolimo
+timeout-help-signal = specifi la signalon sendotan post tempolimo; SIGNAL povas esti nomo kiel «HUP» aŭ numero; vidu «kill -l» por listo de signaloj
+timeout-help-preserve-status = eliri kun la sama elirstato kiel la elirstato de KOMANDO, eĉ malgraŭ tempolimo
+timeout-help-foreground = kiam ne rulante timeout rekte per ŝelo, permesi al KOMANDO legi el la teletajpilo kaj akiri teletajpilajn signalojn; en tiu reĝimo, idoj de KOMANDO ne suferos tempolimon
