@@ -1,2 +1,11 @@
 sync-usage = sync [OPCIO]... DOSIERO...
 sync-error-opening-file = eraro dum malfermado de { $file }
+sync-error-no-such-file = eraro dum malfermado de { $file }: Ne ekzistas dosiero aŭ dosierujo
+sync-help-data = elbufrigi nur dosierajn datenojn, ne nenecesajn metadatenojn (nur sur Linux)
+sync-error-data-needs-argument = --data postulas almenaŭ unu argumenton
+sync-about = Elbufrigi enbufrigitajn skribojn al daŭra konservejo
+sync-help-file-system = elbufrigi la dosiersistemojn enhavantajn la dosierojn (nur sur Linux kaj Windows)
+sync-error-flush-file-buffer = malsukcesis elbufrigi dosieron
+sync-error-create-volume-handle = malsukcesis krei volumtenilon
+sync-error-find-first-volume = malsukcesis trovi unuan volumon
+sync-error-find-next-volume = malsukcesis trovi sekvan volumon
