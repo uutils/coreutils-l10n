@@ -123,3 +123,12 @@ dd-after-help =
     - nocache : request that OS drop cache.
     - noctty : do not assign a controlling tty.
     - nofollow : do not follow system links.
+dd-progress-bytes-copied-si = { $bytes } bajtoj ({ $si }) kopiitaj, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si-iec = { $bytes } bajtoj ({ $si }, { $iec }) kopiitaj, { $duration } s, { $rate }/s
+dd-error-not-directory = agordante flagojn pri «{ $file }»: Ne estas dosierujo
+dd-error-invalid-flag =
+    nevalida eniga flago: «{ $flag }»
+    Provu «{ $cmd } --help» por pliaj informoj.
+dd-progress-records-in = { $complete }+{ $partial } rikordoj enigitaj
+dd-progress-records-out = { $complete }+{ $partial } rikordoj eligitaj
+dd-warning-signal-handler = Interna averto de dd: Ne povas registri signaltraktilon
