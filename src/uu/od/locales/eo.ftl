@@ -8,7 +8,7 @@ od-error-radix-invalid = Bazo devas esti unu el [o, d, x, n], ricevis: { $radix 
 od-error-radix-empty = Bazo ne povas esti malplena kaj devas esti unu el [o, d, x, n]
 od-error-invalid-endian = Nevalida argumento --endian={ $endian }
 od-error-invalid-inputs = Nevalida enigo: { $msg }
-od-help-help = Eligi helpajn informojn.
+od-help-help = Montri helpajn informojn.
 od-help-b = okumaj bajtoj
 od-help-d = sensignumaj dekumaj 2-bajtaj unuoj
 od-help-d4 = sensignumaj dekumaj 4-bajtaj unuoj
