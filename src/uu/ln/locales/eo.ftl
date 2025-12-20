@@ -27,3 +27,15 @@ ln-help-symbolic = fari simbolajn ligojn anstataŭ nesimbolajn ligojn
 ln-help-verbose = eligi la nomon de ĉiu ligita dosiero
 ln-backup = savkopio: { $backup }
 ln-cannot-backup = ne povas fari savkopion de { $file }
+ln-error-cannot-stat = malsukcesis alvoki «stat» por { $path }: Ne ekzistas dosiero aŭ dosierujo
+ln-error-extra-operand =
+    ekstra argumento { $operand }
+    Provu «{ $program } --help» por pliaj informoj.
+ln-error-could-not-update = Ne povas ĝisdatigi { $target }: { $error }
+ln-help-force = forigi ekzistantajn celajn dosierojn
+ln-help-interactive = demandi, ĉu forigi ekzistantajn celajn dosierojn
+ln-help-physical = fari nesimbolan ligon rekte al simbola ligo
+ln-error-missing-destination = mankas argumenton de cela dosiero post { $operand }
+ln-failed-to-access = malsukcesis atingi { $file }
+ln-failed-to-create-hard-link = malsukcesis krei nesimbolan ligon { $source } => { $dest }
+ln-error-will-not-overwrite = ne superskribos ĵus-kreitan «{ $target }» per «{ $source }»
