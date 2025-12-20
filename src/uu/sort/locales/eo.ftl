@@ -32,3 +32,5 @@ sort-failed-to-delete-temporary-directory = malsukcesis forigi provizoran dosier
 sort-option-arg-too-large = argumento { $arg } por --{ $option } estas tro granda
 sort-extra-operand-not-allowed-with-c = ekstra argumento { $operand } ne estas permesata kun «-c»
 sort-invalid-suffix-in-option-arg = nevalida sufikso en argumento { $arg } por --{ $option }
+sort-invalid-batch-size-arg = nevalida argumento «{ $arg }» por --batch-size
+sort-invalid-zero-length-filename = { $file }: { $line_num }: nevalida dosiernomo de longo 0
