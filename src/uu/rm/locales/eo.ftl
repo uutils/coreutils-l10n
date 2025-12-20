@@ -22,3 +22,12 @@ rm-after-help =
 rm-error-cannot-remove-permission-denied = ne povas forigi { $file }: Permeso mankas
 rm-error-cannot-remove-is-directory = ne povas forigi { $file }: Estas dosierujo
 rm-error-cannot-remove-no-such-file = ne povas forigi { $file }: Dosiero aŭ dosierujo ne ekzistas
+rm-help-verbose = klarigi tion, kio estas farata
+rm-error-dangerous-recursive-operation = Estas danĝere operacii rikure ĉe «/»
+rm-error-use-no-preserve-root = uzu --no-preserve-root por superregi ĉi tion
+rm-error-missing-operand =
+    mankas argumento
+    Provu «{ $util_name } --help» por pliaj informoj.
+rm-help-no-preserve-root = ne trakti «/» speciale
+rm-help-preserve-root = ne forigi «/» (implicite)
+rm-help-recursive = forigi dosierujojn kaj iliajn enhavojn rikure
