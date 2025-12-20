@@ -8,7 +8,7 @@ df-header-file = Dosiero
 df-header-type = Tipo
 df-total = totalo
 df-blocks-suffix = -blokoj
-df-help-print-help = Eligi helpajn informojn.
+df-help-print-help = Montri helpajn informojn.
 df-help-kilo = kiel --block-size=1K
 df-error-invalid-suffix = nevalida sufikso en argumento { $size } de --block-size
 df-error-block-size-too-large = argumento «{ $size }» de --block-size estas tro granda
@@ -20,3 +20,5 @@ df-about =
     aŭ pri ĉiuj dosiersistemoj implicite.
 df-help-print-type = montri tipon de dosiersistemo
 df-help-total = montri plenan totalon
+df-header-use-percent = Uzo%
+df-header-capacity = Kapacito
