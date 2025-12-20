@@ -17,22 +17,22 @@ test-after-help =
     - ESPRIMO1 -a ESPRIMO2 both ESPRIMO1 and ESPRIMO2 are true
     - ESPRIMO1 -o ESPRIMO2 either ESPRIMO1 or ESPRIMO2 is true
 
-    String operations:.
-    - -n STRING the length of STRING is nonzero
-    - STRING equivalent to -n STRING
-    - -z STRING the length of STRING is zero
-    - STRING1 = STRING2 the strings are equal
-    - STRING1 != STRING2 the strings are not equal
+    Tekstaj operacioj:
+    - -n TEKSTO la longo de TEKSTO ne estas 0
+    - TEKSTO ekvivalenta al -n TEKSTO
+    - -z TEKSTO la longo de TEKSTO estas 0
+    - TEKSTO1 = TEKSTO2 the strings are equal
+    - TEKSTO1 != TEKSTO2 the strings are not equal
 
-    Integer comparisons:
-    - ENTJERO1 -eq ENTJERO2 ENTJERO1 is equal to ENTJERO2
-    - ENTJERO1 -ge ENTJERO2 ENTJERO1 is greater than or equal to ENTJERO2
-    - ENTJERO1 -gt ENTJERO2 ENTJERO1 is greater than ENTJERO2
-    - ENTJERO1 -le ENTJERO2 ENTJERO1 is less than or equal to ENTJERO2
-    - ENTJERO1 -lt ENTJERO2 ENTJERO1 is less than ENTJERO2
-    - ENTJERO1 -ne ENTJERO2 ENTJERO1 is not equal to ENTJERO2
+    Entjeraj komparoj:
+    - ENTJERO1 -eq ENTJERO2 ENTJERO1 egalas ENTJEROn2
+    - ENTJERO1 -ge ENTJERO2 ENTJERO1 ne estas pli malgranda ol ENTJERO2
+    - ENTJERO1 -gt ENTJERO2 ENTJERO1 estas granda ol ENTJERO2
+    - ENTJERO1 -le ENTJERO2 ENTJERO1 ne estas pli granda ol ENTJERO2
+    - ENTJERO1 -lt ENTJERO2 ENTJERO1 estas pli malgranda ol ENTJERO2
+    - ENTJERO1 -ne ENTJERO2 ENTJERO1 ne egalas ENTJEROn2
 
-    File operations:
+    Dosieraj operacioj:
     - DOSIERO1 -ef DOSIERO2 DOSIERO1 and DOSIERO2 have the same device and inode numbers
     - DOSIERO1 -nt DOSIERO2 DOSIERO1 estas pli nova (laŭ dato de modifo) ol DOSIERO2
     - DOSIERO1 -ot DOSIERO2 DOSIERO1 estas malpli nova ol DOSIERO2
@@ -64,11 +64,16 @@ test-after-help =
 
     NOTU: Binary -a and -o are inherently ambiguous.
     Uzu test EXPR1 && test EXPR2 aŭ test EXPR1 || test EXPR2 anstataŭe.
-    NOTU: { "[" } honors the --help and --version options, but test does not.
+    NOTU: { "[" } respektas la opciojn --help kaj --version, sed test ne tiujn respektas.
     test treats each of those as it treats any other nonempty STRING.
-    NOTU: your shell may have its own version of test and/or { "[" }, which usually supersedes the version described here.
-    Please refer to your shell's documentation for details about the options it supports.
+    NOTU: via ŝelo povas havi sian propran version de test kaj/aŭ { "[" }, kiu ordinare anstataŭigas la version priskribitan ĉi tie.
+    Bonvolu legi la dokumentaron de via ŝelo por detaloj pri ĝiaj opcioj.
 test-error-unknown-operator = nekonata operatoro { $operator }
 test-error-invalid-integer = nevalida entjero { $value }
 test-error-expected = atendis { $value }
 test-error-expected-value = atendis valoron
+test-error-extra-argument = ekstra argumento { $argument }
+test-error-missing-closing-bracket = mankas '{ "]" }'
+test-error-missing-argument = mankas argumento post { $argument }
+test-error-unary-operator-expected = { $operator }: atendis unulokan operatoron
+test-about = Kontroli dosiertipojn kaj kompari valorojn.
