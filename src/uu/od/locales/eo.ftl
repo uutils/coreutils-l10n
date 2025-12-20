@@ -29,3 +29,4 @@ od-help-capital-f = glitkomaj duoble precizaj (64-bitaj) unuoj
 od-error-invalid-argument = nevalida argumento { $value } por --{ $option }
 od-error-argument-too-large = argumento { $value } por --{ $option } estas tro granda
 od-error-parse-failed = sintaksa analizo malsukcesis
+od-error-invalid-label = nevalida etikedo: { $label }
