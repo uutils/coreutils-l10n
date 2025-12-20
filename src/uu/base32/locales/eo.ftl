@@ -37,3 +37,5 @@ basenc-about =
     from any other non-alphabet bytes in the encoded stream.
 base-common-help-decode = malkodi datenojn
 base-common-help-ignore-garbage = dum malkodado, ignori nealfabetajn skribsignojn
+basenc-help-base2lsbf = bitĉeno kun la plej malgrava bito unue
+basenc-help-base2msbf = bitĉeno kun la plej grava bito unue
