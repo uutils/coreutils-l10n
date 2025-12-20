@@ -23,3 +23,5 @@ mv-verbose-renamed = ŝanĝis nomon { $from } -> { $to }
 mv-verbose-renamed-with-backup = ŝanĝis nomon { $from } -> { $to } (savkopio: { $backup })
 mv-debug-skipped = preterpasis { $target }
 mv-error-no-symlink-support = via mastruma sistemo ne subtenas simbolan ligon
+mv-prompt-overwrite = ĉu superskribi { $target }?
+mv-error-will-not-overwrite-just-created = ne superskribos ĵus-kreitan «{ $target }» per «{ $source }»
