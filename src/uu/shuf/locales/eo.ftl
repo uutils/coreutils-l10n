@@ -8,3 +8,5 @@ shuf-usage =
 shuf-help-echo = trakti ĉiun ARGUMENTOn kiel enigan linion
 shuf-help-input-range = trakti ĉiun nombron inter EKDE kaj ĜIS kiel enigan linion
 shuf-help-zero-terminated = liniapartigilo estas nulbajto, ne linifino
+shuf-error-unexpected-argument = troviĝis neatendita argumento { $arg }
+shuf-error-failed-to-open-for-writing = malsukcesis malfermi { $file } por skribado
