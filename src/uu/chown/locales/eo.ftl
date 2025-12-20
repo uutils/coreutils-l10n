@@ -11,3 +11,4 @@ chown-help-recursive = operacii dosierojn kaj dosierujojn rikure
 chown-error-failed-to-get-attributes = malsukcesis akiri atributojn de { $file }
 chown-help-quiet = kaŝi plejmulton da erarmesaĝoj
 chown-help-verbose = montri diagnozaĵon pri ĉiu traktita dosiero
+chown-help-changes = simila al --verbose, sed raporti nur tiam, kiam ŝanĝo okazas
