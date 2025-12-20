@@ -8,3 +8,6 @@ mktemp-template-type-file = dosiero
 mktemp-error-must-end-in-x = kun --suffix, la ŝablono { $template } devas finiĝi per X
 mktemp-error-failed-print = malsukcesis montri dosierujan nomon
 mktemp-error-not-found = malsukcesis krei { $template_type }n per ŝablono { $template }: Ne ekzistas dosiero aŭ dosierujo
+mktemp-help-quiet = Malsukcesi silente, se okazas eraro
+mktemp-error-suffix-contains-separator = nevalida sufikso { $suffix } enhavas dosierujan apartigilon
+mktemp-error-prefix-contains-separator = nevalida ŝablono { $template } enhavas dosierujan apartigilon
