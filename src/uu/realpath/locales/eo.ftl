@@ -1,2 +1,13 @@
 realpath-usage = realpath [OPCIO]... DOSIERO...
 realpath-help-quiet = Ne averti pri nevalidaj dosiervojoj
+realpath-about = Montri la solvitan dosiervojon
+realpath-help-physical = solvi renkontitajn simbolajn ligojn (implicite)
+realpath-invalid-empty-operand = nevalida argumento: malplena signoĉeno
+realpath-help-logical = solvi komponantojn «..» antaŭ simbolaj ligoj
+realpath-help-strip = Nur forigi komponantojn «.» kaj «..», ne solvante simbolajn ligojn
+realpath-help-zero = Apartigi eligitajn dosiernomojn per nulbajto anstataŭ linifino
+realpath-help-relative-to = montri la solvitan dosiervojon relative al DIR
+realpath-help-relative-base = montri absolutajn dosiervojojn krom tiuj dosiervojoj, kiuj estas sub DIR
+realpath-help-canonicalize = ĉiuj (krom la lasta) komponanto devas ekzisti (implicite)
+realpath-help-canonicalize-existing = normigi, sekvante ĉiujn simbolajn ligojn en ĉiuj komponantoj de la donita nomo rikure; ĉiuj komponantoj devas ekzisti
+realpath-help-canonicalize-missing = normigi, sekvante ĉiujn simbolajn ligojn en ĉiuj komponantoj de la donita nomo rikure, sed ne postulante, ke komponantoj ekzistu
