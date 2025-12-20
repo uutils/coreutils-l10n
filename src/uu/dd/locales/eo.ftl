@@ -132,3 +132,5 @@ dd-error-invalid-flag =
 dd-progress-records-in = { $complete }+{ $partial } rikordoj enigitaj
 dd-progress-records-out = { $complete }+{ $partial } rikordoj eligitaj
 dd-warning-signal-handler = Interna averto de dd: Ne povas registri signaltraktilon
+dd-error-failed-discard-cache-input = malsukcesis forĵeti kaŝmemoron por: «norma enfluo»
+dd-error-failed-discard-cache-output = malsukcesis forĵeti kaŝmemoron por: «norma elfluo»
