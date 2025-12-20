@@ -2,7 +2,7 @@ tail-usage = tail [FLAGO]... [DOSIERO]...
 tail-help-bytes = Nombro de eligotaj bajtoj
 tail-status-file-no-such-file = { $file }: { $no_such_file }
 tail-is-a-directory = Estas dosierujo
-tail-stdin-header = norma enigo
+tail-stdin-header = norma enfluo
 tail-no-files-remaining = neniu dosiero restas
 tail-help-follow-retry = Sama kiel --follow=name --retry
 tail-error-invalid-number-of-seconds = nevalida nombro de sekundoj: «{ $source }»
@@ -19,3 +19,6 @@ tail-error-invalid-pid = nevalida procezonumero: { $pid }
 tail-error-invalid-pid-with-error = nevalida procezonumero { $pid }: { $error }
 tail-error-invalid-number-out-of-range = nevalida nombro: { $arg }: Nombra rezulto ekster gamo
 tail-error-option-used-in-invalid-context = opcio uzita en nevalida kunteksto --{ $option }
+tail-help-zero-terminated = Liniapartigilo estas nulbajto, ne linifino
+tail-error-notify-error = NotifyError: { $error }
+tail-error-recv-timeout-error = RecvTimeoutError: { $error }
