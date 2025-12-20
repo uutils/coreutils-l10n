@@ -45,3 +45,4 @@ cp-error-failed-set-permissions = ne povas modifi permesojn pri { $path }
 cp-error-cannot-open-for-reading = ne povas malfermi { $source } por legado
 cp-error-cannot-create-symlink = ne povas krei simbolan ligon { $dest } al { $source }
 cp-error-will-not-overwrite-just-created = ne superskribos ĵus kreitan { $dest } per { $source }
+cp-error-failed-get-current-dir = malsukcesis akiri aktualan dosierujon: { $error }
