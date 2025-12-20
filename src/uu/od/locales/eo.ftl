@@ -26,3 +26,6 @@ od-help-l = dekumaj 8-bajtaj unuoj
 od-help-e = glitkomaj duoble precizaj (64-bitaj) unuoj
 od-help-f = glitkomaj duoble precizaj (32-bitaj) unuoj
 od-help-capital-f = glitkomaj duoble precizaj (64-bitaj) unuoj
+od-error-invalid-argument = nevalida argumento { $value } por --{ $option }
+od-error-argument-too-large = argumento { $value } por --{ $option } estas tro granda
+od-error-parse-failed = sintaksa analizo malsukcesis
