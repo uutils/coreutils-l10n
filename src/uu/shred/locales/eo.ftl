@@ -6,3 +6,4 @@ shred-usage = shred [OPCIO]... DOSIERO...
 shred-removing = { $file }: forigata
 shred-removed = { $file }: forigita
 shred-pass-progress = { $file }: preterpasita
+shred-missing-file-operand = dosiero-argumento mankas
