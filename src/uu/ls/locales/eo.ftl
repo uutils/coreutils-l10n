@@ -65,3 +65,8 @@ ls-help-long-numeric-uid-gid = -l kun nombraj uzantonumeroj kaj grupnumeroj.
 ls-help-set-quoting-style = Agordi citadan stilon.
 ls-help-escape-quoting-style = Uzi eskapan citadan stilon. Ekvivalentas «--quoting-style=escape»
 ls-help-c-quoting-style = Uzi citadan stilon de programlingvo C. Ekvivalentas «--quoting-style=c»
+ls-help-slash-directories = Postmeti indikilon «/» post dosierujoj.
+ls-invalid-quoting-style = { $program }: Ignorante nevalidan valoron de la media variablo QUOTING_STYLE: «{ $style }»
+ls-invalid-columns-width = ignorante nevalidan larĝon en la media variablo COLUMNS: { $width }
+ls-help-sort-by-version = Natura ordigo de (versiaj) numeroj en la dosiernomoj.
+ls-help-recursive = Listigi la enhavojn de ĉiuj dosierujoj rikure.
