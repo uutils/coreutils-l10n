@@ -11,3 +11,4 @@ pinky-login-name-label = Salutnomo:
 pinky-real-life-label = Reale:
 pinky-unsupported-openbsd = nesubtenata komando ĉe OpenBSD
 pinky-help-help = Eligi helpajn informojn
+pinky-column-tty = Teletajpilo
