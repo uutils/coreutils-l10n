@@ -6,4 +6,4 @@ sum-error-no-such-file-or-directory = { $name }: Ne ekzistas dosiero aŭ dosieru
 sum-about =
     Komputi la kontrolsumon kaj kalkuli la blokojn en dosiero.
 
-    Sen DOSIERO, aŭ se DOSIERO estas -, legas la norman enigon.
+    Sen DOSIERO, aŭ se DOSIERO estas -, legas la norman enfluon.
