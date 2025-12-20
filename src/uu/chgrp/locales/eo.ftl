@@ -12,3 +12,6 @@ chgrp-help-preserve-root = malsukcesi operacii rikure ĉe «/»
 chgrp-help-no-preserve-root = ne trakti «/» speciale (implicite)
 chgrp-help-recursive = operacii dosierojn kaj dosierujojn rikure
 chgrp-help-verbose = montri diagnozaĵon pri ĉiu traktita dosiero
+chgrp-help-reference = uzi la grupon de RDOSIERO anstataŭ la valoron GRUPO
+chgrp-help-changes = simila al --verbose, sed raporti nur tiam, kiam ŝanĝo okazas
+chgrp-help-from = ŝanĝi la grupon, nur se ĝia aktuala grupo kongruas kun GRUPO
