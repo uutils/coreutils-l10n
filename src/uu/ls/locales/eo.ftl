@@ -59,3 +59,9 @@ ls-help-almost-all =
     nur ignorante «.» kaj «..».
 ls-invalid-ignore-pattern = Nevalida patroneo por ignorado: { $pattern }
 ls-invalid-hide-pattern = Nevalida patroneo por kaŝado: { $pattern }
+ls-help-display-files-columns = Montri la dosierojn kolumne.
+ls-help-list-entries-rows = Listigi erojn vice, ne kolumne.
+ls-help-long-numeric-uid-gid = -l kun nombraj uzantonumeroj kaj grupnumeroj.
+ls-help-set-quoting-style = Agordi citadan stilon.
+ls-help-escape-quoting-style = Uzi eskapan citadan stilon. Ekvivalentas «--quoting-style=escape»
+ls-help-c-quoting-style = Uzi citadan stilon de programlingvo C. Ekvivalentas «--quoting-style=c»
