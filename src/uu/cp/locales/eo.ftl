@@ -39,3 +39,6 @@ cp-help-link = nesimbole ligi dosierojn anstataŭ kopiado
 cp-error-extra-operand = ekstra argumento { $operand }
 cp-error-missing-file-operand = dosiero-argumento mankas
 cp-help-interactive = konfirmi antaŭ ol superskribi dosierojn
+cp-error-cannot-create-fifo = ne povas krei nomhavan dukton { $path }: Dosiero jam ekzistas
+cp-help-context = sama kiel -Z, aŭ se CTX estas specifita, do agordi la sekurecan kuntekston de SELinux aŭ SMACK al CTX
+cp-error-failed-set-permissions = ne povas modifi permesojn pri { $path }
