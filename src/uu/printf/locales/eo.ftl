@@ -248,3 +248,8 @@ printf-after-help =
 printf-help-version = Eligi versiajn informojn
 printf-help-help = Eligi helpajn informojn
 printf-error-missing-operand = mankas argumento
+printf-usage =
+    printf ARANĜO [ARGUMENTO]...
+    printf OPCIO
+printf-warning-ignoring-excess-arguments = ignorante ekstrajn argumentojn, komenciĝantajn per «{ $arg }»
+printf-about = Montri eligaĵon laŭ specifitaj aranĝo kaj argumentoj.
