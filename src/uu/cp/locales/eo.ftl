@@ -42,3 +42,6 @@ cp-help-interactive = konfirmi antaŭ ol superskribi dosierojn
 cp-error-cannot-create-fifo = ne povas krei nomhavan dukton { $path }: Dosiero jam ekzistas
 cp-help-context = sama kiel -Z, aŭ se CTX estas specifita, do agordi la sekurecan kuntekston de SELinux aŭ SMACK al CTX
 cp-error-failed-set-permissions = ne povas modifi permesojn pri { $path }
+cp-error-cannot-open-for-reading = ne povas malfermi { $source } por legado
+cp-error-cannot-create-symlink = ne povas krei simbolan ligon { $dest } al { $source }
+cp-error-will-not-overwrite-just-created = ne superskribos ĵus kreitan { $dest } per { $source }
