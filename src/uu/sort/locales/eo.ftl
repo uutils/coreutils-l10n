@@ -26,3 +26,9 @@ sort-file-operands-combined =
     Provu «{ $help } --help» por pliaj informoj.
 sort-multiple-output-files = pluraj eligaj dosieroj estis donitaj
 sort-help-zero-terminated = liniapartigilo estas nulbajto, ne linifino
+sort-invalid-option-arg = nevalida argumento { $arg } por --{ $option }
+sort-options-incompatible = vi ne povas specifi kaj opcion «-{ $opt1 }» kaj opcion «-{ $opt2 }»
+sort-failed-to-delete-temporary-directory = malsukcesis forigi provizoran dosierujon: { $error }
+sort-option-arg-too-large = argumento { $arg } por --{ $option } estas tro granda
+sort-extra-operand-not-allowed-with-c = ekstra argumento { $operand } ne estas permesata kun «-c»
+sort-invalid-suffix-in-option-arg = nevalida sufikso en argumento { $arg } por --{ $option }
