@@ -5,3 +5,4 @@ mktemp-help-directory = Krei dosierujon anstataŭ dosiero
 mktemp-error-too-many-templates = tro multe da ŝablonoj
 mktemp-template-type-directory = dosierujo
 mktemp-template-type-file = dosiero
+mktemp-error-must-end-in-x = kun --suffix, la ŝablono { $template } devas finiĝi per X
