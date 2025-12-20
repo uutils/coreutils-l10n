@@ -1,2 +1,3 @@
 fold-usage = fold [OPCIO]... [DOSIERO]...
 fold-error-readline = malsukcesis legi linion
+fold-error-illegal-width = nevalida valoro de larĝo
