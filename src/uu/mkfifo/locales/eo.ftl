@@ -1,3 +1,9 @@
 mkfifo-usage = mkfifo [OPCIO]... NOMO...
 mkfifo-error-invalid-mode = nevalida reĝimo: { $error }
 mkfifo-error-missing-operand = mankas argumento
+mkfifo-error-cannot-set-permissions = ne povas ŝanĝi permesojn pri { $path }: { $error }
+mkfifo-about = Krei nomhavan dukton kun donita nomo.
+mkfifo-help-mode = dosieraj permesoj pri la nomhava dukto
+mkfifo-help-selinux = uzi aprioran tipon de sekureca kunteksto de SELinux
+mkfifo-error-cannot-create-fifo = ne povas krei nomhavan dukton { $path }: Dosiero jam ekzistas
+mkfifo-help-context = sama kiel -Z, aŭ se CTX estas specifita, do agordi la sekurecan kuntekston de SELinux aŭ SMACK al CTX
