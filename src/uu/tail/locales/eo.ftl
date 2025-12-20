@@ -22,3 +22,5 @@ tail-error-option-used-in-invalid-context = opcio uzita en nevalida kunteksto --
 tail-help-zero-terminated = Liniapartigilo estas nulbajto, ne linifino
 tail-error-notify-error = NotifyError: { $error }
 tail-error-recv-timeout-error = RecvTimeoutError: { $error }
+tail-status-has-become-accessible = { $file } neatingebliĝis
+tail-error-cannot-fstat = malsukcesis alvoki «fstat» pri { $file }: { $error }
