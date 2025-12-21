@@ -13,3 +13,7 @@ runcon-usage =
     runcon KUNTEKSTO KOMANDO [ARGUMENTO...]
     runcon [-c] [-u UZANTO] [-r ROLO] [-t TIPO] [-l GAMO] KOMANDO [ARGUMENTO...]
 runcon-about = Ruli komandon en specifita sekureca kunteksto sur sistemo kun SELinux.
+runcon-operation-setting-role = Agordante rolon de sekureca kunteksto
+runcon-operation-setting-type = Agordante tipon de sekureca kunteksto
+runcon-operation-setting-range = Agordante gamon de sekureca kunteksto
+runcon-operation-setting-user = Agordante uzanton de sekureca kunteksto
