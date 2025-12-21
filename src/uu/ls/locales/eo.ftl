@@ -101,3 +101,7 @@ ls-help-sort-none =
     Ne ordigi, listigante la dosierojn en la ordo, en kiu ili estas konservita
     en la dosierujo. Tio speciale utilas por listigi grandegajn dosierujojn,
     ĉar ne ordigi povas esti multe pli rapide.
+ls-help-unsorted-all = Listigi ĉiujn dosierojn en dosieruja ordo, sen reordigo. Ekvivalentas «-aU». Malŝaltas --color, se ĝi ne estas eksplicita.
+ls-help-author =
+    Montri aŭtoron en longa formo. Sur subtenataj platformoj,
+    la aŭtoro ĉiam kongruas kun la posedanto de la dosiero.
