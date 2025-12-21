@@ -38,11 +38,11 @@ mv-after-help =
     Se vi specifas plurajn el -i, -f, kaj -n, nur la lasta estos efektiva.
 
     Ne movi nedosierujon, kiu havas ekzistantan celon kun la sama aŭ pli nova modifotempo; anstataŭe,
-    silente preterpasi la dosieron sen malsukceso. If the move is across file system boundaries, the comparison is
-    to the source timestamp truncated to the resolutions of the destination file system and of the system calls used
-    to update timestamps; this avoids duplicate work if several mv -u commands are executed with the same source
-    and destination. This option is ignored if the -n or --no-clobber option is also specified. which gives more control
-    over which existing files in the destination are replaced, kaj ĝia valoro estas unu el la jeno:
+    silente preterpasi la dosieron sen malsukceso. Se la movo estas inter dosiersistemoj, la komparo estas
+    al la fonta tempo trunkita al la precizoj de la cela dosiersistemo kaj de la sistemaj alvokoj por
+    modifi tempojn; tio evitas nenecesan laboron, se pluraj komandoj «mv -u» ruliĝas kun la sama fonto
+    kaj celo. Tiu opcio ignoriĝas, se la opcio «-n» aŭ «--no-clobber» estas ankaŭ specifita. Tio provizas plia
+    regado pri la anstataŭigotaj dosieroj ĉe la celo, kaj ĝia valoro estas unu el la jeno:
 
     - all Jen la implicita operacio, se la opcio --update mankas. Tio anstataŭigas ĉiujn ekzistantajn dosierojn en la celo.
     - none Tio similas al la opcio --no-clobber, ĉar neniu dosiero en la celo anstataŭiĝas; tamen, preterpasado de dosiero ne kaŭzas malsukceson.
@@ -52,3 +52,6 @@ mv-help-progress =
     Montri progresbreton.
     Notu: jen funkcio ne en GNU coreutils.
 mv-error-inter-device-move-failed = malsukcesis interaparata movo: de «{ $from }» al «{ $to }»; malsukcesis forigi celon: { $err }
+mv-help-interactive = demandi antaŭ superregado
+mv-help-context = simila al -Z, aŭ se CTX estas specifita, do agordi la sekurecan kuntekston de SELinux al CTX
+mv-error-dangling-symlink = ne povas determini tipon de misreferencanta simbola ligo
