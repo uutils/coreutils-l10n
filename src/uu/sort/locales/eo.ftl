@@ -34,3 +34,34 @@ sort-extra-operand-not-allowed-with-c = ekstra argumento { $operand } ne estas p
 sort-invalid-suffix-in-option-arg = nevalida sufikso en argumento { $arg } por --{ $option }
 sort-invalid-batch-size-arg = nevalida argumento «{ $arg }» por --batch-size
 sort-invalid-zero-length-filename = { $file }: { $line_num }: nevalida dosiernomo de longo 0
+sort-help-random = ordigi aleatore
+sort-help-separator = neapriora apartigilo por -k
+sort-error-no-match-for-key = ^ nenio kongrua kun ŝlosilo
+sort-no-input-from = neniu enigo el «{ $file }»
+sort-only-one-file-allowed-with-c = nur unu dosiero estas permesata kun -c
+sort-help-month = kompari laŭ mallongigita nomo de monato
+sort-help-numeric = kompari laŭ nombra valoro de teksto
+sort-help-dictionary-order = konsideri nur spacetojn, literojn, kaj ciferojn
+sort-error-disorder = { $file }:{ $line_number }: misordo: { $line }
+sort-help-ignore-case = kompari usklecoblinde
+sort-failed-to-set-up-signal-handler = malsukcesis agordi signaltraktilon: { $error }
+sort-help-human-numeric = kompari laŭ home legeblaj grandoj, ekz. 1M > 100k
+sort-help-general-numeric = kompari laŭ la ĝenerala nombra valoro de teksto
+sort-help-version-sort = Ordigi laŭ versia numero de Semantika Versiado, ekz. 1.12.2 > 1.1.2
+sort-after-help =
+    La aranĝo de la ŝlosilo estas KAMPO[.SIGNO][OPCIOJ][,KAMPO[.SIGNO]][OPCIOJ].
+
+    Fields by default are separated by the first whitespace after a non-whitespace character. Use -t to specify a custom separator.
+    In the default case, whitespace is appended at the beginning of each field. Custom separators however are not included in fields.
+
+    KAMPO kaj SIGNO both start at 1 (i.e. they are 1-indexed). If there is no end specified after a comma, the end will be the end of the line.
+    If SIGNO is set 0, it means the end of the field. SIGNO defaults to 1 for the start position and to 0 for the end position.
+
+    Jen la validaj opcioj: MbdfhnRrV. They override the global options for this key.
+sort-error-buffer-size-too-big = Bufra grando { $size } estas tro granda por la adresospaco
+sort-help-check = kontroli ordon; ne ordigi
+sort-help-tmp-dir = uzi DIR por provizoraĵojn, ne $TMPDIR nek /tmp
+sort-help-reverse = eligi en mala ordo
+sort-help-merge = kombini jam ordigitajn dosierojn; ne ordigi
+sort-help-ignore-nonprinting = ignori nepreseblajn signojn
+sort-help-output = skribi eligaĵon al FILENAME, ne la norma elfluo
