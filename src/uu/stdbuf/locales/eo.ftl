@@ -23,3 +23,9 @@ stdbuf-after-help =
     NOTU: Se KOMANDO adjusts the buffering of its standard streams (tee does for e.g.) then that will override corresponding settings changed by stdbuf.
     Also some filters (like dd and cat etc.) don't use streams for I/O, and are thus unaffected by stdbuf settings.
 stdbuf-error-command-not-supported = Komando ne estas subtenata por ĉi tiu mastruma sistemo!
+stdbuf-help-input = modifi bufron de la norma enfluo
+stdbuf-help-output = modifi bufron de la norma elfluo
+stdbuf-help-error = modifi bufron de la norma erarfluo
+stdbuf-error-value-too-large = nevalida reĝimo «{ $value }»: Valoro estas tro granda por la difinita datentipo
+stdbuf-error-line-buffering-stdin-meaningless = ne utilas linie bufrigi la norman enfluon
+stdbuf-error-external-libstdbuf-not-found = Ekstera libstdbuf ne troviĝis ĉe agordita dosiervojo: { $path }
