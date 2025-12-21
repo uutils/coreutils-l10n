@@ -16,3 +16,4 @@ shred-invalid-number-of-passes = nevalida nombro de fojoj: { $passes }
 shred-random-source-help = preni aleatorajn bajtojn el <random-source>
 shred-file-write-pass-failed = { $file }: Malsukcesis superskribi
 shred-size-help = superskribi N bajtojn (akceptas sufiksojn kiel K, M, G)
+shred-cannot-open-random-source = ne povas malfermi fonton de aleatoreco: { $source }
