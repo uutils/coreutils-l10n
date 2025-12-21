@@ -12,3 +12,4 @@ chroot-error-set-groups-failed = ne povas ŝanĝi grupojn: { $err }
 chroot-error-missing-newroot =
     Mankas argumento: NOVARADIKO
     Provu «{ $util_name } --help» por pliaj informoj.
+chroot-error-groups-parsing-failed = malsukcesis analizi sintakson de --groups
