@@ -10,3 +10,6 @@ more-error-cannot-open-no-such-file = ne povas malfermi { $path }: Ne ekzistas d
 more-help-no-pause = Kalkuli logikajn liniojn, ne ekranajn liniojn
 more-error-pattern-not-found = Patroneo ne troviĝis
 more-help-plain = Malŝalti substrekojn
+more-help-files = Dosiervojoj al legotaj dosieroj
+more-error-cannot-seek-to-line = Ne povas serĉi linion de numero { $line }
+more-help-exit-on-eof = Ĉesi ĉe fino de dosiero
