@@ -94,3 +94,13 @@ date-help-rfc-3339 =
     por dato kaj horo en la indikita precizeco.
     Ekzemple: 2006-08-14 02:34:56-06:00
 date-help-reference = montri la tempon de la lasta modifo de FILE
+date-help-iso-8601 =
+    montri daton/horon laŭ ISO 8601.
+    FMT='date' por nur dato (implicite), 'hours' (horo),
+    'minutes' (minuto), 'seconds' (sekundo), aŭ 'ns' (nanosekundo)
+    por dato kaj horo kun la indikita precizeco.
+    Ekzemple: 2006-08-14T02:34:56-06:00
+date-help-debug = prinoti la analizitan daton kaj averti pri dubaĵoj en la norman erarfluon
+date-help-resolution =
+    montri la haveblan precizecon de tempo
+    Ekzemple: 0,000000001
