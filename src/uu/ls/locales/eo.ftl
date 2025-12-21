@@ -70,3 +70,34 @@ ls-invalid-quoting-style = { $program }: Ignorante nevalidan valoron de la media
 ls-invalid-columns-width = ignorante nevalidan larĝon en la media variablo COLUMNS: { $width }
 ls-help-sort-by-version = Natura ordigo de (versiaj) numeroj en la dosiernomoj.
 ls-help-recursive = Listigi la enhavojn de ĉiuj dosierujoj rikure.
+ls-error-not-listing-already-listed = { $path }: ne remontrante jam montritan dosierujon
+ls-help-set-display-format = Agordi la montran aranĝon.
+ls-help-reverse-sort =
+    Maligi la ordigan metodon, ekz. laŭ mala alfabeta ordo,
+    de la plej juna ĝis la plej maljuna, de la plej malgranda ĝis la plej granda, ktp.
+ls-help-time-style = hora/data aranĝo por -l; vidu TIME_STYLE ĉi-sube
+ls-help-show-time-field =
+    Montri tempon en <field>
+    atingotempo (-u): atime, access, use;
+    ŝanĝotempo (-t): ctime, status;
+    modifotempo: mtime, modification;
+    kreotempo: birth, creation;
+ls-help-literal-quoting-style = Uzi laŭliteran citadan stilon. Ekvivalentas «--quoting-style=literal»
+ls-help-replace-control-chars = Anstataŭigi neeskapitajn stirsignojn per «?».
+ls-help-show-control-chars = Montri neeskapitajn stirsignojn senŝanĝe.
+ls-help-long-no-owner = Longa formo sen informoj pri la posedanto.
+ls-help-long-format-no-group =
+    Longa formo sen informoj pri la grupo.
+    Sama kiel --format=long kun --no-group.
+ls-help-generate-dired-output = generi eligaĵojn taŭgan por la reĝimo «dired» (Dosierujo-Redaktilo) de Emacs
+ls-help-no-group = Ne montri grupon en longa formo.
+ls-help-dereference-args = Ne sekvi simbolajn ligojn, krom tiuj donitaj kiel komandliniaj argumentoj.
+ls-help-directory =
+    Nur montri la nomojn de dosierujoj, ne la enhavojn de la dosierujoj.
+    Ne sekvi simbolajn ligojn, krom se unu el `--dereference-command-line (-H)`,
+    `--dereference (-L)`, aŭ `--dereference-command-line-symlink-to-dir` estas
+    specifita.
+ls-help-sort-none =
+    Ne ordigi, listigante la dosierojn en la ordo, en kiu ili estas konservita
+    en la dosierujo. Tio speciale utilas por listigi grandegajn dosierujojn,
+    ĉar ne ordigi povas esti multe pli rapide.
