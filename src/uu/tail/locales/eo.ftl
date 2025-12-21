@@ -31,3 +31,15 @@ tail-error-cannot-follow-stdin-by-name = { $stdin } ne estas sekvebla laŭ nomo
 tail-status-has-appeared-following-new-file = { $file } aperis; sekvante novan dosieron
 tail-status-has-been-replaced-following-new-file = { $file } anstataŭiĝis; sekvante novan dosieron
 tail-status-file-became-inaccessible = { $file } { $become_inaccessible }: { $no_such_file }
+tail-help-follow = Montri dosieron dum ĝi kreskiĝas
+tail-warning-pid-not-supported = ĉi tiu sistemo ne subtenas --pid=PROCEZONUMERO
+tail-warning-following-stdin-ineffective = ne utilas sekvi la norman enfluon senfine
+tail-help-retry = Reprovadi malfermi dosieron, se ĝi ne estas atingebla
+tail-help-polling-linux = Malŝalti subtenon de «inotify», uzi «poll» anstataŭe
+tail-help-polling-unix = Malŝalti subtenon de «kqueue», uzi «poll» anstataŭe
+tail-help-polling-windows = Malŝalti subtenon de «ReadDirectoryChanges», uzi «poll» anstataŭe
+tail-error-cannot-follow-file-type = { $file }: ne povas sekvi finon de tia dosiero{ $msg }
+tail-status-backend-cannot-be-used-reverting-to-polling = ne povas uzi { $backend }, tial uzante «poll»
+tail-warning-retry-only-effective = --retry estas nur efektiva por la unua malfermo
+tail-error-cannot-watch-parent-directory = ne povas atenti la patran dosierujon de { $path }
+tail-error-backend-cannot-be-used-too-many-files = ne povas uzi { $backend }, tial uzante «poll»: Troo da malfermitaj dosieroj
