@@ -35,3 +35,5 @@ df-help-type = nur listigi dosiersistemojn de tipo TYPE
 df-help-inodes = montri indeksnodajn informojn anstatŭ uzo de blokoj
 df-help-all = inkluzivi formalajn dosiersistemojn
 df-help-exclude-type = nur listigi dosiersistemojn ne de tipo TYPE
+df-error-no-file-systems-processed = neniu dosiersistemo traktita
+df-error-cannot-read-table-of-mounted-filesystems = ne povas legi la tabelon de muntitaj dosiersistemoj
