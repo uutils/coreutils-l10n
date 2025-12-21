@@ -12,3 +12,11 @@ dircolors-error-extra-operand-print-database =
     vi ne povas doni dosiero-argumenton kune kun --print-database (-p)
 dircolors-help-print-ls-colors = eligi plene eskapitajn kolorojn por montrado
 dircolors-error-print-database-and-ls-colors-exclusive = vi ne povas specifi kaj la opcion --print-database kaj la opcion --print-ls-colors
+dircolors-error-no-shell-environment = mankas media variablo SHELL, kaj neniu opcio pri tipo de ŝelo estis specifita
+dircolors-after-help =
+    Se DOSIERO estis specifita, legi ĝin por determini, kiuj koloroj uziĝu
+    por kiuj dosiertipoj kaj dosiersufiksoj. Alie, uzi antaŭkonstruita datenbanko.
+    Por pliaj detaloj pri la formo de tiuj dosieroj, rulu «dircolors --print-database»
+dircolors-error-shell-and-output-exclusive =
+    vi ne povas specifi kaj opcion por eligi neŝelan sintakson
+    kaj opcion por elekti ŝelan sintakson
