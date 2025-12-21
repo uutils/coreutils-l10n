@@ -89,3 +89,16 @@ stat-after-help =
     NOTU: via ŝelo povas havi sian propran version de stat, kiu ordinare anstataŭigas
     la version priskribitan ĉi tie. Bonvolu legi la dokumentaron de via ŝelo por detaloj
     pri ĝiaj opcioj.
+stat-word-inodes = Indeksnodoj
+stat-word-inode = Indeksnodo
+stat-error-cannot-read-filesystem = ne povas legi tabelon de muntitaj dosiersistemoj: { $error }
+stat-help-file-system = montri dosiersisteman staton, ne dosieran staton
+stat-help-format =
+    uzi la specifitan FORMAT anstataŭ la aprioran;
+    eligi linifinon post ĉiu uzo de FORMAT
+stat-error-stdin-filesystem-mode = uzado de «-» por signifi la norman enfluon ne validas en dosiersistema reĝimo
+stat-word-namelen = Nomlongo
+stat-help-printf =
+    simila al --formet, sed interpretante malsuprenstrekajn eskapojn,
+    kaj sen deviga fina linifino; se vi deziras linifinon, inkluzivu
+    «\n» en FORMAT
