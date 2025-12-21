@@ -30,3 +30,4 @@ od-error-invalid-argument = nevalida argumento { $value } por --{ $option }
 od-error-argument-too-large = argumento { $value } por --{ $option } estas tro granda
 od-error-parse-failed = sintaksa analizo malsukcesis
 od-error-invalid-label = nevalida etikedo: { $label }
+od-error-invalid-offset = nevalida deŝovo: { $offset }
