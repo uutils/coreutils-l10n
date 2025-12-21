@@ -4,3 +4,7 @@ tee-after-help = Se DOSIERO estas -, tio signifas dosieron nomitan -.
 tee-about = Kopii la norman enfluon al ĉiu DOSIERO kaj ankaŭ al la norma elfluo.
 tee-error-stdin = norma enfluo: { $error }
 tee-standard-output = «norma elfluo»
+tee-help-output-error-warn = averti pri eraro dum skribado al ajna eligo
+tee-help-output-error-warn-nopipe = averti pri eraro dum skribado al ajna eligo, krom duktaj eraroj (tio ignoriĝas sur ne-Uniksa platformo)
+tee-help-output-error-exit = ĉesi, se okazas eraro dum skribado al ajna eligo
+tee-help-output-error-exit-nopipe = ĉesi, se okazas eraro dum skribado al ajna eligo, krom duktaj eraroj (tio ekvivalentas «exit» sur ne-Uniksa platformo)
