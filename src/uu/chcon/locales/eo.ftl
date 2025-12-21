@@ -26,3 +26,6 @@ chcon-op-reading-directory = Legante dosierujon
 chcon-op-reading-cyclic-directory = Legante ciklan dosierujon
 chcon-help-recursive = Operacii dosierojn kaj dosierujojn rikure.
 chcon-error-data-out-of-range = Dateno estas ekster gamo
+chcon-error-recursive-no-dereference-require-p = «--recursive» kun «--no-dereference» postulas «-P»
+chcon-help-verbose = Montri diagnozaĵon pri ĉiu traktita dosiero.
+chcon-op-modifying-root-path = Modifante radikan dosiervojon
