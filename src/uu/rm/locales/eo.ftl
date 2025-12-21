@@ -31,3 +31,16 @@ rm-error-missing-operand =
 rm-help-no-preserve-root = ne trakti «/» speciale
 rm-help-preserve-root = ne forigi «/» (implicite)
 rm-help-recursive = forigi dosierujojn kaj iliajn enhavojn rikure
+rm-help-progress = montri progresbreton. Notu: jen funkcio ne en GNU coreutils.
+rm-help-prompt-always = demandi antaŭ ĉiu forigo
+rm-help-force = ignori neekzistantajn dosierojn kaj argumentojn, neniam demandante
+rm-help-interactive =
+    demandi laŭ WHEN: «never» neniam, «once» unufoje (-l), aŭ «always» ĉiam (-i).
+    Sen WHEN, demandi ĉiam
+rm-help-prompt-once =
+    demandu unu fojon antaŭ ol forigi pli ol tri dosierojn, aŭ dum rikura forigado.
+    Malpli ĝene ol -i, sed gardante iom kontraŭ multaj misoj
+rm-help-one-file-system =
+    dum rikura forigado de hierarĥio, preterpasi ajnan dosierujon en dosiersistemo
+    alia ol la dosiersistemo de la respondanta komandlinia argumento (ANKORAŬ
+    NE REALIGITA)
