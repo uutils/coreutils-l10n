@@ -57,3 +57,41 @@ cp-help-no-target-directory = Trakti CELOn kiel ordinaran dosieron, ne kiel dosi
 cp-help-no-clobber = ne superskribi jam ekzistantan dosieron
 cp-help-attributes-only = Kopii ne la dosierajn datenojn, sed nur la atributojn
 cp-help-cli-symbolic-links = sekvi komandliniajn simbolajn ligojn en FONTO
+cp-error-cannot-stat = malsukcesis alvoki «stat» pri { $source }: Ne ekzistas dosiero aŭ dosierujo
+cp-error-omitting-directory = -r ne estis specifita; preterpasante dosierujon { $dir }
+cp-error-cannot-copy-directory-into-itself = ne povas kopii dosierujon { $source } en ĝin mem { $dest }
+cp-error-will-not-copy-through-symlink = ne kopios { $source } tra ĵus kreita simbola ligo { $dest }
+cp-error-cannot-overwrite-directory-with-non-directory = ne povas superskribi dosierujon { $dir } per nedosierujo
+cp-error-cannot-overwrite-non-directory-with-directory = ne povas superskribi dosierujon per nedosierujo
+cp-error-backup-format =
+    cp: { $error }
+    Provu «{ $exec } --help» por pliaj informoj.
+cp-error-selinux-set-context = malsukcesis modifi la sekurecan kuntekston de { $path }: { $error }
+cp-warning-source-specified-more-than-once = fonta { $file_type } { $source } estis specifita plurfoje
+cp-error-failed-to-clone = malsukcesis kloni { $source } el { $dest }: { $error }
+cp-error-cannot-change-attribute = ne povas ŝanĝi atributon de { $dest }: Fonta dosiero ne estas regula dosiero
+cp-error-missing-destination-operand = mankas cela dosiero-argumento post { $source }
+cp-error-backing-up-destroy-source = fari savkopion de { $dest } povas detrui fonton; { $source } ne kopiiĝis
+cp-error-with-parents-dest-must-be-dir = kun --parents, la celo devas esti dosierujo
+cp-error-reflink-not-supported = --reflink nur funkcias ĉe Linux kaj macOS
+cp-error-backup-mutually-exclusive = vi ne povas specifi kaj la opcion --backup kaj la opcion --no-clobber
+cp-error-invalid-backup-argument = vi ne povas specifi kaj la opcion --backup kaj la opcion -n aŭ --update=none-fail
+cp-error-option-not-implemented = Opcio «{ $option }» ankoraŭ ne estas realigita.
+cp-error-reflink-always-sparse-auto = `--reflink=always` postulas `--sparse=auto`
+cp-after-help =
+    Ne kopii nedosierujon, kiu havas ekzistantan celon kun la sama aŭ pli nova modifotempo; anstataŭe,
+    silente preterpasi la dosieron sen malsukceso. If timestamps are being preserved, the comparison is to the
+    source timestamp truncated to the resolutions of the destination file system and of the system calls used to
+    update timestamps; this avoids duplicate work if several cp -pu commands are executed with the same source
+    and destination. This option is ignored if the -n or --no-clobber option is also specified. Also, if
+    --preserve=links is also specified (like with cp -au for example), that will take precedence; consequently,
+    depending on the order that files are processed from the source, newer files in the destination may be replaced,
+    to mirror hard links in the source, which gives more control over which existing files in the destination are
+    replaced, kaj ĝia valoro estas unu el la jeno:
+
+    - all Jen la implicita operacio, se la opcio --update mankas. Tio anstataŭigas ĉiujn ekzistantajn dosierojn en la celo.
+    - none Tio similas al la opcio --no-clobber, ĉar neniu dosiero en la celo anstataŭiĝas; tamen, preterpasado de dosiero ne kaŭzas malsukceson.
+    - older Jen la implicita operacio, se la opcio --update ne mankas. Dosieroj en la celo anstataŭiĝas, se ili estas pli malnovaj ol la respondaj fontaj dosieroj.
+cp-help-strip-trailing-slashes = forigi finajn suprenstrekojn el ĉiu argumento FONTO
+cp-help-selinux = apriorigi sekurecan kuntekston de SELinux pri cela dosiero
+cp-help-progress = Montri progresbreton. Notu: jen funkcio ne en GNU coreutils.
