@@ -51,3 +51,4 @@ install-help-compare = kompari parojn da fontaj kaj celaj dosieroj, kaj kelkfoje
 install-help-directory = trakti ĉiujn argumentojn kiel nomojn de dosierujoj; krei ĉiujn komponantojn de la specifitaj dosierujoj
 install-help-group = agordi grupoposedantecon, ne uzante la aktualan grupon de la procezo
 install-help-create-leading = krei ĉiujn komencajn komponantojn de CELO anstataŭ la lasta, poste kopii FONTOn al CELO
+install-help-preserve-timestamps = kopii la atingotempojn kaj modifotempojn de fontaj dosieroj al la respondantaj dosieroj ĉe la celo
