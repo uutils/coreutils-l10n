@@ -51,3 +51,5 @@ numfmt-error-invalid-precision = nevalida precizo en aranĝo «{ $format }»
 numfmt-error-invalid-format-width-overflow = nevalida aranĝo «{ $format }» (troo de larĝo)
 numfmt-error-invalid-format-directive = nevalida aranĝo «{ $format }»; direktivo devas esti %[0]['][-][N][.][N]f
 numfmt-error-format-no-percent = %-direktivo mankas en aranĝo «{ $format }»
+numfmt-error-rejecting-suffix = malakceptante sufikson en enigaĵo: «{ $number }{ $suffix }» (konsideru uzi --from)
+numfmt-error-suffix-unsupported-for-unit = Ĉi tiu sufikso ne validas por la specifita unuo
