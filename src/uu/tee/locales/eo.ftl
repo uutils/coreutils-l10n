@@ -8,3 +8,7 @@ tee-help-output-error-warn = averti pri eraro dum skribado al ajna eligo
 tee-help-output-error-warn-nopipe = averti pri eraro dum skribado al ajna eligo, krom duktaj eraroj (tio ignoriĝas sur ne-Uniksa platformo)
 tee-help-output-error-exit = ĉesi, se okazas eraro dum skribado al ajna eligo
 tee-help-output-error-exit-nopipe = ĉesi, se okazas eraro dum skribado al ajna eligo, krom duktaj eraroj (tio ekvivalentas «exit» sur ne-Uniksa platformo)
+tee-help-append = postskribi la DOSIEROjn, ne superskribi
+tee-help-ignore-interrupts = ignori interrompantajn signalojn (ne efektiva ĉe ne-Uniksa platformo)
+tee-help-ignore-pipe-errors = agordi respondon al skribada eraro (ne efektiva ĉe ne-Uniksa platformo)
+tee-help-output-error = agordi respondon al skribada eraro
