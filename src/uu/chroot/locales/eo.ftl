@@ -13,3 +13,10 @@ chroot-error-missing-newroot =
     Mankas argumento: NOVARADIKO
     Provu «{ $util_name } --help» por pliaj informoj.
 chroot-error-groups-parsing-failed = malsukcesis analizi sintakson de --groups
+chroot-error-set-user-failed = ne povas ŝanĝi uzanton al { $user }: { $err }
+chroot-error-set-gid-failed = ne povas ŝanĝi grupnumeron al { $gid }: { $err }
+chroot-error-no-group-specified = neniu grupo estis specifita pri nekonata uzantonumero: { $uid }
+chroot-error-no-such-directory = ne povas ŝanĝi radikodosierujon al { $dir }: dosierujo ne ekzistas
+chroot-help-groups = Kome apartigita listo de grupoj, en kiuj la komando ruliĝos
+chroot-help-userspec = Tiuj uzanto kaj grupo, dupunkte apartigitaj, sub kiuj la komando ruliĝos.
+chroot-help-skip-chdir = Uzu ĉi tiun opcion por ne ŝanĝi la kurantan dosierujon al «/» post ŝanĝado de la radikdosierujo al NOVARADIKO, t.e., interne de la «chroot».
