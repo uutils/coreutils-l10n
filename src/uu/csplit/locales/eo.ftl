@@ -13,4 +13,4 @@ csplit-error-line-number-smaller-than-previous = linia numero «{ $current }» e
 csplit-stream-not-utf8 = fluo ne enhavis validan UTF-8
 csplit-help-suppress-matched = kaŝi liniojn kongruantajn kun PATRONEO
 csplit-help-digits = uzi specifitan nombron de ciferoj anstataŭ 2
-csplit-help-elide-empty-files = forigi malplenajn eligajn dosierojn
+csplit-help-elide-empty-files = forigi malplenajn eligitajn dosierojn
