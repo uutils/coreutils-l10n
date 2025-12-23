@@ -17,3 +17,10 @@ shred-random-source-help = preni aleatorajn bajtojn el <random-source>
 shred-file-write-pass-failed = { $file }: Malsukcesis superskribi
 shred-size-help = superskribi N bajtojn (akceptas sufiksojn kiel K, M, G)
 shred-cannot-open-random-source = ne povas malfermi fonton de aleatoreco: { $source }
+shred-zero-help = laste superskribi per nuloj por kaŝi ruladon de «shred»
+shred-force-help = ŝanĝi permesojn por ebligi skribadon, se tio necesos
+shred-deallocate-help = malasigni kaj forigi dosieron post superskribadon
+shred-remove-help = simila al -u, sed kun plia regado pri la maniero de forviŝado (HOW); vidu ĉi-suben
+shred-about =
+    Superskribi la specifita(j)n DOSIERO(j)n plurfoje, por malfaciligi restaŭri la datenojn
+    malgraŭ eĉ multekostega fakaparato.
