@@ -13,3 +13,5 @@ more-help-plain = Malŝalti substrekojn
 more-help-files = Dosiervojoj al legotaj dosieroj
 more-error-cannot-seek-to-line = Ne povas serĉi linion de numero { $line }
 more-help-exit-on-eof = Ĉesi ĉe fino de dosiero
+more-help-lines = La nombro de linioj en ekrano
+more-help-squeeze = Kunpremi plurajn malplenajn liniojn en unu linion
