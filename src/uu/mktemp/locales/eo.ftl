@@ -11,3 +11,6 @@ mktemp-error-not-found = malsukcesis krei { $template_type }n per ŝablono { $te
 mktemp-help-quiet = Malsukcesi silente, se okazas eraro.
 mktemp-error-suffix-contains-separator = nevalida sufikso { $suffix } enhavas dosierujan apartigilon
 mktemp-error-prefix-contains-separator = nevalida ŝablono { $template } enhavas dosierujan apartigilon
+mktemp-error-too-few-xs = tro malmulte da «X»-oj en ŝablono { $template }
+mktemp-help-dry-run = ne krei ion ajn; nur montri nomon (nesekure)
+mktemp-error-invalid-template = nevalida ŝablono { $template }; kun --tmpdir, ŝablono ne povas esti absoluta
