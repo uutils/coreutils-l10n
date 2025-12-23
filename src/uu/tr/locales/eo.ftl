@@ -19,3 +19,6 @@ tr-error-extra-operand-deleting-without-squeezing =
     mankas argumento post { $operand }
     Por forigi sen kunpremado de ripetaĵoj, vi devas doni nur unu signoĉenon.
 tr-error-missing-equivalence-class-char = mankas ekvivalentecoklasa signo en «[==]»
+tr-error-invalid-repeat-count = nevalida nombro de ripetoj { $count } en la sintakso [c*n]
+tr-help-truncate-set1 = unue trunki AROn1 al la longo de ARO2
+tr-warning-unescaped-backslash = averto: neeskapita malsuprenstreko ĉe la fino de teksto ne estas portebla
