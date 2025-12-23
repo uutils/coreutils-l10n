@@ -41,3 +41,11 @@ od-error-unexpected-char = neatendita skribsigno «{ $char }» en aranĝo { $spe
 od-error-missing-format-spec = mankas aranĝo post «--format» / «-t»
 od-help-endian = uzota bajtordo por plurbajtaj formoj
 od-help-traditional = reĝimo por kongrueco, kun unu enigo, deŝovo, kaj etikedo.
+od-help-a = nomitaj skribsignoj, ignorante plej gravan biton
+od-help-format = elekti eliga(j)n formo(j)n
+od-help-output-duplicates = ne uzi * por marki kaŝitan linion
+od-help-read-bytes = nur trakti BYTES bajtojn da enigaĵo
+od-help-address-radix = Elekti la nombrosisteman bazon, per kiu dosieraj deŝovoj montriĝas.
+od-help-width =
+    montri eligon po BYTES bajtoj en ĉiu eligita linio. La implicita valoro
+    de BYTES estas 32.
