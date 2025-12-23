@@ -53,3 +53,4 @@ numfmt-error-invalid-format-directive = nevalida aranĝo «{ $format }»; direkt
 numfmt-error-format-no-percent = %-direktivo mankas en aranĝo «{ $format }»
 numfmt-error-rejecting-suffix = malakceptante sufikson en enigaĵo: «{ $number }{ $suffix }» (konsideru uzi --from)
 numfmt-error-suffix-unsupported-for-unit = Ĉi tiu sufikso ne validas por la specifita unuo
+numfmt-error-unit-auto-not-supported-with-to = Unuo «auto» ne estas subtenata kune kun la opcio --to
