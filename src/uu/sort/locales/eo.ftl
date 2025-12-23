@@ -24,7 +24,7 @@ sort-file-operands-combined =
     ekstra argumento «{ $file }»
     dosiero-argumento ne eblas kun --files0-from
     Provu «{ $help } --help» por pliaj informoj.
-sort-multiple-output-files = pluraj eligaj dosieroj estis donitaj
+sort-multiple-output-files = pluraj eligotaj dosieroj estis donitaj
 sort-help-zero-terminated = liniapartigilo estas nulbajto, ne linifino
 sort-invalid-option-arg = nevalida argumento { $arg } por --{ $option }
 sort-options-incompatible = vi ne povas specifi kaj opcion «-{ $opt1 }» kaj opcion «-{ $opt2 }»
@@ -65,3 +65,6 @@ sort-help-reverse = eligi en mala ordo
 sort-help-merge = kombini jam ordigitajn dosierojn; ne ordigi
 sort-help-ignore-nonprinting = ignori nepreseblajn signojn
 sort-help-output = skribi eligaĵon al FILENAME, ne la norma elfluo
+sort-help-check-silent = ĉesi liverante sukceson (elirstaton 0), se la donita dosiero estas jam en ordo, kaj liverante la elirstaton 1 alie.
+sort-help-stable = stabiligi la ordigon malŝaltante la plej malgravan nivelon de komparo
+sort-help-unique = eligi nur la unuan el ripetitaĵoj
