@@ -8,7 +8,7 @@ cut-error-delimiter-only-with-fields = nevalida enigo: La opcio «--delimiter» 
 cut-error-whitespace-only-with-fields = nevalida enigo: La opcio «-w» estas nur uzebla por eligi sinsekvon da kampoj
 cut-error-only-delimited-only-with-fields = nevalida enigo: La opcio «--only-delimited» («-s») estas nur uzebla por eligi sinsekvon da kampoj
 cut-error-delimiter-and-whitespace-conflict = nevalida enigo: Vi povas specifi nur unu el la opcio --delimiter (-d) kaj la opcio -w
-cut-about = Montri specifitajn bajtajn aŭ kampajn kolumnojn en ĉiu linio el la norma enfluo aŭ enigaj dosieroj
+cut-about = Montri specifitajn bajtajn aŭ kampajn kolumnojn en ĉiu linio el la norma enfluo aŭ enigitaj dosieroj
 cut-after-help =
     Each call must specify a mode (what to use for columns),
     a sequence (which columns to print), and provide a data source
