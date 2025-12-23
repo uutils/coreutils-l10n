@@ -43,3 +43,4 @@ tail-status-backend-cannot-be-used-reverting-to-polling = ne povas uzi { $backen
 tail-warning-retry-only-effective = --retry estas nur efektiva por la unua malfermo
 tail-error-cannot-watch-parent-directory = ne povas atenti la patran dosierujon de { $path }
 tail-error-backend-cannot-be-used-too-many-files = ne povas uzi { $backend }, tial uzante «poll»: Troo da malfermitaj dosieroj
+tail-giving-up-on-this-name = ; preterlasante ĉi tiun nomon
