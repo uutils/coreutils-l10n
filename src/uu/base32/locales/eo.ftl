@@ -39,3 +39,10 @@ base-common-help-decode = malkodi datenojn
 base-common-help-ignore-garbage = dum malkodado, ignori nealfabetajn skribsignojn
 basenc-help-base2lsbf = bitĉeno kun la plej malgrava bito unue
 basenc-help-base2msbf = bitĉeno kun la plej grava bito unue
+basenc-error-missing-encoding-type = mankas kodtipo
+base-common-invalid-wrap-size = nevalida linifalda larĝo: { $size }
+base-common-help-wrap = faldi koditajn liniojn post COLS signoj (apriore { $default }; 0 por neebligi linifaldadon)
+basenc-help-z85 =
+    kodo simila al ascii85;
+    por kodado, la longo de la enigaĵo devas esti oblo de 4;
+    por malkodado, la longo de la enigaĵo devas esti oblo de 5
