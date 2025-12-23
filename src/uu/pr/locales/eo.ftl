@@ -19,3 +19,6 @@ pr-help-column-string-separator =
 pr-help-no-file-warnings = ne averti, kiam dosiero ne estas malfermebla
 pr-help-pages = Komenci kaj fini presadon ĉe paĝo FIRST_PAGE[:LAST_PAGE]
 pr-help-date-format = Por la ĉapa dato, uzi FORMAT laŭ la stilo de «date».
+pr-help-column-char-separator =
+    Apartigi tekstajn kolumnojn per unu skribsigno char, anstataŭ la
+                    taŭga nombro de spacetoj (la implicita valoro de char estas tabeligo).
