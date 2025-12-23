@@ -26,3 +26,5 @@ uniq-error-group-badoption =
       - «both»
 uniq-error-write-line-terminator = Ne povas skribi linifinon
 uniq-error-group-mutually-exclusive = Vi ne povas specifi la opcion --group kune kun unu el -c, -d, -D, aŭ -u
+uniq-help-count = antaŭ ĉiu linio, montri la nombron de fojoj
+uniq-help-check-chars = kompari maksimume N skribsignojn en linioj
