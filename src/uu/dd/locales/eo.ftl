@@ -143,7 +143,7 @@ dd-progress-truncated-record =
 dd-error-unimplemented = funkcio ne estas realigita sur ĉi tiu sistemo -> { $feature }
 dd-error-cannot-skip-invalid = «{ $file }»: ne povas preterpasi: Nevalida argumento
 dd-error-cannot-seek-invalid = «{ $output }»: ne povas serĉi: Nevalida argumento
-dd-error-failed-to-seek = malsukcesis serĉi en eliga dosiero
+dd-error-failed-to-seek = malsukcesis serĉi en eligata dosiero
 dd-error-cannot-skip-offset = «{ $file }»: ne povas preterpasi al specifita deŝovo
 dd-error-multiple-format-table = Vi povas specifi nur unu el conv=ascii, conv=ebcdic, aŭ conv=ibm
 dd-error-multiple-case = Vi povas specifi nur unu el conv=lcase kaj conv=ucase
