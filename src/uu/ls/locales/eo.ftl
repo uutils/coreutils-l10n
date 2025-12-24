@@ -105,3 +105,6 @@ ls-help-unsorted-all = Listigi ĉiujn dosierojn en dosieruja ordo, sen reordigo.
 ls-help-author =
     Montri aŭtoron en longa formo. Sur subtenataj platformoj,
     la aŭtoro ĉiam kongruas kun la posedanto de la dosiero.
+ls-help-assume-tab-stops = Supozi, ke tabeligaj pozicioj estas apartigitaj je COLS signoj anstataŭ 8
+ls-help-hyperlink-filenames = ĉu hiperligigi dosiernomojn
+ls-help-block-size = dividi grandojn per BLOCK_SIZE antaŭ montrado
