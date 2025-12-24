@@ -35,3 +35,10 @@ chcon-help-user = Ŝanĝi la uzanton de la cela sekureca kuntekto al UZANTO.
 chcon-help-role = Ŝanĝi la rolon de la cela sekureca kuntekto al ROLO.
 chcon-help-type = Ŝanĝi la tipon de la cela sekureca kuntekto al TIPO.
 chcon-help-range = Ŝanĝi la gamon de la cela sekureca kuntekto al GAMO.
+chcon-warning-circular-directory =
+    Cirkla dosieruja strukturo.
+    Tio preskaŭ certe signifas, ke vi havas difektitan dosiersistemon.
+    SCIIGU VIAN SISTEMADMINISTRANTON.
+    La jena dosierujo estas parto de la ciklo { $file }.
+chcon-op-file-name-validation = Valideckontrolo de dosiernomo
+chcon-op-applying-partial-context = Aldonante partan sekurecan kuntekston al senetikeda dosiero
