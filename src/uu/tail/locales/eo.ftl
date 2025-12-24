@@ -44,3 +44,7 @@ tail-warning-retry-only-effective = --retry estas nur efektiva por la unua malfe
 tail-error-cannot-watch-parent-directory = ne povas atenti la patran dosierujon de { $path }
 tail-error-backend-cannot-be-used-too-many-files = ne povas uzi { $backend }, tial uzante «poll»: Troo da malfermitaj dosieroj
 tail-giving-up-on-this-name = ; preterlasante ĉi tiun nomon
+tail-error-bad-argument-encoding = malĝusta kodado de argnumento: «{ $arg }»
+tail-warning-retry-ignored = --retry ignoriĝis; --retry nur utilas por sekvado
+tail-warning-pid-ignored = procezonumero ignoriĝis; --pid= nur utilas por sekvado
+tail-status-directory-containing-watched-file-removed = dosierujo enhavinta atentitan dosieron forviŝiĝis
