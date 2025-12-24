@@ -100,3 +100,5 @@ cp-error-selinux-not-enabled = SELinux ne estis ŝaltita dum tradukado de ĉi ti
 cp-help-parents = uzi plenan fontan dosiernomon sub DOSIERUJO
 cp-help-sparse = regi kreadon de maldensa dosiero. Vidu ĉi-suben
 cp-help-copy-contents = Ankoraŭ ne realigite: kopii enhavojn de specialaj dosieroj en rikura reĝimo
+cp-prompt-overwrite-with-mode = anstataŭigi { $path }, superregante reĝimon
+cp-help-preserve = Konservi la specifitajn atributojn; apriore «mode» (atingopermesoj), aliaj valoroj: «ownership» (posedanto kaj grupo; nur por Unikso), «timestamps» (tempoj), «context» (SELinux-kunteksto), «links» (simbolaj/nesimbolaj ligoj), «xattr» (etenditaj atributoj), «all» (ĉiuj)
