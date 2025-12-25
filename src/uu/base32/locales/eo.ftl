@@ -14,27 +14,27 @@ base32-about =
     kodi/malkodi datenojn kaj eligi al la norma elfluo
     Sen DOSIERO, aŭ se DOSIERO estas -, legas la norman enfluon.
 
-    The data are encoded as described for the base32 alphabet in RFC 4648.
-    When decoding, the input may contain newlines in addition
-    to the bytes of the formal base32 alphabet. Use --ignore-garbage
-    to attempt to recover from any other non-alphabet bytes in the
-    encoded stream.
+    La datenoj estis koditaj laŭ la alfabeto base32 en RFC 4648.
+    Dum malkodado, la enigaĵo povas enhavi linifinojn
+    krom la bajtoj de la formala alfabeto base32. Uzu
+    --ignore-garbage por provi ignori aliajn nealfabetajn bajtojn
+    en la kodita fluo.
 base64-about =
     kodi/malkodi datenojn kaj eligi al la norma elfluo
     Sen DOSIERO, aŭ se DOSIERO estas -, legas la norman enfluon.
 
-    The data are encoded as described for the base64 alphabet in RFC 3548.
-    When decoding, the input may contain newlines in addition
-    to the bytes of the formal base64 alphabet. Use --ignore-garbage
-    to attempt to recover from any other non-alphabet bytes in the
-    encoded stream.
+    La datenoj estis koditaj laŭ la alfabeto base64 en RFC 3548.
+    Dum malkodado, la enigaĵo povas enhavi linifinojn
+    krom la bajtoj de la formala alfabeto base64. Uzu
+    --ignore-garbage por provi ignori aliajn nealfabetajn
+    bajtojn en la kodita fluo.
 basenc-about =
     kodi/malkodi datenojn kaj eligi al la norma elfluo
     Sen DOSIERO, aŭ se DOSIERO estas -, legas la norman enfluon.
 
-    When decoding, the input may contain newlines in addition to the bytes of
-    the formal alphabet. Use --ignore-garbage to attempt to recover
-    from any other non-alphabet bytes in the encoded stream.
+    Dum malkodado, la enigaĵo povas enhavi linifinojn krom la bajtoj de
+    la formala alfabeto. Uzu --ignore-garbage por provi ignori
+    aliajn nealfabetajn bajtojn en la kodita fluo.
 base-common-help-decode = malkodi datenojn
 base-common-help-ignore-garbage = dum malkodado, ignori nealfabetajn skribsignojn
 basenc-help-base2lsbf = bitĉeno kun la plej malgrava bito unue
