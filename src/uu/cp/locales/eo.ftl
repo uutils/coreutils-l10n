@@ -102,3 +102,7 @@ cp-help-sparse = regi kreadon de maldensa dosiero. Vidu ĉi-suben
 cp-help-copy-contents = Ankoraŭ ne realigite: kopii enhavojn de specialaj dosieroj en rikura reĝimo
 cp-prompt-overwrite-with-mode = anstataŭigi { $path }, superregante reĝimon
 cp-help-preserve = Konservi la specifitajn atributojn; apriore «mode» (atingopermesoj), aliaj valoroj: «ownership» (posedanto kaj grupo; nur por Unikso), «timestamps» (tempoj), «context» (SELinux-kunteksto), «links» (simbolaj/nesimbolaj ligoj), «xattr» (etenditaj atributoj), «all» (ĉiuj)
+cp-help-reflink = regi klonadon/kopiadon post skribado. Vidu ĉi-sube
+cp-help-remove-destination = forigi ekzistantan celan dosieron antaŭ ol provi malfermi ĝi (kontraste kun --force). Ĉe Windows, aktuale nur funkcias por surskribeblaj dosieroj.
+cp-debug-copy-offload = kopia elŝarĝo: { $offload }, referencligo: { $reflink }, detektado de maldensaĵo: { $sparse }
+cp-help-force = Se ekzistanta cela dosiero ne estas malfermebla, forigi ĝin kaj reprovi (ĉi tiu opcio ignoriĝas, se la opcio -n estas ankaŭ specifita). Aktuale ne funkcias ĉe Windows.
