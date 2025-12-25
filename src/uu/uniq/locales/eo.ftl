@@ -28,3 +28,14 @@ uniq-error-write-line-terminator = Ne povas skribi linifinon
 uniq-error-group-mutually-exclusive = Vi ne povas specifi la opcion --group kune kun unu el -c, -d, -D, aŭ -u
 uniq-help-count = antaŭ ĉiu linio, montri la nombron de fojoj
 uniq-help-check-chars = kompari maksimume N skribsignojn en linioj
+uniq-help-all-repeated = ĉu montri ĉiujn ripetitajn liniojn, apartigante ilin per malplenaj linioj. [implicite: «none»]
+uniq-help-group = ĉu montri ĉiujn erojn, apartigante grupojn per malplenaj linioj. [implicite: «separate»]
+uniq-after-help =
+    Filtri apudajn identajn liniojn en ENIGO (aŭ la norma enfluo),
+    skribante sur ELIGOn (aŭ la norman elfluon).
+
+    Notu: uniq ne trovas tiujn ripetajn liniojn, kiuj ne estas apudaj.
+    Vi eble volas ordigi la enigaĵon unue, aŭ uzi «sort -u» sen uniq.
+uniq-error-counts-and-repeated-meaningless =
+    montri ĉiuj ripetitajn liniojn kaj ripetonombrojn estas sensence
+    Provu «uniq --help» por pliaj informoj.
