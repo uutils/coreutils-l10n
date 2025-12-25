@@ -16,3 +16,6 @@ fmt-error-first-option-width =
     Provu «fmt --help» por pliaj informoj.
 fmt-uniform-spacing-help = Enmeti ekzakte unu spaceton inter vortojn kaj ekzakte du inter frazojn. Fino de frazo troviĝas kiel [?!.] sekvita de du spacetoj aŭ linifino; alia interpunkcio ne interpretiĝas kiel fino de frazo.
 fmt-split-only-help = Nur rompi liniojn, ne refluigi.
+fmt-preserve-headers-help = Provi detekti kaj konservi retpoŝtajn ĉapojn en la enigaĵo. Gardu vin kombinante ĉi tiun flagon kun -p.
+fmt-error-invalid-tabwidth = nevalida specifo de tabeliga larĝo: { $tabwidth }
+fmt-quick-help = Rompi liniojn pli rapide, malgraŭ eble pli malglata aspekto.
