@@ -6,3 +6,7 @@ readlink-help-verbose = raporti erarmesaĝojn
 readlink-help-zero = apartigi eligaĵon per nulbajto anstataŭ linifino
 readlink-about = Montri valoron de simbola ligo aŭ kanona dosiernomo.
 readlink-error-ignoring-no-newline = ignorante --no-newline kun pluraj argumentoj
+readlink-help-no-newline = ne montri la finan apartigilon
+readlink-help-canonicalize-existing = normigi, sekvante ĉiujn simbolajn ligojn en ĉiuj komponantoj de la donita nomo rikure; ĉiuj komponantoj devas ekzisti
+readlink-help-canonicalize-missing = normigi, sekvante ĉiujn simbolajn ligojn en ĉiuj komponantoj de la donita nomo rikure, sed ne postulante, ke komponantoj ekzistu
+readlink-help-canonicalize = normigi, sekvante ĉiujn simbolajn ligojn en ĉiuj komponantoj de la donita nomo rikure; ĉiuj komponantoj, krom la lasta, devas ekzisti
