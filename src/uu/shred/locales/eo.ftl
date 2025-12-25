@@ -24,3 +24,41 @@ shred-remove-help = simila al -u, sed kun plia regado pri la maniero de forviŝa
 shred-about =
     Superskribi la specifita(j)n DOSIERO(j)n plurfoje, por malfaciligi restaŭri la datenojn
     malgraŭ eĉ multekostega fakaparato.
+shred-exact-help =
+    ne rondigi grandon de dosiero ĝis la sekva plena bloko;
+    tio estas implicita por neregula dosiero
+shred-after-help =
+    Forigi DOSIERO(j)n, se --remove (-u) estas specifita. La aprioro estas ne forigi
+    la dosierojn, ĉar oni ofte operacias aparatdosieron kiel /dev/hda, kiuj
+    ordinare ne estu forigita.
+
+    AVERTO: Notu, ke shred dependas de la gravega supozo, ke dosiersistema
+    superskribo fakte superskribas datenon en la sama loko. Tio estas la tradicia
+    maniero de dosiersistemoj, sed multaj modernaj dosiersistemoj ne tiel funkcias.
+    Jen ekzemploj de dosiersistemoj, ĉe kiuj shred ne estas efektiva, aŭ je kiuj
+    garantio ne ekzistas pri efektiveco en ĉiuj dosiersistemaj reĝimoj:
+
+     - protokolo-struktura aŭ ĵurnala dosiersistemo, kiel la dosiersistemoj de
+       AIX kaj Solaris (kaj JFS, ReiserFS, XFS, ext3, ktp.)
+
+     - dosiersistemo, kiu skribas redundajn datenojn kaj daŭras, eĉ se kelkaj
+       skriboj malsukcesas, kiel RAID-baza dosiersistemo
+
+     - dosiersistemo faranta savkopiojn, kiel la NFS-servilo de Network Appliance
+
+     - dosiersistemo kun kaŝmemoro en provizora loko, kiel kliento de version 3
+       de NFS
+
+     - densiga dosiersistemo
+
+    Pri la dosiersistemo ext3, la ĉi-supra malgarantio validas (kaj shred tial
+    ne estas efektiva) nur en la reĝimo data=journal, kiu enĵurnaligas dosierajn
+    datenojn kune kun metadatenoj. En la reĝimoj data=ordered (apriora) kaj
+    data=writeback, shred funkcias normale. Oni povas ŝanĝi la ĵurnalan reĝimon
+    de ext3 aldonante la opcion data=REĜIMO al la muntaj opcioj por iu
+    dosiersistemo en la dosiero /etc/fstab,  laŭ la manlibra paĝo por mount
+    (`man mount`).
+
+    Krome, dosiersistema savkopio aŭ foraj speguloj povas enteni
+    neforigeblajn kopiojn de la datenoj, kio ebligas restaŭron de la
+    forviŝita dosiero.
