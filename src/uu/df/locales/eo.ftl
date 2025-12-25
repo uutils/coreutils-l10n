@@ -37,3 +37,18 @@ df-help-all = inkluzivi formalajn dosiersistemojn
 df-help-exclude-type = nur listigi dosiersistemojn ne de tipo TYPE
 df-error-no-file-systems-processed = neniu dosiersistemo traktita
 df-error-cannot-read-table-of-mounted-filesystems = ne povas legi la tabelon de muntitaj dosiersistemoj
+df-error-field-used-more-than-once = opcio --output: kampo { $field } estis plurfoje uzita
+df-error-filesystem-type-both-selected-and-excluded = dosiersistemo de tipo { $type } estas kaj inkluzivita kaj ekskluzivita
+df-help-block-size = dividi grandojn per SIZE antaŭ montrado; ekz. «-BM» montras grandojn en unuoj de 1048576 bajtoj
+df-after-help =
+    Montritaj valoroj estas obloj de la unua havebla SIZE en la opcio --block-size
+    kaj la mediaj variabloj DF_BLOCK_SIZE, BLOCK_SIZE, kaj BLOCKSIZE.
+    Alie, unuo estas apriore 1024 bajtoj (aŭ, se POSIXLY_CORRECT ekzistas, 512 bajtoj).
+
+    SIZE estas entjero kaj nedeviga unuo (ekzemple: 10M estas 10×1024×1024).
+    Unuoj estas K, M, G, T, P, E, Z, Y (potencoj de 1024) or KB, MB, ... (potencoj
+    de 1000).
+df-help-no-sync = ne alvoki «sync» antaŭ ol akiri informojn pri uzado (implicite)
+df-help-output = uzi eligan aranĝon difinintan de FIELD_LIST, aŭ montri ĉiujn kampojn, se FIELD_LIST mankas.
+df-help-sync = alvoki «sync» antaŭ ol akiri informojn pri uzado (ne funkcias ĉe Windows)
+df-error-cannot-access-over-mounted = ne povas atingi { $path }: jam muntita de alia aparato
