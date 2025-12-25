@@ -42,3 +42,8 @@ chcon-warning-circular-directory =
     La jena dosierujo estas parto de la ciklo { $file }.
 chcon-op-file-name-validation = Valideckontrolo de dosiernomo
 chcon-op-applying-partial-context = Aldonante partan sekurecan kuntekston al senetikeda dosiero
+chcon-help-dereference = Operacii la referencaton de iu simbola ligo (jen la aprioro), ne la simbolan ligon mem.
+chcon-help-no-dereference = Operacii la simbolan ligon men, ne la referencatan dosieron.
+chcon-help-follow-arg-dir-symlink = Se komandlinia argumento estas simbola ligo al dosierujo, sekvi ĝin. Nur validas, se -R estas specifita.
+chcon-help-follow-dir-symlinks = Sekvi simbolan ligon al dosierujo jam renkontita. Nur validas, se -R estas specifita.
+chcon-help-no-follow-symlinks = Ne sekvi ajnan simbolan ligon (implicite). Nur validas, se -R estas specifita.
