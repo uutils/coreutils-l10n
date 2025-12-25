@@ -18,3 +18,16 @@ join-help-i = kompari kampojn usklecoblinde
 join-help-e = anstataŭigi mankantajn enigajn kampojn per EMPTY
 join-help-o = obei FORMAT dum konstruado de eliga linio
 join-help-check-order = kontroli, ĉu la enigo estas ĝuste ordigita, eĉ se ĉiuj enigaj linioj estas parigeblaj
+join-error-invalid-file-number = nevalida dosiernumero en kampospecifilo: { $spec }
+join-error-incompatible-fields = nekongruaj kunligotaj kampoj { $field1 } { $field2 }
+join-error-unprintable-separators = nepreseblaj kampapartigiloj nur eblas ĉe Uniksecaj platformoj
+join-help-v = simila al -a FILENUM, sed ne eligante kunligitajn eligutajn liniojn
+join-about =
+    Por ĉiu paro de enigitaj linioj kun identaj kunligataj kampoj, skribi linion sur
+    la norman elfluon. La implicita kunligata kampo estas la unua, apartigita per spacetoj.
+
+    Se DOSIERO1 aŭ DOSIERO2 (sed ne ambaŭ) estas -, legas la norman enfluon.
+join-help-a =
+    ankaŭ montri malparajn liniojn en dosiero FILENUM, kiu estas
+    aŭ 1 aŭ 2, respondante al DOSIERO1 aŭ DOSIERO2
+join-help-header = rigardi la unuan linion en iu dosiero kiel ĉapo, montrante ĝin sen parigo
