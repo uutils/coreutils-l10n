@@ -14,3 +14,7 @@ mktemp-error-prefix-contains-separator = nevalida ŝablono { $template } enhavas
 mktemp-error-too-few-xs = tro malmulte da «X»-oj en ŝablono { $template }
 mktemp-help-dry-run = ne krei ion ajn; nur montri nomon (nesekure)
 mktemp-error-invalid-template = nevalida ŝablono { $template }; kun --tmpdir, ŝablono ne povas esti absoluta
+mktemp-error-persist-file = ne povas daŭre konservi dosieron { $path }
+mktemp-help-suffix = postmeti SUFFIX post ŜABLONO; SUFFIX devas ne enhavi dosiervojan apartigilon. Ĉi tiu opcio estas implicita, se ŜABLONO ne finiĝas per «X».
+mktemp-help-t = Generi dosiernoman ŝablonon kun la provizita prefikso kaj la media variablo TMPDIR (aŭ TMP ĉe Windows), se ĝi ekzistas [evitinde]
+mktemp-help-tmpdir = Interpreti ŜABLONOn relative al la dosierujo DIR; se DIR ne estas specifita, do uzi $TMPDIR ($TMP ĉe Windows), se ĝi ekzistas, aŭ alie /tmp. Kun ĉi tiu opcio, ŜABLONO devas ne esti absoluta nomo. Malkiel -t, ŜABLONO povas enhavi suprenstrekojn, sed mktemp kreas nur la lastan komponanton
