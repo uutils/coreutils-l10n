@@ -28,3 +28,23 @@ id-error-names-real-ids-require-flags = montrado de nur normoj aŭ realaj numero
 id-error-zero-not-permitted-default = opcio --zero ne eblas por la apriora formo
 id-error-cannot-print-context-with-user = ne povas montri sekurecan kuntekston ĉar uzanto estas specifita
 id-help-ignore = ignori, por kongrueco kun aliaj versioj
+id-help-password = Montri la numeron kiel eron de la pasvorta dosiero.
+id-help-groups =
+    Montri nur la diversajn grupnumerojn kiel spaceto-apartigitajn entjerojn,
+    en arbitra ordo.
+id-after-help =
+    La ilaĵo «id» montras la nomojn kaj numerojn de la uzanto kaj la grupo de la
+    alvokanta procezo sur la norman elfluon. Se la reala kaj efektiva numeroj
+    diferencas, ambaŭ montriĝas; alie, nur la reala numero montriĝas.
+
+    Se uzanto (salutnomo aŭ uzantonumero) estas specifita, montriĝas
+    la uzantonumero kaj grupnumero de tiu uzanto. Tiukaze, la ilaĵo supozas,
+    ke la reala numero egalas la efektivan numeron.
+id-help-name =
+    Montri la nomojn de la uzanto kaj grupo por la opcioj -G, -g, kaj -u,
+    anstataŭ la numeroj.
+    Se iu numero ne respondas al nomo,
+    la numero montriĝas.
+id-help-audit =
+    Montri la procezorevizian uzantonumeron kaj aliajn atributojn pri proceza reviziado,
+    kio postulas privilegion (tiu opcio ne estas disponebla ĉe Linux).
