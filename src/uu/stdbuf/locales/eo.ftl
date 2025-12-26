@@ -10,18 +10,18 @@ stdbuf-about =
     Devigaj argumentoj por longaj opcioj estas ankaŭ devigaj por mallongaj opcioj.
 stdbuf-value-mode = REĜIMO
 stdbuf-after-help =
-    Se REĜIMO estas «L», the corresponding stream will be line buffered.
-    This option is invalid with standard input.
+    Se REĜIMO estas «L», la respondanta fluo estos linie bufrigita.
+    Ĉi tiu opcio ne validas pri la norma enfluo.
 
-    Se REĜIMO estas «0», the corresponding stream will be unbuffered.
+    Se REĜIMO estas «0», la respondanta fluo ne estos bufrigita.
 
-    Alie, REĜIMO estas nombro, which may be followed by one of the following:
+    Alie, REĜIMO estas nombro, eble sekvita de unu el la jeno:
 
-    KB 1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.
-    In this case the corresponding stream will be fully buffered with the buffer size set to MODE bytes.
+    KB 1000, K 1024, MB 1000*1000, M 1024*1024, ktp. por G, T, P, E, Z, Y.
+    Tiukaze, la respondanta fluo estos plene bufrigita kun bufro, kies grando estas MODE bajtoj.
 
-    NOTU: Se KOMANDO adjusts the buffering of its standard streams (tee does for e.g.) then that will override corresponding settings changed by stdbuf.
-    Also some filters (like dd and cat etc.) don't use streams for I/O, and are thus unaffected by stdbuf settings.
+    NOTU: Se KOMANDO ŝanĝas la bufrigitecon de ĝiaj normaj fluoj (ekz. «tee» faras tion), do tio superregos la respondantajn agordojn ŝanĝitajn de stdbuf.
+    Ankaŭ kelkaj filtriloj (ekz. «dd» kaj «cat») ne uzas fluojn por eneligo kaj tial estas ŝanĝitaj de la agordoj de stdbuf.
 stdbuf-error-command-not-supported = Komando ne estas subtenata por ĉi tiu mastruma sistemo!
 stdbuf-help-input = modifi bufron de la norma enfluo
 stdbuf-help-output = modifi bufron de la norma elfluo
