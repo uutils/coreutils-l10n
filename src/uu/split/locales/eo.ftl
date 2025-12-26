@@ -53,3 +53,6 @@ split-help-suffix-length = generi sufiksojn de longo N (implicite 2)
 split-help-verbose = montri diagnozaĵon ĵus antaŭ ol iu eligota dosiero malfermiĝas
 split-help-filter = skribi al ŝela komando COMMAND; la dosiernomo estas $FILE (Ankoraŭ ne realigita ĉe Windows)
 split-error-output-file-suffixes-exhausted = foruziĝis sufiksoj de eligitaj dosieroj
+split-error-numerical-suffix-start-too-large = numera sufiksa komenca valoro estas tro granda por la longo de la sufikso
+split-error-file-descriptor-limit = foruzis dosiernumerojn, sed neniu dosiernumero estas fermebla. Fermis { $count } dosiernumerojn antaŭe.
+split-error-filter-with-kth-chunk = --filter ne traktas parton eligitan al la norma elfluo
