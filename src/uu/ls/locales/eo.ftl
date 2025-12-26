@@ -22,17 +22,17 @@ ls-help-context = montri ajnan sekurecan kuntekston de ĉiu dosiero
 ls-help-print-inode = montri la indeksan numeron de ĉiu dosiero
 ls-help-file-type = Sama kiel --classify, sed sen postmetado de «*»
 ls-help-classify =
-    Append a character to each file name indicating the file type. Also, for
-    regular files that are executable, postmeti «*». La dosiertipaj indikiloj estas
+    Postmeti signon post dosiernomo indikante la dosiertipon. Ankaŭ por
+    rulebla ordinara dosiero, postmeti «*». La dosiertipaj indikiloj estas
     «/» por dosierujo, «@» por simbola ligo, «|» for nomhava dukto, «=» por konektinterfacoj,
     «>» por pordoj, kaj nenio por ordinaraj dosieroj. WHEN may be omitted, or one of:
         none - Ne klasifiki. Tio estas apriora.
         auto - Nur klasifiki, se la norma elfluo estas terminalo.
         always - Ĉiam klasifiki.
-    Specifying --classify and no when is equivalent to --classify=always. This will
-    not follow symbolic links listed on the command line unless the
-    --dereference-command-line (-H), --dereference (-L), or
-    --dereference-command-line-symlink-to-dir options are specified.
+    La opcio --classify sen WHEN ekvivalentas --classify=always. Simbola ligo
+    en la komandlinio ne estos sekvita, krom se unu el la jenaj opcioj estas
+    ankaŭ specifita: --dereference-command-line (-H), --dereference (-L),
+    --dereference-command-line-symlink-to-dir.
 ls-error-invalid-time-style =
     nevalida argumento { $style } por --time-style
     Jen validaj valoroj:
@@ -108,3 +108,32 @@ ls-help-author =
 ls-help-assume-tab-stops = Supozi, ke tabeligaj pozicioj estas apartigitaj je COLS signoj anstataŭ 8
 ls-help-hyperlink-filenames = ĉu hiperligigi dosiernomojn
 ls-help-block-size = dividi grandojn per BLOCK_SIZE antaŭ montrado
+ls-help-ignore-pattern = ne montri implicitajn erojn kongruajn kun ŝelpatroneo PATTERN
+ls-help-hide-pattern = ne montri implicitajn erojn kongruajn kun ŝelpatroneo PATTERN (superregeble per -a aŭ -A)
+ls-help-allocation-size = montri la nombron de asignitaj blokoj por dosiero
+ls-help-dereference-dir-args =
+    Ne sekvi simbolajn ligojn, krom tiuj, kiuj referencas dosierujojn kaj
+    estas donitaj kiel komandliniaj argumentoj.
+ls-help-dereference-all =
+    Montri informojn pri la referencato de iu simbola ligo, ne pri la simbola ligo
+    mem.
+ls-help-indicator-style =
+    Montri sufikson de stilo WORD post nomoj de eroj:
+    «none» (nenio, apriore), «slash» (sama kiel -p), «file-type» (sama kiel --file-type), «classify» (sama kiel -F)
+ls-help-group-directories-first =
+    grupigi dosierujojn antaŭ dosieroj; tiu opcio povas esti kombinita
+    kun --sort, sed ajna uzo de --sort=none (-U) malŝaltas grupigon
+ls-help-kibibytes =
+    uzi 1024-bajtajn blokojn pri uzado de dosiersistemo; uzata nur kun -s kaj
+    pri dosierujaj totaloj
+ls-after-help = La argumento TIME_STYLE povas esti «full-iso», «long-iso», «iso», «locale», aŭ +ARANĜO, en kiu ARANĜO interpretiĝas kiel en «date». Ankaŭ, la media variablo TIME_STYLE agordas la aprioran aranĝon.
+ls-help-time-change =
+    Se la longa formo (ekz. -l, -o) estas uzata, montri la tempon de
+    statoŝanĝo (la «ctime» en la indeksnodo) anstataŭ la tempon de modifo.
+    Se la ordo estas eksplicita laŭ tempo (--sort=time aŭ -t), aŭ se la longa
+    formo ne estas uzata, ordigi laŭ la tempon de statoŝanĝo.
+ls-help-time-access =
+    Se la longa formo (ekz. -l, -o) estas uzata, montri la tempon de
+    statatingo anstataŭ la tempon de modifo. Se la ordo estas eksplicita
+    laŭ tempo (--sort=time aŭ -t), aŭ se la longa formo ne estas uzata,
+    ordigi laŭ la tempon de statatingo.
