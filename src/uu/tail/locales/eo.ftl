@@ -48,3 +48,16 @@ tail-error-bad-argument-encoding = malĝusta kodado de argnumento: «{ $arg }»
 tail-warning-retry-ignored = --retry ignoriĝis; --retry nur utilas por sekvado
 tail-warning-pid-ignored = procezonumero ignoriĝis; --pid= nur utilas por sekvado
 tail-status-directory-containing-watched-file-removed = dosierujo enhavinta atentitan dosieron forviŝiĝis
+tail-help-verbose = Ĉiam montri ĉapojn pri dosiernomoj
+tail-help-quiet = Neniam montri ĉapojn pri dosiernomoj
+tail-error-invalid-max-unchanged-stats = nevalida maksimuma nombro de neŝanĝitaj statistikoj inter malfermoj: { $value }
+tail-status-replaced-with-untailable-file = { $file } anstataŭiĝis per dosiero ne subtenata de «tail»
+tail-status-replaced-with-untailable-file-giving-up = { $file } anstataŭiĝis per dosiero ne subtenata de «tail»; preterlasante ĉi tiun nomon
+tail-help-pid = Kun -f, ĉesi post la morto de tiu procezo, kies numero estas PID
+tail-about =
+    Montri la lastajn 10 liniojn de la DOSIEROj sur la norman elfluon.
+    Kun pluraj DOSIEROj, antaŭ iu deko da linioj, montri ĉapon pri la dosiernomo.
+    Sen DOSIERO, aŭ se DOSIERO estas -, legi la norman enfluon.
+    Devigaj argumentoj al longaj flagoj estas ankaŭ devigaj por mallongaj flagoj.
+tail-help-max-unchanged-stats = Remalfermi DOSIEROn, kies grando ne ŝanĝiĝis post N (apriore 5) fojoj, kontrolante, ĉu ĝi estis forigita aŭ ĝia nomo ŝanĝiĝis (kiel, ekzemple, malnova protokoldosiero); ĉi tiu opcio nur utilas, kiam oni uzas «poll» (t.e. kun --use-polling) kaj --follow=name
+tail-help-sleep-interval = Nombro de sekundoj inter alvokoj de «poll» kun la opcio -f
