@@ -6,7 +6,7 @@ numfmt-error-missing-i-suffix = mankas sufikso «i» en enigo: «{ $number }{ $s
 numfmt-after-help =
     opcioj pri UNIT:
 
-    - none: no auto-scaling is done; suffixes will trigger an error
+    - none: neniu aŭtomata uzado de skalo; sufikso kaŭzos eraron
     - auto: akcepti nedevigan unu- aŭ duliteran sufikson:
 
         1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
@@ -23,21 +23,21 @@ numfmt-after-help =
 
         1Ki = 1024, 1Mi = 1048576, ...
 
-    - FIELDS subtenas cut(1) style field ranges:
+    - FIELDS subtenas intervalon de kampoj laŭ «cut(1)» jene:
 
-        N N-a kampo, kalkulita ekde 1
-        N- from N'th field, ĝis la fino de la linio
-        N-M ekde la N-a ĝis la M-a kampoj (inkluzive)
-        -M from first to M'th field (inclusive)
+        N la N-a kampo, kalkulita ekde 1
+        N- de la N-a kampo ĝis la fino de la linio
+        N-M de la N-a kampo ĝis la M-a kampo (inkluzive)
+        -M de la unua kampo ĝis la M-a kampo (inkluzive)
         - ĉiuj kampoj
 
-    Multiple fields/ranges can be separated with commas
+    Pluraj kampoj/intervaloj estas apartigitaj per komoj.
 
-    FORMAT must be suitable for printing one floating-point argument %f.
-    Optional quote (%'f) will enable --grouping (if supported by current locale).
-    Optional width value (%10f) will pad output. Optional zero (%010f) width
-    will zero pad the number. Optional negative values (%-10f) will left align.
-    Optional precision (%.1f) will override the input determined precision.
+    FORMAT devas esti taŭga por montri unu glitkoman argumenton %f.
+    Se ĝi enhavas apostrofon (%'f), tio ŝaltas --grouping (se la aktuala lokaĵaro subtenas tion).
+    Se larĝo estas donita (%10f), spacetoj ŝtopas la eligaĵon. Se la larĝo estas antaŭita de nulo (%010f),
+    nuloj ŝtopas la eligaĵon. Se la larĝo estas negativa (%-10f), tio maldekstrarandigos la eligaĵon.
+    Se precizo estas donita (%.1f), tio superregas la precizon determinitan de la enigo.
 numfmt-help-delimiter = uzi X anstataŭ blanka spaco por kamp-apartigilo
 numfmt-about = Konverti nombrojn el/al home legebla formo
 numfmt-help-zero-terminated = liniapartigilo estas nulbajto, ne linifino
