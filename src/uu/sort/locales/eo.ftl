@@ -51,13 +51,13 @@ sort-help-version-sort = Ordigi laŭ versia numero de Semantika Versiado, ekz. 1
 sort-after-help =
     La aranĝo de la ŝlosilo estas KAMPO[.SIGNO][OPCIOJ][,KAMPO[.SIGNO]][OPCIOJ].
 
-    Fields by default are separated by the first whitespace after a non-whitespace character. Use -t to specify a custom separator.
-    In the default case, whitespace is appended at the beginning of each field. Custom separators however are not included in fields.
+    Implicite, kampoj estas apartigitaj per la unua blanka spaco post neblankspaca signo. Uzu -t por specifi alian propran apartigilon.
+    Implicite, blanka spaco inkluziviĝas antaŭ la komenco de ĉiu kampo. Tamen, propra apartigilo ne inkluziviĝas en kampo.
 
-    KAMPO kaj SIGNO both start at 1 (i.e. they are 1-indexed). If there is no end specified after a comma, the end will be the end of the line.
-    If SIGNO is set 0, it means the end of the field. SIGNO defaults to 1 for the start position and to 0 for the end position.
+    Kaj KAMPO kaj SIGNO komenciĝas ĉe 1 (alivorte, estas 1-indicitaj). Se la fino ne estas specifita post komo, la fino estas la fino de la linio.
+    Se SIGNO estas 0, tio signifas la finon de la kampo. Apriore SIGNO estas 1 pri la komenca pozicio kaj 0 pri la fina pozicio.
 
-    Jen la validaj opcioj: MbdfhnRrV. They override the global options for this key.
+    Jen la validaj opcioj: MbdfhnRrV. Tiuj superregas la mallokajn opciojn pri iu ŝlosilo.
 sort-error-buffer-size-too-big = Bufra grando { $size } estas tro granda por la adresospaco
 sort-help-check = kontroli ordon; ne ordigi
 sort-help-tmp-dir = uzi DIR por provizoraĵojn, ne $TMPDIR nek /tmp
