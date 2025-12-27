@@ -80,14 +80,14 @@ cp-error-option-not-implemented = Opcio «{ $option }» ankoraŭ ne estas realig
 cp-error-reflink-always-sparse-auto = `--reflink=always` postulas `--sparse=auto`
 cp-after-help =
     Ne kopii nedosierujon, kiu havas ekzistantan celon kun la sama aŭ pli nova modifotempo; anstataŭe,
-    silente preterpasi la dosieron sen malsukceso. If timestamps are being preserved, the comparison is to the
-    source timestamp truncated to the resolutions of the destination file system and of the system calls used to
-    update timestamps; this avoids duplicate work if several cp -pu commands are executed with the same source
-    and destination. This option is ignored if the -n or --no-clobber option is also specified. Also, if
-    --preserve=links is also specified (like with cp -au for example), that will take precedence; consequently,
-    depending on the order that files are processed from the source, newer files in the destination may be replaced,
-    to mirror hard links in the source, which gives more control over which existing files in the destination are
-    replaced, kaj ĝia valoro estas unu el la jeno:
+    silente preterpasi la dosieron sen malsukceso. Se tempoj konserviĝas, la komparo estas inter la fonta tempo
+    trunkita al la precizo de la cela dosiersistemo kaj de la sistemalvokoj pri modifado de tempoj.
+    Tio evitas nenecesan laboron, se ruliĝas pluraj komandoj «cp -pu» kun la sama fonto kaj celo.
+    Ĉi tiu opcio ignoriĝas, se la opcio -n aŭ --no-clobber estas ankaŭ specifita. Ankaŭ, se
+    --preserve=links estas ankaŭ specifita (ekz. en cp -au), tio superregas; tial, depende de la ordo,
+    laŭ kio dosieroj traktiĝas en la fonto, pli nova dosiero en la celo povas esti anstataŭigita por speguli
+    nesimbolan ligon en la fonto. Tio pliigas regadon pri anstataŭigotaj dosieroj en la celo.
+    Ĝia valoro estas unu el la jeno:
 
     - all Jen la implicita operacio, se la opcio --update mankas. Tio anstataŭigas ĉiujn ekzistantajn dosierojn en la celo.
     - none Tio similas al la opcio --no-clobber, ĉar neniu dosiero en la celo anstataŭiĝas; tamen, preterpasado de dosiero ne kaŭzas malsukceson.
