@@ -105,3 +105,4 @@ cp-error-backing-up-destroy-source = fazer back up de { $dest } pode destruir fo
 cp-error-not-writing-dangling-symlink = não escrever através da ligação simbólica pendente { $dest }
 cp-verbose-removed = removido { $path }
 cp-help-preserve-default = igual a --preserve=mode,ownership(somente unix),timestamps
+cp-debug-copy-offload = descarregamento de cópias: { $offload }, reflink: { $reflink }, deteção de esparsas: { $sparse }
