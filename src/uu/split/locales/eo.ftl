@@ -3,7 +3,7 @@ split-error-invalid-number-of-lines = nevalida nombro de linioj: { $error }
 split-error-invalid-number-of-bytes = nevalida nombro de bajtoj: { $error }
 split-usage = split [OPCIO]... [ENIGO [PREFIKSO]]
 split-after-help =
-    Output fixed-size pieces of INPUT to PREFIXaa, PREFIXab, ...; default size is 1000, and default PREFIX is 'x'. With no INPUT, or when INPUT is -, read standard input.
+    Eligi partojn de fiksita grando en ENIGO al PREFIKSOaa, PREFIKSOab, ...; la implicita grando estas 1000, kaj la implicita PREFIKSO estas «x». Sen ENIGO, aŭ se ENIGO estas -, legas la norman enfluon.
 
     La argumento SIZE estas entjero eble kun oblo (ekzemple: 10K estas 10*1024).
     Obloj estas K,M,G,T,P,E,Z,Y,R,Q (potencoj de 1024) aŭ KB,MB,... (potencoj de 1000).
@@ -11,12 +11,12 @@ split-after-help =
 
     CHUNKS povas esti unu el la jeno:
 
-    - N split into N files based on size of input
-    - K/N output Kth of N to stdout
-    - l/N split into N files without splitting lines/records
-    - l/K/N output Kth of N to stdout without splitting lines/records
-    - r/N like 'l' but use round robin distribution
-    - r/K/N likewise but only output Kth of N to stdout
+    - N dispartigi en N dosierojn laŭ la grando de la enigaĵo
+    - K/N eligi la K-an el N al la norma elfluo
+    - l/N dispartigi en N dosierojn, sen disdividado de linio/rikordo
+    - l/K/N eligi la K-an el N al la norma elfluo, sen dividado de linio/rikordo
+    - r/N similas «l» sed uzante distribuadon «round robin»
+    - r/K/N simile, sed nur eligi la K-an al la norma elfluo
 split-error-suffix-not-parsable = nevalida longo de sufikso: { $value }
 split-error-cannot-open-for-reading = ne povas malfermi { $file } por legado
 split-error-invalid-io-block-size = nevalida grando de eneliga bloko: { $size }
