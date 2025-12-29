@@ -39,52 +39,52 @@ stat-error-cannot-read-filesystem-info = ne povas legi dosiersistemajn informojn
 stat-after-help =
     Validaj aranĝoj por dosieroj (sen «--file-system»):
 
-    -«%a»: access rights in octal (note '#' and '0' printf flags)
-    -«%A»: access rights in human readable form
-    -«%b»: number of blocks allocated (see %B)
-    -«%B»: the size in bytes of each block reported by %b
-    -«%C»: SELinux security context string
-    -«%d»: device number in decimal
-    -«%D»: device number in hex
-    -«%f»: raw mode in hex
+    -«%a»: atingorajtoj okumaj (notu la printf-flagoj «#» kaj «0»)
+    -«%A»: atingorajtoj en home legebla formo
+    -«%b»: nombro de asignitaj blokoj (vidu %B)
+    -«%B»: nombro de bajtoj en iu bloko raportita de %b
+    -«%C»: sekureca kunteksto de SELinux
+    -«%d»: aparatnombro dekuma
+    -«%D»: aparatnombro deksesuma
+    -«%f»: kruda reĝimo deksesuma
     -«%F»: dosiertipo
     -«%g»: grupnumero de posedanto
     -«%G»: grupnomo de posedanto
-    -«%h»: number of hard links
+    -«%h»: nombro de nesimbolaj ligoj
     -«%i»: dosiernumero
-    -«%m»: mount point
+    -«%m»: muntejo
     -«%n»: dosiernomo
     -«%N»: quoted file name with dereference (follow) if symbolic link
     -«%o»: optimal I/O transfer size hint
-    -«%s»: total size, in bytes
-    -«%t»: major device type in hex, for character/block device special files
-    -«%T»: minor device type in hex, for character/block device special files
+    -«%s»: totala grando en bajtoj
+    -«%t»: maĵora aparatotipo deksesuma por speciala dosiero de skribsigna aŭ bloka aparato
+    -«%T»: minora aparatotipo deksesuma por speciala dosiero de skribsigna aŭ bloka aparato
     -«%u»: uzantonumero de posedanto
     -«%U»: salutnomo de posedanto
-    -«%w»: time of file birth, human-readable; - if unknown
-    -«%W»: time of file birth, seconds since Epoch; 0 if unknown
-    -«%x»: time of last access, human-readable
-    -«%X»: time of last access, seconds since Epoch
-    -«%y»: time of last data modification, human-readable
+    -«%w»: tempo de kreo de dosiero en home legebla formo; - se nekonata
+    -«%W»: tempo de kreo de dosiero kiel sekundoj post Uniksepoko; 0 if unknown
+    -«%x»: tempo de lasta atingo en home legebla formo
+    -«%X»: tempo de lasta atingo kiel sekundoj post Uniksepoko
+    -«%y»: tempo de lasta datenmodifo en home legebla formo
+    -«%Y»: tempo de lasta datenmodifo kiel sekundoj post Uniksepoko
+    -«%z»: tempo de lasta statoŝanĝo en home legebla formo
+    -«%Z»: tempo de lasta statoŝanĝo kiel sekundoj post Uniksepoko
 
-    -«%Y»: time of last data modification, seconds since Epoch
-    -«%z»: time of last status change, human-readable
-    -«%Z»: time of last status change, seconds since Epoch
+    
+    Jen validaj aranĝoj por dosiersistemoj:
 
-    Valid format sequences for file systems:
-
-    -«%a»: free blocks available to non-superuser
-    -«%b»: total data blocks in file system
-    -«%c»: total file nodes in file system
-    -«%d»: free file nodes in file system
-    -«%f»: free blocks in file system
-    -«%i»: file system ID in hex
-    -«%l»: maximum length of filenames
+    -«%a»: nombro de liberaj blokoj uzeblaj de neĉefuzanto
+    -«%b»: nombro de datenblokoj en dosiersistemo
+    -«%c»: nombro de dosiernodoj en dosiersistemo
+    -«%d»: nombro de liberaj dosiernodoj en dosiersistemo
+    -«%f»: nombro de liberaj blokoj en dosiersistemo
+    -«%i»: dosiersistema numero deksesuma
+    -«%l»: maksimuma longo de dosiernomo
     -«%n»: dosiernomo
-    -«%s»: block size (for faster transfers)
-    -«%S»: fundamental block size (for block counts)
-    -«%t»: file system type in hex
-    -«%T»: file system type in human readable form
+    -«%s»: grando de bloko (por pli rapida sendado)
+    -«%S»: fundamenta grando de bloko (por kalkulado de blokoj)
+    -«%t»: dosiersistemtipo deksesuma
+    -«%T»: dosiersistemtipo en home legebla formo
 
     NOTU: via ŝelo povas havi sian propran version de stat, kiu ordinare anstataŭigas
     la version priskribitan ĉi tie. Bonvolu legi la dokumentaron de via ŝelo por detaloj
