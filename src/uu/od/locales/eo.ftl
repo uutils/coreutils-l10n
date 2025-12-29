@@ -52,40 +52,40 @@ od-help-width =
 od-help-skip-bytes = Preterlasi BYTES bajtojn de la enigaĵo antaŭ ol aranĝi kaj skribi.
 od-error-skip-past-end = Provis preterpasi post fino de la enigaĵo
 od-after-help =
-    Montri datenojn en diversaj home legeblaj formoj. If multiple formats are
-    specified, the output will contain all formats in the order they appear on the
-    command line. Each format will be printed on a new line. Only the line
-    containing the first format will be prefixed with the offset.
+    Montri datenojn en diversaj home legeblaj formoj. Se pluraj aranĝoj estas specifitaj,
+    la eligaĵo enhavos ĉiujn aranĝojn laŭ la ordo donita en la komandlinio. Ĉiu aranĝo
+    montriĝas en sia propra linio. Nur la linio por la unua aranĝo enhavos la deŝovon
+    prefikse.
 
-    If no filename is specified, or it is "-", stdin will be used. After a "--", no
-    more options will be recognized. This allows for filenames starting with a "-".
+    Se dosiernomo mankas aŭ estas «-», la komando uzos la norman enfluon. Post «--»,
+    opcioj ne plu rekoniĝas, ebligante la uzon de dosiernomoj komenciĝantaj per «-».
 
-    If a filename is a valid number which can be used as an offset in the second
-    form, you can force it to be recognized as a filename if you include an option
-    like "-j0", which is only valid in the first form.
+    Se dosiero estas valida nombro uzebla kiel deŝovo en la dua formo de la komando,
+    vi povas devigi la komandon interpreti ĝin kiel dosiernomon inkluzivante opcion
+    kiel «-j0», kiu nur validas por la unua formo de la komando.
 
     RADIX estas unu el «o», «d», «x», «n», signifante okuman, dekuman, deksesuman, aŭ nenian.
 
-    BYTES is decimal by default, octal if prefixed with a "0", or hexadecimal if
-    prefixed with "0x". The suffixes b, KB, K, MB, M, GB, G, will multiply the
-    number with 512, 1000, 1024, 1000^2, 1024^2, 1000^3, 1024^3, 1000^2, 1024^2.
+    BYTES estas implicite dekuma, sed estas okuma kun la prefikso «0» kaj deksesuma
+    kun la prefikso «0x». La sufiksoj b, KB, K, MB, M, GB, G obligas la nombron
+    per 512, 1000, 1024, 1000², 1024², 1000³, 1024³ respektive.
 
-    OFFSET and LABEL are octal by default, hexadecimal if prefixed with "0x" or
-    decimal if a "." suffix is added. The "b" suffix will multiply with 512.
+    OFFSET kaj LABEL estas implicite okumaj, sed estas deksesumaj kun la prefikso «0x» aŭ
+    dekuma kun la sufikso «.». La sufikso «b» 512-obligas la nombron.
 
-    TYPE contains one or more format specifications consisting of:
-        a for printable 7-bits ASCII
-        c for utf-8 characters or octal for undefined characters
-        d[SIZE] for signed decimal
-        f[SIZE] for floating point
-        o[SIZE] for octal
-        u[SIZE] for unsigned decimal
-        x[SIZE] for hexadecimal
-    SIZE is the number of bytes which can be the number 1, 2, 4, 8 or 16,
-        or C, S, I, L for 1, 2, 4, 8 bytes for integer types,
-        or F, D, L for 4, 8, 16 bytes for floating point.
-    Any type specification can have a "z" suffix, which will add a ASCII dump at
-        the end of the line.
+    TYPE enhavas unu aŭ pluraj aranĝospecifo(j) konsistanta el:
+        a por presebla 7-bita Askio
+        c por UTF-8-skribsignoj aŭ okuma por nedifinitaj signoj
+        d[GRANDO] por signumhava dekuma
+        f[GRANDO] por glitkoma
+        o[GRANDO] por okuma
+        u[GRANDO] for sensignuma dekuma
+        x[GRANDO] por deksesuma
+    GRANDO estas la nombro de bajtoj; ĝi estas unu el la nombroj 1, 2, 4, 8 aŭ 16,
+        aŭ C, S, I, L por 1, 2, 4, 8 bajtoj respektive por entjeraj tipoj,
+        aŭ F, D, L por 4, 8, 16 bajtoj respektive por glitkomaj tipoj.
+    Ajna tipospecifo povas havi sufikson «z», kio aldonas Askian ŝutaĵon
+        ĉe la fino de la linio.
 
     Se okazos eraro, montros diagnozaĵon sur la norman erarfluon, kaj la elirstato
     estos nenula.
