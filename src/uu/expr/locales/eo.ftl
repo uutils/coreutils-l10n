@@ -16,14 +16,12 @@ expr-error-invalid-bracket-content = Nevalida enhavo de { "\\{\\}" }
 expr-error-unexpected-argument = sintaksa eraro: neatendita argumento { $arg }
 expr-about = Montri la valoron de ESPRIMO sur norman elfluon
 expr-after-help =
-    Montri la valoron de ESPRIMO sur norman elfluon. Ĉi-sube, malplena linio
-    apartigas prioritatogrupojn en pligraviĝa ordo.
-
+    Montri la valoron de ESPRIMO sur norman elfluon. Ĉi-sube, malplena linio apartigas prioritatogrupojn en pligraviĝa ordo.
     ESPRIMO povas esti unu el la jeno:
 
-    - ARGUMENTO1 | ARGUMENTO2: ARGUMENTO1 if it is neither null nor 0, alie ARGUMENTO2
+    - ARGUMENTO1 | ARGUMENTO2: ARGUMENTO1 se ĝi estas ne nula nek 0, alie ARGUMENTO2
 
-    - ARGUMENTO1 & ARGUMENTO2: ARGUMENTO1 if neither argument is null or 0, alie 0
+    - ARGUMENTO1 & ARGUMENTO2: ARGUMENTO1 se neniu argumento estas nula aŭ 0, alie 0
 
     - ARGUMENTO1 < ARGUMENTO2: ARGUMENTO1 estas malpli granda ol ARGUMENTO2
     - ARGUMENTO1 <= ARGUMENTO2: ARGUMENTO1 ne estas pli granda ol ARGUMENTO2
@@ -36,33 +34,30 @@ expr-after-help =
     - ARGUMENTO1 - ARGUMENTO2: aritmetika diferenco inter ARGUMENTO1 kaj ARGUMENTO2
 
     - ARGUMENTO1 * ARGUMENTO2: aritmetika produto de ARGUMENTO1 kaj ARGUMENTO2
-    - ARGUMENTO1 / ARGUMENTO2: aritmetika quotient of ARGUMENTO1 divided by ARGUMENTO2
-    - ARGUMENTO1 % ARGUMENTO2: aritmetika remainder of ARGUMENTO1 divided by ARGUMENTO2
+    - ARGUMENTO1 / ARGUMENTO2: aritmetika rilatumo de ARGUMENTO1 dividita per ARGUMENTO2
+    - ARGUMENTO1 % ARGUMENTO2: aritmetika resto de divido de ARGUMENTO1 per ARGUMENTO2
 
-    - TEKSTO : REGULAESPRIMO: anchored pattern match of REGULAESPRIMO in TEKSTO
+    - TEKSTO : REGULAESPRIMO: kongruaĵo kun ankroj de REGULAESPRIMO en TEKSTO
     - match TEKSTO REGULAESPRIMO: sama kiel TEKSTO : REGULAESPRIMO
-    - substr TEKSTO POZICIO LONGO: substring of TEKSTO, POZICIO counted from 1
-    - index TEKSTO SIGNOJ: indico en TEKSTO where any SIGNOJ is found, or 0
-    - length STRING: longo de STRING
+    - substr TEKSTO POZICIO LONGO: subsignoĉeno de  TEKSTO ekde POZICIO (kalkulita ekde 1)
+    - index TEKSTO SIGNOJ: la indico en TEKSTO, kie troviĝas SIGNOJn, aŭ 0 se SIGNOJ ne troviĝas
+    - length STRING: la longo de STRING
     - + ĴETONO: interpreti ĴETONOn kiel tekston, eĉ se ĝi estas ŝlovilvorto kiel «match»
       aŭ operatoro kiel «/»
     - ( ESPRIMO ): valoro de ESPRIMO
 
-    Beware that many operators need to be escaped or quoted for shells.
-    Comparisons are arithmetic if both ARGs are numbers, else lexicographical.
-    Pattern matches return the string matched between \( and \) or null; if
-    \( and \) are not used, they return the number of characters matched or 0.
+    Atentu, ke multaj operatoroj bezonas eskapadon aŭ citadon en ŝelo. Komparo estas aritmetika, se ambaŭ
+    ARGUMENTOj estas nombroj, kaj leksikografia, se ne. Kongruaĵo de regula esprimo liveras la kongruan
+    signoĉenon inter \( kaj \) aŭ nulon; se \( kaj \) ne uziĝas, ĝi liveras la nombron de kongruaj skribsignoj aŭ 0.
 
-    Exit status is 0 if ESPRIMO is neither null nor 0, 1 if ESPRIMO
-    is null or 0, 2 if ESPRIMO is syntactically invalid, and 3 if an
-    error occurred.
+    La elirstato estas 0, se ESPRIMO estas ne nula nek 0; 1, se ESPRIMO
+    esats nula aŭ 0; 2, se ESPRIMO sintakse ne validas; 3, se okazis eraro.
 
     Mediaj variabloj:
-
-    - EXPR_DEBUG_TOKENS=1: dump expression's tokens
-    - EXPR_DEBUG_RPN=1: dump expression represented in reverse polish notation
-    - EXPR_DEBUG_SYA_STEP=1: dump each parser step
-    - EXPR_DEBUG_AST=1: dump expression represented abstract syntax tree
+    - EXPR_DEBUG_TOKENS=1: ŝuti la ĵetonojn de la esprimo
+    - EXPR_DEBUG_RPN=1: ĵuti la esprimon en malpola notacio
+    - EXPR_DEBUG_SYA_STEP=1: ŝuti la paŝojn de la sintaksanalizilo
+    - EXPR_DEBUG_AST=1: ŝuti la esprimon kiel abstraktan sintaksarbon
 expr-error-non-integer-argument = neentjera argumento
 expr-error-missing-argument = sintaksa eraro: argumento mankas post { $arg }
 expr-help-version = montri versiajn informojn kaj ĉesi
