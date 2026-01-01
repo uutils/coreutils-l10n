@@ -7,22 +7,22 @@ test-usage =
 test-after-help =
     Halti kun elirstato determinita de ESPRIMO.
 
-    An omitted ESPRIMO defaults to false.
-    Otherwise, ESPRIMO is true or false and sets exit status.
+    Se ESPRIMO mankas, do ĝi estas implicite vera.
+    Alie, ESPRIMO estas aŭ vera aŭ malvera kaj determinas la elirstaton.
 
     Ĝi estas unu el la jeno:
 
     - ( ESPRIMO ) ESPRIMO estas vera
     - ! ESPRIMO ESPRIMO estas malvera
-    - ESPRIMO1 -a ESPRIMO2 both ESPRIMO1 and ESPRIMO2 are true
-    - ESPRIMO1 -o ESPRIMO2 either ESPRIMO1 or ESPRIMO2 is true
+    - ESPRIMO1 -a ESPRIMO2 kaj ESPRIMO1 kaj ESPRIMO2 estas veraj
+    - ESPRIMO1 -o ESPRIMO2 aŭ ESPRIMO1 aŭ ESPRIMO2 estas vera
 
     Tekstaj operacioj:
     - -n TEKSTO la longo de TEKSTO ne estas 0
     - TEKSTO ekvivalenta al -n TEKSTO
     - -z TEKSTO la longo de TEKSTO estas 0
-    - TEKSTO1 = TEKSTO2 the strings are equal
-    - TEKSTO1 != TEKSTO2 the strings are not equal
+    - TEKSTO1 = TEKSTO2 la signoĉenoj estas egalaj
+    - TEKSTO1 != TEKSTO2 la signoĉenoj ne estas egalaj
 
     Entjeraj komparoj:
     - ENTJERO1 -eq ENTJERO2 ENTJERO1 egalas ENTJEROn2
@@ -33,39 +33,39 @@ test-after-help =
     - ENTJERO1 -ne ENTJERO2 ENTJERO1 ne egalas ENTJEROn2
 
     Dosieraj operacioj:
-    - DOSIERO1 -ef DOSIERO2 DOSIERO1 and DOSIERO2 have the same device and inode numbers
+    - DOSIERO1 -ef DOSIERO2 DOSIERO1 kaj DOSIERO2 havas la saman aparatnumeron kaj indicnodnumeron
     - DOSIERO1 -nt DOSIERO2 DOSIERO1 estas pli nova (laŭ dato de modifo) ol DOSIERO2
     - DOSIERO1 -ot DOSIERO2 DOSIERO1 estas malpli nova ol DOSIERO2
 
     - -b DOSIERO DOSIERO ekzistas kaj estas blok-speciala
-    - -c DOSIERO DOSIERO exists and is character special
+    - -c DOSIERO DOSIERO ekzistas kaj estas skribsigno-speciala
     - -d DOSIERO DOSIERO ekzistas kaj estas dosierujo
     - -e DOSIERO DOSIERO ekzistas
     - -f DOSIERO DOSIERO ekzistas kaj estas ordinara dosiero
     - -g DOSIERO DOSIERO ekzistas kaj estas set-group-ID
-    - -G DOSIERO DOSIERO exists and is owned by the effective group ID
+    - -G DOSIERO DOSIERO ekzistas kaj estas posedata de la efektiva grupnumero
     - -h DOSIERO DOSIERO ekzistas kaj estas simbola ligo (sama kiel -L)
-    - -k DOSIERO DOSIERO exists and has its sticky bit set
+    - -k DOSIERO DOSIERO ekzistas, kaj ĝia gluecobito estas ŝaltita
     - -L DOSIERO DOSIERO ekzistas kaj estas simbola ligo (sama kiel -h)
-    - -N DOSIERO DOSIERO exists and has been modified since it was last read
-    - -O DOSIERO DOSIERO exists and is owned by the effective user ID
-    - -p DOSIERO DOSIERO exists and is a named pipe
-    - -r DOSIERO DOSIERO exists and read permission is granted
-    - -s DOSIERO DOSIERO exists and has a size greater than zero
-    - -S DOSIERO DOSIERO exists and is a socket
-    - -t FD file descriptor FD is opened on a terminal
-    - -u DOSIERO DOSIERO exists and its set-user-ID bit is set
-    - -w DOSIERO DOSIERO exists and write permission is granted
-    - -x DOSIERO DOSIERO exists and execute (or search) permission is granted
+    - -N DOSIERO DOSIERO ekzistas kaj estis modifita post la lasta lego
+    - -O DOSIERO DOSIERO ekzistas kaj estas posedata de la efektiva uzantonumero
+    - -p DOSIERO DOSIERO ekzistas kaj estas nomhava dukto
+    - -r DOSIERO DOSIERO ekzistas, kaj ekzistas permeso legi ĝin
+    - -s DOSIERO DOSIERO ekzistas kaj ne estas malplena
+    - -S DOSIERO DOSIERO ekzistas kaj estas konektinterfaco
+    - -t FD la dosiernumero FD estas malfermita ĉe terminalo
+    - -u DOSIERO DOSIERO ekzistas, kaj la bito set-user-ID estas ŝaltita
+    - -w DOSIERO DOSIERO ekzistas, kaj ekzistas permeso skribi sur ĝin
+    - -x DOSIERO DOSIERO ekzistas, kaj ekzistas permeso ruli ĝin
 
-    Except for -h and -L, all FILE-related tests dereference (follow) symbolic links.
-    Beware that parentheses need to be escaped (e.g., by backslashes) for shells.
-    INTEGER may also be -l STRING, which evaluates to the length of STRING.
+    Krom -h kaj -L, ĉiuj DOSIERO-rilataj testoj sekvas simbolajn ligojn.
+    Atentu, ke rondaj krampoj bezonas eskapadon (ekz. per malsuprenstrekoj) en ŝelo.
+    ENTJERO ankaŭ povas esti -l TEKSTO, kies rezulto estas la longo de TEKSTO.
 
-    NOTU: Binary -a and -o are inherently ambiguous.
-    Uzu test EXPR1 && test EXPR2 aŭ test EXPR1 || test EXPR2 anstataŭe.
-    NOTU: { "[" } respektas la opciojn --help kaj --version, sed test ne tiujn respektas.
-    test treats each of those as it treats any other nonempty STRING.
+    NOTU: Dulokaj -a kaj -o estas ambiguaj.
+    Uzu test ESPRIMO1 && test ESPRIMO2 aŭ test ESPRIMO1 || test ESPRIMO2 anstataŭe.
+    NOTU: { "[" } respektas la opciojn --help kaj --version, sed «test» ne tiujn respektas.
+    «test» traktas tiujn same kiel ajnan neplenan TEKSTOn.
     NOTU: via ŝelo povas havi sian propran version de test kaj/aŭ { "[" }, kiu ordinare anstataŭigas la version priskribitan ĉi tie.
     Bonvolu legi la dokumentaron de via ŝelo por detaloj pri ĝiaj opcioj.
 test-error-unknown-operator = nekonata operatoro { $operator }
