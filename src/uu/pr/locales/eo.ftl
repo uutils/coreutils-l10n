@@ -22,3 +22,38 @@ pr-help-date-format = Por la ĉapa dato, uzi FORMAT laŭ la stilo de «date».
 pr-help-column-char-separator =
     Apartigi tekstajn kolumnojn per unu skribsigno char, anstataŭ la
                     taŭga nombro de spacetoj (la implicita valoro de char estas tabeligo).
+pr-after-help =
+    Se neniu DOSIERO(j) estas donita(j), aŭ se DOSIERO estas -, legas la norman enfluon.
+
+    Pri plurkolumna eligaĵo, la kolumnoj havos la saman larĝon. Se oni uzas la opcion
+    «-s» por apartigi kolumnojn, la implicita apartigilo estas unu tabeligo-signo.
+    Se oni uzas la opcion «-S» por apartigi kolumnojn, la implicita apartigilo estas
+    unu spaceto-signo.
+pr-help-double-space =
+    Fari eligaĵon kun duoblaj linifinoj. Post ĉiu linifino
+                    en la enigaĵo, la eligaĵo enhavas unu plian linifinon.
+pr-error-across-merge-conflict = ne validas specifi kaj eligadon de unu fonto tra pluraj kolumnoj kaj paralelan eligadon de pluraj fontoj
+pr-help-first-line-number = numeri liniojn komencante per NUMBER ĉe la unua linio de la unua eligota paĝo
+pr-help-page-width =
+    ĉiam alkadrigi al larĝo de PAGE_WIDTH (72) signoj,
+                    trunkante liniojn (se la opcio -J mankas), kaj ne intervenante
+                    pri -S aŭ -s
+pr-help-join-lines =
+    kunfandi plenajn liniojn, malŝaltante trunkadon de linioj laŭ -W, ne
+                    rektigante; --sep-string[=TEKSTO] ŝanĝas la apartigilon
+pr-help-merge =
+    Kunfandi dosierojn, skribante sur la norman elfluon tiel, ke la ilaĵo «pr» skribas
+                    liniojn po unu el ĉiu dosiero specifita kiel argumento unu apud la alia
+                    en tekstajn kolumnojn de la sama larĝo laŭ la nombro de kolumnaj pozicioj.
+                    Realigo de «pr» subtenu kunfandadon de almenaŭ 9 dosieroj.
+pr-help-header =
+    Uzi la tekstan ĉapon por anstataŭigi la dosiernomon
+                    en la ĉaplinio.
+pr-help-column =
+    eligi plurkolumnan eligaĵon kun <column> kolumnoj
+                    (apriore 1), skribita en kolumnojn laŭ la ordo, je kio la teksto riceviĝas el la
+                    enigita dosiero. Ĉi tiu opcio ne povas esti uzata kune kun -m.
+                    La opcioj -e kaj -i estas implicitaj por plurkolumna eligaĵo. Ĉu aŭ ne la kolumnoj
+                    havas la saman longon ne estas specifita, sed teksta kolumno ne estu pli longa ol
+                    la longo de la paĝo (vidu la opcion -l).
+                    Se uzata kun -t, tio minimumigas la nombron de skribotaj linioj.
