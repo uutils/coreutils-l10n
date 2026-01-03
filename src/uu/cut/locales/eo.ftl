@@ -10,31 +10,32 @@ cut-error-only-delimited-only-with-fields = nevalida enigo: La opcio «--only-de
 cut-error-delimiter-and-whitespace-conflict = nevalida enigo: Vi povas specifi nur unu el la opcio --delimiter (-d) kaj la opcio -w
 cut-about = Montri specifitajn bajtajn aŭ kampajn kolumnojn en ĉiu linio el la norma enfluo aŭ enigitaj dosieroj
 cut-after-help =
-    Each call must specify a mode (what to use for columns),
-    a sequence (which columns to print), and provide a data source
+    Ĉiu alvoko devas specifi reĝimon (uzotan por kolumno), sinsekvon
+    (specifantan la eligotajn kolumnojn), kaj datenfonton.
 
     ### Specifi reĝimon
 
     Uzu --bytes (-b) aŭ --characters (-c) por specifi bajtan reĝimon
 
-    Uzu --fields (-f) por specifi kampan reĝimon, where each line is broken into
-    fields identified by a delimiter character. For example for a typical CSV
-    you could use this in combination with setting comma as the delimiter
+    Uzu --fields (-f) por specifi kampan reĝimon, je kio iu linio diviĝas en
+    kampojn disigitajn de apartigilo. Ekzemple, por kome disigitaj valoroj,
+    vi povas uzi la komon kiel la apartigilon.
 
     ### Specifi sinsekvon
 
-    A sequence is a group of 1 or more numbers or inclusive ranges separated
-    by a commas.
+    Sinsekvo estas grupo de unu aŭ pluraj nombro(j) aŭ inkluzivaj intervaloj
+    apartigitaj de komoj. Ekzemple,
 
     cut -f 2,5-7 iu_dosiero.txt
 
-    montros la 2an, 5an, 6an, kaj 7an kampojn en ĉiu fonta linio
+    montros la 2an, 5an, 6an, kaj 7an kampojn en ĉiu fonta linio.
 
-    Ranges can extend to the end of the row by excluding the second number
+    Se la fino de intervalo mankas, tio signifas, ke la intervalo daŭras
+    ĝis la fino de la vico. Ekzemple,
 
     cut -f 3- iu_dosiero.txt
 
-    will display the 3rd field and all fields after for each source line
+    montros la trian kaj ĉiajn postajn kampojn en ĉiu fonta linio.
 
     The first number of a range can be excluded, and this is effectively the
     same as using 1 as the first number: it causes the range to begin at the
@@ -50,7 +51,7 @@ cut-after-help =
 
     will display the every field but the 4th, 5th, and 6th
 
-    ### Specifying a data source
+    ### Specifi datenfonton
 
     If no sourcefile arguments are specified, stdin is used as the source of
     lines to print
@@ -99,7 +100,7 @@ cut-after-help =
 
     echo 'ab\\0cd' | cut -z -c 1
 
-    will result in 'a\\0c\\0'
+    montros «a\\0c\\0»
 cut-help-bytes = filtri bajtajn kolumnojn el la eniga fonto
 cut-help-characters = sinonimo de bajta reĝimo
 cut-help-delimiter = specifi la apartigan skribsignon, kiu apartigas kampojn en la eniga fonto. Apriore, tabeligo.
