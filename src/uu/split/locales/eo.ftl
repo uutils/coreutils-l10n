@@ -15,7 +15,7 @@ split-after-help =
     - K/N eligi la K-an el N al la norma elfluo
     - l/N dispartigi en N dosierojn, sen disdividado de linio/rikordo
     - l/K/N eligi la K-an el N al la norma elfluo, sen dividado de linio/rikordo
-    - r/N similas «l» sed uzante distribuadon «round robin»
+    - r/N similas «l» sed uzante distribuadon rondrubekoluman («round robin»)
     - r/K/N simile, sed nur eligi la K-an al la norma elfluo
 split-error-suffix-not-parsable = nevalida longo de sufikso: { $value }
 split-error-cannot-open-for-reading = ne povas malfermi { $file } por legado
