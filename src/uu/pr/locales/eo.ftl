@@ -57,3 +57,34 @@ pr-help-column =
                     havas la saman longon ne estas specifita, sed teksta kolumno ne estu pli longa ol
                     la longo de la paĝo (vidu la opcion -l).
                     Se uzata kun -t, tio minimumigas la nombron de skribotaj linioj.
+pr-help-omit-header =
+    Skribi nek la kvinlinian identigan kapon nek la kvinlinian piedon
+                    ordinare montritan por ĉiu paĝo. Ĉesi skribi post la lasta linio
+                    de ĉiu dosiero, sen spaco ĝis la fino de la paĝo.
+pr-help-indent =
+    Ĉiu eligita linio estos antaŭita de deŝovaj spacetoj. Se la opcio -o
+                    mankas, la implicita deŝovo estas 0. La deŝova spaco estas
+                    ne inkluzivita en la larĝo de eligita linio (vidu la opcion -w ĉi-sube).
+pr-help-page-length =
+    Modifi la aprioron de 66 linioj (kun 56 linioj da teksto;
+                    kun -F, 63 linioj) al <lines>. Se <lines> ne estas pli longa ol la sumo
+                    de la nombro de linioj en la kapo kaj la piedo, la ilaĵo «pr»
+                    montras nek la kapon nek la piedon, kvazaŭ la opcio -t
+                    estus donita.
+pr-help-across =
+    Modifi la efikon de la opcio --column, tiel ke kolumnoj pleniĝas
+                    tra la paĝo rondrubekolume («round robin»), tiel ke ekzemple pri
+                    du kolumnoj la unua enigita linio estas en kolumno 1, la dua estas en kolumno 2,
+                    la tria estas la dua linio en kolumno 2, ktp.
+pr-help-number-lines =
+    Numeri la liniojn, uzante <width> kolumnojn. La larĝo <width>, se ne specifita, estas apriore 5.
+                    La numeroj troviĝas en la unuaj kolumnaj pozicioj de ĉiu teksta
+                    kolumno aŭ ĉiu linio de la eligaĵo de -m. Se <char> (ajna necifera
+                    skribsigno) estas donita, ĝi estas postmetita post la linia numero,
+                    apartigante la numeron kaj la enhavon. La implicita valoro de <char> estas tabeligo.
+                    Lina numero pli longa ol <width> estos trunkigita.
+pr-help-column-width =
+    Agordi la larĝon de linio al <width> kolumnoj nur por plurkolumna
+                    eligo. Se la opcioj -w kaj -s mankas, la implicita
+                    larĝo estas 72. Se la opcio -w mankas kaj la opcio -s estas
+                    specifita, la implicita larĝo estas 512.
