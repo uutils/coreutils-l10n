@@ -37,19 +37,19 @@ cut-after-help =
 
     montros la trian kaj ĉiajn postajn kampojn en ĉiu fonta linio.
 
-    The first number of a range can be excluded, and this is effectively the
-    same as using 1 as the first number: it causes the range to begin at the
-    first column. Ranges can also display a single column
+    Se la komenco de intervalo mankas, tio signifas, ke la intervalo komenciĝas
+    ĉe la unua kolumno.
+    Intervalo povas ankaŭ montri unu kolumnon. Ekzemple,
 
     cut -f 1,3-5 iu_dosiero.txt
 
-    will display the 1st, 3rd, 4th, and 5th field for each source line
+    montras la unuan, trian, kvaran, and kvinan kampojn de ĉiu fonta linio.
 
-    The --complement option, when used, inverts the effect of the sequence
+    La opcio --complement komplementigas la sinsekvon. Ekzemple,
 
     cut --complement -f 4-6 iu_dosiero.txt
 
-    will display the every field but the 4th, 5th, and 6th
+    montras la kvaran, kvinan, kaj sesan kampojn de ĉiu fonta linio.
 
     ### Specifi datenfonton
 
@@ -68,7 +68,7 @@ cut-after-help =
 
     The fields in each line are identified by a delimiter (separator)
 
-    #### Set the delimiter
+    #### Agordi la apartigilon
 
     Set the delimiter which separates fields in the file using the
     --delimiter (-d) option. Setting the delimiter is optional.
@@ -84,7 +84,7 @@ cut-after-help =
     If the --only-delimited (-s) flag is provided, only lines which
     contain the delimiter will be printed
 
-    #### Replace the delimiter
+    #### Anstataŭigi la apartigilon
 
     If the --output-delimiter option is provided, the argument used for
     it will replace the delimiter character in each line printed. This is
