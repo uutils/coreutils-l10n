@@ -6,3 +6,5 @@ cat-help-number = számozza be az összes kimeneti sort
 cat-help-show-all = azonos a -vET-vel
 cat-help-show-nonprinting-ends = azonos a -vE-vel
 cat-help-show-nonprinting-tabs = azonos a -vT-vel
+cat-error-input-file-is-output-file = bementi fájl megfelel a kimeneti fájlnak
+cat-error-too-many-symbolic-links = Túl sok szimbolíkus hivatkozás
