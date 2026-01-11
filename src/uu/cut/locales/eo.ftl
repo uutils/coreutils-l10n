@@ -53,20 +53,20 @@ cut-after-help =
 
     ### Specifi datenfonton
 
-    If no sourcefile arguments are specified, stdin is used as the source of
-    lines to print
+    Se fonta dosiero ne estas specifita, la norma enfluo uziĝas kiel
+    la fondon de montrotaj linioj.
 
     If sourcefile arguments are specified, stdin is ignored and all files are
     read in consecutively if a sourcefile is not successfully read, a warning
     will print to stderr, and the eventual status code will be 1, but cut
     will continue to read through proceeding sourcefiles
 
-    To print columns from both STDIN and a file argument, use - (dash) as a
-    sourcefile argument to represent stdin.
+    Por montri kolumnojn el kaj la norma enfluo kaj dosiera argumento,
+    uzu - (streketon) kiel unu el la fontdosieraj argumentoj.
 
-    ### Field Mode options
+    ### Opcioj en kampa reĝimo
 
-    The fields in each line are identified by a delimiter (separator)
+    La kampoj en iu linio estas identigitaj per apartigilo.
 
     #### Agordi la apartigilon
 
@@ -86,17 +86,17 @@ cut-after-help =
 
     #### Anstataŭigi la apartigilon
 
-    If the --output-delimiter option is provided, the argument used for
-    it will replace the delimiter character in each line printed. This is
-    useful for transforming tabular data - e.g. to convert a CSV to a
-    TSV (tab-separated file)
+    Se la opcio --output-delimiter estas uzata, ĝia argumento anstataŭas
+    la apartigilo en ĉiu montrata linio. Tio utilas por transformi tabelajn
+    datenojn, ekz. por konverti kome disigitajn valorojn (CSV) al
+    tabelige disigitaj valoroj (TSV).
 
     ### Apartigiloj de linioj
 
-    When the --zero-terminated (-z) option is used, cut sees \\0 (null) as the
-    'line ending' character (both for the purposes of reading lines and
-    separating printed lines) instead of \\n (newline). This is useful for
-    tabular data where some of the cells may contain newlines
+    Se la opcio --zero-terminated (-z) estas uzata, cut rigardas \\0 (nulbajton)
+    kiel la finon de linio (kaj por legi liniojn kaj por apartigi montrotajn
+    liniojn) anstataŭ \\n (linifino). Tio utilas por tabelaj datenoj, en kiuj
+    kelkaj ĉeloj povas enhavi linifinojn. Ekzemple,
 
     echo 'ab\\0cd' | cut -z -c 1
 
