@@ -15,7 +15,7 @@ cut-after-help =
 
     ### Specifi reĝimon
 
-    Uzu --bytes (-b) aŭ --characters (-c) por specifi bajtan reĝimon
+    Uzu --bytes (-b) aŭ --characters (-c) por specifi bajtan reĝimon.
 
     Uzu --fields (-f) por specifi kampan reĝimon, je kio iu linio diviĝas en
     kampojn disigitajn de apartigilo. Ekzemple, por kome disigitaj valoroj,
@@ -56,10 +56,10 @@ cut-after-help =
     Se fonta dosiero ne estas specifita, la norma enfluo uziĝas kiel
     la fondon de montrotaj linioj.
 
-    If sourcefile arguments are specified, stdin is ignored and all files are
-    read in consecutively if a sourcefile is not successfully read, a warning
-    will print to stderr, and the eventual status code will be 1, but cut
-    will continue to read through proceeding sourcefiles
+    Se fonta dosiero estas specifita, la norma enfluo ignoriĝas, kaj
+    ĉiuj dosiero legiĝas laŭ ordo. Se iu fonta dosiero ne sukcese legiĝis,
+    averto estos eligita al la norma erarfluo, kaj la elirkodo estos 1;
+    tamen, cut daŭre tralegos la sekvajn fontajn dosierojn.
 
     Por montri kolumnojn el kaj la norma enfluo kaj dosiera argumento,
     uzu - (streketon) kiel unu el la fontdosieraj argumentoj.
@@ -70,19 +70,19 @@ cut-after-help =
 
     #### Agordi la apartigilon
 
-    Set the delimiter which separates fields in the file using the
-    --delimiter (-d) option. Setting the delimiter is optional.
-    If not set, a default delimiter of Tab will be used.
+    Oni povas agordi la apartigilon por apartigi kampojn en la dosieroj
+    per la opcio --delimiter (-d). Tio ne estas deviga. Se la apartigilo
+    ne estas eksplicita, la apartigilo estos tabeligo.
 
-    If the -w option is provided, fields will be separated by any number
-    of whitespace characters (Space and Tab). The output delimiter will
-    be a Tab unless explicitly specified. Only one of -d or -w option can be specified.
-    This is an extension adopted from FreeBSD.
+    Se la opcio -w estas donita, kampoj estos apartigitaj per ajna
+    nombro de blankspacaj signoj (spaceto kaj tabeligo). La eliga apartigilo
+    estos tabeligo, se ĝi ne estas eksplicita. Nur unu el la opcioj -d kaj -w povas
+    esti donita. Ĉi tiu kromfunkcio devenas de FreeBSD.
 
-    #### Optionally Filter based on delimiter
+    #### Filtri laŭ apartigilo per opcio
 
-    If the --only-delimited (-s) flag is provided, only lines which
-    contain the delimiter will be printed
+    Se la opcio --only-delimited (-s) estas donita, montriĝos nur tiuj linioj, kiuj
+    enhavas la apartigilon.
 
     #### Anstataŭigi la apartigilon
 
