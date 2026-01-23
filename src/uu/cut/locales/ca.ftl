@@ -1,0 +1,1 @@
+cut-about = Mostra les columnes d'octets o camps especificats de cada línia d'entrada estàndard o dels fitxers d'entrada
