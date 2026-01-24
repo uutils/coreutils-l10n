@@ -13,8 +13,8 @@ dd-about = Kopii, kaj laŭvole transformi, dosiersisteman resurson
 dd-after-help =
     ### Argumentoj
 
-    - bs=BAJTOJ : read and write up to BAJTOJ bytes at a time (default: 512);
-       overwrites ibs and obs.
+    - bs=BAJTOJ : legi kaj skribi maksimume BAJTOJn ĉiufoje (apriore: 512);
+       superregas ibs kaj obs.
     - cbs=BAJTOJ : the 'conversion block size' in bytes. Applies to the
        conv=block, and conv=unblock operations.
     - conv=CONVS : a comma-separated list of conversion options or (for legacy
@@ -22,16 +22,16 @@ dd-after-help =
     - count=N : stop reading input after N ibs-sized read operations rather
        than proceeding until EOF. See iflag=count_bytes if stopping after N bytes
        is preferred
-    - ibs=N : the size of buffer used for reads (default: 512)
-    - if=DOSIERO : the file used for input. When not specified, stdin is used instead
+    - ibs=N : la grando de la bufro por legado (apriore: 512)
+    - if=DOSIERO : la enigota dosiero. Se tio mankas, uziĝos la norma enfluo.
     - iflag=FLAGOJ : a comma-separated list of input flags which specify how the
        input source is treated. FLAGS may be any of the input-flags or general-flags
        specified below.
     - skip=N (aŭ iseek=N) : skip N ibs-sized records into input before beginning
        copy/convert operations. See iflag=seek_bytes if seeking N bytes is preferred.
-    - obs=N : the size of buffer used for writes (default: 512)
-    - of=DOSIERO : the file used for output. When not specified, stdout is used
-       instead
+    - obs=N : la grando de la bufro por skribado (apriore: 512)
+    - of=DOSIERO : la dosiero por eligado. Se tio mankas, uziĝos la norma
+       elfluo.
     - oflag=FLAGOJ : comma separated list of output flags which specify how the
        output source is treated. FLAGS may be any of the output flags or general
        flags specified below
@@ -41,29 +41,29 @@ dd-after-help =
     - status=NIVELO : controls whether volume and performance stats are written to
        stderr.
 
-      When unspecified, dd will print stats upon completion. Jen ekzemplo.
+      Senopcie, dd montras statistikojn post fino. Jen ekzemplo.
 
       ```plain
-        6+0 records in
-        16+0 records out
-        8192 bytes (8.2 kB, 8.0 KiB) copied, 0.00057009 s,
-        14.4 MB/s
+        6+0 rikordoj enigitaj
+        16+0 rikordoj eligitaj
+        8192 bajtoj (8,2 kB, 8,0 KiB) kopiitaj, 0,00057009 s,
+        14,4 MB/s
 
-      The first two lines are the 'volume' stats and the final line is the
-      'performance' stats.
-      The volume stats indicate the number of complete and partial ibs-sized reads,
-      or obs-sized writes that took place during the copy. The format of the volume
-      stats is <complete>+<partial>. If records have been truncated (see
-      conv=block), the volume stats will contain the number of truncated records.
+      La unuaj du linioj estas statistikoj pri la volumo, dum la lasta linio estas
+      statistikoj pri rendimento.
+      La statistikoj pri volumo kalkulas la nombron de plenaj kaj neplenaj legoj de grando «ibs»
+      aŭ skriboj de grando «obs» dum kopiado. La formo de la volumaj statistikoj estas
+      <plenaj>+<neplenaj>. Se rikordoj estas trunkitaj (vidu «conv=block»),
+      la volumaj statistikoj temas pri la nombro de trunkitaj rikordoj.
 
       Jen la validaj valoroj de NIVELO:
-      - progress : Print periodic performance stats as the copy proceeds.
-      - noxfer : Print final volume stats, but not performance stats.
+      - progress : Montri statistikojn pri rendimento dum kopiado.
+      - noxfer : Fine montri statistikojn pri la volumo, sed ne pri rendimento.
       - none : Ne montri ajnajn statistikojn.
 
-      Printing performance stats is also triggered by the INFO signal (where supported),
-      or the USR1 signal. Setting the POSIXLY_CORRECT environment variable to any value
-      (including an empty value) will cause the USR1 signal to be ignored.
+      La signalo INFO (se tio estas subtenata) aŭ la signalo USR1 ankaŭ kaŭzas montradon
+      de statistikoj pri rendimento. Se la media variablo POSIXLY_CORRECT ekzistas kun ajna valoro
+      (inkluzive de la malplena valoro), la signalo USR1 ignoriĝos.
 
     ### Opcioj pri transformado
 
@@ -88,34 +88,34 @@ dd-after-help =
       present, the final byte is omitted.
     - sync : pad each ibs-sided block with zeros. If block or unblock is
       specified, pad with spaces instead.
-    - excl : the output file must be created. Fail if the output file is already
-      present.
-    - nocreat : the output file will not be created. Fail if the output file in
-      not already present.
-    - notrunc : the output file will not be truncated. If this option is not
-      present, output will be truncated when opened.
-    - noerror : all read errors will be ignored. If this option is not present,
-      dd will only ignore Error::Interrupted.
-    - fdatasync : data will be written before finishing.
-    - fsync : data and metadata will be written before finishing.
+    - excl : devige krei la eligotan dosieron. Malsukcesi, se la eligota dosiero
+      jam ekzistas.
+    - nocreat : ne krei la eligotan dosieron. Malsukcesi, se la eligota dosiero
+      ne jam ekzistas.
+    - notrunc : ne trunki la eligan dosieron. Se ĉi tiu opcio mankas,
+      la eligaĵo estos trunkita post malfermo.
+    - noerror : ignori ĉiajn erarojn pri legado. Se ĉi tiu opcio mankas,
+      dd nur ignoras Error::Interrupted.
+    - fdatasync : sinkronigi datenojn antaŭ ol ĉesi.
+    - fsync : sinkronigi datenojn kaj metadatenojn antaŭ ol ĉesi.
 
     ### Enigaj flagoj
 
-    - count_bytes : a value to count=N will be interpreted as bytes.
-    - skip_bytes : a value to skip=N will be interpreted as bytes.
-    - fullblock : wait for ibs bytes from each read. zero-length reads are still
-      considered EOF.
+    - count_bytes : argumento N en count=N interpretiĝos kiel nombro de bajtoj.
+    - skip_bytes : argumento N en skip=N interpretiĝos kiel nombro de bajtoj.
+    - fullblock : atendi «ibs» bajtojn por ĉiu lego. Lego de longo 0 estas ankoraŭ
+      rigardata kiel fino de dosiero.
 
     ### Eligaj flagoj
 
-    - append : open file in append mode. Consider setting conv=notrunc as well.
-    - seek_bytes : a value to seek=N will be interpreted as bytes.
+    - append : malfermi dosieron en postglua reĝimo. Konsideru, ĉu vi ankaŭ volas «conv=notrunc».
+    - seek_bytes : argumento N en seek=N interpretiĝos kiel nombro de bajtoj.
 
     ### Ĝeneralaj flagoj
 
     - direct : uzi rektan eneligon pri datenoj.
-    - directory : fail unless the given input (if used as an iflag) or
-      output (if used as an oflag) is a directory.
+    - directory : malsukcesi, krom se la donita enigaĵo (por «iflag») aŭ eligaĵo
+      (por «oflag») estas dosierujo.
     - dsync : uzi sinkronan eneligon pri datenoj.
     - sync : uzi sinkronan eneligon pri datenoj kaj metadatenoj.
     - nonblock : uzi neblokantan eneligon.
