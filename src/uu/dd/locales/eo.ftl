@@ -15,31 +15,31 @@ dd-after-help =
 
     - bs=BAJTOJ : legi kaj skribi maksimume BAJTOJn ĉiufoje (apriore: 512);
        superregas ibs kaj obs.
-    - cbs=BAJTOJ : the 'conversion block size' in bytes. Applies to the
-       conv=block, and conv=unblock operations.
-    - conv=CONVS : a comma-separated list of conversion options or (for legacy
-       reasons) file flags.
-    - count=N : stop reading input after N ibs-sized read operations rather
-       than proceeding until EOF. See iflag=count_bytes if stopping after N bytes
-       is preferred
+    - cbs=BAJTOJ : la grando de la konverta bloko en bajtoj. Temas pri
+       la operacioj «conv=block» kaj «conv=unblock».
+    - conv=CONVS : kome disigita listo de opcioj pri konvertado aŭ (pro kongrueco)
+       dosierflagoj.
+    - count=N : ĉesi legi post N legoperaciojn de grando «ibs», anstataŭ legadi
+       ĝis la fino de la dosiero. Vidu «iflag=count_bytes», se vi preferas ĉesi post
+       N bajtoj.
     - ibs=N : la grando de la bufro por legado (apriore: 512)
     - if=DOSIERO : la enigota dosiero. Se tio mankas, uziĝos la norma enfluo.
-    - iflag=FLAGOJ : a comma-separated list of input flags which specify how the
-       input source is treated. FLAGS may be any of the input-flags or general-flags
-       specified below.
-    - skip=N (aŭ iseek=N) : skip N ibs-sized records into input before beginning
-       copy/convert operations. See iflag=seek_bytes if seeking N bytes is preferred.
+    - iflag=FLAGOJ : kome disigita listo de enigaj flagoj specifantaj la traktadon
+       de la eniga dosiero. FLAGOJ povas esti ajno el la enigaj flagoj aŭ la ĝeneralaj
+       flagoj priskribitaj ĉi-sube.
+    - skip=N (aŭ iseek=N) : preterpasi N rikordojn de grando «ibs» en enigaĵo antaŭ ol ekfari
+       kopiadon aŭ konvertadon. Vidu «iflag=seek_bytes», se vi preferas preterpasi N bajtojn.
     - obs=N : la grando de la bufro por skribado (apriore: 512)
     - of=DOSIERO : la dosiero por eligado. Se tio mankas, uziĝos la norma
        elfluo.
-    - oflag=FLAGOJ : comma separated list of output flags which specify how the
-       output source is treated. FLAGS may be any of the output flags or general
-       flags specified below
-    - seek=N (or oseek=N) : seeks N obs-sized records into output before
-       beginning copy/convert operations. See oflag=seek_bytes if seeking N bytes is
-       preferred
-    - status=NIVELO : controls whether volume and performance stats are written to
-       stderr.
+    - oflag=FLAGOJ : kome disigita listo de eligaj flagoj specifantaj la traktadon
+       de la eliga dosiero. FLAGOJ povas esti ajno el la eligaj flagoj aŭ la ĝeneralaj
+       flagoj priskribitaj ĉi-sube.
+    - seek=N (aŭ oseek=N) : preterpasi N rikordojn de grando «obs» en eligaĵo antaŭ ol
+       ekfari kopiadon aŭ konvertadon. Vidu «oflag=seek_bytes», se vi preferas preterpasi
+       N bajtojn.
+    - status=NIVELO : ĉu montri statistikoj pri volumo kaj rendimento sur
+       la norman erarfluon.
 
       Senopcie, dd montras statistikojn post fino. Jen ekzemplo.
 
@@ -77,17 +77,17 @@ dd-after-help =
     - ucase : majuskligi.
     - lcase : minuskligi.
 
-    - block : for each newline less than the size indicated by cbs=BYTES, remove
-      the newline and pad with spaces up to cbs. Lines longer than cbs are truncated.
-    - unblock : for each block of input of the size indicated by cbs=BYTES, remove
-      right-trailing spaces and replace with a newline character.
+    - block : por ĉiu linio malpli granda ol la grando specifita per «cbs=BAJTOJ»,
+      forigi la linifinon kaj ŝtopi per spacetoj ĝis cbs. Trunki linion pli longa ol cbs.
+    - unblock : por ĉiu bloko de enigaĵo de grando specifita per «cbs=BAJTOJ»,
+      forigi finajn spacetojn kaj anstataŭigi per linifino.
 
-    - sparse : attempts to seek the output when an obs-sized block consists of
-      only zeros.
-    - swab : swaps each adjacent pair of bytes. If an odd number of bytes is
-      present, the final byte is omitted.
-    - sync : pad each ibs-sided block with zeros. If block or unblock is
-      specified, pad with spaces instead.
+    - sparse : nur provi preterpasi, se bloko de grando «obs» konsistas nur el
+      nulbajtoj.
+    - swab : interŝanĝi apudajn bajtparojn, preterpasante la lastan bajton,
+      se ekzistas nepara nombro da bajtoj.
+    - sync : ŝtopi ĉiun blokon de grando «ibs» per nulbajtoj aŭ, se «block» aŭ «unblock»
+      estas specifita, per spacetoj.
     - excl : devige krei la eligotan dosieron. Malsukcesi, se la eligota dosiero
       jam ekzistas.
     - nocreat : ne krei la eligotan dosieron. Malsukcesi, se la eligota dosiero
