@@ -30,8 +30,7 @@ cut-after-help =
 
     montros la 2an, 5an, 6an, kaj 7an kampojn en ĉiu fonta linio.
 
-    Se la fino de intervalo mankas, tio signifas, ke la intervalo daŭras
-    ĝis la fino de la vico. Ekzemple,
+    Se la fino de intervalo mankas, tio signifas, ke la intervalo daŭras ĝis la fino de la vico. Ekzemple,
 
     cut -f 3- iu_dosiero.txt
 
