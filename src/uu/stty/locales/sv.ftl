@@ -1,9 +1,9 @@
 stty-usage =
-    "stty [-F DEVICE | --file=DEVICE] [SETTING]...
-    eller:  stty [-F DEVICE | --file=DEVICE] [-a|--all]
-    eller:  stty [-F DEVICE | --file=DEVICE] [-g|--save]"
-stty-about = "Skriv ut eller ändra terminalegenskaper."
-stty-option-all = "skriv ut alla aktuella inställningar i läsbar form"
+    stty [-F ENHET | --file=ENHET] [INSTÄLLNING]…
+    eller:  stty [-F ENHET | --file=ENHET] [-a|--all]
+    eller:  stty [-F ENHET | --file=ENHET] [-g|--save]
+stty-about = Skriv ut eller ändra terminalegenskaper.
+stty-option-all = skriv ut alla aktuella inställningar i läsbar form
 stty-option-save = "skriv ut alla aktuella inställningar i ett stty-läsbart format"
 stty-option-file = "öppna och använd den angivna DEVICE istället för standard-in"
 stty-option-settings = "inställningar att ändra"
