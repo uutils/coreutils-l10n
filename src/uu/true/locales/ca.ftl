@@ -4,3 +4,5 @@ true-about =
     Immediatament retorna amb l'estat de sortida 0, excepte quan s'invoca amb alguna de les
     opcions reconegudes. En aquests casos intentarà mostrar el text d'ajuda o la versió. Qualsevol error
     d'entrada/sortida durant aquesta operació causa que el programa retorni 1.
+true-help-text = Mostra l'ajuda
+true-version-text = Mostra la versió
