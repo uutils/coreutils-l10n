@@ -10,7 +10,7 @@ pr-usage = pr [OPTION]... [FILE]...
 pr-help-pages = FIRST_PAGE[:LAST_PAGE] から印字を開始、または終了します
 pr-help-header =
     ヘッダー行において、ファイル名の代わりに指定した
-                HEADER を使用します。
+                ヘッダーを使用します。
 pr-help-date-format = ヘッダーの日付に 'date' 形式の FORMAT を使用します。
 pr-help-double-space =
     行間に空行を挿入して出力します。入力内で改行が見つかるたびに、
