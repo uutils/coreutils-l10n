@@ -1,1 +1,3 @@
 printenv-about = Mostra el valor de la VARIABLE(s) d'entorn especificada, o (quan no hi ha VARIABLE), mostra els parells de nom i valor de totes elles.
+printenv-usage = printenv [OPCIÓ]… [VARIABLE]…
+printenv-help-null = acaba cada línia de sortida amb octet 0 en comptes d'un salt de línia
