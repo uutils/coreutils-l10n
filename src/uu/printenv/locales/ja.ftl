@@ -1,3 +1,3 @@
 printenv-about = 指定した環境変数 VARIABLE の値を表示します。VARIABLE を指定しない場合は全ての環境変数の名前と値を表示します。
 printenv-usage = 使用法: printenv [OPTION]... [VARIABLE]...
-printenv-help-null = 各行の末尾に改行ではなく、ゼロバイト (ASCII NUL) を出力する
+printenv-help-null = 各行の末尾に改行ではなく、ゼロバイトを出力する
