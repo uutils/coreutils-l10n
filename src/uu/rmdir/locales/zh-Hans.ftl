@@ -1,0 +1,3 @@
+rmdir-about = 如果目录为空，则删除该目录（或这些目录）。
+rmdir-usage = rmdir [选项]... 目录...
+rmdir-help-ignore-fail-non-empty = 如果失败的唯一原因是目录不为空，则忽略该失败
