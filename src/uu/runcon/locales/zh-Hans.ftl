@@ -1,0 +1,10 @@
+runcon-error-operation-failed = { $operation }失败
+runcon-error-operation-failed-on = 对{ $operand }执行{ $operation }失败
+runcon-operation-getting-current-context = 获取当前进程的安全上下文
+runcon-operation-creating-context = 新建上下文
+runcon-operation-checking-context = 检查安全上下文
+runcon-operation-setting-context = 设置新安全上下文
+runcon-operation-getting-process-class = 获取进程安全类别
+runcon-operation-getting-file-context = 获取命令文件的安全上下文
+runcon-operation-executing-command = 执行命令
+runcon-error-no-command = 未指定命令
