@@ -1,0 +1,3 @@
+printenv-about = 显示指定的环境变量的值，或（不指定变量）显示所有环境变量的名称和值。
+printenv-usage = printenv [选项]... [变量]...
+printenv-help-null = 将每个输出行以 0 字节而不是换行符结束
