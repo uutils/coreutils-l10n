@@ -3,3 +3,7 @@ tsort-about =
     字符串被定义为由空白字符（制表符、空格或换行符）分隔的任意标记序列，根据有向无环图（DAG）中的依赖关系对它们进行排序。
     此方法可用于调度和确定执行顺序。
     若未传入文件，则改用标准输入（stdin）。
+tsort-usage = tsort [选项] 文件
+tsort-error-is-dir = 读取错误：这是一个目录
+tsort-error-odd = 输入包含奇数个标记
+tsort-error-loop = 输入包含循环：
