@@ -8,3 +8,4 @@ runcon-operation-getting-process-class = 获取进程安全类别
 runcon-operation-getting-file-context = 获取命令文件的安全上下文
 runcon-operation-executing-command = 执行命令
 runcon-error-no-command = 未指定命令
+runcon-about = 在启用了 SELinux 的系统上使用指定的安全上下文运行命令。
