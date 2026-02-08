@@ -18,3 +18,4 @@ ln-help-interactive = 提示是否删除已有的目标文件
 ln-help-no-dereference =
     如果“链接名”是指向目录的符号链接，
     将其视为普通文件来处理
+ln-error-cannot-stat = 无法获取 { $path } 的状态信息：文件或目录不存在
