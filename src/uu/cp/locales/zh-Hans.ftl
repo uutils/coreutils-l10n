@@ -40,3 +40,4 @@ cp-error-invalid-attribute = 无效的属性{ $value }
 cp-error-cannot-copy-directory-into-itself = 无法将目录{ $source }复制到其自身{ $dest }中
 cp-error-not-replacing = 未替换{ $file }
 cp-error-failed-set-permissions = 无法设置{ $path }的权限
+cp-error-cannot-stat = 无法获取 { $source } 的状态信息：文件或目录不存在
