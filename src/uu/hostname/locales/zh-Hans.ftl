@@ -1,1 +1,13 @@
 hostname-about = 显示或设置系统主机名。
+hostname-usage = hostname [选项]... [主机名]
+hostname-help-domain = 如果可能，显示 DNS 域名名称
+hostname-help-ip-address = 显示主机的网络地址
+hostname-help-fqdn = 显示 FQDN（完全限定域名，Fully Qualified Domain Name）（默认）
+hostname-help-short = 如果可能，显示短主机名（第一个点号之前的部分）
+hostname-error-permission = hostname：只有 root 用户才能更改主机名
+hostname-error-invalid-name = hostname：无效的主机名 “{ $name }”
+hostname-error-resolve-failed = hostname：无法解析主机名 “{ $name }”
+hostname-error-winsock = 无法启动 Winsock
+hostname-error-set-hostname = 无法设置主机名
+hostname-error-get-hostname = 无法获取主机名
+hostname-error-resolve-socket = 无法解析套接字地址
