@@ -1,1 +1,12 @@
 tee-about = 复制标准输入到每个文件和标准输出。
+tee-usage = tee [选项]... [文件]...
+tee-after-help = 若 FILE 参数为 “-”，则其指代一个名为“-”的文件。
+tee-help-help = 输出帮助信息
+tee-help-append = 追加到指定的每个文件，而非覆盖
+tee-help-ignore-interrupts = 忽略中断（interrupt）信号（在非 Unix 平台上无效）
+tee-help-ignore-pipe-errors = 设置写入错误行为（在非 Unix 平台上无效）
+tee-help-output-error = 设置写入错误行为
+tee-help-output-error-warn = 对写入到任何输出的错误产生警告
+tee-help-output-error-warn-nopipe = 对于非管道错误产生警告（在非Unix平台上被忽略）
+tee-help-output-error-exit = 若任一输出发生写入错误，则立即退出程序
+tee-help-output-error-exit-nopipe = 除非是管道错误，否则在任一输出遇到写入错误时立即退出（在非 Unix 平台上此项为默认行为）
