@@ -1,1 +1,12 @@
 readlink-about = 打印符号链接或规范文件名的值。
+readlink-usage = readlink [选项]... [文件]...
+readlink-help-canonicalize = 通过递归地跟随给定名称中每个组件的每个符号链接来规范化；除了最后一个组件外，所有组件都必须存在
+readlink-help-canonicalize-existing = 通过递归地跟随给定名称中每个组件的每个符号链接来规范化；所有组件都必须存在
+readlink-help-canonicalize-missing = 通过递归地跟随给定名称中每个组件的每个符号链接，不要求组件的存在来规范化
+readlink-help-no-newline = 不要输出尾随分隔符
+readlink-help-quiet = 抑制大多数错误消息
+readlink-help-silent = 抑制大多数错误消息
+readlink-help-verbose = 报错错误消息
+readlink-help-zero = 使用空字符（NUL）分割输出，而非默认的换行符
+readlink-error-missing-operand = 缺少操作数
+readlink-error-ignoring-no-newline = 当指定多个参数时，将忽略 --no-newline 选项
