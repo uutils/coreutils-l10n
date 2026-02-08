@@ -1,0 +1,9 @@
+mkfifo-about = 使用指定的名称创建一个 FIFO。
+mkfifo-usage = mkfifo [选项]... 名称...
+mkfifo-help-mode = fifo 的文件权限
+mkfifo-help-selinux = 将 SELinux 安全上下文设置为默认类型
+mkfifo-help-context = 与 -Z 类似，或则如果指定了 CTX，则将 SElinux 或 SMACK 安全上下文设置为 CTX
+mkfifo-error-invalid-mode = 无效的权限模式：{ $error }
+mkfifo-error-missing-operand = 缺少操作数
+mkfifo-error-cannot-create-fifo = 无法创建 fifo { $path }：文件已存在
+mkfifo-error-cannot-set-permissions = 无法设置 { $path } 的权限：{ $error }
