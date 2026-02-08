@@ -10,3 +10,5 @@ tee-help-output-error-warn = 对写入到任何输出的错误产生警告
 tee-help-output-error-warn-nopipe = 对于非管道错误产生警告（在非Unix平台上被忽略）
 tee-help-output-error-exit = 若任一输出发生写入错误，则立即退出程序
 tee-help-output-error-exit-nopipe = 除非是管道错误，否则在任一输出遇到写入错误时立即退出（在非 Unix 平台上此项为默认行为）
+tee-standard-output = “标准输出”
+tee-error-stdin = 标准输入错误：{ $error }
