@@ -22,3 +22,17 @@ tr-error-extra-operand-deleting-without-squeezing =
     仅执行删除且不压缩重复时，只能提供一个字符串。
 tr-error-missing-char-class-name = 字符类名缺失“[::]”
 tr-error-missing-equivalence-class-char = 缺少等价类字符“[==]”
+tr-warning-ambiguous-octal-escape = 存在歧义的八进制转义序列 \{ $origin_octal } 正在被解释为 2 字节序列 \0{ $actual_octal_tail }，{ $outstand_char }
+tr-error-multiple-char-repeat-in-set2 = 字符集2 中只能出现一个 [c*] 重复构造
+tr-error-char-repeat-in-set1 = 在 字符集1 中不允许使用 [c*] 重复构造
+tr-error-invalid-repeat-count = 在 [c*n] 构造中，重复次数 { $count } 无效
+tr-error-empty-set2-when-not-truncating = 若不截断 字符集1，则 字符集2 必须为非空
+tr-error-class-except-lower-upper-in-set2 = 执行转换操作时，字符集2 中仅允许出现“upper”和“lower”这两种字符类
+tr-error-class-in-set2-not-matched = 执行转换操作时，字符集2 中的每个“upper”/“lower”字符类，都必须与 字符集1 相同位置上的对应类别（“upper”/“lower”）相匹配
+tr-error-set1-longer-set2-ends-in-class =
+    执行转换操作时，若字符集1 长度大于 字符集2，
+    后者不得以字符类（如 'upper' 或 'lower'）结尾
+tr-error-complement-more-than-one-unique =
+    当使用补集字符类进行转换时，
+    字符集2 必须能够将定义域内的所有字符映射到单个字符
+tr-error-backwards-range = 指定的字符范围“{ $start }-{ $end }”为逆序，不符合整理序列的递增规则
