@@ -27,7 +27,7 @@ basenc-about =
     from any other non-alphabet bytes in the encoded stream.
 basenc-usage = basenc [OPTION]... [FILE]
 basenc-help-base64 = 'base64' プログラムと同じです
-basenc-help-base64url = ファイルおよび URL で安全な base64
+basenc-help-base64url = ファイルおよび url セーフな base64
 basenc-help-base32 = 'base32' プログラムと同じです
 basenc-help-base32hex = 拡張16進アルファベット base32
 basenc-help-base16 = 16進エンコード
