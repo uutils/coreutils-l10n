@@ -1,1 +1,10 @@
 timeout-about = 启动指定命令，并在超过设定的持续时间后强制终止仍在运行的进程。
+timeout-verbose-sending-signal = 向 { $command } 命令发送 { $signal } 信号
+timeout-error-failed-to-execute-process = 执行进程失败：{ $error }
+timeout-error-invalid-signal = { $signal }：无效的信号
+timeout-help-verbose = （超时发生后）将所发送的任何信号的诊断信息输出至标准错误
+timeout-usage = timeout [选项] 超时时间 命令...
+timeout-help-foreground = 若未在 shell 提示符中直接运行 timeout，允许 命令 从 TTY 中读取并接收 TTY 信号；在此模式下，命令 的子进程将不受超时限制
+timeout-help-kill-after = 若初始信号发出后，命令 在经过 DURATION 之后仍在运行，则额外发送 KILL 信号
+timeout-help-preserve-status = 即使命令超时，仍使用与 命令 相同的退出状态退出
+timeout-help-signal = 指定超时后发送的信号；SIGNAL 可以是名称（如“HUP”）或数字；可用“kill -l”列出所有信号
