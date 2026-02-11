@@ -14,3 +14,8 @@ chmod-error-preserve-root =
     chmod: használja a --no-preserve-root opciót a biztonsági funkció felülírásához
 chmod-error-permission-denied = { $file }: Hozzáférés megtagadva
 chmod-error-new-permissions = { $file }: új jogosultságok { $actual } és nem { $expected }
+chmod-error-missing-operand = hiányzó operandus
+chmod-help-print-help = Súgó megjelenítése.
+chmod-help-changes = olyan mint a verbose de csak akkor jelez ha változások vannak
+chmod-help-quiet = elnémiti a legtöbb hiba jelzést
+chmod-help-verbose = adjon minden feldolgozott fájlhoz diagnosztikai információkat
