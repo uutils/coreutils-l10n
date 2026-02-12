@@ -45,3 +45,4 @@ base-common-invalid-wrap-size = érvénytelen töréshossz: { $size }
 base-common-read-error = olvasási hiba: { $error }
 base-common-help-ignore-garbage = nem ábécéhez tartozó karakterek figyelmen kívül hagyása dekódoláskor
 base-common-help-wrap = kimeneti sorok tördelése COLS karakterek után (alapértelmezés: { $default }, 0 a tördelés letiltásához)
+basenc-help-base58 = vizuálisan egyértelmű base58 kódolás
