@@ -29,3 +29,21 @@ chcon-help-type = A TYPE típus beállítása a célbiztonsági kontextusban.
 chcon-help-range = A RANGE tartomány beállítása a célbiztonsági kontextusban.
 chcon-help-recursive = Rekurzívan dolgozik a fájlok és mappák-on.
 chcon-help-follow-arg-dir-symlink = Ha egy parancssori argumentum egy könyvtárra mutató szimbolikus link, akkor feldolgozásra kerül. Csak akkor érvényes, ha a -R opció meg van adva.
+chcon-help-follow-dir-symlinks = Átfut minden szimbolikus hivatkozáson amennyiben egy könyvtár. Csak akkor érvényes, ha a -R opció meg van adva.
+chcon-help-no-follow-symlinks = Ne keresztezzen semmilyen szimbolikus hivatkozást (alapértelmezett). Csak akkor érvényes, ha a -R opció meg van adva.
+chcon-help-verbose = Minden feldolgozott fájlhoz diagnosztikai jelentést készít.
+chcon-error-no-context-specified = Nincs kontextus megadva
+chcon-error-no-files-specified = Nincs fájl megadva
+chcon-op-reading-cyclic-directory = Ciklikus könyvtár olvasása
+chcon-op-applying-partial-context = Részleges biztonsági kontextus alkalmazása címkézetlen fájlra
+chcon-op-creating-security-context = Biztonsági kontextus létrehozása
+chcon-op-setting-security-context-user = Biztonsági kontextus felhasználó beállítása
+chcon-op-setting-security-context = Biztonsági kontextus beállítása
+chcon-verbose-changing-context = { $util_name }: { $file } biztonsági kontextusának módosítása
+chcon-warning-dangerous-recursive-root = Veszélyes rekurzívan műveleteket végrehajtani a '/'. Használja az --{ $option } opciót a biztonsági funkció felülírásához.
+chcon-warning-dangerous-recursive-dir = Veszélyes rekurzívan műveleteket végrehajtani a { $dir } (ugyanaz, mint '/') mappán. Használja az --{ $option } opciót a biztonsági funkció felülírásához.
+chcon-warning-circular-directory =
+    Kör alakú könyvtárszerkezet.
+    Ez szinte biztosan azt jelenti, hogy a fájlrendszer megsérült.
+    ÉRTESÍTSE A RENDSZERGAZDÁT.
+    A következő könyvtár része a ciklusnak { $file }.
