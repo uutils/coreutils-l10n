@@ -1,2 +1,13 @@
 hostname-about = Näytä tai aseta järjestelmän konenimi.
 hostname-usage = hostname [VALITSIN]… [KONENIMI]
+hostname-help-domain = Näytä DNS-verkkoalueen nimi, jos mahdollista
+hostname-help-ip-address = Näytä koneen verkko-osoitteet
+hostname-help-fqdn = Näytä FQDN (täydellinen verkkoaluenimi) (oletus)
+hostname-help-short = Näytä lyhyt konenimi (osa ennen ensimmäistä pistettä), jos mahdollista
+hostname-error-permission = hostname: vain root voi vaihtaa konenimen
+hostname-error-invalid-name = hostname: virheellinen konenimi "{ $name }"
+hostname-error-resolve-failed = hostname: konenimeä "{ $name }" ei voitu ratkaista
+hostname-error-winsock = Winsockin käynnistäminen epäonnistui
+hostname-error-set-hostname = konenimen asettaminen epäonnistui
+hostname-error-get-hostname = konenimen noutaminen epäonnistui
+hostname-error-resolve-socket = pistoke-osoitteiden ratkaiseminen epäonnistui
