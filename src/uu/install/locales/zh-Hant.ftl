@@ -1,0 +1,3 @@
+install-usage = install [選項]... [檔案]...
+install-error-invalid-user = 無效使用者：{ $user }
+install-error-invalid-group = 無效群組：{ $group }
