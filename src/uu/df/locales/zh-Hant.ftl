@@ -12,3 +12,4 @@ df-header-type = 類型
 df-blocks-suffix = -區塊
 df-header-capacity = 容量
 df-help-print-type = 顯示檔案系統類型
+df-usage = df [選項]... [檔案]...
