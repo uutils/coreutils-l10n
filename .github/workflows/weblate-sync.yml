@@ -1,0 +1,69 @@
+name: Weblate Synchronization
+
+on:
+  # Run every 6 hours to sync with Weblate
+  schedule:
+    - cron: '0 */6 * * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+  # Trigger on push to main branch (for source updates)
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/uu/*/locales/en-US.ftl'
+      - 'src/uu/*/src/*.rs'
+
+jobs:
+  sync-weblate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.WEBLATE_TOKEN || github.token }}
+        fetch-depth: 0
+
+    - name: Install Weblate CLI
+      run: |
+        pip install wlc
+
+    - name: Configure Weblate CLI
+      run: |
+        mkdir -p ~/.config
+        cat > ~/.config/weblate << EOF
+        [weblate]
+        url = https://hosted.weblate.org/api/
+        key = ${{ secrets.WEBLATE_API_KEY }}
+        EOF
+
+    - name: Pull translations from Weblate
+      run: |
+        wlc pull rust-coreutils
+
+    - name: Commit and push translations
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        if [ -n "$(git status --porcelain)" ]; then
+          git add src/uu/*/locales/*.ftl
+          git commit -m "Update translations from Weblate"
+          git push
+        else
+          echo "No translation updates to commit"
+        fi
+
+    - name: Push source changes to Weblate
+      if: github.event_name == 'push'
+      run: |
+        # Lock translations to prevent conflicts
+        wlc lock rust-coreutils
+
+        # Push source changes
+        wlc push rust-coreutils
+
+        # Unlock after push
+        wlc unlock rust-coreutils

@@ -1,0 +1,33 @@
+# Weblate configuration for automatic synchronization
+
+[weblate]
+url = https://hosted.weblate.org/api/
+project = rust-coreutils
+
+# Repository settings
+[vcs]
+push_on_commit = true
+commit_message = Translated using Weblate ({language_name})
+
+# Synchronization settings
+[sync]
+# Pull translations from Weblate every hour
+pull_interval = 3600
+# Push source changes to Weblate automatically
+push_source = true
+# Commit pending changes before sync
+commit_pending = true
+
+# File format settings
+[files]
+# Fluent (.ftl) format configuration
+fluent_monolingual = true
+base_file_template = src/uu/*/locales/en-US.ftl
+filemask = src/uu/*/locales/*.ftl
+
+# GitHub integration
+[github]
+# Enable repository webhooks for automatic sync
+webhook = true
+# Pull request settings for translations
+auto_pr = false
