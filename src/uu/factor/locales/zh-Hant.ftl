@@ -1,4 +1,4 @@
-factor-help-help = 輸出說明資訊。
+factor-help-help = 列印幫助資訊。
 factor-about =
     輸出指定數字的質因數分解。
     若未指定，則從標準輸入讀取。
