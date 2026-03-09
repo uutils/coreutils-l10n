@@ -36,7 +36,9 @@ jobs:
         cat > ~/.config/weblate << EOF
         [weblate]
         url = https://hosted.weblate.org/api/
-        key = ${{ secrets.WEBLATE_API_KEY }}
+
+        [keys]
+        https://hosted.weblate.org/api/ = ${{ secrets.WEBLATE_API_KEY }}
         EOF
 
     - name: Pull translations from Weblate
