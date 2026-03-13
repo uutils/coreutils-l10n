@@ -1,1 +1,3 @@
 expand-usage = expand [選項]... [檔案]...
+expand-error-failed-to-write-output = 無法寫入輸出
+expand-error-is-directory = { $file }: 是個目錄
