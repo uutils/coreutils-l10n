@@ -8,9 +8,9 @@ nohup-after-help =
     或是若 nohup.out 開啟失敗的話則會輸出至 $HOME/nohup.out。
     若標準錯誤為終端機，則會重新導向至標準輸出。
 nohup-error-cannot-detach = 無法自主控台分離
-nohup-error-cannot-replace = 無法取代 { $name }：{ $err }
-nohup-error-open-failed = 無法開啟 { $path }：{ $err }
+nohup-error-cannot-replace = 無法取代 { $name }: { $err }
+nohup-error-open-failed = 無法開啟 { $path }: { $err }
 nohup-error-open-failed-both =
-    無法開啟 { $first_path }：{ $first_err }
-    無法開啟 { $second_path }：{ $second_err }
+    無法開啟 { $first_path }: { $first_err }
+    無法開啟 { $second_path }: { $second_err }
 nohup-ignoring-input-appending-output = 忽略輸入並將輸出附加至 { $path }
