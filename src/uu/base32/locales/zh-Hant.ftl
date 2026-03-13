@@ -1,8 +1,9 @@
-basenc-help-base64 = 與「base64」程式相同
+basenc-help-base64 = 與 'base64' 程式相同
 base-common-no-such-file = { $file }: 沒有此一檔案或目錄
 base32-usage = base32 [選項]... [檔案]
 base64-usage = base64 [選項]... [檔案]
 basenc-usage = basenc [選項]... [檔案]
-base-common-read-error = 讀取錯誤：{ $error }
+base-common-read-error = 讀取錯誤: { $error }
 basenc-error-missing-encoding-type = 缺少編碼類型
 base-common-help-decode = 解碼資料
+basenc-help-base32 = 與 'base32' 程式相同
