@@ -12,4 +12,4 @@ test-error-missing-argument = 在 { $argument } 後缺少引數
 test-error-extra-argument = 外加引數 { $argument }
 test-error-unknown-operator = 未知的運算子 { $operator }
 test-error-invalid-integer = 無效整數 { $value }
-test-error-unary-operator-expected = { $operator }：預期為一元運算子
+test-error-unary-operator-expected = { $operator }: 預期為一元運算子
