@@ -1,3 +1,10 @@
 install-usage = install [選項]... [檔案]...
-install-error-invalid-user = 無效使用者：{ $user }
-install-error-invalid-group = 無效群組：{ $group }
+install-error-invalid-user = 無效使用者: { $user }
+install-error-invalid-group = 無效群組: { $group }
+install-help-ignored = 已忽略
+install-error-create-dir-failed = 無法建立 { $path }
+install-error-chmod-failed = 無法 chmod { $path }
+install-error-chown-failed = 無法 chown { $path }: { $error }
+install-error-backup-failed = 無法備份 { $from } 至 { $to }
+install-error-install-failed = 無法安裝 { $from } 至 { $to }
+install-error-metadata-failed = 詮釋資料錯誤
