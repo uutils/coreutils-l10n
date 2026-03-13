@@ -4,6 +4,6 @@ tsort-about =
     有助於排程與決定執行順序。
     若未傳入檔案，則會改用標準輸入。
 tsort-usage = tsort [選項] 檔案
-tsort-error-is-dir = 讀取錯誤：是個目錄
+tsort-error-is-dir = 讀取錯誤: 是個目錄
 tsort-error-odd = 輸入包含了奇數個標記
-tsort-error-loop = 輸入包含了迴圈：
+tsort-error-loop = 輸入包含了迴圈:
