@@ -1,0 +1,3 @@
+realpath-about = 列印已解析路徑
+realpath-usage = realpath [選項]... 檔案...
+realpath-invalid-empty-operand = 無效運算元: 空字串
