@@ -1,2 +1,9 @@
 wc-usage = wc [選項]... [檔案]...
-wc-error-read-error = { $path }：讀取錯誤
+wc-error-read-error = { $path }: 讀取錯誤
+wc-standard-input = 標準輸入
+wc-help-bytes = 列印位元組計數
+wc-help-chars = 列印字元計數
+wc-help-lines = 列印換行計數
+wc-help-words = 列印單字計數
+decoder-error-invalid-byte-sequence = 無效位元組序列: { $bytes }
+wc-total = 總共
