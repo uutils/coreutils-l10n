@@ -1,1 +1,1 @@
-od-help-help = 列印幫助資訊。
+od-help-help = 列印輔助說明資訊。
