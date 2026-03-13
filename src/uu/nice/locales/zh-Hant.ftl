@@ -4,6 +4,6 @@ nice-about =
     是從 -20（最高優先程度）到 19（最低優先程度）。
 nice-usage = nice [選項] [命令 [引數]...]
 nice-error-command-required-with-adjustment = 命令必須附帶調整方能執行。
-nice-error-invalid-number = 「{ $value }」是無效的數字：{ $error }
-nice-warning-setpriority = { $util_name }：警告：setpriority：{ $error }
+nice-error-invalid-number = 「{ $value }」是無效的數字: { $error }
+nice-warning-setpriority = { $util_name }: 警告: setpriority: { $error }
 nice-help-adjustment = 在優先程度數值上加上數值 N（預設為 10）
