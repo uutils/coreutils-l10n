@@ -1,1 +1,3 @@
 hashsum-usage-specific = { $utility_name } [選項]... [檔案]...
+hashsum-help-tag = 建立 BSD 風格校驗和
+hashsum-error-failed-to-read-input = 無法讀取輸入
