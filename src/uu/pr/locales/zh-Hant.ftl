@@ -1,2 +1,2 @@
-pr-help-help = 列印幫助資訊
+pr-help-help = 列印輔助說明資訊
 pr-usage = pr [選項]... [檔案]...
