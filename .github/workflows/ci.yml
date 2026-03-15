@@ -15,20 +15,9 @@ jobs:
         uses: actions/checkout@v6
         with:
           persist-credentials: false
-
-      - name: Setup Rust toolchain
-        uses: dtolnay/rust-toolchain@master
-        with:
-          toolchain: stable
-          components: rustfmt, clippy
-
+      # pre-installed Rust and python are enough https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2404-Readme.md
       - name: Cache Rust dependencies
         uses: Swatinem/rust-cache@v2
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.x'
 
       - name: Install pre-commit
         run: pip install pre-commit
