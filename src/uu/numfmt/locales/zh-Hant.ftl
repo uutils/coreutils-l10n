@@ -1,2 +1,10 @@
 numfmt-usage = numfmt [選項]... [數字]...
 numfmt-help-zero-terminated = 分行符號為 NUL，而非換行符號
+numfmt-help-to-unit = 輸出單位大小
+numfmt-help-from-unit = 指定輸入單位大小
+numfmt-error-invalid-unit-size = 無效單位大小: { $size }
+numfmt-error-invalid-header = 無效標頭值 { $value }
+numfmt-error-invalid-number-empty = 無效數字: ''
+numfmt-error-invalid-number = 無效數字: { $input }
+numfmt-error-invalid-format-width-overflow = 無效格式 '{ $format }' (寬度溢位)
+numfmt-error-unknown-invalid-mode = 未知無效模式: { $mode }
