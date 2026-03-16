@@ -8,3 +8,4 @@ install-error-chown-failed = 無法 chown { $path }: { $error }
 install-error-backup-failed = 無法備份 { $from } 至 { $to }
 install-error-install-failed = 無法安裝 { $from } 至 { $to }
 install-error-metadata-failed = 詮釋資料錯誤
+install-error-missing-file-operand = 缺少檔案運算元
