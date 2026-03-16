@@ -3,3 +3,7 @@ ls-error-cannot-access-no-such-file = 無法存取 '{ $path }': 沒有此一檔�
 ls-usage = ls [選項]... [檔案]...
 ls-help-file-type = 與 --classify 相同，但不附加 '*'
 ls-total = 總共 { $size }
+ls-error-unknown-io-error = 未知 io 錯誤: '{ $path }'，'{ $error }'
+ls-error-invalid-block-size = 無效 --block-size 引數 { $size }
+ls-error-dired-and-zero-incompatible = --dired 與 --zero 並不相容
+ls-help-set-display-format = 設定顯示格式。
