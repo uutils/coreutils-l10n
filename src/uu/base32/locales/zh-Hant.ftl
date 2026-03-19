@@ -7,3 +7,4 @@ base-common-read-error = 讀取錯誤: { $error }
 basenc-error-missing-encoding-type = 缺少編碼類型
 base-common-help-decode = 解碼資料
 basenc-help-base32 = 與 'base32' 程式相同
+base-common-extra-operand = 額外運算元 { $operand }
