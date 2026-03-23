@@ -1,1 +1,10 @@
 rm-error-cannot-remove-no-such-file = 無法刪除 { $file }: 沒有此一檔案或目錄
+rm-usage = rm [選項]... 檔案...
+rm-progress-removing = 正在移除
+rm-help-preserve-root = 不要移除 '/' (預設)
+rm-error-cannot-remove = 無法移除 { $file }
+rm-error-cannot-remove-is-directory = 無法移除 { $file }: 是個目錄
+rm-help-dir = 移除空目錄
+rm-verbose-removed = 已移除 { $file }
+rm-verbose-removed-directory = 已移除目錄 { $file }
+rm-help-verbose = 解釋做了什麼事情
