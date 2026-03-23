@@ -11,3 +11,4 @@ dd-progress-byte-copied = { $bytes } 位元組已複製，{ $duration } 秒，{ 
 dd-progress-bytes-copied = { $bytes } 位元組已複製，{ $duration } 秒，{ $rate }/秒
 dd-error-unimplemented = 功能尚未在此系統上實作 -> { $feature }
 dd-error-invalid-number = 無效數字: ‘{ $input }’
+dd-error-unrecognized-operand = 無法辨識的運算元 '{ $operand }'
