@@ -8,3 +8,5 @@ basenc-error-missing-encoding-type = 缺少編碼類型
 base-common-help-decode = 解碼資料
 basenc-help-base32 = 與 'base32' 程式相同
 base-common-extra-operand = 額外運算元 { $operand }
+basenc-help-base16 = 十六進位編碼
+base-common-invalid-wrap-size = 無效包裝大小: { $size }
