@@ -1,4 +1,4 @@
-shred-no-such-file-or-directory = { $file }: 沒有此一檔案或目錄
+shred-no-such-file-or-directory = { $file }: 沒有此檔案或目錄
 shred-usage = shred [選項]... 檔案...
 shred-invalid-file-size = 無效檔案大小: { $size }
 shred-not-a-file = { $file }: 不是檔案
