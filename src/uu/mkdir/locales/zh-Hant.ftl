@@ -1,4 +1,4 @@
-mkdir-error-empty-directory-name = 無法建立目錄 '': 沒有此一檔案或目錄
+mkdir-error-empty-directory-name = 無法建立目錄 '': 沒有此檔案或目錄
 mkdir-about = 若指定的目錄不存在，則建立該目錄
 mkdir-usage = mkdir [選項]... 目錄...
 mkdir-after-help = 每種模式皆採用以下形式: [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+。
