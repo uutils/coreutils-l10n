@@ -1,5 +1,5 @@
 basenc-help-base64 = 與 'base64' 程式相同
-base-common-no-such-file = { $file }: 沒有此一檔案或目錄
+base-common-no-such-file = { $file }: 沒有此檔案或目錄
 base32-usage = base32 [選項]... [檔案]
 base64-usage = base64 [選項]... [檔案]
 basenc-usage = basenc [選項]... [檔案]
