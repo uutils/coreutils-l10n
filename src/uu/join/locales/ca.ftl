@@ -3,3 +3,4 @@ join-about =
     la sortida estàndard. El camp d'unió per defecte és el primer, delimitat per blancs.
 
     Quan FITXER1 o FITXER2 (no ambdós) és -, llegeix d'entrada estàndard.
+join-help-check-order = comprova que l'entrada està correctament ordenada, fins i tot si totes les línies d'entrada és poden emparellar
