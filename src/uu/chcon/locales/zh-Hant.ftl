@@ -1,4 +1,4 @@
-chcon-help-help = 列印輔助說明資訊。
+chcon-help-help = 列印幫助資訊。
 chcon-error-operation-failed = { $operation } 失敗
 chcon-op-file-name-validation = 檔案名稱認證
 chcon-op-getting-meta-data = 正在取得詮釋資料
