@@ -11,3 +11,6 @@ mv-prompt-overwrite = 覆寫 { $target }?
 mv-verbose-renamed-with-backup = 已重新命名 { $from } -> { $to } (備份: { $backup })
 mv-verbose-renamed = 已重新命名 { $from } -> { $to }
 mv-progress-moving = 正在移動
+mv-error-failed-access-not-directory = 無法存取 { $path }: 不是目錄
+mv-error-not-directory = 目標 { $path }: 不是目錄
+mv-error-target-not-directory = 目標目錄 { $path }: 不是目錄
