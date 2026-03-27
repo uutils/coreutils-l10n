@@ -13,3 +13,7 @@ cp-error-missing-file-operand = 缺少檔案運算元
 cp-help-interactive = 在覆寫檔案前詢問
 cp-help-no-clobber = 不要覆寫已存在的檔案
 cp-error-extra-operand = 額外運算元 { $operand }
+cp-help-progress = 顯示進度條。注意: GNU coreutils 不支援此功能。
+cp-error-same-file = { $source } 與 { $dest } 是同個檔案
+cp-error-target-not-directory = 目標: { $target } 不是目錄
+cp-error-not-a-directory = { $path } 不是目錄
