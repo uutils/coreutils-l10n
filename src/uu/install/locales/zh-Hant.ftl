@@ -9,3 +9,10 @@ install-error-backup-failed = 無法備份 { $from } 至 { $to }
 install-error-install-failed = 無法安裝 { $from } 至 { $to }
 install-error-metadata-failed = 詮釋資料錯誤
 install-error-missing-file-operand = 缺少檔案運算元
+install-error-same-file = '{ $file1 }' 與 '{ $file2 }' 是同個檔案
+install-error-invalid-target = 無效目標 { $path }: 沒有此檔案或目錄
+install-error-extra-operand =
+    額外運算元 { $operand }
+    { $usage }
+install-error-target-not-dir = 目標 { $path } 不是目錄
+install-error-not-a-directory = 無法存取 { $path }: 不是目錄
