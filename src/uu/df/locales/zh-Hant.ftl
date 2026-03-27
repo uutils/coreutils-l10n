@@ -1,5 +1,5 @@
-df-help-print-help = 列印輔助說明資訊。
-df-error-no-such-file-or-directory = { $path }: 沒有此一檔案或目錄
+df-help-print-help = 列印幫助資訊。
+df-error-no-such-file-or-directory = { $path }: 沒有此檔案或目錄
 df-header-filesystem = 檔案系統
 df-header-file = 檔案
 df-header-size = 大小
