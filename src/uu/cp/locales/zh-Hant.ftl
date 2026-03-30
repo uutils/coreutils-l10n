@@ -17,3 +17,5 @@ cp-help-progress = 顯示進度條。注意: GNU coreutils 不支援此功能。
 cp-error-same-file = { $source } 與 { $dest } 是同個檔案
 cp-error-target-not-directory = 目標: { $target } 不是目錄
 cp-error-not-a-directory = { $path } 不是目錄
+cp-debug-enum-yes = 是
+cp-debug-enum-zeros = 零
