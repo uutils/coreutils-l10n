@@ -1,3 +1,4 @@
 nl-help-help = 列印幫助資訊。
 nl-usage = nl [選項]... [檔案]...
 nl-error-is-directory = { $path }: 是個目錄
+nl-error-invalid-regex = 無效正規表達式
