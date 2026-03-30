@@ -14,3 +14,4 @@ df-header-capacity = 容量
 df-help-print-type = 顯示檔案系統類型
 df-usage = df [選項]... [檔案]...
 df-total = 總共
+df-help-kilo = 像是 --block-size=1K
