@@ -12,3 +12,5 @@ stat-word-access = 存取
 stat-word-modify = 修改
 stat-word-blocks = 區塊
 stat-word-total = 總共
+stat-word-id = ID
+stat-word-block = 區塊
