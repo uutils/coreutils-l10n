@@ -6,3 +6,7 @@ pinky-column-name = 名稱
 pinky-column-tty = TTY
 pinky-usage = pinky [選項]... [使用者]...
 pinky-shell-label = Shell:
+pinky-column-when = 何時
+pinky-column-where = 何處
+pinky-plan-label = 計畫
+pinky-login-name-label = 登入名稱:
