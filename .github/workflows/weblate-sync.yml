@@ -41,9 +41,44 @@ jobs:
         https://hosted.weblate.org/api/ = ${{ secrets.WEBLATE_API_KEY }}
         EOF
 
+    - name: Install Mozilla Fluent Linter
+      run: |
+        pip install moz-fluent-linter
+
     - name: Pull translations from Weblate
       run: |
         wlc pull rust-coreutils
+
+    - name: Fix Fluent syntax issues
+      run: |
+        # Ensure all .ftl files end with a newline
+        find src/uu/*/locales -name "*.ftl" -type f | while read -r f; do
+          if [ -s "$f" ] && [ "$(tail -c1 "$f" | wc -l)" -eq 0 ]; then
+            echo "" >> "$f"
+            echo "Fixed missing newline: $f"
+          fi
+        done
+
+        # Fix ## group comments to # single comments (Fluent syntax)
+        find src/uu/*/locales -name "*.ftl" -type f | while read -r f; do
+          if grep -qP '^## ' "$f"; then
+            sed -i 's/^## /# /' "$f"
+            echo "Fixed ## comments: $f"
+          fi
+        done
+
+    - name: Validate Fluent syntax
+      run: |
+        has_errors=false
+        for dir in $(find src/uu/*/locales -name "*.ftl" -type f -exec dirname {} \; | sort -u); do
+          if ! moz-fluent-lint --config .github/fluent_linter_config.yml "$dir"; then
+            echo "::warning::Fluent syntax issues in $dir"
+            has_errors=true
+          fi
+        done
+        if [ "$has_errors" = true ]; then
+          echo "::warning::Some Fluent files have syntax issues that could not be auto-fixed"
+        fi
 
     - name: Commit and push translations
       run: |
