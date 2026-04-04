@@ -13,6 +13,7 @@ on:
     branches: [ main ]
     paths:
       - 'src/uu/*/locales/en-US.ftl'
+      - 'src/uucore/locales/en-US.ftl'
       - 'src/uu/*/src/*.rs'
 
 jobs:
@@ -52,7 +53,7 @@ jobs:
     - name: Fix Fluent syntax issues
       run: |
         # Ensure all .ftl files end with a newline
-        find src/uu/*/locales -name "*.ftl" -type f | while read -r f; do
+        find src/uu/*/locales src/uucore/locales -name "*.ftl" -type f | while read -r f; do
           if [ -s "$f" ] && [ "$(tail -c1 "$f" | wc -l)" -eq 0 ]; then
             echo "" >> "$f"
             echo "Fixed missing newline: $f"
@@ -60,7 +61,7 @@ jobs:
         done
 
         # Fix ## group comments to # single comments (Fluent syntax)
-        find src/uu/*/locales -name "*.ftl" -type f | while read -r f; do
+        find src/uu/*/locales src/uucore/locales -name "*.ftl" -type f | while read -r f; do
           if grep -qP '^## ' "$f"; then
             sed -i 's/^## /# /' "$f"
             echo "Fixed ## comments: $f"
@@ -70,7 +71,7 @@ jobs:
     - name: Validate Fluent syntax
       run: |
         has_errors=false
-        for dir in $(find src/uu/*/locales -name "*.ftl" -type f -exec dirname {} \; | sort -u); do
+        for dir in $(find src/uu/*/locales src/uucore/locales -name "*.ftl" -type f -exec dirname {} \; | sort -u); do
           if ! moz-fluent-lint --config .github/fluent_linter_config.yml "$dir"; then
             echo "::warning::Fluent syntax issues in $dir"
             has_errors=true
@@ -86,7 +87,7 @@ jobs:
         git config --local user.name "GitHub Action"
 
         if [ -n "$(git status --porcelain)" ]; then
-          git add src/uu/*/locales/*.ftl
+          git add src/uu/*/locales/*.ftl src/uucore/locales/*.ftl
           git commit -m "Update translations from Weblate"
           git push
         else

@@ -25,6 +25,11 @@ fluent_monolingual = true
 base_file_template = src/uu/*/locales/en-US.ftl
 filemask = src/uu/*/locales/*.ftl
 
+# uucore shared strings
+[files.uucore]
+base_file_template = src/uucore/locales/en-US.ftl
+filemask = src/uucore/locales/*.ftl
+
 # GitHub integration
 [github]
 # Enable repository webhooks for automatic sync
