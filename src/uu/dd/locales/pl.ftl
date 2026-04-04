@@ -105,12 +105,12 @@ dd-after-help =
 
     ### Flagi ogólne
 
-    - direct: używa bezpośredniego wejścia/wyjścia dla danych.
+    - direct: używa bezpośredniego wejścia-wyjścia dla danych.
     - directory: błąd, chyba że podane dane wejściowe (jeśli używane jako znacznik
       iflag) lub wyjściowe (jeśli używane jako znacznik oflag) są katalogiem.
-    - dsync: używa zsynchronizowanego wejścia/wyjścia dla danych.
-    - sync: używa zsynchronizowanego wejścia/wyjścia dla danych i metadanych.
-    - nonblock: używa nieblokującego wejścia/wyjścia.
+    - dsync: używa zsynchronizowanego wejścia-wyjścia dla danych.
+    - sync: używa zsynchronizowanego wejścia-wyjścia dla danych i metadanych.
+    - nonblock: używa nieblokującego wejścia-wyjścia.
     - noatime: nie aktualizuje czasu dostępu.
     - nocache: żąda usunięcia pamięci podręcznej przez system operacyjny.
     - noctty: nie przypisuje kontrolującego terminala (tty).
