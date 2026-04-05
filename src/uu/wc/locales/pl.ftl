@@ -13,7 +13,7 @@ wc-help-total =
     KIEDY może być: auto, always, only, never
 wc-help-words = wypisuje liczbę słów
 wc-error-files-disabled =
-    dodatkowy operand '{ $extra }'
+    dodatkowy operand { $extra }
     operandów pliku nie można łączyć z opcją --files0-from
 wc-error-stdin-repr-not-allowed = podczas odczyty nazw plików ze standardowego wejścia nie jest dozwolone używanie znaku '-' w nazwie pliku
 wc-error-zero-length-filename = nieprawidłowa nazwa pliku o zerowej długości
@@ -26,3 +26,8 @@ decoder-error-invalid-byte-sequence = nieprawidłowa sekwencja bajtów: { $bytes
 decoder-error-io = podstawowy błąd strumienia bajtów: { $error }
 wc-standard-input = standardowe wejście
 wc-total = razem
+wc-debug-hw-unavailable = debugowanie: obsługa sprzętowa niedostępna w tym procesorze
+wc-debug-hw-using = debugowanie: korzystanie ze wsparcia sprzętowego (funkcje: { $features })
+wc-debug-hw-disabled-env = debugowanie: obsługa sprzętowa wyłączona przez środowisko
+wc-debug-hw-disabled-glibc = debugowanie: obsługa sprzętowa wyłączona przez GLIBC_TUNABLES ({ $features })
+wc-debug-hw-limited-glibc = debugowanie: obsługa sprzętowa ograniczona przez GLIBC_TUNABLES (wyłączone: { $disabled }; włączone: { $enabled })
