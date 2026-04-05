@@ -106,3 +106,6 @@ cp-debug-copy-offload = odciążenie kopiowania: { $offload }, reflink: { $refli
 cp-prompt-overwrite = nadpisać { $path }?
 cp-prompt-overwrite-with-mode = zastępuje { $path }, tryb obejścia
 cp-verbose-removed = usunięto { $path }
+cp-error-selinux-context-conflict = nie można łączyć --context (-Z) z --preserve=context
+cp-error-cannot-create-special-file = nie można utworzyć pliku specjalnego { $path }: { $error }
+cp-error-setting-attributes = ustawianie atrybutów dla { $path }
