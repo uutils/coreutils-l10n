@@ -1,0 +1,63 @@
+name: Upstream Source Locale Sync
+
+on:
+  # Run daily to pick up new source strings from uutils/coreutils
+  schedule:
+    - cron: '0 3 * * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  sync-upstream-sources:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+      with:
+        token: ${{ secrets.WEBLATE_TOKEN || github.token }}
+        fetch-depth: 0
+
+    - name: Clone upstream uutils/coreutils
+      run: |
+        git clone --depth 1 https://github.com/uutils/coreutils.git /tmp/upstream-coreutils
+
+    - name: Sync en-US and fr-FR source locales
+      run: |
+        set -e
+
+        # Copy en-US.ftl and fr-FR.ftl from upstream for every utility/uucore
+        # dir that exists in both repos. Directories that only exist upstream
+        # (e.g. b2sum, md5sum, sha*sum, checksum_common — unified as hashsum
+        # here) or only here (e.g. vdir) are skipped.
+        changed=0
+        for locale in en-US.ftl fr-FR.ftl; do
+          while IFS= read -r src; do
+            rel="${src#/tmp/upstream-coreutils/}"
+            dst="$rel"
+            if [ -f "$dst" ] && ! cmp -s "$src" "$dst"; then
+              cp "$src" "$dst"
+              echo "Updated: $dst"
+              changed=$((changed + 1))
+            fi
+          done < <(find /tmp/upstream-coreutils/src/uu/*/locales /tmp/upstream-coreutils/src/uucore/locales -name "$locale" -type f 2>/dev/null)
+        done
+        echo "Source locale files updated: $changed"
+
+    - name: Commit and push
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        if [ -n "$(git status --porcelain)" ]; then
+          find src/uu/*/locales src/uucore/locales \
+            \( -name 'en-US.ftl' -o -name 'fr-FR.ftl' \) -type f -print0 \
+            | xargs -0 git add --
+          git commit -m "Sync en-US/fr-FR source locales from upstream uutils/coreutils"
+          # Pushing to main here will trigger weblate-sync.yml (on: push,
+          # paths: en-US.ftl), which handles pushing sources to Weblate.
+          git push
+        else
+          echo "No upstream source updates"
+        fi

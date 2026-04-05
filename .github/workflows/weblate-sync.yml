@@ -27,42 +27,6 @@ jobs:
         token: ${{ secrets.WEBLATE_TOKEN || github.token }}
         fetch-depth: 0
 
-    - name: Sync source locales from upstream uutils/coreutils
-      id: sync_sources
-      run: |
-        set -e
-        git clone --depth 1 https://github.com/uutils/coreutils.git /tmp/upstream-coreutils
-
-        # Copy en-US.ftl and fr-FR.ftl from upstream for every utility/uucore
-        # dir that exists in both repos. Directories that only exist upstream
-        # (e.g. b2sum, md5sum, sha*sum, checksum_common — unified as hashsum
-        # here) or only here (e.g. vdir) are skipped.
-        changed=0
-        for locale in en-US.ftl fr-FR.ftl; do
-          while IFS= read -r src; do
-            rel="${src#/tmp/upstream-coreutils/}"
-            dst="$rel"
-            if [ -f "$dst" ] && ! cmp -s "$src" "$dst"; then
-              cp "$src" "$dst"
-              echo "Updated: $dst"
-              changed=$((changed + 1))
-            fi
-          done < <(find /tmp/upstream-coreutils/src/uu/*/locales /tmp/upstream-coreutils/src/uucore/locales -name "$locale" -type f 2>/dev/null)
-        done
-        echo "Source locale files updated: $changed"
-        echo "changed=$changed" >> "$GITHUB_OUTPUT"
-
-    - name: Commit and push source locale updates
-      if: steps.sync_sources.outputs.changed != '0'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        find src/uu/*/locales src/uucore/locales \
-          \( -name 'en-US.ftl' -o -name 'fr-FR.ftl' \) -type f -print0 \
-          | xargs -0 git add --
-        git commit -m "Sync en-US/fr-FR source locales from upstream uutils/coreutils"
-        git push
-
     - name: Install Weblate CLI
       run: |
         pip install wlc
@@ -135,7 +99,7 @@ jobs:
         fi
 
     - name: Push source changes to Weblate
-      if: github.event_name == 'push' || steps.sync_sources.outputs.changed != '0'
+      if: github.event_name == 'push'
       run: |
         # Lock translations to prevent conflicts
         wlc lock rust-coreutils
