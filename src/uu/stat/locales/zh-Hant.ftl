@@ -14,3 +14,5 @@ stat-word-blocks = 區塊
 stat-word-total = 總共
 stat-word-id = ID
 stat-word-block = 區塊
+stat-word-inodes = Inodes
+stat-word-inode = Inode
