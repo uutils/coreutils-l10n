@@ -156,3 +156,5 @@ dd-progress-bytes-copied-si = { $bytes } bajtów ({ $si }) skopiowano, { $durati
 dd-progress-bytes-copied-si-iec = { $bytes } bajtów ({ $si }, { $iec }) skopiowano, { $duration } s, { $rate }/s
 dd-warning-zero-multiplier = { $zero } to mnożnik zerowy; użyj { $alternative }, jeśli jest to zamierzone
 dd-warning-signal-handler = Wewnętrzne ostrzeżenie dd: nie można zarejestrować obsługi sygnału
+dd-standard-input = „standardowe wejście”
+dd-standard-output = „standardowe wyjście”
