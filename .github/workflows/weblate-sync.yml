@@ -52,6 +52,17 @@ jobs:
         echo "Source locale files updated: $changed"
         echo "changed=$changed" >> "$GITHUB_OUTPUT"
 
+    - name: Commit and push source locale updates
+      if: steps.sync_sources.outputs.changed != '0'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        find src/uu/*/locales src/uucore/locales \
+          \( -name 'en-US.ftl' -o -name 'fr-FR.ftl' \) -type f -print0 \
+          | xargs -0 git add --
+        git commit -m "Sync en-US/fr-FR source locales from upstream uutils/coreutils"
+        git push
+
     - name: Install Weblate CLI
       run: |
         pip install wlc
