@@ -11,12 +11,12 @@ truncate-after-help =
         „G” => 1024*1024*1024 (gibibajty)
     ROZMIAR można również poprzedzić jednym z poniższych prefiksów, aby
     dostosować rozmiar każdego pliku na podstawie jego bieżącego rozmiaru:
-        „+” => zwiększ o
-        „-” => zmniejsz o
+        „+” => zwiększa o
+        „-” => zmniejsza o
         „<” => maksymalnie
         „>” => co najmniej
-        „/” => zaokrąglij w dół do wielokrotności
-        „%” => zaokrąglij w górę do wielokrotności
+        „/” => zaokrągla w dół do wielokrotności
+        „%” => zaokrągla w górę do wielokrotności
 truncate-help-io-blocks = traktuje ROZMIAR jako liczbę bloków wejścia-wyjścia pliku, a nie bajtów (NIE WDROŻONO)
 truncate-help-no-create = nie tworzy plików, które nie istnieją
 truncate-help-reference = rozmiar każdego pliku należy uzależnić od rozmiaru PLIKU_WZ
