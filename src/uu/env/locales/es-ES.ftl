@@ -12,6 +12,9 @@ env-help-debug = mostrar información detallada para cada paso de procesamiento
 env-help-split-string = procesar y dividir S en argumentos separados; usado para pasar múltiples argumentos en líneas shebang
 env-help-argv0 = Anular el argumento cero pasado al comando siendo ejecutado. Sin esta opción se usa un valor por defecto de `command`.
 env-help-ignore-signal = establecer manejo de señal(es) SIG a no hacer nada
+env-help-default-signal = restablecer el manejo de la(s) señal(es) SIG a la acción predeterminada
+env-help-block-signal = bloquear la entrega de la(s) señal(es) SIG mientras se ejecuta COMMAND
+env-help-list-signal-handling = listar los cambios en el manejo de señales solicitados por las opciones anteriores
 
 # Error messages
 env-error-missing-closing-quote = no hay comilla terminante en cadena -S en posición { $position } para comilla '{ $quote }'
