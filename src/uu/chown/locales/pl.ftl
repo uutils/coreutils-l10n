@@ -19,3 +19,4 @@ chown-error-failed-to-get-attributes = nie udało się pobrać atrybutów pliku 
 chown-error-invalid-user = nieprawidłowy użytkownik: { $user }
 chown-error-invalid-group = nieprawidłowa grupa: { $group }
 chown-error-invalid-spec = nieprawidłowa specyfikacja: { $spec }
+chown-warning-dot-separator = '.' powinno być ':': { $spec }
