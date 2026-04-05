@@ -19,3 +19,5 @@ cp-error-target-not-directory = 目標: { $target } 不是目錄
 cp-error-not-a-directory = { $path } 不是目錄
 cp-debug-enum-yes = 是
 cp-debug-enum-zeros = 零
+cp-debug-enum-no = 否
+cp-debug-enum-unsupported = 不被支援
