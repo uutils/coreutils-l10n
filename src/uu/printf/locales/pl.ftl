@@ -250,6 +250,6 @@ printf-after-help =
     dodatkowe bajty, zgłoszą błąd (chyba że zmienna środowiskowa POSIXLY_CORRECT
     jest ustawiona)
 printf-error-missing-operand = brak operandu
-printf-warning-ignoring-excess-arguments = ignorowanie nadmiarowego argumentu, zaczynanie od '{ $arg }'
+printf-warning-ignoring-excess-arguments = ignorowanie nadmiarowego argumentu, zaczynanie od { $arg }
 printf-help-version = Wypisuje informacje dotyczące wersji
 printf-help-help = Wypisuje informacje dotyczące pomocy
