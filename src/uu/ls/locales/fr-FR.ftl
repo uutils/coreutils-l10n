@@ -1,17 +1,25 @@
-ls-about = Lister le contenu des répertoires.
-  Ignorer les fichiers et répertoires commençant par un '.' par défaut
+ls-about = Liste le contenu des répertoires.
+  Ignore les fichiers et répertoires commençant par un '.' par défaut
+dir-about = Liste le contenu des répertoires.
+  Ignore les fichiers et répertoires commençant par un '.' par défaut
+vdir-about = Liste le contenu des répertoires.
+  Ignore les fichiers et répertoires commençant par un '.' par défaut
+
+  Les arguments obligatoires pour les options longues le sont aussi pour les options courtes.
 ls-usage = ls [OPTION]... [FICHIER]...
+dir-usage = dir [OPTION]... [FICHIER]...
+vdir-usage = vdir [OPTION]... [FICHIER]...
 ls-after-help = L'argument TIME_STYLE peut être full-iso, long-iso, iso, locale ou +FORMAT. FORMAT est interprété comme dans date. De plus, la variable d'environnement TIME_STYLE définit le style par défaut à utiliser.
 
 # Messages d'erreur
 ls-error-invalid-line-width = largeur de ligne invalide : {$width}
 ls-error-general-io = erreur d'E/S générale : {$error}
-ls-error-cannot-access-no-such-file = impossible d'accéder à '{$path}' : Aucun fichier ou répertoire de ce type
-ls-error-cannot-access-operation-not-permitted = impossible d'accéder à '{$path}' : Opération non autorisée
-ls-error-cannot-open-directory-permission-denied = impossible d'ouvrir le répertoire '{$path}' : Permission refusée
-ls-error-cannot-open-file-permission-denied = impossible d'ouvrir le fichier '{$path}' : Permission refusée
-ls-error-cannot-open-directory-bad-descriptor = impossible d'ouvrir le répertoire '{$path}' : Mauvais descripteur de fichier
-ls-error-unknown-io-error = erreur d'E/S inconnue : '{$path}', '{$error}'
+ls-error-cannot-access-no-such-file = impossible d'accéder à {$path} : Aucun fichier ou répertoire de ce type
+ls-error-cannot-access-operation-not-permitted = impossible d'accéder à {$path} : Opération non autorisée
+ls-error-cannot-open-directory-permission-denied = impossible d'ouvrir le répertoire {$path} : Permission refusée
+ls-error-cannot-open-file-permission-denied = impossible d'ouvrir le fichier {$path} : Permission refusée
+ls-error-cannot-open-directory-bad-descriptor = impossible d'ouvrir le répertoire {$path} : Mauvais descripteur de fichier
+ls-error-unknown-io-error = erreur d'E/S inconnue : {$path}, '{$error}'
 ls-error-invalid-block-size = argument --block-size invalide {$size}
 ls-error-dired-and-zero-incompatible = --dired et --zero sont incompatibles
 ls-error-not-listing-already-listed = {$path} : ne liste pas un répertoire déjà listé
@@ -47,7 +55,7 @@ ls-help-escape-quoting-style = Utiliser le style de citation d'échappement. Éq
 ls-help-c-quoting-style = Utiliser le style de citation C. Équivalent à `--quoting-style=c`
 ls-help-replace-control-chars = Remplacer les caractères de contrôle par '?' s'ils ne sont pas échappés.
 ls-help-show-control-chars = Afficher les caractères de contrôle 'tels quels' s'ils ne sont pas échappés.
-ls-help-show-time-field = Afficher l'heure dans <champ> :
+ls-help-show-time-field = Afficher l'heure dans `<champ>` :
     heure d'accès (-u) : atime, access, use ;
     heure de changement (-t) : ctime, status.
     heure de modification : mtime, modification.
@@ -63,7 +71,7 @@ ls-help-time-access = Si le format de liste long (par ex., -l, -o) est utilisé,
 ls-help-hide-pattern = ne pas lister les entrées implicites correspondant au MOTIF shell (surchargé par -a ou -A)
 ls-help-ignore-pattern = ne pas lister les entrées implicites correspondant au MOTIF shell
 ls-help-ignore-backups = Ignorer les entrées qui se terminent par ~.
-ls-help-sort-by-field = Trier par <champ> : name, none (-U), time (-t), size (-S), extension (-X) ou width
+ls-help-sort-by-field = Trier par `<champ>` : name, none (-U), time (-t), size (-S), extension (-X) ou width
 ls-help-sort-by-size = Trier par taille de fichier, le plus grand en premier.
 ls-help-sort-by-time = Trier par heure de modification (le 'mtime' dans l'inode), le plus récent en premier.
 ls-help-sort-by-version = Tri naturel des numéros (de version) dans les noms de fichiers.
@@ -123,4 +131,6 @@ ls-invalid-quoting-style = {$program} : Ignorer la valeur invalide de la variabl
 ls-invalid-columns-width = ignorer la largeur invalide dans la variable d'environnement COLUMNS : {$width}
 ls-invalid-ignore-pattern = Motif invalide pour ignore : {$pattern}
 ls-invalid-hide-pattern = Motif invalide pour hide : {$pattern}
+ls-warning-unrecognized-ls-colors-prefix = préfixe non reconnu : {$prefix}
+ls-warning-unparsable-ls-colors = valeur illisible pour la variable d'environnement LS_COLORS
 ls-total = total {$size}
