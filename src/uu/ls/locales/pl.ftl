@@ -5,12 +5,12 @@ ls-usage = ls [OPCJA]... [PLIK]...
 ls-after-help = Argument TIME_STYLE może być full-iso, long-iso, iso, locale lub +FORMAT. FORMAT jest interpretowany jak w przypadku daty. Zmienna środowiskowa TIME_STYLE ustawia również domyślny styl.
 ls-error-invalid-line-width = nieprawidłowa szerokość wiersza: { $width }
 ls-error-general-io = ogólny błąd wejścia-wyjścia: { $error }
-ls-error-cannot-access-no-such-file = nie można uzyskać dostępu do '{ $path }': nie ma takiego pliku ani katalogu
-ls-error-cannot-access-operation-not-permitted = nie można uzyskać dostępu do '{ $path }': operacja niedozwolona
-ls-error-cannot-open-directory-permission-denied = nie można otworzyć katalogu '{ $path }': odmowa dostępu
-ls-error-cannot-open-file-permission-denied = nie można otworzyć pliku '{ $path }': odmowa dostępu
-ls-error-cannot-open-directory-bad-descriptor = nie można otworzyć katalogu '{ $path }': błędny deskryptor pliku
-ls-error-unknown-io-error = nieznany błąd wejścia-wyjścia: '{ $path }', '{ $error }'
+ls-error-cannot-access-no-such-file = nie można uzyskać dostępu do { $path }: nie ma takiego pliku ani katalogu
+ls-error-cannot-access-operation-not-permitted = nie można uzyskać dostępu do { $path }: operacja niedozwolona
+ls-error-cannot-open-directory-permission-denied = nie można otworzyć katalogu { $path }: odmowa dostępu
+ls-error-cannot-open-file-permission-denied = nie można otworzyć pliku { $path }: odmowa dostępu
+ls-error-cannot-open-directory-bad-descriptor = nie można otworzyć katalogu { $path }: błędny deskryptor pliku
+ls-error-unknown-io-error = nieznany błąd wejścia-wyjścia: { $path }, '{ $error }'
 ls-error-invalid-block-size = nieprawidłowy argument --block-size { $size }
 ls-error-dired-and-zero-incompatible = --dired i --zero są niekompatybilne
 ls-error-not-listing-already-listed = { $path }: nie wyświetla już wymienionego katalogu
@@ -47,7 +47,7 @@ ls-help-c-quoting-style = Używa stylu cytowania C. Odpowiednik `--quoting-style
 ls-help-replace-control-chars = Zastępuje znaki kontrolne znakiem '?', jeśli nie są one poprzedzone znakiem ucieczki.
 ls-help-show-control-chars = Pokazuje znaki kontrolne „tak jak są”, jeśli nie zostały one zastąpione znakami ucieczki.
 ls-help-show-time-field =
-    Pokazuje czas w <field>:
+    Pokazuje czas w „<field>”:
     czas dostępu (-u): atime, access, use;
     czas zmiany (-t): ctime, status.
     czas modyfikacji: mtime, modification.
@@ -65,7 +65,7 @@ ls-help-time-access =
 ls-help-hide-pattern = nie wyświetla wpisów domyślnych pasujących do WZORCA powłoki (zastąpione przez -a lub -A)
 ls-help-ignore-pattern = nie wyświetla wpisów domniemanych pasujących do WZORCA powłoki
 ls-help-ignore-backups = Ignoruje wpisy kończące się znakiem ~.
-ls-help-sort-by-field = Sortuje według <field>: name, none (-U), time (-t), size (-S), extension (-X) lub width
+ls-help-sort-by-field = Sortuje według „<field>”: name, none (-U), time (-t), size (-S), extension (-X) lub width
 ls-help-sort-by-size = Sortuje według rozmiaru pliku, od największego.
 ls-help-sort-by-time = Sortuje według czasu modyfikacji ('mtime' w i-węźle), od najnowszego.
 ls-help-sort-by-version = Naturalne sortowanie numerów (wersji) w nazwach plików.
@@ -138,3 +138,22 @@ ls-invalid-ignore-pattern = Nieprawidłowy wzorzec dla 'ignore': { $pattern }
 ls-invalid-hide-pattern = Nieprawidłowy wzorzec dla 'hide': { $pattern }
 ls-total = razem { $size }
 ls-help-unsorted-all = Wyświetla wszystkie pliki w kolejności katalogów, bez sortowania. Odpowiednik opcji -aU. Wyłącza opcję --color, chyba że zostanie ona wyraźnie określona.
+dir-about =
+    Wyświetla zawartość katalogów.
+    Domyślnie ignoruje pliki i katalogi zaczynające się od '.'
+vdir-about =
+    Wyświetla zawartość katalogów.
+    Domyślnie ignoruje pliki i katalogi rozpoczynające się od znaku '.'
+
+    Obowiązkowe argumenty dla długich opcji są również obowiązkowe dla krótkich opcji.
+dir-usage = dir [OPCJA]... [PLIK]...
+vdir-usage = vdir [OPCJA]... [PLIK]...
+ls-error-not-directory = nie można uzyskać dostępu do { $path }: nie jest to katalog
+ls-warning-unrecognized-ls-colors-prefix = nierozpoznany prefiks: { $prefix }
+ls-warning-unparsable-ls-colors = niemożliwa do przeanalizowania wartość zmiennej środowiskowej LS_COLORS
+ls-warning-failed-to-get-security-context = nie udało się uzyskać kontekstu zabezpieczeń: { $path }
+ls-warning-getting-security-context = uzyskiwanie kontekstu zabezpieczeń: { $path }: { $error }
+smack-error-not-enabled = nie włączono SMACK w tym systemie
+smack-error-label-retrieval-failure = nie udało się uzyskać etykiety SMACK: { $error }
+smack-error-label-set-failure = nie udało się ustawić etykiety SMACK na '{ $context }': { $error }
+smack-error-no-label-set = brak zestawu etykiet SMACK
