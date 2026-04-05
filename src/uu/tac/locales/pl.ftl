@@ -6,5 +6,6 @@ tac-help-separator = używanie NAPISU jako separatora zamiast nowego wiersza
 tac-error-invalid-regex = nieprawidłowe wyrażenie regularne: { $error }
 tac-error-invalid-argument = { $argument }: błąd odczytu: nieprawidłowy argument
 tac-error-file-not-found = nie udało się otworzyć pliku { $filename } do odczytu: nie ma takiego pliku ani katalogu
-tac-error-read-error = nie udało się odczytać { $filename }: { $error }
+tac-error-read-error = { $filename }: błąd odczytu: { $error }
 tac-error-write-error = nie udało się zapisać do stdout: { $error }
+tac-error-open-error = nie udało się otworzyć { $filename } do odczytu: { $error }
