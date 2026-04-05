@@ -158,3 +158,4 @@ dd-warning-zero-multiplier = { $zero } to mnożnik zerowy; użyj { $alternative 
 dd-warning-signal-handler = Wewnętrzne ostrzeżenie dd: nie można zarejestrować obsługi sygnału
 dd-standard-input = „standardowe wejście”
 dd-standard-output = „standardowe wyjście”
+dd-error-failed-discard-cache = nie udało się usunąć pamięci podręcznej dla: { $file }
