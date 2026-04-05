@@ -28,6 +28,7 @@ jobs:
         fetch-depth: 0
 
     - name: Sync source locales from upstream uutils/coreutils
+      id: sync_sources
       run: |
         set -e
         git clone --depth 1 https://github.com/uutils/coreutils.git /tmp/upstream-coreutils
@@ -49,6 +50,7 @@ jobs:
           done < <(find /tmp/upstream-coreutils/src/uu/*/locales /tmp/upstream-coreutils/src/uucore/locales -name "$locale" -type f 2>/dev/null)
         done
         echo "Source locale files updated: $changed"
+        echo "changed=$changed" >> "$GITHUB_OUTPUT"
 
     - name: Install Weblate CLI
       run: |
@@ -122,7 +124,7 @@ jobs:
         fi
 
     - name: Push source changes to Weblate
-      if: github.event_name == 'push'
+      if: github.event_name == 'push' || steps.sync_sources.outputs.changed != '0'
       run: |
         # Lock translations to prevent conflicts
         wlc lock rust-coreutils
