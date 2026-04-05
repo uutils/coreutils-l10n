@@ -10,5 +10,5 @@ tee-help-output-error-warn = generuje ostrzeżenia o błędach podczas zapisu d
 tee-help-output-error-warn-nopipe = generuje ostrzeżenia dla błędów, które nie są błędami potoku (ignorowane na platformach innych niż Unix)
 tee-help-output-error-exit = wyjście w przypadku błędów zapisu do dowolnego wyjścia
 tee-help-output-error-exit-nopipe = wyjście w przypadku błędów zapisu do dowolnego wyjścia, które nie jest błędem potoku (odpowiednik wyjścia na platformach innych niż Unix)
-tee-error-stdin = stdin: { $error }
+tee-error-stdin = błąd odczytu: { $error }
 tee-standard-output = „standardowe wyjście”
