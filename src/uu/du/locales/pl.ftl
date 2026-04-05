@@ -15,7 +15,7 @@ du-after-help =
     następująca składnia:
     ? dopasuje tylko jeden znak
     { "*" } dopasuje zero lub więcej znaków
-    { "{" }a,b{ "}" } dopasuje a lub b
+    { "{" }a,b{ "}" } dopasuje a lub b
 du-help-print-help = Wypisuje informacje dotyczące pomocy.
 du-help-all = zapisuje liczbę plików dla wszystkich plików, a nie tylko katalogów
 du-help-apparent-size = wypisuje rozmiary pozorne, a nie zużycie dysku, chociaż rozmiar pozorny jest zwykle mniejszy, może być większy ze względu na dziury w plikach („rzadkich”), fragmentację wewnętrzną, bloki pośrednie itp.
@@ -38,7 +38,7 @@ du-help-si = jak -h, ale używa potęgi 1000, a nie 1024
 du-help-one-file-system = pomija katalogi w różnych systemach plików
 du-help-threshold = wyklucza wpisy mniejsze niż ROZMIAR, jeśli są dodatnie, lub wpisy większe niż ROZMIAR, jeśli są ujemne
 du-help-verbose = tryb szczegółowy (opcja niedostępna w GNU/Coreutils)
-du-help-exclude = wyklucz pliki, które pasują do WZORCA
+du-help-exclude = wyklucza pliki, które pasują do WZORCA
 du-help-exclude-from = wyklucza pliki, które pasują do dowolnego wzorca w PLIKU
 du-help-files0-from = podsumowuje użycie urządzenia dla nazw plików zakończonych znakiem NUL określonych w pliku F; jeśli F jest równe -, odczytuje nazwy ze standardowego wejścia
 du-help-time = pokazuje czas ostatniej modyfikacji dowolnego pliku w katalogu lub jego podkatalogach. Jeśli podano SŁOWO, wyświetla czas w formacie SŁOWO zamiast czasu modyfikacji: atime, access, use, ctime, status, birth lub creation
