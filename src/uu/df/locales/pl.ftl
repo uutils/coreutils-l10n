@@ -10,8 +10,8 @@ df-after-help =
     (lub 512, jeśli ustawiono POSIXLY_CORRECT).
 
     ROZMIAR jest liczbą całkowitą i jednostką opcjonalną (przykład: 10M to
-    10*1024*1024). Jednostki to K, M, G, T, P, E, Z, Y (potęgi 1024) lub KB,
-    MB,... (potęgi 1000).
+    10*1024*1024). Jednostki to K, M, G, T, P, E, Z, Y (potęgi 1024) lub KB, MB, ...
+    (potęgi 1000). Jednostki mogą być dziesiętne, szesnastkowe, ósemkowe i binarne.
 df-help-all = uwzględnia fikcyjne systemy plików
 df-help-block-size = skaluje rozmiary według ROZMIARU przed ich wypisaniem; np. „-BM” wypisuje rozmiary w jednostkach 1 048 576 bajtów
 df-help-total = generuje sumę całkowitą
