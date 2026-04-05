@@ -7,3 +7,4 @@ fold-spaces-help = łamanie wierszy na granicach wyrazów, zamiast stosowania tw
 fold-width-help = ustawienie SZEROKOŚCI jako maksymalnej szerokość wiersza, a nie 80
 fold-error-illegal-width = nieprawidłowa wartość szerokości
 fold-error-readline = nie udało się odczytać wiersza
+fold-characters-help = liczenie przy użyciu pozycji znaków zamiast wyświetlania kolumn
