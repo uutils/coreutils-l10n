@@ -87,7 +87,11 @@ jobs:
         git config --local user.name "GitHub Action"
 
         if [ -n "$(git status --porcelain)" ]; then
-          git add src/uu/*/locales/*.ftl src/uucore/locales/*.ftl
+          # Use find -type f so we don't traverse symlinked locales dirs
+          # (e.g. base64/locales -> ../base32/locales), which would cause
+          # "pathspec is beyond a symbolic link" errors from git add.
+          find src/uu/*/locales src/uucore/locales -name '*.ftl' -type f -print0 \
+            | xargs -0 git add --
           git commit -m "Update translations from Weblate"
           git push
         else
