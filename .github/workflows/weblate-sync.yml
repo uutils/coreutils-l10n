@@ -27,6 +27,29 @@ jobs:
         token: ${{ secrets.WEBLATE_TOKEN || github.token }}
         fetch-depth: 0
 
+    - name: Sync source locales from upstream uutils/coreutils
+      run: |
+        set -e
+        git clone --depth 1 https://github.com/uutils/coreutils.git /tmp/upstream-coreutils
+
+        # Copy en-US.ftl and fr-FR.ftl from upstream for every utility/uucore
+        # dir that exists in both repos. Directories that only exist upstream
+        # (e.g. b2sum, md5sum, sha*sum, checksum_common — unified as hashsum
+        # here) or only here (e.g. vdir) are skipped.
+        changed=0
+        for locale in en-US.ftl fr-FR.ftl; do
+          while IFS= read -r src; do
+            rel="${src#/tmp/upstream-coreutils/}"
+            dst="$rel"
+            if [ -f "$dst" ] && ! cmp -s "$src" "$dst"; then
+              cp "$src" "$dst"
+              echo "Updated: $dst"
+              changed=$((changed + 1))
+            fi
+          done < <(find /tmp/upstream-coreutils/src/uu/*/locales /tmp/upstream-coreutils/src/uucore/locales -name "$locale" -type f 2>/dev/null)
+        done
+        echo "Source locale files updated: $changed"
+
     - name: Install Weblate CLI
       run: |
         pip install wlc
