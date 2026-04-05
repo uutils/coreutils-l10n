@@ -13,7 +13,7 @@ chmod-error-no-such-file = nie można uzyskać dostępu do { $file }: nie ma tak
 chmod-error-preserve-root =
     rekurencyjne działanie na pliku { $file } jest niebezpieczne
     chmod: użyj --no-preserve-root, aby ominąć ten mechanizm zabezpieczający
-chmod-error-permission-denied = { $file }: odmowa uprawnienia
+chmod-error-permission-denied = nie można uzyskać dostępu do { $file }: odmowa uprawnienia
 chmod-error-new-permissions = { $file }: nowe uprawnienia to { $actual }, a nie { $expected }
 chmod-help-print-help = Wypisuje informacje dotyczące pomocy.
 chmod-help-changes = jak szczegółowo, ale raportuje tylko przy zmianie
