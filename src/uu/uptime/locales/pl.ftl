@@ -34,3 +34,26 @@ uptime-format =
        *[other] { $days } dni { $time }
     }
 uptime-lib-format-loadavg = średnie obciążenie: { $avg1 }, { $avg5 }, { $avg15 }
+uptime-help-pretty = pokazuje czas sprawności w ładnym formacie
+uptime-output-up-text = działa
+uptime-format-pretty-min =
+    { $min ->
+        [one] { $min } minuta
+        [few] { $min } minuty
+        [many] { $min } minut
+       *[other] { $min } minut
+    }
+uptime-format-pretty-hour =
+    { $hour ->
+        [one] { $hour } godzina
+        [few] { $hour } godziny
+        [many] { $hour } godzin
+       *[other] { $hour } godzin
+    }
+uptime-format-pretty-day =
+    { $day ->
+        [one] { $day } dzień
+        [few] { $day } dni
+        [many] { $day } dni
+       *[other] { $day } dni
+    }
