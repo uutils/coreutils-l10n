@@ -56,3 +56,4 @@ split-help-hex-suffixes = to samo co -x, ale pozwala na ustawienie wartości poc
 split-help-suffix-length = generuje sufiksy o długości N (domyślnie 2)
 split-help-verbose = wypisuje diagnostykę tuż przed otwarciem każdego pliku wyjściowego
 split-help-separator = użyj SEP zamiast nowego wiersza jako separatora rekordów; '\\0' (zero) określa znak NUL
+split-error-is-a-directory = { $dir }: jest katalogiem
