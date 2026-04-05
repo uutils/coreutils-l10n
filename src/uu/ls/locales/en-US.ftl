@@ -1,19 +1,28 @@
 ls-about = List directory contents.
   Ignore files and directories starting with a '.' by default
+dir-about = List directory contents.
+  Ignore files and directories starting with a '.' by default
+vdir-about = List directory contents.
+  Ignore files and directories starting with a '.' by default
+
+  Mandatory arguments to long options are mandatory for short options too.
 ls-usage = ls [OPTION]... [FILE]...
+dir-usage = dir [OPTION]... [FILE]...
+vdir-usage = vdir [OPTION]... [FILE]...
 ls-after-help = The TIME_STYLE argument can be full-iso, long-iso, iso, locale or +FORMAT. FORMAT is interpreted like in date. Also the TIME_STYLE environment variable sets the default style to use.
 
 # Error messages
 ls-error-invalid-line-width = invalid line width: {$width}
 ls-error-general-io = general io error: {$error}
-ls-error-cannot-access-no-such-file = cannot access '{$path}': No such file or directory
-ls-error-cannot-access-operation-not-permitted = cannot access '{$path}': Operation not permitted
-ls-error-cannot-open-directory-permission-denied = cannot open directory '{$path}': Permission denied
-ls-error-cannot-open-file-permission-denied = cannot open file '{$path}': Permission denied
-ls-error-cannot-open-directory-bad-descriptor = cannot open directory '{$path}': Bad file descriptor
-ls-error-unknown-io-error = unknown io error: '{$path}', '{$error}'
+ls-error-cannot-access-no-such-file = cannot access {$path}: No such file or directory
+ls-error-cannot-access-operation-not-permitted = cannot access {$path}: Operation not permitted
+ls-error-cannot-open-directory-permission-denied = cannot open directory {$path}: Permission denied
+ls-error-cannot-open-file-permission-denied = cannot open file {$path}: Permission denied
+ls-error-cannot-open-directory-bad-descriptor = cannot open directory {$path}: Bad file descriptor
+ls-error-unknown-io-error = unknown io error: {$path}, '{$error}'
 ls-error-invalid-block-size = invalid --block-size argument {$size}
 ls-error-dired-and-zero-incompatible = --dired and --zero are incompatible
+ls-error-not-directory = cannot access {$path}: Not a directory
 ls-error-not-listing-already-listed = {$path}: not listing already-listed directory
 ls-error-invalid-time-style = invalid --time-style argument {$style}
   Possible values are:
@@ -47,7 +56,7 @@ ls-help-escape-quoting-style = Use escape quoting style. Equivalent to `--quotin
 ls-help-c-quoting-style = Use C quoting style. Equivalent to `--quoting-style=c`
 ls-help-replace-control-chars = Replace control characters with '?' if they are not escaped.
 ls-help-show-control-chars = Show control characters 'as is' if they are not escaped.
-ls-help-show-time-field = Show time in <field>:
+ls-help-show-time-field = Show time in `<field>`:
     access time (-u): atime, access, use;
     change time (-t): ctime, status.
     modification time: mtime, modification.
@@ -63,7 +72,7 @@ ls-help-time-access = If the long listing format (e.g., -l, -o) is being used, p
 ls-help-hide-pattern = do not list implied entries matching shell PATTERN (overridden by -a or -A)
 ls-help-ignore-pattern = do not list implied entries matching shell PATTERN
 ls-help-ignore-backups = Ignore entries which end with ~.
-ls-help-sort-by-field = Sort by <field>: name, none (-U), time (-t), size (-S), extension (-X) or width
+ls-help-sort-by-field = Sort by `<field>`: name, none (-U), time (-t), size (-S), extension (-X) or width
 ls-help-sort-by-size = Sort by file size, largest first.
 ls-help-sort-by-time = Sort by modification time (the 'mtime' in the inode), newest first.
 ls-help-sort-by-version = Natural sort of (version) numbers in the filenames.
@@ -123,4 +132,16 @@ ls-invalid-quoting-style = {$program}: Ignoring invalid value of environment var
 ls-invalid-columns-width = ignoring invalid width in environment variable COLUMNS: {$width}
 ls-invalid-ignore-pattern = Invalid pattern for ignore: {$pattern}
 ls-invalid-hide-pattern = Invalid pattern for hide: {$pattern}
+ls-warning-unrecognized-ls-colors-prefix = unrecognized prefix: {$prefix}
+ls-warning-unparsable-ls-colors = unparsable value for LS_COLORS environment variable
 ls-total = total {$size}
+
+# Security context warnings
+ls-warning-failed-to-get-security-context = failed to get security context of: {$path}
+ls-warning-getting-security-context = getting security context of: {$path}: {$error}
+
+# SMACK error messages (used by uucore::smack when called from ls)
+smack-error-not-enabled = SMACK is not enabled on this system
+smack-error-label-retrieval-failure = failed to get SMACK label: { $error }
+smack-error-label-set-failure = failed to set SMACK label to '{ $context }': { $error }
+smack-error-no-label-set = no SMACK label set
