@@ -9,12 +9,10 @@ cksum-after-help =
     - crc32b: (dostępne tylko przez cksum)
     - md5: (odpowiednik md5sum)
     - sha1: (odpowiednik sha1sum)
-    - sha224: (odpowiednik sha224sum)
-    - sha256: (odpowiednik sha256sum)
-    - sha384: (odpowiednik sha384sum)
-    - sha512: (odpowiednik sha512sum)
+    - sha2: (odpowiednik sha{ "{224,256,384,512}" }sum)
+    - sha3: (dostępny tylko przez cksum)
     - blake2b: (odpowiednik b2sum)
-    - sm3: (dostępne tylko przez cksum)
+    - sm3: (dostępny tylko przez cksum)
 cksum-help-algorithm = wybiera typ skrótu do użycia. Zobacz SKRÓT poniżej
 cksum-help-untagged = tworzy odwróconą sumę kontrolną bez typu skrótu
 cksum-help-tag = tworzy sumę kontrolną w stylu BSD, cofa --untagged (domyślnie)
