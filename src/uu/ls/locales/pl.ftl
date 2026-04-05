@@ -148,7 +148,7 @@ vdir-about =
     Obowiązkowe argumenty dla długich opcji są również obowiązkowe dla krótkich opcji.
 dir-usage = dir [OPCJA]... [PLIK]...
 vdir-usage = vdir [OPCJA]... [PLIK]...
-ls-error-not-directory = nie można uzyskać dostępu do { $path }: nie jest to katalog
+ls-error-not-directory = nie można uzyskać dostępu do { $path }: nie jest katalogiem
 ls-warning-unrecognized-ls-colors-prefix = nierozpoznany prefiks: { $prefix }
 ls-warning-unparsable-ls-colors = niemożliwa do przeanalizowania wartość zmiennej środowiskowej LS_COLORS
 ls-warning-failed-to-get-security-context = nie udało się uzyskać kontekstu zabezpieczeń: { $path }
