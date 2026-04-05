@@ -7,3 +7,7 @@ tsort-usage = tsort [OPCJE] PLIK
 tsort-error-is-dir = błąd odczytu: jest katalogiem
 tsort-error-odd = dane wejściowe zawierają nieparzystą liczbę tokenów
 tsort-error-loop = wejście zawiera pętlę:
+tsort-error-extra-operand =
+    dodatkowy operand { $operand }
+    Zobacz '{ $util } --help', aby uzyskać więcej informacji.
+tsort-error-at-least-one-input = co najmniej jedno wejście
