@@ -96,7 +96,7 @@ date-help-set-redox = ustawia czas opisany przez NAPIS (jeszcze niedostępne w 
 date-help-universal = wypisuje lub ustawia uniwersalny czas koordynowany (UTC)
 date-error-invalid-date = nieprawidłowa data '{ $date }'
 date-error-invalid-format = nieprawidłowy format '{ $format }' ({ $error })
-date-error-expected-file-got-directory = oczekiwano pliku, otrzymano katalog '{ $path }'
+date-error-expected-file-got-directory = oczekiwano pliku, otrzymano katalog { $path }
 date-error-date-overflow = przepełnienie daty '{ $date }'
 date-error-setting-date-not-supported-macos = ustawianie daty nie jest obsługiwane przez system macOS
 date-error-setting-date-not-supported-redox = ustawianie daty nie jest obsługiwane przez system Redox
@@ -104,3 +104,10 @@ date-error-cannot-set-date = nie można ustawić daty
 date-help-resolution =
     wyświetla dostępną rozdzielczość znaczników czasu
     Przykład: 0,000000001
+date-error-extra-operand = dodatkowy operand '{ $operand }'
+date-error-write = błąd zapisu: { $error }
+date-error-format-modifier-width-too-large = modyfikator formatu szerokości '{ $width }' jest zbyt duży dla specyfikatora '%{ $specifier }'
+date-error-format-missing-plus =
+    argument { $arg } nie zawiera znaku '+' na początku;
+    w przypadku użycia opcji do określenia dat(y), każdy argument inny niż
+    opcja musi być ciągiem formatującym zaczynającym się od znaku '+'
