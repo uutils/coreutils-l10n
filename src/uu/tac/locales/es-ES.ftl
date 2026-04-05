@@ -3,7 +3,6 @@ tac-usage = tac [OPCIÓN]... [ARCHIVO]...
 tac-help-before = adjuntar el separador antes en lugar de después
 tac-help-regex = interpretar la secuencia como una expresión regular
 tac-help-separator = usar CADENA como el separador en lugar de nueva línea
-
 # Error messages
 tac-error-invalid-regex = expresión regular inválida: { $error }
 tac-error-invalid-argument = { $argument }: error de lectura: Argumento inválido
