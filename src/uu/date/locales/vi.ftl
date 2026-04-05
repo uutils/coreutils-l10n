@@ -1,6 +1,4 @@
-date-about =
-    Hiển thị hoặc đặt ngày và giờ hệ thống
-
+date-about = Hiển thị hoặc đặt ngày và giờ hệ thống
 date-usage =
     date [LỰA CHỌN]... [+ĐỊNH DẠNG]...
     date [LỰA CHỌN]... [MMDDhhmm[[CC]YY][.ss]]
@@ -74,33 +72,35 @@ date-usage =
       Hiển thị thời gian trên bờ tây Hoa Kỳ (dùng tzselect(1) để tìm TZ)
 
       TZ='America/Los_Angeles' date
-
 date-help-date = hiển thị thời gian được mô tả bởi CHUỖI, không phải 'bây giờ'
 date-help-file = giống như --date; một lần cho mỗi dòng của DATEFILE
-date-help-iso-8601 = xuất ngày/giờ ở định dạng ISO 8601.
-  FMT='date' cho chỉ ngày (mặc định),
-  'hours', 'minutes', 'seconds', hoặc 'ns'
-  cho ngày và giờ đến độ chính xác được chỉ định.
-  Ví dụ: 2006-08-14T02:34:56-06:00
-date-help-resolution = xuất độ phân giải có sẵn của dấu thời gian
-  Ví dụ: 0.000000001
-date-help-rfc-email = xuất ngày và giờ ở định dạng RFC 5322.
-  Ví dụ: Mon, 14 Aug 2006 02:34:56 -0600
-date-help-rfc-3339 = xuất ngày/giờ ở định dạng RFC 3339.
-  FMT='date', 'seconds', hoặc 'ns'
-  cho ngày và giờ đến độ chính xác được chỉ định.
-  Ví dụ: 2006-08-14 02:34:56-06:00
+date-help-iso-8601 =
+    xuất ngày/giờ ở định dạng ISO 8601.
+    FMT='date' cho chỉ ngày (mặc định),
+    'hours', 'minutes', 'seconds', hoặc 'ns'
+    cho ngày và giờ đến độ chính xác được chỉ định.
+    Ví dụ: 2006-08-14T02:34:56-06:00
+date-help-resolution =
+    xuất độ phân giải có sẵn của dấu thời gian
+    Ví dụ: 0.000000001
+date-help-rfc-email =
+    xuất ngày và giờ ở định dạng RFC 5322.
+    Ví dụ: Mon, 14 Aug 2006 02:34:56 -0600
+date-help-rfc-3339 =
+    xuất ngày/giờ ở định dạng RFC 3339.
+    FMT='date', 'seconds', hoặc 'ns'
+    cho ngày và giờ đến độ chính xác được chỉ định.
+    Ví dụ: 2006-08-14 02:34:56-06:00
 date-help-debug = chú thích ngày đã phân tích, và cảnh báo về cách sử dụng đáng ngờ đến stderr
 date-help-reference = hiển thị thời gian sửa đổi cuối cùng của FILE
 date-help-set = đặt thời gian được mô tả bởi CHUỖI
 date-help-set-macos = đặt thời gian được mô tả bởi CHUỖI (chưa khả dụng trên mac)
 date-help-set-redox = đặt thời gian được mô tả bởi CHUỖI (chưa khả dụng trên redox)
 date-help-universal = in hoặc đặt Thời gian Phối hợp Quốc tế (UTC)
-
-date-error-invalid-date = ngày không hợp lệ '{$date}'
-date-error-invalid-format = định dạng không hợp lệ '{$format}' ({$error})
-date-error-expected-file-got-directory = mong muốn tệp, nhận được thư mục '{$path}'
-date-error-date-overflow = tràn ngày '{$date}'
+date-error-invalid-date = ngày không hợp lệ '{ $date }'
+date-error-invalid-format = định dạng không hợp lệ '{ $format }' ({ $error })
+date-error-expected-file-got-directory = mong muốn tệp, nhận được thư mục '{ $path }'
+date-error-date-overflow = tràn ngày '{ $date }'
 date-error-setting-date-not-supported-macos = việc đặt ngày không được hỗ trợ bởi macOS
 date-error-setting-date-not-supported-redox = việc đặt ngày không được hỗ trợ bởi Redox
 date-error-cannot-set-date = không thể đặt ngày
