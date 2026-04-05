@@ -49,3 +49,5 @@ id-output-login = login
 id-output-euid = euid
 id-output-context = kontekst
 id-help-ignore = ignoruje, aby zapewnić zgodność z innymi wersjami
+id-error-context-security-only = --context (-Z) działa tylko z jądrem obsługującym SELinux/SMACK
+id-output-rgid = rgid
