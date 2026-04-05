@@ -36,3 +36,5 @@ tr-error-complement-more-than-one-unique =
     string2 musi mapować wszystkie znaki w domenie na jeden
 tr-error-backwards-range = punkty końcowe zakresu '{ $start }-{ $end }' są w kolejności odwrotnej do kolejności zestawiania
 tr-error-multiple-char-in-equivalence = { $chars }: operand klasy równoważności musi być pojedynczym znakiem
+tr-warning-invalid-utf8 = nieprawidłowa sekwencja UTF-8
+tr-error-invalid-char-class = nieprawidłowa klasa znaków { $class }
