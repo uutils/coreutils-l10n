@@ -7,3 +7,4 @@ mkfifo-error-invalid-mode = nieprawidłowy tryb: { $error }
 mkfifo-error-missing-operand = brak operandu
 mkfifo-error-cannot-create-fifo = nie można utworzyć FIFO { $path }: plik istnieje
 mkfifo-error-cannot-set-permissions = nie można ustawić uprawnień dla { $path }: { $error }
+mkfifo-error-non-file-permission = tryb musi określać tylko bity uprawnień pliku
