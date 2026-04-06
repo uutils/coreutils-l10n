@@ -93,6 +93,7 @@ jobs:
           find src/uu/*/locales src/uucore/locales -name '*.ftl' -type f -print0 \
             | xargs -0 git add --
           git commit -m "Update translations from Weblate"
+          git pull --rebase
           git push
         else
           echo "No translation updates to commit"
