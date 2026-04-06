@@ -1,4 +1,4 @@
-du-about = Szacuje wykorzystanie przestrzeni dyskowej przez pliki
+du-about = Szacuje wykorzystanie przestrzeni dyskowej przez pliki.
 du-usage =
     du [OPCJA]... [PLIK]...
     du [OPCJA]... --files0-from=F
