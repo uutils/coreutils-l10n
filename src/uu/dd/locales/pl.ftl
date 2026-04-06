@@ -45,7 +45,7 @@ dd-after-help =
       statystyki „wydajności”.
       Statystyki wolumenu wskazują liczbę pełnych i częściowych odczytów o rozmiarze ibs
       lub zapisów o rozmiarze obs, które miały miejsce podczas kopiowania. Format statystyk
-      wolumenu to <complete>+<partial>. Jeśli rekordy zostały obcięte (patrz
+      wolumenu to <pełny>+<częściowy>. Jeśli rekordy zostały obcięte (patrz
       konwencja=blok), statystyki wolumenu będą zawierać liczbę obciętych rekordów.
 
       Możliwe wartości parametru POZIOM to:
