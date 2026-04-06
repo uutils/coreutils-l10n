@@ -8,3 +8,4 @@ pinky-directory-label = Akaram:
 pinky-shell-label = Shell:
 pinky-project-label = Asenfar:
 pinky-column-login = Qqen
+pinky-login-name-label = Isem n tuqqna:
