@@ -47,7 +47,7 @@ ls-help-c-quoting-style = Używa stylu cytowania C. Odpowiednik `--quoting-style
 ls-help-replace-control-chars = Zastępuje znaki kontrolne znakiem '?', jeśli nie są one poprzedzone znakiem ucieczki.
 ls-help-show-control-chars = Pokazuje znaki kontrolne „tak jak są”, jeśli nie zostały one zastąpione znakami ucieczki.
 ls-help-show-time-field =
-    Pokazuje czas w „<field>”:
+    Pokazuje czas w „<polu>”:
     czas dostępu (-u): atime, access, use;
     czas zmiany (-t): ctime, status.
     czas modyfikacji: mtime, modification.
@@ -65,7 +65,7 @@ ls-help-time-access =
 ls-help-hide-pattern = nie wyświetla wpisów domyślnych pasujących do WZORCA powłoki (zastąpione przez -a lub -A)
 ls-help-ignore-pattern = nie wyświetla wpisów domniemanych pasujących do WZORCA powłoki
 ls-help-ignore-backups = Ignoruje wpisy kończące się znakiem ~.
-ls-help-sort-by-field = Sortuje według „<field>”: name, none (-U), time (-t), size (-S), extension (-X) lub width
+ls-help-sort-by-field = Sortuje według „<pola>”: name, none (-U), time (-t), size (-S), extension (-X) lub width
 ls-help-sort-by-size = Sortuje według rozmiaru pliku, od największego.
 ls-help-sort-by-time = Sortuje według czasu modyfikacji ('mtime' w i-węźle), od najnowszego.
 ls-help-sort-by-version = Naturalne sortowanie numerów (wersji) w nazwach plików.
