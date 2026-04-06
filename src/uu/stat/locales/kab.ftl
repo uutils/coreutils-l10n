@@ -11,3 +11,4 @@ stat-word-total = Aɣrud
 stat-word-free = Ilelli
 stat-word-available = D yegran
 stat-word-inode = Inode
+stat-word-birth = Talalit
