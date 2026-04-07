@@ -12,7 +12,7 @@ chmod-error-no-such-file = no se puede acceder { $file }: No existe el archivo o
 chmod-error-preserve-root =
     es peligroso operar recursivamente en { $file }
     chmod: use --no-preserve-root para anular esta protección
-chmod-error-permission-denied = { $file }: Permiso denegado
+chmod-error-permission-denied = no se puede acceder { $file }: Permiso denegado
 chmod-error-new-permissions = { $file }: los nuevos permisos son { $actual }, no { $expected }
 chmod-error-missing-operand = falta operando
 # Help messages
