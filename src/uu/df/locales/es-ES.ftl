@@ -5,11 +5,11 @@ df-usage = df [OPCIÓN]... [ARCHIVO]...
 df-after-help =
     Los valores mostrados están en unidades del primer TAMAÑO disponible de --block-size,
     y las variables de entorno DF_BLOCK_SIZE, BLOCK_SIZE y BLOCKSIZE.
-    De otra manera, las unidades por defecto son 1024 bytes (o 512 si POSIXLY_CORRECT está establecido).
+    En otro caso, las unidades por defecto son 1024 bytes (o 512 si POSIXLY_CORRECT está establecido).
 
-    TAMAÑO es un entero y unidad opcional (ejemplo: 10M es 10*1024*1024).
+    TAMAÑO es un entero y una unidad opcional (ejemplo: 10M es 10*1024*1024).
     Las unidades son K, M, G, T, P, E, Z, Y (potencias de 1024) o KB, MB,... (potencias
-    de 1000).
+    de 1000). Las unidades pueden estar en decimal, hexadecimal, octal o binario.
 # Help messages
 df-help-print-help = Mostrar información de ayuda.
 df-help-all = incluir sistemas de archivos ficticios
