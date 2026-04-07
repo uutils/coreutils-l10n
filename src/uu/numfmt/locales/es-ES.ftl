@@ -1,40 +1,40 @@
 numfmt-about = Convertir números desde/hacia cadenas legibles por humanos
 numfmt-usage = numfmt [OPCIÓN]... [NÚMERO]...
-numfmt-after-help = Opciones de UNIDAD:
+numfmt-after-help =
+    Opciones de UNIDAD:
 
-  - none: no se hace escalado automático; los sufijos activarán un error
-  - auto: aceptar sufijo opcional de una/dos letras:
+    - none: no se hace escalado automático; los sufijos activarán un error
+    - auto: aceptar sufijo opcional de una/dos letras:
 
-      1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
+        1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
 
-  - si: aceptar sufijo opcional de una letra:
+    - si: aceptar sufijo opcional de una letra:
 
-      1K = 1000, 1M = 1000000, ...
+        1K = 1000, 1M = 1000000, ...
 
-  - iec: aceptar sufijo opcional de una letra:
+    - iec: aceptar sufijo opcional de una letra:
 
-      1K = 1024, 1M = 1048576, ...
+        1K = 1024, 1M = 1048576, ...
 
-  - iec-i: aceptar sufijo opcional de dos letras:
+    - iec-i: aceptar sufijo opcional de dos letras:
 
-      1Ki = 1024, 1Mi = 1048576, ...
+        1Ki = 1024, 1Mi = 1048576, ...
 
-  - CAMPOS soporta rangos de campo estilo cut(1):
+    - CAMPOS soporta rangos de campo estilo cut(1):
 
-      N N-ésimo campo, contado desde 1
-      N- desde el N-ésimo campo, hasta el final de la línea
-      N-M desde el N-ésimo hasta el M-ésimo campo (inclusive)
-      -M desde el primero hasta el M-ésimo campo (inclusive)
-      - todos los campos
+        N N-ésimo campo, contado desde 1
+        N- desde el N-ésimo campo, hasta el final de la línea
+        N-M desde el N-ésimo hasta el M-ésimo campo (inclusive)
+        -M desde el primero hasta el M-ésimo campo (inclusive)
+        - todos los campos
 
-  Múltiples campos/rangos pueden separarse con comas
+    Múltiples campos/rangos pueden separarse con comas
 
-  FORMATO debe ser adecuado para imprimir un argumento de punto flotante %f.
-  Comilla opcional (%'f) habilitará --grouping (si es soportado por la configuración regional actual).
-  Valor de ancho opcional (%10f) rellenará la salida. Ancho cero opcional (%010f)
-  rellenará el número con ceros. Valores negativos opcionales (%-10f) alinearán a la izquierda.
-  Precisión opcional (%.1f) sobrescribirá la precisión determinada por la entrada.
-
+    FORMATO debe ser adecuado para imprimir un argumento de punto flotante %f.
+    Comilla opcional (%'f) habilitará --grouping (si es soportado por la configuración regional actual).
+    Valor de ancho opcional (%10f) rellenará la salida. Ancho cero opcional (%010f)
+    rellenará el número con ceros. Valores negativos opcionales (%-10f) alinearán a la izquierda.
+    Precisión opcional (%.1f) sobrescribirá la precisión determinada por la entrada.
 # Help messages
 numfmt-help-delimiter = usar X en lugar de espacio en blanco para delimitador de campo
 numfmt-help-field = reemplazar los números en estos campos de entrada; ver CAMPOS abajo
@@ -49,7 +49,6 @@ numfmt-help-round = usar MÉTODO para redondear al escalar
 numfmt-help-suffix = imprimir SUFIJO después de cada número formateado, y aceptar entradas que terminen opcionalmente con SUFIJO
 numfmt-help-invalid = establecer el modo de fallo para entrada no válida
 numfmt-help-zero-terminated = el delimitador de línea es NUL, no nueva línea
-
 # Error messages
 numfmt-error-unsupported-unit = Se especifica unidad no soportada
 numfmt-error-invalid-unit-size = tamaño de unidad no válido: { $size }
@@ -72,3 +71,8 @@ numfmt-error-invalid-format-width-overflow = formato no válido '{ $format }' (d
 numfmt-error-invalid-precision = precisión no válida en formato '{ $format }'
 numfmt-error-format-too-many-percent = el formato '{ $format }' tiene demasiadas directivas %
 numfmt-error-unknown-invalid-mode = Modo no válido desconocido: { $mode }
+numfmt-help-debug = imprimir avisos sobre entrada inválida
+numfmt-error-invalid-specific-suffix = sufijo inválido en entrada { $input }: { $suffix }
+numfmt-debug-no-conversion = ninguna opción de conversión fue especificada
+numfmt-debug-grouping-no-effect = agrupar no tiene efecto en este locale
+numfmt-debug-failed-to-convert = falló al convertir algunos de los números de entrada
