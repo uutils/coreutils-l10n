@@ -1,10 +1,11 @@
-ptx-about = Producir un índice permutado del contenido del archivo
-  Generar un índice permutado, incluyendo contexto, de las palabras en los archivos de entrada.
-  Los argumentos obligatorios para opciones largas son obligatorios también para opciones cortas.
-  Sin ARCHIVO, o cuando ARCHIVO es -, leer entrada estándar. El predeterminado es '-F /'.
-ptx-usage = ptx [OPCIÓN]... [ENTRADA]...
-  ptx -G [OPCIÓN]... [ENTRADA [SALIDA]]
-
+ptx-about =
+    Producir un índice permutado del contenido del archivo
+    Generar un índice permutado, incluyendo contexto, de las palabras en los archivos de entrada.
+    Los argumentos obligatorios para opciones largas son obligatorios también para opciones cortas.
+    Sin ARCHIVO, o cuando ARCHIVO es -, leer entrada estándar. El predeterminado es '-F /'.
+ptx-usage =
+    ptx [OPCIÓN]... [ENTRADA]...
+    ptx -G [OPCIÓN]... [ENTRADA [SALIDA]]
 # Help messages
 ptx-help-auto-reference = generar referencias automáticamente
 ptx-help-traditional = comportarse más como 'ptx' de System V
@@ -22,9 +23,9 @@ ptx-help-ignore-file = leer lista de palabras a ignorar de ARCHIVO
 ptx-help-only-file = leer solo lista de palabras de este ARCHIVO
 ptx-help-references = el primer campo de cada línea es una referencia
 ptx-help-width = ancho de salida en columnas, referencia excluida
-
 # Error messages
 ptx-error-dumb-format = No hay formato simple con extensiones GNU deshabilitadas
 ptx-error-not-implemented = { $feature } aún no implementado
 ptx-error-write-failed = fallo la escritura
 ptx-error-extra-operand = operando extra { $operand }
+ptx-help-typeset-mode = cambia el ancho por defecto de 72 a 100
