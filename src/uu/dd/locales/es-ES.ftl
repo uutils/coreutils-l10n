@@ -164,3 +164,6 @@ dd-progress-bytes-copied-si-iec = { $bytes } bytes ({ $si }, { $iec }) copiados,
 # Warnings
 dd-warning-zero-multiplier = { $zero } es un multiplicador cero; use { $alternative } si eso es lo que se pretende
 dd-warning-signal-handler = Advertencia interna de dd: No se puede registrar el manejador de señales
+dd-standard-input = 'entrada estándar'
+dd-standard-output = 'salida estándar'
+dd-error-failed-discard-cache = falló al descartar el cache de: { $file }
