@@ -15,7 +15,7 @@ wc-help-total =
 wc-help-words = mostrar los conteos de palabras
 # Error messages
 wc-error-files-disabled =
-    operando adicional '{ $extra }'
+    operando adicional { $extra }
     los operandos de archivo no se pueden combinar con --files0-from
 wc-error-stdin-repr-not-allowed = al leer nombres de archivo desde entrada estándar, ningún nombre de archivo '-' concedido
 wc-error-zero-length-filename = nombre de archivo de longitud cero inválido
