@@ -15,16 +15,16 @@ sort-open-failed = fallo al abrir: { $path }: { $error }
 sort-parse-key-error = falló al analizar clave { $key }: { $msg }
 sort-cannot-read = no se puede leer: { $path }: { $error }
 sort-open-tmp-file-failed = falló al abrir archivo temporal: { $error }
-sort-compress-prog-execution-failed = no se pudo ejecutar programa de compresión: errno { $code }
+sort-compress-prog-execution-failed = no se pudo ejecutar el programa de compresión'{ $prog }': { $error }
 sort-compress-prog-terminated-abnormally = { $prog } terminó anormalmente
-sort-cannot-create-tmp-file = no se puede crear archivo temporal en '{ $path }':
+sort-cannot-create-tmp-file = no se puede crear archivo temporal en { $path }:
 sort-file-operands-combined =
-    operando adicional '{ $file }'
+    operando adicional { $file }
     los operandos de archivo no se pueden combinar con --files0-from
     Pruebe '{ $help } --help' para más información.
 sort-multiple-output-files = múltiples archivos de salida especificados
 sort-minus-in-stdin = al leer nombres de archivo desde entrada estándar, no se concede ningún nombre de archivo de '-'
-sort-no-input-from = no hay entrada desde '{ $file }'
+sort-no-input-from = no hay entrada desde { $file }
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: nombre de archivo de longitud cero inválido
 sort-options-incompatible = las opciones '-{ $opt1 }{ $opt2 }' son incompatibles
 sort-invalid-key = clave inválida { $key }
@@ -81,3 +81,6 @@ sort-help-compress-prog = comprimir archivos temporales con PROG, descomprimir c
 sort-help-batch-size = Fusionar como máximo N_FUSION entradas a la vez.
 sort-help-files0-from = leer entrada de los archivos especificados por ARCHIVO_NUL terminado en NUL
 sort-help-debug = subrayar las partes de la línea que realmente se usan para ordenar
+sort-invalid-number-after-comma = número inválido después de ','
+sort-warning-options-ignored = las opciones '-{ $options }' son ignoradas
+sort-warning-option-ignored = la opción '-{ $option }' es ignorada
