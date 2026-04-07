@@ -96,7 +96,7 @@ date-help-set-redox = establecer la hora descrita por CADENA (aún no disponible
 date-help-universal = mostrar o establecer el Tiempo Universal Coordinado (UTC)
 date-error-invalid-date = fecha no válida '{ $date }'
 date-error-invalid-format = formato no válido '{ $format }' ({ $error })
-date-error-expected-file-got-directory = se esperaba archivo, se obtuvo directorio '{ $path }'
+date-error-expected-file-got-directory = se esperaba archivo, se obtuvo directorio { $path }
 date-error-date-overflow = desbordamiento de fecha '{ $date }'
 date-error-setting-date-not-supported-macos = establecer la fecha no está soportado en macOS
 date-error-setting-date-not-supported-redox = establecer la fecha no está soportado en Redox
@@ -104,3 +104,4 @@ date-error-cannot-set-date = no se puede establecer la fecha
 date-help-resolution =
     salida de resolución de sellos horarios disponibles
     Ejemplo: 0.000000001
+date-error-extra-operand = operando adicional '{ $operand }'
