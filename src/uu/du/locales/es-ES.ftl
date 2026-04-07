@@ -1,20 +1,21 @@
 du-about = Estimar uso de espacio de archivos
-du-usage = du [OPCIÓN]... [ARCHIVO]...
-  du [OPCIÓN]... --files0-from=F
-du-after-help = Los valores mostrados están en unidades del primer TAMAÑO disponible de --block-size,
-  y las variables de entorno DU_BLOCK_SIZE, BLOCK_SIZE y BLOCKSIZE.
-  De otra manera, las unidades por defecto son 1024 bytes (o 512 si POSIXLY_CORRECT está establecido).
+du-usage =
+    du [OPCIÓN]... [ARCHIVO]...
+    du [OPCIÓN]... --files0-from=F
+du-after-help =
+    Los valores mostrados están en unidades del primer TAMAÑO disponible de --block-size,
+    y las variables de entorno DU_BLOCK_SIZE, BLOCK_SIZE y BLOCKSIZE.
+    De otra manera, las unidades por defecto son 1024 bytes (o 512 si POSIXLY_CORRECT está establecido).
 
-  TAMAÑO es un entero y unidad opcional (ejemplo: 10M es 10*1024*1024).
-  Las unidades son K, M, G, T, P, E, Z, Y (potencias de 1024) o KB, MB,... (potencias
-  de 1000).
+    TAMAÑO es un entero y unidad opcional (ejemplo: 10M es 10*1024*1024).
+    Las unidades son K, M, G, T, P, E, Z, Y (potencias de 1024) o KB, MB,... (potencias
+    de 1000).
 
-  PATRÓN permite algunas exclusiones avanzadas. Por ejemplo, las siguientes sintaxis
-  están soportadas:
-  ? coincidirá solo con un carácter
-  { "*" } coincidirá con cero o más caracteres
-  {"{"}a,b{"}"} coincidirá con a o b
-
+    PATRÓN permite algunas exclusiones avanzadas. Por ejemplo, las siguientes sintaxis
+    están soportadas:
+    ? coincidirá solo con un carácter
+    { "*" } coincidirá con cero o más caracteres
+    { "{" }a,b{ "}" } coincidirá con a o b
 # Help messages
 du-help-print-help = Mostrar información de ayuda.
 du-help-all = escribir conteos para todos los archivos, no solo directorios
@@ -43,11 +44,17 @@ du-help-exclude-from = excluir archivos que coinciden con cualquier patrón en A
 du-help-files0-from = resumir uso de dispositivo de los nombres de archivo terminados en NUL especificados en archivo F; si F es -, entonces leer nombres de entrada estándar
 du-help-time = mostrar tiempo de la última modificación de cualquier archivo en el directorio, o cualquiera de sus subdirectorios. Si se da PALABRA, mostrar tiempo como PALABRA en lugar de tiempo de modificación: atime, access, use, ctime, status, birth o creation
 du-help-time-style = mostrar tiempos usando estilo ESTILO: full-iso, long-iso, iso, +FORMATO FORMATO se interpreta como 'date'
-
 # Error messages
 du-error-invalid-max-depth = profundidad máxima inválida { $depth }
 du-error-summarize-depth-conflict = resumir entra en conflicto con --max-depth={ $depth }
-du-error-invalid-time-style = argumento inválido { $style } para 'estilo de tiempo'\nLos argumentos válidos son:\n- 'full-iso'\n- 'long-iso'\n- 'iso'\nPruebe '{ $help }' para más información.
+du-error-invalid-time-style =
+    argumento inválido { $style } para 'estilo de tiempo'
+    Los argumentos válidos son:
+      - 'full-iso'
+      - 'long-iso'
+      - 'iso'
+      - +FORMATO (e.g., +%H:%M) para un formato de estilo de 'fecha'
+    Pruebe '{ $help }' para más información.
 du-error-invalid-time-arg = los argumentos 'birth' y 'creation' para --time no están soportados en esta plataforma.
 du-error-invalid-glob = Sintaxis de exclusión inválida: { $error }
 du-error-cannot-read-directory = no se puede leer directorio { $path }
@@ -55,15 +62,15 @@ du-error-cannot-access = no se puede acceder { $path }
 du-error-read-error-is-directory = { $file }: error de lectura: Es un directorio
 du-error-cannot-open-for-reading = no se puede abrir '{ $file }' para lectura: No existe el archivo o directorio
 du-error-invalid-zero-length-file-name = { $file }:{ $line }: nombre de archivo de longitud cero inválido
-du-error-extra-operand-with-files0-from = operando adicional { $file }\nlos operandos de archivo no se pueden combinar con --files0-from
+du-error-extra-operand-with-files0-from =
+    operando adicional { $file }
+    los operandos de archivo no se pueden combinar con --files0-from
 du-error-invalid-block-size-argument = argumento --{ $option } inválido { $value }
 du-error-cannot-access-no-such-file = no se puede acceder { $path }: No existe el archivo o directorio
 du-error-printing-thread-panicked = El hilo de impresión entró en pánico.
 du-error-invalid-suffix = sufijo inválido en argumento --{ $option } { $value }
 du-error-invalid-argument = argumento --{ $option } inválido { $value }
 du-error-argument-too-large = argumento --{ $option } { $value } demasiado grande
-
- Verbose/status messages
 du-verbose-ignored = { $path } ignorado
 du-verbose-adding-to-exclude-list = agregando { $pattern } a la lista de exclusión
 du-total = total
