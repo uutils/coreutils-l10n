@@ -249,6 +249,6 @@ printf-after-help =
     bytes adicionales, lanzarán un error (a menos que la variable de entorno POSIXLY_CORRECT
     esté establecida)
 printf-error-missing-operand = falta operando
-printf-warning-ignoring-excess-arguments = ignorando argumentos en exceso, comenzando con '{ $arg }'
+printf-warning-ignoring-excess-arguments = ignorando argumentos en exceso, comenzando con { $arg }
 printf-help-version = Imprimir información de versión
 printf-help-help = Imprimir información de ayuda
