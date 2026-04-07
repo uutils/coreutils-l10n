@@ -6,12 +6,12 @@ ls-after-help = El argumento TIME_STYLE puede ser full-iso, long-iso, iso, local
 # Error messages
 ls-error-invalid-line-width = ancho de línea inválido: { $width }
 ls-error-general-io = error de E/S general: { $error }
-ls-error-cannot-access-no-such-file = no se puede acceder a '{ $path }': No existe el archivo o directorio
-ls-error-cannot-access-operation-not-permitted = no se puede acceder a '{ $path }': Operación no permitida
-ls-error-cannot-open-directory-permission-denied = no se puede abrir el directorio '{ $path }': Permiso denegado
-ls-error-cannot-open-file-permission-denied = no se puede abrir el archivo '{ $path }': Permiso denegado
-ls-error-cannot-open-directory-bad-descriptor = no se puede abrir el directorio '{ $path }': Descriptor de archivo erróneo
-ls-error-unknown-io-error = error de E/S desconocido: '{ $path }', '{ $error }'
+ls-error-cannot-access-no-such-file = no se puede acceder a { $path }: No existe el archivo o directorio
+ls-error-cannot-access-operation-not-permitted = no se puede acceder a { $path }: Operación no permitida
+ls-error-cannot-open-directory-permission-denied = no se puede abrir el directorio { $path }: Permiso denegado
+ls-error-cannot-open-file-permission-denied = no se puede abrir el archivo { $path }: Permiso denegado
+ls-error-cannot-open-directory-bad-descriptor = no se puede abrir el directorio { $path }: Descriptor de archivo erróneo
+ls-error-unknown-io-error = error de E/S desconocido: { $path }, '{ $error }'
 ls-error-invalid-block-size = argumento --block-size inválido { $size }
 ls-error-dired-and-zero-incompatible = --dired y --zero son incompatibles
 ls-error-not-listing-already-listed = { $path }: no se lista directorio ya listado
@@ -25,8 +25,6 @@ ls-error-invalid-time-style =
       - +FORMATO (e.g., +%H:%M) para un formato de fecha con estilo 'date'
 
     Para más información pruebe --help
-
-    Los valores posibles son: { $values }
 # Help messages
 ls-help-print-help = Mostrar información de ayuda.
 ls-help-set-display-format = Establecer el formato de visualización.
@@ -51,7 +49,7 @@ ls-help-c-quoting-style = Usar estilo de comillas C. Equivalente a `--quoting-st
 ls-help-replace-control-chars = Reemplazar caracteres de control con '?' si no están escapados.
 ls-help-show-control-chars = Mostrar caracteres de control 'tal como están' si no están escapados.
 ls-help-show-time-field =
-    Mostrar tiempo en <campo>:
+    Mostrar tiempo en `<campo>`:
     tiempo de acceso (-u): atime, access, use;
     tiempo de cambio (-t): ctime, status.
     tiempo de modificación: mtime, modification.
@@ -69,7 +67,7 @@ ls-help-time-access =
 ls-help-hide-pattern = no listar entradas implícitas que coincidan con el PATRÓN shell (anulado por -a o -A)
 ls-help-ignore-pattern = no listar entradas implícitas que coincidan con el PATRÓN shell
 ls-help-ignore-backups = Ignorar entradas que terminen con ~.
-ls-help-sort-by-field = Ordenar por <campo>: name, none (-U), time (-t), size (-S), extension (-X) o width
+ls-help-sort-by-field = Ordenar por `<campo>`: name, none (-U), time (-t), size (-S), extension (-X) o width
 ls-help-sort-by-size = Ordenar por tamaño de archivo, el más grande primero.
 ls-help-sort-by-time = Ordenar por tiempo de modificación (el 'mtime' en el inode), el más nuevo primero.
 ls-help-sort-by-version = Ordenación natural de números (de versión) en los nombres de archivo.
@@ -141,3 +139,7 @@ ls-invalid-ignore-pattern = Patrón inválido para ignore: { $pattern }
 ls-invalid-hide-pattern = Patrón inválido para hide: { $pattern }
 ls-total = total { $size }
 ls-help-unsorted-all = Listado de todos los archivos dentro del directorio ordenado, no ordenado. Equivalente a -aU. Inhabilita --color a no ser que se especifique explícitamente.
+ls-error-not-directory = no se pudo acceder a { $path }: No es un directorio
+ls-warning-unrecognized-ls-colors-prefix = prefijo no reconocido: { $prefix }
+dir-usage = dir [OPCIÓN]... [ARCHIVO]...
+vdir-usage = vdir [OPCIÓN]... [ARCHIVO]...
