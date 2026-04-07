@@ -41,7 +41,7 @@ rm-error-cannot-remove-permission-denied = no se puede eliminar { $file }: Permi
 rm-error-cannot-remove-is-directory = no se puede eliminar { $file }: Es un directorio
 rm-error-dangerous-recursive-operation = es peligroso operar recursivamente en '/'
 rm-error-use-no-preserve-root = use --no-preserve-root para anular esta protección
-rm-error-refusing-to-remove-directory = rehusando eliminar directorio '.' o '..': omitiendo '{ $path }'
+rm-error-refusing-to-remove-directory = rehusando eliminar directorio '.' o '..': omitiendo { $path }
 rm-error-cannot-remove = no se puede eliminar { $file }
 # Verbose messages
 rm-verbose-removed = eliminado { $file }
