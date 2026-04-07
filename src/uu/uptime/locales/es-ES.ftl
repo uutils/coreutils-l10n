@@ -44,3 +44,4 @@ uptime-user-count =
         [uno] 1 usuario
        *[otro] { $count } usuarios
     }
+uptime-output-up-text = activo
