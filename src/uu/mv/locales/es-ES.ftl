@@ -29,7 +29,7 @@ mv-error-failed-access-not-directory = falló al acceder { $path }: No es un dir
 mv-error-backup-with-no-clobber = no se puede combinar --backup con -n/--no-clobber o --update=none-fail
 mv-error-extra-operand = mv: operando adicional { $operand }
 mv-error-backup-might-destroy-source = respaldar { $target } podría destruir origen;  { $source } no movido
-mv-error-will-not-overwrite-just-created = no sobreescribirá el recién creado '{ $target }' con '{ $source }'
+mv-error-will-not-overwrite-just-created = no sobreescribirá el recién creado { $target } con { $source }
 mv-error-not-replacing = no reemplazando { $target }
 mv-error-cannot-move = no se puede mover { $source } a { $target }
 mv-error-directory-not-empty = Directorio no vacío
