@@ -54,3 +54,4 @@ id-output-login = login
 id-output-euid = euid
 id-output-context = contexto
 id-help-ignore = se descarta, para compatibilidad con otras versiones
+id-output-rgid = rgid
