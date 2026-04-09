@@ -12,7 +12,7 @@ chmod-error-no-such-file = Kann nicht auf '{ $file }' zugreifen: Datei oder Verz
 chmod-error-preserve-root =
     Rekursives Bearbeiten von '{ $file }' ist gefährlich
     chmod: Mit --no-preserve-root diese Sicherheitsmaßnahme außer Kraft setzen
-chmod-error-permission-denied = '{ $file }': Zugriff verweigert
+chmod-error-permission-denied = Kann nicht auf '{ $file }' zugreifen: Zugriff verweigert
 chmod-error-new-permissions = '{ $file }': Neue Berechtigungen sind { $actual }, nicht { $expected }
 chmod-error-missing-operand = Fehlendes Argument
 chmod-help-print-help = Hilfeinformationen anzeigen.
