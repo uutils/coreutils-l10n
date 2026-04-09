@@ -22,14 +22,14 @@ install-help-default-context = définir le contexte de sécurité SELinux du fic
 install-help-unprivileged = ne pas nécessiter de privilèges élevés pour changer le propriétaire, le groupe ou les attributs du fichier de destination
 # Messages d'erreur
 install-error-dir-needs-arg = { $util_name } avec -d nécessite au moins un argument.
-install-error-create-dir-failed = échec de la création de { $path }
+install-error-create-dir-failed = impossible de créer le répertoire { $path }
 install-error-chmod-failed = échec du chmod { $path }
 install-error-chmod-failed-detailed = { $path } : échec du chmod avec l'erreur { $error }
 install-error-chown-failed = échec du chown { $path } : { $error }
 install-error-invalid-target = cible invalide { $path } : Aucun fichier ou répertoire de ce type
 install-error-target-not-dir = la cible { $path } n'est pas un répertoire
 install-error-backup-failed = impossible de sauvegarder { $from } vers { $to }
-install-error-install-failed = impossible d'installer { $from } vers { $to }: { $error }
+install-error-install-failed = impossible d'installer { $from } vers { $to } : { $error }
 install-error-strip-failed = échec du programme strip : { $error }
 install-error-strip-abnormal = le processus strip s'est terminé anormalement - code de sortie : { $code }
 install-error-strip-terminated = le processus strip s'est terminé anormalement
