@@ -137,3 +137,8 @@ ls-invalid-columns-width = Ungültige Breite in der Umgebungsvariable COLUMNS ig
 ls-invalid-ignore-pattern = Ungültiges Muster für ignore: { $pattern }
 ls-invalid-hide-pattern = Ungültiges Muster für hide: { $pattern }
 ls-total = Gesamt { $size }
+dir-about =
+    Verzeichnisinhalte auflisten.
+    Dateien und Verzeichnisse, die mit '.' beginnen, standardmäßig ignorieren
+dir-usage = dir [OPTION]... [DATEI]...
+vdir-usage = vdir [OPTION]... [DATEI]...
