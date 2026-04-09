@@ -7,3 +7,4 @@ factor-help-help = Exibe informação de ajuda.
 factor-error-factorization-incomplete = Fatorização incompleta. Restos existem.
 factor-error-write-error = erro de escrita
 factor-error-reading-input = erro ao ler entrada: { $error }
+factor-error-invalid-int = encontrou um dígito inválido na string
