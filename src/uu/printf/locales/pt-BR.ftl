@@ -4,5 +4,5 @@ printf-usage =
     printf FORMATO [ARGUMENTO]...
     printf OPÇÃO
 printf-error-missing-operand = operand ausente
-printf-warning-ignoring-excess-arguments = ignorando argumentos excessivos começando com '{ $arg }'
+printf-warning-ignoring-excess-arguments = ignorando argumentos excessivos começando com { $arg }
 printf-help-version = Exibe informação de versão
