@@ -1,5 +1,5 @@
 vdir-about =
-    Listerle contenu des répertoires.
+    Liste le contenu des répertoires.
     Ignore les fichiers et répertoires commençant par un '.' par défaut.
 
     Les arguments obligatoires pour les options longues le sont aussi pour les options courtes.
