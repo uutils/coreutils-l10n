@@ -153,3 +153,6 @@ ls-warning-failed-to-get-security-context = Sicherheitskontext von { $path } kon
 ls-warning-getting-security-context = Fehler beim Ermitteln des Sicherheitskontexts von { $path }: { $error }
 smack-error-not-enabled = SMACK ist auf diesem System nicht aktiviert
 smack-error-label-retrieval-failure = SMACK-Label konnte nicht ermittelt werden: { $error }
+smack-error-label-set-failure = Fehler beim Setzen des SMACK-Labels auf '{ $context }': { $error }
+smack-error-no-label-set = Kein SMACK-Label vorhanden
+ls-warning-unparsable-ls-colors = Wert der LS_COLORS Umgebungsvariable kann nicht interpretiert werden
