@@ -1,0 +1,3 @@
+printenv-usage = printenv [OPTION]... [VARIABEL]...
+printenv-help-null = Jede Ausgabezeile mit einem Null-Byte statt mit einem Zeilenumbruch abschließen
+printenv-about = Gibt den Wert der angegeben Umgebungsvariable(n) aus. Wenn keine VARIABLE angegeben wird, werden alle Variablennamen und -werte ausgegeben.
