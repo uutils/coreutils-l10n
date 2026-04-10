@@ -7,3 +7,7 @@ tsort-usage = tsort [KAPCSOLÓK] FÁJL
 tsort-error-is-dir = olvasási hiba: Könyvtár
 tsort-error-odd = a bemenet páratlan számú tokent tartalmaz
 tsort-error-loop = a bemenet ciklust tartalmaz:
+tsort-error-at-least-one-input = legalább egy bemenet
+tsort-error-extra-operand =
+    extra operandus { $operand }
+    További információért adja ki a '{ $util } --help' parancsot.
