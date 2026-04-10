@@ -5,12 +5,12 @@ ls-usage = ls [OPTION]... [DATEI]...
 ls-after-help = Das TIME_STYLE-Argument kann full-iso, long-iso, iso, locale oder +FORMAT sein. FORMAT wird wie bei date interpretiert. Außerdem legt die Umgebungsvariable TIME_STYLE den standardmäßig zu verwendenden Stil fest.
 ls-error-invalid-line-width = Ungültige Zeilenbreite: { $width }
 ls-error-general-io = Allgemeiner E/A-Fehler: { $error }
-ls-error-cannot-access-no-such-file = Kann nicht auf '{ $path }' zugreifen: Datei oder Verzeichnis nicht gefunden
-ls-error-cannot-access-operation-not-permitted = Kann nicht auf '{ $path }' zugreifen: Vorgang nicht erlaubt
-ls-error-cannot-open-directory-permission-denied = Kann Verzeichnis '{ $path }' nicht öffnen: Zugriff verweigert
-ls-error-cannot-open-file-permission-denied = Kann Datei '{ $path }' nicht öffnen: Zugriff verweigert
-ls-error-cannot-open-directory-bad-descriptor = Kann Verzeichnis '{ $path }' nicht öffnen: Ungültiger Dateideskriptor
-ls-error-unknown-io-error = Unbekannter E/A-Fehler: '{ $path }', '{ $error }'
+ls-error-cannot-access-no-such-file = Kann nicht auf { $path } zugreifen: Datei oder Verzeichnis nicht gefunden
+ls-error-cannot-access-operation-not-permitted = Kann nicht auf { $path } zugreifen: Vorgang nicht erlaubt
+ls-error-cannot-open-directory-permission-denied = Kann Verzeichnis { $path } nicht öffnen: Zugriff verweigert
+ls-error-cannot-open-file-permission-denied = Kann Datei { $path } nicht öffnen: Zugriff verweigert
+ls-error-cannot-open-directory-bad-descriptor = Kann Verzeichnis { $path } nicht öffnen: Ungültiger Dateideskriptor
+ls-error-unknown-io-error = Unbekannter E/A-Fehler: { $path }, '{ $error }'
 ls-error-invalid-block-size = Ungültiges --block-size-Argument: { $size }
 ls-error-dired-and-zero-incompatible = --dired und --zero sind nicht kompatibel
 ls-error-not-listing-already-listed = { $path }: Verzeichnis, das bereits aufgelistet wurde, wird nicht erneut angezeigt
@@ -47,7 +47,7 @@ ls-help-c-quoting-style = C-Anführungsstil verwenden. Entspricht --quoting-styl
 ls-help-replace-control-chars = Steuerzeichen durch '?' ersetzen, falls sie nicht escaped sind.
 ls-help-show-control-chars = Steuerzeichen unverändert anzeigen, falls sie nicht escaped sind.
 ls-help-show-time-field =
-    Zeit in <field> anzeigen:
+    Zeit in `<field>` anzeigen:
     Zugriffszeit (-u): atime, access, use;
     Änderungszeit (-t): ctime, status.
     Modifikationszeit: mtime, modification.
@@ -65,7 +65,7 @@ ls-help-time-access =
 ls-help-hide-pattern = Implizite Einträge, die dem Shell-MUSTER entsprechen, nicht auflisten (wird durch -a oder -A überschrieben)
 ls-help-ignore-pattern = Implizite Einträge, die dem Shell-MUSTER entsprechen, nicht auflisten
 ls-help-ignore-backups = Einträge, die auf ~ enden, ignorieren.
-ls-help-sort-by-field = Nach <field> sortieren: name, none (-U), time (-t), size (-S), extension (-X) oder width
+ls-help-sort-by-field = Nach `<field>` sortieren: name, none (-U), time (-t), size (-S), extension (-X) oder width
 ls-help-sort-by-size = Nach Dateigröße sortieren, größte zuerst.
 ls-help-sort-by-time = Nach Änderungszeit (mtime im Inode) sortieren, neueste zuerst.
 ls-help-sort-by-version = Natürliche Sortierung von (Versions-)Nummern in den Dateinamen.
@@ -142,3 +142,14 @@ dir-about =
     Dateien und Verzeichnisse, die mit '.' beginnen, standardmäßig ignorieren
 dir-usage = dir [OPTION]... [DATEI]...
 vdir-usage = vdir [OPTION]... [DATEI]...
+vdir-about =
+    Verzeichnisinhalte auflisten.
+    Dateien und Verzeichnisse, die mit '.' beginnen, standardmäßig ignorieren
+
+    Die obligatorischen Argumente für Optionen in Langform sind auch in der Kurzform obligatorisch.
+ls-error-not-directory = Kann nicht auf { $path } zugreifen: Ist kein Verzeichnis
+ls-warning-unrecognized-ls-colors-prefix = Präfix nicht erkannt: { $prefix }
+ls-warning-failed-to-get-security-context = Sicherheitskontext von { $path } konnte nicht ermittelt werden
+ls-warning-getting-security-context = Fehler beim Ermitteln des Sicherheitskontexts von { $path }: { $error }
+smack-error-not-enabled = SMACK ist auf diesem System nicht aktiviert
+smack-error-label-retrieval-failure = SMACK-Label konnte nicht ermittelt werden: { $error }
