@@ -14,7 +14,7 @@ chmod-error-preserve-root =
     chmod: Mit --no-preserve-root diese Sicherheitsmaßnahme außer Kraft setzen
 chmod-error-permission-denied = Kann nicht auf '{ $file }' zugreifen: Zugriff verweigert
 chmod-error-new-permissions = '{ $file }': Neue Berechtigungen sind { $actual }, nicht { $expected }
-chmod-error-missing-operand = Fehlendes Argument
+chmod-error-missing-operand = Fehlender Operand
 chmod-help-print-help = Hilfeinformationen anzeigen.
 chmod-help-changes = Wie verbose, aber nur melden, wenn eine Änderung erfolgt
 chmod-help-quiet = Die meisten Fehlermeldungen unterdrücken
