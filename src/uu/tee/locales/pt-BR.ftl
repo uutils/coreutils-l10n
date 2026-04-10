@@ -1,0 +1,14 @@
+tee-about = Copia a entrada padrão para cada ARQUIVO e também para a saída padrão.
+tee-usage = tee [OPÇÃO]… [ARQUIVO]…
+tee-after-help = Se um ARQUIVO for -, isso significa que se trata de um arquivo chamado -.
+tee-help-help = Exibe a ajuda
+tee-help-append = acrescenta aos ARQUIVOs indicados, sem sobrescrever
+tee-help-ignore-interrupts = ignora sinais de interrupção (ignorado em plataformas que não sejam Unix)
+tee-help-ignore-pipe-errors = define o comportamento em caso de erro de gravação (ignorado em plataformas que não sejam Unix)
+tee-help-output-error = define o comportamento em caso de erro de gravação
+tee-help-output-error-warn = gera avisos em caso de erros ao gravar em qualquer saída
+tee-help-output-error-warn-nopipe = gera avisos para erros que não sejam erros de canalização (ignorados em plataformas que não sejam Unix)
+tee-help-output-error-exit = sai em caso de erros de gravação em qualquer saída
+tee-help-output-error-exit-nopipe = sai em caso de erros de gravação em qualquer saída que não sejam erros de canalização (equivalente ao exit em plataformas não Unix)
+tee-error-stdin = erro de leitura: { $error }
+tee-standard-output = 'saída padrão'
