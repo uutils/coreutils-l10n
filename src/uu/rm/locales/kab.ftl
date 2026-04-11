@@ -1,0 +1,3 @@
+rm-progress-removing = Tukksa
+rm-usage = rm [OPTION]... AFAYLU...
+rm-verbose-removed = { $file } yettwakkes
