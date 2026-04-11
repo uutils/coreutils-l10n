@@ -1,39 +1,40 @@
 sort-about = Affiche la concaténation triée de tous les FICHIER(s). Sans FICHIER, ou quand FICHIER est -, lit l'entrée standard.
 sort-usage = sort [OPTION]... [FICHIER]...
-sort-after-help = Le format de clé est CHAMP[.CAR][OPTIONS][,CHAMP[.CAR]][OPTIONS].
+sort-after-help =
+    Le format de clé est CHAMP[.CAR][OPTIONS][,CHAMP[.CAR]][OPTIONS].
 
-  Les champs sont séparés par défaut par le premier espace blanc après un caractère non-espace. Utilisez -t pour spécifier un séparateur personnalisé.
-  Dans le cas par défaut, les espaces blancs sont ajoutés au début de chaque champ. Les séparateurs personnalisés ne sont cependant pas inclus dans les champs.
+    Les champs sont séparés par défaut par le premier espace blanc après un caractère non-espace. Utilisez -t pour spécifier un séparateur personnalisé.
+    Dans le cas par défaut, les espaces blancs sont ajoutés au début de chaque champ. Les séparateurs personnalisés ne sont cependant pas inclus dans les champs.
 
-  CHAMP et CAR commencent tous deux à 1 (c'est-à-dire qu'ils sont indexés à partir de 1). S'il n'y a pas de fin spécifiée après une virgule, la fin sera la fin de la ligne.
-  Si CAR est défini à 0, cela signifie la fin du champ. CAR par défaut à 1 pour la position de début et à 0 pour la position de fin.
+    CHAMP et CAR commencent tous deux à 1 (c'est-à-dire qu'ils sont indexés à partir de 1). S'il n'y a pas de fin spécifiée après une virgule, la fin sera la fin de la ligne.
+    Si CAR est défini à 0, cela signifie la fin du champ. CAR par défaut à 1 pour la position de début et à 0 pour la position de fin.
 
-  Les options valides sont : MbdfhnRrV. Elles remplacent les options globales pour cette clé.
-
+    Les options valides sont : MbdfhnRrV. Elles remplacent les options globales pour cette clé.
 # Messages d'erreur
-sort-open-failed = échec d'ouverture : {$path} : {$error}
-sort-parse-key-error = échec d'analyse de la clé {$key} : {$msg}
-sort-cannot-read = impossible de lire : {$path} : {$error}
-sort-open-tmp-file-failed = échec d'ouverture du fichier temporaire : {$error}
-sort-compress-prog-execution-failed = impossible d'exécuter le programme de compression '{$prog}' : {$error}
-sort-compress-prog-terminated-abnormally = {$prog} s'est terminé anormalement
-sort-cannot-create-tmp-file = impossible de créer un fichier temporaire dans {$path} :
-sort-file-operands-combined = opérande supplémentaire {$file}
+sort-open-failed = échec d'ouverture : { $path } : { $error }
+sort-parse-key-error = échec d'analyse de la clé { $key } : { $msg }
+sort-cannot-read = impossible de lire : { $path } : { $error }
+sort-open-tmp-file-failed = échec d'ouverture du fichier temporaire : { $error }
+sort-compress-prog-execution-failed = impossible d'exécuter le programme de compression '{ $prog }' : { $error }
+sort-compress-prog-terminated-abnormally = { $prog } s'est terminé anormalement
+sort-cannot-create-tmp-file = impossible de créer un fichier temporaire dans { $path } :
+sort-file-operands-combined =
+    opérande supplémentaire { $file }
     les opérandes de fichier ne peuvent pas être combinées avec --files0-from
-    Essayez '{$help} --help' pour plus d'informations.
+    Essayez '{ $help } --help' pour plus d'informations.
 sort-multiple-output-files = plusieurs fichiers de sortie spécifiés
 sort-minus-in-stdin = lors de la lecture des noms de fichiers depuis l'entrée standard, aucun nom de fichier '-' n'est autorisé
-sort-no-input-from = aucune entrée depuis {$file}
-sort-invalid-zero-length-filename = {$file}:{$line_num} : nom de fichier de longueur zéro invalide
-sort-options-incompatible = les options '-{$opt1}{$opt2}' sont incompatibles
-sort-invalid-key = clé invalide {$key}
-sort-failed-parse-field-index = échec d'analyse de l'index de champ {$field} {$error}
+sort-no-input-from = aucune entrée depuis { $file }
+sort-invalid-zero-length-filename = { $file }:{ $line_num } : nom de fichier de longueur zéro invalide
+sort-options-incompatible = les options '-{ $opt1 }{ $opt2 }' sont incompatibles
+sort-invalid-key = clé invalide { $key }
+sort-failed-parse-field-index = échec d'analyse de l'index de champ { $field } { $error }
 sort-field-index-cannot-be-zero = l'index de champ ne peut pas être 0
-sort-failed-parse-char-index = échec d'analyse de l'index de caractère {$char} : {$error}
-sort-invalid-option = option invalide : '{$option}'
+sort-failed-parse-char-index = échec d'analyse de l'index de caractère { $char } : { $error }
+sort-invalid-option = option invalide : '{ $option }'
 sort-invalid-char-index-zero-start = index de caractère 0 invalide pour la position de début d'un champ
-sort-invalid-field-spec = {$msg} : spécification de champ invalide {$spec}
-sort-invalid-count-at-start-of = nombre invalide au début de {$string}
+sort-invalid-field-spec = { $msg } : spécification de champ invalide { $spec }
+sort-invalid-count-at-start-of = nombre invalide au début de { $string }
 sort-invalid-number-at-field-start = nombre invalide au début du champ
 sort-invalid-number-after-dash = nombre invalide après '-'
 sort-invalid-number-after-dot = nombre invalide après '.'
@@ -41,25 +42,24 @@ sort-invalid-number-after-comma = nombre invalide après ','
 sort-field-number-is-zero = le numéro de champ est zéro
 sort-character-offset-is-zero = le décalage de caractère est zéro
 sort-stray-character-field-spec = caractère parasite dans la spécification de champ
-sort-invalid-batch-size-arg = argument --batch-size invalide '{$arg}'
+sort-invalid-batch-size-arg = argument --batch-size invalide '{ $arg }'
 sort-minimum-batch-size-two = l'argument --batch-size minimum est '2'
-sort-batch-size-too-large = argument --batch-size {$arg} trop grand
-sort-maximum-batch-size-rlimit = argument --batch-size maximum avec la rlimit actuelle est {$rlimit}
-sort-extra-operand-not-allowed-with-c = opérande supplémentaire {$operand} non autorisée avec -c
-sort-separator-not-valid-unicode = le séparateur n'est pas un unicode valide : {$arg}
-sort-separator-must-be-one-char = le séparateur doit faire exactement un caractère de long : {$separator}
+sort-batch-size-too-large = argument --batch-size { $arg } trop grand
+sort-maximum-batch-size-rlimit = argument --batch-size maximum avec la rlimit actuelle est { $rlimit }
+sort-extra-operand-not-allowed-with-c = opérande supplémentaire { $operand } non autorisée avec -c
+sort-separator-not-valid-unicode = le séparateur n'est pas un unicode valide : { $arg }
+sort-separator-must-be-one-char = le séparateur doit faire exactement un caractère de long : { $separator }
 sort-only-one-file-allowed-with-c = un seul fichier autorisé avec -c
 sort-failed-fetch-rlimit = Échec de récupération de rlimit
-sort-invalid-suffix-in-option-arg = suffixe invalide dans l'argument --{$option} {$arg}
-sort-invalid-option-arg = argument --{$option} invalide {$arg}
-sort-option-arg-too-large = argument --{$option} {$arg} trop grand
-sort-error-disorder = {$file}:{$line_number}: désordre : {$line}
-sort-error-buffer-size-too-big = La taille du tampon {$size} ne rentre pas dans l'espace d'adressage
+sort-invalid-suffix-in-option-arg = suffixe invalide dans l'argument --{ $option } { $arg }
+sort-invalid-option-arg = argument --{ $option } invalide { $arg }
+sort-option-arg-too-large = argument --{ $option } { $arg } trop grand
+sort-error-disorder = { $file }:{ $line_number }: désordre : { $line }
+sort-error-buffer-size-too-big = La taille du tampon { $size } ne rentre pas dans l'espace d'adressage
 sort-error-no-match-for-key = ^ aucune correspondance pour la clé
-sort-error-write-failed = échec d'écriture : {$output}
-sort-failed-to-delete-temporary-directory = échec de suppression du répertoire temporaire : {$error}
-sort-failed-to-set-up-signal-handler = échec de configuration du gestionnaire de signal : {$error}
-
+sort-error-write-failed = échec d'écriture : { $output }
+sort-failed-to-delete-temporary-directory = échec de suppression du répertoire temporaire : { $error }
+sort-failed-to-set-up-signal-handler = échec de configuration du gestionnaire de signal : { $error }
 # Messages d'aide
 sort-help-help = Affiche les informations d'aide.
 sort-help-version = Affiche les informations de version.
@@ -91,3 +91,18 @@ sort-help-compress-prog = compresse les fichiers temporaires avec PROG, décompr
 sort-help-batch-size = Fusionne au maximum N_MERGE entrées à la fois.
 sort-help-files0-from = lit l'entrée depuis les fichiers spécifiés par FICHIER_NUL terminé par NUL
 sort-help-debug = souligne les parties de la ligne qui sont réellement utilisées pour le tri
+sort-warning-failed-to-set-locale = échec de la configuration de la locale
+sort-warning-simple-byte-comparison = tri du texte réalisé par comparaison d'octets simple
+sort-warning-sort-rule = tri du texte selon les règles de tri '{ $locale }'
+sort-warning-key-zero-width = la clé { $key } a une longueur de zéro et sera ignorée
+sort-warning-key-numeric-spans-fields = La clé { $key } est numérique et couvre plusieurs champs
+sort-warning-leading-blanks-significant = Les espaces en préfixe sont significatifs pour la clé { $key } ; pensez à spécifier l'option 'b'
+sort-warning-numbers-use-decimal-point = les nombres utilisent '.' comme point décimal dans cette locale
+sort-warning-options-ignored = les options '-{ $options }' sont ignorées
+sort-warning-option-ignored = l'option '-{ $option }' est ignorée
+sort-warning-option-reverse-last-resort = l'option '-r' s'applique uniquement qu'en comparaison de dernier recours
+sort-warning-obsolescent-key = La clé '{ $key }' est obsolète ; utilisez plutôt '-k { $replacement }'
+sort-warning-separator-grouping = le séparateur de champs '{ $sep }' est traité comme séparateur de groupes dans les nombres
+sort-warning-separator-decimal = le séparateur de champs '{ $sep }' est traité comme le point décimal dans les nombres
+sort-warning-separator-minus = le séparateur de champs '{ $sep }' est traité comme un signe négatif dans les nombres
+sort-warning-separator-plus = le séparateur de champs '{ $sep }' est traité comme signe positif dans les nombres
