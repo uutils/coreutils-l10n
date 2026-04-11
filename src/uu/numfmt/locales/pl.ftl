@@ -81,3 +81,4 @@ numfmt-debug-no-conversion = nie określono opcji konwersji
 numfmt-debug-grouping-no-effect = grupowanie nie ma wpływu na te ustawienia regionalne
 numfmt-debug-failed-to-convert = nie udało się przekonwertować niektórych liczb wejściowych
 numfmt-debug-header-ignored = --header zignorowano przy wprowadzaniu danych z wiersza poleceń
+numfmt-error-invalid-unit-argument = nieprawidłowy argument '{ $arg }' dla '{ $opt }'
