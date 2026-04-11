@@ -1,0 +1,11 @@
+common-error = tuccḍa
+common-usage = Aseqdec
+common-help = tallalt
+common-version = lqem
+action-copying = anɣal
+action-removing = tukksa
+action-creating = asnulfu
+action-reading = taɣuṛi
+action-writing = tira
+safe-traversal-directory = <akaram>
+safe-traversal-current-directory = <akaram amiran>
