@@ -43,7 +43,7 @@ cp-help-archive = Identique à -dR --preserve=all
 cp-help-no-dereference-preserve-links = identique à --no-dereference --preserve=links
 cp-help-one-file-system = rester sur ce système de fichiers
 cp-help-sparse = contrôler la création de fichiers épars. Voir ci-dessous
-cp-help-selinux = définir le contexte de sécurité SELinux du fichier de destination au type par défaut
+cp-help-selinux = défini le contexte de sécurité SELinux du fichier de destination au type par défaut
 cp-help-context = comme -Z, ou si CTX est spécifié, définir le contexte de sécurité SELinux ou SMACK à CTX
 cp-help-progress = Afficher une barre de progression. Note : cette fonctionnalité n'est pas prise en charge par GNU coreutils.
 cp-help-copy-contents = Non implémenté : copier le contenu des fichiers spéciaux lors de la récursion
