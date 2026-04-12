@@ -6,7 +6,7 @@ dir-about =
     Por padrão, ignora arquivos e diretórios que começam com um '.'
 vdir-about =
     Lista o conteúdo do diretório.
-    Por padrão, ignora arquivos e diretórios que começam com um ‘.’
+    Por padrão, ignora arquivos e diretórios que começam com um '.'
 
     Os argumentos obrigatórios para as opções longas também são obrigatórios para as opções curtas.
 ls-usage = ls [OPÇÃO]... [ARQUIVO]...
