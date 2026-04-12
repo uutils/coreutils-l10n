@@ -1,6 +1,6 @@
 vdir-about =
-    Lista conteúdo do diretório.
-    Ignora arquivos e diretórios começando com um "." por padrão.
+    Lista o conteúdo do diretório.
+    Por padrão, ignora arquivos e diretórios que começam com um '.'
 
-    Argumentos obrigatórios para opções longas também são obrigatórios para opções curtas também.
+    Os argumentos obrigatórios para as opções longas também são obrigatórios para as opções curtas.
 vdir-usage = vdir [OPÇÃO]... [ARQUIVO]...
