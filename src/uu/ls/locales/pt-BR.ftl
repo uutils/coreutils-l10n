@@ -53,3 +53,4 @@ ls-help-ignore-backups = Ignora as entradas que terminam com ~.
 ls-help-sort-by-size = Ordena por tamanho do arquivo, maior primeiro.
 ls-help-sort-by-time = Ordena por data de modificação (o campo 'mtime' no inode), mais recente primeiro.
 ls-help-sort-by-extension = Ordena alfabeticamente por extensão do arquivo.
+smack-error-not-enabled = O SMACK não está ativado neste sistema
