@@ -39,3 +39,6 @@ dd-progress-truncated-record =
 dd-progress-byte-copied = { $bytes } byte copiado, { $duration } s, { $rate }/s
 dd-progress-bytes-copied = { $bytes } bytes copiados, { $duration } s, { $rate }/s
 dd-progress-bytes-copied-si = { $bytes } bytes ({ $si }) copiados, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si-iec = { $bytes } bytes ({ $si }, { $iec }) copiados, { $duration } s, { $rate }/s
+dd-warning-zero-multiplier = { $zero } é um multiplicador zero; use { $alternative } se for essa a intenção
+dd-warning-signal-handler = Aviso interno do dd: Não é possível registrar o manipulador de sinal
