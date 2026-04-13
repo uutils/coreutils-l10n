@@ -32,3 +32,14 @@ id-help-groups =
     sem nenhuma ordem específica.
 id-help-human-readable = Torna a saída legível para o usuário. Cada exibição deve estar em uma linha separada.
 id-help-password = Exibe o ID como uma entrada no arquivo de senhas.
+id-help-real =
+    Exibe o ID real para as opções -G, -g e -u, em vez
+    do ID efetivo.
+id-help-zero =
+    delimita as entradas com caracteres NUL, não com espaços em branco;
+    não permitido no formato padrão
+id-output-uid = uid
+id-output-groups = grupos
+id-output-login = login
+id-output-euid = euid
+id-output-rgid = rgid
