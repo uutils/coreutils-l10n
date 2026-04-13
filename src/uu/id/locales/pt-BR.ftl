@@ -43,3 +43,4 @@ id-output-groups = grupos
 id-output-login = login
 id-output-euid = euid
 id-output-rgid = rgid
+id-output-context = contexto
