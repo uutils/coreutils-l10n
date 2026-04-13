@@ -60,14 +60,6 @@ jobs:
           fi
         done
 
-        # Fix ## group comments to # single comments (Fluent syntax)
-        find src/uu/*/locales src/uucore/locales -name "*.ftl" -type f | while read -r f; do
-          if grep -qP '^## ' "$f"; then
-            sed -i 's/^## /# /' "$f"
-            echo "Fixed ## comments: $f"
-          fi
-        done
-
     - name: Validate Fluent syntax
       run: |
         has_errors=false
