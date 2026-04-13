@@ -1,1 +1,1 @@
-realpath-about = Exibe o endereço resolvido
+realpath-about = Exibe o caminho resolvido
