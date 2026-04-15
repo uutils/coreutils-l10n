@@ -44,3 +44,8 @@ id-output-login = login
 id-output-euid = euid
 id-output-rgid = rgid
 id-output-context = contexto
+id-help-name =
+    Exibe o nome do usuário ou o ID do grupo para as opções -G, -g e -u
+    em vez do número.
+    Se algum dos números de identificação não puder ser mapeado para
+    nomes, o número será exibido normalmente.
