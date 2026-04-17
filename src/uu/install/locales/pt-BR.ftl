@@ -1,0 +1,54 @@
+install-about =
+    Copia FONTE para DEST ou várias FONTE(s) para o
+    DIRETÓRIO existente, definindo os modos de permissão e o proprietário/grupo
+install-usage = install [OPÇÃO]... [ARQUIVO]...
+install-help-ignored = ignorado
+install-help-compare = compara cada par de arquivos de fonte e de destino e, em alguns casos, não altera o arquivo de destino de forma alguma
+install-help-directory = trata todos os argumentos como nomes de diretórios; cria todos os componentes dos diretórios especificados
+install-help-create-leading = cria todos os componentes iniciais de DEST, exceto o último, e depois copie FONTE para DEST
+install-help-group = define a propriedade do grupo, em vez do grupo atual do processo
+install-help-mode = define o modo de permissão (como no chmod), em vez de rwxr-xr-x
+install-help-owner = define proprietário (somente para superusuários)
+install-help-preserve-timestamps = aplica as datas e horas de acesso/modificação dos arquivos de FONTE aos arquivos de destino correspondentes
+install-help-strip = remove tabelas de símbolos
+install-help-strip-program = programa usado para remover as tabelas de símbolos dos arquivos binários
+install-help-target-directory = move todos os argumentos de FONTE para o DIRETÓRIO
+install-help-no-target-directory = trata o DEST como um arquivo normal
+install-help-verbose = explica o que está sendo feito
+install-help-preserve-context = preserva o contexto de segurança
+install-help-context = define o contexto de segurança de arquivos e diretórios
+install-help-default-context = define o contexto de segurança do SELinux do arquivo de destino e de cada diretório criado como o tipo padrão
+install-help-unprivileged = não requer privilégios elevados para alterar o proprietário, o grupo ou os atributos do arquivo de destino
+install-error-dir-needs-arg = { $util_name } com a opção -d requer pelo menos um argumento.
+install-error-create-dir-failed = não é possível criar o diretório { $path }
+install-error-chmod-failed = falha ao executar o chmod { $path }
+install-error-chmod-failed-detailed = { $path }: falha no chmod com erro { $error }
+install-error-chown-failed = falha no chmod { $path }: { $error }
+install-error-invalid-target = destino inválido { $path }: Arquivo ou diretório inexistente
+install-error-target-not-dir = destino { $path } não é um diretório
+install-error-backup-failed = não é possível fazer backup de { $from } para { $to }
+install-error-install-failed = não é possível instalar { $from } para { $to }: { $error }
+install-error-strip-failed = falha ao remover partes do programa: { $error }
+install-error-strip-abnormal = o processo da remoção de partes do binário foi encerrado de forma anômala - código de saída: { $code }
+install-error-metadata-failed = erro de metadados
+install-error-invalid-user = usuário inválido: { $user }
+install-error-invalid-group = grupo inválido: { $group }
+install-error-omitting-directory = omitindo diretório { $path }
+install-error-not-a-directory = falha ao acessar { $path }: Não um diretório
+install-error-override-directory-failed = não é possível sobrescrever o diretório { $dir } com o não-diretório { $file }
+install-error-same-file = { $file1 } e { $file2 } são o mesmo arquivo
+install-error-extra-operand =
+    operando extra { $operand }
+    { $usage }
+install-error-invalid-mode = String de modo inválida: { $error }
+install-error-mutually-exclusive-target = As opções --target-directory e --no-target-directory são mutuamente exclusivas
+install-error-mutually-exclusive-compare-preserve = As opções --compare e --preserve-timestamps são mutuamente exclusivas
+install-error-mutually-exclusive-compare-strip = As opções --compare e --strip são mutuamente exclusivas
+install-error-missing-file-operand = falta o operando do arquivo
+install-error-missing-destination-operand = falta o operando do arquivo de destino após { $path }
+install-error-failed-to-remove = Falha ao remover o arquivo existente { $path }. Erro: { $error }
+install-warning-compare-ignored = A opção --compare (-C) é ignorada quando se especifica um modo com bits que não sejam de permissão
+install-verbose-creating-directory = criando o diretório { $path }
+install-verbose-creating-directory-step = install: criando o diretório { $path }
+install-verbose-removed = { $path } removido
+install-verbose-backup = (backup: { $backup })
