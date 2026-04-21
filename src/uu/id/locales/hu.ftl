@@ -50,3 +50,4 @@ id-output-login = bejelentkezés
 id-output-euid = euid
 id-output-context = kontextus
 id-help-ignore = figyelmen kívül hagyás, más verziókkal való kompatibilitás érdekében
+id-output-rgid = rgid
