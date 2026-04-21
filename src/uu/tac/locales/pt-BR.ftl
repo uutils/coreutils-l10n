@@ -1,0 +1,9 @@
+tac-about = Grava cada arquivo na saída padrão, começando pela última linha.
+tac-usage = tac [OPÇÃO]... [ARQUIVO]...
+tac-help-before = coloca o separador antes, em vez de depois
+tac-help-regex = interpreta a sequência como uma expressão regular
+tac-help-separator = usa STRING como separador em vez de uma nova linha
+tac-error-invalid-regex = expressão regular inválida: { $error }
+tac-error-open-error = falha ao abrir { $filename } para leitura: { $error }
+tac-error-read-error = { $filename }: erro de leitura: { $error }
+tac-error-write-error = falha ao gravar na saída padrão: { $error }
