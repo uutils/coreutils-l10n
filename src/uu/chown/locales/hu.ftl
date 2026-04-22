@@ -19,3 +19,4 @@ chown-error-failed-to-get-attributes = Nem sikerült lekérni a(z) { $file } att
 chown-error-invalid-user = Érvénytelen felhasználó: { $user }
 chown-error-invalid-group = Érvénytelen csoport: { $group }
 chown-error-invalid-spec = Érvénytelen formátum: { $spec }
+chown-warning-dot-separator = „.” helyett „:” kellene: { $spec }
