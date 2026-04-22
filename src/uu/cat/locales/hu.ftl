@@ -16,3 +16,4 @@ cat-help-show-nonprinting = használj ^ és M- notációt, kivéve LF (\n) és T
 cat-help-ignored-u = (mellőzött)
 cat-error-unknown-filetype = ismeretlen fajl típus: { $ft_debug }
 cat-error-is-directory = Ez egy mappa
+cat-error-no-such-device-or-address = Nincs ilyen eszköz vagy cím
