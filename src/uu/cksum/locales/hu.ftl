@@ -9,10 +9,8 @@ cksum-after-help =
     - crc32b: (csak a cksum-ban elérhető)
     - md5: (megegyezik az md5sum paranccsal)
     - sha1: (megegyezik a sha1sum paranccsal)
-    - sha224: (megegyezik a sha224sum paranccsal)
-    - sha256: (megegyezik a sha256sum paranccsal)
-    - sha384: (megegyezik a sha384sum paranccsal)
-    - sha512: (megegyezik a sha512sum paranccsal)
+    - sha2: (megegyezik a { "{224,256,384,512}" }sum paranccsal)
+    - sha3: (csak a cksum-ban elérhető)
     - blake2b: (megegyezik a b2sum paranccsal)
     - sm3: (csak a cksum-ban elérhető)
 cksum-help-algorithm = a hashalgoritmus kiválasztása; lásd lejjebb: DIGEST
