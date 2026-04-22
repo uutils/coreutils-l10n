@@ -12,7 +12,7 @@ chmod-error-no-such-file = Hozzáférés sikertelen { $file }-hoz: Nincs ilyen f
 chmod-error-preserve-root =
     veszélyes rekurzívan műveletet végrehajtani a { $file } fajlon
     chmod: használja a --no-preserve-root opciót a biztonsági funkció felülírásához
-chmod-error-permission-denied = { $file }: Hozzáférés megtagadva
+chmod-error-permission-denied = nem lehet hozzáférni ehhez: { $file }: Hozzáférés megtagadva
 chmod-error-new-permissions = { $file }: új jogosultságok { $actual } és nem { $expected }
 chmod-error-missing-operand = hiányzó operandus
 chmod-help-print-help = Súgó megjelenítése.
