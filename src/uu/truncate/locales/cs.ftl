@@ -1,0 +1,13 @@
+truncate-about = Oříznout nebo rozšířit velikost každého souboru na zadanou velikost.
+truncate-usage = truncate [PŘEDVOLBA]… [SOUBOR]…
+truncate-help-io-blocks = zacházet s SIZE jako s počtem vstupně/výstupních bloků souboru namísto bajty (NEIMPLEMENTOVÁNO)
+truncate-help-no-create = nevytvářet soubory, které neexistují
+truncate-help-reference = založit velikost každého ze souboru na velikosti RFILE
+truncate-help-size = nastavit nebo uzpůsobit velikost každého ze souborů podle SIZE, které je v bajtech (pokud není uvedeno --io-blocks)
+truncate-error-missing-file-operand = chybí souborový operand
+truncate-error-cannot-open-no-device = nebylo možné otevřít { $filename } pro zápis: Žádné takové zařízení nebo adresa
+truncate-error-cannot-open-for-writing = nebylo možné otevřít { $filename } pro zápis
+truncate-error-invalid-number = Neplatné číslo: { $error }
+truncate-error-must-specify-relative-size = v případě použití „--reference“ je třeba uvést relativní „--size“
+truncate-error-division-by-zero = dělení nulou
+truncate-error-cannot-stat-no-such-file = není možné provést stat { $filename }: Žádný takový soubor nebo složka
