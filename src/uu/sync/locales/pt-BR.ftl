@@ -1,1 +1,13 @@
-sync-about = Sincronizar escritas em cache ao armazenamento persistente
+sync-about = Sincroniza escritas em cache para armazenamento persistente
+sync-usage = sync [OPÇÃO]... ARQUIVO...
+sync-help-file-system = sincroniza os sistemas de arquivos que contêm os arquivos (somente Linux e Windows)
+sync-help-data = sincroniza apenas os dados dos arquivos, sem metadados desnecessários (somente no Linux)
+sync-error-data-needs-argument = --data requer pelo menos um argumento
+sync-error-opening-file = erro ao abrir { $file }: { $err }
+sync-error-no-such-file = erro ao abrir { $file }: Arquivo ou diretório inexistente
+sync-error-syncing-file = erro ao sincronizar { $file }
+sync-warning-fcntl-failed = aviso: falha ao redefinir o sinalizador O_NONBLOCK para { $file }: { $error }
+sync-error-flush-file-buffer = falha ao esvaziar o buffer de arquivo
+sync-error-create-volume-handle = falha ao criar o handle do volume
+sync-error-find-first-volume = falha ao encontrar o primeiro volume
+sync-error-find-next-volume = falha ao encontrar o próximo volume
