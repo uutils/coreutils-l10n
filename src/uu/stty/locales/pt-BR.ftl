@@ -1,4 +1,4 @@
 stty-usage =
-    "stty [-F DISPOSITIVO | --arquivo=DISPOSITIVO] [CONFIGURAÇÃO]...
-    ou:  stty [-F DISPOSITIVO | --arquivo=DISPOSITIVO] [-a|--tudo]
-    ou:  stty [-F DISPOSITIVO | --arquivo=DISPOSITIVO] [-g|--salvar]"
+    stty [-F DISPOSITIVO | --file=DISPOSITIVO] [CONFIGURAÇÃO]...
+    ou:  stty [-F DISPOSITIVO | --file=DISPOSITIVO] [-a|--all]
+    ou:  stty [-F DISPOSITIVO | --file=DISPOSITIVO] [-g|--save]
