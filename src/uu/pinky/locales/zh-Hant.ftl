@@ -1,4 +1,4 @@
-pinky-help-help = 列印幫助資訊
+pinky-help-help = 列印使用說明資訊
 pinky-column-login = 登入
 pinky-unsupported-openbsd = 不被 OpenBSD 支援的指令
 pinky-directory-label = 目錄:
