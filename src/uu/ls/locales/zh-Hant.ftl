@@ -1,4 +1,4 @@
-ls-help-print-help = 列印幫助資訊。
+ls-help-print-help = 列印使用說明資訊。
 ls-error-cannot-access-no-such-file = 無法存取 '{ $path }': 沒有此檔案或目錄
 ls-usage = ls [選項]... [檔案]...
 ls-help-file-type = 與 --classify 相同，但不附加 '*'
