@@ -19,3 +19,4 @@ chown-error-failed-to-get-attributes = falha ao obter atributos de { $file }
 chown-error-invalid-user = utilizador inválido: { $user }
 chown-error-invalid-group = grupo inválido: { $group }
 chown-error-invalid-spec = especificação inválida: { $spec }
+chown-warning-dot-separator = '.' deve ser ':': { $spec }
