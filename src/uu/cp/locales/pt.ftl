@@ -106,3 +106,5 @@ cp-error-not-writing-dangling-symlink = não escrever através da ligação simb
 cp-verbose-removed = removido { $path }
 cp-help-preserve-default = igual a --preserve=mode,ownership(somente unix),timestamps
 cp-debug-copy-offload = descarregamento de cópias: { $offload }, reflink: { $reflink }, deteção de esparsas: { $sparse }
+cp-error-cannot-create-special-file = não é possível criar o ficheiro especial { $path }: { $error }
+cp-error-setting-attributes = a definir atributos para { $path }
