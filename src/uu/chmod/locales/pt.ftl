@@ -6,7 +6,7 @@ chmod-usage =
     chmod [OPÇÃO]... MODO-OCTAL FICHEIRO...
     chmod [OPÇÃO]... --reference=RFICHEIRO FICHEIRO...
 chmod-error-no-such-file = não pode aceder { $file }: nenhum ficheiro ou diretório desse
-chmod-error-permission-denied = { $file } Permissão negada
+chmod-error-permission-denied = não é possível acder { $file }: Permissão negada
 chmod-error-new-permissions = { $file }: novas permissões são { $actual }, não { $expected }
 chmod-help-recursive = alterar ficheiros e diretórios recursivamente
 chmod-help-reference = usar o modo RFICHEIRO em vez de valores MODO
