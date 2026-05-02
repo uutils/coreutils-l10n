@@ -104,3 +104,5 @@ date-error-cannot-set-date = não pode definir data
 date-help-resolution =
     exibir a resolução disponível dos carimbos de tempo
     Exemplo: 0,000000001
+date-error-extra-operand = operando adicional '{ $operand }'
+date-error-write = erro de gravação: { $error }
