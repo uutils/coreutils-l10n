@@ -137,3 +137,22 @@ ls-invalid-ignore-pattern = Esquema inválido para ignorar: { $pattern }
 ls-invalid-hide-pattern = Esquema inválido para esconder: { $pattern }
 ls-total = total { $size }
 ls-help-unsorted-all = Lista todos os ficheiros na ordem do diretório, sem ordenação. Equivalente a -aU. Desativa --color, a menos que explicitamente especificado.
+dir-about =
+    Listar o conteúdo do diretório.
+    Ignorar ficheiros e diretórios que começam com um '.' por predefinição
+vdir-about =
+    Listar o conteúdo do diretório.
+    Ignorar ficheiros e diretórios que começam com um '.' por predefinição.
+
+    Os argumentos obrigatórios para opções longas também são obrigatórios para opções curtas.
+dir-usage = dir [OPÇÃO]... [FICHEIRO]...
+vdir-usage = vdir [OPÇÃO]... [FICHEIRO]...
+ls-error-not-directory = não é possível aceder { $path }: não é um diretório
+ls-warning-unrecognized-ls-colors-prefix = préfixo não reconhecido: { $prefix }
+ls-warning-failed-to-get-security-context = falha ao obter o contexto de segurança de: { $path }
+ls-warning-getting-security-context = a obter o contexto de segurança de: { $path }: { $error }
+smack-error-not-enabled = O SMACK não está ativado neste sistema
+smack-error-label-retrieval-failure = falha ao obter etiqueta SMACK: { $error }
+smack-error-label-set-failure = falha ao definir a etiqueta SMACK para '{ $context }': { $error }
+smack-error-no-label-set = nenhuma etiqueta SMACK definida
+ls-warning-unparsable-ls-colors = valor não analizável para a variável de ambiente LS_COLORS
