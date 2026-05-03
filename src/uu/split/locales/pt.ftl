@@ -56,3 +56,4 @@ split-help-hex-suffixes = igual a -x, mas permitir definir o valor de início
 split-help-suffix-length = gerar sufixos de comprimento N (predefinição 2)
 split-help-verbose = imprimir um diagnóstico antes de cada ficheiro de saída ser aberto
 split-help-separator = usar SEP em vez de newline como o separador de registo; '\\0' (zero) especifica o carácter NUL
+split-error-is-a-directory = { $dir }: É um diretório
