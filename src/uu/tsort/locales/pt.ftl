@@ -7,3 +7,7 @@ tsort-usage = tsort [OPÇÕES] FICHEIRO
 tsort-error-is-dir = erro de leitura: é um diretório
 tsort-error-odd = a entrada contém um número ímpar de símbolos
 tsort-error-loop = a entrada contém um ciclo:
+tsort-error-extra-operand =
+    operando { $operand } adicional
+    Digite '{ $util } --help' para mais informações.
+tsort-error-at-least-one-input = pelo menos uma entrada
