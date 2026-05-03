@@ -27,13 +27,13 @@ mv-error-target-not-directory = diretório destino { $path }: não é um diretó
 mv-error-failed-access-not-directory = falha ao aceder { $path }: não é um diretório
 mv-error-backup-with-no-clobber = não pode combinar --backup com -n/-no-clobber ou --update=none-fail
 mv-error-extra-operand = mv: operando { $operand } adicional
-mv-error-will-not-overwrite-just-created = não substituirá o recém-criado '{ $target }' com '{ $source } '
+mv-error-will-not-overwrite-just-created = não substituirá o recém-criado { $target } com { $source }
 mv-error-not-replacing = não substituir { $target }
 mv-error-cannot-move = não pode mover { $source } para { $target }
 mv-error-directory-not-empty = Diretório não vazio
 mv-error-no-symlink-support = o seu sistema operativo não suporta ligações simbólicas
 mv-error-permission-denied = Permissão negada
-mv-error-inter-device-move-failed = falha na transferência entre dispositivos: '{ $from }' para '{ $to }'; impossível de remover o destino: { $err }
+mv-error-inter-device-move-failed = falha na transferência entre dispositivos: { $from } para { $to }; impossível de remover o destino: { $err }
 mv-help-force = não solicitar antes de substituir
 mv-help-interactive = solicitar antes de substituir
 mv-help-no-clobber = não sobrescrever um ficheiro existente
