@@ -101,3 +101,4 @@ sort-warning-separator-decimal = o separador de campos '{ $sep }' é tratado com
 sort-warning-separator-minus = o separador de campos '{ $sep }' é tratado como o caractere menos em números
 sort-warning-separator-plus = o separador de campos '{ $sep }' é tratado como o caractere mais em números
 sort-help-random-source = usar FICHEIRO como uma fonte de dados aleatórios
+sort-warning-sort-rule = a ordenação de textos é realizada utilizando as regras de ordenação '{ $locale }'
