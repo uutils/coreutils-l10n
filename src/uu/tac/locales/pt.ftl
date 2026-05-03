@@ -8,3 +8,4 @@ tac-error-invalid-argument = { $argument }: erro de leitura: argumento inválido
 tac-error-file-not-found = falha ao abrir { $filename } para leitura: nenhum ficheiro ou diretório desses
 tac-error-read-error = falha ao ler de { $filename }: { $error }
 tac-error-write-error = falha ao escrever para stdout: { $error }
+tac-error-open-error = falha ao abrir { $filename } para leitura: { $error }
