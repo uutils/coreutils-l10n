@@ -26,3 +26,6 @@ ptx-about =
 ptx-help-ignore-case = converter minúsculas em maiúsculas para classificação
 ptx-error-dumb-format = Não existe um formato sem sentido com as extensões GNU desativadas
 ptx-help-flag-truncation = use CADEIA para sinalizar truncamentos de linha
+ptx-help-typeset-mode = alterar a largura predefinida de 72 para 100
+ptx-error-empty-regexp = Uma expressão regular não pode corresponder a uma cadeia de comprimento zero
+ptx-error-invalid-regexp = regexp inválido: { $error }
