@@ -7,3 +7,4 @@ fold-bytes-help = contagem a usar bytes em vez de colunas (o que significa carac
 fold-spaces-help = quebrar linhas nos limites de palavras em vez de um corte radical
 fold-error-illegal-width = valor de largura ilegal
 fold-error-readline = falha ao ler uma linha
+fold-characters-help = conta usando as posições dos caracteres em vez das colunas do ecrã
