@@ -61,3 +61,4 @@ expr-error-unmatched-opening-brace = Impar { "\\{" }
 expr-error-invalid-bracket-content = Conteúdo inválido de { "\\{\\}" }
 expr-error-trailing-backslash = Contrabarra no fim
 expr-error-too-big-range-quantifier-index = A expressão regular é grande demais
+expr-error-match-utf8 = match não suporta codificação UTF-8 inválida em { $arg }
