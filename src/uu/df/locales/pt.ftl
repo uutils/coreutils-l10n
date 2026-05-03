@@ -10,7 +10,7 @@ df-after-help =
 
     TAMANHO é uma unidade inteira e opcional (exemplo: 10M é 10*1024*1024).
     Unidades são K, M, G, T, P, E, Z, Y (potências de 1024) ou KB, MB,... (potências 
-    de 1000).
+    de 1000). As unidades podem ser decimais, hexadecimais, octais, binárias.
 df-help-all = inclui sistemas de ficheiros fictícios
 df-help-block-size = escala tamanhos por TAMANHO antes de imprimi-los; ex., '-BM' imprime tamanhos em unidades de 1.048.576 bytes
 df-help-total = produzir um total geral
