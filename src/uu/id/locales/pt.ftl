@@ -48,3 +48,5 @@ id-after-help =
     desse utilizador são exibidos. Neste caso, presume-se que os IDs real e efetivo
     sejam os mesmos.
 id-help-ignore = ignorar, para compatibilidade com outras versões
+id-error-context-security-only = --context (-Z) funciona apenas num kernel com SELinux/SMACK ativado
+id-output-rgid = rgid
