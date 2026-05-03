@@ -41,3 +41,6 @@ dd-progress-bytes-copied-si = { $bytes } bytes ({ $si }) copiados, { $duration }
 dd-progress-bytes-copied-si-iec = { $bytes } bytes ({ $si }, { $iec }) copiados, { $duration } s, { $rate }/s
 dd-warning-zero-multiplier = { $zero } é um multiplicador zero; use { $alternative } se for o pretendido
 dd-warning-signal-handler = Aviso interno do dd: incapaz de registar o manipulador de sinal
+dd-standard-input = 'entrada predefinida'
+dd-standard-output = 'saída predefinida'
+dd-error-failed-discard-cache = falha ao limpar o cache para: { $file }
