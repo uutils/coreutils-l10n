@@ -8,3 +8,5 @@ timeout-help-verbose = diagnosticar para stderr qualquer sinal enviado após tem
 timeout-error-invalid-signal = { $signal }: sinal inválido
 timeout-error-failed-to-execute-process = falha ao executar o processo: { $error }
 timeout-verbose-sending-signal = a enviar sinal { $signal } ao comando { $command }
+timeout-help-duration = um número de ponto flutuante com um sufixo opcional: 's' para segundos (predefinição), 'm' para minutos, 'h' para horas ou 'd' para dias; um valor de 0 desativa o tempo limite associado
+timeout-help-command = um comando a ser executado com argumentos opcionais
