@@ -7,12 +7,12 @@ ls-usage = ls [OPÇÃO]... [FICHEIRO]...
 ls-after-help = O argumento ESTILO_TEMPO pode ser full-iso, long-iso, iso, locale ou +FORMATO. FORMATO é interpretado como no date. A variável de ambiente ESTILO_TEMPO também define o estilo predefinido a usar.
 ls-error-invalid-line-width = largura da linha inválida: { $width }
 ls-error-general-io = erro geral do ES: { $error }
-ls-error-cannot-access-no-such-file = não pode aceder '{ $path }': nenhum ficheiro ou diretório desses
-ls-error-cannot-access-operation-not-permitted = não pode aceder '{ $path }': operação não permitida
-ls-error-cannot-open-directory-permission-denied = não pode abrir diretório '{ $path }': permissão negada
-ls-error-cannot-open-file-permission-denied = não pode abrir ficheiro '{ $path }': permissão negada
-ls-error-cannot-open-directory-bad-descriptor = não pode abrir o diretório '{ $path }': mau descritor de ficheiro
-ls-error-unknown-io-error = erro de ES desconhecido: '{ $path }', '{ $error }'
+ls-error-cannot-access-no-such-file = não é possível aceder { $path }: nenhum ficheiro ou diretório desses
+ls-error-cannot-access-operation-not-permitted = não é possível aceder { $path }: operação não permitida
+ls-error-cannot-open-directory-permission-denied = não é possível abrir o diretório { $path }: permissão negada
+ls-error-cannot-open-file-permission-denied = não é possível abrir o ficheiro { $path }: permissão negada
+ls-error-cannot-open-directory-bad-descriptor = não é possível abrir o diretório { $path }: descritor de ficheiro inválido
+ls-error-unknown-io-error = erro de ES desconhecido: { $path }, '{ $error }'
 ls-error-dired-and-zero-incompatible = --dired e --zero são incompatíveis
 ls-error-not-listing-already-listed = { $path }: não listando diretório já listado
 ls-error-invalid-time-style =
@@ -47,7 +47,7 @@ ls-help-c-quoting-style = Usar o estilo de citação C. Equivalente a `--quoting
 ls-help-replace-control-chars = Substituir caracteres de controle com '?' se não forem escapados.
 ls-help-show-control-chars = Mostrar caracteres de controle 'como eles estão' se não forem escapados.
 ls-help-show-time-field =
-    Mostrar tempo em <field>:
+    Mostrar tempo em `<field>`:
     tempo de acesso (-u): atime, access, use;
     tempo de mudança (-t): ctime, status.
     tempo de modificação: mtime, modificação.
@@ -65,7 +65,7 @@ ls-help-time-access =
 ls-help-hide-pattern = não listar entradas implícitas correspondentes ao ESQUEMA shell (sobreposto por -a ou -A)
 ls-help-ignore-pattern = não listar entradas implícitas correspondentes ao ESQUEMA shell
 ls-help-ignore-backups = Ignorar entradas que terminam com ~.
-ls-help-sort-by-field = Ordenar por <field>: nome, nenhum (-U), tempo (-t), tamanho (-S), extensão (-X) ou largura
+ls-help-sort-by-field = Ordenar por `<field>`: nome, nenhum (-U), tempo (-t), tamanho (-S), extensão (-X) ou largura
 ls-help-sort-by-size = Ordenar por tamanho de ficheiro, o maior primeiro.
 ls-help-sort-by-time = Ordenar por tempo de modificação (o 'mtime' no inode), o mais novo primeiro.
 ls-help-sort-by-version = Tipo natural de números (de versão) nos nomes de ficheiros.
