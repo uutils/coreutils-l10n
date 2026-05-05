@@ -4,7 +4,7 @@ test-usage =
     test
     { "[ EXPRESSÃO ]" }
     { "[ ]" }
-    { "[ OPÇÃO ]" }
+    { "[ OPÇÃO" }
 test-error-missing-closing-bracket = falta '{ "]" }'
 test-error-expected = esperado { $value }
 test-error-expected-value = valor esperado
