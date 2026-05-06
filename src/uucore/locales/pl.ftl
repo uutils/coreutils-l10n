@@ -71,3 +71,4 @@ checksum-failed-open-file =
 checksum-error-algo-bad-format = { $file }: { $line }: nieprawidłowo sformatowany wiersz sumy kontrolnej { $algo }
 uudoc-tldr-attribution = Przykłady są udostępniane przez [projekt tldr-pages](https://tldr.sh) na [licencji CC BY 4.0](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md).
 uudoc-tldr-disclaimer = Należy pamiętać, że uutils jest projektem w toku, więc niektóre przykłady mogą nie działać.
+common-write-error = błąd zapisu
