@@ -12,3 +12,5 @@ stat-word-free = Ilelli
 stat-word-available = D yegran
 stat-word-inode = Inode
 stat-word-birth = Talalit
+stat-word-modify = Senfel
+stat-word-change = Ẓreg
