@@ -102,3 +102,4 @@ stat-word-birth = Utworzenie
 stat-selinux-failed-get-context = nie udało się uzyskać kontekstu zabezpieczeń
 stat-selinux-unsupported-system = nieobsługiwane w  tym systemie
 stat-selinux-unsupported-os = nieobsługiwane dla tego systemu operacyjnego
+stat-warning-invalid-env-quoting-style = ignorowanie nieprawidłowej wartości zmiennej środowiskowej QUOTING_STYLE: '{ $style }'
