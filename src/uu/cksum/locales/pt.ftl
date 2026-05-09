@@ -14,11 +14,9 @@ cksum-after-help =
     - crc32b: (apenas disponível através do cksum)
     - md5: (equivalente ao md5sum)
     - sha1: (equivalente a sha1sum)
-    - sha224: (equivalente ao sha224sum)
-    - sha256: (equivalente ao sha256sum)
-    - sha384: (equivalente a sha384sum)
-    - sha512: (equivalente a sha512sum)
-    - blake2b: (equivalente ao b2sum)
+    - sha2: (equivalente a sha{ "{224,256,384,512}" }sum)
+    - sha3: (disponível apenas através do cksum)
+    - blake2b: (equivalente a b2sum)
     - sm3: (apenas disponível através do cksum)
 cksum-help-algorithm = selecionar o tipo de resumo a usar. Veja RESUMO abaixo
 cksum-help-untagged = criar um soma de controlo de estilo reverso, sem tipo de resumo
