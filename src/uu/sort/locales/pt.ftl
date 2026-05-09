@@ -16,16 +16,16 @@ sort-open-failed = abrir falhou: { $path }: { $error }
 sort-parse-key-error = falha ao analisar a chave { $key }: { $msg }
 sort-cannot-read = não pode ler: { $path }: { $error }
 sort-open-tmp-file-failed = falha ao abrir um ficheiro temporário: { $error }
-sort-compress-prog-execution-failed = não pode executar o programa de compressão: errno { $code }
+sort-compress-prog-execution-failed = não pode executar o programa de compressão '{ $prog }': { $error }
 sort-compress-prog-terminated-abnormally = { $prog } terminado anormalmente
-sort-cannot-create-tmp-file = não pode criar ficheiro temporário em '{ $path }':
+sort-cannot-create-tmp-file = não pode criar ficheiro temporário em { $path }:
 sort-file-operands-combined =
-    operando adicional '{ $file } '
+    operando adicional { $file }
     operandos de ficheiros não podem ser combinados com --files0-from
-    Tente '{ $help } --ajuda' para mais informações.
+    Tente '{ $help } --help' para mais informações.
 sort-multiple-output-files = vários ficheiros de saída especificados
 sort-minus-in-stdin = quando ler nomes de ficheiros da entrada predefinida, nenhum nome de ficheiro de '-' é permitido
-sort-no-input-from = nenhuma entrada de '{ $file } '
+sort-no-input-from = nenhuma entrada de { $file }
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: nome de ficheiro inválido de comprimento zero
 sort-options-incompatible = opções '-{ $opt1 }{ $opt2 }' são incompatíveis
 sort-invalid-key = chave inválida { $key }
@@ -91,7 +91,7 @@ sort-warning-numbers-use-decimal-point = números usam '.' como um ponto decimal
 sort-warning-options-ignored = opções '-{ $options }' são ignoradas
 sort-warning-option-ignored = opção '-{ $option }' é ignorada
 sort-warning-option-reverse-last-resort = opção '-r' só se aplica à comparação de última tentativa
-sort-warning-obsolescent-key = chave obsolescente '{ $key }' usada; considere '-k { $replacement }' em vez disso
+sort-warning-obsolescent-key = chave obsoleta '{ $key }' usada; considere '-k { $replacement }' em vez disso
 sort-warning-separator-grouping = o separador de campos '{ $sep }' é tratado como um separador de grupos em números
 sort-invalid-count-at-start-of = contagem inválida no início de { $string }
 sort-character-offset-is-zero = o deslocamento de caracteres é zero
@@ -102,3 +102,5 @@ sort-warning-separator-minus = o separador de campos '{ $sep }' é tratado como 
 sort-warning-separator-plus = o separador de campos '{ $sep }' é tratado como o caractere mais em números
 sort-help-random-source = usar FICHEIRO como uma fonte de dados aleatórios
 sort-warning-sort-rule = a ordenação de textos é realizada utilizando as regras de ordenação '{ $locale }'
+sort-stray-character-field-spec = carácter indesejado na especificação do campo
+sort-warning-leading-blanks-significant = espaços em branco à esquerda são significativos na chave { $key }; considere também especificar 'b'
