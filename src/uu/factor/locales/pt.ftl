@@ -7,4 +7,4 @@ factor-usage = factor [OPÇÃO]... [NÚMERO]...
 factor-help-exponents = Imprimir fatores na forma p^e
 factor-error-factorization-incomplete = Fatorizarão incompleta. Existem restos.
 factor-error-reading-input = erro ao ler a entrada: { $error }
-factor-error-invalid-int = dígito inválido encontrado na cadeia
+factor-error-invalid-int = não é um inteiro positivo válido
