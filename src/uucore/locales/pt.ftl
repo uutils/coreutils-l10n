@@ -65,3 +65,4 @@ smack-error-label-set-failure = falha ao definir o contexto predefinido de cria�
 smack-error-no-label-set = nenhum contexto de segurança definido
 safe-traversal-current-directory = <diretório atual>
 safe-traversal-directory = <diretório>
+common-write-error = erro ao escrever
