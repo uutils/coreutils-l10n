@@ -15,7 +15,7 @@ du-help-dereference = Allen symbolischen Links folgen
 du-help-dereference-args = Nur symbolischen Links folgen, die als Befehlszeilenargument angegeben wurden
 du-help-no-dereference = Keinen symbolischen Links folgen (Voreinstellung)
 du-help-block-size-1m = Wie --block-size=1M
-du-help-null = Jede Ausgabezeile mit einem Null-Byte statt mit einem Zeilenumbruch abschließen
+du-help-null = jede Ausgabezeile mit einem 0 Byte statt mit einem Zeilenumbruch abschließen
 du-help-separate-dirs = Zähle die Größe von Unterverzeichnissen nicht mit
 du-help-summarize = Nur eine Summe für jedes Argument anzeigen
 du-help-si = Wie -h, aber mit Potenzen von 1000 statt 1024
