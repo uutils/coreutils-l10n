@@ -53,3 +53,43 @@ od-help-e = unidades de precisão dupla de ponto flutuante (64 bits)
 od-help-f = unidades de precisão dupla de ponto flutuante (32 bits)
 od-help-capital-f = unidades de precisão dupla de ponto flutuante (64 bits)
 od-error-overflow = Resultado numérico fora do intervalo
+od-after-help =
+    Exibe dados em vários formatos legíveis pelo utilizador. Se vários formatos forem
+    especificados, a saída conterá todos os formatos na ordem em que aparecem na
+    linha de comandos. Cada formato será apresentado numa linha nova. Apenas a linha
+    que contém o primeiro formato terá o deslocamento como prefixo.
+
+    Se não for especificado nenhum nome de ficheiro ou se for "-", a entrada predefinida 
+    (stdin) será utilizada. Após um "--", mais opções não serão reconhecidas. Isto permite 
+    nomes de ficheiros que comecem por "-".
+
+    Se um nome de ficheiro for um número válido que possa ser utilizado como desvio na segunda
+    forma, pode forçar o seu reconhecimento como nome de ficheiro se incluir uma opção
+    como "-j0", que só é válida na primeira forma.
+
+    RADIX pode ser um dos seguintes valores: o, d, x, n, correspondendo a octal, decimal, 
+    hexadecimal ou nenhum.
+
+    BYTES é decimal por predefinição, octal se for precedido por um «0», ou hexadecimal
+    se for precedido por «0x». Os sufixos b, KB, K, MB, M, GB, G, multiplicam o
+    número por 512, 1000, 1024, 1000^2, 1024^2, 1000^3, 1024^3, 1000^2, 1024^2.
+
+    OFFSET e LABEL são octais por predefinição, hexadecimais se precedidos por "0x"
+    ou decimais se o sufixo "." for acrecentado. O sufixo "b" multiplicará por 512.
+
+    TYPE contém uma ou mais especificações de formato que consistem em:
+        a para ASCII de 7 bits imprimíveis
+        c para caracteres UTF-8 ou octal para caracteres indefinidos
+        d[SIZE] para decimal com sinal
+        f[SIZE] para ponto flutuante
+        o[SIZE] para octal
+        u[SIZE] para decimal sem sinal
+        x[SIZE] para hexadecimal
+    SIZE é a quantidade de bytes, que pode ser o número 1, 2, 4, 8 ou 16,
+        ou C, S, I, L para 1, 2, 4, 8 bytes para tipos inteiros,
+        ou F, D, L para 4, 8, 16 bytes para ponto flutuante.
+    Qualquer especificação de tipo pode ter um sufixo «z», o que irá adicionar um
+        dump ASCII no final da linha.
+
+    Se um erro ocorrer, uma mensagem de diagnóstico será impressa no stderr, 
+    e o código de saída será diferente de zero.
