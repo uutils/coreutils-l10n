@@ -55,3 +55,4 @@ mv-error-backup-might-destroy-source = fazer backup de { $target } pode destruir
 mv-error-dangling-symlink = não é possível determinar o tipo da ligação simbólica, pois está pendente
 mv-help-selinux = definir o contexto de segurança SELinux do ficheiro de destino para o tipo predefinido
 mv-help-context = como -Z, ou se CTX for especificado, defina o contexto de segurança SELinux para CTX
+mv-prompt-overwrite-mode = substituir { $target }, modo de substituição { $mode_info }?
