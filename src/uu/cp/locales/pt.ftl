@@ -108,3 +108,4 @@ cp-help-preserve-default = igual a --preserve=mode,ownership(somente unix),times
 cp-debug-copy-offload = descarregamento de cópias: { $offload }, reflink: { $reflink }, deteção de esparsas: { $sparse }
 cp-error-cannot-create-special-file = não é possível criar o ficheiro especial { $path }: { $error }
 cp-error-setting-attributes = a definir atributos para { $path }
+cp-error-selinux-context-conflict = não é possível combinar --context (-Z) com --preserve=context
