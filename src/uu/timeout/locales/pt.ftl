@@ -10,3 +10,13 @@ timeout-error-failed-to-execute-process = falha ao executar o processo: { $error
 timeout-verbose-sending-signal = a enviar sinal { $signal } ao comando { $command }
 timeout-help-duration = um número de ponto flutuante com um sufixo opcional: 's' para segundos (predefinição), 'm' para minutos, 'h' para horas ou 'd' para dias; um valor de 0 desativa o tempo limite associado
 timeout-help-command = um comando a ser executado com argumentos opcionais
+timeout-after-help =
+    Ao atingir o tempo limite, envia o sinal TERM para COMANDO, caso nenhum outro SIGNAL tenha sido especificado. O sinal TERM encerra qualquer processo que não bloqueie ou capture esse sinal. Pode ser necessário usar o sinal KILL, uma vez que esse sinal não pode ser capturado.
+
+    Estado de saída:
+      124  se o COMANDO atingir o tempo limite e a opção --preserve-status não for especificada
+      125  se o próprio comando de tempo limite falhar
+      126  se o COMANDO for encontrado, mas não puder ser executado
+      127  se o COMANDO não for encontrado
+      137  se o COMMAND (ou o próprio timeout) receber o sinal KILL (9) (128+9)
+      -    o código de saída do COMANDO, caso contrário
