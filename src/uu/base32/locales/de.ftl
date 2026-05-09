@@ -27,7 +27,7 @@ basenc-about =
     Stream ignoriert werden, um eine teilweise Wiederherstellung zu versuchen.
 basenc-usage = basenc [OPTION]... [DATEI]
 basenc-help-base64 = Entspricht dem Programm 'base64'
-basenc-help-base64url = Base64 im Datei- und URL-sicheren Format
+basenc-help-base64url = base64 im Datei- und URL-sicheren Format
 basenc-help-base32 = Entspricht dem Programm 'base32'
 basenc-help-base32hex = Base32 mit erweitertem Hex-Alphabet
 basenc-help-base16 = Hexadezimale Kodierung
