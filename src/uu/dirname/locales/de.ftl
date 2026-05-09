@@ -5,4 +5,4 @@ dirname-after-help =
     und entfernt nachfolgende Schrägstriche; enthält der NAME kein '/' wird '.'
     ausgegeben (entspricht dem aktuellen Verzeichnis).
 dirname-missing-operand = Fehlender Operand
-dirname-zero-help = Jede Ausgabezeile mit einem Null-Byte statt mit einem Zeilenumbruch abschließen
+dirname-zero-help = Ausgabe mit NUL statt mit einem Zeilenumbruch trennen
