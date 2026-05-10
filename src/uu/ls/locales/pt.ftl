@@ -33,7 +33,7 @@ ls-help-assume-tab-stops = Assume que o tab para em cada COLS em vez de 8
 ls-help-list-entries-commas = Lista de entradas separadas por vírgulas.
 ls-help-list-entries-nul = Lista de entradas separadas por caracteres ASCII NUL.
 ls-help-generate-dired-output = gerar saída preparada para o modo dired (Editor de Diretórios) da Emacs
-ls-help-hyperlink-filenames = hiperligar nomes de arquivo QUANDO
+ls-help-hyperlink-filenames = hiperligar nomes de ficheiro QUANDO
 ls-help-list-one-file-per-line = Listar um ficheiro por linha.
 ls-help-long-format-no-group =
     Formato longo sem informações de grupo.
