@@ -2,78 +2,78 @@ date-about = Imprimir ou definir a data e hora do sistema
 date-help-date = tempo de exibição descrito por CADEIA, não 'now'
 date-help-file = como --date; uma vez para cada linha de FICHEIRODATA
 date-usage =
-    date [OPTION]... [+FORMAT]...
-    date [OPTION]... [MMDDhhmm[[CC]YY][.ss]]
+    date [OPÇÃO]... [+FORMATO]...
+    date [OPÇÃO]... [MMDDhhmm[[CC]AA][.ss]]
 
-    FORMAT controls the output.  Interpreted sequences are:
-    { "| Sequence | Description                                                          | Example                |" }
-    { "| -------- | -------------------------------------------------------------------- | ---------------------- |" }
-    { "| %%       | a literal %                                                          | %                      |" }
-    { "| %a       | locale's abbreviated weekday name                                    | Sun                    |" }
-    { "| %A       | locale's full weekday name                                           | Sunday                 |" }
-    { "| %b       | locale's abbreviated month name                                      | Jan                    |" }
-    { "| %B       | locale's full month name                                             | January                |" }
-    { "| %c       | locale's date and time                                               | Thu Mar 3 23:05:25 2005|" }
-    { "| %C       | century; like %Y, except omit last two digits                        | 20                     |" }
-    { "| %d       | day of month                                                         | 01                     |" }
-    { "| %D       | date; same as %m/%d/%y                                               | 12/31/99               |" }
-    { "| %e       | day of month, space padded; same as %_d                              | 3                      |" }
-    { "| %F       | full date; same as %Y-%m-%d                                          | 2005-03-03             |" }
-    { "| %g       | last two digits of year of ISO week number (see %G)                  | 05                     |" }
-    { "| %G       | year of ISO week number (see %V); normally useful only with %V       | 2005                   |" }
-    { "| %h       | same as %b                                                           | Jan                    |" }
-    { "| %H       | hour (00..23)                                                        | 23                     |" }
-    { "| %I       | hour (01..12)                                                        | 11                     |" }
-    { "| %j       | day of year (001..366)                                               | 062                    |" }
-    { "| %k       | hour, space padded ( 0..23); same as %_H                             |  3                     |" }
-    { "| %l       | hour, space padded ( 1..12); same as %_I                             |  9                     |" }
-    { "| %m       | month (01..12)                                                       | 03                     |" }
-    { "| %M       | minute (00..59)                                                      | 30                     |" }
-    { "| %n       | a newline                                                            | \\n                     |" }
-    { "| %N       | nanoseconds (000000000..999999999)                                   | 123456789              |" }
-    { "| %p       | locale's equivalent of either AM or PM; blank if not known           | PM                     |" }
-    { "| %P       | like %p, but lower case                                              | pm                     |" }
-    { "| %q       | quarter of year (1..4)                                               | 1                      |" }
-    { "| %r       | locale's 12-hour clock time                                          | 11:11:04 PM            |" }
-    { "| %R       | 24-hour hour and minute; same as %H:%M                               | 23:30                  |" }
-    { "| %s       | seconds since 1970-01-01 00:00:00 UTC                                | 1615432800             |" }
-    { "| %S       | second (00..60)                                                      | 30                     |" }
-    { "| %t       | a tab                                                                | \\t                     |" }
-    { "| %T       | time; same as %H:%M:%S                                               | 23:30:30               |" }
-    { "| %u       | day of week (1..7); 1 is Monday                                      | 4                      |" }
-    { "| %U       | week number of year, with Sunday as first day of week (00..53)       | 10                     |" }
-    { "| %V       | ISO week number, with Monday as first day of week (01..53)           | 12                     |" }
-    { "| %w       | day of week (0..6); 0 is Sunday                                      | 4                      |" }
-    { "| %W       | week number of year, with Monday as first day of week (00..53)       | 11                     |" }
-    { "| %x       | locale's date representation                                         | 03/03/2005             |" }
-    { "| %X       | locale's time representation                                         | 23:30:30               |" }
-    { "| %y       | last two digits of year (00..99)                                     | 05                     |" }
-    { "| %Y       | year                                                                 | 2005                   |" }
-    { "| %z       | +hhmm numeric time zone                                              | -0400                  |" }
-    { "| %:z      | +hh:mm numeric time zone                                             | -04:00                 |" }
-    { "| %::z     | +hh:mm:ss numeric time zone                                          | -04:00:00              |" }
-    { "| %:::z    | numeric time zone with : to necessary precision                      | -04, +05:30            |" }
-    { "| %Z       | alphabetic time zone abbreviation                                    | EDT                    |" }
+    O FORMATO controla a saída. As sequências interpretadas são:
+    { "| Sequência | Descrição                                                                       | Exemplo                      |" }
+    { "| --------- | ------------------------------------------------------------------------------- | ---------------------------- |" }
+    { "| %%        | um % literal                                                                    | %                            |" }
+    { "| %a        | nome abreviado do dia da semana da localização                                  | Dom                          |" }
+    { "| %A        | nome completo do dia da semana da localização                                   | Domingo                      |" }
+    { "| %b        | nome abreviado do mês na localização                                            | Jan                          |" }
+    { "| %B        | nome completo do mês na localização                                             | Janeiro                      |" }
+    { "| %c        | data e hora na localização                                                      | Qui 3 de março 23:05:25 2005 |" }
+    { "| %C        | século; semelhante a %Y, mas omite os dois últimos dígitos                      | 20                           |" }
+    { "| %d        | dia do mês                                                                      | 01                           |" }
+    { "| %D        | data; igual a %m/%d/%y                                                          | 31/12/99                     |" }
+    { "| %e        | dia do mês, preenchido com espaços; igual a %_d                                 | 3                            |" }
+    { "| %F        | data completa; igual a %Y-%m-%d                                                 | 2005-03-03                   |" }
+    { "| %g        | dois últimos dígitos do ano do número da semana ISO (ver %G)                    | 05                           |" }
+    { "| %G        | ano do número da semana ISO (veja %V); normalmente útil apenas com %V           | 2005                         |" }
+    { "| %h        | igual a %b                                                                      | Jan                          |" }
+    { "| %H        | hora (00..23)                                                                   | 23                           |" }
+    { "| %I        | hora (01..12)                                                                   | 11                           |" }
+    { "| %j        | dia do ano (001..366)                                                           | 062                          |" }
+    { "| %k        | hora, preenchida com espaços ( 0..23); igual a %_H                              |  3                           |" }
+    { "| %l        | hora, preenchida com espaços ( 1..12); igual a %_I                              |  9                           |" }
+    { "| %m        | mês (01..12)                                                                    | 03                           |" }
+    { "| %M        | minuto (00..59)                                                                 | 30                           |" }
+    { "| %n        | uma linha nova                                                                  | \\n                          |" }
+    { "| %N        | nanossegundos (000000000..999999999)                                            | 123456789                    |" }
+    { "| %p        | equivalente local para AM ou PM; em branco se for desconhecido                  | PM                           |" }
+    { "| %P        | igual a %p, mas em minúsculas                                                   | pm                           |" }
+    { "| %q        | trimestre do ano (1..4)                                                         | 1                            |" }
+    { "| %r        | hora no formato de 12 horas da localização                                      | 11:11:04 PM                  |" }
+    { "| %R        | hora e minutos no formato de 24 horas; igual a %H:%M                            | 23:30                        |" }
+    { "| %s        | segundos desde 1970-01-01 00:00:00 UTC                                          | 1615432800                   |" }
+    { "| %S        | segundo (00..60)                                                                | 30                           |" }
+    { "| %t        | uma tabulação                                                                   | \\t                          |" }
+    { "| %T        | hora; igual a %H:%M:%S                                                          | 23:30:30                     |" }
+    { "| %u        | dia da semana (1..7); 1 é segunda-feira                                         | 4                            |" }
+    { "| %U        | número da semana do ano, o domingo seja o primeiro dia da semana (00..53)       | 10                           |" }
+    { "| %V        | número da semana ISO, o segunda-feira seja o primeiro dia da semana (01..53)    | 12                           |" }
+    { "| %w        | dia da semana (0..6); 0 corresponde a domingo                                   | 4                            |" }
+    { "| %W        | número da semana do ano, a segunda-feira seja o primeiro dia da semana (00..53) | 11                           |" }
+    { "| %x        | representação da data da localização                                            | 03/03/2005                   |" }
+    { "| %X        | representação da hora da localização                                            | 23:30:30                     |" }
+    { "| %y        | os dois últimos dígitos do ano (00..99)                                         | 05                           |" }
+    { "| %Y        | ano                                                                             | 2005                         |" }
+    { "| %z        | fuso horário numérico +hhmm                                                     | -0400                        |" }
+    { "| %:z       | fuso horário numérico +hh:mm                                                    | -04:00                       |" }
+    { "| %::z      | +hh:mm:ss fuso horário numérico                                                 | -04:00:00                    |" }
+    { "| %:::z     | fuso horário numérico com : até à precisão necessária                           | -04, +05:30                  |" }
+    { "| %Z        | abreviatura alfabética do fuso horário                                          | EDT                          |" }
 
-    By default, date pads numeric fields with zeroes.
-    The following optional flags may follow '%':
-      { "* `-` (hyphen) do not pad the field" }
-      { "* `_` (underscore) pad with spaces" }
-      { "* `0` (zero) pad with zeros" }
-      { "* `^` use upper case if possible" }
-      { "* `#` use opposite case if possible" }
-    After any flags comes an optional field width, as a decimal number;
-    then an optional modifier, which is either
-      { "* `E` to use the locale's alternate representations if available, or" }
-      { "* `O` to use the locale's alternate numeric symbols if available." }
-    Examples:
-      Convert seconds since the epoch (1970-01-01 UTC) to a date
+    Por predefinição, o date preenche os campos numéricos com zeros.
+    Os indicadores seguintes opcionais podem seguir '%':
+      { "* `-` (hífen) não preencher o campo" }
+      { "* `_` (traço baixo) preencher com espaços" }
+      { "* `0` (zero) preencher com zeros" }
+      { "* `^` usar maiúsculas, se for possível" }
+      { "* `#` usar minúsculas, se for possível" }
+    Após quaisquer opções, segue uma largura de campo opcional, expressa como um número decimal;
+    a seguir um modificador opcional, que pode ser
+      { "* `E` para utilizar as representações alternativas da localização, se disponíveis, ou" }
+      { "* `O` para utilizar os símbolos numéricos alternativos da localização, se disponíveis." }
+    Exemplos:
+      Converter segundos desde a época (1970-01-01 UTC) para uma data
 
       date --date='@2147483647'
 
-      Show the time on the west coast of the US (use tzselect(1) to find TZ)
+      Mostrar a hora em Portugal (utilize tzselect(1) para encontrar o fuso horário)
 
-      TZ='America/Los_Angeles' date
+      TZ='Europe/Lisbon' date
 date-help-iso-8601 =
     emitir data/hora no formato ISO 8601.
     FMT='date' apenas para a data (a predefinição),
@@ -96,7 +96,7 @@ date-help-set-redox = define o tempo descrito por CADEIA (não disponível no re
 date-help-universal = imprimir ou definir o Tempo Universal Coordenado (UTC)
 date-error-invalid-date = data inválida '{ $date } '
 date-error-invalid-format = formato inválido '{ $format }' ({ $error })
-date-error-expected-file-got-directory = esperado ficheiro, diretório '{ $path } ' recebido
+date-error-expected-file-got-directory = esperado ficheiro, recebido diretório '{ $path } '
 date-error-date-overflow = excesso de data '{ $date }'
 date-error-setting-date-not-supported-macos = definir a data não é apoiada pelo macOS
 date-error-setting-date-not-supported-redox = definir a data não é apoiada pelo Redox
