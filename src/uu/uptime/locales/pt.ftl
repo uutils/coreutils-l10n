@@ -31,7 +31,7 @@ uptime-format =
 uptime-lib-format-loadavg = média de carga: { $avg1 }, { $avg5 }, { $avg15 }
 uptime-lib-error-system-uptime = não podia recuperar quanto tempo o sistema funciona
 uptime-help-pretty = mostrar tempo de funcionamento num formato bonito
-uptime-output-up-text = a funcionar
+uptime-output-up-text = ligado
 uptime-format-pretty-min =
     { $min ->
         [one] { $min } minuto
