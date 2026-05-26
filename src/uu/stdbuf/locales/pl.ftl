@@ -1,7 +1,4 @@
-stdbuf-about =
-    Uruchamia POLECENIE ze zmodyfikowanymi operacjami buforowania dla jego standardowych strumieni.
-
-    Obowiązkowe argumenty dla opcji długich są obowiązkowe również dla opcji krótkich.
+stdbuf-about = Uruchamia POLECENIE ze zmodyfikowanymi operacjami buforowania dla jego standardowych strumieni.
 stdbuf-usage = stdbuf [OPCJA]... POLECENIE
 stdbuf-after-help =
     Jeśli parametr TRYB ma wartość „L”, odpowiedni strumień będzie buforowany liniowo.
@@ -29,3 +26,7 @@ stdbuf-error-permission-denied = nie udało się wykonać procesu: odmowa uprawn
 stdbuf-error-no-such-file = nie udało się wykonać procesu: brak takiego pliku lub katalogu
 stdbuf-error-failed-to-execute = nie udało się wykonać procesu: { $error }
 stdbuf-error-killed-by-signal = proces usunięty przez sygnał { $signal }
+stdbuf-about-windows =
+    Uruchamia POLECENIE powiązane ze środowiskiem wykonawczym Cygwin, ze zmodyfikowanymi operacjami buforowania dla jego standardowych strumieni.
+
+    Obowiązkowe argumenty dla opcji długich są obowiązkowe również dla opcji krótkich.
