@@ -26,8 +26,8 @@ rm-help-one-file-system =
     al eliminar una jerarquía recursivamente, omitir cualquier directorio que esté en un sistema
     de archivos diferente del argumento de línea de comandos correspondiente (NO
     IMPLEMENTADO)
-rm-help-no-preserve-root = no tratar '/' especialmente
-rm-help-preserve-root = no eliminar '/' (por defecto)
+rm-help-no-preserve-root = no tratar «/» especialmente
+rm-help-preserve-root = no quitar «/» (predeterminado)
 rm-help-recursive = eliminar directorios y su contenido recursivamente
 rm-help-dir = eliminar directorios vacíos
 rm-help-verbose = explicar lo que se está haciendo
