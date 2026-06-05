@@ -20,8 +20,8 @@ chmod-help-print-help = Mostrar información de ayuda.
 chmod-help-changes = como verbose pero reportar solo cuando se hace un cambio
 chmod-help-quiet = suprimir la mayoría de mensajes de error
 chmod-help-verbose = mostrar un diagnóstico para cada archivo procesado
-chmod-help-no-preserve-root = no tratar '/' especialmente (por defecto)
-chmod-help-preserve-root = fallar al operar recursivamente en '/'
+chmod-help-no-preserve-root = no tratar «/» especialmente (predeterminado)
+chmod-help-preserve-root = fallar al operar recursivamente en «/»
 chmod-help-recursive = cambiar archivos y directorios recursivamente
 chmod-help-reference = usar el modo de RARCHIVO en lugar de valores MODO
 # Verbose messages
