@@ -10,8 +10,8 @@ chown-help-from =
     propietario y/o grupo actual coinciden con los especificados aquí.
     Cualquiera puede ser omitido, en cuyo caso no se requiere una coincidencia
     para el atributo omitido
-chown-help-preserve-root = fallar al operar recursivamente en '/'
-chown-help-no-preserve-root = no tratar '/' especialmente (por defecto)
+chown-help-preserve-root = fallar al operar recursivamente en «/»
+chown-help-no-preserve-root = no tratar «/» especialmente (predeterminado)
 chown-help-quiet = suprimir la mayoría de mensajes de error
 chown-help-recursive = operar en archivos y directorios recursivamente
 chown-help-reference = usar el propietario y grupo de RARCHIVO en lugar de especificar valores PROPIETARIO:GRUPO
@@ -21,4 +21,4 @@ chown-error-failed-to-get-attributes = falló al obtener atributos de { $file }
 chown-error-invalid-user = usuario inválido: { $user }
 chown-error-invalid-group = grupo inválido: { $group }
 chown-error-invalid-spec = especificación inválida: { $spec }
-chown-warning-dot-separator = '.' debe de ser ':': { $spec }
+chown-warning-dot-separator = «.» debe ser «:»: { $spec }
