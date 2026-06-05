@@ -32,9 +32,9 @@ basenc-about =
     de cualquier otro byte no alfabético en el flujo codificado.
 basenc-usage = basenc [OPCIÓN]... [ARCHIVO]
 # Help messages for encoding formats
-basenc-help-base64 = igual que el programa 'base64'
+basenc-help-base64 = igual que el programa «base64»
 basenc-help-base64url = base64 seguro para archivos y url
-basenc-help-base32 = igual que el programa 'base32'
+basenc-help-base32 = igual que el programa «base32»
 basenc-help-base32hex = base32 de alfabeto hex extendido
 basenc-help-base16 = codificación hex
 basenc-help-base2lsbf = cadena de bits con bit menos significativo (lsb) primero
