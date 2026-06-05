@@ -58,6 +58,6 @@ mv-debug-skipped = omitido { $target }
 mv-prompt-overwrite = ¿sobreescribir { $target }?
 # Progress messages
 mv-progress-moving = moviendo
-mv-error-insufficient-arguments = El argumento '<{ $arg_files }>...' requiere al menos 2 valores, pero solo 1 fue proporcionado
+mv-error-insufficient-arguments = El argumento «<{ $arg_files }>...» requiere al menos 2 valores, pero solo se proporcionó 1
 mv-help-selinux = establecer contexto de seguridad SELinux del archivo destino al tipo predeterminado
 mv-help-context = como -Z, o si CTX está especificado entonces establezca el contexto de seguridad SELinux a CTX
