@@ -109,3 +109,4 @@ cp-verbose-removed = usunięto { $path }
 cp-error-selinux-context-conflict = nie można łączyć --context (-Z) z --preserve=context
 cp-error-cannot-create-special-file = nie można utworzyć pliku specjalnego { $path }: { $error }
 cp-error-setting-attributes = ustawianie atrybutów dla { $path }
+cp-error-write = błąd zapisu
