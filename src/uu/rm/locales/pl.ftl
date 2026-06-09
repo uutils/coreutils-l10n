@@ -47,3 +47,6 @@ rm-help-progress = wyświetla pasek postępu. Uwaga: ta funkcja nie jest obsług
 rm-progress-removing = Usuwanie
 rm-error-dangerous-recursive-operation-same-as-root = niebezpieczne jest rekurencyjne wykonywanie operacji na '{ $path }' (tak samo jak '/')
 rm-error-may-not-abbreviate-no-preserve-root = nie można skracać opcji --no-preserve-root
+rm-hint-dash-file =
+    Wypróbuj '{ $util_name } ./{ $path }', aby usunąć plik { $file }.
+    Zobacz '{ $util_name } --help', aby uzyskać więcej informacji.
