@@ -54,3 +54,4 @@ install-verbose-backup = (kopia zapasowa: { $backup })
 install-help-default-context = ustawia kontekst zabezpieczeń SELinux pliku docelowego i każdego utworzonego katalogu na domyślny typ
 install-help-unprivileged = nie wymaga podwyższonych uprawnień do zmiany właściciela, grupy lub flag pliku docelowego
 install-error-strip-terminated = proces strip zakończony nieprawidłowo
+install-error-not-permitted = nie można usunąć { $path }: operacja niedozwolona
