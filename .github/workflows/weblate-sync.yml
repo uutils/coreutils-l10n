@@ -48,23 +48,34 @@ jobs:
 
     - name: Pull translations from Weblate
       run: |
-        # `wlc pull` makes Weblate rebase its repository onto this repo's main
-        # branch. When components have pending Weblate-side commits that diverge
-        # from main (e.g. after the daily upstream-source-sync pushes new
-        # en-US.ftl), the rebase fails with "Could not rebase local branch onto
-        # remote branch <component>" and the step aborts under `bash -e`.
+        # `wlc pull` makes Weblate rebase its component repositories onto this
+        # repo's main branch. After the daily upstream-source-sync rewrites
+        # en-US.ftl, Weblate's checkouts diverge and the rebase fails with
+        # "Could not rebase local branch onto remote branch <component>",
+        # aborting the step under `bash -e`.
         #
-        # Recover by flushing and pushing Weblate's pending changes out first,
-        # then resetting its checkout to remote and retrying the pull. Weblate
-        # keeps translations in its database, so `wlc reset` only discards the
-        # diverged VCS state, not the translations themselves.
-        if ! wlc pull rust-coreutils; then
-          echo "::warning::wlc pull could not rebase; flushing and resetting Weblate repo"
-          wlc commit rust-coreutils || true
-          wlc push rust-coreutils || true
-          wlc reset rust-coreutils
-          wlc pull rust-coreutils
-        fi
+        # Recover by resetting Weblate's checkout to the remote (main) and
+        # retrying. Translations live in Weblate's *database*, so `wlc reset`
+        # only discards the unmergeable VCS state, not the translations —
+        # Weblate re-commits them cleanly on the next cycle. We do NOT commit
+        # or push Weblate's diverged branches first: that push is the very
+        # non-fast-forward state we're trying to clear, and hosted.weblate.org
+        # tends to drop the connection (RemoteDisconnected) mid-operation, so
+        # we retry the reset+pull a few times.
+        pull_translations() {
+          local attempt
+          for attempt in 1 2 3 4 5; do
+            if wlc pull rust-coreutils; then
+              return 0
+            fi
+            echo "::warning::wlc pull failed (attempt ${attempt}); resetting Weblate checkout to remote and retrying"
+            wlc reset rust-coreutils || true
+            sleep $((attempt * 15))
+          done
+          echo "::error::wlc pull still failing after ${attempt} attempts"
+          return 1
+        }
+        pull_translations
 
     - name: Fix Fluent syntax issues
       run: |
