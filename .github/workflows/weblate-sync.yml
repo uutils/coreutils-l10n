@@ -48,7 +48,23 @@ jobs:
 
     - name: Pull translations from Weblate
       run: |
-        wlc pull rust-coreutils
+        # `wlc pull` makes Weblate rebase its repository onto this repo's main
+        # branch. When components have pending Weblate-side commits that diverge
+        # from main (e.g. after the daily upstream-source-sync pushes new
+        # en-US.ftl), the rebase fails with "Could not rebase local branch onto
+        # remote branch <component>" and the step aborts under `bash -e`.
+        #
+        # Recover by flushing and pushing Weblate's pending changes out first,
+        # then resetting its checkout to remote and retrying the pull. Weblate
+        # keeps translations in its database, so `wlc reset` only discards the
+        # diverged VCS state, not the translations themselves.
+        if ! wlc pull rust-coreutils; then
+          echo "::warning::wlc pull could not rebase; flushing and resetting Weblate repo"
+          wlc commit rust-coreutils || true
+          wlc push rust-coreutils || true
+          wlc reset rust-coreutils
+          wlc pull rust-coreutils
+        fi
 
     - name: Fix Fluent syntax issues
       run: |
