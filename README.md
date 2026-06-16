@@ -20,7 +20,7 @@ Translations can be contributed two ways:
 - `src/uucore/locales/<locale>.ftl` — shared strings used across utilities.
 
 `en-US.ftl` is the source/reference locale in every `locales/` directory; every other
-file is a translation of it. `fr-FR.ftl` is also a source locale synced from upstream.
+file (including `fr-FR.ftl`) is a translation of it.
 
 > **Note:** `base32`, `base64`, and `basenc` share one set of translations —
 > `base64/locales` and `basenc/locales` are symlinks to `base32/locales`.
@@ -35,8 +35,9 @@ Each `.ftl` file is monolingual: a complete set of `key = value` message definit
   variable name inside `{...}`.
 - Every file must end with a trailing newline.
 
-Don't edit `en-US.ftl` / `fr-FR.ftl` here: they are overwritten daily from upstream
-uutils/coreutils. Change the English/French source strings there instead.
+Don't edit `en-US.ftl` here: it is overwritten daily from upstream uutils/coreutils.
+Change the English source strings there instead. French (`fr-FR.ftl`) is translated
+here like any other locale — via Weblate or pull requests.
 
 ## Validating before a pull request
 
