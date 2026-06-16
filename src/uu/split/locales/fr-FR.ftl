@@ -1,20 +1,20 @@
 split-about = Créer des fichiers de sortie contenant des sections consécutives ou entrelacées de l'entrée
 split-usage = split [OPTION]... [ENTRÉE [PRÉFIXE]]
-split-after-help =
-    Sortir des morceaux de taille fixe d'ENTRÉE vers PREFIXEaa, PREFIXEab, ... ; la taille par défaut est 1000, et le PRÉFIXE par défaut est 'x'. Sans ENTRÉE, ou quand ENTRÉE est -, lire l'entrée standard.
+split-after-help = Sortir des morceaux de taille fixe d'ENTRÉE vers PREFIXEaa, PREFIXEab, ...; la taille par défaut est 1000, et le PRÉFIXE par défaut est 'x'. Sans ENTRÉE, ou quand ENTRÉE est -, lire l'entrée standard.
 
-    L'argument TAILLE est un entier et une unité optionnelle (exemple : 10K est 10*1024).
-    Les unités sont K,M,G,T,P,E,Z,Y,R,Q (puissances de 1024) ou KB,MB,... (puissances de 1000).
-    Les préfixes binaires peuvent être utilisés aussi : KiB=K, MiB=M, et ainsi de suite.
+  L'argument TAILLE est un entier et une unité optionnelle (exemple: 10K est 10*1024).
+  Les unités sont K,M,G,T,P,E,Z,Y,R,Q (puissances de 1024) ou KB,MB,... (puissances de 1000).
+  Les préfixes binaires peuvent être utilisés aussi: KiB=K, MiB=M, et ainsi de suite.
 
-    CHUNKS peut être :
+  CHUNKS peut être:
 
-    - N diviser en N fichiers basé sur la taille de l'entrée
-    - K/N sortir le Kème de N vers stdout
-    - l/N diviser en N fichiers sans diviser les lignes/enregistrements
-    - l/K/N sortir le Kème de N vers stdout sans diviser les lignes/enregistrements
-    - r/N comme 'l' mais utiliser la distribution round robin
-    - r/K/N pareillement mais ne sortir que le Kème de N vers stdout
+  - N diviser en N fichiers basé sur la taille de l'entrée
+  - K/N sortir le Kème de N vers stdout
+  - l/N diviser en N fichiers sans diviser les lignes/enregistrements
+  - l/K/N sortir le Kème de N vers stdout sans diviser les lignes/enregistrements
+  - r/N comme 'l' mais utiliser la distribution round robin
+  - r/K/N pareillement mais ne sortir que le Kème de N vers stdout
+
 # Messages d'erreur
 split-error-suffix-not-parsable = longueur de suffixe invalide : { $value }
 split-error-suffix-contains-separator = suffixe invalide { $value }, contient un séparateur de répertoire
@@ -43,6 +43,7 @@ split-error-unable-to-reopen-file = impossible de rouvrir { $file } ; abandon
 split-error-file-descriptor-limit = limite de descripteurs de fichiers atteinte, mais aucun descripteur de fichier à fermer. { $count } écrivains fermés auparavant.
 split-error-shell-process-returned = Le processus shell a retourné { $code }
 split-error-shell-process-terminated = Le processus shell a été terminé par un signal
+
 # Messages d'aide pour les options de ligne de commande
 split-help-bytes = mettre TAILLE octets par fichier de sortie
 split-help-line-bytes = mettre au maximum TAILLE octets de lignes par fichier de sortie
@@ -58,4 +59,3 @@ split-help-hex-suffixes = identique à -x, mais permet de définir la valeur de 
 split-help-suffix-length = générer des suffixes de longueur N (par défaut 2)
 split-help-verbose = afficher un diagnostic juste avant l'ouverture de chaque fichier de sortie
 split-help-separator = utiliser SEP au lieu de nouvelle ligne comme séparateur d'enregistrement ; '\\0' (zéro) spécifie le caractère NUL
-split-error-is-a-directory = { $dir } : Est un répertoire

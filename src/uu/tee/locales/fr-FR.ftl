@@ -1,6 +1,7 @@
 tee-about = Copier l'entrée standard vers chaque FICHIER, et aussi vers la sortie standard.
 tee-usage = tee [OPTION]... [FICHIER]...
 tee-after-help = Si un FICHIER est -, il fait référence à un fichier nommé - .
+
 # Messages d'aide
 tee-help-help = Afficher l'aide
 tee-help-append = ajouter aux FICHIERs donnés, ne pas écraser
@@ -11,7 +12,9 @@ tee-help-output-error-warn = produire des avertissements pour les erreurs d'écr
 tee-help-output-error-warn-nopipe = produire des avertissements pour les erreurs qui ne sont pas des erreurs de tube (ignoré sur les plateformes non-unix)
 tee-help-output-error-exit = quitter en cas d'erreurs d'écriture vers toute sortie
 tee-help-output-error-exit-nopipe = quitter en cas d'erreurs d'écriture vers toute sortie qui ne sont pas des erreurs de tube (équivalent à exit sur les plateformes non-unix)
+
 # Messages d'erreur
-tee-error-stdin = erreur de lecture : { $error }
+tee-error-stdin = erreur de lecture: { $error }
+
 # Autres messages
 tee-standard-output = 'sortie standard'
