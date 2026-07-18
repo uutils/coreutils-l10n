@@ -28,3 +28,5 @@ truncate-error-invalid-number = Nieprawidłowa liczba: { $error }
 truncate-error-must-specify-relative-size = należy określić względny parametr '--size' za pomocą parametru '--reference'
 truncate-error-division-by-zero = dzielenie przez zero
 truncate-error-cannot-stat-no-such-file = nie można przeanalizować { $filename }: nie ma takiego pliku ani katalogu
+truncate-error-value-too-large = Wartość jest zbyt duża dla określonego typu danych
+truncate-error-value-too-large-arg = { $arg }: wartość jest zbyt duża dla określonego typu danych
