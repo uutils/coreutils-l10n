@@ -8,3 +8,6 @@ timeout-help-foreground = 若未在 shell 提示符中直接运行 timeout，允
 timeout-help-kill-after = 若初始信号发出后，命令 在经过 DURATION 之后仍在运行，则额外发送 KILL 信号
 timeout-help-preserve-status = 即使命令超时，仍使用与 命令 相同的退出状态退出
 timeout-help-signal = 指定超时后发送的信号；SIGNAL 可以是名称（如“HUP”）或数字；可用“kill -l”列出所有信号
+timeout-help-duration = 一个浮点数，可带可选后缀：'s' 表示秒（默认）、'm' 表示分钟、'h' 表示小时或 'd' 表示天；0 会禁用对应的超时
+timeout-help-command = 要执行的命令及可选参数
+timeout-after-help = 超时后，如果没有指定其他信号，则向命令发送 TERM 信号。TERM 信号会终止任何不会阻塞或捕获该信号的进程。可能需要使用 KILL 信号，因为该信号无法被捕获。
