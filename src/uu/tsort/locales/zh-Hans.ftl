@@ -7,3 +7,6 @@ tsort-usage = tsort [选项] 文件
 tsort-error-is-dir = 读取错误：这是一个目录
 tsort-error-odd = 输入包含奇数个标记
 tsort-error-loop = 输入包含循环：
+tsort-error-extra-operand =
+    额外的操作数 { $operand }
+    请尝试 'tsort --help' 获取更多信息。
