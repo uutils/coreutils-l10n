@@ -74,3 +74,4 @@ uudoc-tldr-disclaimer = Należy pamiętać, że uutils jest projektem w toku, w
 common-write-error = błąd zapisu
 mode-error-invalid-operator = nieprawidłowy operator (oczekiwano +, - lub =, ale znaleziono { $operator })
 mode-error-unexpected-end = nieoczekiwany koniec trybu
+error-no-such-process = Nie ma takiego procesu
