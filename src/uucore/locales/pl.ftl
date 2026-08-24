@@ -72,3 +72,42 @@ checksum-error-algo-bad-format = { $file }: { $line }: nieprawidłowo sformatowa
 uudoc-tldr-attribution = Przykłady są udostępniane przez [projekt tldr-pages](https://tldr.sh) na [licencji CC BY 4.0](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md).
 uudoc-tldr-disclaimer = Należy pamiętać, że uutils jest projektem w toku, więc niektóre przykłady mogą nie działać.
 common-write-error = błąd zapisu
+mode-error-invalid-operator = nieprawidłowy operator (oczekiwano +, - lub =, ale znaleziono { $operator })
+mode-error-unexpected-end = nieoczekiwany koniec trybu
+error-no-such-process = Nie ma takiego procesu
+mode-diag-label-invalid-operator = oczekiwano tutaj +, - lub =
+mode-diag-label-missing-operator = ta klauzula mówi, kto ma zmienić, ale nie co należy zmienić
+mode-diag-label-invalid-number = nie jest trybem ósemkowym
+mode-diag-help-syntax = tryb jest albo ósemkowy, jak w 644, albo klauzule takie jak u+rwx,go-w
+format-error-invalid-spec = %{ $spec }: nieprawidłowa specyfikacja konwersji
+format-error-too-many-specs = format '{ $format }' ma zbyt wiele dyrektyw %
+format-error-no-spec = format '{ $format }' nie ma dyrektywy %
+format-error-ends-with-percent = format { $format } kończy się na %
+format-error-invalid-precision = nieprawidłowa precyzja: '{ $precision }'
+format-error-wrong-spec-type = podano błędny typ dyrektywy %
+format-error-write = błąd zapisu: { $error }
+format-error-no-more-arguments = nie ma więcej argumentów
+format-error-invalid-argument = nieprawidłowy argument
+format-error-missing-hex = brakująca liczba szesnastkowa w sekwencji ucieczki
+format-error-invalid-universal-character = nieprawidłowa uniwersalna nazwa znaku \{ $escape }{ $digits }
+diagnostics-help-label = Pomoc
+diagnostics-label-expression-complete = wyrażenie było już tutaj kompletne
+checksum-error-raw-multiple-files = opcja --raw nie jest obsługiwana w przypadku wielu plików
+checksum-error-check-only-flag = opcja --{ $flag } ma sens tylko przy weryfikacji sum kontrolnych
+checksum-error-length-required = --length wymagana dla { $algorithm }
+checksum-error-invalid-length = nieprawidłowa długość: { $length }
+checksum-error-length-too-big-for-blake = maksymalna długość skrótu dla { $algorithm } wynosi 512 bitów
+checksum-error-length-not-multiple-of-8 = długość nie jest wielokrotnością 8
+checksum-error-invalid-length-for-sha = długość skrótu dla { $algorithm } musi wynosić 224, 256, 384 lub 512
+checksum-error-length-required-for-sha = --algorithm={ $algorithm } wymaga określenia --length 224, 256, 384 lub 512
+checksum-error-length-only-for-blake2b-sha2-sha3 = --length jest obsługiwane tylko z opcją --algorithm blake2b, sha2 lub sha3
+checksum-error-binary-text-conflict = opcje --binary i --text nie mają znaczenia przy sprawdzaniu sum kontrolnych
+checksum-error-text-without-untagged = tryb --text jest obsługiwany tylko z opcją --untagged
+checksum-error-tag-check = opcja --tag nie ma znaczenia przy weryfikacji sum kontrolnych
+checksum-error-text-after-tag = --tag nie obsługuje trybu --text
+checksum-error-algorithm-not-supported-with-check = --check nie jest obsługiwany z --algorithm={ "{" }bsd,sysv,crc,crc32b{ "}" }
+checksum-error-combine-multiple-algorithms = Nie można łączyć wielu algorytmów haszujących!
+checksum-error-need-algorithm-to-hash =
+    Potrzebny jest algorytm do haszowania.
+    Użyj --help, aby uzyskać więcej informacji.
+checksum-error-unknown-algorithm = nieznany algorytm: { $algorithm }: clap powinien zapobiec temu przypadkowi

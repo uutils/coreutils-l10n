@@ -1,4 +1,4 @@
-timeout-about = 启动指定命令，并在超过设定的持续时间后强制终止仍在运行的进程。
+timeout-about = 运行 COMMAND，若该命令在 DURATION 后仍在运行，则将其杀死。
 timeout-verbose-sending-signal = 向 { $command } 命令发送 { $signal } 信号
 timeout-error-failed-to-execute-process = 执行进程失败：{ $error }
 timeout-error-invalid-signal = { $signal }：无效的信号

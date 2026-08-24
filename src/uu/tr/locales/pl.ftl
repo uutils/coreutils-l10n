@@ -38,3 +38,10 @@ tr-error-backwards-range = punkty końcowe zakresu '{ $start }-{ $end }' są w 
 tr-error-multiple-char-in-equivalence = { $chars }: operand klasy równoważności musi być pojedynczym znakiem
 tr-warning-invalid-utf8 = nieprawidłowa sekwencja UTF-8
 tr-error-invalid-char-class = nieprawidłowa klasa znaków { $class }
+tr-diag-label-backwards-range = masz na myśli '{ $suggestion }'?
+tr-diag-label-set1-longer-set2-ends-in-class = ten zestaw jest dłuższy niż ZESTAW2
+tr-diag-label-complement-more-than-one-unique = tylko jeden znak może być uzupełniony
+tr-diag-help-char-class = klasami są alnum, alpha, blank, cntrl, digit, graph, lower, print, punct, space, upper i xdigit
+tr-diag-help-equivalence = { "[" }=c=] oznacza każdy znak równoważny c
+tr-diag-help-repeat = { "[" }c*N] powtarza c N razy, [c*] uzupełnia ZESTAW2 do długości ZESTAW1
+tr-diag-help-backwards-range = zakres rozciąga się od znaku niższego do wyższego, jak w a-z

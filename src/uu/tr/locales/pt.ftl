@@ -36,3 +36,5 @@ tr-error-complement-more-than-one-unique =
     cadeia2 deve mapear todos os caracteres no domínio a um
 tr-error-backwards-range = os pontos finais do intervalo '{ $start }-{ $end }' estão na ordem inversa da sequência de classificação
 tr-error-multiple-char-in-equivalence = { $chars }: o operando da classe de equivalência deve ser um único carácter
+tr-warning-invalid-utf8 = sequência inválida em utf8
+tr-error-invalid-char-class = classe de caráter { $class } inválida
