@@ -7,3 +7,4 @@ sum-help-bsd-compatible = używanie algorytmu sumy BSD, używanie bloków 1K (do
 sum-help-sysv-compatible = używanie algorytmu sumy System V, używanie bloków 512-bajtowych
 sum-error-is-directory = { $name }: jest katalogiem
 sum-error-no-such-file-or-directory = { $name }: nie ma takiego pliku ani katalogu
+sum-error-not-a-directory = { $name }: nie jest katalogiem
