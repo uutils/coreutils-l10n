@@ -151,6 +151,9 @@ test-after-help =
 
     UWAGA: powłoka może mieć własną wersję parametru test i/lub { "[" }, która zazwyczaj zastępuje wersję opisaną tutaj.
     Szczegółowe informacje na temat obsługiwanych opcji można znaleźć w dokumentacji powłoki.
+
+    Błędy są zgłaszane za pomocą wyrażenia powtarzanego i znaku daszka pod błędnym argumentem, gdy
+    stderr jest terminalem; wszystko inne odczytujące stderr otrzymuje zwykły komunikat jednowierszowy.
 test-error-missing-closing-bracket = brak '{ "]" }'
 test-error-expected = oczekiwano { $value }
 test-error-expected-value = wartość oczekiwana
@@ -159,3 +162,10 @@ test-error-extra-argument = dodatkowy argument { $argument }
 test-error-unknown-operator = nieznany operator { $operator }
 test-error-invalid-integer = nieprawidłowa liczba całkowita { $value }
 test-error-unary-operator-expected = { $operator }: oczekiwano operatora jednoargumentowego
+test-diag-label-unary-operator-expected = to wymaga wyrażenia po obu stronach
+test-diag-help-integer-op = -eq, -ne, -lt, -le, -gt i -ge porównują liczby całkowite; do porównywania ciągów znaków użyj =, { "!" }=, { "<" } lub { ">" }
+test-diag-help-integer-op-mnemonics = -eq równe, -ne nierówne, -lt mniejsze niż, -le mniejsze niż lub równe, -gt większe niż, -ge większe niż lub równe
+test-diag-help-file-descriptor = -t przyjmuje numer deskryptora pliku: 0 to wejście standardowe, 1 to wyjście standardowe, 2 to błąd standardowy
+test-diag-help-missing-argument = nieustawiona lub pusta zmienna rozszerza się do niczego, pozostawiając operatora bez operandu; zapisz to jako "$var"
+test-diag-help-extra-argument = częstą przyczyną jest zmienna nieobjęta cudzysłowem, rozszerzająca się do kilku słów; zapisz ją jako "$var", aby zachować pojedynczy operand
+test-diag-help-unknown-operator = uruchom '{ $name } --help', aby uzyskać listę obsługiwanych operatorów
