@@ -49,6 +49,7 @@ numfmt-help-padding = remplir la sortie à N caractères ; N positif alignera à
 numfmt-help-header = imprimer (sans convertir) les N premières lignes d'en-tête ; N vaut 1 par défaut si non spécifié
 numfmt-help-round = utiliser METHOD pour l'arrondi lors de la mise à l'échelle
 numfmt-help-suffix = imprimer SUFFIX après chaque nombre formaté, et accepter les entrées se terminant optionnellement par SUFFIX
+numfmt-help-unit-separator = utiliser CHAÎNE pour séparer le nombre de son unité lors de l'affichage ; par défaut, aucun séparateur n'est utilisé
 numfmt-help-invalid = définir le mode d'échec pour les entrées invalides
 numfmt-help-zero-terminated = le délimiteur de ligne est NUL, pas retour à la ligne
 
@@ -67,6 +68,7 @@ numfmt-error-invalid-number = nombre invalide : { $input }
 numfmt-error-missing-i-suffix = suffixe 'i' manquant dans l'entrée : '{ $number }{ $suffix }' (par ex. Ki/Mi/Gi)
 numfmt-error-rejecting-suffix = rejet du suffixe dans l'entrée : '{ $number }{ $suffix }' (considérez utiliser --from)
 numfmt-error-suffix-unsupported-for-unit = Ce suffixe n'est pas pris en charge pour l'unité spécifiée
+numfmt-error-invalid-unit-argument = argument invalide '{$arg}' pour '{$opt}'
 numfmt-error-number-too-big = Le nombre est trop grand et non pris en charge
 numfmt-error-format-no-percent = le format '{ $format }' n'a pas de directive %
 numfmt-error-format-ends-in-percent = le format '{ $format }' se termine par %
@@ -81,3 +83,21 @@ numfmt-debug-no-conversion = aucune option de conversion spécifiée
 numfmt-debug-grouping-no-effect = le groupement n'a aucun effet dans cette locale
 numfmt-debug-failed-to-convert = échec de conversion d'une partie des nombres en entrée
 numfmt-debug-header-ignored = --header ignoré avec une entrée en ligne de commande
+
+# Étiquettes de diagnostic et lignes d'aide : ce que le curseur désigne, et le conseil affiché en dessous
+numfmt-diag-label-number-overflow = ce nombre est trop grand
+numfmt-diag-label-stray-percent = un % littéral doit s'écrire %%
+numfmt-diag-label-bad-conversion = f est la seule conversion acceptée par numfmt ; %d, %e, %g et les autres conversions du C ne sont pas acceptées
+numfmt-diag-help-format-syntax = un format est [PRÉFIXE]%[0]['][-][LARGEUR][.PRÉCISION]f[SUFFIXE], comme dans "%'-10.2f"
+numfmt-diag-label-auto-from-only = auto devine l'unité de l'entrée, seul --from l'accepte donc
+numfmt-diag-help-unit = --from et --to acceptent none, si, iec ou iec-i, et --from accepte aussi auto
+numfmt-diag-label-zero-unit-size = une taille d'unité doit valoir au moins 1
+numfmt-diag-help-unit-size = une taille d'unité est un nombre, un multiplicateur K, M, G, T, P ou E, ou les deux, comme dans 512, K ou 2Ki
+numfmt-diag-label-zero-padding = un remplissage est une largeur en caractères, 0 ne demande donc rien
+numfmt-diag-help-padding = --padding prend un nombre entier non nul ; un nombre négatif aligne à gauche, comme dans --padding=-10
+numfmt-diag-label-zero-header = omettez --header pour convertir toutes les lignes
+numfmt-diag-help-header = --header prend le nombre de lignes initiales à laisser inchangées, au moins 1
+numfmt-diag-help-input-no-from = sans --from un nombre doit être simple ; --from=auto lit un suffixe K, M ou Gi
+numfmt-diag-help-input-suffixes = les suffixes sont K, M, G, T, P, E, Z, Y, R et Q, avec un i optionnel sous --from=auto ou iec-i
+numfmt-diag-label-zero-field = les champs sont numérotés à partir de 1
+numfmt-diag-help-field-syntax = --field prend N, N-M, N- ou -M, séparés par des virgules, comme dans --field=1,3-5

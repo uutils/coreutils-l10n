@@ -56,6 +56,7 @@ od-error-invalid-offset = décalage invalide : {$offset}
 od-error-invalid-label = étiquette invalide : {$label}
 od-error-too-many-inputs = trop d'entrées après --traditional : {$input}
 od-error-parse-failed = échec de l'analyse
+od-error-overflow = Résultat numérique hors limites
 od-error-invalid-suffix = suffixe invalide dans l'argument {$option} {$value}
 od-error-invalid-argument = argument {$option} invalide {$value}
 od-error-argument-too-large = argument {$option} {$value} trop grand

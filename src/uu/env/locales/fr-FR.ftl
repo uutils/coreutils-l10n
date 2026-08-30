@@ -23,6 +23,8 @@ env-error-backslash-c-not-allowed = '\\c' ne doit pas apparaître dans une chaî
 env-error-invalid-sequence = séquence invalide '\\{ $char }' dans -S à la position { $position }
 env-error-missing-closing-brace = Accolade fermante manquante à la position { $position }
 env-error-missing-variable = Nom de variable manquant à la position { $position }
+env-error-only-braced-variable = seule l'expansion ${VARNAME} est prise en charge à la position { $position }
+env-error-only-braced-variable-at = seule l'expansion {"${VARNAME}"} est prise en charge, erreur à : { $rest }
 env-error-unexpected-number = Caractère inattendu : '{ $char }', le nom de variable attendu ne doit pas commencer par 0..9 à la position { $position }
 env-error-cannot-specify-null-with-command = impossible de spécifier --null (-0) avec une commande
 env-error-invalid-signal = { $signal } : signal invalide
@@ -39,3 +41,12 @@ env-error-failed-set-signal-action = échec de la définition de l'action du sig
 
 # Messages d'avertissement
 env-warning-no-name-specified = aucun nom spécifié pour la valeur { $value }
+
+# Étiquettes de diagnostic : ce que le curseur désigne dans une chaîne -S
+env-diag-label-variable-digit = un nom de variable ne peut pas commencer par un chiffre
+env-diag-label-missing-brace = cette {"{"} n'est jamais fermée
+env-diag-help-quoting = -S protège comme le fait le shell : ' et " vont par paires, et \' échappe une apostrophe
+env-diag-help-backslash = une barre oblique inverse échappe le caractère qui la suit, elle ne peut donc pas terminer la chaîne
+env-diag-help-backslash-c = \c termine la chaîne -S et n'a aucune signification entre guillemets doubles
+env-diag-help-escape = -S comprend \r, \n, \t, \f, \v, \_, \#, \$, \" et \c
+env-diag-help-variable = seules $NAME et ${"{"}NAME{"}"} sont développées ; les autres formes du shell ne le sont pas

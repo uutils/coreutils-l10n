@@ -97,6 +97,7 @@ stat-error-invalid-directive = {$directive} : directive invalide
 stat-error-cannot-read-filesystem = impossible de lire la table des systèmes de fichiers montés : {$error}
 stat-error-stdin-filesystem-mode = utiliser '-' pour désigner l'entrée standard ne fonctionne pas en mode système de fichiers
 stat-error-cannot-read-filesystem-info = impossible de lire les informations du système de fichiers pour {$file} : {$error}
+stat-error-cannot-statx = impossible de faire statx sur {$file} : {$error}
 
 ## Messages d'avertissement
 
@@ -110,3 +111,6 @@ stat-warning-unrecognized-escape = séquence d'échappement non reconnue '\{$esc
 stat-selinux-failed-get-context = impossible d'obtenir le contexte de sécurité
 stat-selinux-unsupported-system = non pris en charge sur ce système
 stat-selinux-unsupported-os = non pris en charge pour ce système d'exploitation
+
+# Diagnostics
+stat-diag-help-directive = une directive est %[INDICATEURS][LARGEUR][.PRÉCISION]LETTRE, comme dans %-10.2s ; un % littéral s'écrit %%

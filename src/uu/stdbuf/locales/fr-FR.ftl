@@ -1,6 +1,9 @@
 stdbuf-about = Exécute COMMANDE, avec des opérations de mise en mémoire tampon modifiées pour ses flux standards.
 
   Les arguments obligatoires pour les options longues le sont aussi pour les options courtes.
+stdbuf-about-windows = Exécuter COMMANDE liée à l'environnement d'exécution cygwin, avec des opérations de mise en mémoire tampon modifiées pour ses flux standard.
+
+  Les arguments obligatoires pour les options longues le sont aussi pour les options courtes.
 stdbuf-usage = stdbuf [OPTION]... COMMANDE
 stdbuf-after-help = Si MODE est 'L', le flux correspondant sera mis en mémoire tampon par ligne.
   Cette option n'est pas valide avec l'entrée standard.
@@ -24,5 +27,7 @@ stdbuf-error-line-buffering-stdin-meaningless = la mise en mémoire tampon par l
 stdbuf-error-invalid-mode = mode invalide {$error}
 stdbuf-error-value-too-large = mode invalide '{$value}' : Valeur trop grande pour le type de données défini
 stdbuf-error-external-libstdbuf-not-found = libstdbuf externe introuvable au chemin configuré : {$path}
+stdbuf-error-preload-path-separator = le chemin de libstdbuf {$path} contient ':', ce qui ne peut pas être représenté dans {$var}
+  stdbuf: définissez TMPDIR vers un répertoire dont le chemin ne contient pas ':'
 stdbuf-error-failed-to-execute = échec de l'exécution du processus : {$error}
 stdbuf-error-killed-by-signal = processus tué par le signal {$signal}

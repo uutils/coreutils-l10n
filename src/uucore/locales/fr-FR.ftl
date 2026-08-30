@@ -29,6 +29,7 @@ help-flag-version = Afficher les informations de version
 error-io = Erreur E/S
 error-permission-denied = Permission refusée
 error-file-not-found = Aucun fichier ou répertoire de ce type
+error-no-such-process = Aucun processus de ce type
 error-invalid-argument = Argument invalide
 error-is-a-directory = { $file }: Est un répertoire
 
@@ -47,6 +48,12 @@ selinux-error-context-retrieval-failure = échec de la récupération du context
 selinux-error-context-set-failure = échec de la définition du contexte de création de fichier par défaut à '{ $context }' : { $error }
 selinux-error-context-conversion-failure = échec de la définition du contexte de création de fichier par défaut à '{ $context }' : { $error }
 selinux-error-operation-not-supported = opération non prise en charge
+
+# Messages d'erreur SMACK
+smack-error-not-enabled = SMACK n'est pas activé sur ce système
+smack-error-label-retrieval-failure = échec de la récupération du contexte de sécurité : { $error }
+smack-error-label-set-failure = échec de la définition du contexte de création de fichier par défaut à '{ $context }' : { $error }
+smack-error-no-label-set = aucun contexte de sécurité défini
 
 # Messages d'erreur de traversée sécurisée
 safe-traversal-error-path-contains-null = le chemin contient un octet null
@@ -79,3 +86,12 @@ checksum-error-algo-bad-format = { $file }: { $line }: ligne invalide pour { $al
 # Messages uudoc pour les exemples tldr
 uudoc-tldr-attribution = Les exemples sont fournis par le [projet tldr-pages](https://tldr.sh) sous la [licence CC BY 4.0](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md).
 uudoc-tldr-disclaimer = Veuillez noter que, uutils étant en cours de développement, certains exemples peuvent échouer.
+
+# Messages d'analyse du mode symbolique
+mode-error-unexpected-end = fin de mode inattendue
+mode-error-invalid-operator = opérateur invalide (+, - ou = attendu, mais { $operator } trouvé)
+
+# Étiquettes de diagnostic : ce que le curseur désigne dans un mode
+mode-diag-label-missing-operator = cette clause indique qui, mais pas quoi changer
+mode-diag-label-invalid-number = ce n'est pas un mode octal
+mode-diag-help-syntax = un mode est soit octal, comme 644, soit des clauses telles que u+rwx,go-w
