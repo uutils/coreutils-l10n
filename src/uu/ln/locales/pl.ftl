@@ -38,3 +38,5 @@ ln-cannot-backup = nie można wykonać kopii zapasowej { $file }
 ln-failed-to-access = nie udało się uzyskać dostępu do { $file }
 ln-failed-to-create-hard-link = nie udało się utworzyć dowiązania twardego { $source } => { $dest }
 ln-backup = kopia zapasowa: { $backup }
+ln-failed-to-create-symbolic-link = nie udało się utworzyć dowiązania symbolicznego { $dest }
+ln-failed-to-create-hard-link-dir = { $source }: twarde dowiązanie nie jest dozwolone dla katalogu
