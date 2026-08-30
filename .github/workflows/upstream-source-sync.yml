@@ -8,6 +8,12 @@ on:
   # Allow manual triggering
   workflow_dispatch:
 
+# Serialize with weblate-sync: both push to main, and a source push landing
+# mid-sync is what leaves Weblate behind and gets its push rejected.
+concurrency:
+  group: l10n-sync
+  cancel-in-progress: false
+
 jobs:
   sync-upstream-sources:
     runs-on: ubuntu-latest
