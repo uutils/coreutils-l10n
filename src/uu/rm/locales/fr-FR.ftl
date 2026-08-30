@@ -45,8 +45,12 @@ rm-error-dangerous-recursive-operation = il est dangereux d'opérer récursiveme
 rm-error-dangerous-recursive-operation-same-as-root = il est dangereux d'opérer récursivement sur '{$path}' (identique à '/')
 rm-error-use-no-preserve-root = utilisez --no-preserve-root pour outrepasser cette protection
 rm-error-refusing-to-remove-directory = refus de supprimer le répertoire '.' ou '..' : ignorer {$path}
+rm-error-skipping-different-device = {$file} ignoré, car il est sur un périphérique différent
+rm-error-and-preserve-root-all-in-effect = et --preserve-root=all est actif
 rm-error-cannot-remove = impossible de supprimer {$file}
+rm-error-cannot-remove-changed = impossible de supprimer {$file} : Le fichier a changé pendant la suppression
 rm-error-may-not-abbreviate-no-preserve-root = Vous ne pouvez pas abréger l'option --no-preserve-root
+rm-error-standard-output = sortie standard : {$error}
 
 # Messages verbeux
 rm-verbose-removed = {$file} supprimé

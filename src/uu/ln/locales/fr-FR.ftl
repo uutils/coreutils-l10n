@@ -35,5 +35,6 @@ ln-prompt-replace = remplacer {$file} ?
 ln-cannot-backup = impossible de sauvegarder {$file}
 ln-failed-to-access = échec d'accès à {$file}
 ln-failed-to-create-hard-link = échec de création du lien physique {$source} => {$dest}
+ln-failed-to-create-symbolic-link = échec de création du lien symbolique {$dest}
 ln-failed-to-create-hard-link-dir = {$source} : lien physique non autorisé pour un répertoire
 ln-backup = sauvegarde : {$backup}

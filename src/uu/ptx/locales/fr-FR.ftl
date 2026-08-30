@@ -21,6 +21,7 @@ ptx-help-gap-size = taille de l'écart en colonnes entre les champs de sortie
 ptx-help-ignore-file = lire la liste de mots à ignorer depuis FICHIER
 ptx-help-only-file = lire seulement la liste de mots depuis ce FICHIER
 ptx-help-references = le premier champ de chaque ligne est une référence
+ptx-help-typeset-mode = changer la largeur par défaut de 72 à 100
 ptx-help-width = largeur de sortie en colonnes, référence exclue
 
 # Messages d'erreur

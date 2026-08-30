@@ -79,6 +79,8 @@ date-help-iso-8601 = afficher la date/heure au format ISO 8601.
   'hours', 'minutes', 'seconds', ou 'ns'
   pour la date et l'heure à la précision indiquée.
   Exemple : 2006-08-14T02:34:56-06:00
+date-help-resolution = afficher la résolution disponible des horodatages
+  Exemple : 0.000000001
 date-help-rfc-email = afficher la date et l'heure au format RFC 5322.
   Exemple : Mon, 14 Aug 2006 02:34:56 -0600
 date-help-rfc-3339 = afficher la date/heure au format RFC 3339.

@@ -158,3 +158,12 @@ test-error-extra-argument = argument supplémentaire { $argument }
 test-error-unknown-operator = opérateur inconnu { $operator }
 test-error-invalid-integer = entier invalide { $value }
 test-error-unary-operator-expected = { $operator } : opérateur unaire attendu
+
+# Étiquettes de diagnostic, utilisées lorsque les erreurs sont affichées avec un extrait source
+test-diag-label-unary-operator-expected = ceci nécessite une expression de chaque côté
+test-diag-help-integer-op = -eq, -ne, -lt, -le, -gt et -ge comparent des entiers ; utilisez =, {"!"}=, {"<"} ou {">"} pour comparer des chaînes
+test-diag-help-integer-op-mnemonics = -eq égal, -ne différent, -lt inférieur, -le inférieur ou égal, -gt supérieur, -ge supérieur ou égal
+test-diag-help-file-descriptor = -t prend un numéro de descripteur de fichier : 0 pour l'entrée standard, 1 pour la sortie standard, 2 pour l'erreur standard
+test-diag-help-missing-argument = une variable non définie ou vide ne produit rien, laissant l'opérateur sans opérande ; protégez-la avec "$var"
+test-diag-help-extra-argument = une variable non protégée qui se développe en plusieurs mots en est la cause habituelle ; protégez-la avec "$var" pour n'avoir qu'un seul opérande
+test-diag-help-unknown-operator = exécutez '{ $name } --help' pour obtenir la liste des opérateurs pris en charge

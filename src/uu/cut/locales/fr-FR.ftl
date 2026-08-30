@@ -97,10 +97,12 @@ cut-help-characters = alias pour le mode caractère
 cut-help-delimiter = spécifier le caractère délimiteur qui sépare les champs dans la source d'entrée. Par défaut Tab.
 cut-help-whitespace-delimited = Utiliser tout nombre d'espaces (Espace, Tab) pour séparer les champs dans la source d'entrée (extension FreeBSD).
 cut-help-fields = filtrer les colonnes de champs depuis la source d'entrée
+cut-help-fields-merged = comme -f, mais fusionner les délimiteurs adjacents ; le délimiteur par défaut est l'espace blanc et le délimiteur de sortie une espace
 cut-help-complement = inverser le filtre - au lieu d'afficher seulement les colonnes filtrées, afficher toutes sauf ces colonnes
 cut-help-only-delimited = en mode champ, afficher seulement les lignes qui contiennent le délimiteur
 cut-help-zero-terminated = au lieu de filtrer les colonnes basées sur la ligne, filtrer les colonnes basées sur \\0 (caractère NULL)
 cut-help-output-delimiter = en mode champ, remplacer le délimiteur dans les lignes de sortie avec l'argument de cette option
+cut-help-no-partial = avec -b, ne pas afficher de caractères multi-octets partiels
 
 # Messages d'erreur
 cut-error-is-directory = Est un répertoire
@@ -111,3 +113,17 @@ cut-error-multiple-mode-args = usage invalide : attend au plus une des options -
 cut-error-missing-mode-arg = usage invalide : attend une des options --fields (-f), --chars (-c) ou --bytes (-b)
 cut-error-delimiter-only-with-fields = entrée invalide : L'option '--delimiter' ('-d') n'est utilisable que si on affiche une séquence de champs
 cut-error-only-delimited-only-with-fields = entrée invalide : L'option '--only-delimited' ('-s') n'est utilisable que si on affiche une séquence de champs
+cut-error-field-numbered-from-1 = les champs sont numérotés à partir de 1
+cut-error-position-numbered-from-1 = les positions d'octet/caractère sont numérotées à partir de 1
+cut-error-invalid-field-range = plage de champs invalide
+cut-error-invalid-position-range = plage d'octets ou de caractères invalide
+cut-error-invalid-decreasing-range = plage décroissante invalide
+cut-error-invalid-range-no-endpoint = plage invalide sans borne : { $range }
+cut-error-invalid-field-value = valeur de champ invalide { $value }
+cut-error-invalid-position-value = position d'octet/caractère invalide { $value }
+cut-error-field-number-too-large = le numéro de champ { $value } est trop grand
+cut-error-position-too-large = le décalage d'octet/caractère { $value } est trop grand
+
+# Étiquettes de diagnostic : ce que le curseur désigne dans une liste de plages
+cut-diag-label-zero-bound = le comptage commence à 1
+cut-diag-help-list-syntax = une liste est N, N-M, N- ou -M, séparés par des virgules, comme dans -f1,4-6,9-

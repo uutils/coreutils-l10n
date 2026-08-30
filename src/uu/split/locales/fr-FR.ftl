@@ -14,6 +14,7 @@ split-after-help = Sortir des morceaux de taille fixe d'ENTRÉE vers PREFIXEaa, 
   - l/K/N sortir le Kème de N vers stdout sans diviser les lignes/enregistrements
   - r/N comme 'l' mais utiliser la distribution round robin
   - r/K/N pareillement mais ne sortir que le Kème de N vers stdout
+split-creating-file = création du fichier { $file }
 
 # Messages d'erreur
 split-error-suffix-not-parsable = longueur de suffixe invalide : { $value }

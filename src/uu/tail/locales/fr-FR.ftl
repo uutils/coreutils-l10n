@@ -7,6 +7,7 @@ tail-usage = tail [OPTION]... [FICHIER]...
 
 # Messages d'aide
 tail-help-bytes = Nombre d'octets à afficher
+tail-help-debug = indiquer quelle implémentation de --follow est utilisée
 tail-help-follow = Afficher le fichier au fur et à mesure de sa croissance
 tail-help-lines = Nombre de lignes à afficher
 tail-help-pid = Avec -f, terminer après que l'ID de processus, PID meure
@@ -57,6 +58,7 @@ tail-status-has-appeared-following-new-file = { $file } est apparu ; suivi du no
 tail-status-has-been-replaced-following-new-file = { $file } a été remplacé ; suivi du nouveau fichier
 tail-status-file-truncated = { $file } : fichier tronqué
 tail-status-replaced-with-untailable-file = { $file } a été remplacé par un fichier non suivable
+tail-status-replaced-with-untailable-symlink = { $file } a été remplacé par un lien symbolique non suivable
 tail-status-replaced-with-untailable-file-giving-up = { $file } a été remplacé par un fichier non suivable ; abandon de ce nom
 tail-status-directory-containing-watched-file-removed = le répertoire contenant le fichier surveillé a été supprimé
 tail-status-backend-cannot-be-used-reverting-to-polling = { $backend } ne peut pas être utilisé, retour au sondage
@@ -69,3 +71,7 @@ tail-giving-up-on-this-name = ; abandon de ce nom
 tail-stdin-header = entrée standard
 tail-no-files-remaining = aucun fichier restant
 tail-become-inaccessible = est devenu inaccessible
+
+# Messages de débogage
+tail-debug-using-notification-mode = utilisation du mode notification
+tail-debug-using-polling-mode = utilisation du mode sondage

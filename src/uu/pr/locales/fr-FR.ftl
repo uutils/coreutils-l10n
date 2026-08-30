@@ -31,6 +31,9 @@ pr-help-omit-header =
   N'écrire ni l'en-tête d'identification de cinq lignes ni le pied de page
                   de cinq lignes habituellement fournis pour chaque page. Arrêter l'écriture
                   après la dernière ligne de chaque fichier sans espacement jusqu'à la fin de la page.
+pr-help-omit-pagination =
+  omettre les en-têtes et pieds de page, supprimer toute pagination
+                  par sauts de page définis dans les fichiers d'entrée
 pr-help-page-length =
   Remplacer la valeur par défaut de 66 lignes (nombre par défaut de lignes de texte 56,
                   et avec -F 63) et réinitialiser la longueur de page à lignes. Si lignes n'est pas
@@ -55,6 +58,15 @@ pr-help-across =
                   à travers la page dans un ordre round-robin (par exemple, quand colonne est 2,
                   la première ligne d'entrée va en tête de colonne 1, la seconde va en tête de colonne 2,
                   la troisième est la seconde ligne en colonne 1, et ainsi de suite).
+pr-help-columns =
+  Produire une sortie multi-colonnes qui est arrangée en colonnes colonnes
+                  (la valeur par défaut sera 1) et est écrite dans chaque colonne dans l'ordre
+                  dans lequel le texte est reçu du fichier d'entrée. Cette option ne doit pas être
+                  utilisée avec -m. Les options -e et -i seront assumées pour la sortie multi-colonnes
+                  de texte. Que les colonnes de texte soient produites avec des longueurs verticales
+                  identiques ou non n'est pas spécifié, mais une colonne de texte ne doit jamais
+                  dépasser la longueur de la page (voir l'option -l). Lorsqu'utilisée avec -t,
+                  utiliser le nombre minimum de lignes pour écrire la sortie.
 pr-help-column-char-separator =
   Séparer les colonnes de texte par le caractère unique char au lieu du nombre
                   approprié d'`<espaces>` (par défaut pour char est le caractère de `<tabulation>`).
@@ -91,5 +103,6 @@ pr-error-no-such-file = pr : impossible d'ouvrir {$file}, Aucun fichier ou répe
 pr-error-column-merge-conflict = impossible de spécifier le nombre de colonnes lors de l'impression en parallèle
 pr-error-across-merge-conflict = impossible de spécifier à la fois l'impression transversale et l'impression en parallèle
 pr-error-invalid-pages-range = argument --pages invalide '{$start}:{$end}'
+pr-error-starting-page-exceeds-page-count = le numéro de page de départ {$start} dépasse le nombre de pages {$count}
 pr-error-invalid-expand-tab-argument = Caractères supplémentaires ou nombre invalide dans l'argument de '-e': '{$arg}'
 pr-error-invalid-number-argument = Caractères supplémentaires ou nombre invalide dans l'argument de '-n': '{$arg}'
