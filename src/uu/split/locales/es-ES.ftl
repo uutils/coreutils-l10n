@@ -2,6 +2,7 @@ split-about = Crear archivos de salida conteniendo secciones consecutivas o inte
 split-usage = split [OPCIÓN]... [ENTRADA [PREFIJO]]
 split-after-help =
     Generar piezas de tamaño fijo de ENTRADA a PREFIJOaa, PREFIJOab, ...; el tamaño predeterminado es 1000, y el PREFIJO predeterminado es 'x'. Sin ENTRADA, o cuando ENTRADA es -, leer entrada estándar.
+split-creating-file = creando el archivo { $file }
 
     El argumento TAMAÑO es un entero y unidad opcional (ejemplo: 10K es 10*1024).
     Las unidades son K,M,G,T,P,E,Z,Y,R,Q (potencias de 1024) o KB,MB,... (potencias de 1000).

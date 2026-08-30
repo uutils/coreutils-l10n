@@ -14,6 +14,7 @@ uptime-about-musl-warning =
     la carga promedio se siguen calculando mediante mecanismos alternativos.
 uptime-help-since = sistema activo desde
 uptime-help-path = archivo para buscar hora de arranque origen
+uptime-help-pretty = mostrar el tiempo de actividad en formato legible
 uptime-error-io = no pudo obtener hora de arranque: { $error }
 uptime-error-target-is-dir = no pudo obtener la hora de arranque: es un directorio
 uptime-error-target-is-fifo = no pudo obtener hora de arranque: seguimiento ilegal
@@ -29,6 +30,18 @@ uptime-format =
         [one] { $days } día, { $time }
        *[other] { $days } días { $time }
     }
+uptime-format-pretty-min = { $min ->
+    [one] { $min } minuto
+   *[other] { $min } minutos
+}
+uptime-format-pretty-hour = { $hour ->
+    [one] { $hour } hora
+   *[other] { $hour } horas
+}
+uptime-format-pretty-day = { $day ->
+    [one] { $day } día
+   *[other] { $day } días
+}
 uptime-lib-format-loadavg = carga media: { $avg1 }, { $avg5 }, { $avg15 }
 uptime-user-count =
     { $count ->

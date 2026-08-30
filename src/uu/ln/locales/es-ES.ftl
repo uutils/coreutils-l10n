@@ -34,4 +34,6 @@ ln-prompt-replace = ¿reemplazar {$file}?
 ln-cannot-backup = no se puede respaldar {$file}
 ln-failed-to-access = falló al acceder {$file}
 ln-failed-to-create-hard-link = falló al crear enlace duro {$source} => {$dest}
+ln-failed-to-create-symbolic-link = no se pudo crear el enlace simbólico {$dest}
+ln-failed-to-create-hard-link-dir = {$source}: no se permite un enlace duro para un directorio
 ln-backup = respaldo: {$backup}

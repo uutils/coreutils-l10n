@@ -64,3 +64,6 @@ expr-error-invalid-bracket-content = Contenido no válido de { "\\{\\}" }
 expr-error-trailing-backslash = Barra invertida final
 expr-error-too-big-range-quantifier-index = Expresión regular demasiado grande
 expr-error-match-utf8 = coincidencia no admitida en codificación UTF-8 no válida dentro de { $arg }
+expr-diag-help-missing-argument = todo operador necesita un valor a ambos lados
+expr-diag-help-unexpected-argument = puede que el intérprete de órdenes haya expandido un operador; entrecomíllelo como '{"*"}' o escápelo como {"\\*"}
+expr-diag-help-non-integer-argument = los operadores aritméticos necesitan enteros; use = o {"!"}= para comparar cadenas en su lugar

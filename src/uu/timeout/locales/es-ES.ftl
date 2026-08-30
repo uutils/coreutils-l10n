@@ -13,3 +13,4 @@ timeout-error-failed-to-execute-process = fallo al ejecutar proceso: { $error }
 timeout-verbose-sending-signal = enviando señal { $signal } al comando { $command }
 timeout-help-duration = un número de punto flotante con un sufijo opcional: 's' para segundos (por defecto), 'm' para minutos, 'h' para horas o 'd' para días; una duración de 0 desactiva el timeout asociado
 timeout-help-command = un comando para ejecutar con argumentos opcionales
+timeout-after-help = Al agotarse el tiempo, envía la señal TERM a COMANDO, si no se especifica otra SEÑAL. La señal TERM mata cualquier proceso que no bloquee ni capture esa señal. Puede ser necesario usar la señal KILL, ya que esta señal no se puede capturar.

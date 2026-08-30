@@ -16,3 +16,4 @@ cat-error-unknown-filetype = tipo de archivo desconocido: { $ft_debug }
 cat-error-is-directory = Es un directorio
 cat-error-input-file-is-output-file = archivo de entrada es archivo de salida
 cat-error-too-many-symbolic-links = Niveles excesivos de enlaces simbólicos
+cat-error-no-such-device-or-address = No existe el dispositivo o la dirección

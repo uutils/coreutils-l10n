@@ -6,6 +6,7 @@ tail-usage = tail [OPCIÓN]... [ARCHIVO]...
 
 # Help messages
 tail-help-bytes = Número de bytes a mostrar
+tail-help-debug = indicar qué implementación de --follow se usa
 tail-help-follow = Mostrar el archivo conforme crece
 tail-help-lines = Número de líneas a mostrar
 tail-help-pid = Con -f, terminar después de que muera el ID de proceso, PID
@@ -56,6 +57,7 @@ tail-status-has-appeared-following-new-file = { $file } ha aparecido; siguiendo 
 tail-status-has-been-replaced-following-new-file = { $file } ha sido reemplazado; siguiendo nuevo archivo
 tail-status-file-truncated = { $file }: archivo truncado
 tail-status-replaced-with-untailable-file = { $file } ha sido reemplazado con un archivo no seguible
+tail-status-replaced-with-untailable-symlink = { $file } ha sido reemplazado por un enlace simbólico no seguible
 tail-status-replaced-with-untailable-file-giving-up = { $file } ha sido reemplazado con un archivo no seguible; abandonando este nombre
 tail-status-directory-containing-watched-file-removed = directorio conteniendo archivo vigilado fue eliminado
 tail-status-backend-cannot-be-used-reverting-to-polling = { $backend } no se puede usar, revirtiendo a consultas
@@ -68,3 +70,5 @@ tail-giving-up-on-this-name = ; abandonando este nombre
 tail-stdin-header = entrada estándar
 tail-no-files-remaining = no quedan archivos
 tail-become-inaccessible = se ha vuelto inaccesible
+tail-debug-using-notification-mode = usando el modo de notificación
+tail-debug-using-polling-mode = usando el modo de sondeo

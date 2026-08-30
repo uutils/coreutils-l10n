@@ -55,10 +55,12 @@ stat-after-help = Secuencias de formato válidas para archivos (sin `--file-syst
 
 # Error messages
 stat-error-invalid-quoting-style = Estilo de comillas inválido: {$style}
+stat-warning-invalid-env-quoting-style = se ignora el valor no válido de la variable de entorno QUOTING_STYLE: '{$style}'
 stat-error-invalid-directive = {$directive}: directiva inválida
 stat-error-cannot-read-filesystem = no se puede leer tabla de sistemas de archivos montados: {$error}
 stat-error-stdin-filesystem-mode = usar '-' para denotar entrada estándar no funciona en modo sistema de archivos
 stat-error-cannot-read-filesystem-info = no se puede leer información de sistema de archivos para {$file}: {$error}
+stat-error-cannot-statx = no se puede hacer statx {$file}: {$error}
 
 # Warning messages
 stat-warning-backslash-end-format = barra invertida al final del formato
@@ -105,3 +107,4 @@ stat-word-birth = Nacimiento
 stat-selinux-failed-get-context = falló al obtener contexto de seguridad
 stat-selinux-unsupported-system = no soportado en este sistema
 stat-selinux-unsupported-os = no soportado para este sistema operativo
+stat-diag-help-directive = una directiva es %[BANDERAS][ANCHURA][.PRECISIÓN]LETRA, como en %-10.2s; un % literal se escribe %%

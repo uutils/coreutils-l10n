@@ -28,4 +28,6 @@ ptx-error-dumb-format = No hay formato simple con extensiones GNU deshabilitadas
 ptx-error-not-implemented = { $feature } aún no implementado
 ptx-error-write-failed = fallo la escritura
 ptx-error-extra-operand = operando extra { $operand }
+ptx-error-empty-regexp = Una expresión regular no puede coincidir con una cadena de longitud cero
+ptx-error-invalid-regexp = Expresión regular no válida: { $error }
 ptx-help-typeset-mode = cambia el ancho por defecto de 72 a 100

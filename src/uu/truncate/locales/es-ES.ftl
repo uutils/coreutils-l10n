@@ -31,3 +31,5 @@ truncate-error-invalid-number = Número no válido: { $error }
 truncate-error-must-specify-relative-size = debe especificar un '--size' relativo con '--reference'
 truncate-error-division-by-zero = división por cero
 truncate-error-cannot-stat-no-such-file = no se puede obtener estado de { $filename }: No existe el archivo o directorio
+truncate-error-value-too-large = Valor demasiado grande para el tipo de dato definido
+truncate-error-value-too-large-arg = { $arg }: Valor demasiado grande para el tipo de dato definido

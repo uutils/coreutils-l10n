@@ -1,5 +1,6 @@
 stdbuf-about =
     Ejecutar COMANDO, con operaciones de almacenamiento en búfer modificadas para sus flujos estándar.
+stdbuf-about-windows = Ejecutar COMANDO enlazado con el entorno de ejecución de cygwin, con operaciones de almacenamiento en búfer modificadas para sus flujos estándar.
 
     Los argumentos obligatorios para opciones largas son obligatorios también para opciones cortas.
 stdbuf-usage = stdbuf [OPCIÓN]... COMANDO
@@ -24,5 +25,7 @@ stdbuf-error-line-buffering-stdin-meaningless = el almacenamiento en búfer por 
 stdbuf-error-invalid-mode = modo no válido { $error }
 stdbuf-error-value-too-large = modo no válido '{ $value }': Valor demasiado grande para el tipo de dato definido
 stdbuf-error-external-libstdbuf-not-found = libstdbuf externo no encontrado en la ruta configurada: { $path }
+stdbuf-error-preload-path-separator = la ruta de libstdbuf {$path} contiene ':', que no se puede representar en {$var}
+  stdbuf: establezca TMPDIR en un directorio cuya ruta no tenga ':'
 stdbuf-error-failed-to-execute = fallo al ejecutar proceso: { $error }
 stdbuf-error-killed-by-signal = proceso terminado por señal { $signal }

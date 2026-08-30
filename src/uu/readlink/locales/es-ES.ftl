@@ -14,3 +14,4 @@ readlink-error-missing-operand = falta operando
 
 # Error messages
 readlink-error-ignoring-no-newline = ignorando --no-newline con múltiples argumentos
+readlink-error-invalid-argument = {$path}: Argumento no válido

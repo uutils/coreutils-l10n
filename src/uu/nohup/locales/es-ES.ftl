@@ -14,5 +14,6 @@ nohup-error-open-failed = fallo al abrir { $path }: { $err }
 nohup-error-open-failed-both =
     fallo al abrir { $first_path }: { $first_err }
     fallo al abrir { $second_path }: { $second_err }
+nohup-error-failed-to-run-command = no se pudo ejecutar el comando { $command }: { $error }
 # Status messages
 nohup-ignoring-input-appending-output = ignorando entrada y anexando salida a { $path }

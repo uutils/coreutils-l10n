@@ -41,6 +41,8 @@ shred-invalid-number-of-passes = número de pasadas inválido: {$passes}
 shred-cannot-open-random-source = no se puede abrir fuente aleatoria: {$source}
 shred-invalid-file-size = tamaño de archivo inválido: {$size}
 shred-no-such-file-or-directory = {$file}: No existe el archivo o directorio
+shred-failed-to-open-for-writing-not-a-directory = {$file}: no se pudo abrir para escritura: No es un directorio
+shred-failed-to-open-for-writing-is-a-directory = {$file}: no se pudo abrir para escritura: Es un directorio
 shred-not-a-file = {$file}: No es un archivo
 
 # Option help text
@@ -64,3 +66,8 @@ shred-couldnt-rename = {$file}: No se pudo renombrar a {$new_name}: {$error}
 shred-failed-to-open-for-writing = {$file}: no se pudo abrir para escritura
 shred-file-write-pass-failed = {$file}: La pasada de escritura de archivo falló
 shred-failed-to-remove-file = {$file}: no se pudo eliminar archivo
+shred-failed-to-clone-file-handle = no se pudo clonar el descriptor del archivo
+shred-failed-to-seek-file = no se pudo desplazar dentro del archivo
+shred-failed-to-read-seed-bytes = no se pudieron leer los bytes de semilla del archivo
+shred-failed-to-get-metadata = no se pudieron obtener los metadatos del archivo
+shred-failed-to-set-permissions = no se pudieron establecer los permisos del archivo

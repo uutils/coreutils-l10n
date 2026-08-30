@@ -18,3 +18,4 @@ seq-error-format-and-equal-width = la cadena de formato no puede ser especificad
 # Parse error types
 seq-parse-error-type-float = punto flotante
 seq-parse-error-type-nan = 'no-es-un-número'
+seq-diag-help-format = un formato contiene exactamente una conversión de coma flotante: %f, %e, %g o %a, como en -f%.3f
