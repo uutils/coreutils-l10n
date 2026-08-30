@@ -80,3 +80,19 @@ pr-error-column-merge-conflict = nie można określić liczby kolumn podczas wyp
 pr-error-across-merge-conflict = nie można określić wypisywania w poziomie i w poziomie
 pr-error-invalid-pages-range = nieprawidłowy argument --pages '{ $start }:{ $end }'
 pr-help-date-format = W przypadku daty nagłówka używa FORMATU 'date'.
+pr-help-omit-pagination =
+    pomiń nagłówki i końcówki stron, wyeliminuj jakąkolwiek paginację według
+                    ustawień końca stron w plikach wejściowych
+pr-help-columns =
+    Generuje dane wyjściowe w wielu kolumnach, ułożone w kolumnach
+                    (domyślnie 1) i zapisane w każdej kolumnie w kolejności, w jakiej
+                    tekst jest pobierany z pliku wejściowego. Tej opcji nie należy używać z opcją -m.
+                    W przypadku danych wyjściowych w wielu kolumnach tekstowych należy przyjąć opcje -e i -i.
+                    Nie ma znaczenia, czy kolumny tekstowe mają identyczną długość pionową, ale kolumna
+                    tekstowa nigdy nie powinna przekraczać długości strony (patrz opcja -l). W przypadku użycia
+                    z opcją -t należy użyć minimalnej liczby wierszy do zapisania danych wyjściowych.
+pr-help-expand-tabs = rozszerza ZNAKI wejściowe (TAB) do SZEROKOŚCI tabulacji (8)
+pr-try-help-message = Zobacz 'pr --help', aby uzyskać więcej informacji.
+pr-error-starting-page-exceeds-page-count = numer strony początkowej { $start } przekracza liczbę stron { $count }
+pr-error-invalid-expand-tab-argument = '-e' dodatkowe znaki lub nieprawidłowa liczba w argumencie: ‘{ $arg }’
+pr-error-invalid-number-argument = '-n' dodatkowe znaki lub nieprawidłowa liczba w argumencie: ‘{ $arg }’
