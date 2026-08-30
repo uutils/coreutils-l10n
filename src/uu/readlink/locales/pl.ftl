@@ -10,3 +10,4 @@ readlink-help-verbose = zgłasza komunikat o błędzie
 readlink-help-zero = oddziela wyjście z NUL zamiast nowego wiersza
 readlink-error-missing-operand = brak operandu
 readlink-error-ignoring-no-newline = ignorowanie --no-newline z wieloma argumentami
+readlink-error-invalid-argument = { $path }: nieprawidłowy argument
