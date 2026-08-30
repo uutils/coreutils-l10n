@@ -3,37 +3,36 @@ stat-usage = stat [OPCJA]... PLIK...
 stat-after-help =
     Prawidłowe sekwencje formatu dla plików (bez `--file-system`):
 
-    -`%a`: prawa dostępu w systemie ósemkowym (zwróć uwagę na flagi printf `#` i `0`)
-    -`%A`: prawa dostępu w formie czytelnej dla człowieka
-    -`%b`: liczba przydzielonych bloków (patrz %B)
-    -`%B`: rozmiar każdego bloku w bajtach zgłoszony przez %b
-    -`%C`: ciąg kontekstu zabezpieczeń SELinux
-    -`%d`: numer urządzenia w systemie dziesiętnym
-    -`%D`: numer urządzenia w systemie szesnastkowym
-    -`%f`: tryb surowy w systemie szesnastkowym
-    -`%F`: typ pliku
-    -`%g`: identyfikator grupy właściciela
-    -`%G`: nazwa grupy właściciela
-    -`%h`: liczba dowiązań twardych
-    -`%i`: numer i-węzła
-    -`%m`: punkt montowania
-    -`%n`: nazwa pliku
-    -`%N`: nazwa pliku w cudzysłowie z dereferencją (follow), jeśli dow. symboliczne
-    -`%o`: wskazówka dotycząca optymalnego rozmiaru transferu we-wy
-    -`%s`: całkowity rozmiar w bajtach
-    -`%t`: główny typ urz. w formacie szesnastkowym, dla plików spec. urz. znak./blok.
-    -`%T`: poboczny typ urz. w formacie szesnastkowym, dla plików spec. urzą. znak./blok.
-    -`%u`: identyfikator użytkownika właściciela
-    -`%U`: nazwa użytkownika właściciela
-    -`%w`: czas utworzenia pliku, czytelny dla człowieka; - jeśli nieznany
-    -`%W`: czas utworzenia pliku, w sekundach od epoki; 0, jeśli nieznany
-    -`%x`: czas ostatniego dostępu, czytelny dla człowieka
-    -`%X`: czas ostatniego dostępu, w sekundach od epoki
-    -`%y`: czas ostatniej modyfikacji danych, czytelny dla człowieka
-
-    -`%Y`: czas ostatniej modyfikacji danych, w sekundach od epoki
-    -`%z`: czas ostatniej zmiany statusu, czytelny dla człowieka
-    -`%Z`: czas ostatniej zmiany statusu, w sekundach od epoki
+      -`%a`: prawa dostępu w systemie ósemkowym (zwróć uwagę na flagi printf `#` i `0`)
+      -`%A`: prawa dostępu w formie czytelnej dla człowieka
+      -`%b`: liczba przydzielonych bloków (patrz %B)
+      -`%B`: rozmiar każdego bloku w bajtach zgłoszony przez %b
+      -`%C`: ciąg kontekstu zabezpieczeń SELinux
+      -`%d`: numer urządzenia w systemie dziesiętnym
+      -`%D`: numer urządzenia w systemie szesnastkowym
+      -`%f`: tryb surowy w systemie szesnastkowym
+      -`%F`: typ pliku
+      -`%g`: identyfikator grupy właściciela
+      -`%G`: nazwa grupy właściciela
+      -`%h`: liczba dowiązań twardych
+      -`%i`: numer i-węzła
+      -`%m`: punkt montowania
+      -`%n`: nazwa pliku
+      -`%N`: nazwa pliku w cudzysłowie z dereferencją (follow), jeśli dow. symboliczne
+      -`%o`: wskazówka dotycząca optymalnego rozmiaru transferu we-wy
+      -`%s`: całkowity rozmiar w bajtach
+      -`%t`: główny typ urz. w formacie szesnastkowym, dla plików spec. urz. znak./blok.
+      -`%T`: poboczny typ urz. w formacie szesnastkowym, dla plików spec. urzą. znak./blok.
+      -`%u`: identyfikator użytkownika właściciela
+      -`%U`: nazwa użytkownika właściciela
+      -`%w`: czas utworzenia pliku, czytelny dla człowieka; - jeśli nieznany
+      -`%W`: czas utworzenia pliku, w sekundach od epoki; 0, jeśli nieznany
+      -`%x`: czas ostatniego dostępu, czytelny dla człowieka
+      -`%X`: czas ostatniego dostępu, w sekundach od epoki
+      -`%y`: czas ostatniej modyfikacji danych, czytelny dla człowieka
+      -`%Y`: czas ostatniej modyfikacji danych, w sekundach od epoki
+      -`%z`: czas ostatniej zmiany statusu, czytelny dla człowieka
+      -`%Z`: czas ostatniej zmiany statusu, w sekundach od epoki
 
     Prawidłowe sekwencje formatów dla systemów plików:
 
@@ -99,3 +98,5 @@ stat-selinux-failed-get-context = nie udało się uzyskać kontekstu zabezpiecze
 stat-selinux-unsupported-system = nieobsługiwane w  tym systemie
 stat-selinux-unsupported-os = nieobsługiwane dla tego systemu operacyjnego
 stat-warning-invalid-env-quoting-style = ignorowanie nieprawidłowej wartości zmiennej środowiskowej QUOTING_STYLE: '{ $style }'
+stat-error-cannot-statx = nie mozna wykonać statx { $file }: { $error }
+stat-diag-help-directive = dyrektywa to %[FLAGI][SZEROKOŚĆ][.DOKŁADNOŚĆ]LITERA, jak w %-10.2s; literał % jest zapisywany jako %%
