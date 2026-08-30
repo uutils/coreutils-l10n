@@ -26,3 +26,15 @@ VC01:
     disabled: true
 ID03:
   enabled: true
+# SY07: select variant keys must be CLDR plural categories or numbers.
+# Plural selects match the category name, which is always an English
+# identifier: a translated key such as [uno] or *[outros] never matches and
+# silently renders the default variant.
+# Exclude the few string selects, whose keys are values passed by the code.
+SY07:
+    enabled: true
+    exclusions:
+        messages:
+            # $file_type is "directory" or another file type, not a number
+            - cp-warning-source-specified-more-than-once
+        files: []
