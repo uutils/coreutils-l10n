@@ -28,3 +28,7 @@ chmod-verbose-neither-changed = ani dowiązanie symboliczne { $file } ani refere
 chmod-verbose-mode-retained = tryb { $file } zachowano jako { $mode_octal } ({ $mode_display })
 chmod-verbose-failed-change = nie udało się zmienić trybu pliku { $file } z { $old_mode } ({ $old_mode_display }) na { $new_mode } ({ $new_mode_display })
 chmod-verbose-mode-changed = tryb { $file } zmieniono z { $old_mode } ({ $old_mode_display }) na { $new_mode } ({ $new_mode_display })
+chmod-error-preserve-root-same-as =
+    rekurencyjne działanie na { $file } jest niebezpieczne (tak samo jak „/”)
+    chmod: użyj --no-preserve-root, aby ominąć ten mechanizm zabezpieczający
+chmod-error-changing-permissions = zmiana uprawnień { $file }: { $err }
