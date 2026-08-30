@@ -13,3 +13,4 @@ seq-error-no-arguments = brak operandu
 seq-error-format-and-equal-width = ciąg formatujący nie może zostać określony podczas wypisywania ciągów o równej szerokości
 seq-parse-error-type-float = zmiennoprzecinkowe
 seq-parse-error-type-nan = „nie-liczba”
+seq-diag-help-format = format zawiera dokładnie jedną konwersję zmiennoprzecinkową: %f, %e, %g lub %a, jak w -f%.3f
