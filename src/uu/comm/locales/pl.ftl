@@ -20,3 +20,4 @@ comm-error-input-not-sorted = comm: dane wejściowe nie są posortowane
 comm-error-is-directory = Jest katalogiem
 comm-error-multiple-conflicting-delimiters = określono wiele sprzecznych ograniczników wyjściowych
 comm-total = razem
+comm-error-write = błąd zapisu
