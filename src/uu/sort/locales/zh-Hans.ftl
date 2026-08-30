@@ -21,7 +21,6 @@ sort-failed-parse-field-index = 解析字段索引 { $field } 失败：{ $error 
 sort-field-index-cannot-be-zero = 字段索引不能为 0
 sort-failed-parse-char-index = 解析字符索引 { $char } 失败：{ $error }
 sort-invalid-option = 无效选项：“{ $option }”
-sort-invalid-char-index-zero-start = 字符索引 0 作为字段的起始位置是无效的
 sort-invalid-batch-size-arg = 无效的 --batch-size 参数“{ $arg }”
 sort-minimum-batch-size-two = --batch-size参数的最小值是“2”
 sort-batch-size-too-large = --batch-size 的参数 { $arg } 过大

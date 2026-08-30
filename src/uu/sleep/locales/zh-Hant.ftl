@@ -8,7 +8,4 @@ sleep-after-help =
     大多數要求 NUMBER 必須為整數的實作不同，本程式
     的 NUMBER 可以是任意浮點數。若傳入了兩個或更多
     的引數，則暫停時間為其數值總和所指定的長度。
-sleep-error-missing-operand =
-    缺少運算元
-    試試看「{ $program } --help」以取得更多資訊。
 sleep-help-number = 暫停 NUMBER 秒

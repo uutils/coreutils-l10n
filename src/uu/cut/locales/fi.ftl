@@ -107,5 +107,4 @@ cut-error-delimiter-must-be-single-character = erottimen on oltava yksittäinen 
 cut-error-multiple-mode-args = virheellinen käyttö: odotetaan vain yhtä seuraavista: --fields (-f), --chars (-c) tai --bytes (-b)
 cut-error-missing-mode-arg = virheellinen käyttö: odotetaan yhtä seuraavista: --fields (-f), --chars (-c) tai --bytes (-b)
 cut-error-delimiter-only-with-fields = virheellinen syöte: --delimiter-valitsin (-d) on käytettävissä vain tulostettaessa kenttäjaksoa
-cut-error-whitespace-only-with-fields = virheellinen syöte: -w-valitsin on käytettävissä vain tulostettaessa kenttäjaksoa
 cut-error-only-delimited-only-with-fields = virheellinen syöte: --only-delimited-valitsin (-s) on kätyettävissä vain tulostettaessa kenttäjaksoa

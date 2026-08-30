@@ -36,7 +36,6 @@ split-error-would-overwrite-input = { $file } は入力を上書きします; �
 split-error-cannot-determine-input-size = { $input }: 入力サイズを決定できません
 split-error-cannot-determine-file-size = { $input }: ファイルサイズを決定できません
 split-error-cannot-read-from-input = { $input }: 入力を読み込むことができません : { $error }
-split-error-input-output-error = 入出力エラー
 split-error-unable-to-open-file = { $file } を開くことができません; 中止します
 split-error-unable-to-reopen-file = { $file } を再度開くことができません; 中止します
 split-error-file-descriptor-limit = ファイルディスクリプタの制限に達しましたが、閉じるべきファイルディスクリプタが残っていません。{ $count } 個のライターを以前閉じました。

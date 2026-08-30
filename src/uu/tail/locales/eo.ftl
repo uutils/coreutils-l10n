@@ -1,6 +1,5 @@
 tail-usage = tail [FLAGO]... [DOSIERO]...
 tail-help-bytes = Nombro de eligotaj bajtoj
-tail-status-file-no-such-file = { $file }: { $no_such_file }
 tail-is-a-directory = Estas dosierujo
 tail-stdin-header = norma enfluo
 tail-no-files-remaining = neniu dosiero restas
@@ -30,7 +29,6 @@ tail-error-backend-resources-exhausted = risursoj de { $backend } foruziĝis
 tail-error-cannot-follow-stdin-by-name = { $stdin } ne estas sekvebla laŭ nomo
 tail-status-has-appeared-following-new-file = { $file } aperis; sekvante novan dosieron
 tail-status-has-been-replaced-following-new-file = { $file } anstataŭiĝis; sekvante novan dosieron
-tail-status-file-became-inaccessible = { $file } { $become_inaccessible }: { $no_such_file }
 tail-help-follow = Montri dosieron dum ĝi kreskiĝas
 tail-warning-pid-not-supported = ĉi tiu sistemo ne subtenas --pid=PROCEZONUMERO
 tail-warning-following-stdin-ineffective = ne utilas sekvi la norman enfluon senfine

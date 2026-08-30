@@ -16,7 +16,6 @@ chroot-error-missing-newroot =
 chroot-error-no-group-specified = tuntemattomalle UID:lle ei annettu ryhmää: { $uid }
 chroot-error-no-such-user = virheellinen käyttäjätunnus
 chroot-error-no-such-group = virheellinen ryhmä
-chroot-error-no-such-directory = juurikansioksi ei voi vaihtaa { $dir }: ei sellaista kansiota
 chroot-error-set-gid-failed = GIDiksi ei voi asetta { $gid }: { $err }
 chroot-error-set-groups-failed = ryhmiä ei voi asettaa: { $err }
 chroot-error-set-user-failed = käyttäjätunnukseksi ei voi asettaa { $user }: { $err }

@@ -16,5 +16,4 @@ mktemp-error-suffix-contains-separator = ogiltigt suffix { $suffix }, innehålle
 mktemp-error-invalid-template = ogiltig mall, { $template }; med --tmpdir är den inte absolut
 mktemp-error-too-many-templates = för många mallar
 mktemp-error-not-found = kunde inte skapa { $template_type } via mallen { $template }: Fil eller katalog saknas
-mktemp-error-failed-print = misslyckades med att skriva ut katalognamnet
 mktemp-template-type-directory = katalog

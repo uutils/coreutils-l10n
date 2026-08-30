@@ -15,6 +15,5 @@ mktemp-error-suffix-contains-separator = 無効なサフィックス { $suffix }
 mktemp-error-invalid-template = 無効なテンプレート { $template }; --tmpdir を使用する場合、絶対パスであってはなりません
 mktemp-error-too-many-templates = テンプレートが多すぎます
 mktemp-error-not-found = テンプレート { $template } を介した { $template_type } の作成に失敗しました: そのようなファイルやディレクトリはありません
-mktemp-error-failed-print = ディレクトリ名の表示に失敗しました
 mktemp-template-type-directory = ディレクトリ
 mktemp-template-type-file = ファイル

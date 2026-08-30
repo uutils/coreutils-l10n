@@ -41,7 +41,6 @@ install-error-extra-operand =
     { $usage }
 install-error-invalid-mode = Nieprawidłowy ciąg trybu: { $error }
 install-error-mutually-exclusive-target = Opcje --target-directory i --no-target-directory wykluczają się wzajemnie
-install-error-mutually-exclusive-compare-preserve = Opcje --compare i --preserve-timestamps wykluczają się wzajemnie
 install-error-mutually-exclusive-compare-strip = Opcje --compare i --strip wykluczają się wzajemnie
 install-error-missing-destination-operand = brak operandu pliku docelowego po { $path }
 install-error-failed-to-remove = Nie udało się usunąć istniejącego pliku { $path }. Błąd: { $error }
@@ -49,7 +48,6 @@ install-warning-compare-ignored = opcja --compare (-C) jest ignorowana, gdy okre
 install-verbose-creating-directory = tworzenie katalogu { $path }
 install-verbose-creating-directory-step = install: tworzenie katalogu { $path }
 install-verbose-removed = usunięto { $path }
-install-verbose-copy = { $from } -> { $to }
 install-verbose-backup = (kopia zapasowa: { $backup })
 install-help-default-context = ustawia kontekst zabezpieczeń SELinux pliku docelowego i każdego utworzonego katalogu na domyślny typ
 install-help-unprivileged = nie wymaga podwyższonych uprawnień do zmiany właściciela, grupy lub flag pliku docelowego

@@ -16,7 +16,6 @@ id-error-names-real-ids-require-flags = 要仅打印名称和实际 ID 需要 -u
 id-error-zero-not-permitted-default = 默认格式中不允许使用 --zero 选项
 id-error-cannot-print-context-with-user = 指定了用户参数时，不能打印安全上下文
 id-error-cannot-get-context = 无法获取进程上下文
-id-error-context-selinux-only = --context (-Z) 仅在启用了 SELinux 的内核中可用
 id-error-no-such-user = { $user }：用户不存在
 id-error-cannot-find-group-name = 找不到组 ID 为 { $gid } 的组名
 id-error-cannot-find-user-name = 找不到用户 ID 为 { $uid } 的用户名

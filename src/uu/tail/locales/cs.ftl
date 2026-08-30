@@ -16,4 +16,3 @@ tail-help-follow = Vypisovat soubor tak, jak přirůstá
 tail-warning-following-stdin-ineffective = následovat standardní vstup donekonečna není efektivní
 tail-status-has-become-accessible = { $file } se stalo nepřístupným
 tail-status-directory-containing-watched-file-removed = složka obsahující hlídaný soubor byla odebrána
-tail-status-file-no-such-file = { $file }: { $no_such_file }

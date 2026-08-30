@@ -33,7 +33,6 @@ sort-failed-parse-field-index = falha ao analisar índice de campo { $field } { 
 sort-field-index-cannot-be-zero = índice de campo não pode ser 0
 sort-failed-parse-char-index = falha ao analisar índice de caracteres { $char }: { $error }
 sort-invalid-option = opção inválida: '{ $option }'
-sort-invalid-char-index-zero-start = índice de caracteres 0 inválido para a posição inicial de um campo
 sort-invalid-batch-size-arg = argumento '{ $arg }' inválido para --batch-size
 sort-extra-operand-not-allowed-with-c = operando adicional { $operand } não é permitido com -c
 sort-separator-not-valid-unicode = o separador não é um unicode válido: { $arg }

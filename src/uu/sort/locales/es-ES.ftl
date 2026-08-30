@@ -32,7 +32,6 @@ sort-failed-parse-field-index = falló al analizar índice de campo { $field } {
 sort-field-index-cannot-be-zero = el índice de campo no puede ser 0
 sort-failed-parse-char-index = falló al analizar índice de carácter { $char }: { $error }
 sort-invalid-option = opción inválida: '{ $option }'
-sort-invalid-char-index-zero-start = índice de carácter 0 inválido para la posición inicial de un campo
 sort-invalid-batch-size-arg = argumento --batch-size inválido '{ $arg }'
 sort-minimum-batch-size-two = argumento --batch-size mínimo es '2'
 sort-batch-size-too-large = argumento --batch-size { $arg } demasiado grande

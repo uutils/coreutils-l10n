@@ -30,7 +30,6 @@ nl-error-invalid-arguments = 無効な引数が提供されました。
 nl-error-could-not-read-line = 行を読み込めませんでした
 nl-error-could-not-write = 出力を書き込めませんでした
 nl-error-line-number-overflow = 行番号がオーバーフローしました
-nl-error-invalid-line-width = 無効な行番号フィールド幅: ‘{ $value }’: 数値結果が範囲外です
 nl-error-invalid-regex = 無効な正規表現
 nl-error-invalid-numbering-style = 無効な行番号付けスタイル: '{ $style }'
 nl-error-is-directory = { $path }: ディレクトリです

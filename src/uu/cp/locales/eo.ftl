@@ -5,8 +5,6 @@ cp-usage =
     cp [OPCIO]... -t DOSIERUJO FONTO...
 cp-error-file-exists = { $path }: Dosiero ekzistas
 cp-error-not-a-directory = { $path } ne estas dosierujo
-cp-verbose-copied = { $source } -> { $dest }
-cp-verbose-created-directory = { $source } -> { $dest }
 cp-help-archive = Sama kiel -dR --preserve=all
 cp-help-no-dereference-preserve-links = sama kiel --no-dereference --preserve=links
 cp-error-selinux-error = Eraro de SELinux: { $error }

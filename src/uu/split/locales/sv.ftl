@@ -36,7 +36,6 @@ split-error-would-overwrite-input = { $file } skulle skriva över indata; avbryt
 split-error-cannot-determine-input-size = { $input }: kan inte bestämma inmatningsstorleken
 split-error-cannot-determine-file-size = { $input }: kan inte bestämma filstorleken
 split-error-cannot-read-from-input = { $input }: kan inte läsa från indata: { $error }
-split-error-input-output-error = in-/utmatningsfel
 split-error-unable-to-open-file = kunde inte öppna { $file }; avbryter
 split-error-unable-to-reopen-file = kunde inte öppna { $file } igen; avbryter
 split-error-file-descriptor-limit = fildeskriptorgränsen nådd, men ingen fildeskriptor kvar att stänga. Stängde { $count } skrivare tidigare.

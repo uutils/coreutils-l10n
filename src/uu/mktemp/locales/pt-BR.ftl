@@ -15,6 +15,5 @@ mktemp-error-suffix-contains-separator = sufixo inválido { $suffix }, contém s
 mktemp-error-invalid-template = modelo inválido, { $template }; com a opção --tmpdir, ele pode não ser absoluto
 mktemp-error-too-many-templates = modelos demais
 mktemp-error-not-found = falha ao criar { $template_type } por meio do modelo { $template }: Arquivo ou diretório inexistente
-mktemp-error-failed-print = falha ao exibir o nome do diretório
 mktemp-template-type-directory = diretório
 mktemp-template-type-file = arquivo

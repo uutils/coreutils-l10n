@@ -41,7 +41,6 @@ install-error-extra-operand =
     { $usage }
 install-error-invalid-mode = 無効なモード文字列です: { $error }
 install-error-mutually-exclusive-target = オプション --target-directory と --no-target-directory は相互に排他的です
-install-error-mutually-exclusive-compare-preserve = オプション --compare と --preserve-timestamps は相互に排他的です
 install-error-mutually-exclusive-compare-strip = オプション --compare と --strip は相互に排他的です
 install-error-missing-file-operand = ファイルオペランドがありません
 install-error-missing-destination-operand = '{ $path }' の後にコピー先ファイルオペランドがありません
@@ -50,5 +49,4 @@ install-warning-compare-ignored = 非パーミッションビットを含むモ�
 install-verbose-creating-directory = ディレクトリ { $path } を作成中
 install-verbose-creating-directory-step = install: ディレクトリ { $path } を作成中
 install-verbose-removed = { $path } を削除しました
-install-verbose-copy = { $from } -> { $to }
 install-verbose-backup = (バックアップ: { $backup })

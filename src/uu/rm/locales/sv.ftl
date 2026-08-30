@@ -33,7 +33,6 @@ rm-help-verbose = förklara vad som görs
 rm-error-missing-operand =
     operand saknas
     Försök med '{ $util_name } --help' för mer information.
-rm-error-invalid-interactive-argument = Ogiltigt argument till interaktiv ({ $arg })
 rm-error-cannot-remove-no-such-file = kan inte ta bort { $file }: Fil eller katalog saknas
 rm-error-cannot-remove-permission-denied = kan inte ta bort { $file }: Åtkomst nekad
 rm-error-cannot-remove-is-directory = kan inte ta bort { $file }: Är en katalog

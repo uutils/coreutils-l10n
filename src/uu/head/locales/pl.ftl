@@ -18,7 +18,6 @@ head-help-verbose = zawsze wypisuje nagłówki z nazwami plików
 head-help-zero-terminated = ogranicznik wiersza to NUL, a nie znak nowego wiersza
 head-error-reading-file = błąd odczytu { $name }: { $err }
 head-error-parse-error = błąd analizy: { $err }
-head-error-bad-encoding = złe kodowanie argumentów
 head-error-num-too-large = liczba bajtów lub wiersza jest zbyt duża
 head-error-clap = błąd clap: { $err }
 head-error-invalid-bytes = nieprawidłowa liczba bajtów: { $err }

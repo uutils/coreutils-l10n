@@ -27,9 +27,7 @@ who-user-count =
         [um] utilizador={ $count }
        *[outros] utilizadores={ $count }
     }
-who-idle-current = { "." }
 who-idle-old = velho
-who-idle-unknown = ?
 who-runlevel = run-level { $level }
 who-runlevel-last = último={ $last }
 who-clock-change = mudança de relógio

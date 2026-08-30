@@ -4,7 +4,6 @@ nproc-about = Affiche le nombre de cœurs disponibles pour le processus actuel.
 nproc-usage = nproc [OPTIONS]...
 
 # Messages d'erreur
-nproc-error-invalid-number = { $value } n'est pas un nombre valide : { $error }
 
 # Texte d'aide pour les arguments de ligne de commande
 nproc-help-all = affiche le nombre de cœurs disponibles pour le système

@@ -54,14 +54,10 @@ stat-after-help =
     wersję opisaną tutaj. Szczegółowe informacje na temat obsługiwanych opcji można
     znaleźć w dokumentacji powłoki.
 stat-error-invalid-quoting-style = Nieprawidłowy styl cytowania: { $style }
-stat-error-missing-operand =
-    Brak operandu
-    Zobacz 'stat --help', aby uzyskać więcej informacji.
 stat-error-invalid-directive = { $directive }: nieprawidłowa dyrektywa
 stat-error-cannot-read-filesystem = nie można odczytać tabeli zamontowanych systemów plików: { $error }
 stat-error-stdin-filesystem-mode = używa znaku „-” do oznaczenia standardowego wejścia nie działa w trybie systemu plików
 stat-error-cannot-read-filesystem-info = nie można odczytać informacji o systemie plików dla { $file }: { $error }
-stat-error-cannot-stat = nie można określić { $file }: { $error }
 stat-warning-backslash-end-format = ukośnik odwrotny na końcu formatu
 stat-warning-unrecognized-escape-x = nierozpoznany znak ucieczki '\x'
 stat-warning-incomplete-hex-escape = niekompletny heksadecymalny znak ucieczki '\x'

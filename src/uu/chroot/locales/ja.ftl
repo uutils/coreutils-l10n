@@ -16,7 +16,6 @@ chroot-error-missing-newroot =
 chroot-error-no-group-specified = 不明な uid { $uid } に対してグループが指定されていません
 chroot-error-no-such-user = 不正なユーザーです
 chroot-error-no-such-group = 不正なグループです
-chroot-error-no-such-directory = ルートディレクトリを { $dir } に変更できません: そのようなディレクトリはありません
 chroot-error-set-gid-failed = gid を { $gid } に設定できません: { $err }
 chroot-error-set-groups-failed = グループを設定できません: { $err }
 chroot-error-set-user-failed = ユーザーを { $user } に設定できません: { $err }

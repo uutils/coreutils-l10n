@@ -25,7 +25,6 @@ numfmt-error-invalid-number = 数字が無効です: { $input }
 numfmt-error-missing-i-suffix = 入力内に 'i' 接尾辞がありません: '{ $number }{ $suffix }' (例: Ki/Mi/Gi)
 numfmt-error-rejecting-suffix = 入力内の接尾辞を拒否しました: '{ $number }{ $suffix }' (--from の使用を検討してください)
 numfmt-error-suffix-unsupported-for-unit = 指定された単位に対してこの接尾辞はサポートされていません
-numfmt-error-unit-auto-not-supported-with-to = 単位 'auto' は --to オプションではサポートされていません
 numfmt-error-number-too-big = 数値が大きすぎるためサポートされていません
 numfmt-error-format-no-percent = フォーマット '{ $format }' に % ディレクティブがありません
 numfmt-error-format-ends-in-percent = フォーマット '{ $format }' が % で終わっています

@@ -10,7 +10,7 @@ readlink-help-quiet = suprimir la mayoría de mensajes de error
 readlink-help-silent = suprimir la mayoría de mensajes de error
 readlink-help-verbose = reportar mensaje de error
 readlink-help-zero = separar salida con NUL en lugar de nueva línea
+readlink-error-missing-operand = falta operando
 
 # Error messages
-readlink-error-missing-operand = falta operando
 readlink-error-ignoring-no-newline = ignorando --no-newline con múltiples argumentos

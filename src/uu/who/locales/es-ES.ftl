@@ -52,5 +52,3 @@ who-heading-exit = SALIDA
 who-canonicalize-error = fallo al canonicalizar { $host }
 # Platform-specific messages
 who-unsupported-openbsd = comando no soportado en OpenBSD
-who-idle-current = { "." }
-who-idle-unknown = ¿?

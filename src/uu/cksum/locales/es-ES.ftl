@@ -16,19 +16,4 @@ cksum-after-help =
     - blake2b: (equivalente a b2sum)
     - sm3: (solo disponible a través de cksum)
 # Help messages
-cksum-help-algorithm = seleccionar el tipo de resumen a usar. Ver DIGEST abajo
-cksum-help-untagged = crear una suma de verificación de estilo invertido, sin tipo de resumen
-cksum-help-tag = crear una suma de verificación estilo BSD, deshacer --untagged (por defecto)
-cksum-help-length = longitud de resumen en bits; no debe exceder el máximo para el algoritmo blake2 y debe ser múltiplo de 8
-cksum-help-raw = emitir un resumen binario crudo, no hexadecimal
-cksum-help-strict = salir con no-cero para líneas de suma de verificación con formato incorrecto
-cksum-help-check = leer sumas hash de los ARCHIVOs y verificarlas
-cksum-help-base64 = emitir un resumen base64, no hexadecimal
-cksum-help-warn = advertir sobre líneas de suma de verificación con formato incorrecto
-cksum-help-status = no mostrar nada, el código de estado muestra éxito
-cksum-help-quiet = no mostrar OK para cada archivo verificado exitosamente
-cksum-help-ignore-missing = no fallar o reportar estado para archivos faltantes
-cksum-help-zero = terminar cada línea de salida con NUL, no nueva línea, y deshabilitar escape de nombre de archivo
 # Error messages
-cksum-error-is-directory = { $file }: Es un directorio
-cksum-error-failed-to-read-input = falló al leer entrada

@@ -107,5 +107,4 @@ cut-error-delimiter-must-be-single-character = avgränsaren måste vara ett enda
 cut-error-multiple-mode-args = ogiltig användning: max en av --fields (-f), --chars (-c) eller --bytes (-b) förväntas
 cut-error-missing-mode-arg = ogiltig användning: en av --fields (-f), --chars (-c) eller --bytes (-b) förväntad
 cut-error-delimiter-only-with-fields = ogiltig indata: Alternativet '--delimiter' ('-d') kan endast användas vid utskrift av en sekvens av fält
-cut-error-whitespace-only-with-fields = ogiltig indata: Alternativet '-w' kan endast användas vid utskrift av en sekvens av fält
 cut-error-only-delimited-only-with-fields = ogiltig indata: Alternativet '--only-delimited' ('-s') kan endast användas vid utskrift av en sekvens av fält

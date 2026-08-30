@@ -60,7 +60,6 @@ numfmt-error-invalid-number = ogiltigt nummer: { $input }
 numfmt-error-missing-i-suffix = saknar suffixet 'i' i inmatningen: '{ $number }{ $suffix }' (t.ex. Ki/Mi/Gi)
 numfmt-error-rejecting-suffix = avvisar suffix i indata: '{ $number }{ $suffix }' (överväg att använda --from)
 numfmt-error-suffix-unsupported-for-unit = Detta suffix stöds inte för den angivna enheten
-numfmt-error-unit-auto-not-supported-with-to = Enheten 'auto' stöds inte med --to-alternativ
 numfmt-error-number-too-big = Numret är för stort och stöds inte
 numfmt-error-format-no-percent = formatet '{ $format }' har inget %-direktiv
 numfmt-error-format-ends-in-percent = formatet '{ $format }' slutar på %

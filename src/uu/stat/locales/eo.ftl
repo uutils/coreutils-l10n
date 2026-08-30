@@ -31,10 +31,6 @@ stat-warning-backslash-end-format = malsuprenstreko ĉe fino de aranĝo
 stat-warning-unrecognized-escape = nekonata eskapo «\{ $escape }»
 stat-error-invalid-quoting-style = Nevalida citada stilo: { $style }
 stat-help-terse = montri la informojn koncize
-stat-error-missing-operand =
-    mankas argumento
-    Provu «stat --help» por pliaj informoj.
-stat-error-cannot-stat = ne povas alvoki «stat» pri { $file }: { $error }
 stat-error-cannot-read-filesystem-info = ne povas legi dosiersistemajn informojn pri { $file }: { $error }
 stat-after-help =
     Validaj aranĝoj por dosieroj (sen «--file-system»):

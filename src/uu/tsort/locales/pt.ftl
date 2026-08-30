@@ -10,4 +10,3 @@ tsort-error-loop = a entrada contém um ciclo:
 tsort-error-extra-operand =
     operando { $operand } adicional
     Digite 'tsort --help' para mais informações.
-tsort-error-at-least-one-input = pelo menos uma entrada

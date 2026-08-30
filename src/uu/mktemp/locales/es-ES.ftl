@@ -19,7 +19,6 @@ mktemp-error-suffix-contains-separator = sufijo no válido { $suffix }, contiene
 mktemp-error-invalid-template = plantilla no válida, { $template }; con --tmpdir, no puede ser absoluta
 mktemp-error-too-many-templates = demasiadas plantillas
 mktemp-error-not-found = fallo al crear { $template_type } vía plantilla { $template }: No existe el archivo o directorio
-mktemp-error-failed-print = fallo al imprimir nombre de directorio
 
 # Template types
 mktemp-template-type-directory = directorio

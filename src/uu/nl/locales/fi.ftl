@@ -30,7 +30,6 @@ nl-error-invalid-arguments = Annettiin virheellisiä argumentteja.
 nl-error-could-not-read-line = riviä ei voitu lukea
 nl-error-could-not-write = tulostetta ei voitu kirjoittaa
 nl-error-line-number-overflow = rivinumeroiden ylivuoto
-nl-error-invalid-line-width = Virheellinen rivinumerokentän leveys: "{ $value }". Numeerinen tulos yli rajojen
 nl-error-invalid-regex = virheellinen säännöllinen lauseke
 nl-error-invalid-numbering-style = virheellinen numerointityyli: "{ $style }"
 nl-error-is-directory = { $path }: on kansio

@@ -27,9 +27,7 @@ who-user-count =
         [one] usuari={ $count }
        *[altres] usuaris={ $count }
     }
-who-idle-current = { "." }
 who-idle-old = vell
-who-idle-unknown = ?
 who-runlevel = nivell-execució { $level }
 who-runlevel-last = últim={ $last }
 who-clock-change = canvi de rellotge

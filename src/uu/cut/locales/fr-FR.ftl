@@ -110,5 +110,4 @@ cut-error-delimiter-must-be-single-character = le délimiteur doit être un cara
 cut-error-multiple-mode-args = usage invalide : attend au plus une des options --fields (-f), --chars (-c) ou --bytes (-b)
 cut-error-missing-mode-arg = usage invalide : attend une des options --fields (-f), --chars (-c) ou --bytes (-b)
 cut-error-delimiter-only-with-fields = entrée invalide : L'option '--delimiter' ('-d') n'est utilisable que si on affiche une séquence de champs
-cut-error-whitespace-only-with-fields = entrée invalide : L'option '-w' n'est utilisable que si on affiche une séquence de champs
 cut-error-only-delimited-only-with-fields = entrée invalide : L'option '--only-delimited' ('-s') n'est utilisable que si on affiche une séquence de champs

@@ -1,14 +1,10 @@
 stat-about = Exibir o estado do sistema de ficheiros ou do ficheiro.
 stat-usage = stat [OPÇÃO]... FICHEIRO...
 stat-error-invalid-quoting-style = Estilo de citação inválido: { $style }
-stat-error-missing-operand =
-    operando falta
-    Tente 'stat --help' para mais informações.
 stat-error-invalid-directive = { $directive }: diretiva inválida
 stat-error-cannot-read-filesystem = não pode ler a tabela de sistemas de ficheiros montados: { $error }
 stat-error-stdin-filesystem-mode = usar '-' para denotar a entrada predefinida não funciona no modo de sistema de ficheiros
 stat-error-cannot-read-filesystem-info = não pode ler informações do sistema de ficheiros para { $file }: { $error }
-stat-error-cannot-stat = não pode fazer stat em { $file }: { $error }
 stat-warning-backslash-end-format = contrabarra no final do formato
 stat-warning-unrecognized-escape-x = escape '\x ' não reconhecido
 stat-warning-incomplete-hex-escape = escape hex '\x ' incompleto

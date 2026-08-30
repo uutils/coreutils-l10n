@@ -27,9 +27,7 @@ who-user-count =
         [one] ユーザー数={ $count }
        *[other] ユーザー数={ $count }
     }
-who-idle-current = { "." }
 who-idle-old = old
-who-idle-unknown = ?
 who-runlevel = ランレベル { $level }
 who-runlevel-last = 以前={ $last }
 who-clock-change = 時刻変更

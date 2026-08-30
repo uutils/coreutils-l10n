@@ -3,7 +3,6 @@ pathchk-usage = pathchk [OPCJA]... NAZWA...
 pathchk-help-posix = sprawdza dla większości systemów POSIX
 pathchk-help-posix-special = sprawdza, czy nazwy są puste i czy na początku nie ma znaku „-”
 pathchk-help-portability = sprawdza wszystkie systemy POSIX (odpowiednik -p -P)
-pathchk-error-missing-operand = brak operandu
 pathchk-error-empty-file-name = pusta nazwa pliku
 pathchk-error-posix-path-length-exceeded = ograniczenie { $limit } przekroczono o długość { $length } nazwy pliku { $path }
 pathchk-error-posix-name-length-exceeded = ograniczenie { $limit } przekroczono o długość { $length } nazwy pliku komponentu { $component }

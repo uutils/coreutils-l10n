@@ -55,13 +55,10 @@ stat-after-help = Secuencias de formato válidas para archivos (sin `--file-syst
 
 # Error messages
 stat-error-invalid-quoting-style = Estilo de comillas inválido: {$style}
-stat-error-missing-operand = falta operando
-  Pruebe 'stat --help' para más información.
 stat-error-invalid-directive = {$directive}: directiva inválida
 stat-error-cannot-read-filesystem = no se puede leer tabla de sistemas de archivos montados: {$error}
 stat-error-stdin-filesystem-mode = usar '-' para denotar entrada estándar no funciona en modo sistema de archivos
 stat-error-cannot-read-filesystem-info = no se puede leer información de sistema de archivos para {$file}: {$error}
-stat-error-cannot-stat = no se puede hacer stat {$file}: {$error}
 
 # Warning messages
 stat-warning-backslash-end-format = barra invertida al final del formato

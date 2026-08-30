@@ -123,8 +123,6 @@ dd-error-cannot-skip-offset = '{ $file }': kan inte hoppa till angiven position
 dd-error-cannot-skip-invalid = '{ $file }': kan inte hoppas över: Ogiltigt argument
 dd-error-cannot-seek-invalid = '{ $output }': kan inte söka: Ogiltigt argument
 dd-error-not-directory = sätter flaggor för '{ $file }': Inte en katalog
-dd-error-failed-discard-cache-input = misslyckades med att ta bort cachen för: 'standard-in'
-dd-error-failed-discard-cache-output = misslyckades med att ta bort cachen för: 'standard-ut'
 dd-error-unrecognized-operand = Okänd operand '{ $operand }'
 dd-error-multiple-format-table = Endast en av conv=ascii, conv=ebcdic eller conv=ibm kan anges
 dd-error-multiple-case = Endast ett av alternativen conv=lcase eller conv=ucase kan anges

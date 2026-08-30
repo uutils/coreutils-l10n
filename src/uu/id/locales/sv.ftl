@@ -16,7 +16,6 @@ id-error-names-real-ids-require-flags = att endast skriva ut namn eller riktiga 
 id-error-zero-not-permitted-default = argumentet --zero är inte tillåtet i standardformatet
 id-error-cannot-print-context-with-user = kan inte skriva ut säkerhetskontext när användare har specificerats
 id-error-cannot-get-context = kan inte hämta processkontexten
-id-error-context-selinux-only = --context (-Z) fungerar bara på en kärna med SELinux aktiverad
 id-error-no-such-user = { $user }: användaren saknas
 id-error-cannot-find-group-name = kan inte hitta namnet för grupp-ID { $gid }
 id-error-cannot-find-user-name = kan inte hitta namnet för användar-ID { $uid }

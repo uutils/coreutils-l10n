@@ -130,8 +130,6 @@ dd-error-cannot-skip-offset = '{ $file }': no se puede saltar al desplazamiento 
 dd-error-cannot-skip-invalid = '{ $file }': no se puede saltar: Argumento no válido
 dd-error-cannot-seek-invalid = '{ $output }': no se puede buscar: Argumento no válido
 dd-error-not-directory = estableciendo banderas para '{ $file }': No es un directorio
-dd-error-failed-discard-cache-input = fallo al descartar caché para: 'entrada estándar'
-dd-error-failed-discard-cache-output = fallo al descartar caché para: 'salida estándar'
 # Parse errors
 dd-error-unrecognized-operand = Operando no reconocido '{ $operand }'
 dd-error-multiple-format-table = Solo se puede especificar uno de conv=ascii conv=ebcdic o conv=ibm

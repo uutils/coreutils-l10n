@@ -1,4 +1,3 @@
-install-verbose-copy = { $from } -> { $to }
 install-usage = install [OPCIO]... [DOSIERO]...
 install-error-metadata-failed = eraro pri metadatenoj
 install-help-preserve-context = konservi sekurecan kuntekston
@@ -38,7 +37,6 @@ install-error-missing-file-operand = dosiero-argumento mankas
 install-error-failed-to-remove = Malsukcesis forigi ekzistantan dosieron { $path }. Eraro: { $error }
 install-help-target-directory = movi ĉiujn argumentojn FONTO al DOSIERUJO
 install-error-mutually-exclusive-target = Vi ne povas specifi kaj la opcion --target-directory kaj la opcion --no-target-directory
-install-error-mutually-exclusive-compare-preserve = Vi ne povas specifi kaj la opcion --compare kaj la opcion --preserve-timestamps
 install-error-mutually-exclusive-compare-strip = Vi ne povas specifi kaj la opcion --compare kaj la opcion --strip
 install-error-override-directory-failed = ne povas superskribi dosierujon { $dir } per nedosierujo { $file }
 install-help-owner = modifi posedanton (nur por ĉefuzanto)

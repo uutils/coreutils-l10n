@@ -1,4 +1,3 @@
-split-error-input-output-error = eneliga eraro
 split-error-invalid-number-of-lines = nevalida nombro de linioj: { $error }
 split-error-invalid-number-of-bytes = nevalida nombro de bajtoj: { $error }
 split-usage = split [OPCIO]... [ENIGO [PREFIKSO]]

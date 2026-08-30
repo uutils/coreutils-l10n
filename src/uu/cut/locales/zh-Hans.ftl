@@ -107,5 +107,4 @@ cut-error-delimiter-must-be-single-character = 分隔符必须是单个字符
 cut-error-multiple-mode-args = 无效用法：--fields (-f)、--chars （-c) 或 --bytes (-b) 只能指定一个
 cut-error-missing-mode-arg = 无效用法：只能是 --fields (-f)、--chars (-c) 或 --bytes (-b) 之一
 cut-error-delimiter-only-with-fields = 无效输入：--delimiter (-d) 选项仅在打印字段序列时可用
-cut-error-whitespace-only-with-fields = 无效输入：-w 选项仅在打印字段序列时可用
 cut-error-only-delimited-only-with-fields = 无效输入：--only-delimited (-s) 选项仅在打印字段序列时可用

@@ -13,7 +13,6 @@ mktemp-error-suffix-contains-separator = sufixo { $suffix } inválido, contém s
 mktemp-error-invalid-template = esquema inválido, { $template }; pode não ser absoluto com --tmpdir
 mktemp-error-too-many-templates = demais esquemas
 mktemp-error-not-found = falha ao criar { $template_type } via esquema { $template }: nenhum ficheiro ou diretório desses
-mktemp-error-failed-print = falha ao imprimir o nome do diretório
 mktemp-template-type-file = ficheiro
 mktemp-help-dry-run = não criar nada; chega imprimir um nome (não seguro)
 mktemp-error-too-few-xs = Xs insuficientes no esquema { $template }

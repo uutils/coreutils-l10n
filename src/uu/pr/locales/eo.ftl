@@ -49,14 +49,6 @@ pr-help-merge =
 pr-help-header =
     Uzi la tekstan ĉapon por anstataŭigi la dosiernomon
                     en la ĉaplinio.
-pr-help-column =
-    eligi plurkolumnan eligaĵon kun <column> kolumnoj
-                    (apriore 1), skribita en kolumnojn laŭ la ordo, je kio la teksto riceviĝas el la
-                    enigita dosiero. Ĉi tiu opcio ne povas esti uzata kune kun -m.
-                    La opcioj -e kaj -i estas implicitaj por plurkolumna eligaĵo. Ĉu aŭ ne la kolumnoj
-                    havas la saman longon ne estas specifita, sed teksta kolumno ne estu pli longa ol
-                    la longo de la paĝo (vidu la opcion -l).
-                    Se uzata kun -t, tio minimumigas la nombron de skribotaj linioj.
 pr-help-omit-header =
     Skribi nek la kvinlinian identigan kapon nek la kvinlinian piedon
                     ordinare montritan por ĉiu paĝo. Ĉesi skribi post la lasta linio

@@ -9,8 +9,5 @@ sleep-after-help =
     punto flotante arbitrario. Dados dos o más argumentos, pausar por la cantidad de tiempo
     especificada por la suma de sus valores.
 # Error messages
-sleep-error-missing-operand =
-    falta operando
-    Pruebe '{ $program } --help' para más información.
 # Help messages
 sleep-help-number = pausar por NÚMERO segundos

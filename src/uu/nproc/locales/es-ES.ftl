@@ -4,7 +4,6 @@ nproc-about = Imprimir el número de núcleos disponibles para el proceso actual
 nproc-usage = nproc [OPCIONES]...
 
 # Error messages
-nproc-error-invalid-number = { $value } no es un número válido: { $error }
 
 # Help text for command-line arguments
 nproc-help-all = imprimir el número de núcleos disponibles para el sistema

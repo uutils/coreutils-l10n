@@ -16,7 +16,6 @@ cut-error-delimiter-must-be-single-character = デリミタは単一の文字で
 cut-error-multiple-mode-args = 不正な使用法: --fields (-f)、--chars (-c)、--bytes (-b) のうち、1 つのみを指定してください
 cut-error-missing-mode-arg = 不正な使用法: --fields (-f)、--chars (-c)、--bytes (-b) のうち、いずれか 1 つが必要です
 cut-error-delimiter-only-with-fields = 不正な入力: '--delimiter' ('-d') オプションは、フィールドのシーケンスを表示する場合にのみ使用可能です
-cut-error-whitespace-only-with-fields = 不正な入力: '-w' オプションは、フィールドのシーケンスを表示する場合にのみ使用可能です
 cut-error-only-delimited-only-with-fields = 不正な入力: '--only-delimited' ('-s') オプションは、フィールドのシーケンスを表示する場合にのみ使用可能です
 cut-after-help =
     各呼び出しは、モード (列に使用するもの)、

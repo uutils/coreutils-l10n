@@ -20,7 +20,6 @@ head-help-zero-terminated = el delimitador de línea es NUL, no nueva línea
 # Error messages
 head-error-reading-file = error leyendo { $name }: { $err }
 head-error-parse-error = error de análisis: { $err }
-head-error-bad-encoding = codificación de argumento incorrecta
 head-error-num-too-large = el número de -bytes o -lines es demasiado grande
 head-error-clap = error de clap: { $err }
 head-error-invalid-bytes = número de bytes inválido: { $err }

@@ -31,7 +31,6 @@ sort-failed-parse-field-index = フィールドインデックス { $field } の
 sort-field-index-cannot-be-zero = フィールドインデックスは 0 にできません
 sort-failed-parse-char-index = 文字インデックス { $char } の解析に失敗しました: { $error }
 sort-invalid-option = オプションが無効です: '{ $option }'
-sort-invalid-char-index-zero-start = フィールドの開始位置としての文字インデックス 0 は無効です
 sort-invalid-batch-size-arg = --batch-size の引数 '{ $arg }' が無効です
 sort-minimum-batch-size-two = --batch-size の最小引数は '2' です
 sort-batch-size-too-large = --batch-size の引数 { $arg } が大きすぎます

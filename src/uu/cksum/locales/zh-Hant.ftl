@@ -15,5 +15,3 @@ cksum-after-help =
     - sm3: (僅透過 cksum 提供)
 cksum-usage = cksum [選項] [檔案]...
 cksum-about = 列印 CRC 和每個檔案的大小
-cksum-error-failed-to-read-input = 無法讀取輸入
-cksum-error-is-directory = { $file }: 是個目錄

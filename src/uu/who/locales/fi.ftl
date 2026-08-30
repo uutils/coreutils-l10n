@@ -27,9 +27,7 @@ who-user-count =
         [one] käyttäjä={ $count }
        *[other] käyttäjiä={ $count }
     }
-who-idle-current = { "." }
 who-idle-old = vanha
-who-idle-unknown = ?
 who-runlevel = ajotaso { $level }
 who-runlevel-last = viimeisin={ $last }
 who-clock-change = kellon muutos

@@ -10,8 +10,6 @@ dd-error-failed-to-open = falha ao abrir { $path }
 dd-error-failed-to-seek = falha ao procurar no ficheiro de saída
 dd-error-io-error = Erro de ES
 dd-error-cannot-seek-invalid = '{ $output }': não pode procurar: argumento inválido
-dd-error-failed-discard-cache-input = falha ao descartar cache para: 'entrada predefinida '
-dd-error-failed-discard-cache-output = falha ao descartar cache para: 'saída predefinida'
 dd-error-unrecognized-operand = Operando não reconhecido '{ $operand }'
 dd-error-multiple-format-table = Apenas um de conv=ascii, conv=ebcdic ou conv=ibm pode ser especificado
 dd-error-multiple-case = Apenas um de conv=lcase ou conv=ucase pode ser especificado

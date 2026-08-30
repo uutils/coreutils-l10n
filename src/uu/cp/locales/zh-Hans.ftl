@@ -27,7 +27,6 @@ cp-help-recursive = 递归复制目录
 cp-error-same-file = { $source }和{ $dest }是同一个文件
 cp-debug-skipped = 已跳过{ $path }
 cp-verbose-removed = 已删除{ $path }
-cp-verbose-created-directory = { $source } -> { $dest }
 cp-debug-enum-no = 否
 cp-debug-enum-yes = 是
 cp-debug-enum-avoided = 已规避

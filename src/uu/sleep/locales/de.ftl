@@ -8,7 +8,4 @@ sleep-after-help =
     Implementierungen, die für NUMMER eine ganze Zahl benötigen, hier kann NUMMER 
     eine willkürliche Gleitkommazahl sein. Bei zwei oder mehr Argumenten, für die 
     Dauer der Summe der angegebenen Werte pausieren.
-sleep-error-missing-operand =
-    fehlender Operand
-    Versuchen Sie '{ $program } --help' für weitere Informationen.
 sleep-help-number = für NUMMER Sekunden pausieren

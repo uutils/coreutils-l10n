@@ -126,8 +126,6 @@ dd-error-cannot-skip-offset = "{ $file }": ei voida hypätä annettuun kohtaan
 dd-error-cannot-skip-invalid = "{ $file }": ei voi ohittaa: virheellinen argumentti
 dd-error-cannot-seek-invalid = "{ $output }": ei voida siirtyä: virheellinen argumentti
 dd-error-not-directory = asetettaessa lippuja tiedostolle "{ $file }": Ei kansio
-dd-error-failed-discard-cache-input = välimuistin hylkääminen epäonnistui: "vakiosyöte"
-dd-error-failed-discard-cache-output = välimuistin hylkääminen epäonnistui: "vakiotuloste"
 dd-error-unrecognized-operand = Tuntematon operaattori "{ $operand }"
 dd-error-multiple-format-table = Vain yksi joukosta conv=ascii, conv=ebcdic tai conv=ibm voidaan antaa
 dd-error-multiple-case = Vain toinen parista conv=lcase tai conv=ucase voidaan antaa

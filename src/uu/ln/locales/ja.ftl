@@ -32,7 +32,6 @@ ln-error-extra-operand =
     余分なオペランド { $operand }
     Try '{ $program } --help' for more information.
 ln-error-could-not-update = { $target } を更新できませんでした: { $error }
-ln-error-cannot-stat = { $path } を stat できません: そのようなファイルやディレクトリはありません
 ln-error-will-not-overwrite = 作成したばかりの '{ $target }' を '{ $source }' で上書きしません
 ln-prompt-replace = { $file } を置き換えますか?
 ln-cannot-backup = { $file } をバックアップできません

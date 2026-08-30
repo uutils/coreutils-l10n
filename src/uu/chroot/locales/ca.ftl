@@ -16,7 +16,6 @@ chroot-error-missing-newroot =
 chroot-error-no-group-specified = no s'ha especificat un grup per a l'uid desconegut: { $uid }
 chroot-error-no-such-user = usuari invalid
 chroot-error-no-such-group = grup invalid
-chroot-error-no-such-directory = no es pot canviar el directori arrel a { $dir }: no existeix tal directori
 chroot-error-set-gid-failed = no es pot establir gid a { $gid }: { $err }
 chroot-error-set-groups-failed = no es poden establir els grups: { $err }
 chroot-error-set-user-failed = no es pot establir l'usuari a { $user }: { $err }

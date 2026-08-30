@@ -2,9 +2,6 @@ sleep-about = Pausa por NÚMERO segundos.
 sleep-usage =
     sleep NÚMERO[SUFIXO]...
     sleep OPÇÃO
-sleep-error-missing-operand =
-    falta operand
-    Tente '{ $program } --help' para mais informações.
 sleep-help-number = pausa por NÚMERO segundos
 sleep-after-help =
     Pausa por NÚMERO segundos. SUFIXO pode ser 's' para segundos (o padrão),

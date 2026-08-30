@@ -9,6 +9,3 @@ sleep-after-help =
     la sumo de la valoroj.
 sleep-about = Paŭzigi dum NOMBRO sekundoj.
 sleep-help-number = paŭzigi dum NOMBRO sekundoj
-sleep-error-missing-operand =
-    argumento mankas
-    Provu «{ $program } --help» por pliaj informoj.

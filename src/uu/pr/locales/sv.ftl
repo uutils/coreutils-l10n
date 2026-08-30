@@ -51,14 +51,6 @@ pr-help-across =
                      sidan i en round-robin-ordning (till exempel, när kolumnen är 2, den
                      första inmatningsraden är rubriken kolumn 1, den andra är rubriken
                      kolumn 2, den tredje är den andra raden i kolumn 1, och så vidare).
-pr-help-column =
-    Producerar utdata med flera kolumner som är ordnade i kolumner
-                     (standardvärdet ska vara 1) och skrivs till varje kolumn i den ordning
-                     som texten tas emot från indatafilen. Detta alternativ ska inte användas med -m.
-                     Alternativen -e och -i ska antas för utdata med flera textkolumner. Huruvida
-                     textkolumner produceras med identiska vertikala längder är ospecificerat,
-                     men en textkolumn ska aldrig överstiga sidans längd (se alternativet -l).
-                     När det används med -t, använd det minsta antalet rader för att skriva utdata.
 pr-help-column-char-separator =
     Separera textkolumner med ett enskilt tecken istället för med lämpligt
                      antal <mellanslag> (standard för tecken är <tab>-tecknet).

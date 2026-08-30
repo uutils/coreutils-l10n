@@ -4,7 +4,5 @@ tac-help-before = 将分隔符置于前面，而非默认的后面
 tac-help-regex = 将序列解释为正则表达式
 tac-help-separator = 使用 STRING 作为分隔符，而非默认的换行符
 tac-error-invalid-regex = 无效的正则表达式：{ $error }
-tac-error-invalid-argument = { $argument }：读取错误：无效的参数
-tac-error-file-not-found = 无法打开 { $filename } 进行读取：文件或目录不存在
 tac-error-read-error = 无法从 { $filename } 进行读取：{ $error }
 tac-error-write-error = 写入标准输出失败：{ $error }

@@ -10,8 +10,6 @@ dd-error-cannot-skip-offset = '{ $file }': 指定されたオフセットまで�
 dd-error-cannot-skip-invalid = '{ $file }': スキップできません: 無効な引数です
 dd-error-cannot-seek-invalid = '{ $output }': シークできません: 無効な引数です
 dd-error-not-directory = '{ $file }' のフラグ設定中: ディレクトリではありません
-dd-error-failed-discard-cache-input = 標準入力のキャッシュ破棄に失敗しました
-dd-error-failed-discard-cache-output = 標準出力のキャッシュ破棄に失敗しました
 dd-error-unrecognized-operand = オペランド '{ $operand }' を認識できません
 dd-error-multiple-format-table = conv=ascii, conv=ebcdic, conv=ibm は同時に 1 つしか指定できません
 dd-error-multiple-case = conv=lcase と conv=ucase は同時に 1 つしか指定できません

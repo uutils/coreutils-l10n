@@ -18,7 +18,6 @@ touch-error-cannot-touch = kan inte röra { $filename }
 touch-error-no-such-file-or-directory = Fil eller katalog saknas
 touch-error-failed-to-get-attributes = kunde inte hämta attribut för { $path }
 touch-error-setting-times-of-path = sätter tider på { $path }
-touch-error-invalid-date-ts-format = ogiltigt datum ts-format { $date }
 touch-error-invalid-date-format = ogiltigt datumformat { $date }
 touch-error-unable-to-parse-date = Kunde inte tolka datum: { $date }
 touch-error-windows-stdout-path-failed = GetFinalPathNameByHandleW misslyckades med koden { $code }

@@ -41,7 +41,6 @@ install-error-extra-operand =
     { $usage }
 install-error-invalid-mode = Ogiltig modussträng: { $error }
 install-error-mutually-exclusive-target = Alternativen --target-directory och --no-target-directory utesluter varandra
-install-error-mutually-exclusive-compare-preserve = Alternativen --compare och --preserve-timestamps utesluter varandra
 install-error-mutually-exclusive-compare-strip = Alternativen --compare och --strip utesluter varandra
 install-error-missing-destination-operand = saknad operand för destinationsfil efter '{ $path }'
 install-error-failed-to-remove = Misslyckades med att ta bort befintlig fil { $path }. Fel: { $error }
@@ -49,5 +48,4 @@ install-warning-compare-ignored = Alternativet --compare (-C) ignoreras när du 
 install-verbose-creating-directory = skapar katalog { $path }
 install-verbose-creating-directory-step = install: skapar katalog { $path }
 install-verbose-removed = tog bort { $path }
-install-verbose-copy = { $from } -> { $to }
 install-verbose-backup = (säkerhetskopiering: { $backup })

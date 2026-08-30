@@ -18,7 +18,6 @@ touch-error-cannot-touch = { $filename } に touch できません
 touch-error-no-such-file-or-directory = そのようなファイルやディレクトリはありません
 touch-error-failed-to-get-attributes = { $path } の属性を取得できませんでした
 touch-error-setting-times-of-path = { $path } の時刻を設定しています
-touch-error-invalid-date-ts-format = 無効な日付タイムスタンプ形式 { $date } です
 touch-error-invalid-date-format = 無効な日付形式 { $date } です
 touch-error-unable-to-parse-date = 日付を解析できません: { $date }
 touch-error-windows-stdout-path-failed = GetFinalPathNameByHandleW がコード { $code } で失敗しました

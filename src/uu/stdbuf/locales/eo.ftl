@@ -1,8 +1,6 @@
 stdbuf-usage = stdbuf [OPCIO]... KOMANDO
 stdbuf-error-killed-by-signal = procezo mortigita per signalo { $signal }
 stdbuf-error-invalid-mode = nevalida reĝimo { $error }
-stdbuf-error-permission-denied = malsukcesis ruli procezon: Mankas permeso
-stdbuf-error-no-such-file = Malsukcesis ruli procezon: Ne ekzistas dosiero aŭ dosierujo
 stdbuf-error-failed-to-execute = malsukcesis ruli procezon: { $error }
 stdbuf-about =
     Ruli KOMANDOn, kun modifitaj bufraj operacioj por ĝiaj normaj fluoj.
@@ -22,7 +20,6 @@ stdbuf-after-help =
 
     NOTU: Se KOMANDO ŝanĝas la bufrigitecon de ĝiaj normaj fluoj (ekz. «tee» faras tion), do tio superregos la respondantajn agordojn ŝanĝitajn de stdbuf.
     Ankaŭ kelkaj filtriloj (ekz. «dd» kaj «cat») ne uzas fluojn por eneligo kaj tial estas ŝanĝitaj de la agordoj de stdbuf.
-stdbuf-error-command-not-supported = Komando ne estas subtenata por ĉi tiu mastruma sistemo!
 stdbuf-help-input = modifi bufron de la norma enfluo
 stdbuf-help-output = modifi bufron de la norma elfluo
 stdbuf-help-error = modifi bufron de la norma erarfluo

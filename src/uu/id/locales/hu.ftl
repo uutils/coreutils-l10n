@@ -18,7 +18,6 @@ id-error-names-real-ids-require-flags = csak nevek vagy valós azonosítók kií
 id-error-zero-not-permitted-default = --zero kapcsoló nem engedélyezett alapértelmezett formátumban
 id-error-cannot-print-context-with-user = nem lehet kiírni a biztonsági kontextust, ha felhasználó is meg van adva
 id-error-cannot-get-context = nem sikerült lekérni a folyamat kontextusát
-id-error-context-selinux-only = --context (-Z) csak SELinux-képes kernel alatt működik
 id-error-no-such-user = { $user }: nincs ilyen felhasználó
 id-error-cannot-find-group-name = nem található név a { $gid } csoportazonosítóhoz
 id-error-cannot-find-user-name = nem található név a { $uid } felhasználói azonosítóhoz
