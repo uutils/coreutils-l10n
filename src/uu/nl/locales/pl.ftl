@@ -3,11 +3,10 @@ nl-usage = nl [OPCJA]... [PLIK]...
 nl-after-help =
     STYL to jedna z następujących opcji:
 
-    - a numeruje wszystkie wiersze
-    - t numeruje tylko niepuste wiersze
-    - n numeruje brak wierszy
-    - pBRE numeruje tylko wiersze, które zawierają dopasowanie do
-            podstawowego wyrażenia regularnego, BRE
+      - a numeruje wszystkie wiersze
+      - t numeruje tylko niepuste wiersze
+      - n numeruje brak wierszy
+      - pBRE numeruje tylko wiersze, które zawierają dopasowanie do podstawowego wyrażenia regularnego, BRE
 
     FORMAT to jedna z następujących opcji:
 
