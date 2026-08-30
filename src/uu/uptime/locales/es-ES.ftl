@@ -26,13 +26,13 @@ uptime-lib-error-boot-time = hora de arranque mayor que la hora actual
 uptime-format =
     { $days ->
         [0] { $time }
-        [uno] { $days } día, { $time }
-       *[otro] { $days } días { $time }
+        [one] { $days } día, { $time }
+       *[other] { $days } días { $time }
     }
 uptime-lib-format-loadavg = carga media: { $avg1 }, { $avg5 }, { $avg15 }
 uptime-user-count =
     { $count ->
-        [uno] 1 usuario
-       *[otro] { $count } usuarios
+        [one] 1 usuario
+       *[other] { $count } usuarios
     }
 uptime-output-up-text = activo

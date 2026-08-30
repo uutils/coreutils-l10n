@@ -24,8 +24,8 @@ who-help-users = lista de utilizadores conectados
 who-help-mesg = adicionar estado de mensagem do utilizador como +, - ou ?
 who-user-count =
     { $count ->
-        [um] utilizador={ $count }
-       *[outros] utilizadores={ $count }
+        [one] utilizador={ $count }
+       *[other] utilizadores={ $count }
     }
 who-idle-old = velho
 who-runlevel = run-level { $level }

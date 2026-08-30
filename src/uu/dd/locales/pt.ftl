@@ -30,8 +30,8 @@ dd-progress-records-in = { $complete }+{ $partial } registos entraram
 dd-progress-records-out = { $complete }+{ $partial } registos sairam
 dd-progress-truncated-record =
     { $count ->
-        [um] { $count } registo truncado
-       *[outros] { $count } registos truncados
+        [one] { $count } registo truncado
+       *[other] { $count } registos truncados
     }
 dd-progress-byte-copied = { $bytes } byte copiado, { $duration } s, { $rate }/s
 dd-progress-bytes-copied = { $bytes } bytes copiados, { $duration } s, { $rate }/s
