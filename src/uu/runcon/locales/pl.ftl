@@ -32,3 +32,4 @@ runcon-operation-setting-role = Ustawia rolę kontekstu zabezpieczeń
 runcon-operation-setting-type = Ustawia typ kontekstu zabezpieczeń
 runcon-operation-setting-range = Ustawia zakres kontekstu zabezpieczeń
 runcon-operation-executing-command = Wykonuje polecenie
+runcon-error-write = błąd zapisu: { $error }
