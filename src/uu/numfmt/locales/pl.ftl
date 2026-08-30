@@ -81,3 +81,19 @@ numfmt-debug-grouping-no-effect = grupowanie nie ma wpływu na te ustawienia reg
 numfmt-debug-failed-to-convert = nie udało się przekonwertować niektórych liczb wejściowych
 numfmt-debug-header-ignored = --header zignorowano przy wprowadzaniu danych z wiersza poleceń
 numfmt-error-invalid-unit-argument = nieprawidłowy argument '{ $arg }' dla '{ $opt }'
+numfmt-diag-label-number-overflow = ta liczba jest za duża
+numfmt-diag-label-stray-percent = dosłowny znak % należy zapisać jako %%
+numfmt-diag-label-bad-conversion = f jest jedyną konwersją dostępną w numfmt; %d, %e, %g i inne konwersje C nie są akceptowane
+numfmt-diag-help-format-syntax = format to [PREFIKS]%[0]['][-][SZEROKOŚĆ][.DOKŁADNOŚĆ]f[SUFIKS], jak w "%'-10.2f"
+numfmt-diag-label-auto-from-only = automatycznie rozpoznaje jednostkę podanej wartości, więc tylko opcja --from ją uwzględnia
+numfmt-diag-help-unit = --from i --to mogą przyjmować wartości none, si, iec lub iec-i, a --from może również przyjmować wartość auto
+numfmt-diag-label-zero-unit-size = rozmiar jednostki musi wynosić co najmniej 1
+numfmt-diag-help-unit-size = rozmiar jednostki to liczba, mnożnik K, M, G, T, P lub E lub oba, jak np. 512, K lub 2Ki
+numfmt-diag-label-zero-padding = wypełnienie to szerokość wyrażona w znakach, więc wartość 0 to brak wypełnienia
+numfmt-diag-help-padding = --padding przyjmuje liczbę całkowitą niezerową; wartość ujemna powoduje wyrównanie do lewej strony, jak w przypadku --padding=-10
+numfmt-diag-label-zero-header = pomiń opcję --header, aby przekonwertować każdy wiersz
+numfmt-diag-help-header = --header określa liczbę wiodących wierszy, które mają zostać przekazane bez zmian; liczba ta musi wynosić co najmniej 1
+numfmt-diag-help-input-no-from = bez opcji --from liczba musi być podana w postaci zwykłej; opcja --from=auto interpretuje przyrostki K, M lub Gi
+numfmt-diag-help-input-suffixes = przyrostkami są: K, M, G, T, P, E, Z, Y, R i Q, z opcjonalnym i pod --from=auto lub iec-i
+numfmt-diag-label-zero-field = pola są numerowane od 1
+numfmt-diag-help-field-syntax = --field przyjmuje wartości N, N-M, N- lub -M, rozdzielone przecinkami, np.--field=1,3-5
