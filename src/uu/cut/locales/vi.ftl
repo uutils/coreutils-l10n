@@ -106,5 +106,4 @@ cut-error-delimiter-must-be-single-character = dấu phân cách phải là mộ
 cut-error-multiple-mode-args = sử dụng không hợp lệ: chỉ mong đợi nhiều nhất một trong --fields (-f), --chars (-c) hoặc --bytes (-b)
 cut-error-missing-mode-arg = sử dụng không hợp lệ: mong đợi một trong --fields (-f), --chars (-c) hoặc --bytes (-b)
 cut-error-delimiter-only-with-fields = đầu vào không hợp lệ: tùy chọn '--delimiter' ('-d') chỉ dùng khi in một dãy trường
-cut-error-whitespace-only-with-fields = đầu vào không hợp lệ: tùy chọn '-w' chỉ dùng khi in một dãy trường
 cut-error-only-delimited-only-with-fields = đầu vào không hợp lệ: tùy chọn '--only-delimited' ('-s') chỉ dùng khi in một dãy trường

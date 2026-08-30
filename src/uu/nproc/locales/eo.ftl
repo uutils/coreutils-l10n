@@ -1,5 +1,4 @@
 nproc-usage = nproc [OPCIOJ]...
-nproc-error-invalid-number = { $value } ne estas valida nombro: { $error }
 nproc-help-ignore = ignori ĝis N kernoj
 nproc-help-all = montri la nombron de procezoraj kernoj disponeblaj por la sistemo
 nproc-about =

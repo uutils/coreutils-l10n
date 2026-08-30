@@ -8,7 +8,4 @@ sleep-after-help =
     NUMBER は整数である必要はなく、任意の浮動小数点数を指定できます。
     2つ以上の引数が与えられた場合、それらの値の合計に等しい時間だけ、
     処理を一時停止します。
-sleep-error-missing-operand =
-    オペランドがありません
-    詳細は「{ $program } --help」を実行して確認してください。
 sleep-help-number = UMBER 秒間、処理を一時停止します

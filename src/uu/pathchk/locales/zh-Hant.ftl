@@ -1,4 +1,3 @@
-pathchk-error-missing-operand = 缺少運算元
 pathchk-about = 檢查檔案名稱是否有效或可移植
 pathchk-usage = pathchk [選項]... 名稱...
 pathchk-help-posix = 檢查大多數 POSIX 系統

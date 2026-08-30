@@ -10,4 +10,3 @@ tsort-error-loop = wejście zawiera pętlę:
 tsort-error-extra-operand =
     dodatkowy operand { $operand }
     Zobacz 'tsort --help', aby uzyskać więcej informacji.
-tsort-error-at-least-one-input = co najmniej jedno wejście

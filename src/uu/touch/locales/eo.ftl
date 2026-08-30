@@ -19,7 +19,6 @@ touch-help-modification = ŝanĝi nur la tempon de modifo
 touch-help-date = analizi argumenton kaj uzi ĝin anstataŭ aktuala tempo
 touch-error-invalid-filetime = Fonto havas nevalidan tempon de atingo aŭ modifo: { $time }
 touch-error-invalid-date-format = nevalida dato-formo { $date }
-touch-error-invalid-date-ts-format = nevalida datotempa formo { $date }
 touch-help-reference = uzi la tempojn de ĉi tiu dosiero anstataŭ la aktuala tempo
 touch-about = Ĝisdatigi la atingajn kaj modifajn tempojn de ĉiu DOSIERO al la aktuala tempo.
 touch-help-no-deref = trakti simbolajn ligojn anstataŭ la referencitaj dosieroj (nur por tiaj sistemoj, kiaj povas ŝanĝi la tempojn de simbola ligo)

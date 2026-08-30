@@ -123,8 +123,6 @@ dd-error-cannot-skip-offset = '{ $file }': nie można pominąć określonego prz
 dd-error-cannot-skip-invalid = '{ $file }': nie można pominąć: nieprawidłowy argument
 dd-error-cannot-seek-invalid = '{ $output }': nie można wyszukać: nieprawidłowy argument
 dd-error-not-directory = ustawianie flag dla '{ $file }': nie jest katalogiem
-dd-error-failed-discard-cache-input = nie udało się usunąć pamięci podręcznej dla: „standardowe wejście”
-dd-error-failed-discard-cache-output = nie udało się usunąć pamięci podręcznej dla: „standardowe wyjście”
 dd-error-unrecognized-operand = Nierozpoznany operand '{ $operand }'
 dd-error-multiple-format-table = Można określić tylko jeden z conv=ascii conv=ebcdic lub conv=ibm
 dd-error-multiple-case = Można określić tylko jeden z conv=lcase lub conv=ucase

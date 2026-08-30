@@ -16,7 +16,6 @@ chroot-error-missing-newroot =
     Fehlender Operand: NEUES_WURZELVERZ
     Versuche '{ $util_name } --help' für weitere Informationen.
 chroot-error-no-group-specified = keine Gruppe für unbekannte UID angegeben: { $uid }
-chroot-error-no-such-directory = Kann Wurzelverzeichnis nicht nach { $dir } ändern: Verzeichnis nicht vorhanden
 chroot-error-set-gid-failed = kann GID nicht auf { $gid } setzen: { $err }
 chroot-error-set-groups-failed = Kann Gruppen nicht setzen: { $err }
 chroot-error-set-user-failed = Kann Benutzer nicht auf { $user } setzen: { $err }

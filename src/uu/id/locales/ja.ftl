@@ -16,7 +16,6 @@ id-error-names-real-ids-require-flags = 名前または実 ID のみを表示す
 id-error-zero-not-permitted-default = オプション --zero はデフォルトの形式では許可されていません
 id-error-cannot-print-context-with-user = ユーザーが指定されている場合、セキュリティコンテキストを印刷できません
 id-error-cannot-get-context = プロセスコンテキストを取得できません
-id-error-context-selinux-only = --context (-Z) は SELinux が有効なカーネルでのみ機能します
 id-error-no-such-user = { $user }: そのようなユーザーはいません
 id-error-cannot-find-group-name = グループ ID { $gid } の名前を見つけることができません
 id-error-cannot-find-user-name = ユーザー ID { $uid } の名前を見つけることができません

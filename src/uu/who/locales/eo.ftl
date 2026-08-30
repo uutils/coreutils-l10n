@@ -3,9 +3,7 @@ who-user-count =
         [one] uzanto={ $count }
        *[other] uzantoj={ $count }
     }
-who-idle-current = { "." }
 who-idle-old = malnova
-who-idle-unknown = ?
 who-runlevel = rulnivelo { $level }
 who-runlevel-last = lasta={ $last }
 who-clock-change = ŝanĝo de horloĝo

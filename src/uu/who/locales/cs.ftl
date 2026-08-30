@@ -1,5 +1,4 @@
 who-idle-old = staré
-who-idle-unknown = ?
 who-heading-name = NÁZEV
 who-heading-line = ŘÁDEK
 who-heading-time = ČAS

@@ -42,7 +42,6 @@ install-error-extra-operand =
     { $usage }
 install-error-invalid-mode = String de modo inválida: { $error }
 install-error-mutually-exclusive-target = As opções --target-directory e --no-target-directory são mutuamente exclusivas
-install-error-mutually-exclusive-compare-preserve = As opções --compare e --preserve-timestamps são mutuamente exclusivas
 install-error-mutually-exclusive-compare-strip = As opções --compare e --strip são mutuamente exclusivas
 install-error-missing-file-operand = falta o operando do arquivo
 install-error-missing-destination-operand = falta o operando do arquivo de destino após { $path }

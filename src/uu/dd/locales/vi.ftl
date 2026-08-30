@@ -120,8 +120,6 @@ dd-error-cannot-skip-offset = '{ $file }': không thể bỏ qua đến phần b
 dd-error-cannot-skip-invalid = '{ $file }': không thể bỏ qua: Tham số không hợp lệ
 dd-error-cannot-seek-invalid = '{ $output }': không thể seek: Tham số không hợp lệ
 dd-error-not-directory = đặt cờ cho '{ $file }': Không phải là thư mục
-dd-error-failed-discard-cache-input = không thể loại bỏ bộ đệm cho: 'standard input'
-dd-error-failed-discard-cache-output = không thể loại bỏ bộ đệm cho: 'standard output'
 
 # Lỗi phân tích cú pháp
 dd-error-unrecognized-operand = Toán hạng không được nhận diện '{ $operand }'

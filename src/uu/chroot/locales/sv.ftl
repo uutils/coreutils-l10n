@@ -16,7 +16,6 @@ chroot-error-missing-newroot =
 chroot-error-no-group-specified = ingen grupp specificerad för okänd uid: { $uid }
 chroot-error-no-such-user = ogiltig användare
 chroot-error-no-such-group = ogiltig grupp
-chroot-error-no-such-directory = kan inte ändra rotkatalogen till { $dir }: katalogen finns inte
 chroot-error-set-gid-failed = kan inte ställa in gid till { $gid }: { $err }
 chroot-error-set-groups-failed = kan inte ställa in grupper: { $err }
 chroot-error-set-user-failed = kan inte ställa in användaren till { $user }: { $err }

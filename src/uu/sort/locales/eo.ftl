@@ -76,6 +76,5 @@ sort-minus-in-stdin = dosiernomo «-» ne estas permesata dum legado de dosierno
 sort-help-files0-from = legi enigaĵojn el la dosieroj specifitaj de la dosiero NUL_FILE, kies eroj finiĝas per la nulbajto
 sort-help-batch-size = Kombini maksimume N_MERGE dosierojn samtempe.
 sort-help-ignore-leading-blanks = ignori komencajn spacetojn dum trovado de ordigaj ŝlosiloj en iu linio
-sort-invalid-char-index-zero-start = nevalida skribsigna indico 0 por la komenca pozicio de kampo
 sort-help-compress-prog = densigi provizoran dosieron per PROG, maldensigante per PROG -d; PROG prenu enigaĵon el la norma enfluo kaj eligu al la norma elfluo
 sort-help-buf-size = agordi la maksimuman grandon SIZE de segmento en nombro de ordigitaj eroj

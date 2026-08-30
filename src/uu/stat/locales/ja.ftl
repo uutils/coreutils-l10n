@@ -1,14 +1,10 @@
 stat-about = ファイルまたはファイルシステムの情報を表示します。
 stat-usage = stat [OPTION]... FILE...
 stat-error-invalid-quoting-style = クォートスタイルが無効です: { $style }
-stat-error-missing-operand =
-    オペランドがありません
-    詳細は 'stat --help' を実行してください。
 stat-error-invalid-directive = { $directive }: 無効なディレクティブです
 stat-error-cannot-read-filesystem = マウントされたファイルシステムのテーブルを読み込めません: { $error }
 stat-error-stdin-filesystem-mode = 標準入力を示す '-' はファイルシステムモードでは使用できません
 stat-error-cannot-read-filesystem-info = { $file } のファイルシステム情報を読み込めません: { $error }
-stat-error-cannot-stat = { $file } をstatできません: { $error }
 stat-warning-backslash-end-format = フォーマットの末尾にバックスラッシュがあります
 stat-warning-unrecognized-escape-x = 認識できないエスケープです '\x'
 stat-warning-incomplete-hex-escape = 不完全な 16 進エスケープです '\x'

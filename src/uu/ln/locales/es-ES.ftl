@@ -29,7 +29,6 @@ ln-error-missing-destination = falta operando de archivo destino después de {$o
 ln-error-extra-operand = operando adicional {$operand}
   Pruebe '{$program} --help' para más información.
 ln-error-could-not-update = No se pudo actualizar {$target}: {$error}
-ln-error-cannot-stat = no se puede hacer stat {$path}: No existe el archivo o directorio
 ln-error-will-not-overwrite = no sobreescribirá el recién creado '{$target}' con '{$source}'
 ln-prompt-replace = ¿reemplazar {$file}?
 ln-cannot-backup = no se puede respaldar {$file}

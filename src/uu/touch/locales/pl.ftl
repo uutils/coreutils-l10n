@@ -18,7 +18,6 @@ touch-error-cannot-touch = nie można zmodyfikować { $filename }
 touch-error-no-such-file-or-directory = Nie ma takiego pliku ani katalogu
 touch-error-failed-to-get-attributes = nie udało się pobrać atrybutów { $path }
 touch-error-setting-times-of-path = ustawianie czasów { $path }
-touch-error-invalid-date-ts-format = nieprawidłowy format daty ts { $date }
 touch-error-invalid-date-format = nieprawidłowy format daty { $date }
 touch-error-unable-to-parse-date = Nie można przeanalizować daty: { $date }
 touch-error-windows-stdout-path-failed = Nie udało się wykonać GetFinalPathNameByHandleW z kodem { $code }

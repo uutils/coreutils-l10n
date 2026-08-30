@@ -32,7 +32,6 @@ ln-error-extra-operand =
     ylimääräinen operandi { $operand }
     Lisäohjeita löytyy komennolla "{ $program } --help".
 ln-error-could-not-update = Ei voitu päivittää kohdetta { $target }: { $error }
-ln-error-cannot-stat = tietoja ei saatu: { $path }: ei tällaista tiedostoa tai kansiota
 ln-error-will-not-overwrite = ei korvata vasta luotua kohdetta "{ $target }" lähteellä "{ $source }"
 ln-prompt-replace = korvataanko { $file }?
 ln-cannot-backup = ei voida varmuuskopioida: { $file }

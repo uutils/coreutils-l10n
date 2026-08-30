@@ -1,6 +1,5 @@
 mkfifo-usage = mkfifo [OPCIO]... NOMO...
 mkfifo-error-invalid-mode = nevalida reĝimo: { $error }
-mkfifo-error-missing-operand = mankas argumento
 mkfifo-error-cannot-set-permissions = ne povas ŝanĝi permesojn pri { $path }: { $error }
 mkfifo-about = Krei nomhavan dukton kun donita nomo.
 mkfifo-help-mode = dosieraj permesoj pri la nomhava dukto

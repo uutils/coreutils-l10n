@@ -38,7 +38,6 @@ install-error-extra-operand =
     { $usage }
 install-error-invalid-mode = Cadeia de modo inválido: { $error }
 install-error-mutually-exclusive-target = Opções --target-directory e --no-target-directory são mutuamente exclusivos
-install-error-mutually-exclusive-compare-preserve = Opções --compare e --preserve-timestamps são mutuamente exclusivos
 install-error-mutually-exclusive-compare-strip = Opções --compare e --strip são mutuamente exclusivos
 install-error-missing-file-operand = falta o operando de ficheiro
 install-error-missing-destination-operand = operando de ficheiro de destino ausente após '{ $path } '
@@ -47,7 +46,6 @@ install-warning-compare-ignored = a opção --compare (-C) é ignorada quando es
 install-verbose-creating-directory = a criar diretório { $path }
 install-verbose-creating-directory-step = install: a criar diretório { $path }
 install-verbose-removed = removido { $path }
-install-verbose-copy = { $from } -> { $to }
 install-verbose-backup = (backup: { $backup })
 install-help-default-context = definir o contexto de segurança SELinux do ficheiro de destino e cada diretório criado para o tipo predefinido
 install-help-unprivileged = não requerer privilégios elevados para alterar o proprietário, o grupo ou os atributos de ficheiro do destino

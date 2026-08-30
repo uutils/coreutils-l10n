@@ -75,7 +75,6 @@ common-write-error = błąd zapisu
 mode-error-invalid-operator = nieprawidłowy operator (oczekiwano +, - lub =, ale znaleziono { $operator })
 mode-error-unexpected-end = nieoczekiwany koniec trybu
 error-no-such-process = Nie ma takiego procesu
-mode-diag-label-invalid-operator = oczekiwano tutaj +, - lub =
 mode-diag-label-missing-operator = ta klauzula mówi, kto ma zmienić, ale nie co należy zmienić
 mode-diag-label-invalid-number = nie jest trybem ósemkowym
 mode-diag-help-syntax = tryb jest albo ósemkowy, jak w 644, albo klauzule takie jak u+rwx,go-w

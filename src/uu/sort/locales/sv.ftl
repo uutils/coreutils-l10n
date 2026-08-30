@@ -33,7 +33,6 @@ sort-failed-parse-field-index = misslyckades med att analysera fältindex { $fie
 sort-field-index-cannot-be-zero = fältindex kan inte vara 0
 sort-failed-parse-char-index = misslyckades med att analysera teckenindex { $char }: { $error }
 sort-invalid-option = ogiltigt alternativ: '{ $option }'
-sort-invalid-char-index-zero-start = ogiltigt teckenindex 0 för startpositionen på ett fält
 sort-invalid-batch-size-arg = ogiltigt --batch-size argument '{ $arg }'
 sort-minimum-batch-size-two = minsta argumentet till --batch-size är '2'
 sort-batch-size-too-large = --batch-size argumentet { $arg } är för stort

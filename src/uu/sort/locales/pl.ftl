@@ -33,7 +33,6 @@ sort-failed-parse-field-index = nie udało się przeanalizować indeksu pola { $
 sort-field-index-cannot-be-zero = indeks pola nie może być równy 0
 sort-failed-parse-char-index = nie udało się przeanalizować indeksu znaku { $char }: { $error }
 sort-invalid-option = nieprawidłowa opcja: '{ $option }'
-sort-invalid-char-index-zero-start = nieprawidłowy indeks znaku 0 dla pozycji początkowej pola
 sort-invalid-batch-size-arg = nieprawidłowy argument --batch-size '{ $arg }'
 sort-minimum-batch-size-two = minimalny argument --batch-size wynosi '2'
 sort-batch-size-too-large = argument --batch-size { $arg } jest za duży

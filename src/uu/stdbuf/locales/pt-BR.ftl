@@ -24,7 +24,5 @@ stdbuf-error-line-buffering-stdin-meaningless = buffer de linha do stdin não fa
 stdbuf-error-invalid-mode = modo inválido { $error }
 stdbuf-error-value-too-large = modo inválido '{ $value }': Valor muito grande para o tipo de dados definido
 stdbuf-error-external-libstdbuf-not-found = Não foi encontrada a biblioteca externa libstdbuf no caminho configurado: { $path }
-stdbuf-error-permission-denied = falha ao executar o processo: Permissão negada
-stdbuf-error-no-such-file = falha ao executar o processo: Arquivo ou diretório inexistente
 stdbuf-error-failed-to-execute = falha ao executar o processo: { $error }
 stdbuf-error-killed-by-signal = processo encerrado pelo sinal { $signal }

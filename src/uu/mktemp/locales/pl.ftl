@@ -15,6 +15,5 @@ mktemp-error-suffix-contains-separator = nieprawidłowy sufiks { $suffix }, zawi
 mktemp-error-invalid-template = nieprawidłowy szablon, { $template }; z opcją --tmpdir może nie być on absolutny
 mktemp-error-too-many-templates = zbyt wiele szablonów
 mktemp-error-not-found = nie udało się utworzyć { $template_type } za pomocą szablonu { $template }: nie ma takiego pliku ani katalogu
-mktemp-error-failed-print = nie udało się wypisać nazwy katalogu
 mktemp-template-type-directory = katalog
 mktemp-template-type-file = plik

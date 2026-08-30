@@ -8,7 +8,4 @@ sleep-after-help =
     som kräver att NUMBER är ett heltal, kan NUMBER här vara ett godtyckligt flyttal.
     Med tanke på två eller fler argument, pausa under den tid
     som anges av summan av deras värden.
-sleep-error-missing-operand =
-    saknad operand
-    Försök med '{ $program } --help' för mer information.
 sleep-help-number = pausa i NUMBER sekunder

@@ -55,15 +55,6 @@ pr-help-across =
                   à travers la page dans un ordre round-robin (par exemple, quand colonne est 2,
                   la première ligne d'entrée va en tête de colonne 1, la seconde va en tête de colonne 2,
                   la troisième est la seconde ligne en colonne 1, et ainsi de suite).
-pr-help-column =
-  Produire une sortie multi-colonnes qui est arrangée en colonnes colonnes
-                  (la valeur par défaut sera 1) et est écrite dans chaque colonne dans l'ordre
-                  dans lequel le texte est reçu du fichier d'entrée. Cette option ne doit pas être
-                  utilisée avec -m. Les options -e et -i seront assumées pour la sortie multi-colonnes
-                  de texte. Que les colonnes de texte soient produites avec des longueurs verticales
-                  identiques ou non n'est pas spécifié, mais une colonne de texte ne doit jamais
-                  dépasser la longueur de la page (voir l'option -l). Lorsqu'utilisée avec -t,
-                  utiliser le nombre minimum de lignes pour écrire la sortie.
 pr-help-column-char-separator =
   Séparer les colonnes de texte par le caractère unique char au lieu du nombre
                   approprié d'`<espaces>` (par défaut pour char est le caractère de `<tabulation>`).

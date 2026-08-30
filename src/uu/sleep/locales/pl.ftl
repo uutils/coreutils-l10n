@@ -8,7 +8,4 @@ sleep-after-help =
     implementacji, które wymagają, aby LICZBA była liczbą całkowitą, tutaj LICZBA
     może być dowolną liczbą zmiennoprzecinkową. Mając dwa lub więcej argumentów,
     wstrzymaj na czas określony przez sumę ich wartości.
-sleep-error-missing-operand =
-    Brak operandu
-    Zobacz '{ $program } --help', aby uzyskać więcej informacji.
 sleep-help-number = wstrzymuje na LICZBĘ sekund

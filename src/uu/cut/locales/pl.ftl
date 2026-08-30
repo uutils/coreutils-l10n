@@ -108,5 +108,4 @@ cut-error-delimiter-must-be-single-character = ogranicznik musi być pojedynczym
 cut-error-multiple-mode-args = nieprawidłowe użycie: oczekuje nie więcej niż jednego z parametrów --fields (-f), --chars (-c) lub --bytes (-b)
 cut-error-missing-mode-arg = nieprawidłowe użycie: oczekuje jednego z parametrów --fields (-f), --chars (-c) lub --bytes (-b)
 cut-error-delimiter-only-with-fields = nieprawidłowe dane wejściowe: opcja '--delimiter' ('-d') może być używana tylko w przypadku wypisywania sekwencji pól
-cut-error-whitespace-only-with-fields = nieprawidłowe dane wejściowe: opcja '-w' może być używana tylko w przypadku wypisywania sekwencji pól
 cut-error-only-delimited-only-with-fields = nieprawidłowe dane wejściowe: opcja '--only-delimited' ('-s') może być używana wyłącznie w przypadku wypisaywania sekwencji pól

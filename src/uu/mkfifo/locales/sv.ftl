@@ -1,6 +1,5 @@
 mkfifo-about = Skapa en FIFO med det angivna namnet.
 mkfifo-usage = mkfifo [OPTION]... NAME...
-mkfifo-error-missing-operand = saknad operand
 mkfifo-help-mode = filbehörigheter för fifo
 mkfifo-help-selinux = ställ in SELinux säkerhetskontexten till standardtyp
 mkfifo-help-context = som -Z, eller om CTX anges, sätt då SELinux- eller SMACK-säkerhetskontexten till CTX

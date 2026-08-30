@@ -124,8 +124,6 @@ dd-error-cannot-skip-offset = '{ $file }': невозможно перейти �
 dd-error-cannot-skip-invalid = '{ $file }': нельзя пропустить: неверный аргумент
 dd-error-cannot-seek-invalid = '{ $output }': невозможно выполнить поиск: неверный аргумент
 dd-error-not-directory = установка флагов для „{ $file }“: не является каталогом
-dd-error-failed-discard-cache-input = не удалось очистить кэш для: 'стандартный ввод'
-dd-error-failed-discard-cache-output = не удалось очистить кэш для: 'стандартный вывод'
 dd-error-unrecognized-operand = Нераспознанный операнд '{ $operand }'
 dd-error-multiple-format-table = Можно указать только одно: conv=ascii, conv=ebcdic или conv=ibm
 dd-error-multiple-case = Можно указать только одно: conv=lcase или conv=ucase

@@ -23,4 +23,3 @@ touch-error-unable-to-parse-date = Incapaz de analisar a data: { $date }
 touch-error-windows-stdout-path-failed = GetFinalPathNameByHandleW falhou com o código { $code }
 touch-error-invalid-filetime = Fonte tem um tempo de acesso ou modificação inválido: { $time }
 touch-error-reference-file-inaccessible = falha ao obter atributos de { $path }: { $error }
-touch-error-invalid-date-ts-format = formato de data ts inválida { $date }

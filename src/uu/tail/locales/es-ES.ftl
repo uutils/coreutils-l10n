@@ -57,10 +57,8 @@ tail-status-has-been-replaced-following-new-file = { $file } ha sido reemplazado
 tail-status-file-truncated = { $file }: archivo truncado
 tail-status-replaced-with-untailable-file = { $file } ha sido reemplazado con un archivo no seguible
 tail-status-replaced-with-untailable-file-giving-up = { $file } ha sido reemplazado con un archivo no seguible; abandonando este nombre
-tail-status-file-became-inaccessible = { $file } { $become_inaccessible }: { $no_such_file }
 tail-status-directory-containing-watched-file-removed = directorio conteniendo archivo vigilado fue eliminado
 tail-status-backend-cannot-be-used-reverting-to-polling = { $backend } no se puede usar, revirtiendo a consultas
-tail-status-file-no-such-file = { $file }: { $no_such_file }
 
 # Text constants
 tail-bad-fd = Descriptor de archivo incorrecto

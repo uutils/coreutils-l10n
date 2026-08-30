@@ -109,5 +109,4 @@ cut-error-delimiter-must-be-single-character = el delimitador debe ser un solo c
 cut-error-multiple-mode-args = uso inválido: espera no más de uno de --fields (-f), --chars (-c) o --bytes (-b)
 cut-error-missing-mode-arg = uso inválido: espera uno de --fields (-f), --chars (-c) o --bytes (-b)
 cut-error-delimiter-only-with-fields = entrada inválida: La opción '--delimiter' ('-d') solo se puede usar al mostrar una secuencia de campos
-cut-error-whitespace-only-with-fields = entrada inválida: La opción '-w' solo es usable si se muestra una secuencia de campos
 cut-error-only-delimited-only-with-fields = entrada inválida: La opción '--only-delimited' ('-s') solo es usable si se muestra una secuencia de campos

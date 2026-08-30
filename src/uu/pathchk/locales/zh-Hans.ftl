@@ -3,7 +3,6 @@ pathchk-about = 检查文件名是否有效或具有可移植性
 pathchk-help-posix = 检查路径是否符合常见 POSIX 系统的规范
 pathchk-help-posix-special = 检查是否存在空名称及以“-”开头的名称
 pathchk-help-portability = 检查路径是否符合所有 POSIX 系统的规范（等价于使用 -p -P）
-pathchk-error-missing-operand = 缺少操作数
 pathchk-error-empty-file-name = 文件名为空
 pathchk-error-posix-path-length-exceeded = 文件名 { $path } 的长度 { $length } 超出限制 { $limit }
 pathchk-error-posix-name-length-exceeded = 路径组件 { $component } 的长度 { $length } 超出限制 { $limit }

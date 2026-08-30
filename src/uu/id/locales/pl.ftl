@@ -17,7 +17,6 @@ id-error-names-real-ids-require-flags = wypisuje tylko nazwy lub prawdziwe ident
 id-error-zero-not-permitted-default = opcja --zero nie jest dozwolona w formacie domyślnym
 id-error-cannot-print-context-with-user = nie można wypisać kontekstu zabezpieczeń, gdy określono użytkownika
 id-error-cannot-get-context = nie można uzyskać kontekstu procesu
-id-error-context-selinux-only = --context (-Z) działa tylko w jądrze obsługującym SELinux
 id-error-no-such-user = { $user }: nie ma takiego użytkownika
 id-error-cannot-find-group-name = nie można znaleźć nazwy dla identyfikatora grupy { $gid }
 id-error-cannot-find-user-name = nie można znaleźć nazwy dla identyfikatora użytkownika { $uid }

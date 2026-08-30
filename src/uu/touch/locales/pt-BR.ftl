@@ -18,7 +18,6 @@ touch-error-cannot-touch = não é possível executor o touch em { $filename }
 touch-error-no-such-file-or-directory = Arquivo ou diretório inexistente
 touch-error-failed-to-get-attributes = falha ao obter os atributos de { $path }
 touch-error-setting-times-of-path = definindo as horas de { $path }
-touch-error-invalid-date-ts-format = formato da marca temporal inválido { $date }
 touch-error-invalid-date-format = formato da data inválido { $date }
 touch-error-unable-to-parse-date = Não é possível analisar a data: { $date }
 touch-error-windows-stdout-path-failed = GetFinalPathNameByHandleW falhou com o código { $code }

@@ -51,14 +51,6 @@ pr-help-across =
                     round-robin-järjestyksessä (esimerkiksi kun sarake on 2, ensimmäinen
                     syöterivi alkaa sarakkeen 1, toinen sarakkeen 2, kolmas sarakkeen 1
                     toisen rivin jne.).
-pr-help-column =
-    Tulosta monisarakkeinen tuloste, joka on järjestetty annettuun määrään
-                    sarakkeita (oletus 1) ja kukin sarake kirjoitetaan alas syötetiedostosta luetun
-                    tekstin järjestyksessä. Valitsinta ei tulisi käyttää yhdessä -m:n kanssa.
-                    Useampisarakkeisessa tulostuksessa valitsimet -e ja -i oletetaan. Ei ole
-                    määritelty, tuotetaanko tekstisarakkeet yhtä pitkinä pystysuunnassa vai ei,
-                    mutta tekstisarakkeet eivät koskaan ylitä sivun pituutta (ks. -l-valitsin).
-                    Käytettäessä yhdessä -t:n kanssa käytetään tulosteeseen vähimmäismäärä rivejä.
 pr-help-column-char-separator =
     Erota tekstisarakkeet yksittäisellä merkillä sopivan <välilyöntien> määrän
                     sijaan (oletusmerkki on <sarkain>).

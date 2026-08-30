@@ -16,7 +16,6 @@ id-error-names-real-ids-require-flags = vain nimien tai todellisten tunnisteiden
 id-error-zero-not-permitted-default = valitsinta --zero ei sallita oletusmuodossa
 id-error-cannot-print-context-with-user = turvakontekstia ei voi tulostaa, kun käyttäjä on annettu
 id-error-cannot-get-context = prosessin kontekstia ei saada
-id-error-context-selinux-only = --context (-Z) toimii vain ytimessä, jossa SELinux on käytössä
 id-error-no-such-user = { $user }: ei sellaista käyttäjää
 id-error-cannot-find-group-name = ryhmätunnisteelle { $gid } ei löydy nimeä
 id-error-cannot-find-user-name = käyttäjätunnisteelle { $uid } ei löydy nimeä

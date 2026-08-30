@@ -26,7 +26,6 @@ nl-error-could-not-write = ne povas skribi eligaĵon
 nl-error-invalid-arguments = Argumentoj ne validas.
 nl-error-line-number-overflow = troo de liniaj numeroj
 nl-help-number-width = uzi NUMBER vertikalojn por liniaj numeroj
-nl-error-invalid-line-width = Nevalida larĝo de lininumera kampo: «{ $value }»: Nombra rezulto ekster gamo
 nl-error-invalid-numbering-style = nevalida numerada stilo: «{ $style }»
 nl-help-line-increment = kremento de linia numero ĉe ĉiu linio
 nl-help-number-separator = eligi STRING post (ebla) linia numero

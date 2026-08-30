@@ -27,7 +27,6 @@ ln-help-symbolic = fari simbolajn ligojn anstataŭ nesimbolajn ligojn
 ln-help-verbose = eligi la nomon de ĉiu ligita dosiero
 ln-backup = savkopio: { $backup }
 ln-cannot-backup = ne povas fari savkopion de { $file }
-ln-error-cannot-stat = malsukcesis alvoki «stat» por { $path }: Ne ekzistas dosiero aŭ dosierujo
 ln-error-extra-operand =
     ekstra argumento { $operand }
     Provu «{ $program } --help» por pliaj informoj.

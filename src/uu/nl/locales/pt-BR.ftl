@@ -16,7 +16,6 @@ nl-error-invalid-arguments = Foram fornecidos argumentos inválidos.
 nl-error-could-not-read-line = não foi possível ler linha
 nl-error-could-not-write = não foi possível gravar a saída
 nl-error-line-number-overflow = transbordamento do número da linha
-nl-error-invalid-line-width = Largura inválida do campo do número de linha: ‘{ $value }’: Resultado numérico fora do intervalo
 nl-error-invalid-regex = expressão regular inválida
 nl-error-invalid-numbering-style = estilo de numeração inválido: '{ $style }'
 nl-error-is-directory = { $path }: É um diretório

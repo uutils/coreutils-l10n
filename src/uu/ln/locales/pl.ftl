@@ -32,7 +32,6 @@ ln-error-extra-operand =
     dodatkowy operand { $operand }
     Zobacz '{ $program } --help', aby uzyskać więcej informacji.
 ln-error-could-not-update = Nie można zaktualizować { $target }: { $error }
-ln-error-cannot-stat = nie można określić { $path }: nie ma takiego pliku ani katalogu
 ln-error-will-not-overwrite = nie nadpisze właśnie utworzonego '{ $target }' przez '{ $source }'
 ln-prompt-replace = zastąpić { $file }?
 ln-cannot-backup = nie można wykonać kopii zapasowej { $file }

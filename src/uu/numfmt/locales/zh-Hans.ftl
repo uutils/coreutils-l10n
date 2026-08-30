@@ -60,7 +60,6 @@ numfmt-error-invalid-number = 无效数字：{ $input }
 numfmt-error-missing-i-suffix = 输入中缺少“i”后缀：“{ $number }{ $suffix }”（如 Ki/Mi/Gi）
 numfmt-error-rejecting-suffix = 拒绝输入中包含后缀：“{ $number }{ $suffix }”（考虑使用 --from）
 numfmt-error-suffix-unsupported-for-unit = 指定的单位不支持此后缀
-numfmt-error-unit-auto-not-supported-with-to = --to 选项不支持“auto”单位
 numfmt-error-number-too-big = 数值太大，不支持
 numfmt-error-format-no-percent = 格式 '{ $format }' 中没有 % 指令
 numfmt-error-format-ends-in-percent = 格式 '{ $format }' 以 % 结尾

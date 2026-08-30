@@ -51,14 +51,6 @@ pr-help-across =
                     a través de la página en orden round-robin (por ejemplo, cuando columna es 2, la
                     primera línea de entrada encabeza la columna 1, la segunda encabeza la columna 2,
                     la tercera es la segunda línea en la columna 1, y así sucesivamente).
-pr-help-column =
-    Producir salida multicolumna que se organiza en columna columnas
-                    (el predeterminado será 1) y se escribe hacia abajo en cada columna en el orden en que
-                    se recibe el texto del archivo de entrada. Esta opción no debe usarse con -m.
-                    Las opciones -e e -i se asumirán para salida de texto multicolumna. Si
-                    las columnas de texto se producen o no con longitudes verticales idénticas no se especifica,
-                    pero una columna de texto nunca debe exceder la longitud de la página (ver opción -l).
-                    Cuando se usa con -t, usar el número mínimo de líneas para escribir la salida.
 pr-help-column-char-separator =
     Separar columnas de texto por el carácter único char en lugar del
                     número apropiado de <space>s (predeterminado para char es el carácter <tab>).

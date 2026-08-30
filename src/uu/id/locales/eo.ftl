@@ -2,7 +2,6 @@ id-output-context = kunteksto
 id-usage = id [OPCIO]... [UZANTO]...
 id-error-cannot-get-context = ne povas akiri procezan kuntekston
 id-error-no-such-user = { $user }: uzanto ne ekzistas
-id-error-context-selinux-only = --context (-Z) nur funkcias sur kerno kun SELinux
 id-error-audit-retrieve = ne povas akiri informon
 id-help-human-readable = Eligi en home legebla maniero. Ĉiu ero estas en propra linio.
 id-output-groups = grupoj

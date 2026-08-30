@@ -62,7 +62,6 @@ numfmt-error-invalid-number = número no válido: { $input }
 numfmt-error-missing-i-suffix = falta sufijo 'i' en entrada: '{ $number }{ $suffix }' (ej. Ki/Mi/Gi)
 numfmt-error-rejecting-suffix = rechazando sufijo en entrada: '{ $number }{ $suffix }' (considere usar --from)
 numfmt-error-suffix-unsupported-for-unit = Este sufijo no es soportado para la unidad especificada
-numfmt-error-unit-auto-not-supported-with-to = Unidad 'auto' no es soportada con opciones --to
 numfmt-error-number-too-big = El número es demasiado grande y no soportado
 numfmt-error-format-no-percent = el formato '{ $format }' no tiene directiva %
 numfmt-error-format-ends-in-percent = el formato '{ $format }' termina en %

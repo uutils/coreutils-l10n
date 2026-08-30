@@ -29,7 +29,6 @@ ln-cannot-backup = não pode fazer backup de { $file }
 ln-failed-to-access = falha ao aceder { $file }
 ln-failed-to-create-hard-link = falha ao criar ligação física { $source } => { $dest }
 ln-backup = backup: { $backup }
-ln-error-cannot-stat = não pode fazer stat em { $path }: nenhum ficheiro ou diretório desses
 ln-after-help =
     Na primeira forma, cria uma ligação para DESTINO com o nome NOME_LIGAÇÃO.
     No segundo forma, cria uma ligação para DESTINO no diretório atual.

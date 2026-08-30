@@ -35,7 +35,6 @@ rm-help-verbose = explicar lo que se está haciendo
 rm-error-missing-operand =
     falta operando
     Pruebe '{ $util_name } --help' para más información.
-rm-error-invalid-interactive-argument = Argumento inválido para interactive ({ $arg })
 rm-error-cannot-remove-no-such-file = no se puede eliminar { $file }: No existe el archivo o directorio
 rm-error-cannot-remove-permission-denied = no se puede eliminar { $file }: Permiso denegado
 rm-error-cannot-remove-is-directory = no se puede eliminar { $file }: Es un directorio

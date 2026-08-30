@@ -10,4 +10,3 @@ tsort-error-loop = l'entrée contient une boucle :
 tsort-error-extra-operand =
     opérande supplémentaire { $operand }
     Essayez '{ $util } --help' pour plus d'informations.
-tsort-error-at-least-one-input = au moins une entrée

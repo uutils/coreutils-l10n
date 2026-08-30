@@ -50,14 +50,6 @@ pr-help-across =
                     na całej stronie w kolejności okrężnej (na przykład, gdy kolumna ma numer 2,
                     pierwszy wiersz wejściowy jest nagłówkiem kolumny 1, drugi nagłówkiem kolumny 2,
                     trzeci jest drugim wierszem w kolumnie 1 itd.).
-pr-help-column =
-    Generuje wielokolumnowy wynik, ułożony w kolumnach
-                    (domyślnie 1) i zapisany w każdej kolumnie w kolejności, w jakiej
-                    tekst jest pobierany z pliku wejściowego. Tej opcji nie należy używać z opcją -m.
-                    Opcje -e i -i należy przyjąć w przypadku wielokolumnowego wyniku tekstowego. To, czy
-                    kolumny tekstowe są generowane z identyczną długością pionową, nie jest określone,
-                    ale kolumna tekstowa nigdy nie powinna przekraczać długości strony (patrz opcja -l).
-                    W przypadku użycia z opcją -t, należy użyć minimalnej liczby wierszy do zapisania wyniku.
 pr-help-column-char-separator =
     Oddziela kolumny tekstu pojedynczym znakiem char zamiast
                     odpowiednią liczbą spacji (domyślnie dla znaku char jest to znak tabulatora).

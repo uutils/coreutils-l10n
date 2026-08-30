@@ -16,7 +16,6 @@ chroot-error-missing-newroot =
 chroot-error-no-group-specified = nie określono grupy dla nieznanego identyfikatora użytkownika: { $uid }
 chroot-error-no-such-user = nieprawidłowy użytkownik
 chroot-error-no-such-group = nieprawidłowa grupa
-chroot-error-no-such-directory = nie można zmienić katalogu roota na { $dir }: nie ma takiego katalogu
 chroot-error-set-gid-failed = nie można ustawić identyfikatora grupy na { $gid }: { $err }
 chroot-error-set-groups-failed = nie można ustawić grup: { $err }
 chroot-error-set-user-failed = nie można ustawić użytkownika na { $user }: { $err }
