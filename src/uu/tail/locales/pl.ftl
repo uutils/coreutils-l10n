@@ -2,10 +2,11 @@ tail-is-a-directory = Jest katalogiem
 tail-error-invalid-number-overflow = nieprawidłowa liczba: { $arg }
 tail-no-such-file-or-directory = Nie ma takiego pliku ani katalogu
 tail-about =
-    Wypisuje ostatnie 10 wierszy każdego pliku na standardowe wyjście. W przypadku
-    więcej niż jednego pliku, poprzedza każdy nagłówek z nazwą pliku. W przypadku
-    braku pliku lub gdy plik ma wartość -, odczytuje standardowe wejście.
-    Obowiązkowe argumenty długich flag są obowiązkowe również dla krótkich flag.
+    Wypisuje ostatnie 10 wierszy każdego PLIKU na standardowe wyjście. W przypadku
+    więcej niż jednego PLIKU poprzedza każdy nagłówek z nazwą pliku. W przypadku
+    braku PLIKU lub gdy PLIK ma wartość '-' odczytuje standardowe wejście.
+
+    Obowiązkowe argumenty długich opcji są obowiązkowe również dla krótkich opcji.
 tail-usage = tail [FLAGA]... [PLIK]...
 tail-help-bytes = Liczba bajtów do wypisania
 tail-help-follow = Wypisuje plik w miarę jego wzrostu
@@ -59,3 +60,7 @@ tail-giving-up-on-this-name = ; rezygnuje z tej nazwy
 tail-stdin-header = standardowe wejście
 tail-no-files-remaining = brak pozostałych plików
 tail-become-inaccessible = stał się niedostępny
+tail-help-debug = wskazuje, która implementacja --follow jest używana
+tail-status-replaced-with-untailable-symlink = { $file } został zastąpiony niemożliwym do śledzenia dowiązaniem symbolicznym
+tail-debug-using-notification-mode = korzystanie z trybu powiadomień
+tail-debug-using-polling-mode = korzystanie z trybu sondowania
