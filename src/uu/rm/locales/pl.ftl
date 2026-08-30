@@ -49,3 +49,7 @@ rm-error-may-not-abbreviate-no-preserve-root = nie można skracać opcji --no-pr
 rm-hint-dash-file =
     Wypróbuj '{ $util_name } ./{ $path }', aby usunąć plik { $file }.
     Zobacz '{ $util_name } --help', aby uzyskać więcej informacji.
+rm-error-skipping-different-device = pomijanie { $file }, ponieważ znajduje się na innym urządzeniu
+rm-error-and-preserve-root-all-in-effect = i argument --preserve-root=all jest aktywny
+rm-error-cannot-remove-changed = nie można usunąć pliku { $file }: plik został zmieniony podczas usuwania
+rm-error-standard-output = standardowe wyjście: { $error }
