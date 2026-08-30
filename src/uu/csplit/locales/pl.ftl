@@ -23,3 +23,7 @@ csplit-warning-line-number-same-as-previous = numer wiersza '{ $line_number }' j
 csplit-stream-not-utf8 = strumień nie zawierał prawidłowego kodu UTF-8
 csplit-read-error = błąd odczytu
 csplit-write-split-not-created = próba zapisu do podziału, który nie został utworzony
+csplit-diag-help-pattern = wzorzec to numer wiersza N, /WYR_REG/[PRZESUNIĘCIE] lub %WYR_REG%[PRZESUNIĘCIE], po którym opcjonalnie następuje { "{" }N{ "}" } lub { "{" }*{ "}" }
+csplit-diag-help-line-number = numery wierszy zaczynają się od 1 i nie mogą się zmniejszać od jednego wzoru do drugiego
+csplit-diag-help-digits = --digits przyjmuje liczbę cyfr w systemie dziesiętnym, np. -n 3
+csplit-diag-help-suffix-format = format sufiksu to jedna konwersja printf dla liczby całkowitej bez znaku, jak w %03u
