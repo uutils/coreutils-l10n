@@ -15,68 +15,53 @@ printf-after-help =
     Dosłownie, z wyjątkiem poniższych
     sekwencji znaków ze znakami ucieczki i sekwencji podstawiania opisanych dalej.
 
-    ### SEKWENCJE UCIECZKOWE
+    SEKWENCJE UCIECZKOWE
 
     Poniższe sekwencje UCIECZKOWE, uporządkowane alfabetycznie,
     wyświetlą odpowiedni literał znaku:
 
-    - \" cudzysłów
+      - \" cudzysłów
+      - \\ ukośnik odwrotny
+      - \\a znak alarmu (BEL)
+      - \\b backspace
+      - \\c koniec wprowadzania
+      - \\e escape
+      - \\f nowy formularz
+      - \\n nowy wiersz
+      - \\r powrót karetki
+      - \\t tabulator poziomy
+      - \\v tabulator pionowy
+      - \\NNN bajt o wartości wyrażonej w systemie ósemkowym NNN (od 1 do 3 cyfr) wartości większe niż 256 będą traktowane
+      - \\xHH bajt o wartości wyrażonej w systemie szesnastkowym NN (od 1 do 2 cyfr)
+      - \\uHHHH znak Unikodu (IEC 10646) o wartości wyrażonej w systemie szesnastkowym HHHH (4 cyfry)
+      - \\uHHHH znak Unikodu o wartości wyrażonej w systemie szesnastkowym HHHH (8 cyfr)
+      - %% pojedynczy %
 
-    - \\ ukośnik odwrotny
+    ZAMIANY
 
-    - \\a znak alarmu (BEL)
-
-    - \\b backspace
-
-    - \\c koniec wprowadzania
-
-    - \\e escape
-
-    - \\f nowy formularz
-
-    - \\n nowy wiersz
-
-    - \\r powrót karetki
-
-    - \\t tabulator poziomy
-
-    - \\v tabulator pionowy
-
-    - \\NNN bajt o wartości wyrażonej w systemie ósemkowym NNN (od 1 do 3 cyfr)
-              wartości większe niż 256 będą traktowane
-
-    - \\xHH bajt o wartości wyrażonej w systemie szesnastkowym NN (od 1 do 2 cyfr)
-
-    - \\uHHHH znak Unikodu (IEC 10646) o wartości wyrażonej w systemie szesnastkowym HHHH (4 cyfry)
-
-    - \\uHHHH znak Unikodu o wartości wyrażonej w systemie szesnastkowym HHHH (8 cyfr)
-
-    - %% pojedynczy %
-
-    ### ZAMIANY
-
-    #### KRÓTKI PRZEWODNIK PO ZAMIANACH
+    KRÓTKI PRZEWODNIK PO ZAMIANACH
 
     Pola
 
-    - %s: ciąg znaków
-    - %b: ciąg znaków analizowany pod kątem literałów, drugi parametr ma maksymalną długość
+      - %s: ciąg znaków
+      - %b: ciąg znaków analizowany pod kątem literałów, drugi parametr ma maksymalną długość
 
-    - %c: znak, brak drugiego parametru
+      - %c: znak, brak drugiego parametru
 
-    - %i lub %d: 64-bitowa liczba całkowita
-    - %u: 64-bitowa liczba całkowita bez znaku
-    - %x lub %X: 64-bitowa liczba całkowita bez znaku w formacie szesnastkowym
-    - %o: liczba całkowita bez znaku jako drugi parametr ósemkowy
+      - %i lub %d: 64-bitowa liczba całkowita
+      - %u: 64-bitowa liczba całkowita bez znaku
+      - %x lub %X: 64-bitowa liczba całkowita bez znaku w formacie szesnastkowym
+      - %o: liczba całkowita bez znaku jako drugi parametr ósemkowy
+
                 ma minimalną szerokość, a wyjście liczby całkowitej
                 poniżej tej szerokości jest uzupełniane wiodącymi zerami.
 
-    - %q: ARGUMENT jest wyświetlany w formacie, który można ponownie wykorzystać jako dane wejściowe powłoki,
-                z użyciem znaków niedrukowalnych z proponowaną składnią POSIX $''.
+    
+      - %q: ARGUMENT jest wyświetlany w formacie, który można ponownie wykorzystać jako dane wejściowe powłoki, z użyciem znaków niedrukowalnych z proponowaną składnią POSIX $''.
+      - %f lub %F: wartość zmiennoprzecinkowa w notacji dziesiętnej
+      - %e lub %E: wartość zmiennoprzecinkowa w notacji naukowej
+      - %g lub %G: krótsza ze specjalnie interpretowanych wartości dziesiętnych lub zmiennoprzecinkowych noty naukowej.
 
-    - %f lub %F: wartość zmiennoprzecinkowa w notacji dziesiętnej
-    - %e lub %E: wartość zmiennoprzecinkowa w notacji naukowej
-    - %g lub %G: krótsza ze specjalnie interpretowanych wartości dziesiętnych lub zmiennoprzecinkowych noty naukowej.
                 drugi parametr to
                   -maksymalna liczba miejsc po przecinku dla wyników zmiennoprzecinkowych
                   -maksymalna liczba cyfr znaczących dla wyników w notacji naukowej
@@ -107,11 +92,11 @@ printf-after-help =
 
     specjalnych prefiksów argumentów numerycznych
 
-    - 0: (np. 010) interpretuj argument jako liczbę ósemkową (tylko pola wyjściowe liczb całkowitych)
-    - 0x: (np. 0xABC) interpretuj argument jako liczbę szesnastkową (tylko pola wyjściowe liczb)
-    - \': (np. \'a) interpretuj argument jako stałą znakową
+      - 0: (np. 010) interpretuj argument jako liczbę ósemkową (tylko pola wyjściowe liczb całkowitych)
+      - 0x: (np. 0xABC) interpretuj argument jako liczbę szesnastkową (tylko pola wyjściowe liczb)
+      - \': (np. \'a) interpretuj argument jako stałą znakową
 
-    #### JAK UŻYWAĆ ZAMIAN
+    JAK UŻYWAĆ ZAMIAN
 
     Zastąpienia służą do przekazywania dodatkowych argumentów do ciągu FORMAT, aby sformatować go
     w określony sposób. Na przykład:
@@ -130,66 +115,62 @@ printf-after-help =
 
     printf 'wynosi %i F w %s \n' 22 Portland 25 Boston 27 Nowy Jork
 
-    wyświetlo
+    wyświetli
 
-    wynosi 22 F w Portland
-    wynosi 25 F w Bostonie
-    wynosi 27 F w Bostonie
+        wynosi 22 F w Portland
+        wynosi 25 F w Bostonie
+        wynosi 27 F w Bostonie
 
     Jeśli wświetlony zostanie ciąg formatujący, ale pozostało mniej argumentów
     niż liczba pól podstawień, pola podstawień bez argumentu będą domyślnie
     pustymi ciągami lub, w przypadku pól numerycznych,
     wartością 0
 
-    #### DOSTĘPNE ZAMIANY
+    DOSTĘPNE ZAMIANY
 
     Ten program, podobnie jak GNU coreutils printf,
     interpretuje zmodyfikowany podzbiór specyfikacji printf POSIX C,
     krótki przewodnik po podstawieniach znajduje się poniżej.
 
-    #### ZAMIANY NAPISÓW
+    ZAMIANY NAPISÓW
 
     Wszystkie pola napisów mają parametr „maksymalna szerokość”.
     %.3s oznacza „wyświetl nie więcej niż trzy znaki oryginalnego wejścia”.
 
     - %s: napis
 
-    - %b: ciąg znaków z ukośnikiem – ciąg znaków zostanie sprawdzony pod kątem wszelkich literałów z ukośnikiem z
-          powyższej listy literałów z ukośnikiem i przetłumaczony na znaki literału.
-          np. \\n zostanie przekształcony w znak nowej linii.
-          Jedną ze specjalnych zasad dotyczących trybu %b jest to, że literały ósemkowe są interpretowane inaczej.
-          W argumentach przekazywanych przez %b, przekazywane literały interpretowane ósemkowo muszą mieć postać \\0NNN
-          zamiast \\NNN. (Chociaż ze względu na przestarzałe systemy, literały ósemkowe w postaci \\NNN
-          nadal będą interpretowane i nie będą zgłaszać ostrzeżenia, użycie tego w przypadku
-          literału, którego kod zaczyna się od zera, będzie problematyczne, ponieważ będzie on wyświetlany jako w postaci \\0NNN.)
+    - %b: ciąg znaków z ukośnikiem – ciąg znaków zostanie sprawdzony pod kątem wszelkich literałów
+    z ukośnikiem z powyższej listy literałów z ukośnikiem i przetłumaczony na znaki literału,
+    np. \\n zostanie przekształcony w znak nowej linii.
+    Jedną ze specjalnych zasad dotyczących trybu %b jest to, że literały ósemkowe są interpretowane inaczej.
+    W argumentach przekazywanych przez %b, przekazywane literały interpretowane ósemkowo muszą mieć postać \\0NNN
+    zamiast \\NNN. (Chociaż ze względu na przestarzałe systemy, literały ósemkowe w postaci \\NNN
+    nadal będą interpretowane i nie będą zgłaszać ostrzeżenia, użycie tego w przypadku
+    literału, którego kod zaczyna się od zera, będzie problematyczne, ponieważ będzie on wyświetlany jako w postaci \\0NNN.)
 
-    - %q: ciąg ze znakami ucieczki – ciąg w formacie, który może być ponownie użyty jako dane wejściowe przez większość powłok.
-          Znaki niedrukowalne są zamieniane na znaki ucieczki za pomocą proponowanej przez POSIX składni „$”,
-          a metaznaki powłoki są odpowiednio cytowane.
-          Jest to format równoważny z wyjściem ls --quoting=shell-escape.
+    - %q: ciąg ze znakami ucieczki – ciąg w formacie, który może być ponownie użyty jako dane wejściowe przez
+    większość powłok. Znaki niedrukowalne są zamieniane na znaki ucieczki za pomocą proponowanej przez
+    POSIX składni „$”, a metaznaki powłoki są odpowiednio cytowane.
+    Jest to format równoważny z wyjściem ls --quoting=shell-escape.
 
-    #### ZAMIANA ZNAKÓW
+    ZAMIANA ZNAKÓW
 
     Pole znakowe nie ma parametru drugorzędnego.
 
-    - %c: pojedynczy znak
+      - %c: pojedynczy znak
 
-    #### ZAMIANY LICZB CAŁKOWITYCH
+    ZAMIANY LICZB CAŁKOWITYCH
 
     Wszystkie pola liczb całkowitych mają parametr „uzupełnienia zerami”.
     %.4i oznacza liczbę całkowitą, która, jeśli ma mniej niż 4 cyfry,
     jest uzupełniana zerami wiodącymi do 4 cyfr.
 
-    - %d lub %i: 64-bitowa liczba całkowita
+      - %d lub %i: 64-bitowa liczba całkowita
+      - %u: 64-bitowa liczba całkowita bez znaku
+      - %x lub %X: 64-bitowa liczba całkowita bez znaku wyświetlona w systemie szesnastkowym (o podstawie 16) %X zamiast %x oznacza użycie wielkich liter dla liczb od „a” do „f”
+      - %o: 64-bitowa liczba całkowita bez znaku wyświetlona w systemie ósemkowym (o podstawie 8)
 
-    - %u: 64-bitowa liczba całkowita bez znaku
-
-    - %x lub %X: 64-bitowa liczba całkowita bez znaku wyświetlona w systemie szesnastkowym (o podstawie 16)
-                %X zamiast %x oznacza użycie wielkich liter dla liczb od „a” do „f”
-
-    - %o: 64-bitowa liczba całkowita bez znaku wyświetlona w systemie ósemkowym (o podstawie 8)
-
-    #### ZAMIANY W LICZBACH ZMIENNOPRZECIWPRZECIWNYCH
+    ZAMIANY W LICZBACH ZMIENNOPRZECIWPRZECIWNYCH
 
     Wszystkie pola zmiennoprzecinkowe mają parametr „maksymalna liczba miejsc dziesiętnych / maksymalna liczba cyfr znaczących”
     %.10f oznacza liczbę dziesiętną zmiennoprzecinkową z 7 miejscami po 0
@@ -203,26 +184,27 @@ printf-after-help =
     więcej, można spodziewać się różnic w wynikach między printf GNU coreutils a tym printf na poziomie
     18. miejsca po przecinku +/- 1
 
-    - %f: wartość zmiennoprzecinkowa prezentowana w systemie dziesiętnym, obcięta i wyświetlona domyślnie do 6 miejsc po przecinku.
-          W printf coreutils nie ma parzystości w przypadku funkcji past-double, wartości nie są
-          szacowane ani dostosowywane poza wartościami wejściowymi.
+    - %f: wartość zmiennoprzecinkowa prezentowana w systemie dziesiętnym, obcięta i wyświetlona domyślnie do
+    6 miejsc po przecinku. W printf coreutils nie ma parzystości w przypadku funkcji past-double, wartości nie są
+    szacowane ani dostosowywane poza wartościami wejściowymi.
 
-    - %e lub %E: wartość zmiennoprzecinkowa prezentowana w notacji naukowej
-                domyślnie 7 cyfr znaczących
-                %E oznacza użycie wielkiej litery E dla mantysy.
+    - %e lub %E: wartość zmiennoprzecinkowa prezentowana w notacji naukowej domyślnie
+    7 cyfr znaczących
+    %E oznacza użycie wielkiej litery E dla mantysy.
 
     - %g lub %G: wartość zmiennoprzecinkowa prezentowana w najkrótszej z notacji dziesiętnej i naukowej.
-          Zachowuje się inaczej niż %f i %E. Szczegółowe informacje można znaleźć w specyfikacji printf POSIX.
-          Przykłady innego zachowania:
-          Notacja naukowa domyślnie ma 6 cyfr znaczących.
-          Zera końcowe są usuwane.
-          Zamiast obcinać, cyfra po ostatniej jest zaokrąglana.
+    Zachowuje się inaczej niż %f i %E. Szczegółowe informacje można znaleźć w specyfikacji printf POSIX.
+    Przykłady innego zachowania:
+
+      - Notacja naukowa domyślnie ma 6 cyfr znaczących.
+      - Zera końcowe są usuwane.
+      - Zamiast obcinać, cyfra po ostatniej jest zaokrąglana.
 
     Podobnie jak w przypadku innych zachowań w tym narzędziu, wybór projektu dla funkcji zmiennoprzecinkowych
     w tym narzędziu został dobrany tak, aby dokładnie
     odwzorowywać zachowanie printf GNU coreutils z punktu widzenia danych wejściowych i wyjściowych.
 
-    ### UŻYWANIE PARAMETRÓW
+    UŻYWANIE PARAMETRÓW
 
     Większość pól podstawienia można sparametryzować, używając maksymalnie 2 liczb, które
     można przekazać do pola, między znakiem % a literą pola.
@@ -233,7 +215,7 @@ printf-after-help =
     Drugi parametr jest poprzedzony kropką.
     Nie musisz używać parametrów.
 
-    ### SPECJALNE FORMY WEJŚCIA
+    SPECJALNE FORMY WEJŚCIA
 
     W przypadku danych numerycznych, oprócz dziesiętnych, akceptowane są następujące dodatkowe formy danych:
 
@@ -253,3 +235,6 @@ printf-error-missing-operand = brak operandu
 printf-warning-ignoring-excess-arguments = ignorowanie nadmiarowego argumentu, zaczynanie od { $arg }
 printf-help-version = Wypisuje informacje dotyczące wersji
 printf-help-help = Wypisuje informacje dotyczące pomocy
+printf-diag-help-spec = Akceptowane są %d, %s, %x, %f i inne konwersje C, a także %b i %q; dosłowny znak % należy zapisać jako %%
+printf-diag-help-escape-hex = \x przyjmuje jedną lub dwie cyfry szesnastkowe, \u przyjmuje cztery, a \U przyjmuje osiem
+printf-diag-help-unicode = punkty kodowe pomiędzy D800 i DFFF lub powyżej 10FFFF nie są znakami Unicode
