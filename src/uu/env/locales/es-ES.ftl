@@ -18,11 +18,13 @@ env-help-list-signal-handling = listar los cambios en el manejo de señales soli
 
 # Error messages
 env-error-missing-closing-quote = no hay comilla terminante en cadena -S en posición { $position } para comilla '{ $quote }'
-env-error-invalid-backslash-at-end = barra invertida inválida al final de cadena en -S en posición { $position }
+env-error-invalid-backslash-at-end = barra invertida inválida al final de cadena en -S en posición { $position } en el contexto { $context }
 env-error-backslash-c-not-allowed = '\c' no debe aparecer en cadena -S con comillas dobles en posición { $position }
 env-error-invalid-sequence = secuencia inválida '\{ $char }' en -S en posición { $position }
 env-error-missing-closing-brace = Falta llave de cierre en posición { $position }
 env-error-missing-variable = Falta nombre de variable en posición { $position }
+env-error-only-braced-variable = solo se admite la expansión ${VARNAME} en la posición { $position }
+env-error-only-braced-variable-at = solo se admite la expansión {"${VARNAME}"}, error en: { $rest }
 env-error-unexpected-number = Carácter inesperado: '{ $char }', el nombre de variable esperado no debe comenzar con 0..9 en posición { $position }
 env-error-cannot-specify-null-with-command = no se puede especificar --null (-0) con comando
 env-error-invalid-signal = { $signal }: señal inválida
@@ -38,3 +40,10 @@ env-error-failed-set-signal-action = falló al establecer acción de señal para
 
 # Warning messages
 env-warning-no-name-specified = no se especificó nombre para valor { $value }
+env-diag-label-variable-digit = un nombre de variable no puede empezar por un dígito
+env-diag-label-missing-brace = esta {"{"} nunca se cierra
+env-diag-help-quoting = -S entrecomilla como lo hace el intérprete de órdenes: ' y " van en pares, y \' escapa una comilla
+env-diag-help-backslash = una barra invertida escapa el carácter que la sigue, por lo que no puede terminar la cadena
+env-diag-help-backslash-c = \c termina la cadena -S, y no tiene significado dentro de comillas dobles
+env-diag-help-escape = -S entiende \r, \n, \t, \f, \v, \_, \#, \$, \" y \c
+env-diag-help-variable = solo se expanden $NAME y ${"{"}NAME{"}"}; las demás formas del intérprete de órdenes no

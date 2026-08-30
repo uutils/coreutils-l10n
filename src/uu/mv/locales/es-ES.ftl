@@ -32,11 +32,14 @@ mv-error-backup-might-destroy-source = respaldar { $target } podría destruir or
 mv-error-will-not-overwrite-just-created = no sobreescribirá el recién creado { $target } con { $source }
 mv-error-not-replacing = no reemplazando { $target }
 mv-error-cannot-move = no se puede mover { $source } a { $target }
+mv-error-cannot-overwrite-non-empty-directory = no se puede sobrescribir {$target}
 mv-error-directory-not-empty = Directorio no vacío
 mv-error-dangling-symlink = no se puede determinar el tipo de enlace simbólico, ya que está colgante
 mv-error-no-symlink-support = su sistema operativo no soporta enlaces simbólicos
 mv-error-permission-denied = Permiso denegado
 mv-error-inter-device-move-failed = falló movimiento entre dispositivos: '{ $from }' a '{ $to }'; no se puede eliminar destino: { $err }
+mv-error-exchange-two-operands = --exchange requiere exactamente dos operandos
+mv-error-exchange-not-supported = --exchange no se admite en esta plataforma
 # Help messages
 mv-help-force = no avisar antes de sobreescribir
 mv-help-interactive = avisar antes de anular
@@ -49,15 +52,19 @@ mv-help-progress =
     Mostrar una barra de progreso.
     Nota: esta característica no está soportada por GNU coreutils.
 mv-help-debug = explicar cómo se copia un archivo. Implica -v
+mv-help-exchange = intercambiar origen y destino (permutarlos atómicamente)
 # Verbose messages
 mv-verbose-renamed = renombrado { $from } -> { $to }
 mv-verbose-renamed-with-backup = renombrado { $from } -> { $to } (respaldo: { $backup })
+mv-verbose-exchanged = intercambiado {$from} <-> {$to}
 # Debug messages
 mv-debug-skipped = omitido { $target }
 # Prompt messages
 mv-prompt-overwrite = ¿sobreescribir { $target }?
+mv-prompt-overwrite-mode = ¿reemplazar {$target}, anulando el modo {$mode_info}?
 # Progress messages
 mv-progress-moving = moviendo
+mv-error-dest-appeared = el destino { $path } fue reemplazado durante el traslado; se rehúsa seguirlo
 mv-error-insufficient-arguments = El argumento «<{ $arg_files }>...» requiere al menos 2 valores, pero solo se proporcionó 1
 mv-help-selinux = establecer contexto de seguridad SELinux del archivo destino al tipo predeterminado
 mv-help-context = como -Z, o si CTX está especificado entonces establezca el contexto de seguridad SELinux a CTX

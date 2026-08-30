@@ -1,8 +1,13 @@
 ls-about =
     Listar contenido de directorios.
     Ignorar archivos y directorios que empiecen por '.' de forma predeterminada
+dir-about = Listar contenido de directorios.
+  Ignorar archivos y directorios que empiecen por '.' de forma predeterminada
+vdir-about = Listar contenido de directorios.
+  Ignorar archivos y directorios que empiecen por '.' de forma predeterminada
 ls-usage = ls [OPCIÓN]... [ARCHIVO]...
 ls-after-help = El argumento TIME_STYLE puede ser full-iso, long-iso, iso, locale o +FORMATO. FORMATO se interpreta como en date. También la variable de entorno TIME_STYLE establece el estilo predeterminado a usar.
+ls-error-invalid-tab-size = tamaño de tabulación no válido: {$size}
 # Error messages
 ls-error-invalid-line-width = ancho de línea inválido: { $width }
 ls-error-general-io = error de E/S general: { $error }
@@ -138,8 +143,15 @@ ls-invalid-columns-width = ignorando ancho inválido en variable de entorno COLU
 ls-invalid-ignore-pattern = Patrón inválido para ignore: { $pattern }
 ls-invalid-hide-pattern = Patrón inválido para hide: { $pattern }
 ls-total = total { $size }
+ls-warning-failed-to-get-security-context = no se pudo obtener el contexto de seguridad de: {$path}
+ls-warning-getting-security-context = obteniendo el contexto de seguridad de: {$path}: {$error}
+smack-error-not-enabled = SMACK no está habilitado en este sistema
+smack-error-label-retrieval-failure = no se pudo obtener la etiqueta SMACK: { $error }
+smack-error-label-set-failure = no se pudo establecer la etiqueta SMACK en '{ $context }': { $error }
+smack-error-no-label-set = no hay ninguna etiqueta SMACK establecida
 ls-help-unsorted-all = Listado de todos los archivos dentro del directorio ordenado, no ordenado. Equivalente a -aU. Inhabilita --color a no ser que se especifique explícitamente.
 ls-error-not-directory = no se pudo acceder a { $path }: No es un directorio
 ls-warning-unrecognized-ls-colors-prefix = prefijo no reconocido: { $prefix }
+ls-warning-unparsable-ls-colors = valor no analizable para la variable de entorno LS_COLORS
 dir-usage = dir [OPCIÓN]... [ARCHIVO]...
 vdir-usage = vdir [OPCIÓN]... [ARCHIVO]...

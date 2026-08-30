@@ -7,6 +7,7 @@ common-tip = consejo
 common-usage = Modo de uso
 common-help = ayuda
 common-version = versión
+common-write-error = error de escritura
 
 # Mensajes de error clap comunes
 clap-error-unexpected-argument = { $error_word }: argumento inesperado '{ $arg }' encontrado
@@ -28,6 +29,7 @@ help-flag-version = Mostrar información de versión
 error-io = Error de E/S
 error-permission-denied = Permiso denegado
 error-file-not-found = No existe el archivo o directorio
+error-no-such-process = No existe el proceso
 error-invalid-argument = Argumento inválido
 error-is-a-directory = { $file }: Es un directorio
 
@@ -84,3 +86,8 @@ checksum-error-algo-bad-format = { $file }: { $line }: línea de suma de verific
 # Mensajes de ejemplos tldr de uudoc
 uudoc-tldr-attribution = Los ejemplos son proporcionados por el [proyecto tldr-pages](https://tldr.sh) bajo la [Licencia CC BY 4.0](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md).
 uudoc-tldr-disclaimer = Tenga en cuenta que, como uutils está en desarrollo, algunos ejemplos pueden fallar.
+mode-error-unexpected-end = fin inesperado del modo
+mode-error-invalid-operator = operador no válido (se esperaba +, - o =, pero se encontró { $operator })
+mode-diag-label-missing-operator = esta cláusula dice quién, pero no qué cambiar
+mode-diag-label-invalid-number = no es un modo octal
+mode-diag-help-syntax = un modo es octal, como 644, o cláusulas como u+rwx,go-w

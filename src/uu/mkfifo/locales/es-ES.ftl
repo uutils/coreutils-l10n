@@ -6,6 +6,6 @@ mkfifo-help-selinux = establecer el contexto de seguridad SELinux al tipo predet
 mkfifo-help-context = como -Z, o si se especifica CTX entonces establecer el contexto de seguridad SELinux o SMACK a CTX
 # Error messages
 mkfifo-error-invalid-mode = modo no válido: { $error }
-mkfifo-error-cannot-create-fifo = no se puede crear fifo { $path }: El archivo existe
+mkfifo-error-cannot-create-fifo = no se puede crear fifo { $path }: { $error }
 mkfifo-error-cannot-set-permissions = no se pueden establecer permisos en { $path }: { $error }
-mkfifo-error-non-file-permission = el modo debe de especificar solo los bits de permiso
+mkfifo-error-non-file-permission = el modo debe especificar solo los bits de permiso de archivo

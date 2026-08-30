@@ -27,3 +27,7 @@ csplit-warning-line-number-same-as-previous = el número de línea '{ $line_numb
 csplit-stream-not-utf8 = el flujo no contenía UTF-8 válido
 csplit-read-error = error de lectura
 csplit-write-split-not-created = intentando escribir en una división que no fue creada
+csplit-diag-help-pattern = un patrón es un número de línea N, /REGEXP/[DESPLAZAMIENTO] o %REGEXP%[DESPLAZAMIENTO], cada uno seguido opcionalmente de { "{" }N{ "}" } o { "{" }*{ "}" }
+csplit-diag-help-line-number = los números de línea empiezan en 1 y no deben decrecer de un patrón al siguiente
+csplit-diag-help-digits = --digits toma un número decimal de dígitos, como en -n 3
+csplit-diag-help-suffix-format = un formato de sufijo es una conversión printf para un entero sin signo, como en %03u

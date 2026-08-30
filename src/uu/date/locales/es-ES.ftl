@@ -105,3 +105,8 @@ date-help-resolution =
     salida de resolución de sellos horarios disponibles
     Ejemplo: 0.000000001
 date-error-extra-operand = operando adicional '{ $operand }'
+date-error-write = error de escritura: {$error}
+date-error-format-modifier-width-too-large = la anchura del modificador de formato '{$width}' es demasiado grande para el especificador '%{$specifier}'
+date-error-format-missing-plus = al argumento {$arg} le falta un '+' inicial;
+  al usar una opción para especificar fecha(s), todo argumento que no sea
+  una opción debe ser una cadena de formato que empiece por '+'

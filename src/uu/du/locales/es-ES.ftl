@@ -71,6 +71,7 @@ du-error-printing-thread-panicked = El hilo de impresión entró en pánico.
 du-error-invalid-suffix = sufijo inválido en argumento --{ $option } { $value }
 du-error-invalid-argument = argumento --{ $option } inválido { $value }
 du-error-argument-too-large = argumento --{ $option } { $value } demasiado grande
+du-error-hyphen-file-name-not-allowed = al leer nombres de archivo de la entrada estándar, no se permite el nombre de archivo '-'
 du-verbose-ignored = { $path } ignorado
 du-verbose-adding-to-exclude-list = agregando { $pattern } a la lista de exclusión
 du-total = total

@@ -16,6 +16,7 @@ comm-help-zero-terminated = el delimitador de línea es NUL, no nueva línea
 comm-help-total = mostrar un resumen
 comm-help-check-order = verificar que la entrada esté correctamente ordenada, incluso si todas las líneas de entrada son emparejables
 comm-help-no-check-order = no verificar que la entrada esté correctamente ordenada
+comm-error-write = error de escritura
 
 # Error messages
 comm-error-file-not-sorted = comm: archivo { $file_num } no está en orden ordenado

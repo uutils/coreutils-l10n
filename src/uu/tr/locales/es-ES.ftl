@@ -25,6 +25,7 @@ tr-warning-unescaped-backslash = advertencia: una barra invertida sin escape al 
 tr-warning-ambiguous-octal-escape = el escape octal ambiguo \{ $origin_octal } está siendo interpretado como la secuencia de 2 bytes \0{ $actual_octal_tail }, { $outstand_char }
 # Sequence parsing error messages
 tr-error-missing-char-class-name = falta nombre de clase de carácter '[::]'
+tr-error-invalid-char-class = clase de caracteres no válida { $class }
 tr-error-missing-equivalence-class-char = falta carácter de clase de equivalencia '[==]'
 tr-error-multiple-char-repeat-in-set2 = solo una construcción de repetición [c*] puede aparecer en string2
 tr-error-char-repeat-in-set1 = la construcción de repetición [c*] no puede aparecer en string1
@@ -40,4 +41,11 @@ tr-error-complement-more-than-one-unique =
     string2 debe mapear todos los caracteres en el dominio a uno
 tr-error-backwards-range = los puntos finales del rango '{ $start }-{ $end }' están en orden de secuencia de intercalación inversa
 tr-error-multiple-char-in-equivalence = { $chars }: el operando de clase de equivalencia debe ser un solo carácter
+tr-diag-label-backwards-range = ¿quiso decir '{ $suggestion }'?
+tr-diag-label-set1-longer-set2-ends-in-class = este conjunto es más largo que CONJUNTO2
+tr-diag-label-complement-more-than-one-unique = solo se puede complementar hacia un carácter
+tr-diag-help-char-class = las clases son alnum, alpha, blank, cntrl, digit, graph, lower, print, punct, space, upper y xdigit
+tr-diag-help-equivalence = [=c=] representa todo carácter equivalente a c
+tr-diag-help-repeat = [c*N] repite c N veces, [c*] rellena CONJUNTO2 hasta la longitud de CONJUNTO1
+tr-diag-help-backwards-range = un rango va del carácter menor al mayor, como en a-z
 tr-warning-invalid-utf8 = secuencia utf8 inválida

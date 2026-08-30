@@ -35,13 +35,21 @@ rm-help-verbose = explicar lo que se está haciendo
 rm-error-missing-operand =
     falta operando
     Pruebe '{ $util_name } --help' para más información.
+rm-hint-dash-file = Pruebe '{$util_name} ./{$path}' para eliminar el archivo {$file}.
+  Pruebe '{$util_name} --help' para más información.
 rm-error-cannot-remove-no-such-file = no se puede eliminar { $file }: No existe el archivo o directorio
 rm-error-cannot-remove-permission-denied = no se puede eliminar { $file }: Permiso denegado
 rm-error-cannot-remove-is-directory = no se puede eliminar { $file }: Es un directorio
 rm-error-dangerous-recursive-operation = es peligroso operar recursivamente en '/'
+rm-error-dangerous-recursive-operation-same-as-root = es peligroso operar recursivamente en '{$path}' (igual que '/')
 rm-error-use-no-preserve-root = use --no-preserve-root para anular esta protección
 rm-error-refusing-to-remove-directory = rehusando eliminar directorio '.' o '..': omitiendo { $path }
+rm-error-skipping-different-device = se omite {$file}, ya que está en un dispositivo distinto
+rm-error-and-preserve-root-all-in-effect = y --preserve-root=all está en vigor
 rm-error-cannot-remove = no se puede eliminar { $file }
+rm-error-cannot-remove-changed = no se puede eliminar {$file}: El archivo cambió durante la eliminación
+rm-error-may-not-abbreviate-no-preserve-root = no puede abreviar la opción --no-preserve-root
+rm-error-standard-output = salida estándar: {$error}
 # Verbose messages
 rm-verbose-removed = eliminado { $file }
 rm-verbose-removed-directory = eliminado directorio { $file }

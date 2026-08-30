@@ -27,6 +27,9 @@ pr-help-omit-header =
     No escribir ni el encabezado identificador de cinco líneas ni el remolque de cinco líneas
                     usualmente suministrado para cada página. Dejar de escribir después de la última línea
                      de cada archivo sin espaciar hasta el final de la página.
+pr-help-omit-pagination =
+  omitir cabeceras y pies de página, eliminar cualquier paginación
+                  por saltos de página definidos en los archivos de entrada
 pr-help-page-length =
     Sobrescribir el predeterminado de 66 líneas (número predeterminado de líneas de texto 56,
                     y con -F 63) y restablecer la longitud de página a líneas. Si líneas no es
@@ -51,6 +54,15 @@ pr-help-across =
                     a través de la página en orden round-robin (por ejemplo, cuando columna es 2, la
                     primera línea de entrada encabeza la columna 1, la segunda encabeza la columna 2,
                     la tercera es la segunda línea en la columna 1, y así sucesivamente).
+pr-help-columns =
+  Producir salida en varias columnas dispuesta en «columna» columnas
+                  (el valor predeterminado es 1) y escrita a lo largo de cada columna en el orden
+                  en que se recibe el texto del archivo de entrada. Esta opción no debería usarse
+                  con -m. Se asumirán las opciones -e e -i para la salida de texto en varias
+                  columnas. No se especifica si las columnas de texto se producen con longitudes
+                  verticales idénticas, pero una columna de texto nunca excederá la longitud de la
+                  página (véase la opción -l). Cuando se usa con -t, usar el número mínimo de
+                  líneas para escribir la salida.
 pr-help-column-char-separator =
     Separar columnas de texto por el carácter único char en lugar del
                     número apropiado de <space>s (predeterminado para char es el carácter <tab>).
@@ -70,9 +82,11 @@ pr-help-indent =
 pr-help-join-lines =
     combinar líneas completas, desactiva truncamiento de línea -W, sin
                     alineación de columna, --sep-string[=STRING] establece separadores
+pr-help-expand-tabs = expandir los CARACTERES de entrada (TABULADORES) a la ANCHURA de tabulación (8)
 pr-help-help = Imprimir información de ayuda
 # Page header text
 pr-page = Página
+pr-try-help-message = Pruebe 'pr --help' para más información.
 # Error messages
 pr-error-reading-input = pr: Leer de entrada { $file } dio error
 pr-error-unknown-filetype = pr: { $file }: tipo de archivo desconocido
@@ -82,4 +96,7 @@ pr-error-no-such-file = pr: no se puede abrir { $file }, No existe el archivo o 
 pr-error-column-merge-conflict = no se puede especificar número de columnas al imprimir en paralelo
 pr-error-across-merge-conflict = no se puede especificar tanto impresión cruzada como impresión en paralelo
 pr-error-invalid-pages-range = argumento --pages inválido '{ $start }:{ $end }'
+pr-error-starting-page-exceeds-page-count = el número de página inicial {$start} excede el número de páginas {$count}
+pr-error-invalid-expand-tab-argument ='-e' caracteres de más o número no válido en el argumento: ‘{$arg}’
+pr-error-invalid-number-argument ='-n' caracteres de más o número no válido en el argumento: ‘{$arg}’
 pr-help-date-format = Utilice el FORMATO 'date'-stile para la fecha de cabecera.

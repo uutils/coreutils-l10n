@@ -136,9 +136,8 @@ dd-error-multiple-format-table = Solo se puede especificar uno de conv=ascii con
 dd-error-multiple-case = Solo se puede especificar uno de conv=lcase o conv=ucase
 dd-error-multiple-block = Solo se puede especificar uno de conv=block o conv=unblock
 dd-error-multiple-excl = Solo se puede especificar uno de conv=excl o conv=nocreat
-dd-error-invalid-flag =
-    bandera de entrada no válida: '{ $flag }'
-    Pruebe '{ $cmd } --help' para más información.
+dd-error-invalid-flag = bandera de entrada no válida: '{ $flag }'
+dd-error-invalid-output-flag = bandera de salida no válida: '{ $flag }'
 dd-error-conv-flag-no-match = conv=CONV no reconocido -> { $flag }
 dd-error-multiplier-parse-failure = número no válido: '{ $input }'
 dd-error-multiplier-overflow = La cadena multiplicadora desbordaría en el sistema actual -> { $input }
@@ -162,6 +161,15 @@ dd-progress-bytes-copied-si-iec = { $bytes } bytes ({ $si }, { $iec }) copiados,
 # Warnings
 dd-warning-zero-multiplier = { $zero } es un multiplicador cero; use { $alternative } si eso es lo que se pretende
 dd-warning-signal-handler = Advertencia interna de dd: No se puede registrar el manejador de señales
+dd-diag-help-operand = un operando es CLAVE=VALOR, como en if=archivo bs=4k count=10
+dd-diag-label-conv = no es una conversión conocida
+dd-diag-label-iflag = no es una bandera de entrada conocida
+dd-diag-label-oflag = no es una bandera de salida conocida
+dd-diag-help-conv = conv= es uno de ascii, ebcdic, ibm, lcase, ucase, block, unblock, swab, sync, noerror, sparse, excl, nocreat, notrunc, fdatasync o fsync
+dd-diag-help-iflag = iflag= es uno de direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, fullblock, count_bytes o skip_bytes
+dd-diag-help-oflag = oflag= es uno de direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, append o seek_bytes
+dd-diag-help-status = status= es uno de none, noxfer o progress
+dd-diag-help-number = un número puede ir seguido de un multiplicador: c, w, b, luego K, M, G y demás para 1024, kB, MB, GB para 1000
 dd-standard-input = 'entrada estándar'
 dd-standard-output = 'salida estándar'
 dd-error-failed-discard-cache = falló al descartar el cache de: { $file }

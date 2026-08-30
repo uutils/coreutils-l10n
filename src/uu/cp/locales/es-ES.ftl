@@ -82,16 +82,21 @@ cp-error-reflink-not-supported = --reflink solo está soportado en linux y macOS
 cp-error-sparse-not-supported = --sparse solo está soportado en linux
 cp-error-not-a-directory = { $path } no es un directorio
 cp-error-selinux-not-enabled = ¡SELinux no fue habilitado durante el tiempo de compilación!
-cp-error-selinux-set-context = falló al establecer el contexto de seguridad de { $path }: { $error }
+cp-error-selinux-set-context = falló al establecer el contexto de seguridad de { $path }
 cp-error-selinux-get-context = falló al obtener contexto de seguridad de { $path }
 cp-error-selinux-error = error SELinux: { $error }
+cp-error-selinux-context-conflict = no se puede combinar --context (-Z) con --preserve=context
 cp-error-cannot-create-fifo = no se puede crear fifo { $path }: El archivo existe
+cp-error-cannot-create-special-file = no se puede crear el archivo especial { $path }: { $error }
+cp-error-cannot-create-regular-file = no se puede crear el archivo regular { $path }
 cp-error-invalid-attribute = atributo inválido { $value }
 cp-error-failed-to-create-whole-tree = falló al crear todo el árbol
 cp-error-failed-to-create-directory = Falló al crear directorio: { $error }
 cp-error-backup-format =
     cp: { $error }
     Pruebe '{ $exec } --help' para más información.
+cp-error-setting-attributes = estableciendo los atributos de { $path }
+cp-error-write = error de escritura
 # Debug enum strings
 cp-debug-enum-no = no
 cp-debug-enum-yes = sí

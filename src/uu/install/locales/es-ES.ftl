@@ -26,20 +26,23 @@ install-error-chmod-failed-detailed = { $path }: chmod falló con error { $error
 install-error-chown-failed = fallo al cambiar propietario { $path }: { $error }
 install-error-invalid-target = objetivo no válido { $path }: No existe el archivo o directorio
 install-error-target-not-dir = el objetivo { $path } no es un directorio
-install-error-backup-failed = no se puede hacer respaldo de { $from } a { $to }
+install-error-backup-failed = no se puede hacer respaldo de { $from }: { $error }
 install-error-install-failed = no se puede instalar { $from } a { $to }: { $error }
 install-error-strip-failed = el programa strip falló: { $error }
 install-error-strip-abnormal = el proceso strip terminó anormalmente - código de salida: { $code }
+install-error-strip-terminated = el proceso strip terminó de forma anómala
 install-error-metadata-failed = error de metadatos
 install-error-invalid-user = usuario inválido: { $user }
 install-error-invalid-group = grupo inválido: { $group }
 install-error-omitting-directory = omitiendo directorio { $path }
 install-error-not-a-directory = no se pudo acceder a { $path }: No es un directorio
+install-error-existing-file-not-directory = no se puede crear el directorio { $path }: El archivo existe
 install-error-override-directory-failed = no se puede sobrescribir el directorio { $dir } con un no-directorio { $file }
 install-error-same-file = { $file1 } y { $file2 } son el mismo archivo
 install-error-extra-operand =
     operando extra { $operand }
     { $usage }
+install-error-not-permitted = no se puede eliminar { $path }: Operación no permitida
 install-error-invalid-mode = Cadena de modo inválida: { $error }
 install-error-mutually-exclusive-target = Las opciones --target-directory y --no-target-directory son mutuamente excluyentes
 install-error-mutually-exclusive-compare-strip = Las opciones --compare y --strip son mutuamente excluyentes
@@ -48,9 +51,12 @@ install-error-missing-destination-operand = falta operando de archivo de destino
 install-error-failed-to-remove = No se pudo eliminar el archivo existente { $path }. Error: { $error }
 # Warning messages
 install-warning-compare-ignored = la opción --compare (-C) es ignorada cuando especificas un modo con bits de no-permisos
+install-warning-no-strip-with-program = ADVERTENCIA: se ignora la opción --strip-program porque no se especificó la opción -s
 # Verbose output
 install-verbose-creating-directory = creando directorio { $path }
 install-verbose-creating-directory-step = install: creando directorio { $path }
 install-verbose-removed = eliminado { $path }
 install-verbose-backup = (respaldo: { $backup })
+install-error-backing-up-destroy-source = hacer una copia de seguridad de { $dest } podría destruir el origen;  { $source } no copiado
 install-help-default-context = establecer contexto de seguridad SELinux de archivo destino y cada directorio creado a tipo predeterminado
+install-help-unprivileged = no requerir privilegios elevados para cambiar el propietario, el grupo o las banderas de archivo del destino

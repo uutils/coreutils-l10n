@@ -33,3 +33,4 @@ join-error-invalid-field-number = número de campo no válido: { $value }
 join-error-incompatible-fields = campos de unión incompatibles { $field1 }, { $field2 }
 join-error-not-sorted = { $file }:{ $line_num }: no está ordenado: { $content }
 join-error-input-not-sorted = la entrada no está en orden ordenado
+join-diag-help-format = un campo de salida es NUMARCHIVO.CAMPO, como en -o 1.2,2.1; 0 representa el campo de unión

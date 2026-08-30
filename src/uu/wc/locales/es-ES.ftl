@@ -30,3 +30,8 @@ decoder-error-io = error de flujo de bytes subyacente: { $error }
 # Other messages
 wc-standard-input = entrada estándar
 wc-total = total
+wc-debug-hw-unavailable = depuración: soporte por hardware no disponible en esta CPU
+wc-debug-hw-using = depuración: usando soporte por hardware (características: { $features })
+wc-debug-hw-disabled-env = depuración: soporte por hardware deshabilitado por el entorno
+wc-debug-hw-disabled-glibc = depuración: soporte por hardware deshabilitado por GLIBC_TUNABLES ({ $features })
+wc-debug-hw-limited-glibc = depuración: soporte por hardware limitado por GLIBC_TUNABLES (deshabilitadas: { $disabled }; habilitadas: { $enabled })
