@@ -21,3 +21,7 @@ shuf-error-no-lines-to-repeat = brak wierszy do powtórzenia
 shuf-error-start-exceeds-end = początek przekracza koniec
 shuf-error-missing-dash = brak '-'
 shuf-error-write-failed = zapis nieudany
+shuf-help-random-seed = zarodek z NAPISEM dla powtarzalnego wyniku
+shuf-error-read-random-bytes = odczyt losowych bajtów się nie powiódł
+shuf-error-end-of-random-bytes = koniec losowego źródła
+shuf-error-memory-exhausted = pamięć wyczerpana
