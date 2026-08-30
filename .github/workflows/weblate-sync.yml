@@ -16,6 +16,12 @@ on:
       - 'src/uucore/locales/en-US.ftl'
       - 'src/uu/*/src/*.rs'
 
+# Serialize with upstream-source-sync: both push to main, and a source push
+# landing mid-sync is what leaves Weblate behind and gets its push rejected.
+concurrency:
+  group: l10n-sync
+  cancel-in-progress: false
+
 jobs:
   sync-weblate:
     runs-on: ubuntu-latest
@@ -119,6 +125,7 @@ jobs:
         fi
 
     - name: Push source changes to Weblate
+      id: push-sources
       if: github.event_name == 'push'
       run: |
         # Lock translations to prevent conflicts
@@ -127,5 +134,9 @@ jobs:
         # Push source changes
         wlc push rust-coreutils
 
-        # Unlock after push
+    - name: Unlock Weblate project
+      # Always runs: a project left locked by a failed push blocks every
+      # translator until someone unlocks it by hand.
+      if: always() && steps.push-sources.outcome != 'skipped'
+      run: |
         wlc unlock rust-coreutils
