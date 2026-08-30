@@ -128,14 +128,12 @@ dd-error-multiple-format-table = Można określić tylko jeden z conv=ascii con
 dd-error-multiple-case = Można określić tylko jeden z conv=lcase lub conv=ucase
 dd-error-multiple-block = Można określić tylko jedną z opcji conv=block lub conv=unblock
 dd-error-multiple-excl = Można określić tylko jeden parametr ov conv=excl lub conv=nocreat
-dd-error-invalid-flag =
-    Nieprawidłowa flaga danych wejściowych: '{ $flag }'
-    Zobacz '{ $cmd } --help', aby uzyskać więcej informacji.
-dd-error-conv-flag-no-match = Nierozpoznany conv=CONV -> { $flag }
+dd-error-invalid-flag = nieprawidłowa flaga danych wejściowych: '{ $flag }'
+dd-error-conv-flag-no-match = nieprawidłowa konwersja: '{ $flag }'
 dd-error-multiplier-parse-failure = nieprawidłowa liczba ‘{ $input }’
 dd-error-multiplier-overflow = Ciąg mnożnika przepełniłby się w obecnym systemie -> { $input }
 dd-error-block-without-cbs = conv=block lub conv=unblock określono bez cbs=N
-dd-error-status-not-recognized = status=POZIOM nierozpoznany -> { $level }
+dd-error-status-not-recognized = nieprawidłowy poziom statusu: '{ $level }'
 dd-error-unimplemented = funkcja nie została zaimplementowana w tym systemie -> { $feature }
 dd-error-bs-out-of-range = { $param }=N nie mieści się w pamięci
 dd-error-invalid-number = nieprawidłowa liczba: ‘{ $input }’
@@ -157,3 +155,13 @@ dd-warning-signal-handler = Wewnętrzne ostrzeżenie dd: nie można zarejestrowa
 dd-standard-input = „standardowe wejście”
 dd-standard-output = „standardowe wyjście”
 dd-error-failed-discard-cache = nie udało się usunąć pamięci podręcznej dla: { $file }
+dd-error-invalid-output-flag = nieprawidłowa flaga danych wyjściowych: '{ $flag }'
+dd-diag-help-operand = operand to KLUCZ=WARTOŚĆ, jak w if=file bs=4k count=10
+dd-diag-label-conv = nieznana konwersja
+dd-diag-label-iflag = nieznana flaga danych wejściowych
+dd-diag-label-oflag = nieznana flaga danych wyjściowych
+dd-diag-help-conv = conv= jest jednym z następujących: ascii, ebcdic, ibm, lcase, ucase, block, unblock, swab, sync, noerror, sparse, excl, nocreat, notrunc, fdatasync lub fsync
+dd-diag-help-iflag = iflag= jest jednym z następujących: direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, fullblock, count_bytes lub skip_bytes
+dd-diag-help-oflag = oflag= jest jednym z następujących: direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, append lub seek_bytes
+dd-diag-help-status = status= jest jednym z następujących: none, noxfer lub progress
+dd-diag-help-number = po liczbie może następować mnożnik: c, w, b, następnie K, M, G i tak dalej dla 1024, kB, MB, GB dla 1000
