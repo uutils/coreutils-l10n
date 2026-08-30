@@ -157,3 +157,4 @@ smack-error-not-enabled = nie włączono SMACK w tym systemie
 smack-error-label-retrieval-failure = nie udało się uzyskać etykiety SMACK: { $error }
 smack-error-label-set-failure = nie udało się ustawić etykiety SMACK na '{ $context }': { $error }
 smack-error-no-label-set = brak zestawu etykiet SMACK
+ls-error-invalid-tab-size = nieprawidłowy rozmiar karty: { $size }
