@@ -16,8 +16,8 @@ uptime-error-target-is-fifo = não conseguiu obter o tempo de inicialização: b
 uptime-output-unknown-uptime = ativo ???? dias ??:??,
 uptime-user-count =
     { $count ->
-        [um] 1 utilizador
-       *[outros] { $count } utilizadores
+        [one] 1 utilizador
+       *[other] { $count } utilizadores
     }
 uptime-lib-error-system-loadavg = não podia recuperar a média de carga do sistema
 uptime-lib-error-windows-loadavg = Windows não tem um equivalente à média de carga em sistemas Unix-like
@@ -25,8 +25,8 @@ uptime-lib-error-boot-time = o tempo de inicialização é maior do que o tempo 
 uptime-format =
     { $days ->
         [0] { $time }
-        [um] { $days } dia, { $time }
-       *[outros] { $days } dias { $time }
+        [one] { $days } dia, { $time }
+       *[other] { $days } dias { $time }
     }
 uptime-lib-format-loadavg = média de carga: { $avg1 }, { $avg5 }, { $avg15 }
 uptime-lib-error-system-uptime = não podia recuperar quanto tempo o sistema funciona

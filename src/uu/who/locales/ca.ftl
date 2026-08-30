@@ -25,7 +25,7 @@ who-help-mesg = afegir el missatge d'estat de l'usuari com a +, - o ?
 who-user-count =
     # { $count ->
         [one] usuari={ $count }
-       *[altres] usuaris={ $count }
+       *[other] usuaris={ $count }
     }
 who-idle-old = vell
 who-runlevel = nivell-execució { $level }
