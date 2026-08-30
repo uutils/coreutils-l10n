@@ -82,7 +82,7 @@ cp-error-reflink-not-supported = --reflink solo está soportado en linux y macOS
 cp-error-sparse-not-supported = --sparse solo está soportado en linux
 cp-error-not-a-directory = { $path } no es un directorio
 cp-error-selinux-not-enabled = ¡SELinux no fue habilitado durante el tiempo de compilación!
-cp-error-selinux-set-context = falló al establecer el contexto de seguridad de { $path }: { $error }
+cp-error-selinux-set-context = falló al establecer el contexto de seguridad de { $path }
 cp-error-selinux-get-context = falló al obtener contexto de seguridad de { $path }
 cp-error-selinux-error = error SELinux: { $error }
 cp-error-selinux-context-conflict = no se puede combinar --context (-Z) con --preserve=context

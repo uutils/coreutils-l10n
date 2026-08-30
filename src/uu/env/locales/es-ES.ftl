@@ -18,7 +18,7 @@ env-help-list-signal-handling = listar los cambios en el manejo de señales soli
 
 # Error messages
 env-error-missing-closing-quote = no hay comilla terminante en cadena -S en posición { $position } para comilla '{ $quote }'
-env-error-invalid-backslash-at-end = barra invertida inválida al final de cadena en -S en posición { $position }
+env-error-invalid-backslash-at-end = barra invertida inválida al final de cadena en -S en posición { $position } en el contexto { $context }
 env-error-backslash-c-not-allowed = '\c' no debe aparecer en cadena -S con comillas dobles en posición { $position }
 env-error-invalid-sequence = secuencia inválida '\{ $char }' en -S en posición { $position }
 env-error-missing-closing-brace = Falta llave de cierre en posición { $position }

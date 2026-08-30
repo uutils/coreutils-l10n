@@ -9,4 +9,4 @@ tsort-error-odd = la entrada contiene un número impar de tokens
 tsort-error-loop = la entrada contiene un bucle:
 tsort-error-extra-operand =
     operando extra { $operand }
-    Prueba '{ $util } --help' para más información.
+    Pruebe 'tsort --help' para más información.

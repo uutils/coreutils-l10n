@@ -136,9 +136,7 @@ dd-error-multiple-format-table = Solo se puede especificar uno de conv=ascii con
 dd-error-multiple-case = Solo se puede especificar uno de conv=lcase o conv=ucase
 dd-error-multiple-block = Solo se puede especificar uno de conv=block o conv=unblock
 dd-error-multiple-excl = Solo se puede especificar uno de conv=excl o conv=nocreat
-dd-error-invalid-flag =
-    bandera de entrada no válida: '{ $flag }'
-    Pruebe '{ $cmd } --help' para más información.
+dd-error-invalid-flag = bandera de entrada no válida: '{ $flag }'
 dd-error-invalid-output-flag = bandera de salida no válida: '{ $flag }'
 dd-error-conv-flag-no-match = conv=CONV no reconocido -> { $flag }
 dd-error-multiplier-parse-failure = número no válido: '{ $input }'
