@@ -100,3 +100,4 @@ stat-selinux-unsupported-os = nieobsługiwane dla tego systemu operacyjnego
 stat-warning-invalid-env-quoting-style = ignorowanie nieprawidłowej wartości zmiennej środowiskowej QUOTING_STYLE: '{ $style }'
 stat-error-cannot-statx = nie mozna wykonać statx { $file }: { $error }
 stat-diag-help-directive = dyrektywa to %[FLAGI][SZEROKOŚĆ][.DOKŁADNOŚĆ]LITERA, jak w %-10.2s; literał % jest zapisywany jako %%
+stat-word-block-size-capitalized = Rozmiar bloku
