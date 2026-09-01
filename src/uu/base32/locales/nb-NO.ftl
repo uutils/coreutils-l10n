@@ -1,0 +1,12 @@
+basenc-help-base64 = samme som for 'base64'-programmet
+basenc-help-base64url = fil- og url-sikker base64
+basenc-help-base32 = samme som for 'base32'-programmet
+basenc-help-base32hex = base32 med utvidet heksadesimalt alfabet
+basenc-help-base16 = heksadesimal koding
+basenc-help-base2lsbf = bitstreng med minst signifikante bit (lsb) først
+basenc-help-base2msbf = bitstreng med mest signifikante bit (msb) først
+basenc-help-base58 = visuelt entydig base58-koding
+basenc-error-missing-encoding-type = mangler kodingstype
+base-common-extra-operand = ekstra operand { $operand }
+base-common-no-such-file = { $file }: Ingen slik fil eller katalog
+base-common-read-error = lesefeil: { $error }
