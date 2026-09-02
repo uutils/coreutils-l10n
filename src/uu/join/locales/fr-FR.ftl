@@ -1,12 +1,13 @@
-join-about = Pour chaque paire de lignes d'entrée avec des champs de jointure identiques, écrire une ligne
-  sur la sortie standard. Le champ de jointure par défaut est le premier, délimité par des espaces.
+join-about =
+    Pour chaque paire de lignes d'entrée avec des champs de jointure identiques, écrire une ligne
+    sur la sortie standard. Le champ de jointure par défaut est le premier, délimité par des espaces.
 
-  Quand FILE1 ou FILE2 (mais pas les deux) est -, lire l'entrée standard.
+    Quand FILE1 ou FILE2 (mais pas les deux) est -, lire l'entrée standard.
 join-usage = join [OPTION]... FICHIER1 FICHIER2
-
 # Messages d'aide de join
-join-help-a = afficher aussi les lignes non appariables du fichier NUMÉRO_FICHIER, où
-  NUMÉRO_FICHIER est 1 ou 2, correspondant à FICHIER1 ou FICHIER2
+join-help-a =
+    afficher aussi les lignes non appariables du fichier NUMÉRO_FICHIER, où
+    NUMÉRO_FICHIER est 1 ou 2, correspondant à FICHIER1 ou FICHIER2
 join-help-v = comme -a NUMÉRO_FICHIER, mais supprimer les lignes de sortie jointes
 join-help-e = remplacer les champs d'entrée manquants par VIDE
 join-help-i = ignorer les différences de casse lors de la comparaison des champs
@@ -19,7 +20,6 @@ join-help-check-order = vérifier que l'entrée est correctement triée, même s
 join-help-nocheck-order = ne pas vérifier que l'entrée est correctement triée
 join-help-header = traiter la première ligne de chaque fichier comme des en-têtes de champs, les imprimer sans essayer de les apparier
 join-help-z = le délimiteur de ligne est NUL, pas de nouvelle ligne
-
 # Messages d'erreur de join
 join-error-io = erreur d'E/S : { $error }
 join-error-non-utf8-tab = tabulation multi-octets non-UTF-8
@@ -33,6 +33,5 @@ join-error-invalid-field-number = numéro de champ invalide : { $value }
 join-error-incompatible-fields = champs de jointure incompatibles { $field1 }, { $field2 }
 join-error-not-sorted = { $file }:{ $line_num } : n'est pas trié : { $content }
 join-error-input-not-sorted = l'entrée n'est pas dans l'ordre trié
-
 # Diagnostics
 join-diag-help-format = un champ de sortie est NUMFICHIER.CHAMP, comme dans -o 1.2,2.1 ; 0 désigne le champ de jointure
