@@ -27,3 +27,6 @@ stdbuf-about-windows =
     Uruchamia POLECENIE powiązane ze środowiskiem wykonawczym Cygwin, ze zmodyfikowanymi operacjami buforowania dla jego standardowych strumieni.
 
     Obowiązkowe argumenty dla opcji długich są obowiązkowe również dla opcji krótkich.
+stdbuf-error-preload-path-separator =
+    Ścieżka libstdbuf { $path } zawiera znak ':', którego nie można przedstawić w { $var }
+    stdbuf: ustaw TMPDIR na katalog, którego ścieżka nie zawiera znaku ':'
