@@ -1,7 +1,7 @@
 stat-word-file = Afaylu
 stat-word-id = ID
 stat-word-type = Tawsit
-stat-word-size = tiddi
+stat-word-size = Tiddi
 stat-word-device = Ibenk
 stat-word-links = Iseɣwan
 stat-word-access = Adduf
