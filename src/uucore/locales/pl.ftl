@@ -19,7 +19,7 @@ error-io = Błąd wejścia-wyjścia
 error-permission-denied = Odmowa zezwolenia
 error-file-not-found = Nie ma takiego pliku ani katalogu
 error-invalid-argument = Nieprawidłowy argument
-error-is-a-directory = { $file }: jest katalogiem
+error-is-a-directory = { $file }: { error-is-a-directory-text }
 action-copying = kopiowanie
 action-moving = przenoszenie
 action-removing = usuwanie
@@ -110,3 +110,5 @@ checksum-error-need-algorithm-to-hash =
     Potrzebny jest algorytm do haszowania.
     Użyj --help, aby uzyskać więcej informacji.
 checksum-error-unknown-algorithm = nieznany algorytm: { $algorithm }: clap powinien zapobiec temu przypadkowi
+common-read-error = błąd odczytu
+error-is-a-directory-text = Jest katalogiem
