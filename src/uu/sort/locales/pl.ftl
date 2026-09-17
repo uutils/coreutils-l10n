@@ -108,3 +108,4 @@ sort-random-source-end-of-file = { $path }: koniec pliku
 sort-diag-label-missing-count = tutaj powinna być liczba
 sort-diag-label-zero-count = liczenie zaczyna się od 1
 sort-diag-help-key-syntax = kluczem jest POLE[.ZNAK][OPCJE][,POLE[.ZNAK][OPCJE]], jak w -k2.3,4nr
+sort-truncate-failed = nie udało się skrócić: { $path }: { $error }
