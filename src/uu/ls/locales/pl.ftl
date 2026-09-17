@@ -158,3 +158,4 @@ smack-error-label-retrieval-failure = nie udało się uzyskać etykiety SMACK: {
 smack-error-label-set-failure = nie udało się ustawić etykiety SMACK na '{ $context }': { $error }
 smack-error-no-label-set = brak zestawu etykiet SMACK
 ls-error-invalid-tab-size = nieprawidłowy rozmiar karty: { $size }
+ls-error-cannot-access-permission-denied = brak dostępu do { $path }: odmowa dostępu
