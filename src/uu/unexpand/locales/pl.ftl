@@ -8,6 +8,6 @@ unexpand-help-tabs = używa LISTY pozycji tabulatorów rozdzielonych przecinkami
 unexpand-help-no-utf8 = interpretuje plik wejściowy jako 8-bitowy ASCII, a nie UTF-8
 unexpand-error-invalid-character = rozmiar tabulatora zawiera nieprawidłowe znaki: { $char }
 unexpand-error-tab-size-cannot-be-zero = rozmiar tabulatora nie może wynosić 0
-unexpand-error-tab-size-too-large = wartość tabulatora jest zbyt duża
+unexpand-error-tab-size-too-large = punkt tabulacji jest zbyt duży
 unexpand-error-tab-sizes-must-be-ascending = rozmiary tabulatorów muszą być rosnące
 unexpand-error-is-directory = { $path }: jest katalogiem
