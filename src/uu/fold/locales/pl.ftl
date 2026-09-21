@@ -10,3 +10,4 @@ fold-error-readline = nie udało się odczytać wiersza
 fold-characters-help = liczenie przy użyciu pozycji znaków zamiast wyświetlania kolumn
 fold-error-width-zero = nieprawidłowa liczba kolumn: { $width }: wynik jest za duży
 fold-error-width-overflow = nieprawidłowa liczba kolumn: { $width }: wartość jest za duża, aby można ją było zapisać w typie danych
+fold-error-width-out-of-range = nieprawidłowa liczba kolumn: { $width }: wynik liczbowy poza zakresem
