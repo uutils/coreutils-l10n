@@ -97,3 +97,4 @@ numfmt-diag-help-input-no-from = bez opcji --from liczba musi być podana w pos
 numfmt-diag-help-input-suffixes = przyrostkami są: K, M, G, T, P, E, Z, Y, R i Q, z opcjonalnym i pod --from=auto lub iec-i
 numfmt-diag-label-zero-field = pola są numerowane od 1
 numfmt-diag-help-field-syntax = --field przyjmuje wartości N, N-M, N- lub -M, rozdzielone przecinkami, np.--field=1,3-5
+numfmt-error-write = błąd zapisu
