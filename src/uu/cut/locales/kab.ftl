@@ -1,2 +1,14 @@
 cut-usage = cut TAXTIṚT... [AFAYLU]...
 cut-error-is-directory = D akaram
+cut-about = Ssef tigezmiwin seg yal izirig n yifuyla.
+cut-help-only-delimited = Kkes izirigen ur yegbiren ara talast
+cut-error-write-error = tuccḍa n tira
+cut-error-delimiter-must-be-single-character = yessefk talast ad tili d asekkil asuf
+cut-error-multiple-mode-args = yiwet n tebdart kan i yezmer ad d-ttunefk
+cut-error-missing-mode-arg = ilaq ad d-tefkeḍ tabdart n yiṭamḍanen, isekkilen neɣ urtan
+cut-error-field-numbered-from-1 = urtan ttwasuḍḍenen seg 1
+cut-error-invalid-field-range = azilal n wurti mačči d ameɣtu
+cut-error-invalid-position-range = azilal n yibit neɣ usekkil d armeɣtu
+cut-error-invalid-range-no-endpoint = azilal armeɣtu s war tanqiḍt n taggara: { $range }
+cut-error-invalid-field-value = azal n wurti { $value } d arameɣtu
+cut-error-field-number-too-large = amḍan n wurti { $value } meqqer aṭas
