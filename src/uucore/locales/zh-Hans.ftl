@@ -94,7 +94,7 @@ mode-error-invalid-operator = 无效运算符（应为 +、- 或 =，但实际�
 # Diagnostic labels: what the caret points at in a mode
 mode-diag-label-missing-operator = 此子句指定了作用对象，但未指定要进行的更改
 mode-diag-label-invalid-number = 不是有效的八进制模式
-mode-diag-help-syntax = 模式可以是八进制形式（如 644），也可以是 u+rwx、go-w 这样的子句
+mode-diag-help-syntax = 模式可以是八进制形式（如 644），也可以是 u+rwx,go-w 这样的子句
 
 # Shared recursive chown/chgrp/chmod diagnostics (uucore::perms)
 perms-cannot-access = 无法访问 { $file }：{ $error }
