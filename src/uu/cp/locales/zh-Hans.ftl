@@ -74,7 +74,7 @@ cp-error-not-replacing = 不替换 { $file }
 cp-error-failed-get-current-dir = 获取当前目录失败：{ $error }
 cp-error-failed-set-permissions = 无法设置 { $path } 的权限
 cp-error-backup-mutually-exclusive = 选项 --backup 和 --no-clobber 互斥
-cp-error-invalid-argument = 选项“{ $option }”的参数“{ $arg }”无效
+cp-error-invalid-argument = 选项“{ $option }”的参数 { $arg } 无效
 cp-error-option-not-implemented = 选项“{ $option }”尚未实现。
 cp-error-not-all-files-copied = 并非所有文件都已复制
 cp-error-reflink-always-sparse-auto = `--reflink=always` 只能与 --sparse=auto 一起使用
