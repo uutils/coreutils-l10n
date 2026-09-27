@@ -13,7 +13,7 @@ tr-error-missing-operand-translating =
     Podczas tłumaczenia należy podać dwa ciągi znaków.
 tr-error-missing-operand-deleting-squeezing =
     brak operandu po { $set }
-    Podczas usuwania i ściskania należy podać dwa ciągi znaków.
+    Podczas usuwania oraz redukowania powtórzeń należy podać dwa ciągi znaków.
 tr-error-extra-operand-deleting-without-squeezing =
     dodatkowy operand { $operand }
     Podczas usuwania bez ściskania powtórzeń można podać tylko jeden ciąg znaków.
