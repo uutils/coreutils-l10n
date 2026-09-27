@@ -21,8 +21,8 @@ dd-after-help = 操作数：
 
         已读入 6+0 条记录
         已写出 16+0 条记录
-        已复制 8192 字节（8.2 kB，8.0 KiB），耗时 0.00057009 秒，
-        14.4 MB/秒
+        已复制 8192 字节（8.2 kB，8.0 KiB），耗时 0.00057009 s，
+        14.4 MB/s
 
       前两行是“数据量”统计信息，最后一行是“性能”统计信息。数据量统计信息表示复制期间发生的完整和不完整的 ibs 大小读取次数，或 obs 大小写入次数。数据量统计信息的格式为 <完整>+<部分>。如果记录已被截断（参见 conv=block），数据量统计信息还会包含被截断的记录数。
 
@@ -70,10 +70,10 @@ dd-after-help = 操作数：
     - dsync：对数据使用同步 I/O。
     - sync：对数据和元数据使用同步 I/O。
     - nonblock：使用非阻塞 I/O。
-    - noatime：不更新时间访问时间。
+    - noatime：不更新访问时间。
     - nocache：请求操作系统丢弃缓存。
     - noctty：不分配控制终端。
-    - nofollow：不跟随系统链接。
+    - nofollow：不跟随符号链接。
 
 # Common strings
 dd-standard-input = “标准输入”
@@ -110,10 +110,7 @@ dd-error-invalid-number = 无效数字：“{ $input }”
 # Progress messages
 dd-progress-records-in = 已读入 { $complete }+{ $partial } 条记录
 dd-progress-records-out = 已写出 { $complete }+{ $partial } 条记录
-dd-progress-truncated-record = { $count ->
-    [one] 已截断 { $count } 条记录
-   *[other] 已截断 { $count } 条记录
-}
+dd-progress-truncated-record = 已截断 { $count } 条记录
 dd-progress-byte-copied = 已复制 { $bytes } 字节，耗时 { $duration } s，{ $rate }/s
 dd-progress-bytes-copied = 已复制 { $bytes } 字节，耗时 { $duration } s，{ $rate }/s
 dd-progress-bytes-copied-si = 已复制 { $bytes } 字节（{ $si }），耗时 { $duration } s，{ $rate }/s
