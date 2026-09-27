@@ -19,3 +19,24 @@ ls-help-display-detailed-info = Beqqeḍ talɣut leqqayen.
 ls-help-list-entries-rows = Bder inekcumen deg izirigen deg umkan n tgejda.
 ls-help-list-entries-commas = Bder inekcumen iberrzen s ticcert.
 ls-help-list-entries-nul = Bder inekcumen iberrzen s isekkilen ASCII NUL.
+ls-about =
+    Bder agbur n yikaramen.
+    Zgel ifuyla akked yikaramen yebdan s '.' s wudem amezwer
+dir-about =
+    Bder agbur n yikaramen.
+    Zgel ifuyla akked yikaramen yebdan s '.' s wudem amezwer
+vdir-about =
+    Bder agbur n yikaramen.
+    Zgel ifuyla akked yikaramen yebdan s '.' s wudem amezwer
+
+    tiɣirtin ilaqen i tnefrunin ɣezzifen laqent daɣen i tnefrunin wezzilen.
+dir-usage = dir [TANEFRUNT]... [AFAYLU]...
+vdir-usage = vdir [TANEFRUNT]... [AFAYLU]...
+ls-error-dired-and-zero-incompatible = --dried akked --warun ur mṣadan ara
+ls-help-list-one-file-per-line = Bder-d yiwen n ufaylu i yal izirig.
+ls-help-long-format-no-group =
+    Amasal aɣezfan war talɣut n ugraw.
+    kifkif-it d --format=long s --no-group.
+ls-help-long-no-owner = Amasal aɣezfan war talɣut n umli.
+ls-help-long-numeric-uid-gid = -l s UID akked GID umḍinen.
+ls-help-set-quoting-style = Sbadu aɣanib n tebdert.
