@@ -45,7 +45,7 @@ tr-diag-label-backwards-range = ¿quiso decir '{ $suggestion }'?
 tr-diag-label-set1-longer-set2-ends-in-class = este conjunto es más largo que CONJUNTO2
 tr-diag-label-complement-more-than-one-unique = solo se puede complementar hacia un carácter
 tr-diag-help-char-class = las clases son alnum, alpha, blank, cntrl, digit, graph, lower, print, punct, space, upper y xdigit
-tr-diag-help-equivalence = [=c=] representa todo carácter equivalente a c
-tr-diag-help-repeat = [c*N] repite c N veces, [c*] rellena CONJUNTO2 hasta la longitud de CONJUNTO1
+tr-diag-help-equivalence = { "[" }=c=] representa todo carácter equivalente a c
+tr-diag-help-repeat = { "[" }c*N] repite c N veces, [c*] rellena CONJUNTO2 hasta la longitud de CONJUNTO1
 tr-diag-help-backwards-range = un rango va del carácter menor al mayor, como en a-z
 tr-warning-invalid-utf8 = secuencia utf8 inválida
