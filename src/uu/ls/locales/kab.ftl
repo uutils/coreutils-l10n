@@ -40,3 +40,14 @@ ls-help-long-format-no-group =
 ls-help-long-no-owner = Amasal aɣezfan war talɣut n umli.
 ls-help-long-numeric-uid-gid = -l s UID akked GID umḍinen.
 ls-help-set-quoting-style = Sbadu aɣanib n tebdert.
+ls-help-ignore-backups = Zgel inekcumen i yettfakan s ~.
+ls-help-sort-by-size = Smizzwer s tiddi n ufaylu, win muqqran d amezwaru.
+ls-help-sort-by-time = Smizzwer s wazemz n usnifel ('mtime' deg umatar n tkerrist), amaynut d amezwaru.
+ls-help-sort-by-version = Asmizzwer agmawan n wuṭṭunen (n lqem) deg yismawen n yifuyla.
+ls-help-sort-by-extension = Smizzwer s ugemmay n usiɣzef unekcam.
+ls-help-dereference-args = Ur ṭṭafar ara iseɣwan u uzamul anagar ma ttunefken-d d tɣirtin n izirig n tladna.
+ls-help-no-group = Ur d-skan ara agraw deg umasal ɣezzifen.
+ls-help-author =
+    Sken ameskar s umasal aɣezfan. Deg tɣeṛɣaṛ yettwasefraken,
+    Ameskar yezga yenmeɣra akked umli n ufaylu.
+ls-help-all-files = Ur zeggel ara ifuyla yeffren (ifuyla yesɛan ismawen yebdan s '.').
