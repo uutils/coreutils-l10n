@@ -1,40 +1,40 @@
 numfmt-about = Convertir les nombres vers/depuis des chaînes lisibles par l'homme
 numfmt-usage = numfmt [OPTION]... [NOMBRE]...
-numfmt-after-help = Options d'UNITÉ :
+numfmt-after-help =
+    Options d'UNITÉ :
 
-  - none : aucune mise à l'échelle automatique n'est effectuée ; les suffixes déclencheront une erreur
-  - auto : accepter un suffixe optionnel d'une/deux lettres :
+    - none : aucune mise à l'échelle automatique n'est effectuée ; les suffixes déclencheront une erreur
+    - auto : accepter un suffixe optionnel d'une/deux lettres :
 
-      1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
+        1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
 
-  - si : accepter un suffixe optionnel d'une lettre :
+    - si : accepter un suffixe optionnel d'une lettre :
 
-      1K = 1000, 1M = 1000000, ...
+        1K = 1000, 1M = 1000000, ...
 
-  - iec : accepter un suffixe optionnel d'une lettre :
+    - iec : accepter un suffixe optionnel d'une lettre :
 
-      1K = 1024, 1M = 1048576, ...
+        1K = 1024, 1M = 1048576, ...
 
-  - iec-i : accepter un suffixe optionnel de deux lettres :
+    - iec-i : accepter un suffixe optionnel de deux lettres :
 
-      1Ki = 1024, 1Mi = 1048576, ...
+        1Ki = 1024, 1Mi = 1048576, ...
 
-  - FIELDS supporte les plages de champs de style cut(1) :
+    - FIELDS supporte les plages de champs de style cut(1) :
 
-      N N-ième champ, compté à partir de 1
-      N- du N-ième champ jusqu'à la fin de la ligne
-      N-M du N-ième au M-ième champ (inclus)
-      -M du premier au M-ième champ (inclus)
-      - tous les champs
+        N N-ième champ, compté à partir de 1
+        N- du N-ième champ jusqu'à la fin de la ligne
+        N-M du N-ième au M-ième champ (inclus)
+        -M du premier au M-ième champ (inclus)
+        - tous les champs
 
-  Plusieurs champs/plages peuvent être séparés par des virgules
+    Plusieurs champs/plages peuvent être séparés par des virgules
 
-  FORMAT doit être adapté pour imprimer un argument à virgule flottante %f.
-  Une guillemet optionnelle (%'f) activera --grouping (si pris en charge par la locale actuelle).
-  Une valeur de largeur optionnelle (%10f) remplira la sortie. Un zéro optionnel (%010f)
-  remplira le nombre de zéros. Des valeurs négatives optionnelles (%-10f) aligneront à gauche.
-  Une précision optionnelle (%.1f) remplacera la précision déterminée par l'entrée.
-
+    FORMAT doit être adapté pour imprimer un argument à virgule flottante %f.
+    Une guillemet optionnelle (%'f) activera --grouping (si pris en charge par la locale actuelle).
+    Une valeur de largeur optionnelle (%10f) remplira la sortie. Un zéro optionnel (%010f)
+    remplira le nombre de zéros. Des valeurs négatives optionnelles (%-10f) aligneront à gauche.
+    Une précision optionnelle (%.1f) remplacera la précision déterminée par l'entrée.
 # Messages d'aide
 numfmt-help-debug = afficher des avertissements sur les entrées invalides
 numfmt-help-delimiter = utiliser X au lieu d'espaces pour le délimiteur de champ
@@ -52,7 +52,6 @@ numfmt-help-suffix = imprimer SUFFIX après chaque nombre formaté, et accepter 
 numfmt-help-unit-separator = utiliser CHAÎNE pour séparer le nombre de son unité lors de l'affichage ; par défaut, aucun séparateur n'est utilisé
 numfmt-help-invalid = définir le mode d'échec pour les entrées invalides
 numfmt-help-zero-terminated = le délimiteur de ligne est NUL, pas retour à la ligne
-
 # Messages d'erreur
 numfmt-error-unsupported-unit = Une unité non prise en charge est spécifiée
 numfmt-error-invalid-unit-size = taille d'unité invalide : { $size }
@@ -68,7 +67,7 @@ numfmt-error-invalid-number = nombre invalide : { $input }
 numfmt-error-missing-i-suffix = suffixe 'i' manquant dans l'entrée : '{ $number }{ $suffix }' (par ex. Ki/Mi/Gi)
 numfmt-error-rejecting-suffix = rejet du suffixe dans l'entrée : '{ $number }{ $suffix }' (considérez utiliser --from)
 numfmt-error-suffix-unsupported-for-unit = Ce suffixe n'est pas pris en charge pour l'unité spécifiée
-numfmt-error-invalid-unit-argument = argument invalide '{$arg}' pour '{$opt}'
+numfmt-error-invalid-unit-argument = argument invalide '{ $arg }' pour '{ $opt }'
 numfmt-error-number-too-big = Le nombre est trop grand et non pris en charge
 numfmt-error-format-no-percent = le format '{ $format }' n'a pas de directive %
 numfmt-error-format-ends-in-percent = le format '{ $format }' se termine par %
@@ -77,13 +76,11 @@ numfmt-error-invalid-format-width-overflow = format invalide '{ $format }' (déb
 numfmt-error-invalid-precision = précision invalide dans le format '{ $format }'
 numfmt-error-format-too-many-percent = le format '{ $format }' a trop de directives %
 numfmt-error-unknown-invalid-mode = Mode invalide inconnu : { $mode }
-
 # Messages de débogage
 numfmt-debug-no-conversion = aucune option de conversion spécifiée
 numfmt-debug-grouping-no-effect = le groupement n'a aucun effet dans cette locale
 numfmt-debug-failed-to-convert = échec de conversion d'une partie des nombres en entrée
 numfmt-debug-header-ignored = --header ignoré avec une entrée en ligne de commande
-
 # Étiquettes de diagnostic et lignes d'aide : ce que le curseur désigne, et le conseil affiché en dessous
 numfmt-diag-label-number-overflow = ce nombre est trop grand
 numfmt-diag-label-stray-percent = un % littéral doit s'écrire %%
