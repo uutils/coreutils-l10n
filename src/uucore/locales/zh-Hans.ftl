@@ -34,6 +34,7 @@ error-no-such-process = 进程不存在
 error-invalid-argument = 无效参数
 error-is-a-directory-text = 是一个目录
 error-is-a-directory = { $file }：{ error-is-a-directory-text }
+error-too-many-symlink-levels = 符号链接层级过多
 
 # Common actions
 action-copying = 正在复制
@@ -70,18 +71,9 @@ safe-traversal-directory = <目录>
 # checksum-related messages
 checksum-no-properly-formatted = { $checksum_file }：未找到格式正确的校验和记录
 checksum-no-file-verified = { $checksum_file }：没有文件通过校验
-checksum-bad-format = { $count ->
-    [1] 有 { $count } 行格式不正确
-   *[other] 有 { $count } 行格式不正确
-}
-checksum-failed-cksum = { $count ->
-    [1] 有 { $count } 个计算得到的校验和不匹配
-   *[other] 有 { $count } 个计算得到的校验和不匹配
-}
-checksum-failed-open-file = { $count ->
-    [1] 有 { $count } 个列出的文件无法读取
-   *[other] 有 { $count } 个列出的文件无法读取
-}
+checksum-bad-format = 有 { $count } 行格式不正确
+checksum-failed-cksum = 有 { $count } 个计算得到的校验和不匹配
+checksum-failed-open-file = 有 { $count } 个列出的文件无法读取
 
 # uudoc tldr examples messages
 uudoc-tldr-attribution = 这些示例由 [tldr-pages 项目](https://tldr.sh) 提供，并采用 [CC BY 4.0 许可证](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md) 授权。
@@ -99,4 +91,3 @@ mode-diag-help-syntax = 模式可以是八进制形式（如 644），也可以�
 # Shared recursive chown/chgrp/chmod diagnostics (uucore::perms)
 perms-cannot-access = 无法访问 { $file }：{ $error }
 perms-cannot-access-replaced = 无法访问 { $file }：处理过程中已被替换
-perms-too-many-symlink-levels = 符号链接层级过多
