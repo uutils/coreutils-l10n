@@ -115,3 +115,4 @@ error-is-a-directory-text = Jest katalogiem
 perms-too-many-symlink-levels = Zbyt wiele poziomów dowiązań symbolicznych
 perms-cannot-access = brak dostępu do { $file }: { $error }
 perms-cannot-access-replaced = brak dostępu do { $file }: plik został zastąpiony w trakcie przetwarzania
+error-too-many-symlink-levels = Zbyt wiele poziomów dowiązań symbolicznych
