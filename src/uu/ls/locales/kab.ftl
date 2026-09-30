@@ -70,3 +70,9 @@ ls-help-time-change =
     asrag n ubeddel n waddad ('ctime' deg inode) deg umḍiq n usrag
     n usnifel. Ma yettwafren s wudem aflalay ufran ilmend n usrag (--sort=time neɣ -t), neɣ ma 
     ur yettwasqedac ara umasal n tebdart taɣezfant, fren ilmend n usrag n ubeddel n waddad.
+ls-help-time-access =
+    Ma yettwasqedac umasal n tebdart taɣezfant (amedya: -l, -o), sken
+    asrag n wadduf deg umḍiq n usrag n usnifel. Ma yettwafren s wudem
+    aflalay ufran ilmend n usrag (--sort=time neɣ -t), neɣ ma ur
+    yettwasqedac ara umasal n tebdart taɣezfant, fren ilmend n usrag n wadduf.
+ls-help-hide-pattern = Ur d-bder ara inekcam ur d-nettwabder ara srid deg yizirig n tladna, u yemṣadan ara d tneɣruft MOTIF n shell (tanefrunt-a tettwasemmesli s -a neɣ -A)
