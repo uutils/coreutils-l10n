@@ -51,3 +51,22 @@ ls-help-author =
     Sken ameskar s umasal aɣezfan. Deg tɣeṛɣaṛ yettwasefraken,
     Ameskar yezga yenmeɣra akked umli n ufaylu.
 ls-help-all-files = Ur zeggel ara ifuyla yeffren (ifuyla yesɛan ismawen yebdan s '.').
+ls-help-assume-tab-stops = Ḥseb belli tarigla tettḥebbis yal COLS n tgejda deg umḍiq n 8
+ls-help-generate-dired-output = Sirew tuffɣa i uskar dired (Amaẓrag n yikaramen) n Emacs
+ls-help-hyperlink-filenames = Err ismawen n yifuyla d iseɣwan ifleḍrisen ilmend n MELMI
+ls-help-literal-quoting-style = Seqdec aɣanib n tira n yismawen akken llan, war tuccar u war asenser. Agdazal n `--quoting-style=literal`
+ls-help-escape-quoting-style = Seqdec aɣanib n tira n yismawen s usenser. D agdazal n `--quoting-style=escape`
+ls-help-c-quoting-style = Seqdec aɣanib n tira n yismawen am deg tutlayt C. D agdazal n `--quoting-style=c`
+ls-help-replace-control-chars = Semselsi isekkilen n usenqed s '?' ma ur ttwarun ara s usenser.
+ls-help-show-control-chars = Sken isekkilen n usenqed 'akken llan' ma ur ttwarun ara s usenser.
+ls-help-show-time-field =
+    Sken asrag deg `<field>`:
+    asrag n wadduf (-u): atime, access, use;
+    asrag n ubeddel n waddad (-t): ctime, status.
+    asrag n usnifel: mtime, modification.
+    asrag n usnulfu: birth, creation;
+ls-help-time-change =
+    Ma yettwasqedac umasal n tebdart taɣezfant (amedya: -l, -o), sken
+    asrag n ubeddel n waddad ('ctime' deg inode) deg umḍiq n usrag
+    n usnifel. Ma yettwafren s wudem aflalay ufran ilmend n usrag (--sort=time neɣ -t), neɣ ma 
+    ur yettwasqedac ara umasal n tebdart taɣezfant, fren ilmend n usrag n ubeddel n waddad.
