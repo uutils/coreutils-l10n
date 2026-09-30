@@ -17,8 +17,8 @@ du-after-help = 显示值以 --block-size、DU_BLOCK_SIZE、BLOCK_SIZE 和 BLOCK
 
 # Help messages
 du-help-print-help = 显示帮助信息
-du-help-all = 统计所有文件, 而不仅仅是目录
-du-help-apparent-size = 显示逻辑大小（apparent size）, 而非实际占用的磁盘空间
+du-help-all = 统计所有文件，而不仅仅是目录
+du-help-apparent-size = 显示逻辑大小（apparent size），而非实际占用的磁盘空间。虽然逻辑大小通常较小，但由于“稀疏”文件中的空洞、内部碎片、间接块等因素，逻辑大小也可能较大。
 du-help-block-size = 输出前按 SIZE 缩放大小。例如，“-BM”以 1,048,576 字节为单位显示大小。参见下方 SIZE 格式。
 du-help-bytes = 等同于“--apparent-size --block-size=1”
 du-help-total = 显示总计
