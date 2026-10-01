@@ -76,3 +76,15 @@ ls-help-time-access =
     aflalay ufran ilmend n usrag (--sort=time neɣ -t), neɣ ma ur
     yettwasqedac ara umasal n tebdart taɣezfant, fren ilmend n usrag n wadduf.
 ls-help-hide-pattern = Ur d-bder ara inekcam ur d-nettwabder ara srid deg yizirig n tladna, u yemṣadan ara d tneɣruft MOTIF n shell (tanefrunt-a tettwasemmesli s -a neɣ -A)
+ls-help-unsorted-all = Bder-d meṛṛa ifuyla ilmend n umseḍfer-nsen deg ukaram, war afran. D agdazal n -aU. Sens --color, ala ma yettwabder-d s wudem aflalay.
+ls-help-directory =
+    Bder-d kan ismawen n yikaramen deg umḍiq n ugbur-nsen.
+    Ur yeḍeffir ara iseɣwan izamulen, ala ma tettwabder-d yiwet seg tnefrunin
+    `--dereference-command-line (-H)`, `--dereference (-L)`, neɣ
+    `--dereference-command-line-symlink-to-dir`.
+ls-help-human-readable = Sken tiddi n yifuyla s umasal isehlen i tɣuri (amedya: 1K 234M 56G).
+ls-help-kibibytes =
+    Seqdec s wudem amezwer iḥedran n 1024 n yiṭamḍanen i uskan n tallunt yettwasqedcen deg unagraw n yifuyla; yettwasqedac kan akked -s d uskan n
+     uɣrud n yal akaram
+ls-help-si = Sken tiddi n yifuyla s umasal isehlen i tɣuri, s useqdec n tezmar n 1000 deg umḍiq n tid n 1024.
+ls-help-print-inode = Sken uṭṭun n umatar n yal afaylu
