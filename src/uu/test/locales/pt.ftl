@@ -158,3 +158,10 @@ test-after-help =
 
     NOTA: o seu shell pode ter a sua própria versão do comando test e/ou { "[" }, que geralmente substitui a versão descrita aqui.
     Consulte a documentação do seu shell para obter detalhes sobre as opções que ele apoia.
+test-diag-label-unary-operator-expected = isto precisa de uma expressão em ambos os lados
+test-diag-help-integer-op = -eq, -ne, -lt, -le, -gt e -ge comparam inteiros; use =, { "! " }=, { "<" } ou { ">" } para comparar cadeias
+test-diag-help-integer-op-mnemonics = -eq igual, -ne não igual, -lt menor do que, -le menor ou igual, -gt maior do que, -ge maior ou igual
+test-diag-help-file-descriptor = -t leva um número de descritor de ficheiro: 0 é entrada predefinida, 1 saída predefinida, 2 erro predefinido
+test-diag-help-missing-argument = uma variável não definida ou vazia expande-se para nada, deixando o operador sem um operando; cite-o como "$var"
+test-diag-help-extra-argument = uma variável não citada expandida para várias palavras é a causa habitual; cite-a como "$var" para mantê-la um único operando
+test-diag-help-unknown-operator = execute '{ $name } --help' para a lista de operadores apoiados
