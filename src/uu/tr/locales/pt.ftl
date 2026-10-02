@@ -38,3 +38,9 @@ tr-error-backwards-range = os pontos finais do intervalo '{ $start }-{ $end }' e
 tr-error-multiple-char-in-equivalence = { $chars }: o operando da classe de equivalência deve ser um único carácter
 tr-warning-invalid-utf8 = sequência inválida em utf8
 tr-error-invalid-char-class = classe de caráter { $class } inválida
+tr-diag-label-backwards-range = quer dizer "{ $suggestion }"?
+tr-diag-label-set1-longer-set2-ends-in-class = este conjunto é mais comprido do que SET2
+tr-diag-label-complement-more-than-one-unique = apenas um carácter pode ser complementado
+tr-diag-help-char-class = classes são alnum, alpha, blank, cntrl, digit, graph, lower, print, punct, space, upper e xdigit
+tr-diag-help-equivalence = { "[" }=c=] significa cada carácter equivalente a c
+tr-diag-help-backwards-range = um intervalo vai do caráter inferior para o mais alto, como em a-z
