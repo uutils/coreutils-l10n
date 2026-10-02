@@ -16,3 +16,4 @@ cat-error-unknown-filetype = неизвестный тип файла: { $ft_deb
 cat-error-is-directory = является каталогом
 cat-error-input-file-is-output-file = входной файл является выходным файлом
 cat-error-too-many-symbolic-links = Слишком много уровней символических ссылок
+cat-error-no-such-device-or-address = Нет такого устройства или адреса
