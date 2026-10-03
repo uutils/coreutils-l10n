@@ -18,3 +18,4 @@ chown-error-failed-to-get-attributes = 无法获取 { $file } 的属性
 chown-error-invalid-user = 无效的用户：{ $user }
 chown-error-invalid-group = 无效的组：{ $group }
 chown-error-invalid-spec = 无效参数：{ $spec }
+chown-warning-dot-separator = “.”应为“:”：{ $spec }
