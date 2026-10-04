@@ -169,3 +169,6 @@ test-diag-help-file-descriptor = -t przyjmuje numer deskryptora pliku: 0 to wej�
 test-diag-help-missing-argument = nieustawiona lub pusta zmienna rozszerza się do niczego, pozostawiając operatora bez operandu; zapisz to jako "$var"
 test-diag-help-extra-argument = częstą przyczyną jest zmienna nieobjęta cudzysłowem, rozszerzająca się do kilku słów; zapisz ją jako "$var", aby zachować pojedynczy operand
 test-diag-help-unknown-operator = uruchom '{ $name } --help', aby uzyskać listę obsługiwanych operatorów
+test-error-binary-operator-expected = { $operator }: oczekiwano operatora dwuargumentowego
+test-error-expected-found = oczekiwano { $expected }, znaleziono { $found }
+test-error-does-not-accept-length = { $operator } nie akceptuje -l
