@@ -79,7 +79,7 @@ test-error-unknown-operator = operador desconocido { $operator }
 test-error-invalid-integer = entero no válido { $value }
 test-error-unary-operator-expected = { $operator }: se esperaba operador unario
 test-diag-label-unary-operator-expected = esto necesita una expresión a ambos lados
-test-diag-help-integer-op = -eq, -ne, -lt, -le, -gt y -ge comparan enteros; use =, {"!"}=, {"<"} o {">"} para comparar cadenas
+test-diag-help-integer-op = -eq, -ne, -lt, -le, -gt y -ge comparan enteros; use =, { "!" }=, { "<" } o { ">" } para comparar cadenas
 test-diag-help-integer-op-mnemonics = -eq igual, -ne distinto, -lt menor que, -le menor o igual que, -gt mayor que, -ge mayor o igual que
 test-diag-help-file-descriptor = -t toma un número de descriptor de archivo: 0 es la entrada estándar, 1 la salida estándar, 2 el error estándar
 test-diag-help-missing-argument = una variable no definida o vacía se expande a nada, dejando al operador sin operando; entrecomíllela como "$var"
