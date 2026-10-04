@@ -23,7 +23,7 @@ ln-help-verbose = 输出每个链接文件的名称
 ln-error-target-is-not-directory = 目标 {$target} 不是目录
 ln-error-same-file = {$file1} 和 {$file2} 是同一个文件
 ln-error-missing-destination = {$operand} 后缺少目标文件操作数
-ln-error-extra-operand = 额外操作数 {$operand}
+ln-error-extra-operand = 多余的操作数 {$operand}
   请尝试运行“{$program} --help”以获取更多信息。
 ln-error-could-not-update = 无法更新 {$target}：{$error}
 ln-error-will-not-overwrite = 不会用 {$source} 覆盖刚创建的 {$target}
