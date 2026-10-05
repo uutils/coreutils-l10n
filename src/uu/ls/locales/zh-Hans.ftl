@@ -114,7 +114,6 @@ ls-help-full-time = 相当于 -l --time-style=full-iso
 ls-help-context = 输出每个文件的安全上下文（如果有）
 ls-help-group-directories-first = 将目录排在文件之前；可通过 --sort 选项进一步调整，
   但使用 --sort=none（-U）会禁用分组
-ls-invalid-quoting-style = {$program}：忽略环境变量 QUOTING_STYLE 的无效值：“{$style}”
 ls-invalid-columns-width = 忽略环境变量 COLUMNS 中的无效宽度：{$width}
 ls-invalid-ignore-pattern = 用于忽略的模式无效：{$pattern}
 ls-invalid-hide-pattern = 用于隐藏的模式无效：{$pattern}
