@@ -37,6 +37,7 @@ mv-error-dangling-symlink = 无法确定符号链接类型，因为它是悬垂�
 mv-error-no-symlink-support = 操作系统不支持符号链接
 mv-error-permission-denied = 权限被拒绝
 mv-error-inter-device-move-failed = 跨设备移动失败：{$from} 到 {$to}；无法删除目标：{$err}
+mv-error-setting-attribute = 设置属性 {$name}：{$err}
 mv-error-exchange-two-operands = --exchange 需要两个操作数
 mv-error-exchange-not-supported = 此平台不支持 --exchange
 
