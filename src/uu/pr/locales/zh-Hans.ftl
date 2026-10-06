@@ -27,7 +27,7 @@ pr-help-omit-pagination =
   忽略页眉和页尾，并取消由输入文件中的换页符产生的分页
 pr-help-page-length =
   覆盖 66 行的默认页面长度（默认文本行数为 56，使用 -F 时为 63），
-  将页面长度重置为 PAGE_LENGTH 行。如果它小于等于眉和页尾之和，
+  将页面长度重置为 PAGE_LENGTH 行。如果它小于等于页眉和页尾之和，
   则 pr 会同时省略页眉和页尾，效果如同指定了 -t 选项。
 pr-help-no-file-warnings = 无法打开文件时不显示警告
 pr-help-form-feed =
@@ -51,8 +51,8 @@ pr-help-column-char-separator =
   使用单个字符 char 分隔文本列，而不是使用适当数量的 `<space>`（char 的默认值为 `<tab>`）。
 pr-help-column-string-separator =
   使用 STRING 分隔列；
-  不使用 -S 时，默认分隔符为 `<TAB>`；使用 -J 时为 `<space>`，
-  否则等同于 -S" "，对列选项无影响
+  不使用 -S 时，使用 -J 的默认分隔符为 `<TAB>`，否则为 `<space>`
+  （等同于 -S" "）；对列选项无影响
 pr-help-merge =
   合并文件。标准输出的格式应使 pr 将每个文件操作数中的一行并排写入文本列，
   各列具有相同的固定宽度（以列位置数计）。实现至少应支持合并九个文件操作数。
