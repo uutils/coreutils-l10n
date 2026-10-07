@@ -20,3 +20,4 @@ comm-error-input-not-sorted = comm: entrada não está ordenada
 comm-error-is-directory = É um diretório
 comm-error-multiple-conflicting-delimiters = vários delimitadores de saída conflituantes especificados
 comm-total = total
+comm-error-write = erro ao escrever
