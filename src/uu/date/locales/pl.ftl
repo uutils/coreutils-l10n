@@ -111,3 +111,4 @@ date-error-format-missing-plus =
     argument { $arg } nie zawiera znaku '+' na początku;
     w przypadku użycia opcji do określenia dat(y), każdy argument inny niż
     opcja musi być ciągiem formatującym zaczynającym się od znaku '+'
+date-error-setting-date-not-supported-wasi = ustawianie daty nie jest obsługiwane przez WASI.
