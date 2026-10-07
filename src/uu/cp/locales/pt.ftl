@@ -60,7 +60,7 @@ cp-error-reflink-not-supported = --reflink é apoiado apenas no Linux e no macOS
 cp-error-sparse-not-supported = --sparse só é apoiado no Linux
 cp-error-not-a-directory = { $path } não é um diretório
 cp-error-selinux-not-enabled = SELinux não foi ativado durante o tempo de compilação!
-cp-error-selinux-set-context = falha ao definir o contexto de segurança de { $path }: { $error }
+cp-error-selinux-set-context = falha ao definir o contexto de segurança de { $path }
 cp-error-selinux-get-context = falha ao obter o contexto de segurança de { $path }
 cp-error-selinux-error = Erro SELinux: { $error }
 cp-error-cannot-create-fifo = não pode criar fifo { $path }: o ficheiro existe
@@ -84,19 +84,22 @@ cp-prompt-overwrite = substituir { $path }?
 cp-prompt-overwrite-with-mode = substituir { $path }, modo de substituição
 cp-error-cannot-stat = não pode fazer stat em { $source }: nenhum ficheiro ou diretório desses
 cp-after-help =
-    Não copiar um ficheiro que não seja um diretório e que tenha um destino existente com o mesmo carimbo de data/hora de modificação ou mais recente;
-    em vez disso, ignore silenciosamente o ficheiro sem falhar. Se os carimbos de data/hora forem preservados, a comparação é feita com o
-    carimbo de data/hora de origem truncado para as resoluções do sistema de ficheiros de destino e das chamadas de sistema usadas para
-    atualizar os carimbos de data/hora; isso evita trabalho duplicado se vários comandos cp -pu forem executados com a mesma fonte
-    e destino. Esta opção é ignorada se a opção -n ou --no-clobber também for especificada. Além disso, se
-    --preserve=links também for especificada (como com cp -au, por exemplo), ela terá precedência; consequentemente,
-    dependendo da ordem em que os ficheiros são processados a partir da origem, os ficheiros mais recentes no destino podem ser substituídos,
-    para espelhar ligações físicas na origem, o que dá mais controlo sobre quais os ficheiros existentes no destino que são
-    substituídos, e o seu valor pode ser um dos seguintes:
+    Não copiar um ficheiro (que não seja uma pasta) que tenha um destino existente com um mesmo ou mais recente
+    registo do tempo de modificação; em vez disso, ignorar silenciosamente o ficheiro sem falhar. Se os registros do tempo
+    forem preservados, a comparação é feita com o registro do tempo de origem truncado para as resoluções do
+    sistema de ficheiros de destino e das chamadas de sistema utilizadas para atualizar os registros do tempo; isso evita
+    trabalho duplicado se vários comandos cp -pu forem executados com a mesma fonte e destino. Esta opção é ignorada
+    se a opção -n ou --no-clobber também for especificada. Além disso, se --preserve=links também for especificado
+    (como com cp -au, por exemplo), ele terá precedência; consequentemente, dependendo da ordem em que os ficheiros
+    são processados a partir da origem, os ficheiros mais recentes no destino podem ser substituídos, para espelhar os
+    ligações físicas na origem. o que dá mais controlo sobre quais os ficheiros existentes no destino que são substituídos,
+    e o seu valor pode ser um dos seguintes:
 
-    - all Esta é a operação predefinida quando a opção --update não é especificada e resulta na substituição de todos os ficheiros existentes no destino.
-    - none É semelhante à opção --no-clobber, enquanto nenhum ficheiro no destino é substituído, mas também ignorar um ficheiro não induz uma falha.
-    - older Esta é a operação predefinida quando --update é especificado e resulta na substituição de ficheiros se forem mais antigos do que o ficheiro de origem correspondente.
+    - all: Esta é a operação predefinida quando a opção --update não é especificada e resulta na substituição de todos os ficheiros existentes no destino.
+
+    - none: É semelhante à opção --no-clobber, no sentido de que nenhum ficheiro no destino é substituído, mas também porque ignorar um ficheiro não induz uma falha.
+
+    - older: Esta é a operação predefinida quando --update é especificada e resulta na substituição dos ficheiros se forem mais antigos do que o ficheiro de origem correspondente.
 cp-help-reflink = controlar cópias clonadas/CoW. Veja abaixo
 cp-help-context = como -Z, ou se CTX for especificado, defina o contexto de segurança SELinux ou SMACK para CTX
 cp-error-backing-up-destroy-source = fazer back up de { $dest } pode destruir fonte; { $source } não copiado
@@ -107,3 +110,5 @@ cp-debug-copy-offload = descarregamento de cópias: { $offload }, reflink: { $re
 cp-error-cannot-create-special-file = não é possível criar o ficheiro especial { $path }: { $error }
 cp-error-setting-attributes = a definir atributos para { $path }
 cp-error-selinux-context-conflict = não é possível combinar --context (-Z) com --preserve=context
+cp-error-cannot-create-regular-file = não pode criar o ficheiro normal { $path }
+cp-error-write = erro ao escrever
