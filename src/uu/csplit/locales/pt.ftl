@@ -23,3 +23,7 @@ csplit-warning-line-number-same-as-previous = o número de linha '{ $line_number
 csplit-stream-not-utf8 = o fluxo não contém UTF-8 válido
 csplit-read-error = erro de leitura
 csplit-write-split-not-created = a tentar escrever para uma divisão que não foi criada
+csplit-diag-help-pattern = um esquema é um número de linha N, /REGEXP/[OFFSET] ou %REGEXP%[OFFSET], cada um opcionalmente seguido por { "{" }N{ "}" } ou { "{" }*{ "}" }
+csplit-diag-help-line-number = os números das linhas começam em 1 e não devem diminuir de um esquema para o seguinte
+csplit-diag-help-digits = --digits leva um número decimal de dígitos, como em -n 3
+csplit-diag-help-suffix-format = um formato sufixo é uma conversão printf para um número inteiro não assinado, como em %03u
