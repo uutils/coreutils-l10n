@@ -101,6 +101,7 @@ date-error-invalid-format = 无效格式“{$format}”（{$error}）
 date-error-expected-file-got-directory = 应为文件，实际为目录 {$path}
 date-error-date-overflow = 日期溢出“{$date}”
 date-error-setting-date-not-supported-redox = Redox 不支持设置日期
+date-error-setting-date-not-supported-wasi = WASI 不支持设置日期
 date-error-cannot-set-date = 无法设置日期
 date-error-extra-operand = 多余操作数“{$operand}”
 date-error-write = 写入错误：{$error}
