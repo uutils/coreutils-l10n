@@ -43,3 +43,24 @@ cp-error-option-not-implemented = Taxtiṛt '{ $option }' ur tettwaxdem ara yaka
 cp-error-not-all-files-copied = Mačči akk ifuyla ttwaneɣlen
 cp-error-reflink-always-sparse-auto = `--reflink=always` yezmer ad yettwaseqdac kan akked --sparse=auto
 cp-error-file-exists = { $path }: Afaylu yella
+cp-error-invalid-backup-argument = --backup ur yezmir ara ad yettwaseqdac akked -n neɣ --update=none-fail
+cp-error-reflink-not-supported = --reflink yettusefrak kan deg Linux d macOS
+cp-error-sparse-not-supported = --sparse yettusefrak kan deg Linux
+cp-error-not-a-directory = { $path } mačči d akaram
+cp-error-selinux-not-enabled = SELinux ur yermid ara deg wakud n usefsu!
+cp-error-selinux-set-context = Ur yezmir ara ad isbadu asatal n tɣellist n { $path }
+cp-error-selinux-get-context = Ur yezmir ara ad d-yawi asatal n tɣellist n { $path }
+cp-error-selinux-error = Tuccḍa SELinux: { $error }
+cp-error-selinux-context-conflict = Ur yezmir ara ad yesdukkel --context (-Z) akked --preserve=context
+cp-error-cannot-create-fifo = Ur yezmir ara ad d-isnulfu fifo { $path }: Afaylu yella
+cp-error-cannot-create-special-file = Ur yezmir ara ad d-isnulfu afaylu uzzig { $path }: { $error }
+cp-error-cannot-create-regular-file = Ur yezmir ara ad d-isnulfu afaylu amagnu { $path }
+cp-error-invalid-attribute = Imyerr { $value } d armeɣtu
+cp-error-failed-to-create-whole-tree = Ur yezmir ara ad d-isnulfu aseklu ummid
+cp-error-failed-to-create-directory = Ur yezmir ara ad d-isnulfu akaram: { $error }
+cp-error-backup-format =
+    cp: { $error }
+    Ɛreḍ '{ $exec } --help' i wugar n telɣut.
+cp-error-setting-attributes = Asbadu n yimyaren n { $path }
+cp-error-write = Tuccḍa n tira
+cp-debug-enum-unsupported = Ur yettusefrak ara
