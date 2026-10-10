@@ -1,2 +1,107 @@
 sort-help-help = Вывести справку.
 sort-help-zero-terminated = разделитель строк — NUL, а не перевод строки
+sort-minus-in-stdin = при чтении имен файлов со стандартного ввода имя файла '-' недопустимо
+sort-invalid-zero-length-filename = { $file }:{ $line_num }: неверное имя файла нулевой длины
+sort-invalid-suffix-in-option-arg = неверный суффикс в аргументе --{ $option } { $arg }
+sort-invalid-option-arg = неверный аргумент --{ $option } { $arg }
+sort-option-arg-too-large = аргумент --{ $option } { $arg } слишком велик
+sort-help-version = Вывести информацию о версии.
+sort-diag-label-zero-count = отсчет начинается с 1
+sort-about = Вывести отсортированное объединение всех ФАЙЛОВ. Если ФАЙЛ не указан или равен -, читать стандартный ввод.
+sort-after-help =
+    Формат ключа: ПОЛЕ[.СИМВОЛ][ПАРАМЕТРЫ][,ПОЛЕ[.СИМВОЛ]][ПАРАМЕТРЫ].
+
+    По умолчанию поля разделяются первым пробельным символом после непробельного. Чтобы задать свой разделитель, используйте -t.
+    По умолчанию пробельные символы включаются в начало каждого поля. Заданные разделители в поля не включаются.
+
+    ПОЛЕ и СИМВОЛ отсчитываются с 1. Если после запятой конец не указан, концом считается конец строки.
+    СИМВОЛ, равный 0, означает конец поля. По умолчанию СИМВОЛ равен 1 для начальной позиции и 0 для конечной.
+
+    Допустимые параметры: MbdfhnRrV. Для этого ключа они переопределяют глобальные параметры.
+sort-usage = sort [ПАРАМЕТР]... [ФАЙЛ]...
+sort-help-human-numeric = сравнивать по удобочитаемым размерам, например 1M > 100k
+sort-help-month = сравнивать по сокращенным названиям месяцев
+sort-help-numeric = сравнивать по числовому значению строки
+sort-help-general-numeric = сравнивать по общему числовому значению строки
+sort-help-version-sort = Сортировать по номеру версии SemVer, например 1.12.2 > 1.1.2
+sort-help-random = перемешать в случайном порядке
+sort-help-dictionary-order = учитывать только пробелы и буквенно-цифровые символы
+sort-help-merge = объединить уже отсортированные файлы, не сортируя
+sort-help-check = проверить, отсортирован ли ввод, не сортируя
+sort-help-check-silent = завершиться успешно, если файл уже отсортирован, иначе завершиться с кодом 1.
+sort-help-ignore-case = приводить строчные буквы к заглавным
+sort-help-ignore-nonprinting = игнорировать непечатаемые символы
+sort-help-ignore-leading-blanks = игнорировать начальные пробелы при поиске ключей сортировки в каждой строке
+sort-help-output = записать вывод в FILENAME вместо stdout
+sort-help-reverse = обратить порядок вывода
+sort-help-stable = стабилизировать сортировку, отключив сравнение в крайнем случае
+sort-help-unique = выводить только первую из одинаковых строк
+sort-help-key = сортировать по ключу
+sort-help-separator = свой разделитель для -k
+sort-help-parallel = изменить число одновременно работающих потоков на NUM_THREADS
+sort-help-buf-size = задать максимальный РАЗМЕР каждого сегмента в числе сортируемых элементов
+sort-help-tmp-dir = использовать КАТАЛОГ для временных файлов вместо $TMPDIR или /tmp
+sort-help-compress-prog = сжимать временные файлы программой PROG, распаковывать — PROG -d; PROG должна читать stdin и писать в stdout
+sort-help-batch-size = Объединять не более N_MERGE входов за раз.
+sort-help-files0-from = читать ввод из файлов, имена которых перечислены через NUL в NUL_FILE
+sort-help-debug = подчеркивать части строки, которые действительно используются для сортировки
+sort-help-random-source = использовать ФАЙЛ как источник случайных данных
+sort-diag-help-key-syntax = ключ имеет вид ПОЛЕ[.СИМВОЛ][ПАРАМЕТРЫ][,ПОЛЕ[.СИМВОЛ][ПАРАМЕТРЫ]], например -k2.3,4nr
+sort-parse-key-error = не удалось разобрать ключ { $key }: { $msg }
+sort-error-disorder = { $file }:{ $line_number }: нарушение порядка: { $line }
+sort-error-buffer-size-too-big = Размер буфера { $size } не помещается в адресное пространство
+sort-error-no-match-for-key = ^ нет совпадения для ключа
+sort-error-write-failed = ошибка записи: { $output }
+sort-open-failed = не удалось открыть: { $path }: { $error }
+sort-cannot-read = невозможно прочитать: { $path }: { $error }
+sort-open-tmp-file-failed = не удалось открыть временный файл: { $error }
+sort-compress-prog-execution-failed = не удалось запустить программу сжатия '{ $prog }': { $error }
+sort-compress-prog-terminated-abnormally = программа { $prog } завершилась аварийно
+sort-cannot-create-tmp-file = невозможно создать временный файл в { $path }:
+sort-multiple-output-files = указано несколько выходных файлов
+sort-no-input-from = нет ввода из { $file }
+sort-options-incompatible = параметры '-{ $opt1 }{ $opt2 }' несовместимы
+sort-invalid-key = неверный ключ { $key }
+sort-failed-parse-field-index = не удалось разобрать индекс поля { $field } { $error }
+sort-field-index-cannot-be-zero = индекс поля не может быть 0
+sort-failed-parse-char-index = не удалось разобрать индекс символа { $char }: { $error }
+sort-invalid-option = неверный параметр: '{ $option }'
+sort-invalid-batch-size-arg = неверный аргумент --batch-size '{ $arg }'
+sort-minimum-batch-size-two = минимальный аргумент --batch-size — '2'
+sort-batch-size-too-large = аргумент --batch-size { $arg } слишком велик
+sort-maximum-batch-size-rlimit = максимальный аргумент --batch-size при текущем rlimit — { $rlimit }
+sort-extra-operand-not-allowed-with-c = лишний операнд { $operand } недопустим с -c
+sort-separator-not-valid-unicode = разделитель не является допустимым Unicode: { $arg }
+sort-separator-must-be-one-char = разделитель должен состоять ровно из одного символа: { $separator }
+sort-only-one-file-allowed-with-c = с -c допустим только один файл
+sort-failed-fetch-rlimit = Не удалось получить rlimit
+sort-failed-to-delete-temporary-directory = не удалось удалить временный каталог: { $error }
+sort-failed-to-set-up-signal-handler = не удалось установить обработчик сигнала: { $error }
+sort-invalid-field-spec = { $msg }: неверная спецификация поля { $spec }
+sort-invalid-count-at-start-of = неверное число в начале { $string }
+sort-invalid-number-at-field-start = неверное число в начале поля
+sort-invalid-number-after-dash = неверное число после '-'
+sort-invalid-number-after-dot = неверное число после '.'
+sort-invalid-number-after-comma = неверное число после ','
+sort-field-number-is-zero = номер поля равен нулю
+sort-character-offset-is-zero = смещение символа равно нулю
+sort-stray-character-field-spec = лишний символ в спецификации поля
+sort-warning-failed-to-set-locale = не удалось установить локаль
+sort-warning-simple-byte-comparison = текст упорядочивается простым побайтовым сравнением
+sort-warning-sort-rule = текст упорядочивается по правилам сортировки ‘{ $locale }’
+sort-warning-key-zero-width = ключ { $key } имеет нулевую ширину и будет проигнорирован
+sort-warning-key-numeric-spans-fields = ключ { $key } числовой и охватывает несколько полей
+sort-warning-leading-blanks-significant = начальные пробелы в ключе { $key } значимы; попробуйте также указать 'b'
+sort-warning-numbers-use-decimal-point = в этой локали числа используют '.' как десятичный разделитель
+sort-warning-options-ignored = параметры '-{ $options }' игнорируются
+sort-warning-option-ignored = параметр '-{ $option }' игнорируется
+sort-warning-option-reverse-last-resort = параметр '-r' применяется только к сравнению в крайнем случае
+sort-warning-obsolescent-key = используется устаревший ключ '{ $key }'; лучше '-k { $replacement }'
+sort-warning-separator-grouping = разделитель полей '{ $sep }' в числах считается разделителем групп разрядов
+sort-warning-separator-decimal = разделитель полей '{ $sep }' в числах считается десятичным разделителем
+sort-warning-separator-minus = разделитель полей '{ $sep }' в числах считается знаком минус
+sort-warning-separator-plus = разделитель полей '{ $sep }' в числах считается знаком плюс
+sort-diag-label-missing-count = здесь ожидается число
+sort-random-source-end-of-file = { $path }: конец файла
+sort-read-failed = не удалось выполнить чтение: { $error }
+sort-truncate-failed = не удалось усечь: { $path }: { $error }
