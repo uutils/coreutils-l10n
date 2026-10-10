@@ -5,3 +5,5 @@ chown-help-quiet = подавлять большинство сообщений 
 chown-help-changes = как --verbose, но сообщать только при внесении изменений
 chown-help-verbose = выводить диагностику для каждого обработанного файла
 chown-error-invalid-group = неверная группа: { $group }
+chown-help-preserve-root = отказываться рекурсивно обрабатывать '/'
+chown-help-no-preserve-root = не обрабатывать '/' особым образом (по умолчанию)
