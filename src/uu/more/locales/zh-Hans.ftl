@@ -2,9 +2,8 @@ more-about = 显示文本文件的内容
 more-usage = more [OPTIONS] FILE...
 
 # Error messages
-more-error-is-directory = {$path} 是一个目录。
-more-error-cannot-open-no-such-file = 无法打开 { $path }：文件或目录不存在
-more-error-cannot-open-io-error = 无法打开 {$path}：{$error}
+more-error-is-directory = {$path}：是一个目录
+more-error-cannot-open = 无法打开 {$path}：{$error}
 more-error-bad-usage = 用法错误
 more-error-cannot-seek-to-line = 无法跳转到第 {$line} 行
 more-error-pattern-not-found = 未找到模式
