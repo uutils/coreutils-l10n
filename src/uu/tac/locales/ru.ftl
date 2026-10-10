@@ -1,0 +1,9 @@
+tac-usage = tac [ПАРАМЕТР]... [ФАЙЛ]...
+tac-about = Вывести каждый файл в стандартный вывод, начиная с последней строки.
+tac-help-before = присоединять разделитель перед строкой, а не после
+tac-help-regex = интерпретировать разделитель как регулярное выражение
+tac-help-separator = использовать СТРОКУ как разделитель вместо перевода строки
+tac-error-invalid-regex = неверное регулярное выражение: { $error }
+tac-error-read-error = { $filename }: ошибка чтения: { $error }
+tac-error-write-error = не удалось записать в stdout: { $error }
+tac-error-open-error = не удалось открыть { $filename } для чтения: { $error }
