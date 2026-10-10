@@ -1,0 +1,13 @@
+pathchk-error-posix-path-length-exceeded = длина { $length } имени файла { $path } превышает предел { $limit }
+pathchk-error-posix-name-length-exceeded = длина { $length } компонента имени файла { $component } превышает предел { $limit }
+pathchk-error-path-length-exceeded = длина { $length } имени файла { $path } превышает предел { $limit }
+pathchk-error-name-length-exceeded = длина { $length } компонента имени файла { $component } превышает предел { $limit }
+pathchk-usage = pathchk [ПАРАМЕТР]... ИМЯ...
+pathchk-about = Проверить, допустимы ли имена файлов и переносимы ли они
+pathchk-help-posix = проверять для большинства систем POSIX
+pathchk-help-posix-special = проверять на пустые имена и начальный "-"
+pathchk-help-portability = проверять для всех систем POSIX (эквивалентно -p -P)
+pathchk-error-empty-file-name = пустое имя файла
+pathchk-error-leading-hyphen = дефис в начале компонента имени файла { $component }
+pathchk-error-empty-path-not-found = '': Нет такого файла или каталога
+pathchk-error-nonportable-character = непереносимый символ '{ $character }' в компоненте имени файла { $component }
