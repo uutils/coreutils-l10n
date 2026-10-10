@@ -1,0 +1,9 @@
+mkfifo-help-context = как -Z, а если указан CTX, установить контекст безопасности SELinux или SMACK в CTX
+mkfifo-error-non-file-permission = режим должен задавать только биты прав доступа к файлу
+mkfifo-usage = mkfifo [ПАРАМЕТР]... ИМЯ...
+mkfifo-about = Создать FIFO с указанным именем.
+mkfifo-help-mode = права доступа для именованного канала
+mkfifo-help-selinux = установить контекст безопасности SELinux в тип по умолчанию
+mkfifo-error-invalid-mode = неверный режим: { $error }
+mkfifo-error-cannot-create-fifo = невозможно создать именованный канал { $path }: { $error }
+mkfifo-error-cannot-set-permissions = невозможно установить права доступа для { $path }: { $error }
