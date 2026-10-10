@@ -1,0 +1,13 @@
+sync-usage = sync [ПАРАМЕТР]... ФАЙЛ...
+sync-about = Сбросить кэшированные записи на постоянный носитель
+sync-help-file-system = синхронизировать файловые системы, содержащие файлы (только Linux и Windows)
+sync-help-data = синхронизировать только данные файлов, без ненужных метаданных (только Linux)
+sync-error-data-needs-argument = --data требует хотя бы одного аргумента
+sync-error-opening-file = ошибка открытия { $file }: { $err }
+sync-error-no-such-file = ошибка открытия { $file }: Нет такого файла или каталога
+sync-error-flush-file-buffer = не удалось сбросить файловый буфер
+sync-error-create-volume-handle = не удалось создать дескриптор тома
+sync-error-find-first-volume = не удалось найти первый том
+sync-error-find-next-volume = не удалось найти следующий том
+sync-error-syncing-file = ошибка синхронизации { $file }
+sync-warning-fcntl-failed = предупреждение: не удалось сбросить флаг O_NONBLOCK для { $file }: { $error }
