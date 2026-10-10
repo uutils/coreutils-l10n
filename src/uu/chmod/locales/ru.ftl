@@ -6,13 +6,13 @@ chmod-usage =
     chmod [ПАРАМЕТР]… ВОСЬМЕРИЧНЫЙ-РЕЖИМ ФАЙЛ…
     chmod [ПАРАМЕТР]… --reference=РФАЙЛ ФАЙЛ…
 chmod-after-help = Каждый РЕЖИМ задаётся в форме [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+.
-chmod-error-permission-denied = { $file }: Доступ запрещен
+chmod-error-permission-denied = невозможно получить доступ к { $file }: Доступ запрещен
 chmod-error-missing-operand = отсутствует операнд
 chmod-help-print-help = Вывести справку.
 chmod-help-recursive = изменить файлы и каталоги рекурсивно
 chmod-error-cannot-stat = невозможно определить атрибуты { $file }
 chmod-error-dangling-symlink = невозможно выполнить операцию с висящей символьной ссылкой { $file }
-chmod-error-no-such-file = невозможно получить доступ к { $file }: Такого файла или каталога не существует
+chmod-error-no-such-file = невозможно получить доступ к { $file }: Нет такого файла или каталога
 chmod-error-preserve-root =
     опасно выполнять рекурсивные операции над { $file }
     chmod: используйте --no-preserve-root, чтобы отменить эту меру безопасности
@@ -31,3 +31,4 @@ chmod-verbose-mode-changed = режим { $file } изменен с { $old_mode 
 chmod-error-preserve-root-same-as =
     опасно выполнять рекурсивные операции над { $file } (то же, что и '/')
     chmod: используйте --no-preserve-root, чтобы отменить эту меру безопасности
+chmod-error-changing-permissions = не удалось изменить права доступа к { $file }: { $err }
