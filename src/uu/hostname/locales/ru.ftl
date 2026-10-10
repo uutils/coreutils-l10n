@@ -1,0 +1,12 @@
+hostname-usage = hostname [ПАРАМЕТР]... [ИМЯ_ХОСТА]
+hostname-about = Вывести или задать имя хоста системы.
+hostname-help-domain = Вывести имя домена DNS, если возможно
+hostname-help-ip-address = Вывести сетевые адреса хоста
+hostname-help-fqdn = Вывести FQDN (полное доменное имя) (по умолчанию)
+hostname-help-short = Вывести короткое имя хоста (часть до первой точки), если возможно
+hostname-error-permission = hostname: чтобы изменить имя хоста, нужны права root
+hostname-error-invalid-name = hostname: неверное имя хоста '{ $name }'
+hostname-error-resolve-failed = hostname: невозможно разрешить имя хоста '{ $name }'
+hostname-error-set-hostname = не удалось задать имя хоста
+hostname-error-get-hostname = не удалось получить имя хоста
+hostname-error-resolve-socket = не удалось разрешить адреса сокетов
