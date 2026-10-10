@@ -11,3 +11,6 @@ cp-help-no-clobber = не перезаписывать существующие 
 cp-help-recursive = копировать каталоги рекурсивно
 cp-help-debug = объяснить, как будет скопирован файл. Подразумевает -v
 cp-help-symbolic-link = создавать символ. ссылки вместо полных копий
+cp-error-write = ошибка записи
+cp-error-extra-operand = лишний операнд { $operand }
+cp-error-missing-file-operand = отсутствует файловый операнд
