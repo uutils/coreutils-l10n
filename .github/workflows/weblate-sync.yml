@@ -56,7 +56,9 @@ jobs:
       run: |
         # `wlc pull` makes Weblate rebase its component repositories onto this
         # repo's main branch. hosted.weblate.org tends to drop the connection
-        # (RemoteDisconnected) mid-operation, so retry a few times.
+        # (RemoteDisconnected, 502) or answer 423 while another operation holds
+        # the repository lock, so retry a few times. Retrying does not help a
+        # real rebase conflict; that one fails every attempt.
         #
         # Do not fall back to `wlc reset`. It discards Weblate's local commits
         # and pending changes and re-reads the translations from the files, so
@@ -70,8 +72,10 @@ jobs:
             if wlc pull rust-coreutils; then
               return 0
             fi
-            echo "::warning::wlc pull failed (attempt ${attempt}); retrying"
-            sleep $((attempt * 15))
+            echo "::warning::wlc pull failed (attempt ${attempt})"
+            if [ "$attempt" -lt 5 ]; then
+              sleep $((attempt * 15))
+            fi
           done
           echo "::error::wlc pull still failing after ${attempt} attempts; resolve the merge in Weblate without discarding translations"
           return 1
