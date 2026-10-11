@@ -1,5 +1,5 @@
-chown-about = Изменение владельца файла и группы
-chown-error-invalid-spec = некорректная спецификация: { $spec }
+chown-about = Изменить владельца и группу файла
+chown-error-invalid-spec = неверная спецификация: { $spec }
 chown-help-print-help = Вывести справку.
 chown-help-quiet = подавлять большинство сообщений об ошибках
 chown-help-changes = как --verbose, но сообщать только при внесении изменений
