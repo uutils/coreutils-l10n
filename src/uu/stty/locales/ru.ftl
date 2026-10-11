@@ -1,0 +1,16 @@
+stty-usage =
+    stty [-F УСТРОЙСТВО | --file=УСТРОЙСТВО] [НАСТРОЙКА]...
+    или:  stty [-F УСТРОЙСТВО | --file=УСТРОЙСТВО] [-a|--all]
+    или:  stty [-F УСТРОЙСТВО | --file=УСТРОЙСТВО] [-g|--save]
+stty-about = Вывести или изменить параметры терминала.
+stty-error-options-mutually-exclusive = параметры подробного вывода и вывода в формате stty взаимоисключающие
+stty-error-output-style-no-modes = при указании стиля вывода нельзя задавать режимы
+stty-error-missing-argument = отсутствует аргумент для '{ $arg }'
+stty-error-invalid-argument = неверный аргумент '{ $arg }'
+stty-error-invalid-integer-argument = неверный целочисленный аргумент: { $value }
+stty-error-invalid-integer-argument-value-too-large = неверный целочисленный аргумент: { $value }: Значение слишком велико для заданного типа данных
+stty-option-all = вывести все текущие настройки в удобочитаемом виде
+stty-option-save = вывести все текущие настройки в виде, понятном stty
+stty-option-file = открыть и использовать указанное УСТРОЙСТВО вместо stdin
+stty-option-settings = настройки для изменения
+stty-error-invalid-speed = неверное значение { $arg } '{ $speed }'
