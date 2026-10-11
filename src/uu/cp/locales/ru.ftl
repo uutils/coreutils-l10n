@@ -3,14 +3,14 @@ cp-usage =
     cp [ПАРАМЕТР]... [-T] ИСТОЧНИК НАЗНАЧ
     cp [ПАРАМЕТР]... ИСТОЧНИК... КАТАЛОГ
     cp [ПАРАМЕТР]... -t КАТАЛОГ ИСТОЧНИК...
-cp-help-no-target-directory = Принять НАЗНАЧ как обычный файл, не каталог
-cp-help-target-directory = копировать все аргументы SOURCE в каталог назначения
+cp-help-no-target-directory = Считать НАЗНАЧ обычным файлом, а не каталогом
+cp-help-target-directory = копировать все аргументы ИСТОЧНИК в каталог назначения
 cp-help-interactive = подтверждать перезапись файлов
 cp-help-link = создавать жёсткие ссылки вместо полных копий
 cp-help-no-clobber = не перезаписывать существующие файлы
 cp-help-recursive = копировать каталоги рекурсивно
 cp-help-debug = объяснить, как будет скопирован файл. Подразумевает -v
-cp-help-symbolic-link = создавать символ. ссылки вместо полных копий
+cp-help-symbolic-link = создавать символические ссылки вместо полных копий
 cp-error-write = ошибка записи
 cp-error-extra-operand = лишний операнд { $operand }
 cp-error-missing-file-operand = отсутствует файловый операнд
@@ -96,3 +96,21 @@ cp-error-selinux-context-conflict = нельзя сочетать --context (-Z)
 cp-error-cannot-create-special-file = невозможно создать специальный файл { $path }: { $error }
 cp-error-setting-attributes = не удалось установить атрибуты { $path }
 cp-error-cannot-create-regular-file = невозможно создать обычный файл { $path }
+cp-error-backup-format =
+    cp: { $error }
+    Для получения дополнительной информации используйте '{ $exec } --help'.
+cp-warning-source-specified-more-than-once =
+    { $file_type ->
+        [directory] исходный каталог { $source } указан более одного раза
+       *[other] исходный файл { $source } указан более одного раза
+    }
+cp-debug-enum-no = нет
+cp-debug-enum-yes = да
+cp-debug-enum-avoided = не применялось
+cp-debug-enum-unsupported = не поддерживается
+cp-debug-enum-unknown = неизвестно
+cp-debug-enum-zeros = нули
+cp-debug-enum-seek-hole-zeros = SEEK_HOLE + нули
+cp-debug-copy-offload = разгрузка копирования: { $offload }, reflink: { $reflink }, обнаружение разреженности: { $sparse }
+cp-prompt-overwrite = перезаписать { $path }?
+cp-prompt-overwrite-with-mode = заменить { $path }, несмотря на режим доступа
