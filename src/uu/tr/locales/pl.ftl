@@ -45,3 +45,4 @@ tr-diag-help-char-class = klasami są alnum, alpha, blank, cntrl, digit, graph, 
 tr-diag-help-equivalence = { "[" }=c=] oznacza każdy znak równoważny c
 tr-diag-help-repeat = { "[" }c*N] powtarza c N razy, [c*] uzupełnia ZESTAW2 do długości ZESTAW1
 tr-diag-help-backwards-range = zakres rozciąga się od znaku niższego do wyższego, jak w a-z
+tr-help-unbuffered = nie buforuj danych wyjściowych
