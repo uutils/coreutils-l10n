@@ -1,3 +1,4 @@
-whoami-about = Вывод имени текущего пользователя.
+whoami-about = Вывести имя текущего пользователя.
 whoami-error-failed-to-print = не удалось вывести имя пользователя
 whoami-error-failed-to-get = не удалось получить имя пользователя
+whoami-usage = whoami
