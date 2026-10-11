@@ -62,7 +62,7 @@ numfmt-diag-help-unit = --from и --to принимают none, si, iec или i
 numfmt-diag-help-unit-size = размер единицы — это число, множитель K, M, G, T, P или E или и то и другое, например 512, K или 2Ki
 numfmt-diag-help-padding = --padding принимает ненулевое целое число; отрицательное выравнивает по левому краю, например --padding=-10
 numfmt-diag-help-header = --header принимает число начальных строк, которые передаются без изменений, не меньше 1
-numfmt-diag-help-input-no-from = без --from число должно быть простым; --from=auto понимает суффиксы K, M или Gi
+numfmt-diag-help-input-no-from = без --from число не может иметь суффикса; --from=auto понимает суффиксы K, M или Gi
 numfmt-diag-help-input-suffixes = суффиксы: K, M, G, T, P, E, Z, Y, R и Q, с необязательным i при --from=auto или iec-i
 numfmt-error-unsupported-unit = Указана неподдерживаемая единица
 numfmt-error-invalid-unit-size = неверный размер единицы: { $size }
