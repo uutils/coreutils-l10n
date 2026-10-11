@@ -1,11 +1,11 @@
-test-about = Проверяет типы файлов и сравнивает значения.
+test-about = Проверить типы файлов и сравнить значения.
 test-error-unary-operator-expected = { $operator }: ожидается унарный оператор
-test-error-missing-closing-bracket = пропущены '{ "]" }'
-test-error-invalid-integer = не целое число { $value }
+test-error-missing-closing-bracket = отсутствует '{ "]" }'
+test-error-invalid-integer = неверное целое число { $value }
 test-error-expected = ожидается { $value }
 test-error-expected-value = ожидалось значение
 test-error-missing-argument = отсутствует аргумент после { $argument }
-test-error-extra-argument = дополнительный аргумент { $argument }
+test-error-extra-argument = лишний аргумент { $argument }
 test-error-unknown-operator = неизвестный оператор { $operator }
 test-usage =
     test ВЫРАЖЕНИЕ
