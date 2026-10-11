@@ -30,3 +30,19 @@ tr-warning-invalid-utf8 = неверная последовательность 
 tr-diag-label-backwards-range = возможно, имелось в виду '{ $suggestion }'?
 tr-diag-label-set1-longer-set2-ends-in-class = этот набор длиннее НАБОРА2
 tr-diag-label-complement-more-than-one-unique = дополнение можно заменить только одним символом
+tr-help-unbuffered = не буферизовать вывод
+tr-error-missing-operand-translating =
+    отсутствует операнд после { $set }
+    При замене нужно указать две строки.
+tr-error-missing-operand-deleting-squeezing =
+    отсутствует операнд после { $set }
+    При одновременном удалении и сжатии повторов нужно указать две строки.
+tr-error-extra-operand-deleting-without-squeezing =
+    лишний операнд { $operand }
+    При удалении без сжатия повторов можно указать только одну строку.
+tr-error-set1-longer-set2-ends-in-class =
+    при замене, когда string1 длиннее string2,
+    string2 не должна оканчиваться классом символов
+tr-error-complement-more-than-one-unique =
+    при замене с дополнением классов символов
+    string2 должна отображать все символы области определения в один символ
