@@ -80,3 +80,30 @@ cp-verbose-removed = Yettwakkes { $path }
 cp-debug-copy-offload = Asiweḍ n umahil n unɣal: { $offload }, reflink: { $reflink }, tifin n yilmawen: { $sparse }
 cp-prompt-overwrite = Semselsi { $path }?
 cp-prompt-overwrite-with-mode = Semselsi { $path }, s uzgal n uskar
+cp-about = Nɣel AƔBALU ɣer TƔERWAḌT, neɣ aṭas n yiɣbula ɣer UKARAM.
+cp-usage =
+    cp [TAXTIṚT]... [-T] AƔBALU TAƔERWAḌT
+    cp [TAXTIṚT]... AƔBALU... AKARAM
+    cp [TAXTIṚT]... -t AKARAM AƔBALU...
+cp-help-target-directory = Nɣel meṛṛa tiɣirtin s yisem AƔBALU ɣer ukaram anican
+cp-help-no-target-directory = Ḥseb TAƔERWAḌT d afaylu amagnu, mačči d akaram
+cp-help-interactive = Suter asentem uqbel asemselsi n yifuyla
+cp-help-link = Snulfu-d iseɣwan iqquranen deg umḍiq n unɣal
+cp-help-no-clobber = Ur semselsi ara afaylu yellan yakan
+cp-help-recursive = Nɣel ikaramen s wudem asnalas
+cp-after-help =
+    Ur nɣel ara afaylu ur nelli ara d akaram ma taɣerwaḍt-is tella yakan u tesɛa azemzakud n usnifel kifkif neɣ amaynut ugar;
+    deg umḍiq-is, zgel afaylu s tsusmi, war tuccḍa. Ma izemzakuden ttwaḥerzen, aserwes yettili akked
+    uzemzakud n uɣbalu i wumi tettwagem tefsna ilmend n tefsna n unagraw n ifuyla n tɣerwaḍt d tin n tɣriyin n unagraw
+    yettwaseqdacen i uleqqem n yizemzakuden; aya yettḥadar asisleg n umahil ma aṭas n tladna cp -pu ttwaselkament s yiwen n uɣbalu
+    d yiwet n tɣerwaḍt. Taxtiṛt-a tettwazgal ma taxtiṛt -n neɣ --no-clobber tettwabder daɣen. Daɣen, ma
+    --preserve=links yettwabder daɣen (am cp -au, d amedya), ad yesɛu tazwart; ihi,
+    ilmend n umizwer n usesfer n yifuyla seg uɣbalu, ifuyla imaynuten ugar deg tɣerwaḍt zemren ad ttwasemselsin,
+    akken ad d-ttwalsen iseɣwan iqquranen yellan deg uɣbalu. Taxtiṛt-a tettak ugar n usenqed ɣef yifuyla yellan yakan deg tɣerwaḍt
+    ara yettwasemselsin, u azal-is yezmer ad yili d yiwen seg wigi:
+
+    - all: D tamahelt tamezwert ma taxtiṛt --update ur tettwabder ara; meṛṛa ifuyla yellan yakan deg tɣerwaḍt ad ttwasemselsin.
+
+    - none: Tettak-d agmuḍ am taxtiṛt --no-clobber: ulac afaylu deg tɣerwaḍt ara yettwasemselsin, u azgal n ufaylu ur d-yeggar ara tuccḍa.
+
+    - older: D tamahelt tamezwert ma --update yettwabder; ifuyla ad ttwasemselsin ma llan d iqburen ugar ɣef yifuyla n uɣbalu i ten-icuban.
