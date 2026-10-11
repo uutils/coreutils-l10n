@@ -1,1 +1,10 @@
 cat-usage = cat [TAXTIṚT]... [AFAYLU]...
+cat-help-show-all = D agdazal n -vET
+cat-help-number-nonblank = Suṭṭen izirigen n tuffɣa ur nelli ara d ilmawen; semselsi taxtiṛt -n
+cat-help-show-nonprinting-ends = D agdazal n -vE
+cat-help-show-ends = Sken $ deg taggara n yal izirig
+cat-help-number = Suṭṭen meṛṛa izirigen n tuffɣa
+cat-help-squeeze-blank = Kkes izirigen ilmawen yettwalsen deg tuffɣa
+cat-help-show-nonprinting-tabs = D agdazal n -vT
+cat-help-show-tabs = Sken isekkilen TAB s talɣa ^I
+cat-help-show-nonprinting = Seqdec tira s ^ d M-, anagar i LF (\n) d TAB (\t)
