@@ -7,3 +7,4 @@ factor-about =
 factor-help-exponents = Выводить множители в виде p^e
 factor-error-factorization-incomplete = Разложение не завершено. Остались остатки.
 factor-error-reading-input = ошибка чтения ввода: { $error }
+factor-error-invalid-int = не является допустимым положительным целым числом
