@@ -1,14 +1,14 @@
-kill-about = Отправка сигнала процессам или вывод списка информации о сигналах.
+kill-about = Отправить сигнал процессам или вывести сведения о сигналах.
 kill-usage = kill [ПАРАМЕТРЫ]... PID...
-kill-help-list = Показывает список сигналов
-kill-help-table = Показывает таблицу сигналов
-kill-help-signal = Отправляет заданный сигнал вместо SIGTERM
+kill-help-list = Вывести список сигналов
+kill-help-table = Вывести таблицу сигналов
+kill-help-signal = Отправить заданный сигнал вместо SIGTERM
 kill-error-no-process-id =
     не указан ID процесса
-    Для получения доп. информации используйте --help.
+    Для получения дополнительной информации используйте --help.
 kill-error-invalid-signal = { $signal }: неверный сигнал
 kill-error-parse-argument = не удалось проанализировать аргумент { $argument }: { $error }
-kill-error-sending-signal = ошибка отправки сигнала { $pid }
+kill-error-sending-signal = ошибка отправки сигнала процессу { $pid }
 kill-error-write = ошибка записи: { $error }
 kill-after-help-windows =
     Примечания для Windows:
