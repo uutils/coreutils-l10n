@@ -65,3 +65,12 @@ du-error-cannot-open-for-reading = невозможно открыть { $file }
 du-error-printing-thread-panicked = Сбой потока вывода (panic).
 du-verbose-adding-to-exclude-list = добавление { $pattern } в список исключений
 du-warning-apparent-size-ineffective-with-inodes = параметры --apparent-size и -b не действуют вместе с --inodes
+du-error-invalid-time-style =
+    неверный аргумент { $style } для 'time style'
+    Допустимые аргументы:
+      - 'full-iso'
+      - 'long-iso'
+      - 'iso'
+      - +ФОРМАТ (например, +%H:%M) — формат в стиле 'date'
+    Для получения дополнительной информации используйте '{ $help }'.
+du-verbose-ignored = { $path } пропущен
