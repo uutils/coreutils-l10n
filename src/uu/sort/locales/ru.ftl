@@ -34,7 +34,7 @@ sort-help-ignore-nonprinting = игнорировать непечатаемые
 sort-help-ignore-leading-blanks = игнорировать начальные пробелы при поиске ключей сортировки в каждой строке
 sort-help-output = записать вывод в FILENAME вместо stdout
 sort-help-reverse = обратить порядок вывода
-sort-help-stable = стабилизировать сортировку, отключив сравнение в крайнем случае
+sort-help-stable = стабилизировать сортировку, отключив завершающее сравнение строк целиком
 sort-help-unique = выводить только первую из одинаковых строк
 sort-help-key = сортировать по ключу
 sort-help-separator = свой разделитель для -k
@@ -51,7 +51,7 @@ sort-parse-key-error = не удалось разобрать ключ { $key }:
 sort-error-disorder = { $file }:{ $line_number }: нарушение порядка: { $line }
 sort-error-buffer-size-too-big = Размер буфера { $size } не помещается в адресное пространство
 sort-error-no-match-for-key = ^ нет совпадения для ключа
-sort-error-write-failed = ошибка записи: { $output }
+sort-error-write-failed = не удалось выполнить запись: { $output }
 sort-open-failed = не удалось открыть: { $path }: { $error }
 sort-cannot-read = невозможно прочитать: { $path }: { $error }
 sort-open-tmp-file-failed = не удалось открыть временный файл: { $error }
@@ -95,7 +95,7 @@ sort-warning-leading-blanks-significant = начальные пробелы в �
 sort-warning-numbers-use-decimal-point = в этой локали числа используют '.' как десятичный разделитель
 sort-warning-options-ignored = параметры '-{ $options }' игнорируются
 sort-warning-option-ignored = параметр '-{ $option }' игнорируется
-sort-warning-option-reverse-last-resort = параметр '-r' применяется только к сравнению в крайнем случае
+sort-warning-option-reverse-last-resort = параметр '-r' применяется только к завершающему сравнению строк целиком
 sort-warning-obsolescent-key = используется устаревший ключ '{ $key }'; лучше '-k { $replacement }'
 sort-warning-separator-grouping = разделитель полей '{ $sep }' в числах считается разделителем групп разрядов
 sort-warning-separator-decimal = разделитель полей '{ $sep }' в числах считается десятичным разделителем
@@ -105,3 +105,7 @@ sort-diag-label-missing-count = здесь ожидается число
 sort-random-source-end-of-file = { $path }: конец файла
 sort-read-failed = не удалось выполнить чтение: { $error }
 sort-truncate-failed = не удалось усечь: { $path }: { $error }
+sort-file-operands-combined =
+    лишний операнд { $file }
+    файловые операнды нельзя сочетать с --files0-from
+    Для получения дополнительной информации используйте '{ $help } --help'.
