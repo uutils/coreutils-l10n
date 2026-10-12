@@ -88,3 +88,25 @@ ls-help-kibibytes =
      uɣrud n yal akaram
 ls-help-si = Sken tiddi n yifuyla s umasal isehlen i tɣuri, s useqdec n tezmar n 1000 deg umḍiq n tid n 1024.
 ls-help-print-inode = Sken uṭṭun n umatar n yal afaylu
+ls-after-help = Tiɣiret TIME_STYLE tezmer ad tili d full-iso, long-iso, iso, locale neɣ +FORMAT. FORMAT yettwasegza am deg date. Daɣen, amutti n twennaḍt TIME_STYLE yesbadu aɣanib amezwer ara yettwaseqdacen.
+ls-error-invalid-time-style =
+    Tiɣiret { $style } n --time-style d tarmeɣtut
+    Azalen izemren ad ilin:
+      - [posix-]full-iso
+      - [posix-]long-iso
+      - [posix-]iso
+      - [posix-]locale
+      - +FORMAT (amedya, +%H:%M) i umasal s uɣanib n tladna 'date'
+
+    I wugar n telɣut, ɛreḍ --help
+ls-help-ignore-pattern = Ur d-skan ara inekcumen ur d-nettwabder ara s wudem aflalay, yerna yemṣadan akked AZENZIƔ n shell
+ls-help-sort-none =
+    Ur smizzwer ara; sken ifuyla s umizwer i deg ttwaḥerzen deg
+    ukaram. Aya yenfeɛ ladɣa deg uskan n yikaramen meqqren aṭas,
+    acku askan war asmizzwer yezmer ad yili d arurad ugar s wudem iban.
+ls-help-dereference-all =
+    Mi ara teskaneḍ talɣut ufaylu ɣef useɣwen azamulan, sken talɣut ɣef
+    ufaylu i ɣer yeqqen useɣwen deg umḍiq n useɣwen s timmad-is.
+ls-help-dereference-dir-args =
+    Ur ḍeffeṛ ara iseɣwan izamulanen, anagar ma qqnen ɣer yikaramen yerna
+    ttunefken-d d tiɣirtin n yizirig n tladna.
