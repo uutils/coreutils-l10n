@@ -64,6 +64,10 @@ jobs:
             -name 'en-US.ftl' -type f -print0 \
             | xargs -0 git add --
           git commit -m "Sync en-US source locale from upstream uutils/coreutils"
+          # actions/checkout checks out the commit the run was queued for, not
+          # the current main. If Weblate pushed translations while the run
+          # waited, a plain push is rejected as non-fast-forward.
+          git pull --rebase
           # Pushing to main here will trigger weblate-sync.yml (on: push,
           # paths: en-US.ftl), which handles pushing sources to Weblate.
           git push
