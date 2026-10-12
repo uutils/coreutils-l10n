@@ -9,3 +9,4 @@ pinky-shell-label = Shell:
 pinky-project-label = Asenfar:
 pinky-column-login = Qqen
 pinky-login-name-label = Isem n tuqqna:
+pinky-help-help = Siggez talɣut n tallalt
