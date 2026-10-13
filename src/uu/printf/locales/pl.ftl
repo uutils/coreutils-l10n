@@ -1,4 +1,4 @@
-printf-about = Wypisuje dane wyjściowe na podstawie ciągu formatującego i argumentów.
+printf-about = Wypisuje dane wyjściowe na podstawie ciągu formatującego i kolejnych argumentów.
 printf-usage =
     printf FORMAT [ARGUMENT]...
     printf OPCJA
@@ -9,7 +9,7 @@ printf-after-help =
     Wyjście wypisuje literały ze znakami ucieczki w ciągu formatującym jako literały znakowe.
     Wyjście zastępuje pola anonimowe kolejnym nieużywanym argumentem, sformatowanym zgodnie z polem.
 
-    Wypisuje, zastępując sekwencje znaków ze znakami ucieczki literałami znakowymi.
+    Wypisuje ciąg FORMATU, zastępując sekwencje znaków ze znakami ucieczki literałami znakowymi.
     i sekwencje pól podstawiania przekazanymi argumentami.
 
     Dosłownie, z wyjątkiem poniższych
@@ -22,19 +22,19 @@ printf-after-help =
 
       - \" cudzysłów
       - \\ ukośnik odwrotny
-      - \\a znak alarmu (BEL)
-      - \\b backspace
-      - \\c koniec wprowadzania
-      - \\e escape
-      - \\f nowy formularz
-      - \\n nowy wiersz
-      - \\r powrót karetki
-      - \\t tabulator poziomy
-      - \\v tabulator pionowy
-      - \\NNN bajt o wartości wyrażonej w systemie ósemkowym NNN (od 1 do 3 cyfr) wartości większe niż 256 będą traktowane
-      - \\xHH bajt o wartości wyrażonej w systemie szesnastkowym NN (od 1 do 2 cyfr)
-      - \\uHHHH znak Unikodu (IEC 10646) o wartości wyrażonej w systemie szesnastkowym HHHH (4 cyfry)
-      - \\uHHHH znak Unikodu o wartości wyrażonej w systemie szesnastkowym HHHH (8 cyfr)
+      - \a znak alarmu (BEL)
+      - \b backspace
+      - \c koniec wprowadzania
+      - \e escape
+      - \f nowy formularz
+      - \n nowy wiersz
+      - \r powrót karetki
+      - \t tabulator poziomy
+      - \v tabulator pionowy
+      - \NNN bajt o wartości wyrażonej w systemie ósemkowym NNN (od 1 do 3 cyfr) wartości większe niż 256 będą traktowane
+      - \xHH bajt o wartości wyrażonej w systemie szesnastkowym HH (od 1 do 2 cyfr)
+      - \uHHHH znak Unikodu (IEC 10646) o wartości wyrażonej w systemie szesnastkowym HHHH (4 cyfry)
+      - \UHHHHHHHH znak Unikodu o wartości wyrażonej w systemie szesnastkowym HHHHHHHH (8 cyfr)
       - %% pojedynczy %
 
     ZAMIANY
@@ -119,7 +119,7 @@ printf-after-help =
 
         wynosi 22 F w Portland
         wynosi 25 F w Bostonie
-        wynosi 27 F w Bostonie
+        wynosi 27 F w Nowym Jorku
 
     Jeśli wświetlony zostanie ciąg formatujący, ale pozostało mniej argumentów
     niż liczba pól podstawień, pola podstawień bez argumentu będą domyślnie
@@ -141,12 +141,12 @@ printf-after-help =
 
     - %b: ciąg znaków z ukośnikiem – ciąg znaków zostanie sprawdzony pod kątem wszelkich literałów
     z ukośnikiem z powyższej listy literałów z ukośnikiem i przetłumaczony na znaki literału,
-    np. \\n zostanie przekształcony w znak nowej linii.
+    np. \n zostanie przekształcony w znak nowej linii.
     Jedną ze specjalnych zasad dotyczących trybu %b jest to, że literały ósemkowe są interpretowane inaczej.
-    W argumentach przekazywanych przez %b, przekazywane literały interpretowane ósemkowo muszą mieć postać \\0NNN
-    zamiast \\NNN. (Chociaż ze względu na przestarzałe systemy, literały ósemkowe w postaci \\NNN
+    W argumentach przekazywanych przez %b, literały interpretowane ósemkowo muszą mieć postać \0NNN
+    zamiast \NNN. (Chociaż ze względu na przestarzałe systemy, literały ósemkowe w postaci \NNN
     nadal będą interpretowane i nie będą zgłaszać ostrzeżenia, użycie tego w przypadku
-    literału, którego kod zaczyna się od zera, będzie problematyczne, ponieważ będzie on wyświetlany jako w postaci \\0NNN.)
+    literału, którego kod zaczyna się od zera, będzie problematyczne, ponieważ będzie on wyświetlany jako w postaci \0NNN.)
 
     - %q: ciąg ze znakami ucieczki – ciąg w formacie, który może być ponownie użyty jako dane wejściowe przez
     większość powłok. Znaki niedrukowalne są zamieniane na znaki ucieczki za pomocą proponowanej przez
@@ -173,12 +173,12 @@ printf-after-help =
     ZAMIANY W LICZBACH ZMIENNOPRZECIWPRZECIWNYCH
 
     Wszystkie pola zmiennoprzecinkowe mają parametr „maksymalna liczba miejsc dziesiętnych / maksymalna liczba cyfr znaczących”
-    %.10f oznacza liczbę dziesiętną zmiennoprzecinkową z 7 miejscami po 0
+    %.10f oznacza liczbę dziesiętną zmiennoprzecinkową z 10 miejscami po 0
     %.10e oznacza liczbę w notacji naukowej z 10 cyframi znaczącymi
     %.10g oznacza to samo zachowanie dla liczb dziesiętnych i naukowych. Uwaga, odpowiednio, i zapewnia najkrótszy
     z wyników każdej z nich.
 
-    Podobnie jak w przypadku GNU coreutils, wartość po przecinku jest parsowana jako
+    Podobnie jak w przypadku GNU coreutils, wartość po kropce dziesiętnej w tych wynikach jest analizowana jako
     pierwsza wartość typu double przed wyrenderowaniem do postaci tekstu. W przypadku obu implementacji nie należy oczekiwać znaczącej
     precyzji powyżej 18. miejsca po przecinku. Używając liczby miejsc po przecinku wynoszącej 18 lub
     więcej, można spodziewać się różnic w wynikach między printf GNU coreutils a tym printf na poziomie
