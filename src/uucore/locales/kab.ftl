@@ -11,3 +11,4 @@ safe-traversal-directory = <akaram>
 safe-traversal-current-directory = <akaram amiran>
 help-flag-help = Siggez talɣut n tallalt
 help-flag-version = Siggez talɣut n lqem
+smack-error-not-enabled = SMACK ur yermid ara deg unagraw-a
