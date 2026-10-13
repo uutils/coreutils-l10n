@@ -109,6 +109,7 @@ date-error-extra-operand = лишний операнд '{ $operand }'
 date-error-format-modifier-width-too-large = ширина модификатора формата '{ $width }' слишком велика для спецификатора '%{ $specifier }'
 date-error-setting-date-not-supported-wasi = установка даты не поддерживается в WASI
 date-error-format-missing-plus =
-    аргумент { $arg } не начинается с '+';
+    аргумент '{ $arg }' не начинается с '+';
     если дата (даты) задается параметром, любой аргумент, не являющийся
     параметром, должен быть строкой формата, начинающейся с '+'
+date-error-multiple-output-formats = указано несколько форматов вывода
