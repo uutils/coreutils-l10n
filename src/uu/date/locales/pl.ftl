@@ -108,7 +108,8 @@ date-error-extra-operand = dodatkowy operand '{ $operand }'
 date-error-write = błąd zapisu: { $error }
 date-error-format-modifier-width-too-large = modyfikator formatu szerokości '{ $width }' jest zbyt duży dla specyfikatora '%{ $specifier }'
 date-error-format-missing-plus =
-    argument { $arg } nie zawiera znaku '+' na początku;
+    argument '{ $arg }' nie zawiera znaku '+' na początku;
     w przypadku użycia opcji do określenia dat(y), każdy argument inny niż
     opcja musi być ciągiem formatującym zaczynającym się od znaku '+'
 date-error-setting-date-not-supported-wasi = ustawianie daty nie jest obsługiwane przez WASI
+date-error-multiple-output-formats = określono wiele formatów wyjściowych
