@@ -12,7 +12,7 @@ dd-after-help =
     - conv=KONWERSJE: lista opcji konwersji oddzielonych przecinkami lub (ze względu na
        starsze wersje) flagi pliku.
     - count=N: zatrzymauje odczyt danych wejściowych po N operacjach odczytu o rozmiarze
-       ibs, zamiast  kontynuowania odczytu do końca pliku. Zobacz iflag=count_bytes, jeśli
+       ibs, zamiast  kontynuowania odczytu do końca pliku. Zobacz iflag=skip_bytes, jeśli
        zatrzymanie po N bajtach jest preferowane.
     - ibs=N: rozmiar bufora używanego do odczytu (domyślnie: 512)
     - if=PLIK: plik używany do odczytu. Jeśli nie określono, używane jest stdin.
@@ -78,7 +78,7 @@ dd-after-help =
       tylko z zer.
     - swab: zamienia miejscami każdą sąsiednią parę bajtów. Jeśli występuje nieparzysta
       liczba bajtów,ostatni bajt jest pomijany.
-    - sync: uzupełnia każdy blok po stronie ibs zerami. Jeśli określono block lub unblock,
+    - sync: wypełnia zerami każdy blok o rozmiarze ibs. Jeśli określono block lub unblock,
       zamiast tego uzupełniaj spacjami.
     - excl: plik wyjściowy musi zostać utworzony. Błąd, jeśli plik wyjściowy jest już
       obecny.
@@ -114,7 +114,7 @@ dd-after-help =
     - noatime: nie aktualizuje czasu dostępu.
     - nocache: żąda usunięcia pamięci podręcznej przez system operacyjny.
     - noctty: nie przypisuje kontrolującego terminala (tty).
-    - nofollow: nie śledzi dowiązań systemowych.
+    - nofollow: nie śledzi dowiązań symbolicznych.
 dd-error-write-error = błąd zapisu
 dd-error-failed-to-open = nie udało się otworzyć { $path }
 dd-error-failed-to-seek = nie udało się wyszukać w pliku wyjściowym
