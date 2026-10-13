@@ -5,7 +5,7 @@ echo-after-help =
 
     Jeśli opcja -e jest aktywna, rozpoznawane są następujące sekwencje:
 
-    - \ ukośnik odwrotny
+    - \\ ukośnik odwrotny
     - \a alarm (BEL)
     - \b backspace
     - \c brak dalszego wyświetlania
