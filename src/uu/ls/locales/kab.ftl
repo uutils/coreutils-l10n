@@ -110,3 +110,4 @@ ls-help-dereference-all =
 ls-help-dereference-dir-args =
     Ur ḍeffeṛ ara iseɣwan izamulanen, anagar ma qqnen ɣer yikaramen yerna
     ttunefken-d d tiɣirtin n yizirig n tladna.
+ls-help-terminal-width = Ḥseb belli tehri n tdiwent d COLS n tgejda.
