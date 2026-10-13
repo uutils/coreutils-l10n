@@ -111,3 +111,39 @@ ls-help-dereference-dir-args =
     Ur ḍeffeṛ ara iseɣwan izamulanen, anagar ma qqnen ɣer yikaramen yerna
     ttunefken-d d tiɣirtin n yizirig n tladna.
 ls-help-terminal-width = Ḥseb belli tehri n tdiwent d COLS n tgejda.
+ls-help-allocation-size = Sken tiddi yettwaḥerzen i yal afaylu, s yiḥedran
+ls-help-color-output = Eg ini i tuffɣa ilmend n wanaw n ufaylu.
+ls-help-indicator-style =
+    Rnu amatar s uɣanib AWAL deg taggara n yismawen n yinekcumen:
+    none (s wudem amezwer), slash (-p), file-type (--file-type), classify (-F)
+ls-help-classify =
+    Rnu asekkil deg taggara n yisem n yal afaylu i d-yemmalen anaw n ufaylu. Daɣen, i
+    yifuyla imagnuten imselkamen, rnu '*'. Imataren n wanaw n ufaylu d
+    '/' i yikaramen, '@' i yiseɣwan izamulanen, '|' i FIFOs, '=' i sockets,
+    '>' i tewwura, ulac i yifuyla imagnuten. when yezmer ad yettwazgel, neɣ ad yesɛu yiwen seg wazalen-a:
+        none - Ur rennu ara imataren n wanaw n ufaylu. D azal amezwer.
+        auto - Rnu imataren n wanaw n ufaylu kan ma tuffɣa tamagnut d tadiwent.
+        always - Rnu imataren n wanaw n ufaylu yal tikelt.
+    Abdar n --classify war when d agdazal n --classify=always. Aya ur
+    yettḍeffiṛ ara iseɣwan izamulanen yettwabedren deg yizirig n tladna, anagar ma
+    tixṭiṛin --dereference-command-line (-H), --dereference (-L), neɣ
+    --dereference-command-line-symlink-to-dir ttwabedrent.
+ls-help-file-type = D agdazal n --classify, maca ur rennu ara '*'
+ls-help-slash-directories = Rnu amatar / deg taggara n yismawen n yikaramen.
+ls-help-time-style = Amasal n usrag/uzemz akked -l; wali TIME_STYLE ddaw
+ls-help-full-time = Am -l --time-style=full-iso
+ls-help-context = Sken asatal n tɣellist n yal afaylu ma yella
+ls-help-group-directories-first =
+    Sdukkel ikaramen uqbel ifuyla; yezmer ad yettwaseqdec akked
+    textiṛt --sort, maca yal aseqdec n --sort=none (-U) ad isexsi asdukkel
+ls-invalid-columns-width = Tettwazgel tehri tarmeɣtut deg umutti n twennaḍt COLUMNS: { $width }
+ls-invalid-ignore-pattern = Azenziɣ n uzgal d armeɣtu: { $pattern }
+ls-invalid-hide-pattern = Azenziɣ n uffar d armeɣtu: { $pattern }
+ls-error-unrecognized-ls-colors-prefix = Adat ur nettwaɛqal ara: { $prefix }
+ls-error-unparsable-ls-colors = Azal n umutti n twennaḍt LS_COLORS ur yezmir ara ad yettwasleḍ
+ls-warning-failed-to-get-security-context = Ur yezmir ara ad d-yawi asatal n tɣellist n: { $path }
+ls-warning-getting-security-context = Aggay n usatal n tɣellist n: { $path }: { $error }
+smack-error-not-enabled = SMACK ur yermid ara deg unagraw-a
+smack-error-label-retrieval-failure = Ur yezmir ara ad d-yawi tabzimt SMACK: { $error }
+smack-error-label-set-failure = Ur yezmir ara ad isbadu tabzimt SMACK s '{ $context }': { $error }
+smack-error-no-label-set = Ulac tabzimt SMACK yettusbadun
