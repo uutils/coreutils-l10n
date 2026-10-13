@@ -12,3 +12,4 @@ mkdir-help-verbose = выводить сообщение для каждого �
 mkdir-error-empty-directory-name = невозможно создать каталог '': Нет такого файла или каталога
 mkdir-error-cannot-create-directory = невозможно создать каталог '{ $path }': { $error }
 mkdir-verbose-created-directory = { $util_name }: создан каталог { $path }
+mkdir-error-invalid-mode = неверный режим { $mode }
