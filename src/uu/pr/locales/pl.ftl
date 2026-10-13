@@ -46,7 +46,7 @@ pr-help-page-width =
                     obcina wiersze, z wyjątkiem opcji -J, bez kolizji
                     z -S lub -s
 pr-help-across =
-    Modyfikuje efekt opcji „-column”, aby kolumny były wypełniane
+    Modyfikuje efekt opcji -COLUMN, aby kolumny były wypełniane
                     na całej stronie w kolejności okrężnej (na przykład, gdy kolumna ma numer 2,
                     pierwszy wiersz wejściowy jest nagłówkiem kolumny 1, drugi nagłówkiem kolumny 2,
                     trzeci jest drugim wierszem w kolumnie 1 itd.).
