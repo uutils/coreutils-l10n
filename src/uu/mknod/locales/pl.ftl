@@ -19,9 +19,9 @@ mknod-after-help =
 mknod-help-mode = ustawia bity uprawnień pliku na TRYB, a nie a=rw - umask
 mknod-help-name = nazwa nowego pliku
 mknod-help-type = typ nowego pliku (b, c, u lub p)
-mknod-help-major = większy typ pliku
-mknod-help-minor = mniejszy typ pliku
-mknod-help-selinux = ustawia kontekst zabezpieczeń SELinux każdego utworzonego katalogu na domyślny typ
+mknod-help-major = większy numer urządzenia
+mknod-help-minor = mniejszy numer urządzenia
+mknod-help-selinux = ustawia kontekst zabezpieczeń SELinux utworzonego pliku na typ domyślny
 mknod-help-context = podobnie jak -Z, lub jeśli określono CTX, ustawia kontekst zabezpieczeń SELinux lub SMACK na CTX
 mknod-error-fifo-no-major-minor = Kolejność FIFO nie obejmuje większych i mniejszych numerów urządzeń.
 mknod-error-special-require-major-minor = Pliki specjalne wymagają podania głównych i pobocznych numerów urządzeń.
