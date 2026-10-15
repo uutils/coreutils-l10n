@@ -3,6 +3,7 @@ join-error-invalid-file-number-simple = 无效的文件编号：{ $value }
 join-error-input-not-sorted = 输入未按排序顺序排列
 join-error-invalid-field-number = 无效的字段编号：{ $value }
 join-error-incompatible-fields = 连接字段不兼容{ $field1 }、{ $field2 }
+join-error-conflicting-empty-field = 空字段的替换字符串相互冲突
 join-error-not-sorted = { $file }:{ $line_num }：未按排序顺序排列：{ $content }
 join-error-both-files-stdin = 两个文件不能同时为标准输入
 join-error-invalid-field-specifier = 无效的字段指定符：{ $spec }

@@ -18,9 +18,9 @@ mknod-after-help = 长选项的必需参数对于短选项同样是必需的。
 mknod-help-mode = 将文件权限位设置为 MODE，而不是 a=rw - umask
 mknod-help-name = 新文件的名称
 mknod-help-type = 新文件的类型（b、c、u 或 p）
-mknod-help-major = 主设备类型
-mknod-help-minor = 次设备类型
-mknod-help-selinux = 将每个新建目录的 SELinux 安全上下文设置为默认类型
+mknod-help-major = 主设备号
+mknod-help-minor = 次设备号
+mknod-help-selinux = 将新建文件的 SELinux 安全上下文设置为默认类型
 mknod-help-context = 类似于 -Z；如果指定 CTX，则将 SELinux 或 SMACK 安全上下文设置为 CTX
 
 # Error messages

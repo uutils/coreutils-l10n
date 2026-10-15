@@ -75,7 +75,7 @@ od-after-help =
     如果发生错误，将向标准错误输出打印诊断信息，
     且退出码将为非零值。
 od-help-address-radix = 选择打印文件偏移量时使用的进制。
-od-help-skip-bytes = 在格式化并输出之前，跳过输入中的若干字节。
+od-help-skip-bytes = 在格式化并输出之前，跳过输入中的 BYTES 字节。
 od-help-read-bytes = 将转储输出限制为输入的指定字节数
 od-help-endian = 多字节格式使用的字节序
 od-help-strings = 输出至少包含指定数量的可见字符的字符串；若未指定该数量，则默认为 3。
