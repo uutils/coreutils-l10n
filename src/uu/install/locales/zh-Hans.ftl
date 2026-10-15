@@ -13,7 +13,7 @@ install-help-owner = 设置所有权（仅超级用户可用）
 install-help-preserve-timestamps = 将 SOURCE 文件的访问时间和修改时间应用于相应的目标文件
 install-help-strip = 剥离符号表
 install-help-strip-program = 用于剥离二进制文件的程序
-install-help-target-directory = 将所有 SOURCE 参数移入 DIRECTORY
+install-help-target-directory = 将所有 SOURCE 参数复制到 DIRECTORY
 install-help-no-target-directory = 将 DEST 视为普通文件
 install-help-verbose = 解释所执行的操作
 install-help-preserve-context = 保留安全上下文
@@ -51,7 +51,7 @@ install-error-mutually-exclusive-target = 选项 --target-directory 和 --no-tar
 install-error-mutually-exclusive-compare-strip = 选项 --compare 和 --strip 互斥
 install-error-missing-file-operand = 缺少文件操作数
 install-error-missing-destination-operand = { $path } 后缺少目标文件操作数
-install-error-failed-to-remove = 无法删除现有文件 { $path }。错误：{ $error }
+install-error-failed-to-remove = 无法删除现有文件 { $path }。{ $error }
 install-error-will-not-overwrite-just-created = 不会用 { $source } 覆盖刚创建的 { $dest }
 
 # Warning messages

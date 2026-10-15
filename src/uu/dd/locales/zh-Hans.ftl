@@ -10,7 +10,7 @@ dd-after-help = 操作数：
     - ibs=N：用于读取的缓冲区大小（默认：512）
     - if=FILE：用作输入的文件。未指定时使用标准输入
     - iflag=FLAGS：以逗号分隔的输入标志列表，用于指定如何处理输入源。FLAGS 可以是下面列出的任何输入标志或通用标志。
-    - skip=N（或 iseek=N）：开始复制/转换操作之前，在输入中跳过 N 个大小为 ibs 的记录。如果希望按 N 字节定位，请参阅 iflag=seek_bytes。
+    - skip=N（或 iseek=N）：开始复制/转换操作之前，在输入中跳过 N 个大小为 ibs 的记录。如果希望按 N 字节定位，请参阅 iflag=skip_bytes。
     - obs=N：用于写入的缓冲区大小（默认：512）
     - of=FILE：用作输出的文件。未指定时使用标准输出
     - oflag=FLAGS：以逗号分隔的输出标志列表，用于指定如何处理输出目标。FLAGS 可以是下面列出的任何输出标志或通用标志
@@ -101,7 +101,6 @@ dd-error-invalid-output-flag = 无效输出标志：“{ $flag }”
 dd-error-conv-flag-no-match = 无效转换：“{ $flag }”
 dd-error-multiplier-parse-failure = 无效数字：“{ $input }”
 dd-error-multiplier-overflow = 乘数字符串会在当前系统上导致溢出 -> { $input }
-dd-error-block-without-cbs = 指定了 conv=block 或 conv=unblock，但未指定 cbs=N
 dd-error-status-not-recognized = 无效状态级别：“{ $level }”
 dd-error-unimplemented = 此系统尚未实现该功能 -> { $feature }
 dd-error-bs-out-of-range = { $param }=N 无法装入内存

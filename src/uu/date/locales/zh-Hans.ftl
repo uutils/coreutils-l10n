@@ -106,6 +106,7 @@ date-error-cannot-set-date = 无法设置日期
 date-error-extra-operand = 多余操作数“{$operand}”
 date-error-write = 写入错误：{$error}
 date-error-format-modifier-width-too-large = 格式修饰符宽度“{$width}”对于格式说明符“%{$specifier}”过大
-date-error-format-missing-plus = 参数 {$arg} 缺少前导“+”；
+date-error-format-missing-plus = 参数“{$arg}”缺少前导“+”；
   使用选项指定日期时，任何非选项
   参数都必须是以“+”开头的格式字符串
+date-error-multiple-output-formats = 指定了多个输出格式
