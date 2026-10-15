@@ -83,6 +83,7 @@ dd-standard-output = “标准输出”
 dd-error-failed-to-open = 打开 { $path } 失败
 dd-error-write-error = 写入错误
 dd-error-failed-to-seek = 在输出文件中定位失败
+dd-error-failed-to-truncate = 无法将输出文件 { $file } 截断为 { $size } 字节
 dd-error-io-error = I/O 错误
 dd-error-cannot-skip-offset = “{ $file }”：无法跳至指定偏移量
 dd-error-cannot-skip-invalid = “{ $file }”：无法跳至指定位置：参数无效
