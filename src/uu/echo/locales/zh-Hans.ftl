@@ -1,11 +1,11 @@
-echo-about = 显示一行文字
+echo-about = 显示一行文本
 echo-usage = echo [OPTIONS]... [STRING]...
 echo-after-help =
     将 STRING 输出到标准输出。
 
     如果启用 -e 选项，则识别以下转义序列：
 
-      - \ 反斜杠
+      - \\ 反斜杠
       - \a 响铃（BEL）
       - \b 退格
       - \c 不再输出后续内容
