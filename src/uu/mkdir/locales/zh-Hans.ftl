@@ -12,3 +12,4 @@ mkdir-error-failed-to-create-tree = 无法创建整个目录树
 mkdir-error-cannot-set-permissions = 无法设置 { $path } 的权限
 mkdir-verbose-created-directory = { $util_name }：已创建目录 { $path }
 mkdir-error-cannot-create-directory = 无法创建目录“{ $path }”：{ $error }
+mkdir-error-invalid-mode = 无效模式 { $mode }
