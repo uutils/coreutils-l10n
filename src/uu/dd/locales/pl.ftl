@@ -165,3 +165,4 @@ dd-diag-help-iflag = iflag= jest jednym z następujących: direct, directory, d
 dd-diag-help-oflag = oflag= jest jednym z następujących: direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, append lub seek_bytes
 dd-diag-help-status = status= jest jednym z następujących: none, noxfer lub progress
 dd-diag-help-number = po liczbie może następować mnożnik: c, w, b, następnie K, M, G i tak dalej dla 1024, kB, MB, GB dla 1000
+dd-error-failed-to-truncate = nie udało się skrócić pliku wyjściowego { $file } do { $size } bajtów
