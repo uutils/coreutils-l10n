@@ -24,7 +24,6 @@ csplit-error-suffix-format-incorrect = 后缀中的转换说明不正确
 csplit-error-suffix-format-too-many-percents = 后缀中包含过多的 % 转换说明
 csplit-error-not-regular-file = { $file } 不是常规文件
 csplit-warning-line-number-same-as-previous = 行号“{ $line_number }”与前一个行号相同
-csplit-stream-not-utf8 = 流中不包含有效的 UTF-8 数据
 csplit-read-error = 读取错误
 csplit-write-split-not-created = 正在尝试写入尚未创建的分段
 
