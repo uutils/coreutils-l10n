@@ -109,3 +109,4 @@ cp-error-cannot-create-special-file = nie można utworzyć pliku specjalnego { $
 cp-error-setting-attributes = ustawianie atrybutów dla { $path }
 cp-error-write = błąd zapisu
 cp-error-cannot-create-regular-file = nie można utworzyć zwykłego pliku { $path }
+cp-warning-context-ignored = ignorowanie --context; wymaga jądra z obsługą SELinux
