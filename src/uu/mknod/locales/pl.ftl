@@ -29,3 +29,4 @@ mknod-error-invalid-mode = nieprawidłowy tryb ({ $error })
 mknod-error-mode-permission-bits-only = tryb musi określać tylko bity uprawnień pliku
 mknod-error-missing-device-type = brak typu urządzenia
 mknod-error-invalid-device-type = nieprawidłowy typ urządzenia { $type }
+mknod-warning-context-ignored = ignorowanie --context; wymaga jądra z obsługą SELinux/SMACK
