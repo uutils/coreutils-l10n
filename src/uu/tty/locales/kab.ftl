@@ -1,0 +1,3 @@
+tty-usage = tty [TAXTIṚT]...
+tty-not-a-tty = mačči d tty
+tty-help-silent = ur-d skanay wayra, ad yerr kan s ungal n tuffɣa
