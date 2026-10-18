@@ -108,6 +108,8 @@ date-error-extra-operand = operando adicional '{ $operand }'
 date-error-write = erro de gravação: { $error }
 date-error-format-modifier-width-too-large = o modificador de formato width '{ $width }' é grande demais para o especificador '%{ $specifier }'
 date-error-format-missing-plus =
-    o argumento { $arg } não tem um '+' no início;
-    ao usar uma opção para especificar datas, qualquer argumento que não seja uma opção
-    deve ser uma cadeia de formato que começa com '+'
+    o argumento '{ $arg }' não tem um '+' no início;
+    ao usar uma opção para especificar datas, qualquer argumento que não seja
+    uma opção deve ser uma cadeia de formato que começa com '+'
+date-error-setting-date-not-supported-wasi = definir a data não é apoiada por WASI
+date-error-multiple-output-formats = especificados vários formatos de saída
