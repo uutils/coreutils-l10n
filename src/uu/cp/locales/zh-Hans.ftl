@@ -110,6 +110,7 @@ cp-debug-enum-seek-hole = SEEK_HOLE
 cp-debug-enum-seek-hole-zeros = SEEK_HOLE + 零字节
 
 # Warning messages
+cp-warning-context-ignored = 忽略 --context；仅能在启用了 SELinux 的内核上使用
 cp-warning-source-specified-more-than-once = 源 { $file_type } { $source } 被指定了多次
 
 # Verbose and debug messages

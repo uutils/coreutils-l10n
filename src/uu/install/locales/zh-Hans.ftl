@@ -57,6 +57,7 @@ install-error-failed-to-remove = 无法删除现有文件 { $path }。{ $error }
 install-error-will-not-overwrite-just-created = 不会用 { $source } 覆盖刚创建的 { $dest }
 
 # Warning messages
+install-warning-context-ignored = 忽略 --context；仅能在启用了 SELinux 的内核上使用
 install-warning-compare-ignored = 指定包含非权限位的模式时，--compare（-C）选项会被忽略
 install-warning-no-strip-with-program = 警告：未指定 -s 选项，忽略 --strip-program 选项
 

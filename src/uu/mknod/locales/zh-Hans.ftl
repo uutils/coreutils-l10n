@@ -30,3 +30,6 @@ mknod-error-invalid-mode = 无效模式（{ $error }）
 mknod-error-mode-permission-bits-only = 模式只能指定文件权限位
 mknod-error-missing-device-type = 缺少设备类型
 mknod-error-invalid-device-type = 无效设备类型 { $type }
+
+# Warning messages
+mknod-warning-context-ignored = 忽略 --context；仅能在启用了 SELinux/SMACK 的内核上使用
