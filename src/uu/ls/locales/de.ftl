@@ -156,3 +156,7 @@ smack-error-label-retrieval-failure = SMACK-Label konnte nicht ermittelt werden:
 smack-error-label-set-failure = Fehler beim Setzen des SMACK-Labels auf '{ $context }': { $error }
 smack-error-no-label-set = kein SMACK-Label vorhanden
 ls-warning-unparsable-ls-colors = Wert der LS_COLORS Umgebungsvariable kann nicht interpretiert werden
+ls-error-invalid-tab-size = ungültige Tabulatorgröße: { $size }
+ls-error-cannot-access-permission-denied = kann nicht auf { $path } zugreifen: Zugriff verweigert
+ls-error-unrecognized-ls-colors-prefix = Präfix nicht erkannt: { $prefix }
+ls-error-unparsable-ls-colors = Wert der LS_COLORS Umgebungsvariable kann nicht interpretiert werden
