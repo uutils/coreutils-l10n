@@ -156,3 +156,7 @@ smack-error-label-retrieval-failure = falha ao obter etiqueta SMACK: { $error }
 smack-error-label-set-failure = falha ao definir a etiqueta SMACK para '{ $context }': { $error }
 smack-error-no-label-set = nenhuma etiqueta SMACK definida
 ls-warning-unparsable-ls-colors = valor não analizável para a variável de ambiente LS_COLORS
+ls-error-invalid-tab-size = tamanho da guia inválido: { $size }
+ls-error-cannot-access-permission-denied = não é possível aceder { $path }: permissão negada
+ls-error-unrecognized-ls-colors-prefix = préfixo não reconhecido: { $prefix }
+ls-error-unparsable-ls-colors = valor não analizável para a variável de ambiente LS_COLORS
