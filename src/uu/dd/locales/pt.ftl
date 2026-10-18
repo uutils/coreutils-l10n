@@ -10,22 +10,20 @@ dd-error-failed-to-open = falha ao abrir { $path }
 dd-error-failed-to-seek = falha ao procurar no ficheiro de saída
 dd-error-io-error = Erro de ES
 dd-error-cannot-seek-invalid = '{ $output }': não pode procurar: argumento inválido
-dd-error-unrecognized-operand = Operando não reconhecido '{ $operand }'
-dd-error-multiple-format-table = Apenas um de conv=ascii, conv=ebcdic ou conv=ibm pode ser especificado
-dd-error-multiple-case = Apenas um de conv=lcase ou conv=ucase pode ser especificado
-dd-error-multiple-block = Apenas um de conv=block ou conv=unblock pode ser especificado
-dd-error-multiple-excl = Apenas um ov conv=excl ou conv=nocreat pode ser especificado
-dd-error-invalid-flag =
-    indicador de entrada inválido: ‘{ $flag }’
-    Tente '{ $cmd } --ajuda' para mais informações.
-dd-error-conv-flag-no-match = Desconhecido conv=CONV -> { $flag }
+dd-error-unrecognized-operand = operando '{ $operand }' não reconhecido
+dd-error-multiple-format-table = não pode combinar dois de { "{" }ascii, ebcdic, ibm{ "}" }
+dd-error-multiple-case = não pode combinar lcase e ucase
+dd-error-multiple-block = não pode combinar block e unblock
+dd-error-multiple-excl = não pode combinar excl e nocreat
+dd-error-invalid-flag = indicador de entrada inválido: ‘{ $flag }’
+dd-error-conv-flag-no-match = conversão desconhecida '{ $flag }'
 dd-error-multiplier-parse-failure = número inválido: '{ $input }'
 dd-error-multiplier-overflow = Cadeia multiplicadora transbordaria no sistema atual -> { $input }
 dd-error-block-without-cbs = conv=block ou conv=unblock especificado sem cbs=N
-dd-error-status-not-recognized = status=NÍVEL não reconhecido -> { $level }
+dd-error-status-not-recognized = nível de estado inválido: '{ $level }'
 dd-error-unimplemented = recurso não implementado neste sistema -> { $feature }
 dd-error-bs-out-of-range = { $param }=N não cabe na memória
-dd-error-invalid-number = número inválido: ‘{ $input }’
+dd-error-invalid-number = número inválido: '{ $input }'
 dd-progress-records-in = { $complete }+{ $partial } registos entraram
 dd-progress-records-out = { $complete }+{ $partial } registos sairam
 dd-progress-truncated-record =
@@ -162,3 +160,14 @@ dd-after-help =
     - nocache : solicita que o SO descarte o cache.
     - noctty : não atribui um tty de controlo.
     - nofollow : não segue ligações do sistema.
+dd-error-failed-to-truncate = não conseguiu truncar para { $size } bytes no ficheiro de saída { $file }
+dd-error-invalid-output-flag = indicador de saída inválido: '{ $flag }'
+dd-diag-help-operand = um operando é CHAVE=VALOR, como em if=file bs=4k count=10
+dd-diag-label-conv = não uma conversão conhecida
+dd-diag-label-iflag = não um indicador de entrada conhecido
+dd-diag-label-oflag = não um indicador de saída conhecido
+dd-diag-help-conv = conv= é um de: ascii, ebcdic, ibm, lcase, ucase, block, unblock, swab, sync, noerror, sparse, excl, nocreat, notrunc, fdatasync ou fsync
+dd-diag-help-iflag = iflag= é um de: direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, fullblock, count_bytes ou skip_bytes
+dd-diag-help-oflag = oflag= é um de: direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, append ou seek_bytes
+dd-diag-help-status = status= é um de: none, noxfer ou progress
+dd-diag-help-number = um número pode ser seguido por um multiplicador: c, w, b, depois K, M, G e assim por diante para 1024, kB, MB, GB para 1000
