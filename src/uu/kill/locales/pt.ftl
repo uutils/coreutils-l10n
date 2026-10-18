@@ -9,3 +9,6 @@ kill-error-no-process-id =
 kill-error-invalid-signal = { $signal }: sinal inválido
 kill-error-parse-argument = falha ao analisar o argumento { $argument }: { $error }
 kill-error-sending-signal = enviar sinal para { $pid } falhou
+kill-error-write = erro de gravação: { $error }
+kill-error-unsupported-signal = sinal não apoiado no Windows
+kill-error-negative-pid-unsupported = um PID negativo (grupo de outro processo) não é apoiado no Windows
