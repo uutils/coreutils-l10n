@@ -5,13 +5,13 @@ mknod-after-help =
     -m, --mode=MODO define os bits de permissão do ficheiro para MODO, não a=rw - umask
 
     Tanto MAIOR como MENOR devem ser especificados quando TIPO é b, c ou u, e
-    devem ser omitidos quando TIPO é p. Se MAIOR ou MENOR começarem com 0x ou 0X,
+    devem ser omitidos quando TIPO é p. Se MAIOR ou MENOR começarem com 0x, ou 0X,
     são interpretados como hexadecimais; caso contrário, se começarem com 0, como octais;
     caso contrário, como decimais. TIPO pode ser:
 
-    - b criar um ficheiro especial de bloco (no buffer)
-    - c, u criar um ficheiro especial de caracteres (no buffer)
-    - p criar um FIFO
+      - b criar um ficheiro especial de bloco (com buffer)
+      - c, u criar um ficheiro especial de caracteres (sem buffer)
+      - p criar um FIFO
 
     NOTA: o seu shell pode ter a sua própria versão do mknod, que geralmente substitui
     a versão descrita aqui. Consulte a documentação do seu shell
