@@ -16,3 +16,4 @@ cat-error-unknown-filetype = tipus de fitxer desconegut: { $ft_debug }
 cat-error-is-directory = És un directori
 cat-error-input-file-is-output-file = el fitxer d'entrada es el fitxer de sortida
 cat-error-too-many-symbolic-links = Massa nivells d'enllaços simbòlics
+cat-error-no-such-device-or-address = No hi ha l'adreça o dispositiu
