@@ -20,3 +20,4 @@ comm-error-is-directory = És un directori
 comm-error-multiple-conflicting-delimiters = múltiples delimitadors de sortida conflictius especificats
 comm-total = total
 comm-help-no-check-order = no comprovis si l'entrada està correctament ordenada
+comm-error-write = error d'escriptura
