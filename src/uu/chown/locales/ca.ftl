@@ -19,3 +19,4 @@ chown-error-failed-to-get-attributes = s'ha fallat al obtenir els atributs de { 
 chown-error-invalid-user = usuari invalid: { $user }
 chown-error-invalid-group = grup invalid: { $group }
 chown-error-invalid-spec = especificació invalida: { $spec }
+chown-warning-dot-separator = "." hauria de ser ":": { $spec }
