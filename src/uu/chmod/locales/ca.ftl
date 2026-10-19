@@ -28,3 +28,7 @@ chmod-verbose-neither-changed = ni l'enllaç simbòlic { $file } ni el referent 
 chmod-verbose-mode-retained = el mode de { $file } és retingut com a { $mode_octal }({ $mode_display })
 chmod-verbose-failed-change = s'ha fallat al canviar el mode de l'arxiu { $file } de { $old_mode }({ $old_mode_display }) a { $new_mode }({ $new_mode_display })
 chmod-verbose-mode-changed = mode de { $file } canviat de { $old_mode }({ $old_mode_display }) a { $new_mode }({ $new_mode_display })
+chmod-error-preserve-root-same-as =
+    es perillós operar recursivament a { $file } (igual que "/")
+    chmod: empra --no-preserve-root per a invalidar aquesta protecció
+chmod-error-changing-permissions = canviant permisos de { $file }: { $err }
