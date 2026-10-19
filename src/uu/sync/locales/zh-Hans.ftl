@@ -1,10 +1,12 @@
-sync-about = 将已缓存的写入同步到持久化存储
-sync-usage = sync [选项]... 文件...
+sync-about = 将缓存的写入同步到持久存储
+sync-usage = sync [OPTION]... FILE...
 sync-help-file-system = 同步包含指定文件的文件系统（仅在 Linux 和 Windows 上有效）
 sync-help-data = 仅同步文件数据，不包括非必要的元数据（仅 Linux 有效）
 sync-error-data-needs-argument = --data 至少需要一个参数
-sync-error-opening-file = 无法打开 { $file }
+sync-error-opening-file = 无法打开 { $file }：{ $err }
 sync-error-no-such-file = 无法打开 { $file }：文件或目录不存在
+sync-error-syncing-file = 无法同步 { $file }
+sync-warning-fcntl-failed = 警告：无法为 { $file } 重置 O_NONBLOCK 标志：{ $error }
 sync-error-flush-file-buffer = 无法刷新文件缓冲区
 sync-error-create-volume-handle = 无法创建卷句柄
 sync-error-find-first-volume = 无法找到第一个卷
