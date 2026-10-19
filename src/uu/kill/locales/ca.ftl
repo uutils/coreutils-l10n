@@ -9,3 +9,4 @@ kill-error-no-process-id =
 kill-error-invalid-signal = { $signal }: senyal invalida
 kill-error-parse-argument = s'ha fallat al analitzar l'argument { $argument }: { $error }
 kill-error-sending-signal = s'ha fallat al enviar el senyal a { $pid }
+kill-error-write = error d'escriptura: { $error }
