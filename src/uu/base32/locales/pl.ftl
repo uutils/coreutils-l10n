@@ -46,3 +46,4 @@ base-common-help-decode = dekoduje dane
 base-common-help-ignore-garbage = podczas dekodowana, ignoruje znaki niealfabetyczne
 base-common-help-wrap = zawija zakodowane wiersze po znakach COLS (domyślnie { $default }, 0 wyłącza zawijanie wierszy)
 basenc-help-base58 = wizualnie jednoznaczne kodowanie Base58
+base-common-invalid-input = nieprawidłowe dane wejściowe
