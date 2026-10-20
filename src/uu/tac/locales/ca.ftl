@@ -1,1 +1,9 @@
 tac-about = Escriu cada fitxer a la sortida estàndard, la última línia primer.
+tac-usage = tac [OPCIÓ]… [ARXIU]…
+tac-help-before = enganxa el separador abans en lloc de després
+tac-help-regex = interpreta la seqüencia com una expressió regular
+tac-help-separator = utilitza CADENA com a separador en comptes del salt de línia
+tac-error-invalid-regex = expressió regular invalida: { $error }
+tac-error-open-error = falla l'obrir { $filename } per a lectura: { $error }
+tac-error-read-error = { $filename }: error de lectura: { $error }
+tac-error-write-error = falla a l'escriure a la sortida estàndard: { $error }
