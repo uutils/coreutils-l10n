@@ -97,3 +97,17 @@ date-help-rfc-3339 =
 date-help-debug = Rnu tizmilin i uzemz yettwasleḍen, yerna sken-d ilɣa ɣef useqdec i deg yella ccek deg stderr
 date-help-reference = Sken-d asrag n usnifel aneggaru n UFAYLU
 date-help-set = Sbadu asrag i d-yeglem UZRAR
+date-help-set-redox = Sbadu asrag i d-yeglem UZRAR (mazal ur yelli ara deg Redox)
+date-help-universal = Sken-d neɣ sbadu akud amaɣradan amsideg (UTC)
+date-error-expected-file-got-directory = Yettwarǧa ufaylu, yettwaf ukaram { $path }
+date-error-date-overflow = Tafuli n uzemz '{ $date }'
+date-error-setting-date-not-supported-redox = Asbadu n uzemz ur yettusefrak ara sɣur Redox
+date-error-setting-date-not-supported-wasi = Asbadu n uzemz ur yettusefrak ara sɣur WASI
+date-error-cannot-set-date = Ur yezmir ara ad isbadu azemz
+date-error-extra-operand = Amhil amernu '{ $operand }'
+date-error-format-modifier-width-too-large = Tehri n umesnifel n umasal '{ $width }' meqqret aṭas i usefray '%{ $specifier }'
+date-error-format-missing-plus =
+    Tiɣiret '{ $arg }' txuṣṣ '+' deg tazwara;
+    mi ara tettwaseqdac textiṛt i ubdar n uzemz neɣ n yizmaz, yal tiɣiret ur nelli ara d taxtiṛt
+    ilaq ad tili d azrar n umasal i yebdan s '+'
+date-error-multiple-output-formats = Aṭas n yimasalen n tuffɣa i d-yettwabedren
