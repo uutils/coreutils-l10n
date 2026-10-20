@@ -13,3 +13,4 @@ seq-error-no-arguments = hi manca un operand
 seq-error-format-and-equal-width = no cal especificar un format quan es mostren nombres d'amplades iguals
 seq-parse-error-type-float = punt flotant
 seq-parse-error-type-nan = no és un nombre
+seq-diag-help-format = un format conté exactament una conversió de float: %f, %e, %g o %a, com -f%.3f
