@@ -5,3 +5,4 @@ pwd-help-physical = unikanie wszystkich dowiązań symbolicznych
 pwd-error-failed-to-get-current-directory = nie udało się uzyskać bieżącego katalogu
 pwd-error-failed-to-print-current-directory = nie udało się wypisać bieżącego katalogu
 pwd-ignoring-non-option-arguments = ignorowanie argumentów niebędących opcjami
+pwd-error-cannot-find-directory-entry = nie udało się znaleźć wpisu katalogu w '..' z pasującym i-węzłem
