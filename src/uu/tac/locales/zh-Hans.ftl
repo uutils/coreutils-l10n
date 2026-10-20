@@ -1,8 +1,9 @@
 tac-about = 将每个文件按行倒置并写入到标准输出。
-tac-usage = tac [选项]... [文件]...
+tac-usage = tac [OPTION]... [FILE]...
 tac-help-before = 将分隔符置于前面，而非默认的后面
 tac-help-regex = 将序列解释为正则表达式
 tac-help-separator = 使用 STRING 作为分隔符，而非默认的换行符
 tac-error-invalid-regex = 无效的正则表达式：{ $error }
-tac-error-read-error = 无法从 { $filename } 进行读取：{ $error }
+tac-error-open-error = 无法打开 { $filename } 进行读取：{ $error }
+tac-error-read-error = { $filename }：读取错误：{ $error }
 tac-error-write-error = 写入标准输出失败：{ $error }
