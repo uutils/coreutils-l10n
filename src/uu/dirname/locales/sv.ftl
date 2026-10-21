@@ -1,7 +1,7 @@
 dirname-about = Ta bort den sista komponenten från filnamnet
-dirname-usage = dirname [OPTION] NAME...
-dirname-missing-operand = saknad operand
+dirname-usage = dirname [FLAGGA] NAMN...
+dirname-missing-operand = saknar operand
 dirname-after-help =
-    Skriv ut varje NAME med dess sista icke-snedstreckkomponent och efterföljande snedstreck
-    borttagna; om NAME inte innehåller några /, skriva ut '.' (vilket betyder den aktuella katalogen).
-dirname-zero-help = separera utdata med NUL istället för nyrad
+    Skriv ut varje NAMN utan dess sista komponent som inte är ett snedstreck och utan avslutande snedstreck;
+    om NAMN inte innehåller några /, skriv ut '.' (vilket betyder aktuell katalog).
+dirname-zero-help = separera utdata med NUL i stället för nyrad
