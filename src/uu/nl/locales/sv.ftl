@@ -32,3 +32,4 @@ nl-error-line-number-overflow = radnummerspill
 nl-error-invalid-regex = ogiltigt reguljärt uttryck
 nl-error-invalid-numbering-style = ogiltig numreringsstil: '{ $style }'
 nl-error-is-directory = { $path }: Är en katalog
+nl-error-could-not-write = kunde inte skriva utdata
