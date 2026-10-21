@@ -1,5 +1,4 @@
 sort-about = Visar sorterad sammanfogning av alla FILE(er). Utan FILE, eller när FILE är -, läs standard-in.
-sort-usage = sort [OPTION]... [FILE]...
 sort-help-help = Skriv ut hjälpinformation.
 sort-after-help =
     Nyckelformatet är FIELD[.CHAR][OPTIONS][,FIELD[.CHAR]][OPTIONS].
@@ -16,16 +15,16 @@ sort-open-failed = öppnandet misslyckades: { $path }: { $error }
 sort-parse-key-error = misslyckades med att läsa nyckeln { $key }: { $msg }
 sort-cannot-read = kan inte läsa: { $path }: { $error }
 sort-open-tmp-file-failed = kunde inte öppna den tillfälliga filen: { $error }
-sort-compress-prog-execution-failed = kunde inte köra komprimeringsprogrammet: errno { $code }
+sort-compress-prog-execution-failed = kunde inte kÃ¶ra komprimeringsprogrammet: errno { $code }
 sort-compress-prog-terminated-abnormally = { $prog } avslutades onormalt
-sort-cannot-create-tmp-file = kan inte skapa tillfällig fil i '{ $path }':
+sort-cannot-create-tmp-file = kan inte skapa tillfÃ¤llig fil i '{ $path }':
 sort-file-operands-combined =
     extra operand '{ $file }'
     filoperander kan inte kombineras med --files0-from
-    Försök med '{ $help } --help' för mer information.
+    FÃ¶rsÃ¶k med '{ $help } --help' fÃ¶r mer information.
 sort-multiple-output-files = flera angivna utdatafiler
-sort-minus-in-stdin = När man läser filnamn från standard-in är filnamnet '-' inte tillåtet
-sort-no-input-from = ingen indata från '{ $file }'
+sort-minus-in-stdin = NÃ¤r man lÃ¤ser filnamn frÃ¥n standard-in Ã¤r filnamnet '-' inte tillÃ¥tet
+sort-no-input-from = ingen indata frÃ¥n '{ $file }'
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: ogiltigt filnamn med längden noll
 sort-options-incompatible = alternativen '-{ $opt1 }{ $opt2 }' är inkompatibla
 sort-invalid-key = ogiltig nyckel { $key }
@@ -78,3 +77,13 @@ sort-help-compress-prog = komprimera temporära filer med PROG, dekomprimera med
 sort-help-batch-size = Sammanfoga högst N_MERGE inmatningar samtidigt.
 sort-help-files0-from = läs indata från filerna som anges av NUL-avslutad NUL_FILE
 sort-help-debug = understryk de delar av raden som faktiskt används för sortering
+sort-invalid-number-at-field-start = felaktigt nummer vid fältstart
+sort-invalid-number-after-dash = felaktigt nummer efter ”-”
+sort-invalid-number-after-dot = felaktigt nummer efter ”.”
+sort-invalid-number-after-comma = felaktigt nummer efter ”,”
+sort-field-number-is-zero = fältnummer är noll
+sort-character-offset-is-zero = teckenpositionen är noll
+sort-stray-character-field-spec = extra tecken i fältspecifikation
+sort-warning-failed-to-set-locale = misslyckades med att sätta lokal
+sort-warning-simple-byte-comparison = textsortering utförs med användning av enkel bytejämförelse
+sort-warning-option-reverse-last-resort = flaggan ”-r” gäller bara jämförelsen som används som sista utväg
