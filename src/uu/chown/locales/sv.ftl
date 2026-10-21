@@ -1,22 +1,21 @@
 chown-about = Ändra filägare och grupp
 chown-usage =
-    chown [OPTION]... [OWNER][:[GROUP]] FILE...
-    chown [OPTION]... --reference=RFILE FILE...
-chown-help-print-help = Skriv ut hjälpinformation.
-chown-help-preserve-root = misslyckas med att arbeta rekursivt på '/'
-chown-help-no-preserve-root = behandla inte '/' speciellt (standardinställningen)
-chown-help-changes = som argumentet utförlig men rapportera endast när en ändring görs
+    chown [FLAGGA]... [ÄGARE][:[GRUPP]] FIL...
+    chown [FLAGGA]... --reference=REFERENSFIL FIL...
+chown-help-print-help = skriv ut hjälpinformation
+chown-help-preserve-root = utför inte rekursiva åtgärder på '/'
+chown-help-no-preserve-root = behandla inte '/' särskilt, standardinställningen
+chown-help-changes = som --verbose, men rapportera endast när en ändring görs
 chown-help-from =
-    Ändra ägaren och/eller gruppen för varje fil endast om dess
-    nuvarande ägare och/eller grupp matchar de som anges här.
-    Båda kan utelämnas, i vilket fall en matchning inte krävs
-    för det utelämnade attributet
+    Ändra ägare, grupp eller båda för varje fil endast om den nuvarande ägaren
+    eller gruppen matchar angivna värden. Båda kan utelämnas. Då krävs
+    ingen matchning för det utelämnade attributet.
 chown-help-quiet = undertryck de flesta felmeddelanden
-chown-help-recursive = applicera rekursivt på filer och kataloger
-chown-help-reference = använd RFILEs ägare och grupp istället för att ange OWNER:GROUP-värden
-chown-help-verbose = utfärda en diagnostik för varje bearbetad fil
+chown-help-recursive = arbeta rekursivt med filer och kataloger
+chown-help-reference = använd REFERENSFILENS ägare och grupp i stället för angivna ÄGARE:GRUPP-värden
+chown-help-verbose = skriv ut ett diagnostiskt meddelande för varje bearbetad fil
 chown-error-failed-to-get-attributes = misslyckades med att hämta attribut för { $file }
 chown-error-invalid-user = ogiltig användare: { $user }
 chown-error-invalid-group = ogiltig grupp: { $group }
 chown-error-invalid-spec = ogiltig specifikation: { $spec }
-chown-warning-dot-separator = '.' bör vara ':': { $spec }
+chown-warning-dot-separator = '.' ska vara ':': { $spec }
