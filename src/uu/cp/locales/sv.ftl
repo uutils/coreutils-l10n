@@ -6,19 +6,21 @@ cp-usage =
 cp-error-extra-operand = extra operand { $operand }
 cp-debug-enum-unknown = okänt
 cp-after-help =
-    Kopiera inte en icke-katalog som har en befintlig destination med samma eller nyare modifikations tidsstämpel;
-    hoppa istället tyst filen utan att producera något fel. Om tidsstämplar bevaras, görs jämförelsen med
-    källtidsstämpeln trunkerad till upplösningarna för destinationsfilsystemet och för systemanropen som används för att
-    uppdatera tidsstämplar; detta undviker dubbelarbete om flera 'cp -pu'-kommandon körs med samma källa
-    och destination. Detta alternativ ignoreras om alternativet -n eller --no-clobber också anges. Om
-    --preserve=links också anges (som med cp -au till exempel), kommer det att ha företräde; följaktligen,
-    beroende på i vilken ordning filer bearbetas från källan, kan nyare filer i destinationen ersättas,
-    för att spegla hårda länkar i källan. vilket ger mer kontroll över vilka befintliga filer i destinationen som
-    ersätts, och dess värde kan vara ett av följande:
+    Kopiera inte en fil som inte är en katalog om en befintlig destinationsfil har samma eller nyare ändringstid.
+    Hoppa i stället över filen utan att rapportera ett fel. Om tidsstämplar bevaras jämförs
+    källtidsstämpeln, avkortad till den upplösning som destinationsfilsystemet och de systemanrop
+    som uppdaterar tidsstämplar använder. Det undviker dubbelarbete om flera cp -pu-kommandon
+    körs med samma källa och destination. Denna flagga ignoreras om flaggan -n eller --no-clobber
+    också anges. Om --preserve=links också anges, som till exempel med cp -au, har den företräde.
+    Beroende på i vilken ordning källfilerna behandlas kan därför nyare filer i destinationen ersättas
+    för att efterlikna hårda länkar i källan. Det ger mer kontroll över vilka befintliga filer i
+    destinationen som ersätts, och värdet kan vara något av följande:
 
-    - all Detta är standard när ett --update-alternativ inte anges, och resulterar i att alla befintliga filer i destinationen ersätts.
-    - none Detta liknar alternativet --no-clobber, i det att inga filer i destinationen ersätts, men att hoppa över en fil orsakar inte heller ett fel.
-    - older Detta är standardåtgärden när --update anges, och resulterar i att filer ersätts om de är äldre än motsvarande källfil.
+    - all: Detta är standardåtgärden när ingen flagga --update har angetts och innebär att alla befintliga filer i destinationen ersätts.
+
+    - none: Detta liknar flaggan --no-clobber eftersom inga filer i destinationen ersätts, men att hoppa över en fil leder inte heller till fel.
+
+    - older: Detta är standardåtgärden när --update har angetts och innebär att filer ersätts om de är äldre än motsvarande källfil.
 cp-help-target-directory = kopiera alla SOURCE-argument till målkatalogen
 cp-help-no-target-directory = Behandla DEST som en vanlig fil och inte en katalog
 cp-help-interactive = fråga innan filer skrivs över
@@ -54,7 +56,7 @@ cp-error-same-file = { $source } och { $dest } är samma fil
 cp-error-backing-up-destroy-source = Säkerhetskopiering av { $dest } kan förstöra källan;   { $source } kopierades inte
 cp-error-cannot-open-for-reading = kan inte öppna { $source } för läsning
 cp-error-not-writing-dangling-symlink = skriver inte genom dinglande symlänk { $dest }
-cp-error-failed-to-clone = misslyckades med att klona { $source } från { $dest }: { $error }
+cp-error-failed-to-clone = kunde inte klona { $dest } från { $source }: { $error }
 cp-error-cannot-change-attribute = kan inte ändra attributet { $dest }: Källfilen är en icke-vanlig fil
 cp-error-cannot-stat = kan inte stat { $source }: Fil eller katalog saknas
 cp-error-cannot-create-symlink = kan inte skapa symlänk { $dest } till { $source }
@@ -65,7 +67,7 @@ cp-error-will-not-copy-through-symlink = kommer inte att kopiera { $source } via
 cp-error-will-not-overwrite-just-created = kommer inte att skriva över just skapade { $dest } med { $source }
 cp-error-target-not-directory = target: { $target } är inte en katalog
 cp-error-cannot-overwrite-directory-with-non-directory = kan inte skriva över katalogen { $dir } med en icke-katalog
-cp-error-cannot-overwrite-non-directory-with-directory = kan inte skriva över en icke-katalog med en katalog
+cp-error-cannot-overwrite-non-directory-with-directory = kan inte skriva över den icke-katalogen { $dest } med katalogen { $source }
 cp-error-with-parents-dest-must-be-dir = med --parents, måste destinationen vara en katalog
 cp-error-not-replacing = ersätter inte { $file }
 cp-error-failed-get-current-dir = misslyckades med att hämta aktuell katalog { $error }
@@ -81,7 +83,7 @@ cp-error-reflink-not-supported = --reflink stöds endast på Linux och macOS
 cp-error-sparse-not-supported = --sparse stöds endast på Linux
 cp-error-not-a-directory = { $path } är inte en katalog
 cp-error-selinux-not-enabled = SELinux var inte aktiverat under kompileringen!
-cp-error-selinux-set-context = misslyckades med att ställa in säkerhetskontexten för { $path }: { $error }
+cp-error-selinux-set-context = kunde inte ställa in säkerhetskontexten för { $path }
 cp-error-selinux-get-context = kunde inte hämta säkerhetskontexten för { $path }
 cp-error-selinux-error = SELinux-fel: { $error }
 cp-error-cannot-create-fifo = kan inte skapa fifo { $path }: Filen finns
@@ -91,7 +93,7 @@ cp-error-failed-to-create-directory = Misslyckades med att skapa katalogen: { $e
 cp-error-backup-format =
     cp: { $error }
     Försök med '{ $exec } --help' för mer information.
-cp-debug-enum-no = nej
+cp-debug-enum-no = inte
 cp-debug-enum-yes = ja
 cp-debug-enum-avoided = undviken
 cp-debug-enum-unsupported = utan stöd
@@ -103,3 +105,11 @@ cp-debug-copy-offload = kopieringsavlastning: { $offload }, reflink: { $reflink 
 cp-prompt-overwrite = skriv över { $path }?
 cp-prompt-overwrite-with-mode = ersätt { $path }, överstyrningsläge
 cp-debug-skipped = hoppade över { $path }
+cp-error-relative-symlink-not-in-cwd = { $dest }: kan skapa relativa symboliska länkar endast i aktuell katalog
+cp-error-selinux-context-conflict = kan inte kombinera --context (-Z) med --preserve=context
+cp-error-cannot-create-special-file = kan inte skapa specialfilen { $path }: { $error }
+cp-error-cannot-create-regular-file = kan inte skapa den vanliga filen { $path }
+cp-error-setting-attributes = anger attribut för { $path }
+cp-error-write = fel vid skrivning
+cp-warning-context-ignored = --context ignoreras. Den kräver en SELinux-aktiverad kärna
+cp-verbose-removed = tog bort { $path }
