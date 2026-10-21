@@ -15,15 +15,15 @@ sort-open-failed = öppnandet misslyckades: { $path }: { $error }
 sort-parse-key-error = misslyckades med att läsa nyckeln { $key }: { $msg }
 sort-cannot-read = kan inte läsa: { $path }: { $error }
 sort-open-tmp-file-failed = kunde inte öppna den tillfälliga filen: { $error }
-sort-compress-prog-execution-failed = kunde inte kÃ¶ra komprimeringsprogrammet: errno { $code }
+sort-compress-prog-execution-failed = kunde inte köra komprimeringsprogrammet { $prog }: { $error }
 sort-compress-prog-terminated-abnormally = { $prog } avslutades onormalt
 sort-cannot-create-tmp-file = kan inte skapa tillfÃ¤llig fil i '{ $path }':
 sort-file-operands-combined =
-    extra operand '{ $file }'
+    ytterligare operand { $file }
     filoperander kan inte kombineras med --files0-from
-    FÃ¶rsÃ¶k med '{ $help } --help' fÃ¶r mer information.
+    Kör { $help } --help för mer information.
 sort-multiple-output-files = flera angivna utdatafiler
-sort-minus-in-stdin = NÃ¤r man lÃ¤ser filnamn frÃ¥n standard-in Ã¤r filnamnet '-' inte tillÃ¥tet
+sort-minus-in-stdin = när filnamn läses från standardindata är filnamnet "-" inte tillåtet
 sort-no-input-from = ingen indata frÃ¥n '{ $file }'
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: ogiltigt filnamn med längden noll
 sort-options-incompatible = alternativen '-{ $opt1 }{ $opt2 }' är inkompatibla
@@ -87,3 +87,25 @@ sort-stray-character-field-spec = extra tecken i fältspecifikation
 sort-warning-failed-to-set-locale = misslyckades med att sätta lokal
 sort-warning-simple-byte-comparison = textsortering utförs med användning av enkel bytejämförelse
 sort-warning-option-reverse-last-resort = flaggan ”-r” gäller bara jämförelsen som används som sista utväg
+sort-usage = sort [FLAGGA]... [FIL]...
+sort-truncate-failed = kunde inte trunkera: { $path }: { $error }
+sort-read-failed = läsning misslyckades: { $error }
+sort-random-source-end-of-file = { $path }: filslut
+sort-invalid-field-spec = { $msg }: ogiltig fältspecifikation { $spec }
+sort-invalid-count-at-start-of = ogiltigt antal i början av { $string }
+sort-diag-label-missing-count = förväntade ett tal här
+sort-diag-label-zero-count = räkningen börjar vid 1
+sort-diag-help-key-syntax = en nyckel är FÄLT[.TECKEN][FLAGGOR][,FÄLT[.TECKEN][FLAGGOR]], som i -k2.3,4nr
+sort-warning-sort-rule = textsortering utfördes enligt sorteringsreglerna för '{ $locale }'
+sort-warning-key-zero-width = nyckeln { $key } har bredden noll och ignoreras
+sort-warning-key-numeric-spans-fields = nyckeln { $key } är numerisk och sträcker sig över flera fält
+sort-warning-leading-blanks-significant = inledande blanksteg är betydelsefulla i nyckeln { $key }. Överväg att också ange 'b'
+sort-warning-numbers-use-decimal-point = tal använder '.' som decimaltecken i denna språkinställning
+sort-warning-options-ignored = flaggorna '-{ $options }' ignoreras
+sort-warning-option-ignored = flaggan '-{ $option }' ignoreras
+sort-warning-obsolescent-key = föråldrad nyckel '{ $key }' används. Överväg '-k { $replacement }' i stället
+sort-warning-separator-grouping = fältavgränsaren '{ $sep }' behandlas som en gruppavgränsare i tal
+sort-warning-separator-decimal = fältavgränsaren '{ $sep }' behandlas som decimaltecken i tal
+sort-warning-separator-minus = fältavgränsaren '{ $sep }' behandlas som ett minustecken i tal
+sort-warning-separator-plus = fältavgränsaren '{ $sep }' behandlas som ett plustecken i tal
+sort-help-random-source = använd FIL som källa till slumpdata
