@@ -19,3 +19,4 @@ chown-error-failed-to-get-attributes = misslyckades med att hämta attribut för
 chown-error-invalid-user = ogiltig användare: { $user }
 chown-error-invalid-group = ogiltig grupp: { $group }
 chown-error-invalid-spec = ogiltig specifikation: { $spec }
+chown-warning-dot-separator = '.' bör vara ':': { $spec }
