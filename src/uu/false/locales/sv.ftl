@@ -1,8 +1,8 @@
 false-about =
-    Returnerar falskt, en misslyckad avslutningsstatus.
+    Returnerar falskt, alltså en felstatus.
 
-    Returnerar omedelbart med avslutningsstatus 1. När den anropas med ett av de igenkända argumenten
-    kommer den att försöka skriva hjälp- eller versionstexten. Eventuella IO-fel under denna operation diagnostiseras, men
-    programmet kommer också att returnera 1.
-false-help-text = Skriv ut hjälpinformation
-false-version-text = Skriv ut information om version
+    Avslutas omedelbart med status 1. När programmet anropas med en av de igenkända flaggorna
+    försöker det skriva ut hjälp- eller versionsinformation. Eventuella I/O-fel under detta rapporteras,
+    men programmet avslutas ändå med status 1.
+false-help-text = Skriv ut hjälptext
+false-version-text = Skriv ut versionsinformation
