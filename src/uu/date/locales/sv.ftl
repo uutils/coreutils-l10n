@@ -96,8 +96,20 @@ date-help-set-redox = ställ tiden till den beskriven av STRING (inte tillgängl
 date-help-universal = skriv ut eller ställ in koordinerad universell tid (UTC)
 date-error-invalid-date = ogiltigt datum '{ $date }'
 date-error-invalid-format = ogiltigt format '{ $format }' ({ $error })
-date-error-expected-file-got-directory = förväntade fil, hämtade katalogen '{ $path }'
+date-error-expected-file-got-directory = fÃ¶rvÃ¤ntade fil, hÃ¤mtade katalogen '{ $path }'
 date-error-date-overflow = datumöverflöde '{ $date }'
 date-error-setting-date-not-supported-macos = macOS stöder inte datuminställning
 date-error-setting-date-not-supported-redox = Redox stöder inte datuminställning
 date-error-cannot-set-date = kan inte ställa in datum
+date-help-resolution =
+    skriv ut tillgänglig upplösning för tidsstämplar
+    Exempel: 0.000000001
+date-error-setting-date-not-supported-wasi = det går inte att ange datum i WASI
+date-error-extra-operand = extra operand '{ $operand }'
+date-error-write = skrivfel: { $error }
+date-error-format-modifier-width-too-large = formatmodifierarens bredd '{ $width }' är för stor för specifikationen '%{ $specifier }'
+date-error-format-missing-plus =
+    argumentet '{ $arg }' saknar inledande '+';
+    när en flagga används för att ange datum måste varje argument som inte är en flagga
+    vara en formatsträng som börjar med '+'
+date-error-multiple-output-formats = multipla utformat angivna
