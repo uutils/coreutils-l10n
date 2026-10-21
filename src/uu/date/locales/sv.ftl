@@ -105,7 +105,7 @@ date-help-resolution =
     skriv ut tillgänglig upplösning för tidsstämplar
     Exempel: 0.000000001
 date-error-setting-date-not-supported-wasi = det går inte att ange datum i WASI
-date-error-extra-operand = extra operand '{ $operand }'
+date-error-extra-operand = ytterligare operand { $operand }
 date-error-write = skrivfel: { $error }
 date-error-format-modifier-width-too-large = formatmodifierarens bredd '{ $width }' är för stor för specifikationen '%{ $specifier }'
 date-error-format-missing-plus =
