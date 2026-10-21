@@ -1,9 +1,12 @@
 tsort-about =
-    Topologisk sortering av strängarna i FILE.
-    Strängar definieras som en sekvens av tokens separerade med mellanslag (tabb, mellanslag eller nyrad), och ordnas baserat på beroenden i en riktad acyklisk graf (DAG).
-    Användbart för att schemalägga och bestämma exekveringsordning.
-    Om FILE inte skickas in används standard-in istället.
-tsort-usage = tsort [OPTIONS] FILE
+    Topologisortera strängarna i FIL.
+    Strängar definieras som följder av token avgränsade med blanksteg (tabb, mellanslag eller nyrad) och sorteras efter beroenden i en riktad acyklisk graf (DAG).
+    Användbart för schemaläggning och för att fastställa körordningen.
+    Om ingen FIL anges används standardindata.
+tsort-usage = tsort [FLAGGOR] FIL
 tsort-error-is-dir = läsfel: Är en katalog
-tsort-error-odd = indata innehåller ett udda antal tokens
-tsort-error-loop = indata innehåller en loop:
+tsort-error-odd = indata innehåller ett udda antal token
+tsort-error-loop = indata innehåller en cykel:
+tsort-error-extra-operand =
+    ytterligare operand { $operand }
+    Försök med ”tsort --help” för mer information.
