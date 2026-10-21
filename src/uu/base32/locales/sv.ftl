@@ -46,3 +46,4 @@ base-common-help-decode = avkoda data
 base-common-help-ignore-garbage = Ignorera icke-alfabetiska tecken vid avkodning
 base-common-help-wrap = radbryt kodade rader efter COLS-tecknet (standard { $default }, 0 för att inaktivera radbrytning)
 basenc-help-base58 = visuelt entydig base58-koding
+base-common-invalid-input = ogiltig inmatning
