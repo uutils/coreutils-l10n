@@ -6,7 +6,7 @@ comm-about =
     Utan alternativ, producera utdata med tre kolumner. Kolumn ett innehåller
     rader unika för FILE1, kolumn två innehåller rader unika för FILE2,
     och kolumn tre innehåller rader gemensamma för båda filerna.
-comm-usage = comm [OPTION]... FILE1 FILE2
+comm-usage = comm [FLAGGA]... FIL1 FIL2
 comm-help-column-1 = undertryck kolumn 1 (rader unika för FILE1)
 comm-help-zero-terminated = radavgränsare är NUL, inte nyrad
 comm-error-is-directory = Är en katalog
@@ -20,3 +20,4 @@ comm-help-check-order = kontrollera att inmatningen är korrekt sorterad, även 
 comm-help-no-check-order = kontrollera inte att inmatningen är korrekt sorterad
 comm-error-file-not-sorted = comm: filen { $file_num } är inte i sorterad ordning
 comm-error-input-not-sorted = comm: inmatningen är inte i sorterad ordning
+comm-error-write = skrivfel
