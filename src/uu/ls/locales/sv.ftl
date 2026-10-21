@@ -131,3 +131,4 @@ ls-invalid-columns-width = ignorerar ogiltig bredd i miljövariabeln COLUMNS: { 
 ls-invalid-ignore-pattern = Ogiltigt mönster för ignore: { $pattern }
 ls-invalid-hide-pattern = Ogiltigt mönster för hide: { $pattern }
 ls-total = totalt { $size }
+smack-error-not-enabled = SMACK är inte aktiverat på systemet
