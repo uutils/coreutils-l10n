@@ -1,21 +1,21 @@
-chroot-about = Kör COMMAND med rotkatalogen satt till NEWROOT.
-chroot-usage = chroot [OPTION]... NEWROOT [COMMAND [ARG]...]
-chroot-help-groups = Kommaavgränsad lista över grupper att växla till
-chroot-help-userspec = Kolonseparerad sträng med användare och grupp att växla till.
-chroot-help-skip-chdir = Använd det här alternativet för att inte ändra arbetskatalogen till / efter att rotkatalogen har ändrats till newroot, d.v.s. inuti chrooten.
-chroot-error-skip-chdir-only-permitted = alternativet --skip-chdir endast tillåtet om NEWROOT är den gamla '/'
-chroot-error-cannot-enter = kan inte chroota till { $dir }: { $err }
+chroot-about = Kör KOMMANDO med rotkatalogen angiven till NYROT.
+chroot-usage = chroot [FLAGGA]... NYROT [KOMMANDO [ARGUMENT]...]
+chroot-help-groups = kommaseparerad lista över grupper att byta till
+chroot-help-userspec = kolonseparerad användare och grupp att byta till
+chroot-help-skip-chdir = använd flaggan för att inte ändra arbetskatalogen till / efter att rotkatalogen ändrats till NYROT, alltså inne i chrootmiljön
+chroot-error-skip-chdir-only-permitted = flaggan --skip-chdir är endast tillåten om NYROT är den gamla '/'
+chroot-error-cannot-enter = kan inte byta rotkatalog till { $dir }: { $err }
 chroot-error-command-failed = misslyckades med att köra kommandot { $cmd }: { $err }
 chroot-error-command-not-found = misslyckades med att köra kommandot { $cmd }: { $err }
-chroot-error-groups-parsing-failed = --groups parsning misslyckades
+chroot-error-groups-parsing-failed = kunde inte tolka --groups
 chroot-error-invalid-group = ogiltig grupp: { $group }
 chroot-error-invalid-group-list = ogiltig grupplista: { $list }
 chroot-error-missing-newroot =
-    Operand saknas: NEWROOT
+    Operand saknas: NYROT
     Försök med '{ $util_name } --help' för mer information.
-chroot-error-no-group-specified = ingen grupp specificerad för okänd uid: { $uid }
+chroot-error-no-group-specified = ingen grupp har angetts för okänt UID: { $uid }
 chroot-error-no-such-user = ogiltig användare
 chroot-error-no-such-group = ogiltig grupp
-chroot-error-set-gid-failed = kan inte ställa in gid till { $gid }: { $err }
-chroot-error-set-groups-failed = kan inte ställa in grupper: { $err }
-chroot-error-set-user-failed = kan inte ställa in användaren till { $user }: { $err }
+chroot-error-set-gid-failed = kan inte ange gid till { $gid }: { $err }
+chroot-error-set-groups-failed = kan inte ange grupper: { $err }
+chroot-error-set-user-failed = kan inte ange användare till { $user }: { $err }
