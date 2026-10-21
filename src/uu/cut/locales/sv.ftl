@@ -1,110 +1,124 @@
-cut-about = Skriver ut angivna byte- eller fältkolumner från varje rad i standard-in eller indatafilerna
-cut-usage = cut OPTION... [FILE]...
+cut-about = Skriver ut angivna byte- eller fÃ¤ltkolumner frÃ¥n varje rad i standard-in eller indatafilerna
+cut-usage = cut FLAGGA... [FIL]...
 cut-error-write-error = skrivfel
 cut-after-help =
-    Varje anrop måste ange ett modus (vad som ska användas för kolumner),
-    en sekvens (vilka kolumner som ska skrivas ut) och tillhandahålla en datakälla
+    Varje anrop mÃ¥ste ange ett modus (vad som ska anvÃ¤ndas fÃ¶r kolumner),
+    en sekvens (vilka kolumner som ska skrivas ut) och tillhandahÃ¥lla en datakÃ¤lla
 
     ### Ange ett modus
 
-    Använd --bytes (-b) eller --characters (-c) för att ange bytemodus
+    AnvÃ¤nd --bytes (-b) eller --characters (-c) fÃ¶r att ange bytemodus
 
-    Använd --fields (-f) för att ange fältmodus, där varje rad är uppdelad i
-    fält som identifieras med ett avgränsningstecken. Till exempel för en typisk CSV
-    kan du använda detta i kombination med att ange komma som avgränsare
+    AnvÃ¤nd --fields (-f) fÃ¶r att ange fÃ¤ltmodus, dÃ¤r varje rad Ã¤r uppdelad i
+    fÃ¤lt som identifieras med ett avgrÃ¤nsningstecken. Till exempel fÃ¶r en typisk CSV
+    kan du anvÃ¤nda detta i kombination med att ange komma som avgrÃ¤nsare
 
     ### Ange en sekvens
 
-    En sekvens är en grupp av 1 eller flera tal eller inkluderande områden separerade
+    En sekvens Ã¤r en grupp av 1 eller flera tal eller inkluderande omrÃ¥den separerade
     med kommatecken.
 
     cut -f 2,5-7 some_file.txt
 
-    visar det andra, femte, sjätte och sjunde fältet för varje källrad
+    visar det andra, femte, sjÃ¤tte och sjunde fÃ¤ltet fÃ¶r varje kÃ¤llrad
 
-    Områden kan utökas till slutet av raden genom att exkludera det andra numret
+    OmrÃ¥den kan utÃ¶kas till slutet av raden genom att exkludera det andra numret
 
     cut -f 3- some_file.txt
 
-    visar det tredje fältet och alla fält därefter för varje källrad
+    visar det tredje fÃ¤ltet och alla fÃ¤lt dÃ¤refter fÃ¶r varje kÃ¤llrad
 
-    Det första numret i ett intervall kan exkluderas, och detta är i praktiken
-    detsamma som att använda 1 som det första numret: det gör att intervallet börjar vid den
-    första kolumnen. Områden kan också visa en enda kolumn
+    Det fÃ¶rsta numret i ett intervall kan exkluderas, och detta Ã¤r i praktiken
+    detsamma som att anvÃ¤nda 1 som det fÃ¶rsta numret: det gÃ¶r att intervallet bÃ¶rjar vid den
+    fÃ¶rsta kolumnen. OmrÃ¥den kan ocksÃ¥ visa en enda kolumn
 
     cut -f 1,3-5 some_file.txt
 
-    visar det 1:a, 3:e, 4:e och 5:e fältet för varje källrad
+    visar det 1:a, 3:e, 4:e och 5:e fÃ¤ltet fÃ¶r varje kÃ¤llrad
 
-    Alternativet --complement, när det används, inverterar effekten av sekvensen
+    Alternativet --complement, nÃ¤r det anvÃ¤nds, inverterar effekten av sekvensen
 
     cut --complement -f 4-6 some_file.txt
 
-    visar alla fält utom det 4:e, 5:e och 6:e
+    visar alla fÃ¤lt utom det 4:e, 5:e och 6:e
 
-    ### Ange en datakälla
+    ### Ange en datakÃ¤lla
 
-    Om inga källfilsargument anges används standard-in som källa för
+    Om inga kÃ¤llfilsargument anges anvÃ¤nds standard-in som kÃ¤lla fÃ¶r
     rader som ska skrivas ut
 
-    Om källfilsargument anges ignoreras standard-in och alla filer
-    läses in i tur och ordning om en källfil inte läses korrekt, en varning
+    Om kÃ¤llfilsargument anges ignoreras standard-in och alla filer
+    lÃ¤ses in i tur och ordning om en kÃ¤llfil inte lÃ¤ses korrekt, en varning
     skrivs ut till standard-err, och den slutliga statuskoden blir 1, men cut
-    fortsätter att läsa igenom pågående källfiler
+    fortsÃ¤tter att lÃ¤sa igenom pÃ¥gÃ¥ende kÃ¤llfiler
 
-    För att skriva ut kolumner från både standard-in och ett filargument, använd - (streck) som ett
-    källfilsargument för att representera standard-in.
+    FÃ¶r att skriva ut kolumner frÃ¥n bÃ¥de standard-in och ett filargument, anvÃ¤nd - (streck) som ett
+    kÃ¤llfilsargument fÃ¶r att representera standard-in.
 
-    ### Fältmodusalternativ
+    ### FÃ¤ltmodusalternativ
 
-    Fälten på varje rad identifieras med en avgränsare (separator)
+    FÃ¤lten pÃ¥ varje rad identifieras med en avgrÃ¤nsare (separator)
 
-    #### Ställ in avgränsaren
+    #### StÃ¤ll in avgrÃ¤nsaren
 
-    Ställ in avgränsaren som separerar fält i filen med hjälp av alternativet
-    --delimiter (-d). Att ställa in avgränsaren är valfritt.
-    Om den inte är inställd kommer standardavgränsaren Tab att användas.
+    StÃ¤ll in avgrÃ¤nsaren som separerar fÃ¤lt i filen med hjÃ¤lp av alternativet
+    --delimiter (-d). Att stÃ¤lla in avgrÃ¤nsaren Ã¤r valfritt.
+    Om den inte Ã¤r instÃ¤lld kommer standardavgrÃ¤nsaren Tab att anvÃ¤ndas.
 
-    Om alternativet -w anges kommer fält att separeras med valfritt antal
-    blanksteg (mellanslag och Tab). Utdataavgränsaren kommer
+    Om alternativet -w anges kommer fÃ¤lt att separeras med valfritt antal
+    blanksteg (mellanslag och Tab). UtdataavgrÃ¤nsaren kommer
     att vara en Tab om inte annat uttryckligen anges. Endast ett av alternativen -d eller -w kan anges.
-    Detta är en tilläggsfunktion från FreeBSD.
+    Detta Ã¤r en tillÃ¤ggsfunktion frÃ¥n FreeBSD.
 
-    #### Filtrera valfritt baserat på avgränsare
+    #### Filtrera valfritt baserat pÃ¥ avgrÃ¤nsare
 
     Om flaggan --only-delimited (-s) anges kommer endast rader som
-    innehåller avgränsaren att skrivas ut
+    innehÃ¥ller avgrÃ¤nsaren att skrivas ut
 
-    #### Ersätt avgränsaren
+    #### ErsÃ¤tt avgrÃ¤nsaren
 
-    Om alternativet --output-delimiter anges kommer argumentet som används för
-    den att ersätta avgränsartecknet på varje rad som skrivs ut. Detta är
-    användbart för att transformera tabelldata - t.ex. för att konvertera en CSV till en
-    TSV (tabbavgränsad fil)
+    Om alternativet --output-delimiter anges kommer argumentet som anvÃ¤nds fÃ¶r
+    den att ersÃ¤tta avgrÃ¤nsartecknet pÃ¥ varje rad som skrivs ut. Detta Ã¤r
+    anvÃ¤ndbart fÃ¶r att transformera tabelldata - t.ex. fÃ¶r att konvertera en CSV till en
+    TSV (tabbavgrÃ¤nsad fil)
 
     ### Radslut
 
-    När alternativet --zero-terminated (-z) används, ser cut \\0 (null) som
-    'radslut'-tecknet (både för att läsa rader och
-    separera utskrivna rader) istället för \\n (radbrytning). Detta är användbart för
-    tabelldata där vissa celler kan innehålla radbrytningar
+    NÃ¤r alternativet --zero-terminated (-z) anvÃ¤nds, ser cut \\0 (null) som
+    'radslut'-tecknet (bÃ¥de fÃ¶r att lÃ¤sa rader och
+    separera utskrivna rader) istÃ¤llet fÃ¶r \\n (radbrytning). Detta Ã¤r anvÃ¤ndbart fÃ¶r
+    tabelldata dÃ¤r vissa celler kan innehÃ¥lla radbrytningar
 
     echo 'ab\\0cd' | cut -z -c 1
 
     kommer att resultera i 'a\\0c\\0'
 cut-error-is-directory = Är en katalog
-cut-help-bytes = filtrera bytekolumner från inmatningskällan
-cut-help-characters = alias för teckenläge
-cut-help-delimiter = Ange avgränsningstecknet som separerar fält i inmatningskällan. Standardinställningen är Tab.
-cut-help-whitespace-delimited = Använd valfritt antal blanksteg (mellanslag, tabb) för att separera fält i inmatningskällan (FreeBSD-tillägg).
-cut-help-fields = filtrera fältkolumner från inmatningskällan
-cut-help-complement = invertera filtret - istället för att bara visa de filtrerade kolumnerna, visa alla utom de kolumnerna
-cut-help-only-delimited = i fältläge, skriv endast ut rader som innehåller avgränsaren
-cut-help-zero-terminated = istället för att filtrera kolumner baserat på rad, filtrera kolumner baserat på \\0 (NULL-tecken)
-cut-help-output-delimiter = I fältläge, ersätt avgränsaren i utdatarader med argumentet från detta alternativ
+cut-help-bytes = filtrera bytekolumner frÃ¥n inmatningskÃ¤llan
+cut-help-characters = alias fÃ¶r teckenlÃ¤ge
+cut-help-delimiter = Ange avgrÃ¤nsningstecknet som separerar fÃ¤lt i inmatningskÃ¤llan. StandardinstÃ¤llningen Ã¤r Tab.
+cut-help-whitespace-delimited = AnvÃ¤nd valfritt antal blanksteg (mellanslag, tabb) fÃ¶r att separera fÃ¤lt i inmatningskÃ¤llan (FreeBSD-tillÃ¤gg).
+cut-help-fields = filtrera fÃ¤ltkolumner frÃ¥n inmatningskÃ¤llan
+cut-help-complement = invertera filtret - istÃ¤llet fÃ¶r att bara visa de filtrerade kolumnerna, visa alla utom de kolumnerna
+cut-help-only-delimited = i fÃ¤ltlÃ¤ge, skriv endast ut rader som innehÃ¥ller avgrÃ¤nsaren
+cut-help-zero-terminated = istÃ¤llet fÃ¶r att filtrera kolumner baserat pÃ¥ rad, filtrera kolumner baserat pÃ¥ \\0 (NULL-tecken)
+cut-help-output-delimiter = I fÃ¤ltlÃ¤ge, ersÃ¤tt avgrÃ¤nsaren i utdatarader med argumentet frÃ¥n detta alternativ
 cut-error-delimiter-and-whitespace-conflict = ogiltig inmatning: Endast ett av alternativen --delimiter (-d) eller -w kan anges
 cut-error-delimiter-must-be-single-character = avgränsaren måste vara ett enda tecken
-cut-error-multiple-mode-args = ogiltig användning: max en av --fields (-f), --chars (-c) eller --bytes (-b) förväntas
-cut-error-missing-mode-arg = ogiltig användning: en av --fields (-f), --chars (-c) eller --bytes (-b) förväntad
-cut-error-delimiter-only-with-fields = ogiltig indata: Alternativet '--delimiter' ('-d') kan endast användas vid utskrift av en sekvens av fält
-cut-error-only-delimited-only-with-fields = ogiltig indata: Alternativet '--only-delimited' ('-s') kan endast användas vid utskrift av en sekvens av fält
+cut-error-multiple-mode-args = ogiltig anvÃ¤ndning: max en av --fields (-f), --chars (-c) eller --bytes (-b) fÃ¶rvÃ¤ntas
+cut-error-missing-mode-arg = ogiltig anvÃ¤ndning: en av --fields (-f), --chars (-c) eller --bytes (-b) fÃ¶rvÃ¤ntad
+cut-error-delimiter-only-with-fields = ogiltig indata: Alternativet '--delimiter' ('-d') kan endast anvÃ¤ndas vid utskrift av en sekvens av fÃ¤lt
+cut-error-only-delimited-only-with-fields = ogiltig indata: Alternativet '--only-delimited' ('-s') kan endast anvÃ¤ndas vid utskrift av en sekvens av fÃ¤lt
+cut-help-fields-merged = som -f, men slå ihop intilliggande avgränsare. Avgränsaren är som standard blanksteg och avgränsaren för utdata är ett blanksteg
+cut-help-no-partial = med -b ska inga partiella flerbytetecken skrivas ut
+cut-error-field-numbered-from-1 = fält numreras från 1
+cut-error-position-numbered-from-1 = byte-/teckenpositioner numreras från 1
+cut-error-invalid-field-range = felaktigt fältintervall
+cut-error-invalid-position-range = felaktigt byte- eller teckenintervall
+cut-error-invalid-decreasing-range = ogiltigt sjunkande intervall
+cut-error-invalid-range-no-endpoint = ogiltigt intervall utan slutpunkt: { $range }
+cut-error-invalid-field-value = ogiltigt fältvärde { $value }
+cut-error-invalid-position-value = ogiltig byte- eller teckenposition { $value }
+cut-error-field-number-too-large = fältnumret { $value } är för stort
+cut-error-position-too-large = byte- eller teckenförskjutningen { $value } är för stor
+cut-diag-label-zero-bound = räkningen börjar vid 1
+cut-diag-help-list-syntax = en lista är N, N-M, N- eller -M, separerade med kommatecken, som i -f1,4-6,9-
