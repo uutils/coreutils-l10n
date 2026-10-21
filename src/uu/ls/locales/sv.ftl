@@ -7,8 +7,8 @@ ls-after-help = TIME_STYLE-argumentet kan vara full-iso, long-iso, iso, locale e
 ls-error-invalid-line-width = ogiltig linjebredd: { $width }
 ls-error-general-io = allmänt io-fel: { $error }
 ls-error-cannot-access-no-such-file = kan inte komma Ã¥t '{ $path }': Fil eller katalog saknas
-ls-error-cannot-access-operation-not-permitted = kan inte komma Ã¥t '{ $path }': Ã        tgÃ¤rden Ã¤r inte tillÃ¥ten
-ls-error-cannot-open-directory-permission-denied = kan inte Ã¶ppna katalogen '{ $path }': Ã        tkomst nekad
+ls-error-cannot-access-operation-not-permitted = kan inte komma åt { $path }: åtgärden är inte tillåten
+ls-error-cannot-open-directory-permission-denied = kan inte öppna katalogen { $path }: behörighet saknas
 ls-error-cannot-open-file-permission-denied = Kan inte öppna filen '{ $path }': Åtkomst nekad
 ls-error-cannot-open-directory-bad-descriptor = kan inte Ã¶ppna katalogen '{ $path }': Felaktig fil-identifierare
 ls-error-unknown-io-error = okÃ¤nt io-fel: '{ $path }', '{ $error }'
@@ -16,10 +16,15 @@ ls-error-invalid-block-size = ogiltigt --block-size argument { $size }
 ls-error-dired-and-zero-incompatible = --dired och --zero är inkompatibla
 ls-error-not-listing-already-listed = { $path }: listar inte redan listad katalog
 ls-error-invalid-time-style =
-    ogiltigt --time-style argument { $style }
-    MÃ¶jliga vÃ¤rden Ã¤r: { $values }
+    ogiltigt argument för --time-style: { $style }
+    Möjliga värden är:
+      - [posix-]full-iso
+      - [posix-]long-iso
+      - [posix-]iso
+      - [posix-]locale
+      - +FORMAT (t.ex. +%H:%M) för ett datumformat
 
-    FÃ¶r mer information, fÃ¶rsÃ¶k med --help
+    Kör --help för mer information
 ls-help-set-display-format = Ställ in visningsformatet.
 ls-help-display-files-columns = Visa filerna i kolumner.
 ls-help-display-detailed-info = Visa detaljerad information.
@@ -134,7 +139,7 @@ ls-total = totalt { $size }
 smack-error-not-enabled = SMACK är inte aktiverat på systemet
 dir-about =
     Lista kataloginnehåll.
-    Ignorera som standard filer och kataloger som börjar med '.'.
+    Ignorera som standard filer och kataloger som börjar med "."
 vdir-about =
     Lista kataloginnehåll.
     Ignorera som standard filer och kataloger som börjar med '.'.
