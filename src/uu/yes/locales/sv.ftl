@@ -1,3 +1,3 @@
-yes-about = Skriv ut STRING (eller 'y') upprepade gånger
-yes-usage = yes [STRÄNG]…
-yes-error-standard-output = standard-ut: { $error }
+yes-about = Skriv upprepade gånger ut en rad med STRÄNG, eller 'y'
+yes-usage = yes [STRÄNG]...
+yes-error-standard-output = standardutdata: { $error }
