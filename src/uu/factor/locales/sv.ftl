@@ -7,3 +7,4 @@ factor-error-write-error = skrivfel
 factor-help-exponents = Skriv ut faktorer på formen p^e
 factor-error-factorization-incomplete = Faktorisering ofullständig. Rester finns.
 factor-error-reading-input = fel vid läsning av indata: { $error }
+factor-error-invalid-int = är inte ett giltigt positivt heltal
