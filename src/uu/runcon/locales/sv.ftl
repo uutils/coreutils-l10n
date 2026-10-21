@@ -32,3 +32,4 @@ runcon-operation-setting-role = Ställer in rollen för säkerhetskontexten
 runcon-operation-setting-type = Ställer in typen för säkerhetskontexten
 runcon-operation-setting-range = Ställer in intervallet för säkerhetskontexten
 runcon-operation-executing-command = Utför kommando
+runcon-error-write = skrivfel: { $error }
