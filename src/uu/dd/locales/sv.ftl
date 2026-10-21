@@ -1,144 +1,103 @@
-dd-about = Kopiera, och möjligtvis konvertera, en filsystemresurs
+dd-about = Kopiera och konvertera vid behov en filsystemresurs
 dd-usage =
     dd [OPERAND]...
-    dd OPTION
-dd-error-write-error = skrivfel
+    dd FLAGGA
+dd-error-write-error = ett fel uppstod vid skrivning
 dd-after-help =
-    ### Operander
+    Operander:
 
-    - bs=BYTES : läs och skriv upp till BYTES byte åt gången (standard: 512);
-       skriver över ibs och obs.
-    - cbs=BYTES : 'konverteringsblockstorleken' i byte. Gäller för operationerna
-       conv=block och conv=unblock.
-    - conv=CONVS : en kommaseparerad lista med konverteringsalternativ eller
-       (av äldre skäl) filflaggor.
-    - count=N : stoppar läsning av indata efter N ibs-stora läsoperationer
-       istället för att fortsätta tills EOF. Se iflag=count_bytes om det är
-       att föredra att stoppa efter N byte
-    - ibs=N : storleken på bufferten som används för läsningar (standard: 512)
-    - if=FILE : filen som används för indata. När den inte anges används stdin istället
-    - iflag=FLAGS : en kommaseparerad lista med indataflaggor som anger hur
-       indatakällan behandlas. FLAGS kan vara vilken som helst av de indataflaggor
-       eller generella flaggor som anges nedan.
-    - skip=N (eller iseek=N): hoppar över N ibs-stora poster till indata innan
-       kopierings-/konverteringsoperationer påbörjas. Se iflag=seek_bytes om sökning efter N byte är att föredra.
-    - obs=N: storleken på bufferten som används för skrivningar (standard: 512)
-    - of=FILE: filen som används för utdata. När den inte anges används
-       standard-ut istället
-    - oflag=FLAGS: kommaseparerad lista med utdataflaggor som anger hur utdatakällan
-       behandlas. FLAGS kan vara vilken som helst av de utdataflaggor eller
-       generella flaggor som anges nedan
-    - seek=N (eller oseek=N): söker N obs-stora poster till utdata innan
-       kopierings-/konverteringsoperationer påbörjas. Se oflag=seek_bytes
-       om sökning efter N byte är att föredra
-    - status=LEVEL: styr om volym- och prestandastatistik skrivs till
-       standard-err.
+      - bs=BYTE : läs och skriv högst BYTE byte åt gången, standard är 512; skriver över ibs och obs.
+      - cbs=BYTE : konverteringsblockstorleken i byte. Gäller operationerna conv=block och conv=unblock.
+      - conv=KONVERTERINGAR : en kommaseparerad lista med konverteringsflaggor eller av historiska skäl filflaggor.
+      - count=N : sluta läsa indata efter N läsoperationer stora som ibs, i stället för att fortsätta till EOF. Se iflag=count_bytes om N byte föredras.
+      - ibs=N : storleken på bufferten för läsning, standard är 512
+      - if=FIL : filen som används som indata. Om den inte anges används standard in
+      - iflag=FLAGGOR : en kommaseparerad lista med indataflaggor som anger hur indatakällan behandlas. FLAGGOR kan vara någon av indataflaggorna eller de allmänna flaggorna nedan.
+      - skip=N, eller iseek=N : hoppa över N poster stora som ibs i indata innan kopiering eller konvertering påbörjas. Se iflag=skip_bytes om N byte föredras.
+      - obs=N : storleken på bufferten för skrivning, standard är 512
+      - of=FIL : filen som används som utdata. Om den inte anges används standard ut
+      - oflag=FLAGGOR : en kommaseparerad lista med utdataflaggor som anger hur utdatakällan behandlas. FLAGGOR kan vara någon av utdataflaggorna eller de allmänna flaggorna nedan
+      - seek=N, eller oseek=N : sök N poster stora som obs i utdata innan kopiering eller konvertering påbörjas. Se oflag=seek_bytes om N byte föredras
+      - status=NIVÅ : styr om volym och prestandastatistik skrivs till standard fel.
 
-      Om det inte anges kommer dd att skriva ut statistik när den är klar. Ett exempel är nedan.
+        När den inte anges skriver dd ut statistik när det är klart. Ett exempel följer.
 
-      ```plain
-        6+0 poster in
-        16+0 poster ut
-        8192 byte (8,2 kB, 8,0 KiB) kopierade, 0,00057009 s,
-        14,4 MB/s
+          6+0 poster in
+          16+0 poster ut
+          8192 byte (8,2 kB, 8,0 KiB) kopierade, 0,00057009 s,
+          14,4 MB/s
 
-      De två första raderna är 'volym'-statistik och den sista raden är
-      'prestanda'-statistik.
-      Volymstatistiken anger antalet fullständiga och partiella ibs-stora läsningar, 
-      eller obs-stora skrivningar som ägde rum under kopieringen. Formatet för volym 
-      statistiken är &lt;fullständig&gt;+&lt;partiell&gt;. Om poster har trunkerats (se
-      conv=block), kommer volymstatistiken att innehålla antalet trunkerade poster.
+        De två första raderna är volymstatistik och den sista är prestandastatistik. Volymstatistiken anger antalet fullständiga och partiella läsningar stora som ibs eller skrivningar stora som obs under kopieringen. Formatet är <fullständiga>+<partiella>. Om poster har kortats av, se conv=block, innehåller volymstatistiken antalet avkortade poster.
 
-      Möjliga LEVEL-värden är:
-      - progress : Skriver ut periodisk prestandastatistik allt eftersom kopieringen fortskrider.
-      - noxfer : Skriver ut slutlig volymstatistik, men inte prestandastatistik.
-      - none : Skriv inte ut någon statistik.
+        Möjliga NIVÅ-värden:
+          - progress : skriv ut återkommande prestandastatistik medan kopieringen pågår.
+          - noxfer : skriv ut slutlig volymstatistik, men ingen prestandastatistik.
+          - none : skriv inte ut någon statistik.
 
-      Statistik för utskriftsprestanda utlöses också av INFO-signalen (där det stöds),
-      eller USR1-signalen. Om miljövariabeln POSIXLY_CORRECT ställs in på valfritt värde
-      (inklusive ett tomt värde) ignoreras USR1-signalen.
+        Prestandastatistik skrivs också ut vid signalen INFO, där den stöds, eller signalen USR1. Om miljövariabeln POSIXLY_CORRECT får ett värde, även ett tomt värde, ignoreras signalen USR1.
 
-    ### Konverteringsalternativ
+    Konverteringsflaggor:
 
-    - ascii : konvertera från EBCDIC till ASCII. Detta är inversen av ebcdic
-      alternativet. Innebär conv=unblock.
-    - ebcdic : konvertera från ASCII till EBCDIC. Detta är inversen av ascii
-      alternativet. Innebär conv=block.
-    - ibm : konvertera från ASCII till EBCDIC, med tillämpning av konventionerna för [, ]
-      och ~ som anges i POSIX. Innebär conv=block.
+      - ascii : konvertera från EBCDIC till ASCII. Detta är motsatsen till flaggan ebcdic. Innebär conv=unblock.
+      - ebcdic : konvertera från ASCII till EBCDIC. Detta är motsatsen till flaggan ascii. Innebär conv=block.
+      - ibm : konvertera från ASCII till EBCDIC och tillämpa POSIX-reglerna för [, ] och ~. Innebär conv=block.
+      - ucase : konvertera från gemener till versaler.
+      - lcase : konvertera från versaler till gemener.
+      - block : för varje nyrad före storleken som anges av cbs=BYTE, ta bort nyraden och fyll med mellanslag upp till cbs. Rader längre än cbs kortas av.
+      - unblock : för varje inmatningsblock med storleken som anges av cbs=BYTE, ta bort avslutande mellanslag och ersätt dem med ett nyradstecken.
+      - sparse : försök söka i utdata när ett block stort som obs enbart består av nollor.
+      - swab : byt plats på varje intilliggande bytepar. Om antalet byte är udda utelämnas den sista byten.
+      - sync : fyll varje block stort som ibs med nollor. Om block eller unblock anges fylls det i stället med mellanslag.
+      - excl : utdatafilen måste skapas. Misslyckas om utdatafilen redan finns.
+      - nocreat : utdatafilen skapas inte. Misslyckas om utdatafilen inte redan finns.
+      - notrunc : utdatafilen kortas inte av. Om flaggan saknas kortas utdata av när den öppnas.
+      - noerror : ignorera alla läsfel. Om flaggan saknas ignorerar dd bara Error::Interrupted.
+      - fdatasync : skriv data innan programmet avslutas.
+      - fsync : skriv data och metadata innan programmet avslutas.
 
-    - ucase : konvertera från gemener till versaler.
-    - lcase : konvertera från versaler till gemener.
+    Indataflaggor:
 
-    - block: för varje nyrad som är mindre än storleken som anges av cbs=BYTES,
-      ta bort nyradslinjen och fyll på med mellanslag upp till cbs. Rader längre än cbs avkortas.
-    - unblock: för varje inmatningsblock av storleken som anges av cbs=BYTES,
-      ta bort högerslutna mellanslag och ersätt med ett nyradstecken.
+      - count_bytes : ett värde för count=N tolkas som byte.
+      - skip_bytes : ett värde för skip=N tolkas som byte.
+      - fullblock : vänta på ibs byte från varje läsning. Läsningar med längden noll betraktas fortfarande som EOF.
 
-    - sparse: försöker söka efter utdata när ett block av obs-storlek består av
-      endast nollor.
-    - swab: byter ut varje angränsande par av byte. Om ett udda antal byte finns
-      utelämnas den sista byten.
-    - sync: fyll på varje ibs-sidigt block med nollor. Om block eller unblock är
-      specificerat, fyll på med mellanslag istället.
-    - excl: utdatafilen måste skapas. Misslyckas om utdatafilen redan finns
-      finns.
-    - nocreat: utdatafilen kommer inte att skapas. Misslyckas om utdatafilen
-      inte redan finns.
-    - notrunc: utdatafilen kommer inte att avkortas. Om det här alternativet
-      inte är tillgängligt kommer utdata att avkortas när det öppnas.
-    - noerror : alla läsfel ignoreras. Om det här alternativet inte finns,
-      kommer dd bara att ignorera Error::Interrupted.
-    - fdatasync : data skrivs innan det avslutas.
-    - fsync : data och metadata skrivs innan det avslutas.
+    Utdataflaggor:
 
-    ### Inmatningsflaggor
+      - append : öppna filen i tilläggsläge. Överväg också conv=notrunc.
+      - seek_bytes : ett värde för seek=N tolkas som byte.
 
-    - count_bytes : ett värde till count=N tolkas som byte.
-    - skip_bytes : ett värde till skip=N tolkas som byte.
-    - fullblock : vänta på ibs byte från varje läsning.
-      Läsningar med längd noll betraktas fortfarande som EOF.
+    Allmänna flaggor:
 
-    ### Utmatningsflaggor
-
-    - append : öppna filen i append-läge. Överväg att även ställa in conv=notrunc.
-    - seek_bytes : ett värde till seek=N tolkas som byte.
-
-    ### Allmänna flaggor
-
-    - direct : använd direkt I/O för data.
-    - directory: misslyckas om inte den givna inmatningen (om den används som
-      en iflag) eller utmatningen (om den används som en oflag) är en katalog.
-    - dsync: använd synkroniserade I/O för data.
-    - sync: använd synkroniserade I/O för data och metadata.
-    - nonblock: använd icke-blockerande I/O.
-    - noatime: uppdatera inte åtkomsttiden.
-    - nocache: begär att operativsystemet släpper cachen.
-    - noctty : tilldela inte en kontrollerande tty.
-    - nofollow : följ inte systemlänkar.
-dd-error-failed-to-open = misslyckades med att öppna { $path }
-dd-error-failed-to-seek = misslyckades med att söka i utdatafilen
-dd-error-io-error = IO-fel
-dd-error-cannot-skip-offset = '{ $file }': kan inte hoppa till angiven position
-dd-error-cannot-skip-invalid = '{ $file }': kan inte hoppas över: Ogiltigt argument
-dd-error-cannot-seek-invalid = '{ $output }': kan inte söka: Ogiltigt argument
-dd-error-not-directory = sätter flaggor för '{ $file }': Inte en katalog
-dd-error-unrecognized-operand = Okänd operand '{ $operand }'
-dd-error-multiple-format-table = Endast en av conv=ascii, conv=ebcdic eller conv=ibm kan anges
-dd-error-multiple-case = Endast ett av alternativen conv=lcase eller conv=ucase kan anges
-dd-error-multiple-block = Endast ett av alternativen conv=block eller conv=unblock kan anges
-dd-error-multiple-excl = Endast en ov conv=excl eller conv=nocreat kan anges
-dd-error-invalid-flag =
-    ogiltig inmatningsargument: ‘{ $flag }’
-    Försök med '{ $cmd } --help' för mer information.
-dd-error-conv-flag-no-match = Okänd conv=CONV -> { $flag }
-dd-error-multiplier-parse-failure = ogiltigt nummer: '{ $input }'
-dd-error-multiplier-overflow = Multiplikatorsträngen skulle överflöda på det aktuella systemet -> { $input }
+      - direct : använd direkt I/O för data.
+      - directory : misslyckas om den angivna inmatningen, när den används som iflag, eller utdata, när den används som oflag, inte är en katalog.
+      - dsync : använd synkroniserad I/O för data.
+      - sync : använd synkroniserad I/O för data och metadata.
+      - nonblock : använd icke blockerande I/O.
+      - noatime : uppdatera inte åtkomsttiden.
+      - nocache : begär att operativsystemet tömmer cachen.
+      - noctty : tilldela ingen styrande tty.
+      - nofollow : följ inte symboliska länkar.
+dd-error-failed-to-open = kunde inte öppna { $path }
+dd-error-failed-to-seek = kunde inte söka i utdatafilen
+dd-error-io-error = I/O-fel
+dd-error-cannot-skip-offset = ”{ $file }”: kan inte hoppa till den angivna positionen
+dd-error-cannot-skip-invalid = ”{ $file }”: kan inte hoppa över: ogiltigt argument
+dd-error-cannot-seek-invalid = ”{ $output }”: kan inte söka: ogiltigt argument
+dd-error-not-directory = ställer in flaggor för ”{ $file }”: inte en katalog
+dd-error-unrecognized-operand = okänd operand ”{ $operand }”
+dd-error-multiple-format-table = kan inte kombinera två av { "{" }ascii,ebcdic,ibm{ "}" }
+dd-error-multiple-case = kan inte kombinera lcase och ucase
+dd-error-multiple-block = kan inte kombinera block och unblock
+dd-error-multiple-excl = kan inte kombinera excl och nocreat
+dd-error-invalid-flag = ogiltig indataflagga: ”{ $flag }”
+dd-error-conv-flag-no-match = ogiltig konvertering: ”{ $flag }”
+dd-error-multiplier-parse-failure = ogiltigt tal: ”{ $input }”
+dd-error-multiplier-overflow = multiplikatorsträngen skulle ge ett överskridande på det aktuella systemet -> { $input }
 dd-error-block-without-cbs = conv=block eller conv=unblock specificerad utan cbs=N
-dd-error-status-not-recognized = status=LEVEL inte igenkänd -> { $level }
+dd-error-status-not-recognized = ogiltig statusnivå: ”{ $level }”
 dd-error-unimplemented = funktionen är inte implementerad på detta system -> { $feature }
 dd-error-bs-out-of-range = { $param }=N får inte plats i minnet
-dd-error-invalid-number = ogiltigt nummer: ‘{ $input }’
+dd-error-invalid-number = ogiltigt tal: ”{ $input }”
 dd-progress-records-in = { $complete }+{ $partial } poster in
 dd-progress-records-out = { $complete }+{ $partial } poster ut
 dd-progress-truncated-record =
@@ -147,8 +106,22 @@ dd-progress-truncated-record =
        *[other] { $count } avkortade poster
     }
 dd-progress-byte-copied = { $bytes } byte kopierad, { $duration } s, { $rate }/s
-dd-progress-bytes-copied = { $bytes } bytes kopierade, { $duration } s, { $rate }/s
-dd-progress-bytes-copied-si = { $bytes } bytes ({ $si }) kopierade, { $duration } s, { $rate }/s
-dd-progress-bytes-copied-si-iec = { $bytes } bytes ({ $si }, { $iec }) kopierade, { $duration } s, { $rate }/s
-dd-warning-zero-multiplier = { $zero } är en nollmultiplikator; använd { $alternative } om det är avsett
-dd-warning-signal-handler = Intern dd-varning: Det gick inte att registrera signalhanteraren
+dd-progress-bytes-copied = { $bytes } byte kopierade, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si = { $bytes } byte ({ $si }) kopierade, { $duration } s, { $rate }/s
+dd-progress-bytes-copied-si-iec = { $bytes } byte ({ $si }, { $iec }) kopierade, { $duration } s, { $rate }/s
+dd-warning-zero-multiplier = { $zero } är en nollmultiplikator; använd { $alternative } om det var avsikten
+dd-warning-signal-handler = Intern dd-varning: kunde inte registrera signalhanteraren
+dd-standard-input = ”standard in”
+dd-standard-output = ”standard ut”
+dd-error-failed-to-truncate = kunde inte korta av till { $size } byte i utdatafilen { $file }
+dd-error-failed-discard-cache = kunde inte tömma cache för: { $file }
+dd-error-invalid-output-flag = ogiltig utdataflagga: ”{ $flag }”
+dd-diag-help-operand = en operand är NYCKEL=VÄRDE, som if=file bs=4k count=10
+dd-diag-label-conv = ingen känd konvertering
+dd-diag-label-iflag = ingen känd indataflagga
+dd-diag-label-oflag = ingen känd utdataflagga
+dd-diag-help-conv = conv= är något av ascii, ebcdic, ibm, lcase, ucase, block, unblock, swab, sync, noerror, sparse, excl, nocreat, notrunc, fdatasync eller fsync
+dd-diag-help-iflag = iflag= är något av direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, fullblock, count_bytes eller skip_bytes
+dd-diag-help-oflag = oflag= är något av direct, directory, dsync, sync, nocache, nonblock, noatime, noctty, nofollow, append eller seek_bytes
+dd-diag-help-status = status= är något av none, noxfer eller progress
+dd-diag-help-number = ett tal kan följas av en multiplikator: c, w, b, sedan K, M, G och så vidare för 1024, kB, MB, GB för 1000
