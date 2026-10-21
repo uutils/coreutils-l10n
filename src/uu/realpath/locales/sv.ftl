@@ -9,3 +9,5 @@ realpath-help-logical = slå upp '..'-komponenter före symboliska länkar
 realpath-help-physical = följ symboliska länkar som påträffas (standard)
 realpath-help-relative-to = skriv ut den realiserade sökvägen relativt till DIR
 realpath-help-relative-base = skriv ut absoluta sökvägar om inte sökvägarna är under DIR
+realpath-help-canonicalize = alla komponenter utom den sista måste finnas, detta är standard
+realpath-invalid-empty-operand = ogiltig operand: tom sträng
