@@ -6,3 +6,4 @@ tac-help-separator = använd STRING som avgränsare istället för nyrad
 tac-error-invalid-regex = ogiltigt reguljärt uttryck: { $error }
 tac-error-read-error = kunde inte läsa från { $filename }: { $error }
 tac-error-write-error = misslyckades med att skriva till standard-ut: { $error }
+tac-error-open-error = kunde inte öppna { $filename } för läsning: { $error }
