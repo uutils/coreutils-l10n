@@ -1,8 +1,8 @@
 true-about =
-    Returnerar sant, en lyckad avslutningsstatus.
+    Returnerar sant, alltså en lyckad avslutningsstatus.
 
-    Returnerar omedelbart med avslutningsstatus 0, förutom när den anropas med ett av de igenkända
-    argumenten. I dessa fall kommer den att försöka skriva hjälp- eller versionstexten. Eventuella IO-fel under denna
-    operation gör att programmet istället returnerar 1.
-true-help-text = Skriv ut hjälpinformation
-true-version-text = Skriv ut information om version
+    Avslutas omedelbart med status 0, utom när programmet anropas med någon av de igenkända
+    flaggorna. I dessa fall försöker det skriva ut hjälp- eller versionsinformation. I/O-fel under detta
+    gör att programmet avslutas med status 1.
+true-help-text = Skriv ut hjälptext
+true-version-text = Skriv ut versionsinformation
