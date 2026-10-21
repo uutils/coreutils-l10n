@@ -1,10 +1,10 @@
 sum-about =
-    Kontrollsumma och räkna blocken i en fil.
+    Beräkna kontrollsumman och räkna blocken i en fil.
 
-    Utan FILE, eller när FILE är -, läs standard-in.
-sum-usage = sum [OPTION]... [FILE]...
-sum-help-bsd-compatible = använd sumalgoritmen från BSD, använd 1K-block (standard)
-sum-help-sysv-compatible = använd sum-algoritmen från System V, använd 512 byte block
-sum-error-is-directory = { $name }: Är en katalog
-sum-error-no-such-file-or-directory = { $name }: Fil eller katalog saknas
-sum-error-not-a-directory = { $name }: Är inte en katalog
+    Om ingen FIL anges eller om FIL är -, läs standardindata.
+sum-usage = sum [FLAGGA]... [FIL]...
+sum-help-bsd-compatible = använd BSD:s sumalgoritm med block på 1 K (standard)
+sum-help-sysv-compatible = använd System V:s sumalgoritm med block på 512 byte
+sum-error-is-directory = { $name }: är en katalog
+sum-error-no-such-file-or-directory = { $name }: Filen eller katalogen finns inte
+sum-error-not-a-directory = { $name }: är inte en katalog
