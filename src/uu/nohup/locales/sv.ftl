@@ -12,3 +12,4 @@ nohup-error-cannot-replace = Kan inte ersätta { $name }: { $err }
 nohup-error-open-failed = misslyckades med att öppna { $path }: { $err }
 nohup-error-open-failed-both = misslyckades med att öppna { $first_path }: { $first_err }\nmisslyckades med att öppna { $second_path }: { $second_err }
 nohup-ignoring-input-appending-output = ignorerar indata och lägger till utdata till { $path }
+nohup-error-failed-to-run-command = kunde inte köra kommandot { $command }: { $error }
