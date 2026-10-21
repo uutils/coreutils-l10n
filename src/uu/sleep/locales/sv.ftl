@@ -1,11 +1,10 @@
-sleep-about = Pausa i NUMBER sekunder.
+sleep-about = Vänta i TAL sekunder.
 sleep-usage =
-    sleep NUMBER[SUFFIX]...
-    sleep OPTION
+    sleep TAL[ÄNDELSE]...
+    sleep FLAGGA
 sleep-after-help =
-    Pausa i NUMBER sekunder. SUFFIX kan vara 's' för sekunder (standard),
-    'm' för minuter, 'h' för timmar eller 'd' för dagar. Till skillnad från de flesta implementeringar
-    som kräver att NUMBER är ett heltal, kan NUMBER här vara ett godtyckligt flyttal.
-    Med tanke på två eller fler argument, pausa under den tid
-    som anges av summan av deras värden.
-sleep-help-number = pausa i NUMBER sekunder
+    Vänta i TAL sekunder. ÄNDELSE kan vara 's' för sekunder, standard,
+    'm' för minuter, 'h' för timmar eller 'd' för dagar. Till skillnad från de flesta implementationer
+    som kräver att TAL är ett heltal, kan TAL vara ett godtyckligt flyttal.
+    Med två eller fler argument väntar programmet den tid som anges av summan av deras värden.
+sleep-help-number = vänta i TAL sekunder
