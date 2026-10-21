@@ -1,25 +1,25 @@
 ls-about =
     Lista kataloginnehåll.
     Ignorerar som standard filer och kataloger som börjar med ett '.'
-ls-usage = ls [OPTION]... [FILE]...
+ls-usage = ls [FLAGGA]... [FIL]...
 ls-help-print-help = Skriv ut hjälpinformation.
 ls-after-help = TIME_STYLE-argumentet kan vara full-iso, long-iso, iso, locale eller +FORMAT. FORMAT tolkas som i date. Även miljövariabeln TIME_STYLE anger standardstilen som ska användas.
 ls-error-invalid-line-width = ogiltig linjebredd: { $width }
 ls-error-general-io = allmänt io-fel: { $error }
-ls-error-cannot-access-no-such-file = kan inte komma åt '{ $path }': Fil eller katalog saknas
-ls-error-cannot-access-operation-not-permitted = kan inte komma åt '{ $path }': Åtgärden är inte tillåten
-ls-error-cannot-open-directory-permission-denied = kan inte öppna katalogen '{ $path }': Åtkomst nekad
+ls-error-cannot-access-no-such-file = kan inte komma Ã¥t '{ $path }': Fil eller katalog saknas
+ls-error-cannot-access-operation-not-permitted = kan inte komma Ã¥t '{ $path }': Ã        tgÃ¤rden Ã¤r inte tillÃ¥ten
+ls-error-cannot-open-directory-permission-denied = kan inte Ã¶ppna katalogen '{ $path }': Ã        tkomst nekad
 ls-error-cannot-open-file-permission-denied = Kan inte öppna filen '{ $path }': Åtkomst nekad
-ls-error-cannot-open-directory-bad-descriptor = kan inte öppna katalogen '{ $path }': Felaktig fil-identifierare
-ls-error-unknown-io-error = okänt io-fel: '{ $path }', '{ $error }'
+ls-error-cannot-open-directory-bad-descriptor = kan inte Ã¶ppna katalogen '{ $path }': Felaktig fil-identifierare
+ls-error-unknown-io-error = okÃ¤nt io-fel: '{ $path }', '{ $error }'
 ls-error-invalid-block-size = ogiltigt --block-size argument { $size }
 ls-error-dired-and-zero-incompatible = --dired och --zero är inkompatibla
 ls-error-not-listing-already-listed = { $path }: listar inte redan listad katalog
 ls-error-invalid-time-style =
     ogiltigt --time-style argument { $style }
-    Möjliga värden är: { $values }
+    MÃ¶jliga vÃ¤rden Ã¤r: { $values }
 
-    För mer information, försök med --help
+    FÃ¶r mer information, fÃ¶rsÃ¶k med --help
 ls-help-set-display-format = Ställ in visningsformatet.
 ls-help-display-files-columns = Visa filerna i kolumner.
 ls-help-display-detailed-info = Visa detaljerad information.
@@ -42,11 +42,11 @@ ls-help-c-quoting-style = Använd citeringsstilen C. Motsvarar `--citeringsstil=
 ls-help-replace-control-chars = Ersätt kontrolltecknen med '?' om de inte är escape-tecken.
 ls-help-show-control-chars = Visa kontrolltecken "i befintligt skick" om de inte är escapede.
 ls-help-show-time-field =
-    Visa tid i <fält>:
-    åtkomsttid (-u): atid, åtkomst, användning;
-    ändringstid (-t): ctid, status.
-    ändringstid: mtid, modifiering.
-    födelsetid: födelse, skapande;
+    Visa tid i <fÃ¤lt>:
+    Ã¥tkomsttid (-u): atid, Ã¥tkomst, anvÃ¤ndning;
+    Ã¤ndringstid (-t): ctid, status.
+    Ã¤ndringstid: mtid, modifiering.
+    fÃ¶delsetid: fÃ¶delse, skapande;
 ls-help-time-change =
     Om långlistningsformatet (t.ex. -l, -o) används, skriv ut
     statusändringstiden ('ctime' i inoden) istället för modifieringstiden.
@@ -60,7 +60,7 @@ ls-help-time-access =
 ls-help-hide-pattern = skriv inte ut implicita poster som matchar PATTERN (åsidosatt av -a eller -A)
 ls-help-ignore-pattern = skriv inte ut implicita poster som matchar PATTERN
 ls-help-ignore-backups = Ignorera poster som slutar med ~.
-ls-help-sort-by-field = Sortera efter <field>: namn, inget (-U), tid (-t), storlek (-S), tillägg (-X) eller bredd
+ls-help-sort-by-field = Sortera efter <field>: namn, inget (-U), tid (-t), storlek (-S), tillÃ¤gg (-X) eller bredd
 ls-help-sort-by-size = Sortera efter filstorlek, störst först.
 ls-help-sort-by-time = Sortera efter ändringstid ('mtime' i inoden), nyaste först.
 ls-help-sort-by-version = Naturliga sortering av (versions-)nummer i filnamnen.
@@ -132,3 +132,24 @@ ls-invalid-ignore-pattern = Ogiltigt mönster för ignore: { $pattern }
 ls-invalid-hide-pattern = Ogiltigt mönster för hide: { $pattern }
 ls-total = totalt { $size }
 smack-error-not-enabled = SMACK är inte aktiverat på systemet
+dir-about =
+    Lista kataloginnehåll.
+    Ignorera som standard filer och kataloger som börjar med '.'.
+vdir-about =
+    Lista kataloginnehåll.
+    Ignorera som standard filer och kataloger som börjar med '.'.
+
+    Obligatoriska argument för långa flaggor är också obligatoriska för korta flaggor.
+dir-usage = dir [FLAGGA]... [FIL]...
+vdir-usage = vdir [FLAGGA]... [FIL]...
+ls-error-invalid-tab-size = ogiltig tabbstorlek: { $size }
+ls-error-cannot-access-permission-denied = kan inte komma åt { $path }: Åtkomst nekas
+ls-error-not-directory = kan inte komma åt { $path }: Är inte en katalog
+ls-help-unsorted-all = Lista alla filer i katalogordning, osorterade. Motsvarar -aU. Inaktiverar --color om den inte anges uttryckligen.
+ls-error-unrecognized-ls-colors-prefix = okänt prefix: { $prefix }
+ls-error-unparsable-ls-colors = obegripligt värde på LS_COLORS-miljövariabeln
+ls-warning-failed-to-get-security-context = kunde inte hämta säkerhetskontext för: { $path }
+ls-warning-getting-security-context = hämtar säkerhetskontext för: { $path }: { $error }
+smack-error-label-retrieval-failure = kunde inte hämta SMACK-etikett: { $error }
+smack-error-label-set-failure = kunde inte ange SMACK-etiketten till '{ $context }': { $error }
+smack-error-no-label-set = ingen SMACK-etikett har angetts
