@@ -1,11 +1,11 @@
 basename-about =
-    Skriv ut NAME med eventuella inledande katalogkomponenter borttagna
-    Om angivet, ta även bort ett efterföljande SUFFIX
+    Skriv ut NAMN efter att inledande katalogdelar har tagits bort
+    Ta också bort en avslutande ÄNDELSE, om den anges
 basename-usage =
-    basename [-z] NAME [SUFFIX]
-    basename OPTION... NAME...
-basename-error-missing-operand = saknad operand
-basename-error-extra-operand = extra operand { $operand }
-basename-help-multiple = stödjer flera argument och behandlar vart och ett som NAME
-basename-help-suffix = ta bort ett efterföljande SUFFIX; innebär -a
-basename-help-zero = avsluta varje utmatningsrad med NUL, inte nyrad
+    basename [-z] NAMN [ÄNDELSE]
+    basename FLAGGA... NAMN...
+basename-error-missing-operand = saknar operand
+basename-error-extra-operand = övertalig operand { $operand }
+basename-help-multiple = stöd för flera argument och behandla vart och ett som ett NAMN
+basename-help-suffix = ta bort en avslutande ÄNDELSE; innebär -a
+basename-help-zero = avsluta varje rad i utdata med NUL i stället för nyrad
