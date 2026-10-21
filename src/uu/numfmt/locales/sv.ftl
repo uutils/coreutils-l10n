@@ -1,11 +1,10 @@
 numfmt-about = Konvertera tal från/till mänskligt läsbara strängar
-numfmt-usage = numfmt [OPTION]... [NUMBER]...
 numfmt-help-zero-terminated = radavgränsare är NUL, inte nyrad
 numfmt-after-help =
     UNIT argument:
 
-    - none: ingen automatisk skalning utförs; suffix utlöser ett fel
-    - auto: accepterar valfritt suffix med en eller två bokstäver:
+    - none: ingen automatisk skalning utfÃ¶rs; suffix utlÃ¶ser ett fel
+    - auto: accepterar valfritt suffix med en eller tvÃ¥ bokstÃ¤ver:
 
         1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
 
@@ -17,25 +16,25 @@ numfmt-after-help =
 
     1K = 1024, 1M = 1048576, ...
 
-    - iec-i: accepterar valfritt suffix med två bokstäver:
+    - iec-i: accepterar valfritt suffix med tvÃ¥ bokstÃ¤ver:
 
     1Ki = 1024, 1Mi = 1048576, ...
 
-    - FIELDS stöder cut(1)-stilfältintervall:
+    - FIELDS stÃ¶der cut(1)-stilfÃ¤ltintervall:
 
-        N N:te fältet, räknat från 1
-        N- från N:te fältet, till slutet av raden
-        N-M från N:te till M:te fältet (inklusive)
-        -M från första till M:te fältet (inklusive)
-        - alla fält
+        N N:te fÃ¤ltet, rÃ¤knat frÃ¥n 1
+        N- frÃ¥n N:te fÃ¤ltet, till slutet av raden
+        N-M frÃ¥n N:te till M:te fÃ¤ltet (inklusive)
+        -M frÃ¥n fÃ¶rsta till M:te fÃ¤ltet (inklusive)
+        - alla fÃ¤lt
 
-    Flera fält/intervall kan separeras med kommatecken
+    Flera fÃ¤lt/intervall kan separeras med kommatecken
 
-    FORMAT måste vara lämpligt för utskrift av ett flyttalsargument %f.
-    Valfritt citattecken (%'f) aktiverar --grouping (om det stöds av aktuell språkinställning).
-    Valfritt breddvärde (%10f) fyller ut utdata. Valfritt nollvärde (%010f) bredd
-    fyller ut talet med noll. Valfritt negativt värde (%-10f) vänsterjusteras.
-    Valfritt precision (%.1f) åsidosätter den precision som bestäms av indata.
+    FORMAT mÃ¥ste vara lÃ¤mpligt fÃ¶r utskrift av ett flyttalsargument %f.
+    Valfritt citattecken (%'f) aktiverar --grouping (om det stÃ¶ds av aktuell sprÃ¥kinstÃ¤llning).
+    Valfritt breddvÃ¤rde (%10f) fyller ut utdata. Valfritt nollvÃ¤rde (%010f) bredd
+    fyller ut talet med noll. Valfritt negativt vÃ¤rde (%-10f) vÃ¤nsterjusteras.
+    Valfritt precision (%.1f) Ã¥sidosÃ¤tter den precision som bestÃ¤ms av indata.
 numfmt-help-delimiter = använd X istället för blanksteg för fältavgränsare
 numfmt-help-field = ersätt siffrorna i dessa inmatningsfält; se FIELDS nedan
 numfmt-help-format = använd flyttal i printf-stil; se FORMAT nedan för mer information
@@ -62,9 +61,15 @@ numfmt-error-rejecting-suffix = avvisar suffix i indata: '{ $number }{ $suffix }
 numfmt-error-suffix-unsupported-for-unit = Detta suffix stöds inte för den angivna enheten
 numfmt-error-number-too-big = Numret är för stort och stöds inte
 numfmt-error-format-no-percent = formatet '{ $format }' har inget %-direktiv
-numfmt-error-format-ends-in-percent = formatet '{ $format }' slutar på %
-numfmt-error-invalid-format-directive = ogiltigt format '{ $format }', direktivet måste vara %[0]['][-][N][.][N]f
-numfmt-error-invalid-format-width-overflow = ogiltigt format '{ $format }' (breddöverskridning)
+numfmt-error-format-ends-in-percent = formatet '{ $format }' slutar pÃ¥ %
+numfmt-error-invalid-format-directive = ogiltigt format '{ $format }', direktivet mÃ¥ste vara %[0]['][-][N][.][N]f
+numfmt-error-invalid-format-width-overflow = ogiltigt format '{ $format }' (breddÃ¶verskridning)
 numfmt-error-invalid-precision = ogiltig precision i formatet '{ $format }'
-numfmt-error-format-too-many-percent = Formatet '{ $format }' har för många %-direktiv
+numfmt-error-format-too-many-percent = Formatet '{ $format }' har fÃ¶r mÃ¥nga %-direktiv
 numfmt-error-unknown-invalid-mode = Okänd och ogiltig modus: { $mode }
+numfmt-error-grouping-cannot-be-combined-with-format = --grouping kan inte kombineras med --format
+numfmt-error-write = skrivfel
+numfmt-debug-no-conversion = ingen konverteringsflagga angiven
+numfmt-debug-grouping-no-effect = gruppering har ingen effekt i den här lokalen
+numfmt-debug-failed-to-convert = misslyckades med att konvertera några av indatatalen
+numfmt-diag-label-zero-field = fält numreras från 1
