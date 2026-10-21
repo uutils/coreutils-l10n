@@ -10,3 +10,4 @@ readlink-help-silent = undertryck de flesta felmeddelanden
 readlink-help-verbose = rapportera felmeddelande
 readlink-help-zero = separera utdata med NUL istället för nyrad
 readlink-error-ignoring-no-newline = ignorerar --no-newline med flera argument
+readlink-error-invalid-argument = { $path }: Ogiltigt argument
