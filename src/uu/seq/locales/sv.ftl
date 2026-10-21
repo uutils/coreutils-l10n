@@ -13,3 +13,4 @@ seq-error-zero-increment = Noll är ett ogiltigt ökningsvärde: { $arg }
 seq-error-format-and-equal-width = formatsträngen får inte anges vid utskrift av strängar med samma bredd
 seq-parse-error-type-float = flyttal
 seq-parse-error-type-nan = 'inte-ett-tal'
+seq-diag-help-format = ett format innehåller exakt en flyttalskonvertering: %f, %e, %g eller %a, som i -f%.3f
