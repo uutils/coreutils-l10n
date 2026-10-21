@@ -31,3 +31,4 @@ pinky-shell-label = Skal:
 pinky-project-label = Projekt:
 pinky-plan-label = Plan
 pinky-unsupported-openbsd = ostödda kommandon på OpenBSD
+pinky-help-lookup = försök kanonisera värdnamn via DNS
