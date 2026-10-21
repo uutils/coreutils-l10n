@@ -1,40 +1,41 @@
 numfmt-about = Konvertera tal från/till mänskligt läsbara strängar
 numfmt-help-zero-terminated = radavgränsare är NUL, inte nyrad
 numfmt-after-help =
-    UNIT argument:
+    Alternativ för UNIT:
 
-    - none: ingen automatisk skalning utfÃ¶rs; suffix utlÃ¶ser ett fel
-    - auto: accepterar valfritt suffix med en eller tvÃ¥ bokstÃ¤ver:
+      - none: ingen automatisk skalning utförs, suffix ger ett fel
 
-        1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
+      - auto: godta valfritt suffix med en eller två bokstäver:
 
-    - si: accepterar valfritt suffix med en bokstav:
+          1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
 
-        1K = 1000, 1M = 1000000, ...
+      - si: godta valfritt suffix med en bokstav:
 
-    - iec: accepterar valfritt suffix med en bokstav:
+          1K = 1000, 1M = 1000000, ...
 
-    1K = 1024, 1M = 1048576, ...
+      - iec: godta valfritt suffix med en bokstav:
 
-    - iec-i: accepterar valfritt suffix med tvÃ¥ bokstÃ¤ver:
+          1K = 1024, 1M = 1048576, ...
 
-    1Ki = 1024, 1Mi = 1048576, ...
+      - iec-i: godta valfritt suffix med två bokstäver:
 
-    - FIELDS stÃ¶der cut(1)-stilfÃ¤ltintervall:
+          1Ki = 1024, 1Mi = 1048576, ...
 
-        N N:te fÃ¤ltet, rÃ¤knat frÃ¥n 1
-        N- frÃ¥n N:te fÃ¤ltet, till slutet av raden
-        N-M frÃ¥n N:te till M:te fÃ¤ltet (inklusive)
-        -M frÃ¥n fÃ¶rsta till M:te fÃ¤ltet (inklusive)
-        - alla fÃ¤lt
+      - FIELDS stöder fältintervall i stil med cut(1):
 
-    Flera fÃ¤lt/intervall kan separeras med kommatecken
+          N N:te fältet, räknat från 1
+          N- från N:te fältet till radslutet
+          N-M från N:te till M:te fältet, inklusive
+          -M från första till M:te fältet, inklusive
+          - alla fält
 
-    FORMAT mÃ¥ste vara lÃ¤mpligt fÃ¶r utskrift av ett flyttalsargument %f.
-    Valfritt citattecken (%'f) aktiverar --grouping (om det stÃ¶ds av aktuell sprÃ¥kinstÃ¤llning).
-    Valfritt breddvÃ¤rde (%10f) fyller ut utdata. Valfritt nollvÃ¤rde (%010f) bredd
-    fyller ut talet med noll. Valfritt negativt vÃ¤rde (%-10f) vÃ¤nsterjusteras.
-    Valfritt precision (%.1f) Ã¥sidosÃ¤tter den precision som bestÃ¤ms av indata.
+      Flera fältintervall kan avgränsas med kommatecken
+
+      FORMAT måste passa för utskrift av ett flyttalsargument, %f.
+      Valfritt citattecken (%'f) aktiverar --grouping, om aktuell språkinställning stöder det.
+      Ett valfritt breddvärde (%10f) fyller ut utdata. En valfri nolla i bredden (%010f)
+      fyller ut talet med nollor. Negativa värden (%-10f) vänsterjusterar. En valfri
+      precision (%.1f) ersätter den precision som bestäms av indata.
 numfmt-help-delimiter = använd X istället för blanksteg för fältavgränsare
 numfmt-help-field = ersätt siffrorna i dessa inmatningsfält; se FIELDS nedan
 numfmt-help-format = använd flyttal i printf-stil; se FORMAT nedan för mer information
@@ -73,3 +74,25 @@ numfmt-debug-no-conversion = ingen konverteringsflagga angiven
 numfmt-debug-grouping-no-effect = gruppering har ingen effekt i den här lokalen
 numfmt-debug-failed-to-convert = misslyckades med att konvertera några av indatatalen
 numfmt-diag-label-zero-field = fält numreras från 1
+numfmt-usage = numfmt [FLAGGA]... [TAL]...
+numfmt-help-debug = skriv ut varningar om ogiltig inmatning
+numfmt-help-grouping = använd språkinställningens gruppering av siffror, till exempel 1,000,000, vilket innebär att flaggan inte har någon effekt i språkinställningen C/POSIX
+numfmt-help-unit-separator = använd STRÄNG för att skilja talet från en eventuell enhet vid utskrift. Som standard används ingen avgränsare
+numfmt-error-invalid-specific-suffix = ogiltigt suffix i inmatningen { $input }: { $suffix }
+numfmt-error-invalid-unit-argument = ogiltigt argument '{ $arg }' för '{ $opt }'
+numfmt-debug-header-ignored = --header ignoreras med kommandoradsindata
+numfmt-diag-label-number-overflow = talet är för stort
+numfmt-diag-label-stray-percent = ett bokstavligt % måste skrivas %%
+numfmt-diag-label-bad-conversion = f är den enda konvertering numfmt har. %d, %e, %g och de andra C-konverteringarna accepteras inte
+numfmt-diag-help-format-syntax = ett format är [PREFIX]%[0]['][-][BREDD][.PRECISION]f[SUFFIX], som i "%'-10.2f"
+numfmt-diag-label-auto-from-only = auto gissar inmatningens enhet, så endast --from tar det
+numfmt-diag-help-unit = --from och --to tar none, si, iec eller iec-i. --from tar också auto
+numfmt-diag-label-zero-unit-size = enhetsstorleken måste vara minst 1
+numfmt-diag-help-unit-size = enhetsstorleken är ett tal, en multiplikator av K, M, G, T, P eller E, eller båda, som i 512, K eller 2Ki
+numfmt-diag-label-zero-padding = utfyllnad är en bredd i tecken, så 0 begär ingenting
+numfmt-diag-help-padding = --padding tar ett helt tal som inte är noll. Ett negativt tal vänsterjusterar, som i --padding=-10
+numfmt-diag-label-zero-header = utelämna --header för att konvertera varje rad
+numfmt-diag-help-header = --header tar antalet inledande rader som ska skickas vidare oförändrade, minst 1
+numfmt-diag-help-input-no-from = utan --from måste ett tal vara rent. --from=auto läser ett suffix K, M eller Gi
+numfmt-diag-help-input-suffixes = suffixen är K, M, G, T, P, E, Z, Y, R och Q, med ett valfritt i vid --from=auto eller iec-i
+numfmt-diag-help-field-syntax = --field tar N, N-M, N- eller -M, separerade med kommatecken, som i --field=1,3-5
