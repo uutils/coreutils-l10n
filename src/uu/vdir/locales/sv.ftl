@@ -1,6 +1,6 @@
 vdir-about =
     Lista kataloginnehåll.
-    dard som stan filer och kataloger som börjar med ett '.'.
+    Filer och kataloger vars namn börjar med ”.” ignoreras som standard.
 
-    Obligatoriska fält till långa argument är obligatoriska även för korta argument.
-vdir-usage = vdir [OPTION]... [FILE]...
+    Obligatoriska argument för långa flaggor är obligatoriska även för korta flaggor.
+vdir-usage = vdir [FLAGGA]... [FIL]...
