@@ -23,3 +23,4 @@ touch-error-unable-to-parse-date = 无法解析日期：{ $date }
 touch-error-windows-stdout-path-failed = GetFinalPathNameByHandleW 失败，代码为 { $code }
 touch-error-invalid-filetime = 源具有无效的访问或修改时间：{ $time }
 touch-error-reference-file-inaccessible = 无法获取 { $path } 的属性：{ $error }
+touch-error-stdout-unsupported = touch -（stdout）在 WASI 上不受支持
