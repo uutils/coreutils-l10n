@@ -1,23 +1,23 @@
 cp-about = 将 SOURCE 复制到 DEST，或将多个 SOURCE 复制到 DIRECTORY。
-cp-usage = cp [OPTION]... [-T] SOURCE DEST
-  cp [OPTION]... SOURCE... DIRECTORY
-  cp [OPTION]... -t DIRECTORY SOURCE...
+cp-usage =
+    cp [OPTION]... [-T] SOURCE DEST
+    cp [OPTION]... SOURCE... DIRECTORY
+    cp [OPTION]... -t DIRECTORY SOURCE...
 cp-after-help =
-  对于非目录的源文件，如果目标已存在，且其修改时间与源文件相同或更新，则不进行复制，
-  而是静默跳过该文件，且不视为失败。
-  如果需要保留时间戳，比较前会将源文件的时间戳截断至目标文件系统和用于更新时间戳的
-  系统调用所支持的精度。这样，对相同的源和目标多次执行 cp -pu 时，就不会重复处理。
-  如果同时指定 -n 或 --no-clobber，则忽略此选项。如果还指定 --preserve=links（例如 cp -au），
-  则后者优先生效。因此，为了在目标中重现源文件的硬链接关系，程序可能会根据源文件的处理顺序，
-  替换目标中修改时间较新的文件。
-  --update 可更精细地控制是否替换目标中已存在的文件，可取以下值：
+    对于非目录的源文件，如果目标已存在，且其修改时间与源文件相同或更新，则不进行复制，
+    而是静默跳过该文件，且不视为失败。
+    如果需要保留时间戳，比较前会将源文件的时间戳截断至目标文件系统和用于更新时间戳的
+    系统调用所支持的精度。这样，对相同的源和目标多次执行 cp -pu 时，就不会重复处理。
+    如果同时指定 -n 或 --no-clobber，则忽略此选项。如果还指定 --preserve=links（例如 cp -au），
+    则后者优先生效。因此，为了在目标中重现源文件的硬链接关系，程序可能会根据源文件的处理顺序，
+    替换目标中修改时间较新的文件。
+    --update 可更精细地控制是否替换目标中已存在的文件，可取以下值：
 
-  - all：未指定 --update 时的默认行为；替换目标中所有已存在的文件。
+    - all：未指定 --update 时的默认行为；替换目标中所有已存在的文件。
 
-  - none：与 --no-clobber 类似，不替换目标中的任何文件；但跳过文件不会导致命令失败。
+    - none：与 --no-clobber 类似，不替换目标中的任何文件；但跳过文件不会导致命令失败。
 
-  - older：指定 --update 时的默认行为；仅当目标文件比对应的源文件旧时才替换。
-
+    - older：指定 --update 时的默认行为；仅当目标文件比对应的源文件旧时才替换。
 # Help messages
 cp-help-target-directory = 将所有 SOURCE 参数复制到目标目录
 cp-help-no-target-directory = 将 DEST 视为普通文件，而非目录
@@ -48,7 +48,6 @@ cp-help-selinux = 将目标文件的 SELinux 安全上下文设置为默认类�
 cp-help-context = 类似于 -Z；如果指定了 CTX，则将 SELinux 或 SMACK 安全上下文设置为 CTX
 cp-help-progress = 显示进度条。注意：GNU coreutils 不支持此功能。
 cp-help-copy-contents = 尚未实现：递归复制时复制特殊文件的内容
-
 # Error messages
 cp-error-missing-file-operand = 缺少文件操作数
 cp-error-missing-destination-operand = 在 { $source } 后缺少目标文件操作数
@@ -94,11 +93,11 @@ cp-error-cannot-create-regular-file = 无法创建普通文件 { $path }
 cp-error-invalid-attribute = 无效的属性 { $value }
 cp-error-failed-to-create-whole-tree = 创建完整目录树失败
 cp-error-failed-to-create-directory = 创建目录失败：{ $error }
-cp-error-backup-format = cp：{ $error }
-  如需更多信息，请尝试运行“{ $exec } --help”。
+cp-error-backup-format =
+    cp：{ $error }
+    如需更多信息，请尝试运行“{ $exec } --help”。
 cp-error-setting-attributes = 设置 { $path } 的属性
 cp-error-write = 写入错误
-
 # Debug enum strings
 cp-debug-enum-no = 否
 cp-debug-enum-yes = 是
@@ -108,16 +107,14 @@ cp-debug-enum-unknown = 未知
 cp-debug-enum-zeros = 零字节
 cp-debug-enum-seek-hole = SEEK_HOLE
 cp-debug-enum-seek-hole-zeros = SEEK_HOLE + 零字节
-
 # Warning messages
 cp-warning-context-ignored = 忽略 --context；仅能在启用了 SELinux 的内核上使用
 cp-warning-source-specified-more-than-once = 源 { $file_type } { $source } 被指定了多次
-
 # Verbose and debug messages
 cp-debug-skipped = 已跳过 { $path }
 cp-verbose-removed = 已删除 { $path }
 cp-debug-copy-offload = 复制卸载：{ $offload }，reflink：{ $reflink }，稀疏检测：{ $sparse }
-
 # Prompts
 cp-prompt-overwrite = 是否覆盖 { $path }？
 cp-prompt-overwrite-with-mode = 是否替换 { $path }，无视其权限模式
+cp-error-relative-symlink-not-in-cwd = { $dest }： 只能在当前目录中创建相对符号链接
