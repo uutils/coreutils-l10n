@@ -1,49 +1,49 @@
 base32-about =
-    koda/avkoda data och skriv ut till standard-ut
-    Utan FIL, eller när FIL är -, läs standard-in.
+    Koda eller avkoda data och skriv ut till standardutdata.
+    Utan FIL, eller när FIL är -, läs från standardindata.
 
-    Datan kodas enligt beskrivningen för base32-alfabetet i RFC 4648.
-    Vid avkodning kan indata innehålla nyradstecken utöver byten i det
-    formella base32-alfabetet. Använd --ignore-garbage
-    för att försöka återställa från andra icke-alfabetiska bytes i den
+    Data kodas enligt base32alfabetet i RFC 4648.
+    Vid avkodning kan indata innehålla radbrytningar utöver byte från det
+    formella base32alfabetet. Använd --ignore-garbage för att försöka
+    återställa data från andra byte som inte hör till alfabetet i den
     kodade strömmen.
-base32-usage = base32 [OPTION]... [FILE]
+base32-usage = base32 [FLAGGA]... [FIL]
 base64-about =
-    koda/avkoda data och skriv ut till standard-ut
-    Utan FILE, eller när FILE är -, läs standard-in.
+    Koda eller avkoda data och skriv ut till standardutdata.
+    Utan FIL, eller när FIL är -, läs från standardindata.
 
-    Datan kodas enligt beskrivningen för base64-alfabetet i RFC 3548.
-    Vid avkodning kan indata innehålla nyradstecken utöver
-    byten i det formella base64-alfabetet. Använd --ignore-garbage
-    för att försöka återställa från andra icke-alfabetiska byte i den
+    Data kodas enligt base64alfabetet i RFC 3548.
+    Vid avkodning kan indata innehålla radbrytningar utöver byte från det
+    formella base64alfabetet. Använd --ignore-garbage för att försöka
+    återställa data från andra byte som inte hör till alfabetet i den
     kodade strömmen.
 base-common-extra-operand = extra operand { $operand }
-base64-usage = base64 [OPTION]... [FILE]
+base64-usage = base64 [FLAGGA]... [FIL]
 basenc-about =
-    Koda/avkoda data och skriv ut till standard-ut
-    Utan FIL, eller när FIL är -, läs standard-in.
+    Koda eller avkoda data och skriv ut till standardutdata.
+    Utan FIL, eller när FIL är -, läs från standardindata.
 
-    Vid avkodning kan indata innehålla nyradsskiften utöver byte från
-    det formella alfabetet. Använd --ignore-garbage för att försöka återställa
-    från alla andra icke-alfabetiska bytes i den kodade strömmen.
-basenc-usage = basenc [OPTION]... [FILE]
+    Vid avkodning kan indata innehålla radbrytningar utöver byte från det
+    formella alfabetet. Använd --ignore-garbage för att försöka återställa
+    data från andra byte som inte hör till alfabetet i den kodade strömmen.
+basenc-usage = basenc [FLAGGA]... [FIL]
 basenc-help-base64 = samma som programmet 'base64'
-basenc-help-base64url = fil- och url-säker base64
+basenc-help-base64url = base64 för filer och URL:er
 basenc-help-base32 = samma som programmet 'base32'
-basenc-help-base32hex = utökat hexadecimalt alfabet base32
-basenc-help-base16 = hex-kodning
-base-common-no-such-file = { $file }: Fil eller katalog saknas
-basenc-help-base2lsbf = bitsträng med minst signifikant bit (lsb) först
-basenc-help-base2msbf = bitsträng med den mest signifikanta biten (msb) först
+basenc-help-base32hex = base32 med utökat hexadecimalt alfabet
+basenc-help-base16 = hexadecimal kodning
+base-common-no-such-file = { $file }: Filen eller katalogen finns inte
+basenc-help-base2lsbf = bitsträng med minst signifikanta bit först (lsb)
+basenc-help-base2msbf = bitsträng med mest signifikanta bit först (msb)
 basenc-help-z85 =
-    ascii85-liknande kodning;
-    Vid kodning måste längden på indata vara en multipel av 4;
-    Vid avkodning måste längden på indata vara en multipel av 5
-basenc-error-missing-encoding-type = saknad kodningstyp
-base-common-invalid-wrap-size = ogiltig linjelängd: { $size }
+    kodning av typen ASCII85;
+    vid kodning måste indatalängden vara en multipel av 4;
+    vid avkodning måste indatalängden vara en multipel av 5
+basenc-error-missing-encoding-type = kodningstyp saknas
+base-common-invalid-wrap-size = ogiltig radbrytningslängd: { $size }
 base-common-read-error = läsfel: { $error }
 base-common-help-decode = avkoda data
-base-common-help-ignore-garbage = Ignorera icke-alfabetiska tecken vid avkodning
-base-common-help-wrap = radbryt kodade rader efter COLS-tecknet (standard { $default }, 0 för att inaktivera radbrytning)
-basenc-help-base58 = visuelt entydig base58-koding
-base-common-invalid-input = ogiltig inmatning
+base-common-help-ignore-garbage = ignorera tecken som inte hör till alfabetet vid avkodning
+base-common-help-wrap = radbryt kodade rader efter KOLUMNER tecken (standard { $default }, 0 inaktiverar radbrytning)
+basenc-help-base58 = visuellt otvetydig base58kodning
+base-common-invalid-input = ogiltiga indata
