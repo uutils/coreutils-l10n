@@ -4,7 +4,7 @@ mknod-after-help =
     Obligatoriska argument för långa flaggor är också obligatoriska för korta flaggor.
     -m, --mode=MODE ange filrättighetsbitar till MODE, inte a=rw - umask
 
-    Både MAJOR och MINOR måste anges när TYPE är b, c eller u, och de
+    Både MAJOR och MINOR måste anges när TYPE är b, c eller u och de
     måste utelämnas när TYPE är p. Om MAJOR eller MINOR börjar med 0x eller 0X,
     tolkas det som hexadecimalt; annars, om det börjar med 0, som oktalt;
     annars som decimalt. TYPE kan vara:
