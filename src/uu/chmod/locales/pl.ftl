@@ -32,3 +32,4 @@ chmod-error-preserve-root-same-as =
     rekurencyjne działanie na { $file } jest niebezpieczne (tak samo jak „/”)
     chmod: użyj --no-preserve-root, aby ominąć ten mechanizm zabezpieczający
 chmod-error-changing-permissions = zmiana uprawnień { $file }: { $err }
+chmod-error-reference-stat = nie udało się uzyskać atrybutów { $file }: { $error }
