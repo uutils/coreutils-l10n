@@ -15,8 +15,8 @@ tr-error-missing-operand-translating =
     在{ $set }之后缺少操作数
     进行转换时必须提供两个字符串。
 tr-error-missing-operand-deleting-squeezing =
-    在{ $set }之后缺少操作数
-    同时执行删除和压缩时必须提供两个字符串。
+    在 { $set } 后缺少参数
+    当同时删除和压缩重复时，必须给出两个字符串。
 tr-error-extra-operand-deleting-without-squeezing =
     多余的操作数{ $operand }
     仅执行删除且不压缩重复时，只能提供一个字符串。
@@ -36,3 +36,13 @@ tr-error-complement-more-than-one-unique =
     进行替换操作时，使用字符类的补集时，字符串2 必须将
     域中的所有字符映射为同一个字符
 tr-error-backwards-range = 指定的字符范围“{ $start }-{ $end }”为逆序，不符合整理序列的递增规则
+tr-help-unbuffered = 不要缓冲输出
+tr-warning-invalid-utf8 = 无效的 utf8 序列
+tr-error-invalid-char-class = 无效字符类 { $class }
+tr-diag-label-backwards-range = 你是指 '{ $suggestion }' 吗？
+tr-diag-label-set1-longer-set2-ends-in-class = 此集合比 SET2 更长
+tr-diag-label-complement-more-than-one-unique = 只能有一个字符可被补集为
+tr-diag-help-char-class = 类为 alnum、alpha、blank、cntrl、digit、graph、lower、print、punct、space、upper 和 xdigit
+tr-diag-help-equivalence = { "[" }=c=] 表示与 c 等价的每个字符
+tr-diag-help-repeat = { "[" }c*N] 将 c 重复 N 次，[c*] 将 SET2 填充到 SET1 的长度
+tr-diag-help-backwards-range = 一个范围从较低字符到较高字符，如 a-z
