@@ -1,17 +1,16 @@
 sort-about = 显示所有 FILE 排序后拼接的内容。若未指定 FILE，或 FILE 为“-”，则从标准输入读取。
 sort-usage = sort [OPTION]... [FILE]...
 sort-after-help =
-  键格式为 FIELD[.CHAR][OPTIONS][,FIELD[.CHAR]][OPTIONS]。
+    键格式为 FIELD[.CHAR][OPTIONS][,FIELD[.CHAR]][OPTIONS]。
 
-  默认情况下，字段由非空白字符后的第一个空白符分隔。使用 -t 指定自定义分隔符。
-  默认情况下，空白符会附加在每个字段的开头。但自定义分隔符不包含在字段内。
+    默认情况下，字段由非空白字符后的第一个空白符分隔。使用 -t 指定自定义分隔符。
+    默认情况下，空白符会附加在每个字段的开头。但自定义分隔符不包含在字段内。
 
-  FIELD 和 CHAR 都从 1 开始计数（即使用从 1 开始的索引）。如果逗号后未指定结束位置，
-  则结束位置为行尾。如果 CHAR 设为 0，则表示字段末尾。CHAR 在起始位置的默认值为 1，
-  在结束位置的默认值为 0。
+    FIELD 和 CHAR 都从 1 开始计数（即使用从 1 开始的索引）。如果逗号后未指定结束位置，
+    则结束位置为行尾。如果 CHAR 设为 0，则表示字段末尾。CHAR 在起始位置的默认值为 1，
+    在结束位置的默认值为 0。
 
-  有效选项为：MbdfhnRrV。这些选项会覆盖此键的全局选项。
-
+    有效选项为：MbdfhnRrV。这些选项会覆盖此键的全局选项。
 # Error messages
 sort-open-failed = 无法打开：{ $path }：{ $error }
 sort-truncate-failed = 无法截断：{ $path }：{ $error }
@@ -22,9 +21,10 @@ sort-open-tmp-file-failed = 无法打开临时文件：{ $error }
 sort-compress-prog-execution-failed = 无法运行压缩程序“{ $prog }”：{ $error }
 sort-compress-prog-terminated-abnormally = { $prog } 异常终止
 sort-cannot-create-tmp-file = 无法在 { $path } 中创建临时文件：
-sort-file-operands-combined = 多余操作数 { $file }
-  文件操作数不能与 --files0-from 一起使用
-  请尝试“{ $help } --help”获取更多信息。
+sort-file-operands-combined =
+    多余操作数 { $file }
+    文件操作数不能与 --files0-from 一起使用
+    请尝试“{ $help } --help”获取更多信息。
 sort-multiple-output-files = 指定了多个输出文件
 sort-minus-in-stdin = 从标准输入读取文件名时，文件名不能为 -
 sort-no-input-from = 没有来自 { $file } 的输入
@@ -66,7 +66,6 @@ sort-error-no-match-for-key = 没有与 ^ 匹配的键
 sort-error-write-failed = 写入失败：{ $output }
 sort-failed-to-delete-temporary-directory = 无法删除临时目录：{ $error }
 sort-failed-to-set-up-signal-handler = 设置信号处理程序失败：{ $error }
-
 # Warning messages
 sort-warning-failed-to-set-locale = 设置区域设置失败
 sort-warning-simple-byte-comparison = 使用简单的字节比较对文本进行排序
@@ -83,7 +82,6 @@ sort-warning-separator-grouping = 字段分隔符“{ $sep }”在数字中被�
 sort-warning-separator-decimal = 字段分隔符“{ $sep }”在数字中被视为小数点
 sort-warning-separator-minus = 字段分隔符“{ $sep }”在数字中被视为负号
 sort-warning-separator-plus = 字段分隔符“{ $sep }”在数字中被视为正号
-
 # Help messages
 sort-help-help = 显示帮助信息。
 sort-help-version = 显示版本信息。
@@ -115,3 +113,4 @@ sort-help-buf-size = 将每个分段中已排序项数的最大值设置为 SIZE
 sort-help-batch-size = 一次最多合并 N_MERGE 个输入。
 sort-help-files0-from = 从 NUL_FILE 指定的文件列表（以 NUL 结尾）中读取输入
 sort-help-debug = 为行中实际用于排序的部分添加下划线
+sort-parallel-must-be-nonzero = 并行数量必须非零
