@@ -32,3 +32,4 @@ chmod-error-preserve-root-same-as =
     递归地对 { $file }（与“/”相同）执行操作很危险
     chmod：使用 --no-preserve-root 可覆盖此安全保护机制
 chmod-error-changing-permissions = 更改 { $file } 的权限：{ $err }
+chmod-error-reference-stat = 获取 { $file } 的属性失败：{ $error }
