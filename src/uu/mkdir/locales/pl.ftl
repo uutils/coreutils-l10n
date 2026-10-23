@@ -11,5 +11,5 @@ mkdir-error-file-exists = { $path }: plik istnieje
 mkdir-error-failed-to-create-tree = nie udało się utworzyć całego drzewa
 mkdir-error-cannot-set-permissions = nie można ustawić uprawnień { $path }
 mkdir-verbose-created-directory = { $util_name }: utworzono katalog { $path }
-mkdir-error-cannot-create-directory = nie można utworzyć katalogu '{ $path }': { $error }
+mkdir-error-cannot-create-directory = nie można utworzyć katalogu { $path }
 mkdir-error-invalid-mode = nieprawidłowy tryb { $mode }
