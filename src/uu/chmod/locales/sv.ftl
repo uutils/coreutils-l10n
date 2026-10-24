@@ -6,7 +6,7 @@ chmod-usage =
     chmod [FLAGGA]... OKTALT-LÄGE FIL...
     chmod [FLAGGA]... --reference=REFERENSFIL FIL...
 chmod-after-help = Varje LÄGE har formen [ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=]?[0-7]+.
-chmod-help-print-help = skriv ut hjälpinformation
+chmod-help-print-help = Skriv ut hjälpinformation.
 chmod-error-missing-operand = saknar operand
 chmod-help-quiet = undertryck de flesta felmeddelanden
 chmod-help-verbose = skriv ut ett diagnostiskt meddelande för varje bearbetad fil
@@ -32,3 +32,4 @@ chmod-error-preserve-root-same-as =
     det är farligt att arbeta rekursivt med { $file }, samma som '/'
     chmod: använd --no-preserve-root för att åsidosätta denna säkerhetsåtgärd
 chmod-error-changing-permissions = ändrar behörigheter för { $file }: { $err }
+chmod-error-reference-stat = det gick inte att hämta attribut för { $file }: { $error }
