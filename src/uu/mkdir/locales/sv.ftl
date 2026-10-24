@@ -12,4 +12,4 @@ mkdir-error-file-exists = { $path }: Filen finns
 mkdir-error-cannot-set-permissions = kan inte ange behörigheter { $path }
 mkdir-verbose-created-directory = { $util_name }: skapade katalogen { $path }
 mkdir-error-invalid-mode = ogiltigt läge { $mode }
-mkdir-error-cannot-create-directory = kan inte skapa katalogen '{ $path }': { $error }
+mkdir-error-cannot-create-directory = kan inte skapa katalogen { $path }
