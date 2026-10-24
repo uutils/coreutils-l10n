@@ -17,14 +17,14 @@ sort-cannot-read = kan inte läsa: { $path }: { $error }
 sort-open-tmp-file-failed = kunde inte öppna den tillfälliga filen: { $error }
 sort-compress-prog-execution-failed = kunde inte köra komprimeringsprogrammet { $prog }: { $error }
 sort-compress-prog-terminated-abnormally = { $prog } avslutades onormalt
-sort-cannot-create-tmp-file = kan inte skapa tillfÃ¤llig fil i '{ $path }':
+sort-cannot-create-tmp-file = kan inte skapa tillfällig fil i '{ $path }':
 sort-file-operands-combined =
     ytterligare operand { $file }
     filoperander kan inte kombineras med --files0-from
     Kör { $help } --help för mer information.
 sort-multiple-output-files = flera angivna utdatafiler
 sort-minus-in-stdin = när filnamn läses från standardindata är filnamnet "-" inte tillåtet
-sort-no-input-from = ingen indata frÃ¥n '{ $file }'
+sort-no-input-from = ingen indata från '{ $file }'
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: ogiltigt filnamn med längden noll
 sort-options-incompatible = alternativen '-{ $opt1 }{ $opt2 }' är inkompatibla
 sort-invalid-key = ogiltig nyckel { $key }
@@ -60,7 +60,7 @@ sort-help-random = sortera i slumpmässig ordning
 sort-help-dictionary-order = beakta endast mellanslag och alfanumeriska tecken
 sort-help-merge = sammanfoga redan sorterade filer; sortera inte
 sort-help-check = kontrollera sorterad inmatning; sortera inte
-sort-help-check-silent = avsluta korrekt om den givna filen redan är sorterad, och avsluta med status 1 annars.
+sort-help-check-silent = Avsluta korrekt om den angivna filen redan är sorterad och avsluta annars med status 1.
 sort-help-ignore-case = konvertera gemener till versaler
 sort-help-ignore-nonprinting = ignorera tecken som inte kan skrivas ut
 sort-help-ignore-leading-blanks = ignorera inledande blanktecken vid sökning efter sorteringsnycklar på varje rad
@@ -109,3 +109,4 @@ sort-warning-separator-decimal = fältavgränsaren '{ $sep }' behandlas som deci
 sort-warning-separator-minus = fältavgränsaren '{ $sep }' behandlas som ett minustecken i tal
 sort-warning-separator-plus = fältavgränsaren '{ $sep }' behandlas som ett plustecken i tal
 sort-help-random-source = använd FIL som källa till slumpdata
+sort-parallel-must-be-nonzero = antalet parallella körningar måste vara större än noll
