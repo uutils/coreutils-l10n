@@ -19,9 +19,9 @@ mknod-after-help =
 mknod-help-mode = definir os bits de permissão do ficheiro para MODO, não a=rw - umask
 mknod-help-name = nome do novo ficheiro
 mknod-help-type = tipo do novo ficheiro (b, c, u ou p)
-mknod-help-major = tipo de ficheiro maior
-mknod-help-minor = tipo de ficheiro menor
-mknod-help-selinux = definir o contexto de segurança SELinux de cada diretório criado para o tipo predefinido
+mknod-help-major = número major de dispositivo
+mknod-help-minor = número menor de dispositivo
+mknod-help-selinux = definir o contexto de segurança SELinux do ficheiro criado para o tipo predefinido
 mknod-help-context = como -Z, ou se CTX for especificado, defina o contexto de segurança SELinux ou SMACK para CTX
 mknod-error-fifo-no-major-minor = Fifos não têm números maiores e menores de dispositivo.
 mknod-error-special-require-major-minor = Ficheiros especiais exigem números maiores e menores de dispositivo.
@@ -29,3 +29,4 @@ mknod-error-invalid-mode = modo inválido ({ $error })
 mknod-error-mode-permission-bits-only = modo deve especificar apenas bits de permissão de ficheiro
 mknod-error-missing-device-type = tipo de dispositivo ausente
 mknod-error-invalid-device-type = tipo de dispositivo inválido { $type }
+mknod-warning-context-ignored = a ignorar --context; requer um kernel ativado para SELinux/SMACK
