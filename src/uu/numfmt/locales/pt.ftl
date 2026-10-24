@@ -6,6 +6,7 @@ numfmt-after-help =
     Opções de UNIT:
 
     - none: nenhuma escala automática é feita; os sufixos irão provocar um erro
+
     - auto: aceita sufixos opcionais de uma ou duas letras:
 
         1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
@@ -80,3 +81,15 @@ numfmt-debug-header-ignored = --header ignorado com a entrada de linha de comand
 numfmt-help-grouping = usar agrupamento definido no locale de dígitos, por exemplo 1.000.000 (o que significa que não tem efeito no locale de C/POSIX)
 numfmt-error-write = erro ao escrever
 numfmt-diag-label-number-overflow = este número é grande demais
+numfmt-diag-label-stray-percent = % literal deve ser escrito %%
+numfmt-diag-label-bad-conversion = f é a única conversão do numfmt; %d, %e, %g e as outras conversões C não são aceites
+numfmt-diag-help-format-syntax = o formato é [PREFIX]%[0]['][-][WIDTH][.PRECISION]f[SUFFIX], como em "%'-10.2f"
+numfmt-diag-label-auto-from-only = adivinha automaticamente a unidade da entrada, então só --from leva-a
+numfmt-diag-label-zero-unit-size = o tamanho de unidade deve ser pelo menos 1
+numfmt-diag-help-unit-size = o tamanho da unidade é um número, um multiplicador K, M, G, T, P ou E, ou ambos, como em 512, K ou 2Ki
+numfmt-diag-label-zero-header = deixe --header para converter cada linha
+numfmt-diag-help-header = --header leva o número de linhas principais para deixá-lo inalterado, pelo menos 1
+numfmt-diag-help-input-no-from = sem --from, um número deve ser simples; --from=auto lê um sufixo K, M ou Gi
+numfmt-diag-help-input-suffixes = os sufixos são K, M, G, T, P, E, Z, Y, R e Q, com um i opcional sob --de=auto ou iec-i
+numfmt-diag-label-zero-field = campos são numerados a partir de 1
+numfmt-diag-help-field-syntax = --field leva N, N-M, N- ou -M, separados por vírgulas, como em --field=1,3-5
