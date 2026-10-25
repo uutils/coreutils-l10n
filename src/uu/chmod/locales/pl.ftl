@@ -33,3 +33,5 @@ chmod-error-preserve-root-same-as =
     chmod: użyj --no-preserve-root, aby ominąć ten mechanizm zabezpieczający
 chmod-error-changing-permissions = zmiana uprawnień { $file }: { $err }
 chmod-error-reference-stat = nie udało się uzyskać atrybutów { $file }: { $error }
+chmod-error-cannot-read-directory = nie można odczytać katalogu { $file }: { $err }
+chmod-verbose-could-not-be-accessed = nie można uzyskać dostępu do { $file }
