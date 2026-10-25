@@ -1,8 +1,8 @@
 chroot-about = Kör KOMMANDO med rotkatalogen angiven till NYROT.
 chroot-usage = chroot [FLAGGA]... NYROT [KOMMANDO [ARGUMENT]...]
 chroot-help-groups = kommaseparerad lista över grupper att byta till
-chroot-help-userspec = kolonseparerad användare och grupp att byta till
-chroot-help-skip-chdir = använd flaggan för att inte ändra arbetskatalogen till / efter att rotkatalogen ändrats till NYROT, alltså inne i chrootmiljön
+chroot-help-userspec = Användare och grupp att byta till, separerade med kolon.
+chroot-help-skip-chdir = Använd flaggan för att inte ändra arbetskatalogen till / efter att rotkatalogen ändrats till NYROT, alltså inne i chrootmiljön.
 chroot-error-skip-chdir-only-permitted = flaggan --skip-chdir är endast tillåten om NYROT är den gamla '/'
 chroot-error-cannot-enter = kan inte byta rotkatalog till { $dir }: { $err }
 chroot-error-command-failed = misslyckades med att köra kommandot { $cmd }: { $err }
