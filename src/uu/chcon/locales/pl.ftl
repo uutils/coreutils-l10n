@@ -47,3 +47,4 @@ chcon-warning-circular-directory =
     To prawie na pewno oznacza, że masz uszkodzony system plików.
     POWIADOM SWOJEGO MENEDŻERA SYSTEMU.
     Poniższy katalog jest częścią cyklu { $file }.
+chcon-error-write = błąd zapisu: { $error }
