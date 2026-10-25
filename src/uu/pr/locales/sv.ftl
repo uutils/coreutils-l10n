@@ -84,10 +84,13 @@ pr-help-omit-pagination =
     utelämna sidhuvuden och sidfötter och ta bort sidindelning
     som skapas av formulärmatningar i indatafiler
 pr-help-columns =
-    skapa utdata i flera kolumner som ordnas i kolumner.
-    Standardvärdet är 1. Texten skrivs nedåt i varje kolumn i den ordning den tas emot från indatafilen. Denna flagga bör inte användas med -m.
-    Flaggorna -e och -i förutsätts för utdata med flera textkolumner. Om textkolumner har identiska vertikala längder anges inte, men en textkolumn får aldrig överskrida sidans längd, se flaggan -l.
-    Använd minsta antal rader för att skriva utdata med -t.
+    Skapa utdata med angivet antal kolumner
+    (standardvärdet är 1). Texten skrivs nedåt i varje kolumn i den ordning
+    den tas emot från indatafilen. Flaggan bör inte användas med -m.
+    Flaggorna -e och -i förutsätts när utdata har flera textkolumner. Det anges
+    inte om textkolumnerna får samma längd, men en kolumn får aldrig
+    överskrida sidans längd (se flaggan -l).
+    Med -t används minsta möjliga antal rader för att skriva utdata.
 pr-help-expand-tabs = expandera inmatade TECKEN, TABBAR, till tabulatorbredden 8
 pr-try-help-message = Prova 'pr --help' för mer information.
 pr-error-starting-page-exceeds-page-count = startsidans nummer { $start } överskrider sidantalet { $count }
