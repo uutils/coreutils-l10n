@@ -47,3 +47,4 @@ chcon-warning-circular-directory =
     Det betyder nästan säkert att filsystemet är skadat.
     MEDDELA SYSTEMADMINISTRATÖREN.
     Följande katalog ingår i cykeln: { $file }.
+chcon-error-write = skrivfel: { $error }
