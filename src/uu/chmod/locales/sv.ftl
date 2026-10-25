@@ -33,3 +33,5 @@ chmod-error-preserve-root-same-as =
     chmod: använd --no-preserve-root för att åsidosätta denna säkerhetsåtgärd
 chmod-error-changing-permissions = ändrar behörigheter för { $file }: { $err }
 chmod-error-reference-stat = det gick inte att hämta attribut för { $file }: { $error }
+chmod-error-cannot-read-directory = kan inte läsa katalogen { $file }: { $err }
+chmod-verbose-could-not-be-accessed = kunde inte komma åt { $file }
