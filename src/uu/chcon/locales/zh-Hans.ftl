@@ -1,11 +1,10 @@
 chcon-about =
-  将每个 FILE 的 SELinux 安全上下文更改为 CONTEXT。
-  使用 --reference 时，将每个 FILE 的安全上下文更改为与 RFILE 相同。
+    将每个 FILE 的 SELinux 安全上下文更改为 CONTEXT。
+    使用 --reference 时，将每个 FILE 的安全上下文更改为与 RFILE 相同。
 chcon-usage =
-  chcon [OPTION]... CONTEXT FILE...
-  chcon [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...
-  chcon [OPTION]... --reference=RFILE FILE...
-
+    chcon [OPTION]... CONTEXT FILE...
+    chcon [OPTION]... [-u USER] [-r ROLE] [-l RANGE] [-t TYPE] FILE...
+    chcon [OPTION]... --reference=RFILE FILE...
 # Help messages
 chcon-help-help = 显示帮助信息。
 chcon-help-dereference = 作用于每个符号链接所指向的对象（默认），而非符号链接本身。
@@ -22,19 +21,16 @@ chcon-help-follow-arg-dir-symlink = 如果命令行参数是指向目录的符�
 chcon-help-follow-dir-symlinks = 遍历遇到的每个指向目录的符号链接。仅当指定了 -R 时有效。
 chcon-help-no-follow-symlinks = 不遍历任何符号链接（默认）。仅当指定了 -R 时有效。
 chcon-help-verbose = 为每个处理过的文件输出诊断信息。
-
 # Error messages - basic validation
 chcon-error-no-context-specified = 未指定安全上下文
 chcon-error-no-files-specified = 未指定文件
 chcon-error-data-out-of-range = 数据超出范围
 chcon-error-operation-failed = { $operation }失败
 chcon-error-operation-failed-on = { $operand }：{ $operation }失败
-
 # Error messages - argument validation
 chcon-error-invalid-context = 无效的安全上下文“{ $context }”。
 chcon-error-recursive-no-dereference-require-p = 同时使用“--recursive”和“--no-dereference”时需要“-P”
 chcon-error-recursive-dereference-require-h-or-l = 同时使用“--recursive”和“--dereference”时需要“-H”或“-L”
-
 # Operation strings for error context
 chcon-op-getting-security-context = 获取安全上下文
 chcon-op-file-name-validation = 验证文件名
@@ -47,15 +43,14 @@ chcon-op-applying-partial-context = 将部分安全上下文应用于未标记�
 chcon-op-creating-security-context = 创建安全上下文
 chcon-op-setting-security-context-user = 设置安全上下文用户
 chcon-op-setting-security-context = 设置安全上下文
-
 # Verbose output
 chcon-verbose-changing-context = { $util_name }：正在更改 { $file } 的安全上下文
-
 # Warning messages
 chcon-warning-dangerous-recursive-root = 对“/”进行递归操作很危险。使用 --{ $option } 可覆盖此安全保护机制。
 chcon-warning-dangerous-recursive-dir = 对 { $dir }（与“/”相同）进行递归操作很危险。使用 --{ $option } 可覆盖此安全保护机制。
 chcon-warning-circular-directory =
-  目录结构存在循环。
-  这几乎可以确定文件系统已损坏。
-  请务必通知系统管理员！
-  以下目录是循环的一部分：{ $file }。
+    目录结构存在循环。
+    这几乎可以确定文件系统已损坏。
+    请务必通知系统管理员！
+    以下目录是循环的一部分：{ $file }。
+chcon-error-write = 写入错误：{ $error }
