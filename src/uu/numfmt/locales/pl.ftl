@@ -98,3 +98,4 @@ numfmt-diag-help-input-suffixes = przyrostkami są: K, M, G, T, P, E, Z, Y, R i�
 numfmt-diag-label-zero-field = pola są numerowane od 1
 numfmt-diag-help-field-syntax = --field przyjmuje wartości N, N-M, N- lub -M, rozdzielone przecinkami, np.--field=1,3-5
 numfmt-error-write = błąd zapisu
+numfmt-error-multiple-field-specifications = wielokrotne specyfikacje pól
