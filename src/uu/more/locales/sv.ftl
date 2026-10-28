@@ -1,24 +1,29 @@
 more-about = Visa innehållet i en textfil
-more-usage = more [OPTIONS] FILE...
-more-error-is-directory = { $path } är en katalog.
-more-error-cannot-open-no-such-file = kan inte öppna { $path }: Fil eller katalog saknas
-more-error-cannot-open-io-error = kan inte öppna { $path }: { $error }
-more-error-bad-usage = dålig användning
-more-error-cannot-seek-to-line = Kan inte söka till radnummer { $line }
-more-error-pattern-not-found = Mönstret hittades inte
-more-error-unknown-key = Okänd nyckel: '{ $key }'. Tryck på 'h' för instruktioner. (ej implementerad)
-more-help-silent = Visa hjälp istället för att spela ett ljud när en ogiltig tangent trycks ned
-more-help-logical = Pausa inte efter rader som innehåller ett ^L (form feed)
-more-help-exit-on-eof = Avsluta vid End-Of-File
-more-help-no-pause = Räkna logiska rader snarare än skärmrader
-more-help-print-over = Skrolla inte, rensa skärmen och visa text
-more-help-clean-print = Skrolla inte, visa text och rena radslut
-more-help-squeeze = Kombinera flera tomma rader till en
-more-help-plain = Undertryck understrykning
-more-help-lines = Antalet rader per hel skärm
-more-help-number = Samma som argumentet --lines
-more-help-from-line = Börja visa varje fil vid radnummer
-more-help-pattern = Strängen som ska sökas efter i varje fil innan den börjar visas
-more-help-files = Sökväg till filerna som ska läsas
+more-usage = more [FLAGGOR] FIL...
+
+# Error messages
+more-error-is-directory = {$path}: Är en katalog
+more-error-cannot-open = kunde inte öppna {$path}: {$error}
+more-error-bad-usage = felaktig användning
+more-error-cannot-seek-to-line = kunde inte söka till radnummer {$line}
+more-error-pattern-not-found = mönstret hittades inte
+more-error-unknown-key = okänd tangent: '{$key}'. Tryck på 'h' för instruktioner. Inte implementerad.
+
+# Help messages
+more-help-silent = visa hjälp i stället för att låta terminalklockan ljuda när en ogiltig tangent trycks ned
+more-help-logical = räkna logiska rader i stället för skärmrader
+more-help-exit-on-eof = avsluta vid filslut
+more-help-no-pause = gör inget uppehåll efter en rad som innehåller ^L, sidmatning
+more-help-print-over = rulla inte, rensa skärmen och visa texten
+more-help-clean-print = rulla inte, visa texten och rensa radsluten
+more-help-squeeze = tryck ihop flera tomma rader till en
+more-help-plain = undertryck understrykning
+more-help-lines = antalet rader per full skärm
+more-help-number = samma som argumentet till --lines
+more-help-from-line = börja visa varje fil vid angivet radnummer
+more-help-pattern = strängen som ska sökas i varje fil före visning
+more-help-files = sökväg till filerna som ska läsas
+
+# Other messages
 more-help-message = { "[" }Tryck på mellanslag för att fortsätta, 'q' för att avsluta.]
-more-press-return = tryck RETURN
+more-press-return = tryck på RETUR

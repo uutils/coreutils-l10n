@@ -1,17 +1,14 @@
 cksum-about = Skriv ut CRC och storlek för varje fil
-cksum-usage = cksum [OPTIONS] [FILE]...
-cksum-after-help =
-    DIGEST bestämmer digest-algoritmen och standard utformat:
+cksum-usage = cksum [FLAGGOR] [FIL]...
+cksum-after-help = DIGEST anger kontrollsummealgoritmen och standardformatet för utdata:
 
-    - sysv: (motsvarande sum -s)
-    - bsd: (motsvarande sum -r)
-    - crc: (motsvarande cksum)
-    - crc32b: (endast tillgängligt via cksum)
-    - md5: (motsvarande md5sum)
-    - sha1: (motsvarande sha1sum)
-    - sha224: (motsvarande sha224sum)
-    - sha256: (motsvarande sha256sum)
-    - sha384: (motsvarande sha384sum)
-    - sha512: (motsvarande sha512sum)
-    - blake2b: (motsvarande b2sum)
-    - sm3: (endast tillgängligt via cksum)
+    - sysv: motsvarar sum -s
+    - bsd: motsvarar sum -r
+    - crc: motsvarar cksum
+    - crc32b: är endast tillgänglig via cksum
+    - md5: motsvarar md5sum
+    - sha1: motsvarar sha1sum
+    - sha2: motsvarar sha{"{224,256,384,512}"}sum
+    - sha3: är endast tillgänglig via cksum
+    - blake2b: motsvarar b2sum
+    - sm3: är endast tillgänglig via cksum

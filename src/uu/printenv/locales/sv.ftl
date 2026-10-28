@@ -1,3 +1,4 @@
-printenv-about = Visa värdena för den/de angivna VARIABLE, eller (utan VARIABLE) visningsnamn och värd-tupler för alla.
-printenv-usage = printenv [OPTION]... [VARIABLE]...
-printenv-help-null = avsluta varje utmatningsrad med en 0-byte istället för nyrad
+printenv-about = Visa värdena för de angivna miljövariablerna eller, utan någon VARIABEL, par av namn och värden för samtliga.
+printenv-usage = printenv [FLAGGA]... [VARIABEL]...
+
+printenv-help-null = avsluta varje utdatarad med en nollbyte i stället för en nyrad
