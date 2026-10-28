@@ -1,9 +1,12 @@
-paste-about =
-    Skriv rader bestående av motsvarande rader i följd från varje FILE,
-    separerade med TAB, till standard-ut.
-paste-usage = paste [OPTIONS] [FILE]...
-paste-help-serial = klistra in en fil i taget istället för parallellt
-paste-help-zero-terminated = radavgränsare är NUL, inte nyrad
-paste-help-delimiter = återanvänd tecken från LIST istället för TAB
-paste-error-delimiter-unescaped-backslash = listan på avgränsar-tecken avslutas med ett omvänt snedstreck utan escapesekvens: { $delimiters }
-paste-error-stdin-borrow = misslyckades med att komma åt standard-in: { $error }
+paste-about = Skriv rader med motsvarande rader i tur och ordning från varje
+  FIL, avgränsade med TAB, till standardutdata.
+paste-usage = paste [FLAGGOR] [FIL]...
+
+# Help messages
+paste-help-serial = sammanfoga en fil i taget i stället för parallellt
+paste-help-delimiter = återanvänd tecken från LISTA i stället för TAB
+paste-help-zero-terminated = radavgränsaren är NUL, inte nyrad
+
+# Error messages
+paste-error-delimiter-unescaped-backslash = avgränsarlistan slutar med ett oskyddat omvänt snedstreck: { $delimiters }
+paste-error-stdin-borrow = kunde inte komma åt standardindata: { $error }

@@ -1,48 +1,48 @@
 id-about =
-    Skriv ut användar- och gruppinformation för varje angiven USER,
-    eller (när USER utelämnas) för den aktuella användaren.
-id-usage = id [OPTION]... [USER]...
+    Skriv ut användar- och gruppinformation för varje angiven ANVÄNDARE,
+    eller, om ANVÄNDARE utelämnas, för den aktuella användaren.
+id-usage = id [FLAGGA]... [ANVÄNDARE]...
 id-after-help =
-    id-programmet skriver ut användar- och gruppnamnen samt numeriska ID:n för den
-    anropande processen till standard-ut. Om de verkliga och effektiva ID:na är
-    olika visas båda, annars visas endast det verkliga ID:t.
+    Programmet id skriver ut användar- och gruppnamn samt numeriska ID för den
+    anropande processen till standardutdata. Om verkliga och effektiva ID skiljer
+    sig åt visas båda, annars visas endast det verkliga ID:t.
 
-    Om en användare (inloggningsnamn eller användar-ID) anges visas
-    användar- och grupp-ID:na för den användaren. I det här fallet antas
-    de verkliga och effektiva ID:na vara desamma.
-id-context-help-disabled = skriv endast ut processens säkerhetskontext (ej aktiverad)
+    Om en användare, inloggningsnamn eller användar-ID, anges visas användarens
+    användar- och grupp-ID. I det fallet antas verkligt och effektivt ID vara samma.
+
+id-context-help-disabled = skriv endast ut processens säkerhetskontext, inte aktiverat
 id-context-help-enabled = skriv endast ut processens säkerhetskontext
-id-error-names-real-ids-require-flags = att endast skriva ut namn eller riktiga ID-nummer kräver -u, -g eller -G
-id-error-zero-not-permitted-default = argumentet --zero är inte tillåtet i standardformatet
-id-error-cannot-print-context-with-user = kan inte skriva ut säkerhetskontext när användare har specificerats
-id-error-cannot-get-context = kan inte hämta processkontexten
-id-error-no-such-user = { $user }: användaren saknas
-id-error-cannot-find-group-name = kan inte hitta namnet för grupp-ID { $gid }
-id-error-cannot-find-user-name = kan inte hitta namnet för användar-ID { $uid }
-id-error-audit-retrieve = kunde inte hämta informationen
+id-error-names-real-ids-require-flags = att endast skriva ut namn eller verkliga ID kräver -u, -g eller -G
+id-error-zero-not-permitted-default = flaggan --zero är inte tillåten i standardformatet
+id-error-cannot-print-context-with-user = kan inte skriva ut säkerhetskontext när användare har angetts
+id-error-cannot-get-context = kan inte hämta processens kontext
+id-error-context-security-only = --context (-Z) fungerar endast med en kärna där SELinux eller SMACK är aktiverat
+id-error-no-such-user = { $user }: ingen sådan användare
+id-error-cannot-find-group-name = kan inte hitta namn för grupp-ID { $gid }
+id-error-cannot-find-user-name = kan inte hitta namn för användar-ID { $uid }
+id-error-audit-retrieve = kunde inte hämta information
+id-help-ignore = ignorera, för kompatibilitet med andra versioner
 id-help-audit =
-    Visa användar-ID för processgranskning och andra processgranskningsegenskaper,
-    som kräver behörighet (ej tillgängligt på Linux).
-id-help-user = Visa endast det effektiva användar-ID:t som ett nummer.
-id-help-group = Visa endast det effektiva grupp-ID:t som ett nummer
+    Visa granskningsanvändar-ID och andra granskningsuppgifter för processen.
+    Detta kräver behörighet och är inte tillgängligt på Linux.
+id-help-user = Visa endast det effektiva användar-ID:t som ett tal.
+id-help-group = Visa endast det effektiva grupp-ID:t som ett tal.
 id-help-groups =
-    Visa endast de olika grupp-ID:na som siffror separerade med blanksteg,
-    utan någon särskild ordning.
-id-help-human-readable = Gör utdata läsbar för människor. Varje skärm visas på en separat rad.
+    Visa endast de olika grupp-ID:na som tal avgränsade med blanksteg,
+    utan särskild ordning.
+id-help-human-readable = Gör utdata läsbar. Varje post visas på en egen rad.
 id-help-name =
-    Visa namnet på användar- eller grupp-ID:t för alternativen -G, -g och -u
-    istället för numret.
-    Om något av ID-numren inte kan mappas till
-    namn visas numret som vanligt.
-id-help-password = Visa ID:t som en lösenordsfil-post.
+    Visa namnet på användar- eller grupp-ID:t för flaggorna -G, -g och -u
+    i stället för talet. Om ett ID inte kan kopplas till ett namn visas talet som vanligt.
+id-help-password = Visa ID som en post i lösenordsfilen.
 id-help-real =
-    Visa det verkliga ID:t för argumentet -G, -g och -u istället
-    för det effektiva ID:t.
+    Visa verkligt ID för flaggorna -G, -g och -u i stället för effektivt ID.
 id-help-zero =
-    avgränsa poster med NUL-tecken, inte blanksteg;
-    ej tillåtet i standardformat
+    avgränsa poster med NUL-tecken i stället för blanksteg;
+    inte tillåtet i standardformatet
 id-output-uid = uid
 id-output-groups = grupper
-id-output-login = inloggningsnamn
+id-output-login = inloggning
 id-output-euid = euid
+id-output-rgid = rgid
 id-output-context = kontext
