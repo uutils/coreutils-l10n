@@ -96,3 +96,4 @@ numfmt-diag-help-header = --header tar antalet inledande rader som ska skickas v
 numfmt-diag-help-input-no-from = utan --from måste ett tal vara rent. --from=auto läser ett suffix K, M eller Gi
 numfmt-diag-help-input-suffixes = suffixen är K, M, G, T, P, E, Z, Y, R och Q, med ett valfritt i vid --from=auto eller iec-i
 numfmt-diag-help-field-syntax = --field tar N, N-M, N- eller -M, separerade med kommatecken, som i --field=1,3-5
+numfmt-error-multiple-field-specifications = flera fältspecifikationer
