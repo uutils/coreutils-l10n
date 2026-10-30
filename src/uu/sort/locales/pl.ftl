@@ -111,3 +111,4 @@ sort-diag-help-key-syntax = kluczem jest POLE[.ZNAK][OPCJE][,POLE[.ZNAK][OPCJE]]
 sort-truncate-failed = nie udało się skrócić: { $path }: { $error }
 sort-parallel-must-be-nonzero = liczba w równoległości musi być niezerowa
 sort-incompatible-tabs = niekompatybilne tabulatory
+sort-multiple-compress-programs = wskazano wiele programów kompresujących
