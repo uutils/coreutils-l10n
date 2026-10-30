@@ -20,3 +20,21 @@ sort-cannot-read = Ur yezmir ara ad iɣeṛ: { $path }: { $error }
 sort-read-failed = Ur yezmir ara ad iɣeṛ: { $error }
 sort-open-tmp-file-failed = Ur yezmir ara ad yeldi afaylu askudan: { $error }
 sort-compress-prog-execution-failed = Ur yezmir ara ad iselkem ahil n usekkussem '{ $prog }': { $error }
+sort-compress-prog-terminated-abnormally = { $prog } yeḥbes s wudem aramagnu
+sort-cannot-create-tmp-file = Ur yezmir ara ad d-isnulfu afaylu askudan deg { $path }:
+sort-file-operands-combined =
+    Amhil amernu { $file }
+    Imhilen n ifuyla ur zmiren ara ad ttwasdukklen akked --files0-from
+    Ɛreḍ '{ $help } --help' i wugar n telɣut.
+sort-multiple-output-files = Aṭas n ifuyla n tuffɣa i d-yettwabedren
+sort-multiple-compress-programs = Aṭas n wahilen n usekkussem i d-yettwabedren
+sort-incompatible-tabs = Tirigliwin ur nemṣada ara
+sort-minus-in-stdin = Mi ara ttwaɣran yismawen n ifuyla seg unekcum amagnu, isem n ufaylu '-' ur yettusireg ara
+sort-no-input-from = Ulac anekcum seg { $file }
+sort-invalid-zero-length-filename = { $file }:{ $line_num }: isem n ufaylu s teɣzi n yilem d armeɣtu
+sort-options-incompatible = Tixṭiṛin '-{ $opt1 }{ $opt2 }' ur msadant ara
+sort-invalid-key = Tasarut { $key } d tarmeɣtut
+sort-failed-parse-field-index = Ur yezmir ara ad yesleḍ amatar n wurti { $field } { $error }
+sort-field-index-cannot-be-zero = Amatar n wurti ur yezmir ara ad yili d 0
+sort-failed-parse-char-index = Ur yezmir ara ad yesleḍ amatar n usekkil { $char }: { $error }
+sort-invalid-option = Taxtiṛt d tarmeɣtut: '{ $option }'
