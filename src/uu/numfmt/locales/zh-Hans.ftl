@@ -1,41 +1,41 @@
 numfmt-about = 在数字与人类可读字符串之间进行转换
 numfmt-usage = numfmt [OPTION]... [NUMBER]...
-numfmt-after-help = UNIT 选项：
+numfmt-after-help =
+    UNIT 选项：
 
-  - none：不进行自动换算；后缀会触发错误
+    - none：不进行自动换算；后缀会触发错误
 
-  - auto：接受可选的单字母或双字母后缀：
+    - auto：接受可选的单字母或双字母后缀：
 
-      1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
+        1K = 1000, 1Ki = 1024, 1M = 1000000, 1Mi = 1048576,
 
-  - si：接受可选的单字母后缀：
+    - si：接受可选的单字母后缀：
 
-      1K = 1000, 1M = 1000000, ...
+        1K = 1000, 1M = 1000000, ...
 
-  - iec：接受可选的单字母后缀：
+    - iec：接受可选的单字母后缀：
 
-      1K = 1024, 1M = 1048576, ...
+        1K = 1024, 1M = 1048576, ...
 
-  - iec-i：接受可选的双字母后缀：
+    - iec-i：接受可选的双字母后缀：
 
-      1Ki = 1024, 1Mi = 1048576, ...
+        1Ki = 1024, 1Mi = 1048576, ...
 
-  - FIELDS 支持 cut(1) 样式的字段范围：
+    - FIELDS 支持 cut(1) 样式的字段范围：
 
-      N：第 N 个字段，从 1 开始计数
-      N-：从第 N 个字段到行尾
-      N-M：从第 N 个字段到第 M 个字段（含首尾）
-      -M：从第一个字段到第 M 个字段（含首尾）
-      -：所有字段
+        N：第 N 个字段，从 1 开始计数
+        N-：从第 N 个字段到行尾
+        N-M：从第 N 个字段到第 M 个字段（含首尾）
+        -M：从第一个字段到第 M 个字段（含首尾）
+        -：所有字段
 
-  多个字段或范围可以用逗号分隔
+    多个字段或范围可以用逗号分隔
 
-  FORMAT 必须适用于打印单个浮点参数 %f。
-  可选的引号（%'f）会启用 --grouping（如果当前区域设置支持）。
-  可选的宽度值（%10f）会填充输出。可选的零填充宽度（%010f）
-  会在数字前填充零。可选的负数宽度（%-10f）会左对齐。
-  可选的精度（%.1f）会覆盖根据输入确定的精度。
-
+    FORMAT 必须适用于打印单个浮点参数 %f。
+    可选的引号（%'f）会启用 --grouping（如果当前区域设置支持）。
+    可选的宽度值（%10f）会填充输出。可选的零填充宽度（%010f）
+    会在数字前填充零。可选的负数宽度（%-10f）会左对齐。
+    可选的精度（%.1f）会覆盖根据输入确定的精度。
 # Help messages
 numfmt-help-debug = 输出有关无效输入的警告
 numfmt-help-delimiter = 使用 X 代替空白符作为字段分隔符
@@ -53,7 +53,6 @@ numfmt-help-suffix = 在每个格式化后的数字后输出 SUFFIX，并可选�
 numfmt-help-unit-separator = 输出时使用 STRING 分隔数字和单位；默认不使用分隔符
 numfmt-help-invalid = 为无效输入设置失败模式
 numfmt-help-zero-terminated = 使用 NUL 而不是换行符作为行分隔符
-
 # Error messages
 numfmt-error-unsupported-unit = 指定的单位不受支持
 numfmt-error-invalid-unit-size = 无效的单位大小：{ $size }
@@ -79,13 +78,11 @@ numfmt-error-invalid-format-width-overflow = 格式 { $format } 无效（宽度�
 numfmt-error-invalid-precision = 格式 { $format } 中的精度无效
 numfmt-error-format-too-many-percent = 格式 { $format } 包含过多 % 指令
 numfmt-error-unknown-invalid-mode = 未知的无效模式：{ $mode }
-
 # Debug messages
 numfmt-debug-no-conversion = 未指定转换选项
 numfmt-debug-grouping-no-effect = 分组在此区域设置中无效
 numfmt-debug-failed-to-convert = 无法转换部分输入数字
 numfmt-debug-header-ignored = 使用命令行输入时忽略 --header
-
 # Diagnostic labels and help lines: what the caret points at, and the advice under it
 numfmt-diag-label-number-overflow = 此数字过大
 numfmt-diag-label-stray-percent = 字面量 % 必须写为 %%
@@ -103,3 +100,4 @@ numfmt-diag-help-input-no-from = 不使用 --from 时，数字必须是普通数
 numfmt-diag-help-input-suffixes = 后缀为 K、M、G、T、P、E、Z、Y、R 和 Q；使用 --from=auto 或 iec-i 时可选地带有 i
 numfmt-diag-label-zero-field = 字段从 1 开始编号
 numfmt-diag-help-field-syntax = --field 接受 N、N-M、N- 或 -M，并以逗号分隔，例如 --field=1,3-5
+numfmt-error-multiple-field-specifications = 多个字段规范
