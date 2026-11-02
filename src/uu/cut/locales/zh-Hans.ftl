@@ -1,26 +1,26 @@
 cut-about = 提取各文件每一行中的指定部分。
 cut-usage = cut OPTION... [FILE]...
-cut-after-help = 如果未指定 FILE，则从标准输入读取。若要包含标准输入，请将“-”作为 FILE 参数。
+cut-after-help =
+    如果未指定 FILE，则从标准输入读取。若要包含标准输入，请将“-”作为 FILE 参数。
 
-  LIST 是由逗号分隔的数字或范围列表：
+    LIST 是由逗号分隔的数字或范围列表：
 
-    N           仅第 N 列
-    N-          从第 N 列到行尾
-    N-M         第 N 列至第 M 列
-    -M          第 1 列至第 M 列
+      N           仅第 N 列
+      N-          从第 N 列到行尾
+      N-M         第 N 列至第 M 列
+      -M          第 1 列至第 M 列
 
-  示例：
+    示例：
 
-    cut -f 2,5-7 file.txt             提取第 2、5、6 和 7 个字段
-    cut -f 3- file.txt                提取从第 3 个字段到行尾的所有字段
-    cut --complement -f 4-6 file.txt  提取除第 4、5 和 6 个字段之外的所有字段
-    cut -d',' -f1 file.csv            提取 CSV 文件的第一个字段
-
+      cut -f 2,5-7 file.txt             提取第 2、5、6 和 7 个字段
+      cut -f 3- file.txt                提取从第 3 个字段到行尾的所有字段
+      cut --complement -f 4-6 file.txt  提取除第 4、5 和 6 个字段之外的所有字段
+      cut -d',' -f1 file.csv            提取 CSV 文件的第一个字段
 # Help messages
 cut-help-bytes = 提取 LIST 中列出的字节
 cut-help-characters = 提取 LIST 中列出的字符
 cut-help-delimiter = 使用 DELIM 作为字段分隔符（默认：TAB）
-cut-help-whitespace-delimited = 使用任意空白字符（空格/TAB）作为分隔符；指定“trimmed”时忽略行首和行尾空白
+cut-help-whitespace-delimited = 使用任意连续空白（Space/Tab，以及在 UTF-8 区域设置中的 Unicode 空白）作为分隔符；使用 'trimmed' 忽略前导和尾随空白
 cut-help-fields = 提取 LIST 中列出的字段
 cut-help-fields-merged = 与 -f 类似，但合并相邻的分隔符；默认分隔符为空白字符，默认输出分隔符为空格
 cut-help-complement = 反转选择：输出除指定列之外的所有列
@@ -28,7 +28,6 @@ cut-help-only-delimited = 不输出不含分隔符的行
 cut-help-zero-terminated = 使用 NUL（\0）而非换行符作为行终止符
 cut-help-output-delimiter = 在输出中将输入分隔符替换为 NEW_DELIM
 cut-help-no-partial = 使用 -b 时，不输出不完整的多字节字符
-
 # Error messages
 cut-error-is-directory = 是一个目录
 cut-error-write-error = 写入错误
@@ -48,7 +47,6 @@ cut-error-invalid-field-value = 无效字段值 { $value }
 cut-error-invalid-position-value = 无效字节/字符位置 { $value }
 cut-error-field-number-too-large = 字段编号 { $value } 过大
 cut-error-position-too-large = 字节/字符偏移量 { $value } 过大
-
 # Diagnostic labels: what the caret points at in a list of ranges
 cut-diag-label-zero-bound = 从 1 开始计数
 cut-diag-help-list-syntax = 列表由逗号分隔的 N、N-M、N- 或 -M 组成，例如 -f1,4-6,9-
