@@ -30,6 +30,7 @@ ln-error-extra-operand = extra operand {$operand}
   Försök med '{$program} --help' för mer information.
 ln-error-could-not-update = kunde inte uppdatera {$target}: {$error}
 ln-error-will-not-overwrite = skriver inte över nyss skapade {$target} med {$source}
+ln-error-cannot-overwrite-directory = {$dest}: kan inte skriva över katalog
 ln-prompt-replace = ersätta {$file}?
 ln-cannot-backup = kan inte säkerhetskopiera {$file}
 ln-failed-to-access = kunde inte komma åt {$file}

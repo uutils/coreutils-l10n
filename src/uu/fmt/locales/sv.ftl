@@ -26,6 +26,7 @@ fmt-error-first-option-width = ogiltig flagga -- {$option}; -WIDTH känns igen b
     flaggan; använd -w N i stället
     Försök med 'fmt --help' för mer information.
 fmt-error-read = läsfel
+fmt-error-reading-is-directory = fel vid läsning av {$file}: Är en katalog
 fmt-error-invalid-width-malformed = ogiltig bredd: {$width}
 fmt-error-cannot-open-for-reading = kan inte öppna {$file} för läsning
 fmt-error-cannot-get-metadata = kan inte hämta metadata för {$file}

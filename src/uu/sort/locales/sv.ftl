@@ -23,6 +23,8 @@ sort-file-operands-combined =
     filoperander kan inte kombineras med --files0-from
     Kör { $help } --help för mer information.
 sort-multiple-output-files = flera angivna utdatafiler
+sort-multiple-compress-programs = flera komprimeringsprogram angavs
+sort-incompatible-tabs = inkompatibla tabbstopp
 sort-minus-in-stdin = när filnamn läses från standardindata är filnamnet "-" inte tillåtet
 sort-no-input-from = ingen indata från '{ $file }'
 sort-invalid-zero-length-filename = { $file }:{ $line_num }: ogiltigt filnamn med längden noll

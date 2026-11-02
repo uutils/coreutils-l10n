@@ -8,6 +8,7 @@ join-help-a = skriv även ut rader som inte kan paras ihop från fil FILNUM,
 join-help-v = som -a FILNUM, men utelämna sammanfogade utdatarader
 join-help-e = ersätt saknade indatafält med TOM
 join-help-i = ignorera skillnader mellan versaler och gemener när fält jämförs
+join-help-n = jämför kopplingsfält efter numeriskt värde, som ”sort -n” gör
 join-help-j = motsvarar '-1 FÄLT -2 FÄLT'
 join-help-o = följ FORMAT när utdataraden byggs
 join-help-t = använd TECKEN som avgränsare för både indatafält och utdatafält

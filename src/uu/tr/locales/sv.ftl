@@ -24,6 +24,8 @@ tr-error-missing-char-class-name = namn på teckenklass saknas ”[::]”
 tr-error-missing-equivalence-class-char = tecken för ekvivalensklass saknas ”[==]”
 tr-error-multiple-char-repeat-in-set2 = endast en repetitionskonstruktion [c*] får förekomma i sträng2
 tr-error-char-repeat-in-set1 = repetitionskonstruktionen [c*] får inte förekomma i sträng1
+tr-error-char-repeat-in-set2-when-not-translating = konstruktionen [c*] får endast förekomma i sträng2 vid översättning
+tr-error-equivalence-class-in-set2-when-translating = uttryck av typen [=c=] får inte förekomma i sträng2 vid översättning
 tr-error-invalid-repeat-count = ogiltigt repetitionsantal { $count } i konstruktionen [c*n]
 tr-error-empty-set2-when-not-truncating = när sträng1 inte förkortas får sträng2 inte vara tom
 tr-error-class-except-lower-upper-in-set2 = vid översättning får endast teckenklasserna ”upper” och ”lower” förekomma i sträng2
