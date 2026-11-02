@@ -23,7 +23,7 @@ tr-warning-ambiguous-octal-escape = niejednoznaczna ósemkowa sekwencja ucieczki
 tr-error-missing-char-class-name = brak nazwy klasy znaku '[::]'
 tr-error-missing-equivalence-class-char = brak znaku klasy równoważności '[==]'
 tr-error-multiple-char-repeat-in-set2 = tylko jedna konstrukcja powtórzenia [c*] może występować w string2
-tr-error-char-repeat-in-set1 = konstrukcja powtórzenia [c*] może nie występować w ciągu string1
+tr-error-char-repeat-in-set1 = konstrukcja powtórzenia [c*] może nie występować w string1
 tr-error-invalid-repeat-count = nieprawidłowa liczba powtórzeń { $count } w konstrukcji [c*n]
 tr-error-empty-set2-when-not-truncating = jeśli nie obcina set1, string2 musi być niepusty
 tr-error-class-except-lower-upper-in-set2 = podczas tłumaczenia jedyne klasy znaków, które mogą pojawić się w set2 to 'upper' i 'lower'
@@ -46,3 +46,5 @@ tr-diag-help-equivalence = { "[" }=c=] oznacza każdy znak równoważny c
 tr-diag-help-repeat = { "[" }c*N] powtarza c N razy, [c*] uzupełnia ZESTAW2 do długości ZESTAW1
 tr-diag-help-backwards-range = zakres rozciąga się od znaku niższego do wyższego, jak w a-z
 tr-help-unbuffered = nie buforuj danych wyjściowych
+tr-error-char-repeat-in-set2-when-not-translating = konstrukcja [c*] może wystąpić w string2 tylko podczas tłumaczenia
+tr-error-equivalence-class-in-set2-when-translating = wyrażenia { "[" }=c=] nie mogą występować w string2 podczas tłumaczenia
