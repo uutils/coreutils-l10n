@@ -114,3 +114,5 @@ sort-help-batch-size = 一次最多合并 N_MERGE 个输入。
 sort-help-files0-from = 从 NUL_FILE 指定的文件列表（以 NUL 结尾）中读取输入
 sort-help-debug = 为行中实际用于排序的部分添加下划线
 sort-parallel-must-be-nonzero = 并行数量必须非零
+sort-multiple-compress-programs = 指定了多个压缩程序
+sort-incompatible-tabs = 不兼容的制表位
