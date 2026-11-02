@@ -82,6 +82,37 @@ jobs:
         }
         pull_translations
 
+    - name: Keep "Push on commit" enabled on every component
+      env:
+        WEBLATE_API_KEY: ${{ secrets.WEBLATE_API_KEY }}
+      run: |
+        # Without it Weblate commits translations but never pushes them here
+        # (85 components were silently stuck from 2026-09-17, see #71).
+        api=https://hosted.weblate.org/api
+        auth="Authorization: Token ${WEBLATE_API_KEY}"
+        for slug in $(curl -sf -H "$auth" "$api/projects/rust-coreutils/components/?page_size=500" \
+            | jq -r '.results[] | select(.push_on_commit | not) | .slug'); do
+          echo "::warning::push_on_commit was off for ${slug}, enabling it"
+          curl -sf -X PATCH -H "$auth" -H 'Content-Type: application/json' \
+            -d '{"push_on_commit": true}' "$api/components/rust-coreutils/${slug}/" > /dev/null
+        done
+
+    - name: Push pending Weblate commits
+      run: |
+        # `wlc pull` above only updates Weblate from this repo; it never sends
+        # Weblate's commits here. Push explicitly so nothing piles up on
+        # Weblate's side, where a reset or failed rebase could lose it.
+        wlc commit rust-coreutils
+        for attempt in 1 2 3 4 5; do
+          if wlc push rust-coreutils; then
+            exit 0
+          fi
+          echo "::warning::wlc push failed (attempt ${attempt})"
+          [ "$attempt" -lt 5 ] && sleep $((attempt * 30))
+        done
+        echo "::error::Weblate could not push its commits to GitHub; check the repository maintenance page"
+        exit 1
+
     - name: Fix Fluent syntax issues
       run: |
         # Ensure all .ftl files end with a newline
