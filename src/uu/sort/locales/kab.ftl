@@ -80,3 +80,6 @@ sort-warning-options-ignored = Tixṭiṛin '-{ $options }' ttwazeglent
 sort-warning-option-ignored = Taxtiṛt '-{ $option }' tettwazgel
 sort-warning-option-reverse-last-resort = Taxtiṛt '-r' tettwaseqdac kan deg userwes n taggara
 sort-warning-obsolescent-key = Tasarut taqburt '{ $key }' tettwaseqdec; xemmem ad tesqedceḍ '-k { $replacement }' deg umḍiq-is
+sort-warning-separator-grouping = Anabraz n wurti '{ $sep }' yettwasefser d anabraz n yigrawen deg yimḍanen
+sort-warning-separator-decimal = Anabraz n wurti '{ $sep }' yettwasefser d anabraz amrawan deg yimḍanen
+sort-warning-separator-minus = Anabraz n wurti '{ $sep }' yettwasefser d asɣal n usenqes deg yimḍanen
