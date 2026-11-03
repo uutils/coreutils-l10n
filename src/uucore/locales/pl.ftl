@@ -118,3 +118,7 @@ perms-cannot-access-replaced = brak dostępu do { $file }: plik został zastąpi
 error-too-many-symlink-levels = Zbyt wiele poziomów dowiązań symbolicznych
 encoding-error-invalid-input = nieprawidłowe dane wejściowe
 encoding-error-invalid-input-z85-length = nieprawidłowe dane wejściowe (długość musi być wielokrotnością 4 znaków)
+backup-error-invalid-argument = nieprawidłowy argument { $arg } dla '{ $origin }'
+backup-error-ambiguous-argument = niejednoznaczny argument { $arg } dla '{ $origin }'
+backup-valid-arguments = Poprawne argumenty to:
+error-non-utf8-os-str = Podczas konwersji na bajty na platformie, która nie obsługuje argumentów w postaci bajtów, napotkano nieprawidłowe dane wejściowe UTF-8: { $input }
