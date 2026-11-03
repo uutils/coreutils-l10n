@@ -69,9 +69,16 @@ jobs:
         fi
         disabled=$(jq -r '.results[] | select(.push_on_commit | not) | .slug' <<< "$components")
         for slug in $disabled; do
-          echo "::warning::push_on_commit was off for ${slug}, enabling it"
-          curl -sf -X PATCH -H "$auth" -H 'Content-Type: application/json' \
-            -d '{"push_on_commit": true}' "$api/components/rust-coreutils/${slug}/" > /dev/null
+          # Changing settings needs project admin rights on the API key; a
+          # missing right must not stop the sync below.
+          code=$(curl -s -o /dev/null -w '%{http_code}' -X PATCH -H "$auth" \
+            -H 'Content-Type: application/json' -d '{"push_on_commit": true}' \
+            "$api/components/rust-coreutils/${slug}/")
+          if [ "$code" = 200 ]; then
+            echo "::warning::push_on_commit was off for ${slug}, enabled it"
+          else
+            echo "::warning::push_on_commit is off for ${slug} and enabling it failed (HTTP ${code})"
+          fi
         done
         # Components backed by this Git repository (the glossary is local).
         jq -r '.results[] | select(.repo | startswith("local:") | not) | .slug' \
