@@ -52,36 +52,6 @@ jobs:
       run: |
         pip install moz-fluent-linter
 
-    - name: Pull translations from Weblate
-      run: |
-        # `wlc pull` makes Weblate rebase its component repositories onto this
-        # repo's main branch. hosted.weblate.org tends to drop the connection
-        # (RemoteDisconnected, 502) or answer 423 while another operation holds
-        # the repository lock, so retry a few times. Retrying does not help a
-        # real rebase conflict; that one fails every attempt.
-        #
-        # Do not fall back to `wlc reset`. It discards Weblate's local commits
-        # and pending changes and re-reads the translations from the files, so
-        # every translation that Weblate has not pushed yet is lost (this
-        # happened on 2026-08-25). If the rebase keeps failing, fail the job
-        # and fix the merge in Weblate by hand; "Reset and reapply
-        # translations" in the repository maintenance page keeps them.
-        pull_translations() {
-          local attempt
-          for attempt in 1 2 3 4 5; do
-            if wlc pull rust-coreutils; then
-              return 0
-            fi
-            echo "::warning::wlc pull failed (attempt ${attempt})"
-            if [ "$attempt" -lt 5 ]; then
-              sleep $((attempt * 15))
-            fi
-          done
-          echo "::error::wlc pull still failing after ${attempt} attempts; resolve the merge in Weblate without discarding translations"
-          return 1
-        }
-        pull_translations
-
     - name: Keep "Push on commit" enabled on every component
       env:
         WEBLATE_API_KEY: ${{ secrets.WEBLATE_API_KEY }}
@@ -103,27 +73,54 @@ jobs:
           curl -sf -X PATCH -H "$auth" -H 'Content-Type: application/json' \
             -d '{"push_on_commit": true}' "$api/components/rust-coreutils/${slug}/" > /dev/null
         done
+        # Components backed by this Git repository (the glossary is local).
+        jq -r '.results[] | select(.repo | startswith("local:") | not) | .slug' \
+          <<< "$components" > "$RUNNER_TEMP/components"
 
-    - name: Push pending Weblate commits
+    - name: Sync each component with Weblate
       run: |
-        # `wlc pull` above only updates Weblate from this repo; it never sends
-        # Weblate's commits here. Push explicitly so nothing piles up on
-        # Weblate's side, where a reset or failed rebase could lose it.
-        wlc commit rust-coreutils
-        for attempt in 1 2 3 4 5; do
-          if wlc push rust-coreutils; then
-            # The push updates GitHub, not this checkout: fast-forward so the
-            # newline fix and Fluent validation below see the new files.
-            git pull --ff-only
-            exit 0
-          fi
-          echo "::warning::wlc push failed (attempt ${attempt})"
-          if [ "$attempt" -lt 5 ]; then
-            sleep $((attempt * 30))
+        # Every component is its own clone of this repo. Project-wide
+        # `wlc pull`/`wlc push` need all of their locks at once and keep
+        # getting 423 Locked, and clones pushing independently reject each
+        # other as non-fast-forward. So go one component at a time: rebase
+        # its clone onto main (`wlc pull`), commit pending strings, push.
+        #
+        # Do not fall back to `wlc reset`. It discards Weblate's local commits
+        # and pending changes and re-reads the translations from the files, so
+        # every translation that Weblate has not pushed yet is lost (this
+        # happened on 2026-08-25). If a rebase keeps failing, fix the merge in
+        # Weblate by hand; "Reset and reapply translations" in the repository
+        # maintenance page keeps them.
+        retry() {
+          local attempt
+          for attempt in 1 2 3 4 5; do
+            if "$@"; then
+              return 0
+            fi
+            echo "::warning::$* failed (attempt ${attempt})"
+            if [ "$attempt" -lt 5 ]; then
+              sleep $((attempt * 15))
+            fi
+          done
+          return 1
+        }
+        mapfile -t slugs < "$RUNNER_TEMP/components"
+        failed=()
+        for slug in "${slugs[@]}"; do
+          component="rust-coreutils/${slug}"
+          if ! retry wlc pull "$component" \
+              || ! retry wlc commit "$component" \
+              || ! retry wlc push "$component"; then
+            failed+=("$slug")
           fi
         done
-        echo "::error::Weblate could not push its commits to GitHub; check the repository maintenance page"
-        exit 1
+        # The pushes update GitHub, not this checkout: fast-forward so the
+        # newline fix and Fluent validation below see the new files.
+        git pull --ff-only
+        if [ "${#failed[@]}" -gt 0 ]; then
+          echo "::error::could not sync ${failed[*]}; check their repository maintenance page in Weblate without discarding translations"
+          exit 1
+        fi
 
     - name: Fix Fluent syntax issues
       run: |
