@@ -98,11 +98,19 @@ jobs:
         # happened on 2026-08-25). If a rebase keeps failing, fix the merge in
         # Weblate by hand; "Reset and reapply translations" in the repository
         # maintenance page keeps them.
+        # Retry only what can go away on its own: the repository lock (423)
+        # and dropped connections. A rebase conflict fails every attempt.
         retry() {
-          local attempt
+          local attempt output
           for attempt in 1 2 3 4 5; do
-            if "$@"; then
+            if output=$("$@" 2>&1); then
+              [ -n "$output" ] && echo "$output"
               return 0
+            fi
+            echo "$output"
+            if ! grep -qE 'HTTP error (423|50[234])|RemoteDisconnected|Connection (aborted|reset)|timed out' <<< "$output"; then
+              echo "::warning::$* failed"
+              return 1
             fi
             echo "::warning::$* failed (attempt ${attempt})"
             if [ "$attempt" -lt 5 ]; then
