@@ -28,4 +28,4 @@ ptx-error-not-implemented = { $feature } jeszcze nie zaimplementowano
 ptx-error-write-failed = zapis nieudany
 ptx-help-typeset-mode = zmienia domyślną szerokość z 72 na 100
 ptx-error-empty-regexp = Wyrażenie regularne nie może być zgodne z ciągiem o długości zerowej
-ptx-error-invalid-regexp = Nieprawidłowe wyrażenie regularne: { $error }
+ptx-error-invalid-regexp = Nieprawidłowe wyrażenie regularne (dla wyrażenia regularnego { $pattern })
