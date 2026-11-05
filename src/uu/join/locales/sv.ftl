@@ -1,5 +1,5 @@
-join-about = Skriv ut en rad till standardutdata för varje par av indatarader med identiska kopplingsfält.
-  Standardkopplingsfältet är det första fältet, avgränsat med blanksteg.
+join-about = Skriv ut en rad till standardutdata för varje par av indatarader med identiska föreningsfält.
+  Standardföreningsfältet är det första fältet, avgränsat med blanksteg.
 
   Läs standardindata om FIL1 eller FIL2, men inte båda, är -.
 join-usage = join [FLAGGA]... FIL1 FIL2
@@ -8,7 +8,7 @@ join-help-a = skriv även ut rader som inte kan paras ihop från fil FILNUM,
 join-help-v = som -a FILNUM, men utelämna sammanfogade utdatarader
 join-help-e = ersätt saknade indatafält med TOM
 join-help-i = ignorera skillnader mellan versaler och gemener när fält jämförs
-join-help-n = jämför kopplingsfält efter numeriskt värde, som ”sort -n” gör
+join-help-n = jämför föreningsfält efter numeriskt värde, som 'sort -n' gör
 join-help-j = motsvarar '-1 FÄLT -2 FÄLT'
 join-help-o = följ FORMAT när utdataraden byggs
 join-help-t = använd TECKEN som avgränsare för både indatafält och utdatafält
@@ -30,8 +30,8 @@ join-error-missing-operand = operand saknas
 join-error-missing-operand-after = operand saknas efter { $file }
 join-error-extra-operand = ytterligare operand { $operand }
 join-error-invalid-field-number = ogiltigt fältnummer: { $value }
-join-error-incompatible-fields = inkompatibla kopplingsfält { $field1 }, { $field2 }
+join-error-incompatible-fields = inkompatibla föreningsfält { $field1 }, { $field2 }
 join-error-conflicting-empty-field = motstridiga ersättningssträngar för tomma fält
 join-error-not-sorted = { $file }:{ $line_num }: är inte sorterad: { $content }
 join-error-input-not-sorted = indata är inte sorterade
-join-diag-help-format = ett utdatafält är FILNUM.FÄLT, som i -o 1.2,2.1. 0 står för kopplingsfältet
+join-diag-help-format = ett utdatafält är FILNUM.FÄLT, som i -o 1.2,2.1. 0 står för föreningsfältet
