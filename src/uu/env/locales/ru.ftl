@@ -39,4 +39,4 @@ env-error-failed-set-signal-action = не удалось задать дейст
 env-warning-no-name-specified = не указано имя для значения { $value }
 env-diag-label-variable-digit = имя переменной не может начинаться с цифры
 env-diag-label-missing-brace = эта { "{" } не закрыта
-env-error-only-braced-variable = поддерживается только раскрытие ${ VARNAME } в позиции { $position }
+env-error-only-braced-variable = поддерживается только раскрытие { "${VARNAME}" } в позиции { $position }
