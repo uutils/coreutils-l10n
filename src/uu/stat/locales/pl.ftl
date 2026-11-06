@@ -18,7 +18,8 @@ stat-after-help =
       -`%i`: numer i-węzła
       -`%m`: punkt montowania
       -`%n`: nazwa pliku
-      -`%N`: nazwa pliku w cudzysłowie z dereferencją (follow), jeśli dow. symboliczne
+      -`%Qn`: nazwa pliku w cudzysłowie
+      -`%N`: nazwa pliku w cudzysłowie z dereferencją (follow), jeśli dow. symboliczne
       -`%o`: wskazówka dotycząca optymalnego rozmiaru transferu we-wy
       -`%s`: całkowity rozmiar w bajtach
       -`%t`: główny typ urz. w formacie szesnastkowym, dla plików spec. urz. znak./blok.
@@ -36,18 +37,19 @@ stat-after-help =
 
     Prawidłowe sekwencje formatów dla systemów plików:
 
-    -`%a`: wolne bloki dostępne dla użytkowników bez uprawnień administratora
-    -`%b`: łączna liczba bloków danych w systemie plików
-    -`%c`: łączna liczba węzłów plików w systemie plików
-    -`%d`: wolne węzły plików w systemie plików
-    -`%f`: wolne bloki w systemie plików
-    -`%i`: identyfikator systemu plików w formacie szesnastkowym
-    -`%l`: maksymalna długość nazw plików
-    -`%n`: nazwa pliku
-    -`%s`: rozmiar bloku (dla szybszego transfery)
-    -`%S`: podstawowy rozmiar bloku (liczba bloków)
-    -`%t`: typ systemu plików w formacie szesnastkowym
-    -`%T`: typ systemu plików w formacie czytelnym dla człowieka
+      -`%a`: wolne bloki dostępne dla użytkowników bez uprawnień administratora
+      -`%b`: łączna liczba bloków danych w systemie plików
+      -`%c`: łączna liczba węzłów plików w systemie plików
+      -`%d`: wolne węzły plików w systemie plików
+      -`%f`: wolne bloki w systemie plików
+      -`%i`: identyfikator systemu plików w formacie szesnastkowym
+      -`%l`: maksymalna długość nazw plików
+      -`%n`: nazwa pliku
+      -`%Qn`: nazwa pliku w cudzysłowie
+      -`%s`: rozmiar bloku (dla szybszego transfery)
+      -`%S`: podstawowy rozmiar bloku (liczba bloków)
+      -`%t`: typ systemu plików w formacie szesnastkowym
+      -`%T`: typ systemu plików w formacie czytelnym dla człowieka
 
     UWAGA: ta powłoka może mieć własną wersję parametru stat, która zazwyczaj zastępuje
     wersję opisaną tutaj. Szczegółowe informacje na temat obsługiwanych opcji można

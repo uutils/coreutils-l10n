@@ -32,3 +32,7 @@ join-error-incompatible-fields = niezgodne pola łączące { $field1 }, { $field
 join-error-not-sorted = { $file }:{ $line_num }: nie jest posortowane: { $content }
 join-error-input-not-sorted = wjeście nie jest posortowane
 join-diag-help-format = pole wyjściowe to NUMER.POLE, jak w -o 1.2,2.1; 0 oznacza pole łączące
+join-error-missing-operand = brak operandu
+join-error-missing-operand-after = brak operandu po { $file }
+join-error-extra-operand = dodatkowy operand { $operand }
+join-error-conflicting-empty-field = sprzeczne ciągi zastępujące puste pola

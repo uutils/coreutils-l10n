@@ -27,3 +27,5 @@ shuf-error-invalid-input-range = ogiltigt indataområde: { $range }
 shuf-error-invalid-input-range-too-large = ogiltigt indataområde: { $range }: Värdet är för stort för att lagras i datatypen
 shuf-error-write-failed = skrivfel
 shuf-error-memory-exhausted = minnet är slut
+shuf-error-start-exceeds-end = början överstiger slutet
+shuf-error-missing-dash = saknar '-'

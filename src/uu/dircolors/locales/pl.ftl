@@ -6,7 +6,7 @@ dircolors-after-help =
     Aby uzyskać szczegółowe informacje na temat formatu tych plików, uruchom polecenie 'dircolors --print-database'
 dircolors-help-bourne-shell = wyprowadza kod powłoki Bourne'a do ustawienia LS_COLORS
 dircolors-help-c-shell = wyprowadza kod powłoki C do ustawienia LS_COLORS
-dircolors-help-print-database = wypisuje liczbę bajtów
+dircolors-help-print-database = wypisuje domyślną bazę danych kolorów
 dircolors-help-print-ls-colors = wyprowadza w pełni ukryte kolory do wyświetlania
 dircolors-error-shell-and-output-exclusive =
     opcje wyprowadzania składni innej niż powłoka,

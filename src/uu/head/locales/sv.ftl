@@ -29,3 +29,4 @@ head-error-cannot-open = kunde inte öppna {$name} för läsning
 
 # Output headers
 head-name-stdin = standardindata
+head-header-stdin = ==> standard-in <==

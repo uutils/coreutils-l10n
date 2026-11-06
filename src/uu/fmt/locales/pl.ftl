@@ -27,3 +27,4 @@ fmt-error-invalid-width-malformed = nieprawidłowa szerokość: { $width }
 fmt-error-cannot-open-for-reading = nie można otworzyć { $file } do odczytu
 fmt-error-cannot-get-metadata = nie można uzyskać metadanych dla { $file }
 fmt-error-failed-to-write-output = nie udało się zapisać danych wyjściowych
+fmt-error-reading-is-directory = błąd podczas odczytu { $file }: jest katalogiem

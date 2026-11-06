@@ -44,7 +44,7 @@ rm-verbose-removed = usunięto { $file }
 rm-verbose-removed-directory = usunięto katalog { $file }
 rm-help-progress = wyświetla pasek postępu. Uwaga: ta funkcja nie jest obsługiwana przez GNU Core Utilities.
 rm-progress-removing = Usuwanie
-rm-error-dangerous-recursive-operation-same-as-root = niebezpieczne jest rekurencyjne wykonywanie operacji na '{ $path }' (tak samo jak '/')
+rm-error-dangerous-recursive-operation-same-as-root = niebezpieczne jest rekurencyjne wykonywanie operacji na { $path } (tak samo jak '/')
 rm-error-may-not-abbreviate-no-preserve-root = nie można skracać opcji --no-preserve-root
 rm-hint-dash-file =
     Wypróbuj '{ $util_name } ./{ $path }', aby usunąć plik { $file }.
