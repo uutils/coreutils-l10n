@@ -1,9 +1,9 @@
 id-about =
     为每个指定的 USER 或当前用户
-    （省略 USER 时）打印用户和组信息。
+    （省略 USER 时）输出用户和组信息。
 id-usage = id [OPTION]... [USER]...
 id-after-help =
-    id 工具会显示调用进程的用户和组名以及数值ID到标准输出。
+    id 工具会显示调用进程的用户和组名以及数值 ID 到标准输出。
     如果实际 ID 和有效 ID 不同，则两者都会显示；如果相同，则
     只显示实际 ID。
 
@@ -37,7 +37,7 @@ id-help-name =
     则将照常显示该数字。
 id-help-password = 以密码文件条目的格式显示 id。
 id-help-real =
-    为 -G、-g 和 -u 选项显示对应的真实 ID 
+    为 -G、-g 和 -u 选项显示对应的真实 ID
     而非有效 ID。
 id-help-zero =
     使用 NUL 字符分隔条目，而非空白符；
@@ -47,3 +47,5 @@ id-output-groups = groups
 id-output-login = login
 id-output-euid = euid
 id-output-context = context
+id-error-context-security-only = --context (-Z) 只能在启用了SELinux/SMACK 的内核系统中使用
+id-output-rgid = rgid

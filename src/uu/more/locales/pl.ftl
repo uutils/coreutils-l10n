@@ -1,6 +1,6 @@
 more-about = Wyświetla zawartość pliku tekstowego.
 more-usage = more [OPCJE] PLIK...
-more-error-is-directory = { $path } jest katalogiem.
+more-error-is-directory = { $path }: jest katalogiem
 more-error-cannot-open-no-such-file = nie można otworzyć { $path }: nie ma takiego pliku ani katalogu
 more-error-cannot-open-io-error = nie można otworzyć { $path }: { $error }
 more-error-bad-usage = nieprawidłowe użycie
@@ -22,3 +22,4 @@ more-help-pattern = Ciąg, który ma zostać przeszukany w każdym pliku przed 
 more-help-files = Ścieżka do plików do odczytania
 more-help-message = { "[" }Naciśnij spację, aby kontynuować, lub 'q', aby wyjść.]
 more-press-return = naciśnij ENTER
+more-error-cannot-open = nie można otworzyć { $path }: { $error }

@@ -53,3 +53,4 @@ df-header-file = Plik
 df-header-type = Typ
 df-total = razem
 df-blocks-suffix = -bloki
+df-help-mega = jak --block-size=1

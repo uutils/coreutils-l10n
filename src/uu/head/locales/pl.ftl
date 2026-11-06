@@ -26,3 +26,4 @@ head-error-bad-argument-format = zły format argumentu: { $arg }
 head-error-writing-stdout = błąd podczas zapisu „standardowego wyjścia”: { $err }
 head-error-cannot-open = nie można otworzyć { $name } do odczytu
 head-header-stdin = ==> standardowe wejście <==
+head-name-stdin = standardowe wejście

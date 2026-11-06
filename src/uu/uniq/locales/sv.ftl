@@ -40,3 +40,4 @@ uniq-error-all-repeated-badoption = ogiltigt argument 'badoption' för '--all-re
 
 uniq-error-counts-and-repeated-meaningless = att skriva ut alla dubbletter och antalet upprepningar saknar mening
   Försök med 'uniq --help' för mer information.
+uniq-error-could-not-open = Kunde inte öppna { $path }

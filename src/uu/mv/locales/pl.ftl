@@ -62,3 +62,4 @@ mv-error-exchange-not-supported = --exchange nie jest obsługiwany na tej platfo
 mv-help-exchange = wymienia źródło i miejsce docelowe (atomowo je zamienia)
 mv-verbose-exchanged = wymieniono { $from } <-> { $to }
 mv-error-dest-appeared = cel { $path } został zastąpiony podczas przenoszenia; odmówiono podążania za nim
+mv-error-setting-attribute = ustawianie atrybutu { $name }: { $err }

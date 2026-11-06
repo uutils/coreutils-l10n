@@ -8,9 +8,9 @@ tail-about =
 
     Obowiązkowe argumenty długich opcji są obowiązkowe również dla krótkich opcji.
 tail-usage = tail [FLAGA]... [PLIK]...
-tail-help-bytes = Liczba bajtów do wypisania
+tail-help-bytes = Wypissuje ostatnie NUM bajtów; użyj -c +NUM, aby wypisać dane począwszy od bajtu NUM (licząc od 1)
 tail-help-follow = Wypisuje plik w miarę jego wzrostu
-tail-help-lines = Liczba wierszy do wypisania
+tail-help-lines = Wypisuje ostatnie NUM wierszy; użyj -n +NUM, aby wypisać wiersze począwszy od wiersza NUM (licząc od 1)
 tail-help-pid = Z opcją -f kończy po ID procesu, PID umiera
 tail-help-quiet = Nigdy nie wyprowadza nagłówków zawierających nazwy plików
 tail-help-sleep-interval = Liczba sekund uśpienia pomiędzy sondowaniem pliku podczas uruchamiania z opcją -f

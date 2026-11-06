@@ -22,7 +22,7 @@ od-error-invalid-argument = argumento { $value } inválido para { $option }
 od-error-argument-too-large = { $option } argumento { $value } grande demais
 od-error-skip-past-end = tentou pular para depois do fim da entrada
 od-help-address-radix = Escolhe a base em que os deslocamentos de ficheiros são impressos.
-od-help-skip-bytes = Pular bytes da entrada antes de formatar e escrever.
+od-help-skip-bytes = Pular BYTES da entrada antes de formatar e escrever.
 od-help-read-bytes = limite de despejo para BYTES bytes da entrada
 od-help-endian = ordem do byte para formatos multi-byte
 od-help-a = caracteres nomeados, ignorando ordem alta de bit
@@ -59,15 +59,15 @@ od-after-help =
     linha de comandos. Cada formato será apresentado numa linha nova. Apenas a linha
     que contém o primeiro formato terá o deslocamento como prefixo.
 
-    Se não for especificado nenhum nome de ficheiro ou se for "-", a entrada predefinida 
-    (stdin) será utilizada. Após um "--", mais opções não serão reconhecidas. Isto permite 
+    Se não for especificado nenhum nome de ficheiro ou se for "-", a entrada predefinida
+    (stdin) será utilizada. Após um "--", mais opções não serão reconhecidas. Isto permite
     nomes de ficheiros que comecem por "-".
 
     Se um nome de ficheiro for um número válido que possa ser utilizado como desvio na segunda
     forma, pode forçar o seu reconhecimento como nome de ficheiro se incluir uma opção
     como "-j0", que só é válida na primeira forma.
 
-    RADIX pode ser um dos seguintes valores: o, d, x, n, correspondendo a octal, decimal, 
+    RADIX pode ser um dos seguintes valores: o, d, x, n, correspondendo a octal, decimal,
     hexadecimal ou nenhum.
 
     BYTES é decimal por predefinição, octal se for precedido por um «0», ou hexadecimal
@@ -91,5 +91,5 @@ od-after-help =
     Qualquer especificação de tipo pode ter um sufixo «z», o que irá adicionar um
         dump ASCII no final da linha.
 
-    Se um erro ocorrer, uma mensagem de diagnóstico será impressa no stderr, 
+    Se um erro ocorrer, uma mensagem de diagnóstico será impressa no stderr,
     e o código de saída será diferente de zero.

@@ -98,3 +98,6 @@ stat-word-birth = Födelse
 stat-selinux-failed-get-context = kunde inte hämta säkerhetskontext
 stat-selinux-unsupported-system = stöds inte på detta system
 stat-selinux-unsupported-os = stöds inte på detta operativsystem
+stat-error-cannot-statx = kan inte använda statx på { $file }: { $error }
+stat-word-block-size-capitalized = Blockstorlek
+stat-diag-help-directive = ett direktiv är %[FLAGGOR][BREDD][.PRECISION]BOKSTAV, som i %-10.2s; ett bokstavligt % skrivs %%

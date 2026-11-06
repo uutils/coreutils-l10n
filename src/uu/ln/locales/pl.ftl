@@ -40,3 +40,4 @@ ln-failed-to-create-hard-link = nie udało się utworzyć dowiązania twardego {
 ln-backup = kopia zapasowa: { $backup }
 ln-failed-to-create-symbolic-link = nie udało się utworzyć dowiązania symbolicznego { $dest }
 ln-failed-to-create-hard-link-dir = { $source }: twarde dowiązanie nie jest dozwolone dla katalogu
+ln-error-cannot-overwrite-directory = { $dest }: nie można nadpisać katalogu

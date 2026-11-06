@@ -27,7 +27,7 @@ ln-error-will-not-overwrite = não substituirá o recém-criado '{ $target }' co
 ln-prompt-replace = substituir { $file }?
 ln-cannot-backup = não pode fazer backup de { $file }
 ln-failed-to-access = falha ao aceder { $file }
-ln-failed-to-create-hard-link = falha ao criar ligação física { $source } => { $dest }
+ln-failed-to-create-hard-link = falha ao criar ligação física { $dest } => { $source }
 ln-backup = backup: { $backup }
 ln-after-help =
     Na primeira forma, cria uma ligação para DESTINO com o nome NOME_LIGAÇÃO.
@@ -38,3 +38,5 @@ ln-after-help =
     Ao criar ligações físicas, cada DESTINO deve existir. Ligações simbólicas
     podem conter texto arbitrário; se mais tarde resolvido, uma ligação relativa é
     interpretada em relação ao seu diretório pai.
+ln-failed-to-create-symbolic-link = não conseguiu criar ligação simbólica { $dest }
+ln-failed-to-create-hard-link-dir = { $source }: ligação rígida não permitida para diretório

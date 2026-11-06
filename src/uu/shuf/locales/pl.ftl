@@ -25,3 +25,5 @@ shuf-help-random-seed = zarodek z NAPISEM dla powtarzalnego wyniku
 shuf-error-read-random-bytes = odczyt losowych bajtów się nie powiódł
 shuf-error-end-of-random-bytes = koniec losowego źródła
 shuf-error-memory-exhausted = pamięć wyczerpana
+shuf-error-invalid-input-range = nieprawidłowy zakres danych wejściowych: { $range }
+shuf-error-invalid-input-range-too-large = nieprawidłowy zakres danych wejściowych: { $range }: wartość zbyt duża, aby można ją było zapisać w danym typie danych

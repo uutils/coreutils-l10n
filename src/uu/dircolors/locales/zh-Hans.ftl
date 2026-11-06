@@ -1,4 +1,4 @@
-dircolors-about = 输出命令以设置 LS_COLORS 环境变量。
+dircolors-about = 输出用于设置 LS_COLORS 环境变量的命令。
 dircolors-usage = dircolors [OPTION]... [FILE]
 dircolors-after-help =
     若指定了 FILE 参数，则读取该文件以确定不同文件类型及扩展名应
@@ -18,4 +18,5 @@ dircolors-error-no-shell-environment = 未设置 SHELL 环境变量，也未使�
 dircolors-error-extra-operand = 多余的参数 { $operand }
 dircolors-error-expected-file-got-directory = 应为文件，实际为目录 { $path }
 dircolors-error-invalid-line-missing-token = { $file }:{ $line }：无效的行；  缺少第二个字段
-dircolors-error-unrecognized-keyword = 未识别的关键字：{ $keyword }
+dircolors-error-unrecognized-keyword = 无法识别的关键字：{ $keyword }
+dircolors-help-print-database = 输出默认颜色数据库

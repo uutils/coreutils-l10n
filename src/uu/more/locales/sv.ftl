@@ -27,3 +27,5 @@ more-help-files = sökväg till filerna som ska läsas
 # Other messages
 more-help-message = { "[" }Tryck på mellanslag för att fortsätta, 'q' för att avsluta.]
 more-press-return = tryck på RETUR
+more-error-cannot-open-no-such-file = kan inte öppna { $path }: Fil eller katalog saknas
+more-error-cannot-open-io-error = kan inte öppna { $path }: { $error }
