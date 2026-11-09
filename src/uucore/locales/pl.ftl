@@ -122,3 +122,4 @@ backup-error-invalid-argument = nieprawidłowy argument { $arg } dla '{ $origin 
 backup-error-ambiguous-argument = niejednoznaczny argument { $arg } dla '{ $origin }'
 backup-valid-arguments = Poprawne argumenty to:
 error-non-utf8-os-str = Podczas konwersji na bajty na platformie, która nie obsługuje argumentów w postaci bajtów, napotkano nieprawidłowe dane wejściowe UTF-8: { $input }
+help-set-quoting-style = Ustawia styl cytowania
