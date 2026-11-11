@@ -161,3 +161,4 @@ ls-error-invalid-tab-size = nieprawidłowy rozmiar karty: { $size }
 ls-error-cannot-access-permission-denied = brak dostępu do { $path }: odmowa dostępu
 ls-error-unrecognized-ls-colors-prefix = nierozpoznany prefiks: { $prefix }
 ls-error-unparsable-ls-colors = niemożliwa do przetworzenia wartość zmiennej środowiskowej LS_COLORS
+ls-error-cannot-access = brak dostępu do { $path }: { $error }
