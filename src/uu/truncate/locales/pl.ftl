@@ -31,3 +31,4 @@ truncate-error-cannot-stat-no-such-file = nie można określić { $filename }: n
 truncate-error-value-too-large = Wartość jest zbyt duża dla określonego typu danych
 truncate-error-value-too-large-arg = { $arg }: wartość jest zbyt duża dla określonego typu danych
 truncate-error-io-block-mul-overflow = przepełnienie w blokach bajtów { $num } * { $factor }
+truncate-error-cannot-get-size = nie można uzyskać rozmiaru { $filename }
