@@ -30,3 +30,4 @@ truncate-error-cannot-stat-no-such-file = kunde inte hämta status för { $filen
 truncate-error-value-too-large = värdet är för stort för den definierade datatypen
 truncate-error-value-too-large-arg = { $arg }: Värdet är för stort för den definierade datatypen
 truncate-error-io-block-mul-overflow = överskridning i byteblocken { $num } * { $factor }
+truncate-error-cannot-get-size = kan inte få storleken på { $filename }
