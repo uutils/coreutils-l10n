@@ -85,3 +85,8 @@ mode-error-invalid-operator = operador no válido (se esperaba +, - o =, pero se
 mode-diag-label-missing-operator = esta cláusula dice quién, pero no qué cambiar
 mode-diag-label-invalid-number = no es un modo octal
 mode-diag-help-syntax = un modo es octal, como 644, o cláusulas como u+rwx,go-w
+common-read-error = error de lectura
+encoding-error-invalid-input = entrada no válida
+backup-valid-arguments = Los argumentos válidos son:
+error-is-a-directory-text = Es un directorio
+error-too-many-symlink-levels = Demasiados niveles de enlaces simbólicos
