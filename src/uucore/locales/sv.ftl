@@ -77,3 +77,5 @@ perms-cannot-access = kan inte komma åt { $file }: { $error }
 perms-cannot-access-replaced = kan inte komma åt { $file }: ersattes medan den behandlades
 encoding-error-invalid-input = ogiltiga indata
 encoding-error-invalid-input-z85-length = ogiltiga indata (längden måste vara en multipel av 4 tecken)
+backup-error-invalid-argument = ogiltigt argument { $arg } för '{ $origin }'
+backup-valid-arguments = Giltiga argument är:
