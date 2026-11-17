@@ -53,3 +53,4 @@ chcon-warning-circular-directory =
     Esto casi ciertamente significa que tiene un sistema de archivos corrupto.
     NOTIFIQUE A SU ADMINISTRADOR DE SISTEMA.
     El siguiente directorio es parte del ciclo { $file }.
+chcon-error-write = error de escritura: { $error }
