@@ -158,3 +158,4 @@ ls-warning-getting-security-context = hämtar säkerhetskontext för: { $path }:
 smack-error-label-retrieval-failure = kunde inte hämta SMACK-etikett: { $error }
 smack-error-label-set-failure = kunde inte ange SMACK-etiketten till '{ $context }': { $error }
 smack-error-no-label-set = ingen SMACK-etikett har angetts
+ls-error-cannot-access = kan inte komma åt { $path }: { $error }
