@@ -9,4 +9,4 @@ factor-help-help = Imprimir información de ayuda.
 factor-error-factorization-incomplete = Factorización incompleta. Existen restos.
 factor-error-write-error = error de escritura
 factor-error-reading-input = error leyendo entrada: { $error }
-factor-error-invalid-int = dígito inválido encontrado en string
+factor-error-invalid-int = no es un entero positivo válido
