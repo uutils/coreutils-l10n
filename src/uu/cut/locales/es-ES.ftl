@@ -92,11 +92,11 @@ cut-after-help =
 
     resultará en 'a\\0c\\0'
 # Help messages
-cut-help-bytes = filtrar columnas de byte de la fuente de entrada
-cut-help-characters = alias para modo carácter
+cut-help-bytes = extraer bytes enumerados en LISTA
+cut-help-characters = extraer caracteres enumerados en LISTA
 cut-help-delimiter = especificar el carácter delimitador que separa campos en la fuente de entrada. Por defecto Tab.
 cut-help-whitespace-delimited = Usar cualquier número de espacios en blanco (Espacio, Tab) para separar campos en la fuente de entrada (extensión FreeBSD).
-cut-help-fields = filtrar columnas de campo de la fuente de entrada
+cut-help-fields = extraer campos enumerados en LISTA
 cut-help-fields-merged = como -f, pero fusiona los delimitadores adyacentes; el delimitador predeterminado es el espacio en blanco y el delimitador de salida un espacio
 cut-help-complement = invertir el filtro - en lugar de mostrar solo las columnas filtradas, mostrar todas excepto esas columnas
 cut-help-only-delimited = en modo campo, solo mostrar líneas que contienen el delimitador
