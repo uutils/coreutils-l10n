@@ -55,3 +55,4 @@ base-common-help-decode = decodificar datos
 base-common-help-ignore-garbage = al decodificar, ignorar caracteres no alfabéticos
 base-common-help-wrap = envolver líneas codificadas después de COLS carácter (por defecto { $default }, 0 para deshabilitar envoltorio)
 basenc-help-base58 = codificación en base58 visualmente no ambigua
+base-common-invalid-input = entrada no válida
