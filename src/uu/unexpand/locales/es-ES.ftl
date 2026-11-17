@@ -10,6 +10,6 @@ unexpand-help-no-utf8 = interpretar archivo de entrada como ASCII de 8-bit en lu
 # Error messages
 unexpand-error-invalid-character = el tamaño de tabulación contiene carácter(es) no válido(s): { $char }
 unexpand-error-tab-size-cannot-be-zero = el tamaño de tabulación no puede ser 0
-unexpand-error-tab-size-too-large = el valor de parada de tabulación es demasiado grande
+unexpand-error-tab-size-too-large = el tope de tabulación es demasiado grande
 unexpand-error-tab-sizes-must-be-ascending = los tamaños de tabulación deben ser ascendentes
 unexpand-error-is-directory = { $path }: Es un directorio
