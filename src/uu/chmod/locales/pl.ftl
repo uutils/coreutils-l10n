@@ -26,7 +26,7 @@ chmod-help-reference = używa trybu PLIKU_WZ zamiast wartości TRYBU
 chmod-verbose-failed-dangling = nie udało się zmienić trybu pliku { $file } z 0000 (---------) na 1500 (r-x-----T)
 chmod-verbose-neither-changed = ani dowiązanie symboliczne { $file } ani referent nie zostały zmienione
 chmod-verbose-mode-retained = tryb { $file } zachowano jako { $mode_octal } ({ $mode_display })
-chmod-verbose-failed-change = nie udało się zmienić trybu pliku { $file } z { $old_mode } ({ $old_mode_display }) na { $new_mode } ({ $new_mode_display })
+chmod-verbose-failed-change = nie udało się zmienić trybu { $file } z { $old_mode } ({ $old_mode_display }) na { $new_mode } ({ $new_mode_display })
 chmod-verbose-mode-changed = tryb { $file } zmieniono z { $old_mode } ({ $old_mode_display }) na { $new_mode } ({ $new_mode_display })
 chmod-error-preserve-root-same-as =
     rekurencyjne działanie na { $file } jest niebezpieczne (tak samo jak „/”)
