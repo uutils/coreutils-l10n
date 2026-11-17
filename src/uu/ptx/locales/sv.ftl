@@ -28,4 +28,4 @@ ptx-error-not-implemented = { $feature } är ännu inte implementerad
 ptx-error-write-failed = skrivningen misslyckades
 ptx-help-typeset-mode = ändra standardbredden från 72 till 100
 ptx-error-empty-regexp = Ett reguljärt uttryck kan inte matcha en sträng med längden noll
-ptx-error-invalid-regexp = Ogiltigt reguljärt uttryck: { $error }
+ptx-error-invalid-regexp = Ogiltigt reguljärt uttryck (för regexp { $pattern })
