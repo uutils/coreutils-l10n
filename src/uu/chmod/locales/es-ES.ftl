@@ -12,11 +12,12 @@ chmod-error-no-such-file = no se puede acceder { $file }: No existe el archivo o
 chmod-error-preserve-root =
     es peligroso operar recursivamente en { $file }
     chmod: use --no-preserve-root para anular esta protección
-chmod-error-preserve-root-same-as = es peligroso operar recursivamente en {$file} (igual que '/')
-  chmod: use --no-preserve-root para anular esta protección
+chmod-error-preserve-root-same-as =
+    es peligroso operar recursivamente en { $file } (igual que '/')
+    chmod: use --no-preserve-root para anular esta protección
 chmod-error-permission-denied = no se puede acceder { $file }: Permiso denegado
 chmod-error-new-permissions = { $file }: los nuevos permisos son { $actual }, no { $expected }
-chmod-error-changing-permissions = cambiando los permisos de {$file}: {$err}
+chmod-error-changing-permissions = cambiando los permisos de { $file }: { $err }
 chmod-error-missing-operand = falta operando
 # Help messages
 chmod-help-print-help = Mostrar información de ayuda.
@@ -33,3 +34,5 @@ chmod-verbose-neither-changed = ni el enlace simbólico { $file } ni el referent
 chmod-verbose-mode-retained = modo de { $file } retenido como { $mode_octal } ({ $mode_display })
 chmod-verbose-failed-change = falló al cambiar modo del archivo { $file } de { $old_mode } ({ $old_mode_display }) a { $new_mode } ({ $new_mode_display })
 chmod-verbose-mode-changed = modo de { $file } cambiado de { $old_mode } ({ $old_mode_display }) a { $new_mode } ({ $new_mode_display })
+chmod-error-cannot-read-directory = no se puede leer el directorio { $file }: { $err }
+chmod-error-reference-stat = no se pudieron obtener los atributos de { $file }: { $error }
