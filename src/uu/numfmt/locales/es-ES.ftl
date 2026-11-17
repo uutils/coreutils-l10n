@@ -96,3 +96,4 @@ numfmt-diag-help-input-no-from = sin --from un número debe ser simple; --from=a
 numfmt-diag-help-input-suffixes = los sufijos son K, M, G, T, P, E, Z, Y, R y Q, con una i opcional bajo --from=auto o iec-i
 numfmt-diag-label-zero-field = los campos se numeran desde 1
 numfmt-diag-help-field-syntax = --field acepta N, N-M, N- o -M, separados por comas, como en --field=1,3-5
+numfmt-error-write = error de escritura
