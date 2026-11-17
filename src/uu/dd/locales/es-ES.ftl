@@ -131,21 +131,21 @@ dd-error-cannot-skip-invalid = '{ $file }': no se puede saltar: Argumento no vá
 dd-error-cannot-seek-invalid = '{ $output }': no se puede buscar: Argumento no válido
 dd-error-not-directory = estableciendo banderas para '{ $file }': No es un directorio
 # Parse errors
-dd-error-unrecognized-operand = Operando no reconocido '{ $operand }'
+dd-error-unrecognized-operand = operando «{ $operand }» no reconocido
 dd-error-multiple-format-table = Solo se puede especificar uno de conv=ascii conv=ebcdic o conv=ibm
-dd-error-multiple-case = Solo se puede especificar uno de conv=lcase o conv=ucase
-dd-error-multiple-block = Solo se puede especificar uno de conv=block o conv=unblock
-dd-error-multiple-excl = Solo se puede especificar uno de conv=excl o conv=nocreat
+dd-error-multiple-case = no se pueden combinar lcase y ucase
+dd-error-multiple-block = no se pueden combinar block y unblock
+dd-error-multiple-excl = no se pueden combinar excl y nocreat
 dd-error-invalid-flag = bandera de entrada no válida: '{ $flag }'
 dd-error-invalid-output-flag = bandera de salida no válida: '{ $flag }'
-dd-error-conv-flag-no-match = conv=CONV no reconocido -> { $flag }
+dd-error-conv-flag-no-match = conversión no válida: «{ $flag }»
 dd-error-multiplier-parse-failure = número no válido: '{ $input }'
 dd-error-multiplier-overflow = La cadena multiplicadora desbordaría en el sistema actual -> { $input }
 dd-error-block-without-cbs = conv=block o conv=unblock especificado sin cbs=N
-dd-error-status-not-recognized = status=NIVEL no reconocido -> { $level }
+dd-error-status-not-recognized = nivel de estado no válido: «{ $level }»
 dd-error-unimplemented = característica no implementada en este sistema -> { $feature }
 dd-error-bs-out-of-range = { $param }=N no cabe en memoria
-dd-error-invalid-number = número no válido: '{ $input }'
+dd-error-invalid-number = número no válido: «{ $input }»
 # Progress messages
 dd-progress-records-in = { $complete }+{ $partial } registros en
 dd-progress-records-out = { $complete }+{ $partial } registros fuera
