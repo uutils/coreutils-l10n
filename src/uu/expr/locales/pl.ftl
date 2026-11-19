@@ -107,3 +107,4 @@ expr-error-match-utf8 = dopasowanie nie obsługuje nieprawidłowego kodowania UT
 expr-diag-help-missing-argument = każdy operator potrzebuje wartości po obu stronach
 expr-diag-help-unexpected-argument = powłoka mogła rozszerzyć operator; zapisz go jako '{ "*" }' lub użyj skrótu { "\\*" }
 expr-diag-help-non-integer-argument = operatory arytmetyczne wymagają liczb całkowitych; do porównywania ciągów znaków używaj = lub { "!" }=
+expr-error-unexpected-closing-parenthesis = błąd składni: nieoczekiwany znak ')'
