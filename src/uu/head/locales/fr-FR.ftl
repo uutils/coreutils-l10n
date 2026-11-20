@@ -26,6 +26,7 @@ head-error-invalid-lines = nombre de lignes invalide : {$err}
 head-error-bad-argument-format = format d'argument incorrect : {$arg}
 head-error-writing-stdout = erreur lors de l'écriture sur 'sortie standard' : {$err}
 head-error-cannot-open = impossible d'ouvrir {$name} en lecture
+head-name-stdin = entrée standard
 
 # En-têtes de sortie
 head-header-stdin = ==> entrée standard <==

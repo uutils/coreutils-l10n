@@ -12,6 +12,7 @@ sort-after-help = Le format de clé est CHAMP[.CAR][OPTIONS][,CHAMP[.CAR]][OPTIO
 
 # Messages d'erreur
 sort-open-failed = échec d'ouverture : {$path} : {$error}
+sort-truncate-failed = échec de la troncature : { $path } : { $error }
 sort-parse-key-error = échec d'analyse de la clé {$key} : {$msg}
 sort-cannot-read = impossible de lire : {$path} : {$error}
 sort-read-failed = échec de lecture : {$error}
@@ -23,6 +24,8 @@ sort-file-operands-combined = opérande supplémentaire {$file}
     les opérandes de fichier ne peuvent pas être combinées avec --files0-from
     Essayez '{$help} --help' pour plus d'informations.
 sort-multiple-output-files = plusieurs fichiers de sortie spécifiés
+sort-multiple-compress-programs = plusieurs programmes de compression spécifiés
+sort-incompatible-tabs = tabulations incompatibles
 sort-minus-in-stdin = lors de la lecture des noms de fichiers depuis l'entrée standard, aucun nom de fichier '-' n'est autorisé
 sort-no-input-from = aucune entrée depuis {$file}
 sort-random-source-end-of-file = {$path} : fin de fichier
@@ -57,6 +60,7 @@ sort-failed-fetch-rlimit = Échec de récupération de rlimit
 sort-invalid-suffix-in-option-arg = suffixe invalide dans l'argument --{$option} {$arg}
 sort-invalid-option-arg = argument --{$option} invalide {$arg}
 sort-option-arg-too-large = argument --{$option} {$arg} trop grand
+sort-parallel-must-be-nonzero = le nombre de tris en parallèle doit être non nul
 sort-error-disorder = {$file}:{$line_number}: désordre : {$line}
 sort-error-buffer-size-too-big = La taille du tampon {$size} ne rentre pas dans l'espace d'adressage
 sort-error-no-match-for-key = ^ aucune correspondance pour la clé

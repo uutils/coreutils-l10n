@@ -27,6 +27,7 @@ chcon-error-no-files-specified = Aucun fichier n'est spécifié
 chcon-error-data-out-of-range = Données hors limites
 chcon-error-operation-failed = { $operation } a échoué
 chcon-error-operation-failed-on = { $operation } a échoué sur { $operand }
+chcon-error-write = erreur d'écriture : { $error }
 
 # Messages d'erreur - validation des arguments
 chcon-error-invalid-context = Contexte de sécurité invalide '{ $context }'.

@@ -3,6 +3,7 @@ more-usage = more [OPTIONS] FICHIER...
 
 # Messages d'erreur
 more-error-is-directory = {$path} est un répertoire.
+more-error-cannot-open = impossible d'ouvrir { $path } : { $error }
 more-error-cannot-open-no-such-file = impossible d'ouvrir {$path} : Aucun fichier ou répertoire de ce nom
 more-error-cannot-open-io-error = impossible d'ouvrir {$path} : {$error}
 more-error-bad-usage = mauvaise utilisation

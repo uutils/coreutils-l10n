@@ -10,4 +10,5 @@ pwd-ignoring-non-option-arguments = arguments non-option ignorés
 
 # Messages d'erreur
 pwd-error-failed-to-get-current-directory = échec de l'obtention du répertoire actuel
+pwd-error-cannot-find-directory-entry = impossible de trouver l'entrée de répertoire dans '..' avec l'i-node correspondant
 pwd-error-failed-to-print-current-directory = échec de l'affichage du répertoire actuel
