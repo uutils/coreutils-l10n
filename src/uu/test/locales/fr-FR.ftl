@@ -159,6 +159,9 @@ test-error-extra-argument = argument supplémentaire { $argument }
 test-error-unknown-operator = opérateur inconnu { $operator }
 test-error-invalid-integer = entier invalide { $value }
 test-error-unary-operator-expected = { $operator } : opérateur unaire attendu
+test-error-binary-operator-expected = { $operator } : opérateur binaire attendu
+test-error-expected-found = { $expected } attendu, { $found } trouvé
+test-error-does-not-accept-length = { $operator } n'accepte pas -l
 # Étiquettes de diagnostic, utilisées lorsque les erreurs sont affichées avec un extrait source
 test-diag-label-unary-operator-expected = ceci nécessite une expression de chaque côté
 test-diag-help-integer-op = -eq, -ne, -lt, -le, -gt et -ge comparent des entiers ; utilisez =, { "!" }=, { "<" } ou { ">" } pour comparer des chaînes

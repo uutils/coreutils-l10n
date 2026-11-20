@@ -7,6 +7,7 @@ common-tip = conseil
 common-usage = Utilisation
 common-help = aide
 common-version = version
+common-read-error = erreur de lecture
 common-write-error = erreur d'écriture
 # Messages d'erreur clap communs
 clap-error-unexpected-argument = { $error_word } : argument inattendu '{ $arg }' trouvé
@@ -22,13 +23,16 @@ common-help-suggestion = Pour plus d'informations, essayez '--help'.
 # Modèles de texte d'aide communs
 help-flag-help = Afficher les informations d'aide
 help-flag-version = Afficher les informations de version
+help-set-quoting-style = Définir le style de citation
 # Contextes d'erreur communs
 error-io = Erreur E/S
 error-permission-denied = Permission refusée
 error-file-not-found = Aucun fichier ou répertoire de ce type
 error-no-such-process = Aucun processus de ce type
 error-invalid-argument = Argument invalide
+error-is-a-directory-text = Est un répertoire
 error-is-a-directory = { $file }: Est un répertoire
+error-too-many-symlink-levels = Trop de niveaux de liens symboliques
 # Actions communes
 action-copying = copie
 action-moving = déplacement
@@ -87,3 +91,11 @@ mode-error-invalid-operator = opérateur invalide (+, - ou = attendu, mais { $op
 mode-diag-label-missing-operator = cette clause indique qui, mais pas quoi changer
 mode-diag-label-invalid-number = ce n'est pas un mode octal
 mode-diag-help-syntax = un mode est soit octal, comme 644, soit des clauses telles que u+rwx,go-w
+perms-cannot-access = impossible d'accéder à { $file } : { $error }
+perms-cannot-access-replaced = impossible d'accéder à { $file } : remplacé pendant son traitement
+encoding-error-invalid-input = entrée invalide
+encoding-error-invalid-input-z85-length = entrée invalide (la longueur doit être un multiple de 4 caractères)
+backup-error-invalid-argument = argument { $arg } invalide pour '{ $origin }'
+backup-error-ambiguous-argument = argument { $arg } ambigu pour '{ $origin }'
+backup-valid-arguments = Les arguments valides sont :
+error-non-utf8-os-str = entrée UTF-8 invalide { $input } rencontrée lors de la conversion en octets sur une plateforme qui n'expose pas les arguments sous forme d'octets

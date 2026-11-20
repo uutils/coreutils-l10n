@@ -122,6 +122,7 @@ dd-standard-output = 'sortie standard'
 dd-error-failed-to-open = échec de l'ouverture de { $path }
 dd-error-write-error = erreur d'écriture
 dd-error-failed-to-seek = échec de la recherche dans le fichier de sortie
+dd-error-failed-to-truncate = échec de la troncature à { $size } octets dans le fichier de sortie { $file }
 dd-error-io-error = erreur E/S
 dd-error-cannot-skip-offset = '{ $file }' : impossible d'ignorer jusqu'au décalage spécifié
 dd-error-cannot-skip-invalid = '{ $file }' : impossible d'ignorer : Argument invalide

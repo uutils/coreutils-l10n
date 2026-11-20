@@ -8,6 +8,7 @@ mkdir-help-parents = créer les répertoires parents si nécessaire
 mkdir-help-verbose = afficher un message pour chaque répertoire créé
 mkdir-help-selinux = définir le contexte de sécurité SELinux de chaque répertoire créé au type par défaut
 mkdir-help-context = comme -Z, ou si CTX est spécifié, définir le contexte de sécurité SELinux ou SMACK à CTX
+mkdir-error-invalid-mode = mode invalide { $mode }
 
 # Messages d'erreur
 mkdir-error-empty-directory-name = impossible de créer le répertoire '' : Aucun fichier ou répertoire de ce type

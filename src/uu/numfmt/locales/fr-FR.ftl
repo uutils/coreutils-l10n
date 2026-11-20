@@ -62,6 +62,7 @@ numfmt-error-grouping-cannot-be-combined-with-to = le groupement ne peut pas êt
 numfmt-error-delimiter-must-be-single-character = le délimiteur doit être un seul caractère
 numfmt-error-invalid-number-empty = nombre invalide : ''
 numfmt-error-invalid-suffix = suffixe invalide dans l'entrée : { $input }
+numfmt-error-write = erreur d'écriture
 numfmt-error-invalid-specific-suffix = suffixe invalide dans l'entrée { $input } : { $suffix }
 numfmt-error-invalid-number = nombre invalide : { $input }
 numfmt-error-missing-i-suffix = suffixe 'i' manquant dans l'entrée : '{ $number }{ $suffix }' (par ex. Ki/Mi/Gi)
@@ -76,6 +77,7 @@ numfmt-error-invalid-format-width-overflow = format invalide '{ $format }' (déb
 numfmt-error-invalid-precision = précision invalide dans le format '{ $format }'
 numfmt-error-format-too-many-percent = le format '{ $format }' a trop de directives %
 numfmt-error-unknown-invalid-mode = Mode invalide inconnu : { $mode }
+numfmt-error-multiple-field-specifications = plusieurs spécifications de champs
 # Messages de débogage
 numfmt-debug-no-conversion = aucune option de conversion spécifiée
 numfmt-debug-grouping-no-effect = le groupement n'a aucun effet dans cette locale

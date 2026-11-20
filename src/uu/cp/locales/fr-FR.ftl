@@ -46,6 +46,7 @@ cp-help-selinux = définir le contexte de sécurité SELinux du fichier de desti
 cp-help-context = comme -Z, ou si CTX est spécifié, définir le contexte de sécurité SELinux ou SMACK à CTX
 cp-help-progress = Afficher une barre de progression. Note : cette fonctionnalité n'est pas prise en charge par GNU coreutils.
 cp-help-copy-contents = Non implémenté : copier le contenu des fichiers spéciaux lors de la récursion
+cp-error-relative-symlink-not-in-cwd = { $dest } : impossible de créer des liens symboliques relatifs ailleurs que dans le répertoire courant
 
 # Messages d'erreur
 cp-error-missing-file-operand = opérande fichier manquant
@@ -58,6 +59,7 @@ cp-error-not-writing-dangling-symlink = ne pas écrire à travers le lien symbol
 cp-error-failed-to-clone = échec du clonage de { $source } depuis { $dest } : { $error }
 cp-error-cannot-change-attribute = impossible de changer l'attribut { $dest } : Le fichier source n'est pas un fichier régulier
 cp-error-cannot-stat = impossible de faire stat sur { $source } : Aucun fichier ou répertoire de ce type
+cp-error-cannot-stat-context = impossible de faire stat sur { $source }
 cp-error-cannot-create-symlink = impossible de créer le lien symbolique { $dest } vers { $source }
 cp-error-cannot-create-hard-link = impossible de créer le lien dur { $dest } vers { $source }
 cp-error-omitting-directory = -r non spécifié ; répertoire { $dir } omis
@@ -106,6 +108,7 @@ cp-debug-enum-unknown = inconnu
 cp-debug-enum-zeros = zéros
 cp-debug-enum-seek-hole = SEEK_HOLE
 cp-debug-enum-seek-hole-zeros = SEEK_HOLE + zéros
+cp-warning-context-ignored = --context ignoré ; nécessite un noyau avec SELinux activé
 
 # Messages d'avertissement
 cp-warning-source-specified-more-than-once = { $file_type } source { $source } spécifié plus d'une fois

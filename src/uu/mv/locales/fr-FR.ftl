@@ -38,6 +38,8 @@ mv-error-dangling-symlink = impossible de déterminer le type de lien symbolique
 mv-error-no-symlink-support = votre système d'exploitation ne prend pas en charge les liens symboliques
 mv-error-permission-denied = Permission refusée
 mv-error-inter-device-move-failed = échec du déplacement inter-périphérique : {$from} vers {$to} ; impossible de supprimer la cible : {$err}
+mv-error-setting-attribute = définition de l'attribut { $name } : { $err }
+mv-error-setting-attributes = définition des attributs de { $path } : { $err }
 mv-error-exchange-two-operands = --exchange nécessite exactement deux opérandes
 mv-error-exchange-not-supported = --exchange n'est pas pris en charge sur cette plateforme
 
@@ -71,3 +73,7 @@ mv-prompt-overwrite-mode = remplacer {$target}, en écrasant le mode {$mode_info
 # Messages de progression
 mv-progress-moving = déplacement
 mv-error-dest-appeared = la destination { $path } a été remplacée pendant le déplacement ; refus de la suivre
+mv-error-hardlink-io = erreur d'E/S lors de l'opération sur les liens physiques : { $error }
+mv-error-hardlink-scan = échec de l'analyse des fichiers pour les liens physiques : { $error }
+mv-error-hardlink-preserve = échec de la préservation du lien physique : { $source } -> { $target }
+mv-error-hardlink-metadata = erreur d'accès aux métadonnées de { $path } : { $error }

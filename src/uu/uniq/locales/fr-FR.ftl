@@ -4,6 +4,7 @@ uniq-after-help = Filtrer les lignes adjacentes correspondantes de ENTRÉE (ou l
   en écrivant vers SORTIE (ou la sortie standard).
   Note : uniq ne détecte les lignes répétées que si elles sont adjacentes.
   Vous pourriez vouloir trier l'entrée d'abord, ou utiliser sort -u sans uniq.
+uniq-help-all-repeated-short = afficher toutes les lignes dupliquées
 
 # Messages d'aide
 uniq-help-all-repeated = afficher toutes les lignes dupliquées. La délimitation se fait avec des lignes vides. [défaut : none]
