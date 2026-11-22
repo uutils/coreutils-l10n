@@ -74,3 +74,4 @@ du-verbose-ignored = { $path } zignorowano
 du-verbose-adding-to-exclude-list = dodawanie { $pattern } do listy wykluczeń
 du-total = razem
 du-warning-apparent-size-ineffective-with-inodes = opcje --apparent-size i -b są nieskuteczne z --inodes
+du-warning-summarize-same-as-depth-zero = podsumowywanie jest równoważne użyciu --max-depth=0
