@@ -57,3 +57,5 @@ split-help-verbose = wypisuje diagnostykę tuż przed otwarciem każdego pliku w
 split-help-separator = użyj SEP zamiast nowego wiersza jako separatora rekordów; '\\0' (zero) określa znak NUL
 split-creating-file = tworzenie pliku { $file }
 split-executing-with-file = wykonywanie z PLIK={ $file }
+split-error-invalid-hex-suffix-start = { $value }: nieprawidłowa wartość początkowa dla przyrostka szesnastkowego
+split-error-invalid-numeric-suffix-start = { $value }: nieprawidłowa wartość początkowa dla przyrostka liczbowego
