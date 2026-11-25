@@ -112,3 +112,4 @@ cp-error-cannot-create-regular-file = nie można utworzyć zwykłego pliku { $pa
 cp-warning-context-ignored = ignorowanie --context; wymaga jądra z obsługą SELinux
 cp-error-relative-symlink-not-in-cwd = { $dest }: tworzenie relatywnych dowiązań symbolicznych jest możliwe tylko w bieżącym katalogu
 cp-error-cannot-stat-context = nie można określić { $source }
+cp-error-failed-to-preserve-ownership = nie udało się zachować własności dla { $path }
