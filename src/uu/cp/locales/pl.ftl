@@ -113,3 +113,4 @@ cp-warning-context-ignored = ignorowanie --context; wymaga jądra z obsługą S
 cp-error-relative-symlink-not-in-cwd = { $dest }: tworzenie relatywnych dowiązań symbolicznych jest możliwe tylko w bieżącym katalogu
 cp-error-cannot-stat-context = nie można określić { $source }
 cp-error-failed-to-preserve-ownership = nie udało się zachować własności dla { $path }
+cp-error-cannot-create-directory = nie można utworzyć katalogu { $path }
